@@ -577,6 +577,44 @@
     ]
   },
   {
+    "id": "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086",
+    "date": "2026-08-27",
+    "title": "AI Spotlight: Enabling Purchases While Stopping Fraud in Agentic Commerce",
+    "source": "Digital Commerce 360",
+    "region": "海外",
+    "category": "趋势框架",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaEduOVlicjh2M3hpa1pkMDlEM0F5Rmhwck5mc05HNEVXVkZnU0lfTzMyWmFTTFROMkVkS3dKaFFDb09KV0dqaThNRTVQaUd1bXRHek5weTJwZzQtN0FvVWhYbjM2ZHI0LU0xVW5SNW1oaGlxUTJ0cngtSktfVHhYYVc3aW81V1Fud1ZqaGNsUmNfQmlmTWlidnFleE1XZjFLUWRvdnU4enVWdFo5ZmxIeWVGX0hBTl8xNk55cExuTjBLVVhC?oc=5",
+    "tags": [
+      "Agentic Commerce"
+    ],
+    "corePoint": "Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "multi-agent-commerce"
+    ]
+  },
+  {
+    "id": "2026-08-27-pymnts-com-synchrony-says-ai-ha-af0cd4d007",
+    "date": "2026-08-27",
+    "title": "Synchrony Says AI Has Put Every Checkout in Play",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "category": "趋势框架",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTlVsc3dsRWhGamZaRk1Eeko0RXY2Qi1SZ29ycDU1WXk1cXdlWWhxS2dFZldjYmpJTFE5UENvdm9ZZEJ5S29YaDg3dHZjLW00LW1BTmZ0ZERUZ2pSMFZnSnJyZS1RV09IbUhNZnBDdk9FamVERjY0Zy0wY3NYVzVrN0FfTWF2ZGlEREdnNXJ3VkVXbWNtQ05MTlVzaHZ4SGZhazNyRVhlSDBFdw?oc=5",
+    "tags": [
+      "交易闭环"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "agentic-funnel"
+    ]
+  },
+  {
     "id": "agentic-shopping-evolution-2026-08-26",
     "date": "2026-08-26",
     "title": "让AI替你购物——智能体商业的演进曲线",
@@ -706,6 +744,28 @@
       "agentic-funnel",
       "multi-agent-commerce",
       "merchant-readable-store"
+    ]
+  },
+  {
+    "id": "2026-08-25-15-ai-677-9de0015868",
+    "date": "2026-08-25",
+    "title": "15秒从AI对话到抖店成交:豆包电商闭环如何改写流量规则,订单暴涨677%",
+    "source": "奇崛数字传媒科技",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0mTGC7fMYO-mgid_8LMVi_A1qXa8Fplpd9HhrQRx7G3Dq-I313g1uUEebg-iuWHskb6U98KA4EfDQ6CB6aSLxPUGxCAr7qyZlkeBaHgJlKUgPei4y5zgcrUEixLrgQaZJuBRn5XjYpL33AkqmenPbm000v7pQvbdiEp4Wdbs2upMzUXfbkuqVVaKaxsVwwcjTU39sbHmYp0a3zAjcIGepUqA..&type=2&query=AI%E8%B4%AD%E7%89%A9+%E4%BA%A4%E6%98%93%E9%97%AD%E7%8E%AF&token=D9E4295B9BAB3597AFA9F5081BD69347AFB2EFC96A9ABE7C",
+    "tags": [
+      "AI购物",
+      "交易闭环",
+      "商家Agent"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 79,
+    "relatedInsightIds": [
+      "decision-os",
+      "closed-loop-first",
+      "data-transaction-moat"
     ]
   },
   {

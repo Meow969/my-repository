@@ -15,7 +15,7 @@
       "可执行决策",
       "决策链"
     ],
-    "sourceCount": 150,
+    "sourceCount": 151,
     "relatedArticleIds": [
       "claude-commerce-agent-architecture-2026-09-04",
       "2026-09-03-claude-ai-13b9df0120",
@@ -24,9 +24,9 @@
       "daily-2026-08-28-a458803df2cd95",
       "2026-08-28-ai-ai-b40d9f1500",
       "agentic-shopping-evolution-2026-08-26",
+      "2026-08-25-15-ai-677-9de0015868",
       "daily-2026-08-23-9ac5af530d0367",
-      "daily-2026-08-19-4e433b148c4222",
-      "daily-2026-08-17-15b0a44055b65e"
+      "daily-2026-08-19-4e433b148c4222"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、C端AI产品、AI搜索，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-04"
@@ -72,7 +72,7 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 153,
+    "sourceCount": 154,
     "relatedArticleIds": [
       "claude-commerce-agent-architecture-2026-09-04",
       "2026-09-04-anthropic-447e58cdb9",
@@ -83,9 +83,9 @@
       "qianwen-taobao-instant-repeat-2026-09-01",
       "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
       "daily-2026-08-29-2134c3dedae52a",
-      "agentic-shopping-evolution-2026-08-26"
+      "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086"
     ],
-    "trendNote": "最新复盘：AI购物、交易闭环、Agentic Commerce信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "最新复盘：AI购物、Agentic Commerce、交易闭环信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-04"
   },
   {
@@ -104,7 +104,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 65,
+    "sourceCount": 67,
     "relatedArticleIds": [
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
@@ -112,10 +112,10 @@
       "qianwen-taobao-instant-repeat-2026-09-01",
       "2026-08-30-40-ai-31fedd015e",
       "daily-2026-08-29-2134c3dedae52a",
+      "2026-08-27-pymnts-com-synchrony-says-ai-ha-af0cd4d007",
       "2026-08-25-geo-1688-ai-geo-570862829a",
       "2026-08-25-ek-ai-agentic-commerce-a543deec90",
-      "2026-08-24-aigc-ai-16-73e4eab311",
-      "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b"
+      "2026-08-25-15-ai-677-9de0015868"
     ],
     "trendNote": "最新复盘：交易闭环、AI购物、GEO信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-04"
@@ -169,7 +169,7 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 205,
+    "sourceCount": 207,
     "relatedArticleIds": [
       "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
       "daily-2026-09-03-9934a0352cf765",
@@ -201,7 +201,7 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 51,
+    "sourceCount": 52,
     "relatedArticleIds": [
       "2026-09-04-anthropic-447e58cdb9",
       "2026-09-04-anthropic-ai-0c91eb6e11",
@@ -214,7 +214,7 @@
       "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
       "2026-08-30-40-ai-31fedd015e"
     ],
-    "trendNote": "最新复盘：AI购物、商家Agent、商家接入正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "trendNote": "最新复盘：AI购物、商家Agent、交易闭环正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-04"
   },
   {
