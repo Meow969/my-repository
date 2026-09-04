@@ -46,6 +46,7 @@ async function loadData() {
   state.userInsights = loadUserInsights();
   renderFilters();
   bindTabs();
+  bindNotePanel();
   bindNotes();
   render();
 }
@@ -53,12 +54,34 @@ async function loadData() {
 function bindTabs() {
   document.querySelectorAll('.top-tab').forEach(button => {
     button.addEventListener('click', () => {
-      state.activeTab = button.dataset.tab;
-      document.querySelectorAll('.top-tab').forEach(tab => tab.classList.toggle('active', tab.dataset.tab === state.activeTab));
-      document.getElementById('feedTab').classList.toggle('active', state.activeTab === 'feed');
-      document.getElementById('inspirationTab').classList.toggle('active', state.activeTab === 'inspiration');
-      markTabSeen(state.activeTab);
+      setActiveTab(button.dataset.tab);
     });
+  });
+}
+
+function setActiveTab(tab) {
+  state.activeTab = tab;
+  document.querySelectorAll('.top-tab').forEach(button => button.classList.toggle('active', button.dataset.tab === tab));
+  document.getElementById('feedTab').classList.toggle('active', tab === 'feed');
+  document.getElementById('inspirationTab').classList.toggle('active', tab === 'inspiration');
+  markTabSeen(tab);
+}
+
+function setNotePanelOpen(open) {
+  document.body.classList.toggle('note-panel-open', open);
+  document.getElementById('notePanel')?.classList.toggle('open', open);
+  document.getElementById('notePanel')?.setAttribute('aria-hidden', String(!open));
+  document.getElementById('noteOverlay')?.classList.toggle('open', open);
+  document.getElementById('noteOverlay')?.setAttribute('aria-hidden', String(!open));
+  if (open) setTimeout(() => document.getElementById('noteInput')?.focus(), 80);
+}
+
+function bindNotePanel() {
+  document.getElementById('floatingNoteBtn')?.addEventListener('click', () => setNotePanelOpen(true));
+  document.getElementById('noteCloseBtn')?.addEventListener('click', () => setNotePanelOpen(false));
+  document.getElementById('noteOverlay')?.addEventListener('click', () => setNotePanelOpen(false));
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') setNotePanelOpen(false);
   });
 }
 
@@ -505,6 +528,8 @@ function bindNotes() {
     document.getElementById('notePreview').innerHTML = '';
     renderUserInsights();
     renderGlobalStats();
+    setActiveTab('inspiration');
+    setNotePanelOpen(false);
   });
 }
 

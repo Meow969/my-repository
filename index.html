@@ -10,11 +10,11 @@
   <header class="hero compact-hero">
     <nav class="nav">
       <div class="brand">Meow的AI购物雷达响了</div>
-      <div class="nav-links tab-switcher" role="tablist" aria-label="主导航">
-        <button class="top-tab active" data-tab="feed" role="tab">有事没事来看看<span class="update-dot" data-dot="feed" aria-label="有更新"></span></button>
-        <button class="top-tab" data-tab="inspiration" role="tab">灵感集<span class="update-dot" data-dot="inspiration" aria-label="有更新"></span></button>
-      </div>
     </nav>
+    <div class="nav-links tab-switcher primary-tabs" role="tablist" aria-label="主导航">
+      <button class="top-tab active" data-tab="feed" role="tab">有事没事来看看<span class="update-dot" data-dot="feed" aria-label="有更新"></span></button>
+      <button class="top-tab" data-tab="inspiration" role="tab">灵感集<span class="update-dot" data-dot="inspiration" aria-label="有更新"></span></button>
+    </div>
     <section class="toolbar global-toolbar" aria-label="全局搜索和筛选工具">
       <input id="searchInput" type="search" placeholder="语义搜索资讯和灵感：记忆 / 信任 / 闭环 / 商家可读…" />
       <select id="regionFilter"><option value="all">全部地区</option></select>
@@ -47,23 +47,26 @@
 
         <div id="userInsightGrid" class="insight-grid user-grid"></div>
         <div id="insightGrid" class="insight-grid"></div>
-
-        <section class="note-lab">
-          <div>
-            <p class="eyebrow">Note</p>
-            <h3>记笔记</h3>
-            <p>写下一个观点或产品想法，系统会从站内资料里找支撑案例，并生成国内外搜索链路。提交后会以“我的笔记”样式加入灵感集。</p>
-          </div>
-          <div class="note-form">
-            <textarea id="noteInput" placeholder="例如：AI导购能不能先从低风险复购场景建立信任，再迁移到高客单品类？"></textarea>
-            <button id="notePreviewBtn">智能搜索支撑</button>
-            <button id="noteSaveBtn" class="primary">加入灵感集</button>
-          </div>
-          <div id="notePreview" class="note-preview"></div>
-        </section>
       </section>
     </section>
   </main>
+
+  <button id="floatingNoteBtn" class="floating-note-btn" aria-label="记笔记">＋<span>记笔记</span></button>
+  <div id="noteOverlay" class="note-overlay" aria-hidden="true"></div>
+  <section id="notePanel" class="note-lab floating-note-panel" aria-label="记笔记面板" aria-hidden="true">
+    <button id="noteCloseBtn" class="note-close" aria-label="关闭记笔记">×</button>
+    <div>
+      <p class="eyebrow">Note</p>
+      <h3>记笔记</h3>
+      <p>写下一个观点或产品想法，系统会从站内资料里找支撑案例，并生成国内外搜索链路。提交后会以“我的笔记”样式加入灵感集。</p>
+    </div>
+    <div class="note-form">
+      <textarea id="noteInput" placeholder="例如：AI导购能不能先从低风险复购场景建立信任，再迁移到高客单品类？"></textarea>
+      <button id="notePreviewBtn">智能搜索支撑</button>
+      <button id="noteSaveBtn" class="primary">加入灵感集</button>
+    </div>
+    <div id="notePreview" class="note-preview"></div>
+  </section>
 
   <footer>Built for AI shopping product research. Public-deploy ready via GitHub Pages / Netlify / Vercel.</footer>
   <script src="./app.js"></script>
