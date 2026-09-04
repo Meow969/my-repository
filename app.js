@@ -56,13 +56,35 @@ function bindCollapsibleHeader() {
   const header = document.querySelector('.compact-hero');
   if (!header) return;
   let lastScrollY = window.scrollY;
+  let collapsed = false;
+  let downDistance = 0;
+  let upDistance = 0;
+  let lockedUntil = 0;
   let ticking = false;
+  const setCollapsed = (nextCollapsed) => {
+    if (collapsed === nextCollapsed) return;
+    collapsed = nextCollapsed;
+    header.classList.toggle('header-collapsed', collapsed);
+    downDistance = 0;
+    upDistance = 0;
+    lockedUntil = performance.now() + 320;
+  };
   const updateHeader = () => {
     const currentScrollY = Math.max(0, window.scrollY);
-    const isScrollingDown = currentScrollY > lastScrollY + 8;
-    const isScrollingUp = currentScrollY < lastScrollY - 8;
-    if (currentScrollY < 80 || isScrollingUp) header.classList.remove('header-collapsed');
-    if (currentScrollY > 130 && isScrollingDown) header.classList.add('header-collapsed');
+    const delta = currentScrollY - lastScrollY;
+    if (currentScrollY < 72) {
+      setCollapsed(false);
+    } else if (performance.now() > lockedUntil && Math.abs(delta) > 2) {
+      if (delta > 0) {
+        downDistance += delta;
+        upDistance = 0;
+      } else {
+        upDistance += Math.abs(delta);
+        downDistance = 0;
+      }
+      if (!collapsed && currentScrollY > 180 && downDistance > 56) setCollapsed(true);
+      if (collapsed && upDistance > 110) setCollapsed(false);
+    }
     lastScrollY = currentScrollY;
     ticking = false;
   };
@@ -72,7 +94,7 @@ function bindCollapsibleHeader() {
       ticking = true;
     }
   }, { passive: true });
-  document.getElementById('searchInput')?.addEventListener('focus', () => header.classList.remove('header-collapsed'));
+  document.getElementById('searchInput')?.addEventListener('focus', () => setCollapsed(false));
 }
 
 function bindTabs() {
