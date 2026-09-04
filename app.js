@@ -46,9 +46,33 @@ async function loadData() {
   state.userInsights = loadUserInsights();
   renderFilters();
   bindTabs();
+  bindCollapsibleHeader();
   bindNotePanel();
   bindNotes();
   render();
+}
+
+function bindCollapsibleHeader() {
+  const header = document.querySelector('.compact-hero');
+  if (!header) return;
+  let lastScrollY = window.scrollY;
+  let ticking = false;
+  const updateHeader = () => {
+    const currentScrollY = Math.max(0, window.scrollY);
+    const isScrollingDown = currentScrollY > lastScrollY + 8;
+    const isScrollingUp = currentScrollY < lastScrollY - 8;
+    if (currentScrollY < 80 || isScrollingUp) header.classList.remove('header-collapsed');
+    if (currentScrollY > 130 && isScrollingDown) header.classList.add('header-collapsed');
+    lastScrollY = currentScrollY;
+    ticking = false;
+  };
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(updateHeader);
+      ticking = true;
+    }
+  }, { passive: true });
+  document.getElementById('searchInput')?.addEventListener('focus', () => header.classList.remove('header-collapsed'));
 }
 
 function bindTabs() {
