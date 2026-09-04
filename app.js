@@ -259,6 +259,82 @@ function buildSupportInsight(note, external, local) {
   return points.slice(0, 4).join('\n');
 }
 
+function decodeBingRedirect(url) {
+  try {
+    const parsed = new URL(url);
+    const encoded = parsed.searchParams.get('u');
+    if (!encoded) return url;
+    let payload = encoded.replace(/^a1/, '').replace(/-/g, '+').replace(/_/g, '/');
+    while (payload.length % 4) payload += '=';
+    const decoded = atob(payload);
+    return decoded.startsWith('http') ? decoded : url;
+  } catch {
+    return url;
+  }
+}
+
+function getHost(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ''); }
+  catch { return ''; }
+}
+
+function cleanResultText(text = '') {
+  const textarea = document.createElement('textarea');
+  textarea.innerHTML = text.replace(/\*\*/g, '').replace(/<[^>]+>/g, '');
+  return textarea.value.trim();
+}
+
+function scoreWebResult(item, note) {
+  const host = getHost(item.url);
+  const text = `${item.title} ${item.snippet} ${item.url}`.toLowerCase();
+  const noteTokens = tokenize(note).map(token => token.toLowerCase()).filter(token => token.length > 1);
+  const trusted = ['blog.google', 'aboutamazon.com', 'shopify.com', 'stripe.com', 'mastercard.com', 'visa.com', 'mckinsey.com', 'a16z.com', 'openai.com', 'anthropic.com', 'perplexity.ai', 'mp.weixin.qq.com'];
+  let score = trusted.some(domain => host.includes(domain)) ? 24 : 0;
+  score += /shopping|commerce|retail|agentic|assistant|checkout|merchant|导购|购物|电商|智能体|商家|支付/.test(text) ? 18 : -12;
+  score += noteTokens.reduce((sum, token) => sum + (text.includes(token) ? 4 : 0), 0);
+  if (/工具集|导航|入口|破解版|下载|课程|培训|招聘|login|signin/i.test(text)) score -= 30;
+  return score;
+}
+
+function parseJinaSearch(markdown, note) {
+  const blocks = [...markdown.matchAll(/\d+\.\s+##\s+\[([^\]]+)\]\(([^)]+)\)\s*\n+([\s\S]*?)(?=\n+\d+\.\s+##|$)/g)];
+  return blocks.map(match => {
+    const url = decodeBingRedirect(cleanResultText(match[2]));
+    const item = {
+      title: cleanResultText(match[1]),
+      url,
+      source: getHost(url),
+      snippet: cleanResultText(match[3]).split('\n').filter(Boolean).slice(0, 2).join(' ')
+    };
+    return { ...item, score: scoreWebResult(item, note) };
+  }).filter(item => item.url.startsWith('http') && item.score >= 8)
+    .sort((a, b) => b.score - a.score);
+}
+
+async function fetchStaticWebResults(note) {
+  const queries = [
+    `${note} AI购物 导购 智能体 案例`,
+    `${note} agentic commerce shopping assistant retail case report`,
+    `${note} site:blog.google OR site:aboutamazon.com OR site:shopify.com AI shopping agent`
+  ];
+  const results = [];
+  for (const query of queries) {
+    try {
+      const target = `https://www.bing.com/search?q=${encodeURIComponent(query)}&count=10`;
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 8000);
+      const response = await fetch(`https://r.jina.ai/http://r.jina.ai/http://${target}`, { signal: controller.signal });
+      clearTimeout(timer);
+      if (!response.ok) continue;
+      results.push(...parseJinaSearch(await response.text(), note));
+      if (uniqueLinks(results).length >= 6) break;
+    } catch (error) {
+      console.warn('static web search failed', error);
+    }
+  }
+  return uniqueLinks(results).slice(0, 6);
+}
+
 async function fetchOnlineResults(note) {
   const endpoints = [`/api/search-support?q=${encodeURIComponent(note)}`, `/.netlify/functions/search-support?q=${encodeURIComponent(note)}`];
   for (const endpoint of endpoints) {
@@ -271,7 +347,7 @@ async function fetchOnlineResults(note) {
       console.warn('search endpoint failed', endpoint, error);
     }
   }
-  return [];
+  return fetchStaticWebResults(note);
 }
 
 async function searchSupportLinks(note) {
