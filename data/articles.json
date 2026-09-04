@@ -840,6 +840,27 @@
     ]
   },
   {
+    "id": "2026-08-17-c4110742de",
+    "date": "2026-08-17",
+    "title": "商家开发需求排至明年？支付宝预判智能体商业将迎爆发- 零售 - 亿邦动力网",
+    "source": "亿邦动力网",
+    "region": "国内",
+    "category": "趋势框架",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01ajF3T2x5QWF3YjNjdjNMQVktejkwNEpPZnpnRjBGVXZHeWZMbUR4a21TWTlZUXFWd2F0NmxOcmNCRk4tVk5mN25zaGd3cloxVHZJQlBR?oc=5",
+    "tags": [
+      "Agentic Commerce",
+      "交易闭环",
+      "商家Agent"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "multi-agent-commerce",
+      "merchant-readable-store"
+    ]
+  },
+  {
     "id": "daily-2026-08-16-286aec54d0edce",
     "date": "2026-08-16",
     "title": "Stop Searching, Start Chatting: Glovo pioneers AI quick-commerce - The Nation Newspaper",
