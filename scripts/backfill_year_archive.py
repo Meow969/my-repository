@@ -14,6 +14,10 @@ from pathlib import Path
 from typing import Any
 
 import requests
+try:
+    from content_quality import canonical_source, clean_display_title, dedupe_items, is_ai_shopping_related
+except ImportError:  # pragma: no cover
+    from scripts.content_quality import canonical_source, clean_display_title, dedupe_items, is_ai_shopping_related
 
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES = ROOT / 'data' / 'articles.json'
@@ -29,8 +33,25 @@ QUERIES = [
     'AI marketplace agent', 'AI recommendation ecommerce', 'retail media AI agent',
     'merchant AI agent', 'agent payment commerce', 'AI payment agent', 'AI shopping cart',
     'AI visual search shopping', 'virtual try on AI shopping',
+    'AI personal shopper product design', 'AI shopping assistant case study',
+    'AI shopping consumer behavior', 'agentic commerce merchant',
+    'agentic commerce checkout payment', 'AI shopping product discovery',
+    'AI shopping search recommendations', 'AI shopping trust privacy',
+    'AI shopping memory personalization', 'retail AI agent customer experience',
+    'site:aboutamazon.com/news/retail Rufus AI shopping',
+    'site:blog.google/products/shopping AI shopping',
+    'site:blog.google/products/ads-commerce agentic commerce',
+    'site:shopify.com/blog AI ecommerce shopping',
+    'site:stripe.com agentic commerce', 'site:mastercard.com agentic commerce',
+    'site:visa.com AI commerce', 'site:mckinsey.com AI retail ecommerce',
+    'site:a16z.com AI consumer shopping', 'site:retaildive.com AI shopping retail',
+    'site:modernretail.co AI shopping', 'site:practicalecommerce.com AI ecommerce',
+    'site:digitalcommerce360.com AI shopping', 'site:pymnts.com agentic commerce shopping',
+    'site:techcrunch.com AI shopping assistant', 'site:theverge.com AI shopping',
     'AI购物', 'AI导购', '购物智能体', 'AI电商', '对话式购物', '智能体商业',
     'AI 搜索 电商', 'AI 购物助手', 'AI 商家 智能体', 'AI 支付 智能体',
+    'AI购物 产品设计', 'AI导购 用户体验', 'AI购物 交易闭环', 'AI导购 商家 可见性',
+    'AI购物 复购 记忆', 'AI购物 支付 履约', 'AI导购 观点 案例',
     'ChatGPT', 'Gemini AI', 'Claude AI', 'Perplexity AI', 'AI app', 'consumer AI',
     'AI assistant', 'AI search', 'AI browser', 'AI product launch', '人工智能 应用',
     'AI助手', '大模型应用', 'AI产品', 'ChatGPT 应用', '豆包 AI', 'Kimi AI', '通义千问'
@@ -40,6 +61,8 @@ SOURCE_WEIGHT = {
     'OpenAI': 24, 'Google': 22, 'Google Blog': 22, 'About Amazon': 22, 'Amazon': 22,
     'McKinsey & Company': 22, 'Harvard Business Review': 20, 'BCG': 20, 'World Economic Forum': 18,
     'The Verge': 16, 'TechCrunch': 16, 'CNBC': 15, 'Retail Dive': 15, 'PYMNTS.com': 14,
+    'Digital Commerce 360': 15, 'Modern Retail': 14, 'Practical Ecommerce': 14,
+    'Shopify': 16, 'Stripe': 16, 'Mastercard': 16, 'Visa': 16, 'a16z': 16,
     'Kohl\'s Corporate': 14, 'Target Corporation': 14, 'Pinterest Newsroom': 14,
     'InfoQ-CN': 12, '华尔街见闻': 12, '全天候科技': 11, '财联社': 10, '36氪': 10,
     'TechWeb': 10, '新浪新闻_手机新浪网': 8, 'QQ News': 6,
@@ -146,19 +169,18 @@ def fetch_news() -> list[dict[str, Any]]:
             for node in root.findall('.//item'):
                 date = parse_date(node.findtext('pubDate') or '')
                 if not date or not ('2025-09-04' <= date <= '2026-09-04'): continue
-                title = clean(node.findtext('title') or '')
+                source = canonical_source(clean(node.findtext('source') or 'Google News'))
+                title = clean_display_title(clean(node.findtext('title') or ''), source)
                 if not title: continue
-                out.append({'date': date, 'title': title, 'source': clean(node.findtext('source') or 'Google News'), 'url': node.findtext('link') or '', 'snippet': clean(node.findtext('description') or ''), 'query': q})
+                out.append({'date': date, 'title': title, 'source': source, 'url': node.findtext('link') or '', 'snippet': clean(node.findtext('description') or ''), 'query': q})
             time.sleep(0.03)
-    seen = set(); deduped = []
-    for item in out:
-        key = re.sub(r'[^a-zA-Z0-9\u4e00-\u9fa5]+','',item['title']).lower()[:120]
-        if key in seen: continue
-        seen.add(key); deduped.append(item)
-    return deduped
+    return dedupe_items(out)
 
 
 def normalize(item: dict[str, Any]) -> dict[str, Any]:
+    item = dict(item)
+    item['source'] = canonical_source(item.get('source') or 'Google News')
+    item['title'] = clean_display_title(item.get('title') or '', item['source'])
     text = f"{item['title']} {item.get('snippet','')} {item.get('query','')}"
     tags = tags_for(text)
     core, insight = core_and_insight(item, tags)
@@ -194,7 +216,7 @@ def main():
     existing = json.loads(ARTICLES.read_text(encoding='utf-8'))
     manual = {item['id']: item for item in existing if not item['id'].startswith('daily-') and not item['id'].startswith('daily-index-')}
     raw = fetch_news()
-    normalized = [normalize(item) for item in raw]
+    normalized = dedupe_items([item for item in (normalize(item) for item in raw) if is_ai_shopping_related(item)])
     by_day = {}
     for item in normalized:
         current = by_day.get(item['date'])
@@ -208,12 +230,7 @@ def main():
         daily.append(by_day.get(date) or fallback_day(date))
         cur += dt.timedelta(days=1)
     merged = list(manual.values()) + daily
-    # de-dupe same title/source while preserving manual entries
-    seen = set(); final = []
-    for item in sorted(merged, key=lambda x:(x['date'], x.get('valueScore',0)), reverse=True):
-        key = (item['date'], item['title'], item['source'])
-        if key in seen: continue
-        seen.add(key); final.append(item)
+    final = dedupe_items(merged)
     ARTICLES.write_text(json.dumps(final, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     print('written', len(final), 'daily', len(daily), 'fallback', sum(1 for x in daily if x['id'].startswith('daily-index-')))
 

@@ -26,6 +26,11 @@ from pathlib import Path
 from typing import Any
 
 try:
+    from content_quality import canonical_source, clean_display_title, dedupe_items, is_ai_shopping_related, is_duplicate
+except ImportError:  # pragma: no cover
+    from scripts.content_quality import canonical_source, clean_display_title, dedupe_items, is_ai_shopping_related, is_duplicate
+
+try:
     import requests
 except ImportError as exc:  # pragma: no cover
     raise SystemExit("Missing dependency: requests. Install with `python3 -m pip install requests`.") from exc
@@ -51,12 +56,27 @@ WECHAT_QUERIES = [
     "Agentic Commerce",
     "Universal Commerce Protocol AI购物",
     "OpenClaw AI购物助手",
+    "AI导购 产品设计",
+    "AI购物 用户体验",
+    "AI购物 交易闭环",
+    "AI导购 商家",
+    "AI搜索 电商",
+    "AI购物 观点",
+    "AI购物 案例",
 ]
 
 RSS_SOURCES = [
     ("Google Shopping Blog", "海外", "https://blog.google/products-and-platforms/products/shopping/rss/"),
+    ("Google Ads & Commerce Blog", "海外", "https://blog.google/products/ads-commerce/rss/"),
     ("OpenAI Blog", "海外", "https://openai.com/news/rss.xml"),
     ("Shopify Blog", "海外", "https://www.shopify.com/blog.atom"),
+    ("TechCrunch", "海外", "https://techcrunch.com/category/artificial-intelligence/feed/"),
+    ("The Verge", "海外", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
+    ("Retail Dive", "海外", "https://www.retaildive.com/feeds/news/"),
+    ("Practical Ecommerce", "海外", "https://www.practicalecommerce.com/feed"),
+    ("Digital Commerce 360", "海外", "https://www.digitalcommerce360.com/feed/"),
+    ("Modern Retail", "海外", "https://www.modernretail.co/feed/"),
+    ("a16z", "海外", "https://a16z.com/feed/"),
 ]
 
 GOOGLE_NEWS_QUERIES = [
@@ -73,11 +93,44 @@ GOOGLE_NEWS_QUERIES = [
     "AI ecommerce assistant",
     "AI search shopping",
     "AI agent retail",
+    "AI personal shopper product design",
+    "AI shopping assistant case study",
+    "AI shopping consumer behavior",
+    "agentic commerce merchant",
+    "agentic commerce checkout payment",
+    "AI shopping product discovery",
+    "AI shopping search recommendations",
+    "AI shopping trust privacy",
+    "AI shopping memory personalization",
+    "retail AI agent customer experience",
+    "site:aboutamazon.com/news/retail Rufus AI shopping",
+    "site:blog.google/products/shopping AI shopping",
+    "site:blog.google/products/ads-commerce agentic commerce",
+    "site:shopify.com/blog AI ecommerce shopping",
+    "site:stripe.com agentic commerce",
+    "site:mastercard.com agentic commerce",
+    "site:visa.com AI commerce",
+    "site:mckinsey.com AI retail ecommerce",
+    "site:a16z.com AI consumer shopping",
+    "site:retaildive.com AI shopping retail",
+    "site:modernretail.co AI shopping",
+    "site:practicalecommerce.com AI ecommerce",
+    "site:digitalcommerce360.com AI shopping",
+    "site:pymnts.com agentic commerce shopping",
+    "site:techcrunch.com AI shopping assistant",
+    "site:theverge.com AI shopping",
     "consumer AI app",
     "AI购物",
     "AI导购",
     "购物智能体",
     "AI电商",
+    "AI购物 产品设计",
+    "AI导购 用户体验",
+    "AI购物 交易闭环",
+    "AI导购 商家 可见性",
+    "AI购物 复购 记忆",
+    "AI购物 支付 履约",
+    "AI导购 观点 案例",
     "对话式购物",
     "智能体商业",
 ]
@@ -95,8 +148,28 @@ SOURCE_WEIGHT = {
     "艾奇SEM": 8,
     "GEO优化实战派": 8,
     "Google Shopping Blog": 14,
+    "Google Ads & Commerce Blog": 14,
+    "Google Blog": 14,
     "OpenAI Blog": 13,
     "Shopify Blog": 10,
+    "Anthropic": 13,
+    "Stripe": 12,
+    "Mastercard": 12,
+    "Visa": 12,
+    "McKinsey & Company": 12,
+    "a16z": 11,
+    "Digital Commerce 360": 11,
+    "Retail Dive": 10,
+    "Modern Retail": 10,
+    "Practical Ecommerce": 10,
+    "PYMNTS.com": 9,
+    "The Verge": 8,
+    "TechCrunch": 8,
+    "36氪": 8,
+    "虎嗅": 8,
+    "钛媒体": 8,
+    "亿邦动力网": 8,
+    "人人都是产品经理": 7,
 }
 
 TAG_RULES = {
@@ -222,7 +295,8 @@ def fetch_wechat(days: int) -> list[dict[str, Any]]:
             source_match = re.search(r'<span class="all-time-y2">(.*?)</span>', block, flags=re.S)
             title = clean_text(title_match.group(2))
             snippet = clean_text(summary_match.group(1)) if summary_match else ""
-            source = clean_text(source_match.group(1)) if source_match else "微信公众号"
+            source = canonical_source(clean_text(source_match.group(1)) if source_match else "微信公众号")
+            title = clean_display_title(title, source)
             link = urllib.parse.urljoin("https://weixin.sogou.com/weixin", html.unescape(title_match.group(1)))
             items.append({
                 "date": date or dt.datetime.now(TZ).date().isoformat(),
@@ -261,13 +335,14 @@ def fetch_rss(days: int) -> list[dict[str, Any]]:
     session.headers.update({"User-Agent": "Mozilla/5.0"})
     items: list[dict[str, Any]] = []
     for source, region, url in RSS_SOURCES:
+        source = canonical_source(source)
         try:
             response = session.get(url, timeout=15)
             root = ET.fromstring(response.content)
         except Exception:
             continue
         for node in root.findall(".//item") + root.findall("{http://www.w3.org/2005/Atom}entry"):
-            title = clean_text((node.findtext("title") or ""))
+            title = clean_display_title(clean_text((node.findtext("title") or "")), source)
             link = node.findtext("link") or ""
             if not link:
                 link_node = node.find("{http://www.w3.org/2005/Atom}link")
@@ -305,9 +380,10 @@ def fetch_google_news(days: int) -> list[dict[str, Any]]:
             except Exception:
                 continue
             for node in root.findall(".//item")[:25]:
-                title = clean_text(node.findtext("title") or "")
+                raw_source = clean_text(node.findtext("source") or "Google News")
+                source = canonical_source(raw_source)
+                title = clean_display_title(clean_text(node.findtext("title") or ""), source)
                 link = node.findtext("link") or ""
-                source = clean_text(node.findtext("source") or "Google News")
                 description = clean_text(node.findtext("description") or "")
                 date = parse_rss_date(node.findtext("pubDate") or "")
                 if dt.date.fromisoformat(date) < cutoff:
@@ -332,16 +408,9 @@ def infer_tags(text: str) -> list[str]:
 
 
 def is_relevant(item: dict[str, Any], tags: list[str]) -> bool:
-    text = f"{item['title']} {item.get('snippet', '')}".lower()
-    relevance_terms = [word.lower() for word in HIGH_VALUE_WORDS] + [
-        "shopping", "commerce", "retail", "merchant", "consumer", "ecommerce",
-        "电商", "零售", "购物", "导购", "商家", "商品", "下单", "支付",
-    ]
     if not tags:
         return False
-    if any(term in text for term in relevance_terms):
-        return True
-    return False
+    return is_ai_shopping_related(item)
 
 
 def infer_category(tags: list[str], text: str) -> str:
@@ -406,6 +475,9 @@ def make_insight(item: dict[str, Any], tags: list[str]) -> str:
 
 
 def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
+    item = dict(item)
+    item["source"] = canonical_source(item.get("source", ""))
+    item["title"] = clean_display_title(item.get("title", ""), item["source"])
     text = f"{item['title']} {item.get('snippet', '')}"
     tags = infer_tags(text)
     if not is_relevant(item, tags):
@@ -428,32 +500,25 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
 
 def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]:
     existing = load_json(ARTICLES_PATH, [])
-    existing_keys = {(item.get("title"), item.get("source")) for item in existing}
+    existing = dedupe_items(existing)
     raw_items = fetch_wechat(days) + fetch_rss(days) + fetch_google_news(days)
     normalized = [normalize_item(item) for item in raw_items if item.get("title") and item.get("url")]
     normalized = [item for item in normalized if item]
-    selected = [item for item in normalized if item["valueScore"] >= 72 and (item["title"], item["source"]) not in existing_keys]
-    unique_selected: list[dict[str, Any]] = []
-    seen_selected: set[tuple[str, str]] = set()
-    for item in selected:
-        key = (item["title"], item["source"])
-        if key in seen_selected:
-            continue
-        seen_selected.add(key)
-        unique_selected.append(item)
-    selected = unique_selected
+    normalized = dedupe_items(normalized)
+    selected = [item for item in normalized if item["valueScore"] >= 72 and not any(is_duplicate(item, old) for old in existing)]
     selected.sort(key=lambda item: (item["date"], item["valueScore"]), reverse=True)
     selected = selected[:limit]
     if not dry_run:
-        merged = selected + existing
-        merged.sort(key=lambda item: (item["date"], item["valueScore"]), reverse=True)
-        merged = merged[:520]
+        before_merge_count = len(selected) + len(existing)
+        merged = dedupe_items(selected + existing, limit=520)
         write_json(ARTICLES_PATH, merged)
         refresh_monthly_reports(merged)
         insight_changed = refresh_insights(merged)
         meta = load_json(META_PATH, {})
         meta["lastUpdated"] = dt.datetime.now(TZ).replace(microsecond=0).isoformat()
         meta["latestAdded"] = len(selected)
+        meta["duplicatesRemoved"] = max(0, before_merge_count - len(merged))
+        meta["sourceCount"] = len({item.get("source") for item in merged})
         meta["lastInsightUpdated"] = dt.datetime.now(TZ).date().isoformat()
         meta["latestInsightChanged"] = insight_changed
         write_json(META_PATH, meta)
