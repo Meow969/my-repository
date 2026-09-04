@@ -17,11 +17,11 @@
     "title": "AI购物从入口争夺进入闭环争夺",
     "summary": "8月的主线是平台开始争夺完整购物链路，而不是只争“AI入口”。淘宝接入千问、Google推进UCP与Universal Cart、GEO讨论转向交易资格，都说明AI推荐位开始具备真实订单分配价值。商家如果不能提供机器可读的商品、价格、库存和履约信息，就可能无法进入AI候选。",
     "topArticleIds": [
+      "2026-08-30-40-ai-31fedd015e",
+      "2026-08-25-geo-1688-ai-geo-570862829a",
+      "2026-08-25-ek-ai-agentic-commerce-a543deec90",
       "daily-2026-08-12-02b78319368c06",
-      "daily-2026-08-07-805eb37e0578fe",
-      "taobao-qianwen-closed-loop-2026-08-30",
-      "agentic-shopping-evolution-2026-08-26",
-      "ai-visibility-agentic-commerce-weekly-2026-08-30"
+      "daily-2026-08-07-805eb37e0578fe"
     ],
     "productImplication": "产品壁垒要从模型回答迁移到商品数据、履约能力、商家接入和交易责任设计。AI导购的核心KPI不应只是点击率，而应增加候选进入率、推荐采纳率、授权下单率和履约准确率。"
   },
