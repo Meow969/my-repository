@@ -47,6 +47,28 @@
     ]
   },
   {
+    "id": "2026-09-04-anthropic-ai-0c91eb6e11",
+    "date": "2026-09-04",
+    "title": "Anthropic发布两套AI导购蓝图:真正的门槛不是会聊天,而是商品数据能否被机器读懂",
+    "source": "智能边角料",
+    "region": "国内",
+    "category": "趋势框架",
+    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0msobvPGDH_FAid_8LMVi_A1qXa8Fplpd9nBcrFE9amCBjyS9oOXMmZWkZRp4Y8wmZ0U-a2cD8qcr5ELB1P9wL3OIqQJ_0l9bhLf1jEcGO5MuFW9KyC9F9SqUnbde8Psmizla66twJ2yd23w7aOcizVCCjl_eOeKVwVqmhP-oEV3w-SyNmmHOpBb4_oBLgLEICP001xMTVr6NOJBjQH7pCxQ..&type=2&query=AI%E5%AF%BC%E8%B4%AD+%E5%95%86%E5%AE%B6&token=D9BABDBCEDDB44E6DED88478EBC7C68EDF6251F46A9AB624",
+    "tags": [
+      "对话导购",
+      "商品库",
+      "商家Agent"
+    ],
+    "corePoint": "围绕“Anthropic发布两套AI导购蓝图:真正的门槛不是会聊天,而是商品数据能否被机器读懂”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 82,
+    "relatedInsightIds": [
+      "data-transaction-moat",
+      "multi-agent-commerce",
+      "multi-agent-market"
+    ]
+  },
+  {
     "id": "daily-2026-09-04-a8839bacba28ee",
     "date": "2026-09-04",
     "title": "资本疯狂押注！AI购物助手崛起，颠覆电商支付行业",
@@ -66,6 +88,28 @@
       "trust-ladder",
       "risk-first-design",
       "post-purchase-agent"
+    ]
+  },
+  {
+    "id": "2026-09-04-ai-ddd300e3a7",
+    "date": "2026-09-04",
+    "title": "AI导购上线前:普通人能做的商品问答整理",
+    "source": "时局掘金笔记",
+    "region": "国内",
+    "category": "趋势框架",
+    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0msobvPGDH_FAid_8LMVi_A1qXa8Fplpd9kzqyy9AstsCnAYPpcw6qeFmzibPxOZNZCIjWB_2Po5fISWwxTWSK88ZlAs9TwcdXPuyVR7ikpCwCKNvmpvlJMguGQzgZMuNZVEgpIHiV4eRfQ_hsejeBDliDNMDxFVAxg4-CQDeJp79wKdVmJ1Ua7bgQZ0IwYYEynn0oC-QR85ZhWLv6O878UA..&type=2&query=AI%E5%AF%BC%E8%B4%AD+%E5%95%86%E5%AE%B6&token=D9BABDBCEDDB44E6DED88478EBC7C68EDF6251F46A9AB624",
+    "tags": [
+      "对话导购",
+      "商品库",
+      "商家Agent"
+    ],
+    "corePoint": "围绕“AI导购上线前:普通人能做的商品问答整理”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "data-transaction-moat",
+      "multi-agent-commerce",
+      "multi-agent-market"
     ]
   },
   {
@@ -141,6 +185,29 @@
     ]
   },
   {
+    "id": "2026-09-03-claude-ai-13b9df0120",
+    "date": "2026-09-03",
+    "title": "把挑货交给Claude,商家的AI导购到底在看哪些货?",
+    "source": "观测视野",
+    "region": "国内",
+    "category": "技术架构",
+    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0msobvPGDH_FAid_8LMVi_A1qXa8Fplpd9EdWPSb0V-2F6KQSPBh-BOT0wMqkXVtb9DUUHAJRYbo3UoVy-Jlf4WG704EO_Zzm9EM7KqL6ILJT3GQGcD4C9Vc4fkOnS1373UX_w9bv2OUJwWtlW5f3Qrk3KBatRC9LLkoA0V5LiOOMJhP7W5AIBUGfMO-Qtc0JEXRehriQK8oSfxjh3za6jWA..&type=2&query=AI%E5%AF%BC%E8%B4%AD+%E5%95%86%E5%AE%B6&token=D9BABDBCEDDB44E6DED88478EBC7C68EDF6251F46A9AB624",
+    "tags": [
+      "对话导购",
+      "商品库",
+      "商家Agent",
+      "技术架构"
+    ],
+    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 87,
+    "relatedInsightIds": [
+      "decision-os",
+      "data-transaction-moat",
+      "multi-agent-commerce"
+    ]
+  },
+  {
     "id": "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
     "date": "2026-09-03",
     "title": "Anthropic debuts Claude features focused on agentic commerce",
@@ -202,6 +269,24 @@
     ]
   },
   {
+    "id": "2026-09-03-the-verge-chatgpt-grok-and-clau-6e34895554",
+    "date": "2026-09-03",
+    "title": "ChatGPT, Grok, and Claude all went down at the same time",
+    "source": "The Verge",
+    "region": "海外",
+    "category": "技术架构",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUTQzRmk3d2JRWHoyeWtHelBmM0tiMnZKX2lKcDhrYWF3TzBEa2pHVUtxcENQanZGVU9remJ1OVNMa0wxNVBOUkdtdE9fVERuSHE2M2hHbnI3V3pwNUFxTTB4ZjR2YWZ2akFfaGZTRmNrQmg3VUJuZlpFbDRVV3NjaE1XSkNVckw2T2U1ZEJKTmVGN3RL?oc=5",
+    "tags": [
+      "技术架构"
+    ],
+    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
+    "valueScore": 74,
+    "relatedInsightIds": [
+      "multi-agent-commerce"
+    ]
+  },
+  {
     "id": "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
     "date": "2026-09-03",
     "title": "Agentic Payment 智能体支付研报：从支付路径到生态图景",
@@ -242,6 +327,44 @@
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
+    ]
+  },
+  {
+    "id": "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
+    "date": "2026-09-02",
+    "title": "Spreedly Sees Good Bots Becoming an Agentic Commerce Channel",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "category": "趋势框架",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWmtoT0RESldMdU4wS1VEblh4RWw5Y0RBS2NmSzRtNm4wbXdwM2Y2dE5LRHFnY0ttdjVsc1pVNnl4dXZnbDFJU19fSVd6dlpOTWxmQzZFcEwyZXNsMm9hUDJtYVlRTDZHRWhmblBOWDdyN0MtMllTRHBXUXVJUWNab2FJdHBQbHZQVzVrcHR2ZXVlWFN0UjlzYlY4b3V6Z181LVM4cU1wY2M4Wlo4aFFvRDNoYw?oc=5",
+    "tags": [
+      "Agentic Commerce"
+    ],
+    "corePoint": "Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "multi-agent-commerce"
+    ]
+  },
+  {
+    "id": "2026-09-02-pymnts-com-youtube-s-amazon-dea-b3cc6c84b1",
+    "date": "2026-09-02",
+    "title": "YouTube’s Amazon Deal Pushes Social Commerce Closer to Checkout",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "category": "趋势框架",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVjA3VE1wanlrU3hueXY5ay0xVmoySkE1RllEbHhBNmwycVdaZjBuV0tNaWl4YWVmNVdPc2ROTnQ3QjR6Mk80WVJraFphSmFWcFB2eEVYS2xoUHhiSmFPcUk3ak8xOV9fbDRGcE56cTNBS2dwVmowcTY4YVIwNVkzcTlWdXRraloyeVFoeEdoaHJJRkluZGtRRkNGbUxMR2JFVHBSSktySmpzMlhiNU9FMUZSbXkyR0E?oc=5",
+    "tags": [
+      "交易闭环"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "agentic-funnel"
     ]
   },
   {
@@ -305,6 +428,25 @@
       "preference-memory",
       "closed-loop-first",
       "memory-as-asset"
+    ]
+  },
+  {
+    "id": "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
+    "date": "2026-09-01",
+    "title": "Walmart to build $1.3B fulfillment center in Georgia",
+    "source": "Retail Dive",
+    "region": "海外",
+    "category": "增长/GEO",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWE1Ya25qanVGQWhFU19ucXhwUGpQMEFJMmxEWkNiczBnUGdKNGI4UVNEUmM5em5idFFmc3dhdzZFT1JEMVcxTEE4cjFkR0RtOFVUeFlTYWN2elN6bUk4ZEpUVUVjYUk3UjBIZThxb0VCRGJjNWNNeUZfV2xyUkNudGY0SzZkVXdmV2VvcUozTQ?oc=5",
+    "tags": [
+      "GEO"
+    ],
+    "corePoint": "商家竞争正在从搜索排名延伸到AI答案可见性和智能体推荐资格。",
+    "insight": "需要为商家建设AI可读信息资产，让商品卖点、适用场景、证据、履约承诺能被智能体稳定理解和引用。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "merchant-readable-store"
     ]
   },
   {
@@ -411,6 +553,27 @@
     "valueScore": 87,
     "relatedInsightIds": [
       "decision-os"
+    ]
+  },
+  {
+    "id": "2026-08-28-ai-ai-b40d9f1500",
+    "date": "2026-08-28",
+    "title": "AI搜索时代,电商的获客和用人难题,指向同一套架构",
+    "source": "微三云AI",
+    "region": "国内",
+    "category": "技术架构",
+    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0mpqfup4FZ8dwid_8LMVi_A1qXa8Fplpd9jE_9vRvij1oRG0pWn7EJPkSy4eBtWAAboC96dB9rpKmAAasWZcAGWMKQmM5gD8O2fBf3Pl0xLV0Z-2xsX3lM5_FZNn4gZYgpez-ngxgp2mh8Scq6Dj0hRQFRHRSvVExDj85XEWi3TZ5sY6YIoMoZgf-MxuKqG_UI_3EyCAGbwTNj32-j2KiwUw..&type=2&query=AI%E6%90%9C%E7%B4%A2+%E7%94%B5%E5%95%86&token=D9BAC1F3EDDB44E6DED88478EBC7C68EDF6251F46A9AB624",
+    "tags": [
+      "GEO",
+      "技术架构"
+    ],
+    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
+    "valueScore": 81,
+    "relatedInsightIds": [
+      "decision-os",
+      "answer-shelf",
+      "agentic-funnel"
     ]
   },
   {
