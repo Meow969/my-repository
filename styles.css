@@ -98,6 +98,9 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .system-badge { background: #eeeaff; color: var(--accent); }
 .user-badge { background: #2b1a00; color: #ffd36e; }
 .user-note-card { background: linear-gradient(145deg, #fff4d7, #fffaf0); border-color: rgba(255,122,69,0.35); }
+.user-note-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.delete-note-btn { border: 1px solid rgba(255,122,69,0.28); border-radius: 999px; padding: 6px 10px; background: rgba(255,255,255,0.72); color: #9b3d1e; font-size: 12px; font-weight: 900; cursor: pointer; }
+.delete-note-btn:hover { background: #fff; border-color: var(--accent-2); color: var(--accent-2); }
 .floating-note-btn { position: fixed; right: clamp(18px, 4vw, 42px); bottom: 24px; z-index: 35; display: inline-flex; align-items: center; gap: 9px; border: 0; border-radius: 999px; padding: 15px 18px; background: linear-gradient(135deg, var(--accent-2), #ff4d6d); color: white; font-size: 24px; font-weight: 950; box-shadow: 0 18px 46px rgba(255,77,109,0.32); cursor: pointer; }
 .floating-note-btn span { font-size: 15px; letter-spacing: -0.02em; }
 .note-overlay { display: none; position: fixed; inset: 0; z-index: 30; background: rgba(20,18,28,0.32); backdrop-filter: blur(6px); }

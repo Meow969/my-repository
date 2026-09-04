@@ -579,6 +579,17 @@ function bindNotes() {
   });
 }
 
+function deleteUserInsight(noteId) {
+  const note = state.userInsights.find(item => item.id === noteId);
+  if (!note) return;
+  const ok = window.confirm(`确定删除这条笔记吗？\n\n${note.title}`);
+  if (!ok) return;
+  state.userInsights = state.userInsights.filter(item => item.id !== noteId);
+  saveUserInsights();
+  renderUserInsights();
+  renderGlobalStats();
+}
+
 function renderUserInsights() {
   const articlesById = Object.fromEntries(state.articles.map(article => [article.id, article]));
   const visibleNotes = state.userInsights.filter(noteMatchesKeyword);
@@ -586,7 +597,10 @@ function renderUserInsights() {
     const locals = (note.localIds || []).map(id => articlesById[id]).filter(Boolean);
     return `
       <article class="insight-card user-note-card">
-        <span class="user-badge">我的笔记</span>
+        <div class="user-note-head">
+          <span class="user-badge">我的笔记</span>
+          <button class="delete-note-btn" data-note-id="${escapeHtml(note.id)}" type="button">删除</button>
+        </div>
         <h3>${escapeHtml(note.title)}</h3>
         <p>${escapeHtml(note.body)}</p>
         ${note.generatedInsight ? `<ul class="derived-insight">${note.generatedInsight.split('\n').filter(Boolean).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>` : ''}
@@ -597,6 +611,9 @@ function renderUserInsights() {
         </div>
       </article>`;
   }).join('');
+  document.querySelectorAll('.delete-note-btn').forEach(button => {
+    button.addEventListener('click', () => deleteUserInsight(button.dataset.noteId));
+  });
 }
 
 function renderFeed() {
