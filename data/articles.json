@@ -119,6 +119,26 @@
     ]
   },
   {
+    "id": "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+    "date": "2026-09-03",
+    "title": "Anthropic debuts Claude features focused on agentic commerce - digitalcommerce360.com",
+    "source": "digitalcommerce360.com",
+    "region": "海外",
+    "category": "技术架构",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVF9TNVNRaFVmcHh4RkhHcmdtelItMzBtSllwVXpjVUg2NkRYaGMxZ3JRNE5RcjlyNTVaS1BKZ25CMUJMYTlUTmpCd2NlWVozRnpoRmFLZmN3MjdTODBNbFNNXzVSXzFKT24weDBkT3FvTFNEd0QzRDQ2TGwzb2ZCYlZKR1c4RFpxMFg4anhzeTRwTE4wdFVrUjJ4SDFmV004Q1BXVENHRWFsS2_SAbABQVVfeXFMUGctdEF2Z29RdWxoejM5T2JqOTRDM0E5bHFsVTRMMDZQb2prYkJtczhBVl9VQUdLdThwa1VHYU1IUlFjQkxVMWNsckRLQkFQTmppYWdiNHVBekdERTUtNUFCelJyWEo1bXozVkU5elp0akV0S2xGMWNYNXg5TGNzTEJ0a0VLcllid3NRSEVwVTUtOGo2dWhTcmU5aEhFQ3FuUDdCby04NC1mT3BZT0t3alc?oc=5",
+    "tags": [
+      "Agentic Commerce",
+      "技术架构"
+    ],
+    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
+    "valueScore": 77,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "multi-agent-commerce"
+    ]
+  },
+  {
     "id": "2026-09-03-digital-commerce-360-anthropic--cd817a484a",
     "date": "2026-09-03",
     "title": "Anthropic debuts Claude features focused on agentic commerce - Digital Commerce 360",
@@ -783,6 +803,27 @@
     ]
   },
   {
+    "id": "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
+    "date": "2026-08-19",
+    "title": "押宝智能体商业赛道 支付机构加速抢占核心流量入口 - eu.36kr.com",
+    "source": "eu.36kr.com",
+    "region": "国内",
+    "category": "趋势框架",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kZjkySnY4eHh0SDFlWlc5T1NQdkk4LTJOaHhCQzZvN0JYcFpwVy1yUXk2a0pTbjZrVWVaTXo0bG5BUFJqSmZLa3ZfR25qNHVrdmJ3?oc=5",
+    "tags": [
+      "Agentic Commerce",
+      "交易闭环"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 72,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "agentic-funnel",
+      "contextual-entry"
+    ]
+  },
+  {
     "id": "2026-08-19-6-08a28b00bd",
     "date": "2026-08-19",
     "title": "国内首个智能体跨端互联协议发布，智能体加速商业化，商家支付费率打6折 - 上观新闻",
@@ -837,6 +878,28 @@
     "valueScore": 88,
     "relatedInsightIds": [
       "decision-os"
+    ]
+  },
+  {
+    "id": "2026-08-17-ebrun-com-ebrun-com-8641843956",
+    "date": "2026-08-17",
+    "title": "商家开发需求排至明年？支付宝预判智能体商业将迎爆发- 零售 - ebrun.com",
+    "source": "ebrun.com",
+    "region": "国内",
+    "category": "趋势框架",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01ajF3T2x5QWF3YjNjdjNMQVktejkwNEpPZnpnRjBGVXZHeWZMbUR4a21TWTlZUXFWd2F0NmxOcmNCRk4tVk5mN25zaGd3cloxVHZJQlBR?oc=5",
+    "tags": [
+      "Agentic Commerce",
+      "交易闭环",
+      "商家Agent"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "multi-agent-commerce",
+      "multi-agent-market"
     ]
   },
   {

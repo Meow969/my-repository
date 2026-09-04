@@ -108,7 +108,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 58,
+    "sourceCount": 60,
     "relatedArticleIds": [
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
@@ -119,9 +119,9 @@
       "2026-08-25-geo-1688-ai-geo-570862829a",
       "2026-08-25-ek-ai-agentic-commerce-a543deec90",
       "2026-08-24-aigc-ai-16-73e4eab311",
-      "2026-08-19-6-08a28b00bd"
+      "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b"
     ],
-    "trendNote": "最新复盘：交易闭环、AI购物、商品库信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "最新复盘：交易闭环、AI购物、Agentic Commerce信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-04"
   },
   {
@@ -173,20 +173,20 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 201,
+    "sourceCount": 203,
     "relatedArticleIds": [
       "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
       "daily-2026-09-03-9934a0352cf765",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-03-digital-commerce-360-anthropic--cd817a484a",
       "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
       "daily-2026-09-02-0860bf13512c29",
       "taobao-qianwen-closed-loop-2026-08-30",
       "ai-visibility-agentic-commerce-weekly-2026-08-30",
       "daily-2026-08-30-d22191244e060f",
-      "daily-2026-08-29-2134c3dedae52a",
-      "agentic-shopping-evolution-2026-08-26"
+      "daily-2026-08-29-2134c3dedae52a"
     ],
-    "trendNote": "最新复盘：AI购物、购物智能体、Agentic Commerce显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
+    "trendNote": "最新复盘：AI购物、Agentic Commerce、购物智能体显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
     "updatedAt": "2026-09-04"
   },
   {
@@ -205,7 +205,7 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 46,
+    "sourceCount": 47,
     "relatedArticleIds": [
       "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
@@ -237,7 +237,7 @@
       "接口规则",
       "多智能体"
     ],
-    "sourceCount": 34,
+    "sourceCount": 35,
     "relatedArticleIds": [
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
@@ -245,10 +245,10 @@
       "meta-openclaw-shopping-agent-2026-08-26",
       "daily-2026-08-21-efe214be6e9775",
       "daily-2026-08-20-84c99b15d913fa",
+      "2026-08-17-ebrun-com-ebrun-com-8641843956",
       "daily-2026-08-13-d3070ee4db7fb7",
       "daily-2026-07-28-0cfa5b4dab8be8",
-      "daily-2026-07-11-32836af59aacfb",
-      "daily-2026-07-10-a0c7e4052c573b"
+      "daily-2026-07-11-32836af59aacfb"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在商家接入、AI购物、购物智能体，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-04"
@@ -333,18 +333,18 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 199,
+    "sourceCount": 200,
     "relatedArticleIds": [
       "claude-commerce-agent-architecture-2026-09-04",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-03-digital-commerce-360-anthropic--cd817a484a",
       "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
-      "daily-2026-09-02-0860bf13512c29",
-      "taobao-qianwen-closed-loop-2026-08-30"
+      "daily-2026-09-02-0860bf13512c29"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、商家接入，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-04"
@@ -420,7 +420,7 @@
       "多入口",
       "即时意图"
     ],
-    "sourceCount": 69,
+    "sourceCount": 70,
     "relatedArticleIds": [
       "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
       "2026-09-03-digital-commerce-360-anthropic--cd817a484a",
@@ -428,10 +428,10 @@
       "daily-2026-08-30-d22191244e060f",
       "meta-openclaw-shopping-agent-2026-08-26",
       "daily-2026-08-22-d0935ce5172bc8",
+      "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
       "daily-2026-08-16-286aec54d0edce",
       "daily-2026-08-15-32e6ac7bd8b443",
-      "daily-2026-08-14-ee38732a131581",
-      "daily-2026-08-05-73d5671dbd19ad"
+      "daily-2026-08-14-ee38732a131581"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-04"
