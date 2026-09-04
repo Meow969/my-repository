@@ -76,9 +76,10 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 150,
+    "sourceCount": 151,
     "relatedArticleIds": [
       "claude-commerce-agent-architecture-2026-09-04",
+      "2026-09-04-anthropic-447e58cdb9",
       "daily-2026-09-04-a8839bacba28ee",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "qianwen-taobao-instant-repeat-2026-09-01",
@@ -86,8 +87,7 @@
       "daily-2026-08-29-2134c3dedae52a",
       "agentic-shopping-evolution-2026-08-26",
       "daily-2026-08-26-21460ced93cc20",
-      "2026-08-26-meta-openclaw-ai-agent-40106d20bf",
-      "2026-08-24-aigc-ai-16-73e4eab311"
+      "2026-08-26-meta-openclaw-ai-agent-40106d20bf"
     ],
     "trendNote": "最新复盘：AI购物、交易闭环、购物智能体信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-04"
@@ -205,8 +205,9 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 47,
+    "sourceCount": 48,
     "relatedArticleIds": [
+      "2026-09-04-anthropic-447e58cdb9",
       "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
@@ -215,8 +216,7 @@
       "ai-visibility-agentic-commerce-weekly-2026-08-30",
       "meta-openclaw-shopping-agent-2026-08-26",
       "2026-08-25-geo-1688-ai-geo-570862829a",
-      "2026-08-25-ek-ai-agentic-commerce-a543deec90",
-      "geo-shopping-entry-2026-08-25"
+      "2026-08-25-ek-ai-agentic-commerce-a543deec90"
     ],
     "trendNote": "最新复盘：AI购物、商家接入、交易闭环正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-04"
@@ -237,8 +237,9 @@
       "接口规则",
       "多智能体"
     ],
-    "sourceCount": 35,
+    "sourceCount": 36,
     "relatedArticleIds": [
+      "2026-09-04-anthropic-447e58cdb9",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
       "daily-2026-09-02-0860bf13512c29",
@@ -247,10 +248,9 @@
       "daily-2026-08-20-84c99b15d913fa",
       "2026-08-17-ebrun-com-ebrun-com-8641843956",
       "daily-2026-08-13-d3070ee4db7fb7",
-      "daily-2026-07-28-0cfa5b4dab8be8",
-      "daily-2026-07-11-32836af59aacfb"
+      "daily-2026-07-28-0cfa5b4dab8be8"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在商家接入、AI购物、购物智能体，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、商家接入、购物智能体，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-04"
   },
   {
@@ -333,9 +333,10 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 200,
+    "sourceCount": 201,
     "relatedArticleIds": [
       "claude-commerce-agent-architecture-2026-09-04",
+      "2026-09-04-anthropic-447e58cdb9",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
@@ -343,8 +344,7 @@
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-03-digital-commerce-360-anthropic--cd817a484a",
       "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
-      "daily-2026-09-02-0860bf13512c29"
+      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、商家接入，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-04"
@@ -577,8 +577,8 @@
   },
   {
     "id": "auto-current-signal",
-    "title": "最新复盘：AI购物、Agentic Commerce、技术架构正在收敛成产品主线",
-    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是AI购物、Agentic Commerce、技术架构这些能力之间能否互相闭环。",
+    "title": "最新复盘：AI购物、技术架构、Agentic Commerce正在收敛成产品主线",
+    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是AI购物、技术架构、Agentic Commerce这些能力之间能否互相闭环。",
     "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
     "takeaways": [
       "用月度高频信号更新路线图优先级",
@@ -587,10 +587,10 @@
     ],
     "keywords": [
       "AI购物",
-      "Agentic Commerce",
       "技术架构",
-      "交易闭环",
+      "Agentic Commerce",
       "商家Agent",
+      "交易闭环",
       "最新复盘",
       "产品路线"
     ],
@@ -601,8 +601,8 @@
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
       "qianwen-taobao-instant-repeat-2026-09-01",
-      "2026-09-01-app-ai-70-ai-da6ca4b16e",
-      "daily-2026-09-04-a8839bacba28ee"
+      "2026-09-04-anthropic-447e58cdb9",
+      "2026-09-01-app-ai-70-ai-da6ca4b16e"
     ],
     "updatedAt": "2026-09-04"
   },
@@ -630,8 +630,8 @@
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
       "qianwen-taobao-instant-repeat-2026-09-01",
-      "2026-09-01-app-ai-70-ai-da6ca4b16e",
-      "daily-2026-09-04-a8839bacba28ee"
+      "2026-09-04-anthropic-447e58cdb9",
+      "2026-09-01-app-ai-70-ai-da6ca4b16e"
     ],
     "updatedAt": "2026-09-04"
   },
@@ -659,8 +659,8 @@
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
       "qianwen-taobao-instant-repeat-2026-09-01",
-      "2026-09-01-app-ai-70-ai-da6ca4b16e",
-      "daily-2026-09-04-a8839bacba28ee"
+      "2026-09-04-anthropic-447e58cdb9",
+      "2026-09-01-app-ai-70-ai-da6ca4b16e"
     ],
     "updatedAt": "2026-09-04"
   }

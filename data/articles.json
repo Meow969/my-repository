@@ -25,6 +25,28 @@
     ]
   },
   {
+    "id": "2026-09-04-anthropic-447e58cdb9",
+    "date": "2026-09-04",
+    "title": "Anthropic 重磅推出两大商业智能体:购物助手 + 商家运营助手,开源蓝图助力电商冲刺旺季",
+    "source": "光谷一路",
+    "region": "国内",
+    "category": "技术架构",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788517847&ver=6946&signature=fq8KsqJSloP2RTGvyatgW7rwYB9BlhDtRbCx3xU4J35KFMKRLbzLh-AWgdvs*Rjbtwfee4NrzhFd6-z90bBeS1JYZMjMsWwm1*AtvPtWtAPJabEIm7ujotrBzbt-8r1u&new=1",
+    "tags": [
+      "AI购物",
+      "商家Agent",
+      "技术架构"
+    ],
+    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
+    "valueScore": 82,
+    "relatedInsightIds": [
+      "trust-ladder",
+      "multi-agent-commerce",
+      "multi-agent-market"
+    ]
+  },
+  {
     "id": "daily-2026-09-04-a8839bacba28ee",
     "date": "2026-09-04",
     "title": "资本疯狂押注！AI购物助手崛起，颠覆电商支付行业 - Sohu",
