@@ -13,6 +13,19 @@ const state = {
 };
 
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
+const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
+const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
+const SEARCH_CONCEPTS = {
+  '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
+  '信任': ['信任', '授权', '可撤回', '解释', '证据', '风险', 'trust', 'permission'],
+  '闭环': ['闭环', '支付', '下单', '履约', '售后', '购物车', 'checkout', 'order'],
+  '商家': ['商家', '商品库', '机器可读', 'GEO', '可见性', 'seller', 'merchant'],
+  '协议': ['协议', 'UCP', 'MCP', 'agentic commerce', '接口', '跨平台', 'protocol'],
+  '即时': ['即时零售', '买菜', '外卖', '日用品', '高频低风险', '复购', 'local commerce'],
+  '评价': ['评价', '口碑', '测评', '评论摘要', 'social proof', 'review'],
+  '视觉': ['视觉', '试穿', '图片', '风格', '非标品', 'fashion', 'style'],
+  '治理': ['治理', '排序', '赞助', '公平性', '责任', 'ranking', 'governance']
+};
 const fmtDate = (iso) => new Date(`${iso}T00:00:00+08:00`).toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'short' });
 const fmtMonth = (month) => month.replace('-', '年') + '月';
 const unique = (arr) => [...new Set(arr)].filter(Boolean);
@@ -44,6 +57,7 @@ function bindTabs() {
       document.querySelectorAll('.top-tab').forEach(tab => tab.classList.toggle('active', tab.dataset.tab === state.activeTab));
       document.getElementById('feedTab').classList.toggle('active', state.activeTab === 'feed');
       document.getElementById('inspirationTab').classList.toggle('active', state.activeTab === 'inspiration');
+      markTabSeen(state.activeTab);
     });
   });
 }
@@ -53,35 +67,120 @@ function renderFilters() {
   const categoryFilter = document.getElementById('categoryFilter');
   unique(state.articles.map(a => a.region)).forEach(region => regionFilter.append(new Option(region, region)));
   unique(state.articles.map(a => a.category)).forEach(category => categoryFilter.append(new Option(category, category)));
-  document.getElementById('searchInput').addEventListener('input', e => { state.query = e.target.value.trim().toLowerCase(); renderFeed(); });
-  regionFilter.addEventListener('change', e => { state.region = e.target.value; renderFeed(); });
-  categoryFilter.addEventListener('change', e => { state.category = e.target.value; renderFeed(); });
+  document.getElementById('searchInput').addEventListener('input', e => {
+    state.query = e.target.value.trim().toLowerCase();
+    renderFeed();
+    renderUserInsights();
+    renderInsights();
+    renderGlobalStats();
+  });
+  regionFilter.addEventListener('change', e => { state.region = e.target.value; renderFeed(); renderGlobalStats(); });
+  categoryFilter.addEventListener('change', e => { state.category = e.target.value; renderFeed(); renderGlobalStats(); });
+}
+
+function renderGlobalStats() {
+  const feedCount = filteredArticles().length;
+  const currentMonthCount = monthArticleCount(state.month);
+  const insightCount = activeInsights().length;
+  const totalInsights = state.insights.length + state.userInsights.length;
+  const label = state.query
+    ? `语义召回：资讯 ${feedCount} 条 · 灵感 ${insightCount} 个`
+    : `${fmtMonth(state.month)} ${currentMonthCount} 条精选 · 灵感 ${totalInsights} 个`;
+  document.getElementById('globalStats').textContent = label;
+}
+
+function hasFeedUpdate() {
+  return Number(state.meta.latestAdded || 0) > 0 && localStorage.getItem(SEEN_FEED_KEY) !== state.meta.lastUpdated;
+}
+
+function hasInspirationUpdate() {
+  const insightTime = state.meta.lastInsightUpdated || state.meta.lastUpdated;
+  return Number(state.meta.latestInsightChanged || state.meta.latestAdded || 0) > 0 && localStorage.getItem(SEEN_INSPIRATION_KEY) !== insightTime;
+}
+
+function renderUpdateBadges() {
+  document.querySelector('[data-dot="feed"]')?.classList.toggle('show', hasFeedUpdate());
+  document.querySelector('[data-dot="inspiration"]')?.classList.toggle('show', hasInspirationUpdate());
+}
+
+function markTabSeen(tab) {
+  if (tab === 'feed' && state.meta.lastUpdated) localStorage.setItem(SEEN_FEED_KEY, state.meta.lastUpdated);
+  if (tab === 'inspiration') localStorage.setItem(SEEN_INSPIRATION_KEY, state.meta.lastInsightUpdated || state.meta.lastUpdated || '');
+  renderUpdateBadges();
 }
 
 function renderMonthTabs() {
   const months = unique(state.articles.map(article => article.date.slice(0, 7))).sort().reverse();
   document.getElementById('monthTabs').innerHTML = months.map(month => `
-    <button class="month-tab ${state.month === month ? 'active' : ''}" data-month="${month}">${fmtMonth(month)}</button>
+    <button class="month-tab ${state.month === month ? 'active' : ''}" data-month="${month}">${fmtMonth(month)}<span>${monthArticleCount(month)}条</span></button>
   `).join('');
   document.querySelectorAll('.month-tab').forEach(button => button.addEventListener('click', () => {
     state.month = button.dataset.month;
     renderFeed();
+    renderGlobalStats();
   }));
 }
 
-function filteredArticles() {
-  return state.articles.filter(article => {
-    const haystack = [article.title, article.source, article.region, article.category, article.corePoint, article.insight, ...(article.tags || [])].join(' ').toLowerCase();
-    return (!state.query || haystack.includes(state.query))
-      && (state.region === 'all' || article.region === state.region)
-      && (state.category === 'all' || article.category === state.category)
-      && (!state.month || article.date.startsWith(state.month));
+function monthArticleCount(month) {
+  return state.articles.filter(article => article.date.startsWith(month)).length;
+}
+
+function activeInsights() {
+  return state.insights.filter(insightMatchesKeyword).concat(state.userInsights.filter(noteMatchesKeyword));
+}
+
+function articleSearchText(article) {
+  const related = state.insights.filter(insight => (article.relatedInsightIds || []).includes(insight.id));
+  return [
+    article.title,
+    article.source,
+    article.region,
+    article.category,
+    article.corePoint,
+    article.insight,
+    ...(article.tags || []),
+    ...related.flatMap(insight => [insight.title, insight.summary, ...(insight.keywords || [])])
+  ].join(' ').toLowerCase();
+}
+
+function expandSearchTerms(query) {
+  const base = tokenize(query).concat(query).map(term => String(term || '').trim()).filter(Boolean);
+  const expanded = [...base];
+  const lower = query.toLowerCase();
+  Object.entries(SEARCH_CONCEPTS).forEach(([concept, terms]) => {
+    const conceptHit = lower.includes(concept.toLowerCase()) || terms.some(term => lower.includes(term.toLowerCase()));
+    if (conceptHit) expanded.push(concept, ...terms);
   });
+  return unique(expanded.map(term => term.toLowerCase()).filter(term => term.length > 1));
+}
+
+function semanticScore(text, query) {
+  if (!query) return 1;
+  const lower = text.toLowerCase();
+  const terms = expandSearchTerms(query);
+  let score = lower.includes(query.toLowerCase()) ? 12 : 0;
+  terms.forEach(term => { if (lower.includes(term)) score += term.length > 3 ? 4 : 3; });
+  return score;
+}
+
+function filteredArticles() {
+  const results = state.articles.map(article => ({ article, score: semanticScore(articleSearchText(article), state.query) }))
+    .filter(({ article, score }) => {
+      const matchesSearch = !state.query || score > 0;
+      const matchesMonth = state.query || !state.month || article.date.startsWith(state.month);
+      return matchesSearch
+        && matchesMonth
+        && (state.region === 'all' || article.region === state.region)
+        && (state.category === 'all' || article.category === state.category);
+    });
+  if (state.query) results.sort((a, b) => b.score - a.score || b.article.valueScore - a.article.valueScore || b.article.date.localeCompare(a.article.date));
+  return results.map(item => item.article);
 }
 
 function renderActiveMonthlyReport() {
   const report = state.reports.find(item => item.month === state.month);
   const articlesById = Object.fromEntries(state.articles.map(article => [article.id, article]));
+  const monthCount = monthArticleCount(state.month);
   if (!report) {
     document.getElementById('activeMonthlyReport').innerHTML = '';
     return;
@@ -89,7 +188,7 @@ function renderActiveMonthlyReport() {
   const topArticles = (report.topArticleIds || []).map(id => articlesById[id]).filter(Boolean).slice(0, 5);
   document.getElementById('activeMonthlyReport').innerHTML = `
     <article class="monthly-card featured-monthly">
-      <div class="monthly-head"><span>${fmtMonth(report.month)} 月报</span><strong>${report.title}</strong></div>
+      <div class="monthly-head"><span>${fmtMonth(report.month)} 月报 · 共${monthCount}条精选</span><strong>${report.title}</strong></div>
       <p>${report.summary}</p>
       <h4>当月最值得关注 Top${topArticles.length}</h4>
       <div class="monthly-links">${topArticles.map((article, index) => `<a href="${article.url}" target="_blank" rel="noreferrer">${index + 1}. ${article.title}</a>`).join('')}</div>
@@ -133,10 +232,10 @@ function renderWordCloud() {
   const opinionKeywords = state.insights.flatMap((insight, index) => (insight.keywords || []).map(keyword => ({ keyword, weight: 11 - Math.min(index, 8) })));
   const counts = {};
   opinionKeywords.forEach(({ keyword, weight }) => { counts[keyword] = Math.max(counts[keyword] || 0, weight); });
-  const words = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 46);
-  const reset = `<button class="word word-button ${state.activeKeyword === 'all' ? 'active' : ''}" data-keyword="all" style="font-size:18px">全部观点</button>`;
+  const words = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 32);
+  const reset = `<button class="word word-button ${state.activeKeyword === 'all' ? 'active' : ''}" data-keyword="all" style="font-size:15px">全部观点</button>`;
   document.getElementById('wordCloud').innerHTML = reset + words.map(([word, weight], index) => {
-    const size = 15 + weight * 2.4 + (index % 4);
+    const size = 13 + weight * 1.5 + (index % 3);
     return `<button class="word word-button ${state.activeKeyword === word ? 'active' : ''}" data-keyword="${escapeHtml(word)}" style="font-size:${size}px">${word}</button>`;
   }).join('');
   document.querySelectorAll('.word-button').forEach(button => {
@@ -145,36 +244,42 @@ function renderWordCloud() {
       renderWordCloud();
       renderUserInsights();
       renderInsights();
+      renderGlobalStats();
     });
   });
 }
 
 function insightMatchesKeyword(insight) {
+  const haystack = [insight.title, insight.summary, insight.trendNote, ...(insight.takeaways || []), ...(insight.keywords || [])].join(' ').toLowerCase();
+  if (state.query && semanticScore(haystack, state.query) <= 0) return false;
   if (state.activeKeyword === 'all') return true;
   const keyword = state.activeKeyword.toLowerCase();
-  const haystack = [insight.title, insight.summary, ...(insight.takeaways || []), ...(insight.keywords || [])].join(' ').toLowerCase();
   return haystack.includes(keyword);
 }
 
 function noteMatchesKeyword(note) {
+  const haystack = [note.title, note.body, note.generatedInsight, ...(note.keywords || [])].join(' ').toLowerCase();
+  if (state.query && semanticScore(haystack, state.query) <= 0) return false;
   if (state.activeKeyword === 'all') return true;
   const keyword = state.activeKeyword.toLowerCase();
-  const haystack = [note.title, note.body, note.generatedInsight, ...(note.keywords || [])].join(' ').toLowerCase();
   return haystack.includes(keyword);
 }
 
 function renderInsights() {
   const visibleInsights = state.insights.filter(insightMatchesKeyword);
   const html = visibleInsights.map(insight => {
-    const related = state.articles
-      .filter(article => (article.relatedInsightIds || []).includes(insight.id))
+    const articleMap = Object.fromEntries(state.articles.map(article => [article.id, article]));
+    const explicit = (insight.relatedArticleIds || []).map(id => articleMap[id]).filter(Boolean);
+    const inferred = state.articles.filter(article => (article.relatedInsightIds || []).includes(insight.id));
+    const related = uniqueLinks([...explicit, ...inferred])
       .sort((a, b) => b.valueScore - a.valueScore || b.date.localeCompare(a.date));
     const visibleRelated = related.slice(0, 8);
     return `
       <article class="insight-card">
-        <span class="system-badge">AI整理 · ${related.length}条信息源</span>
+        <span class="system-badge">AI复盘 · ${related.length}条信息源${insight.updatedAt ? ` · ${insight.updatedAt.slice(5, 10)}` : ''}</span>
         <h3>${insight.title}</h3>
         <p>${insight.summary}</p>
+        ${insight.trendNote ? `<p class="trend-note">${insight.trendNote}</p>` : ''}
         <ul>${(insight.takeaways || []).map(item => `<li>${item}</li>`).join('')}</ul>
         <div class="meta">${(insight.keywords || []).map(word => `<span class="pill">${word}</span>`).join('')}</div>
         <div class="related">${visibleRelated.map(article => `<a href="${article.url}" target="_blank" rel="noreferrer">关联：${article.title}</a>`).join('')}</div>
@@ -399,6 +504,7 @@ function bindNotes() {
     input.value = '';
     document.getElementById('notePreview').innerHTML = '';
     renderUserInsights();
+    renderGlobalStats();
   });
 }
 
@@ -433,6 +539,8 @@ function render() {
   renderWordCloud();
   renderUserInsights();
   renderInsights();
+  renderGlobalStats();
+  renderUpdateBadges();
 }
 
 loadData().catch(error => {

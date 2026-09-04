@@ -112,14 +112,33 @@ TAG_RULES = {
 }
 
 INSIGHT_RULES = {
+    "decision-os": ["决策", "意图", "约束", "比较", "推荐", "assistant", "搜索"],
+    "memory-as-asset": ["记忆", "偏好", "画像", "复购", "personalization", "context", "habit"],
     "trust-ladder": ["代买", "替你购物", "授权", "助手", "购物智能体"],
+    "closed-loop-first": ["闭环", "支付", "下单", "履约", "售后", "checkout", "order"],
+    "answer-shelf": ["答案", "货架", "推荐位", "搜索", "可见性", "candidate"],
     "data-transaction-moat": ["商品", "库存", "价格", "履约", "淘宝", "京东", "闭环"],
     "agentic-funnel": ["agentic commerce", "checkout", "可见性", "geo", "入口"],
     "multi-agent-commerce": ["claude", "blueprint", "商家", "merchant", "openclaw", "agent"],
+    "multi-agent-market": ["买方agent", "卖方agent", "商家", "merchant", "撮合", "交易网络"],
     "structured-dialogue": ["导购", "架构", "对话", "搜索", "推荐"],
     "high-frequency-entry": ["即时零售", "闪购", "买菜", "复购", "外卖"],
+    "habit-before-intelligence": ["高频", "习惯", "复购", "日常", "买菜", "外卖"],
+    "category-wedge": ["品类", "非标", "标品", "高客单", "家电", "服饰"],
+    "risk-first-design": ["风险", "失败", "误购", "兜底", "退货", "售后"],
+    "evidence-led-recommendation": ["证据", "评价", "测评", "评论", "理由", "可信"],
+    "intent-cart": ["购物车", "cart", "收藏", "价格提醒", "未完成", "意图"],
+    "contextual-entry": ["入口", "场景", "视觉", "内容", "种草", "图片"],
+    "privacy-permission": ["隐私", "权限", "授权", "预算", "个人信息"],
+    "post-purchase-agent": ["售后", "物流", "退换货", "保价", "post-purchase"],
+    "merchant-incentive": ["商家激励", "归因", "广告", "供给", "seller", "merchant"],
+    "ranking-governance": ["排序", "治理", "赞助", "公平", "责任", "ranking"],
+    "from-comparison-to-negotiation": ["比价", "议价", "报价", "优惠", "谈条件", "动态价格"],
+    "social-proof-rebuild": ["评价", "口碑", "评论", "虚假评价", "social proof"],
     "merchant-readable-store": ["geo", "商家", "卖家", "商品资料", "可见性"],
 }
+
+AUTO_INSIGHT_PREFIX = "auto-"
 
 NEGATIVE_WORDS = ["融资", "培训", "课程", "招商", "广告", "大会报名", "招聘", "破解版"]
 HIGH_VALUE_WORDS = [
@@ -431,9 +450,12 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
         merged = merged[:520]
         write_json(ARTICLES_PATH, merged)
         refresh_monthly_reports(merged)
+        insight_changed = refresh_insights(merged)
         meta = load_json(META_PATH, {})
         meta["lastUpdated"] = dt.datetime.now(TZ).replace(microsecond=0).isoformat()
         meta["latestAdded"] = len(selected)
+        meta["lastInsightUpdated"] = dt.datetime.now(TZ).date().isoformat()
+        meta["latestInsightChanged"] = insight_changed
         write_json(META_PATH, meta)
     return selected
 
@@ -463,6 +485,106 @@ def refresh_monthly_reports(articles: list[dict[str, Any]]) -> None:
         report["topArticleIds"] = top_ids
         reports.append(report)
     write_json(MONTHLY_REPORTS_PATH, reports)
+
+
+def article_matches_insight(article: dict[str, Any], insight: dict[str, Any]) -> bool:
+    text = " ".join([
+        article.get("title", ""),
+        article.get("corePoint", ""),
+        article.get("insight", ""),
+        " ".join(article.get("tags", [])),
+    ]).lower()
+    if insight.get("id") in article.get("relatedInsightIds", []):
+        return True
+    return any(str(word).lower() in text for word in insight.get("keywords", []) if len(str(word)) > 1)
+
+
+def tag_counts(articles: list[dict[str, Any]]) -> list[tuple[str, int]]:
+    counts: dict[str, int] = {}
+    for item in articles:
+        for tag in item.get("tags", []):
+            counts[tag] = counts.get(tag, 0) + 1
+    return sorted(counts.items(), key=lambda pair: pair[1], reverse=True)
+
+
+def trend_note_for(insight: dict[str, Any], related: list[dict[str, Any]], recent: list[dict[str, Any]]) -> str:
+    if not related:
+        return "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。"
+    recent_related = [item for item in recent if item in related] or related[:5]
+    tags = [tag for tag, _ in tag_counts(recent_related)[:3]]
+    focus = "、".join(tags) or "AI购物"
+    title = insight.get("title", "")
+    if "记忆" in title:
+        return f"最新复盘：相关资料继续指向{focus}，记忆能力要从聊天上下文升级为可编辑的购买约束，否则很难支撑长期授权。"
+    if "信任" in title or "风险" in title:
+        return f"最新复盘：{focus}信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。"
+    if "商家" in title or "机器" in title:
+        return f"最新复盘：{focus}正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。"
+    if "闭环" in title or "购物车" in title or "漏斗" in title:
+        return f"最新复盘：{focus}显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。"
+    return f"最新复盘：近一批高价值信息集中在{focus}，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+
+
+def build_auto_insights(articles: list[dict[str, Any]], now: str) -> list[dict[str, Any]]:
+    latest_month = max({item["date"][:7] for item in articles}) if articles else dt.datetime.now(TZ).strftime("%Y-%m")
+    month_articles = [item for item in articles if item["date"].startswith(latest_month)]
+    recent_articles = sorted(month_articles or articles, key=lambda item: (item.get("date", ""), item.get("valueScore", 0)), reverse=True)[:24]
+    top_tags = [tag for tag, _ in tag_counts(recent_articles)[:5]] or ["AI购物"]
+    top_ids = [item["id"] for item in sorted(recent_articles, key=lambda item: item.get("valueScore", 0), reverse=True)[:8]]
+    focus = "、".join(top_tags[:3])
+    return [
+        {
+            "id": "auto-current-signal",
+            "title": f"最新复盘：{focus}正在收敛成产品主线",
+            "summary": f"{latest_month} 的信息密度显示，AI购物的竞争点不是单一助手入口，而是{focus}这些能力之间能否互相闭环。",
+            "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
+            "takeaways": ["用月度高频信号更新路线图优先级", "把新闻动态转成可实验的产品假设", "避免只追热点发布而忽略交易链路"],
+            "keywords": top_tags[:5] + ["最新复盘", "产品路线"],
+            "relatedArticleIds": top_ids,
+            "updatedAt": now,
+        },
+        {
+            "id": "auto-evidence-gap",
+            "title": "每天新增资料最该沉淀成“证据库”",
+            "summary": "资讯越多，AI导购越不能只做摘要；真正可复用的是场景、约束、失败案例、官方能力和交易规则这些可被产品调用的证据。",
+            "trendNote": "建议把每日信息拆成观点、证据、适用品类、风险边界四类资产，让灵感集成为产品判断的知识底座。",
+            "takeaways": ["每条资料至少沉淀一个产品判断", "把来源链接挂到对应灵感而不是孤立收藏", "优先保留能影响决策链路的证据"],
+            "keywords": ["证据库", "信息复盘", "产品判断", "资料结构化", "灵感沉淀"],
+            "relatedArticleIds": top_ids,
+            "updatedAt": now,
+        },
+        {
+            "id": "auto-next-experiment",
+            "title": "下一步应围绕“低风险授权”设计实验",
+            "summary": "从近一年资料看，AI导购最容易启动的不是万能代买，而是低风险、高频、可撤回的局部授权。",
+            "trendNote": "可以优先验证三类入口：复购补货、预算内比选、售后/保价提醒；这些场景失败成本低，更容易积累用户信任。",
+            "takeaways": ["用小授权替代一步到位的全自动", "用复购和售后提升留存频次", "用可撤回机制降低心理门槛"],
+            "keywords": ["低风险授权", "复购", "信任阶梯", "售后", "实验设计"],
+            "relatedArticleIds": top_ids,
+            "updatedAt": now,
+        },
+    ]
+
+
+def refresh_insights(articles: list[dict[str, Any]]) -> int:
+    now = dt.datetime.now(TZ).date().isoformat()
+    existing = load_json(INSIGHTS_PATH, [])
+    base = [item for item in existing if not str(item.get("id", "")).startswith(AUTO_INSIGHT_PREFIX)]
+    recent_cutoff = dt.datetime.now(TZ).date() - dt.timedelta(days=30)
+    recent = [item for item in articles if dt.date.fromisoformat(item["date"]) >= recent_cutoff]
+    reviewed = []
+    for insight in base:
+        related = [item for item in articles if article_matches_insight(item, insight)]
+        related.sort(key=lambda item: (item.get("date", ""), item.get("valueScore", 0)), reverse=True)
+        updated = dict(insight)
+        updated["sourceCount"] = len(related)
+        updated["relatedArticleIds"] = [item["id"] for item in related[:10]]
+        updated["trendNote"] = trend_note_for(insight, related, recent)
+        updated["updatedAt"] = now
+        reviewed.append(updated)
+    auto = build_auto_insights(articles, now)
+    write_json(INSIGHTS_PATH, reviewed + auto)
+    return len(reviewed) + len(auto)
 
 
 def main() -> None:

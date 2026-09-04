@@ -11,20 +11,20 @@
     <nav class="nav">
       <div class="brand">Meow的AI购物雷达响了</div>
       <div class="nav-links tab-switcher" role="tablist" aria-label="主导航">
-        <button class="top-tab active" data-tab="feed" role="tab">有事没事来看看</button>
-        <button class="top-tab" data-tab="inspiration" role="tab">灵感集</button>
+        <button class="top-tab active" data-tab="feed" role="tab">有事没事来看看<span class="update-dot" data-dot="feed" aria-label="有更新"></span></button>
+        <button class="top-tab" data-tab="inspiration" role="tab">灵感集<span class="update-dot" data-dot="inspiration" aria-label="有更新"></span></button>
       </div>
     </nav>
+    <section class="toolbar global-toolbar" aria-label="全局搜索和筛选工具">
+      <input id="searchInput" type="search" placeholder="语义搜索资讯和灵感：记忆 / 信任 / 闭环 / 商家可读…" />
+      <select id="regionFilter"><option value="all">全部地区</option></select>
+      <select id="categoryFilter"><option value="all">全部类型</option></select>
+      <div id="globalStats" class="global-stats"></div>
+    </section>
   </header>
 
   <main>
     <section id="feedTab" class="tab-panel active">
-      <section class="toolbar" aria-label="筛选工具">
-        <input id="searchInput" type="search" placeholder="搜索标题、来源、标签、洞察…" />
-        <select id="regionFilter"><option value="all">全部地区</option></select>
-        <select id="categoryFilter"><option value="all">全部类型</option></select>
-      </section>
-
       <section id="daily" class="section">
         <div class="section-title">
           <p class="eyebrow">Radar Feed</p>
@@ -45,6 +45,9 @@
         <p class="section-note">词云只展示能直接启发产品设计的观点关键词。</p>
         <div class="word-cloud" id="wordCloud"></div>
 
+        <div id="userInsightGrid" class="insight-grid user-grid"></div>
+        <div id="insightGrid" class="insight-grid"></div>
+
         <section class="note-lab">
           <div>
             <p class="eyebrow">Note</p>
@@ -58,9 +61,6 @@
           </div>
           <div id="notePreview" class="note-preview"></div>
         </section>
-
-        <div id="userInsightGrid" class="insight-grid user-grid"></div>
-        <div id="insightGrid" class="insight-grid"></div>
       </section>
     </section>
   </main>

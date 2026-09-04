@@ -3,140 +3,665 @@
     "id": "decision-os",
     "title": "AI导购会成为“购物决策操作系统”",
     "summary": "AI导购不是客服、搜索或推荐的简单升级，而是把用户意图翻译成可验证、可比较、可执行的购物决策链。",
-    "takeaways": ["把模糊需求变成约束清单", "把商品候选变成可解释决策", "把购买动作变成可确认流程"],
-    "keywords": ["决策操作系统", "意图翻译", "证据链", "可执行决策", "决策链"]
+    "takeaways": [
+      "把模糊需求变成约束清单",
+      "把商品候选变成可解释决策",
+      "把购买动作变成可确认流程"
+    ],
+    "keywords": [
+      "决策操作系统",
+      "意图翻译",
+      "证据链",
+      "可执行决策",
+      "决策链"
+    ],
+    "sourceCount": 226,
+    "relatedArticleIds": [
+      "claude-commerce-agent-architecture-2026-09-04",
+      "daily-2026-09-01-1531069370f45e",
+      "daily-2026-08-31-c492016da94d03",
+      "daily-2026-08-30-d22191244e060f",
+      "daily-2026-08-28-a458803df2cd95",
+      "daily-2026-08-27-ce51ea670da564",
+      "agentic-shopping-evolution-2026-08-26",
+      "daily-2026-08-25-5551269bd51b3b",
+      "daily-2026-08-24-365a107d529345",
+      "daily-2026-08-23-9ac5af530d0367"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在C端AI产品、AI购物、AI搜索，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "memory-as-asset",
     "title": "记忆不是聊天记录，而是购物资产",
     "summary": "AI导购最有价值的记忆不是用户说过什么，而是稳定偏好、禁忌、预算弹性、品牌容忍度和家庭/场景约束。",
-    "takeaways": ["记忆要结构化为可调用偏好", "用户应能编辑、冻结和删除记忆", "不同品类需要不同记忆粒度"],
-    "keywords": ["记忆", "偏好记忆", "长期约束", "用户画像", "可编辑记忆"]
+    "takeaways": [
+      "记忆要结构化为可调用偏好",
+      "用户应能编辑、冻结和删除记忆",
+      "不同品类需要不同记忆粒度"
+    ],
+    "keywords": [
+      "记忆",
+      "偏好记忆",
+      "长期约束",
+      "用户画像",
+      "可编辑记忆"
+    ],
+    "sourceCount": 7,
+    "relatedArticleIds": [
+      "qianwen-taobao-instant-repeat-2026-09-01",
+      "2026-09-01-app-ai-70-ai-da6ca4b16e",
+      "google-shopping-trends-back-to-school-2026-07-16",
+      "google-spring-fashion-shopping-2026-04-23",
+      "daily-2026-03-03-23bed4d992a75f",
+      "daily-2025-12-09-5b35943a3d73b9",
+      "daily-2025-10-18-49e8b78eef0638"
+    ],
+    "trendNote": "最新复盘：相关资料继续指向即时零售、复购、偏好记忆，记忆能力要从聊天上下文升级为可编辑的购买约束，否则很难支撑长期授权。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "trust-ladder",
     "title": "信任阶梯比自动化更重要",
     "summary": "用户不会突然把钱包交给AI，产品要通过解释、筛选、比价、加购、授权下单逐步建立信任。",
-    "takeaways": ["先让用户相信AI的判断", "高风险动作必须二次确认", "AI要明确展示不能买、不建议买的边界"],
-    "keywords": ["信任", "信任阶梯", "授权边界", "可撤回", "二次确认"]
+    "takeaways": [
+      "先让用户相信AI的判断",
+      "高风险动作必须二次确认",
+      "AI要明确展示不能买、不建议买的边界"
+    ],
+    "keywords": [
+      "信任",
+      "信任阶梯",
+      "授权边界",
+      "可撤回",
+      "二次确认"
+    ],
+    "sourceCount": 150,
+    "relatedArticleIds": [
+      "claude-commerce-agent-architecture-2026-09-04",
+      "daily-2026-09-04-a8839bacba28ee",
+      "anthropic-claude-commerce-agent-blueprint-2026-09-03",
+      "qianwen-taobao-instant-repeat-2026-09-01",
+      "taobao-qianwen-closed-loop-2026-08-30",
+      "daily-2026-08-29-2134c3dedae52a",
+      "agentic-shopping-evolution-2026-08-26",
+      "daily-2026-08-26-21460ced93cc20",
+      "2026-08-26-meta-openclaw-ai-agent-40106d20bf",
+      "2026-08-24-aigc-ai-16-73e4eab311"
+    ],
+    "trendNote": "最新复盘：AI购物、交易闭环、购物智能体信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "closed-loop-first",
     "title": "没有履约闭环，推荐越强风险越大",
     "summary": "AI推荐一旦走向交易，实时价格、库存、优惠、配送、售后会比文案质量更影响用户信任。",
-    "takeaways": ["优先接入实时商品和履约数据", "把售后规则纳入推荐排序", "推荐前先确认可买、何时到、谁负责"],
-    "keywords": ["履约闭环", "实时库存", "价格准确", "售后确定性", "交易闭环"]
+    "takeaways": [
+      "优先接入实时商品和履约数据",
+      "把售后规则纳入推荐排序",
+      "推荐前先确认可买、何时到、谁负责"
+    ],
+    "keywords": [
+      "履约闭环",
+      "实时库存",
+      "价格准确",
+      "售后确定性",
+      "交易闭环"
+    ],
+    "sourceCount": 58,
+    "relatedArticleIds": [
+      "daily-2026-09-04-a8839bacba28ee",
+      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
+      "qianwen-taobao-instant-repeat-2026-09-01",
+      "2026-08-30-40-ai-31fedd015e",
+      "taobao-qianwen-closed-loop-2026-08-30",
+      "daily-2026-08-29-2134c3dedae52a",
+      "2026-08-25-geo-1688-ai-geo-570862829a",
+      "2026-08-25-ek-ai-agentic-commerce-a543deec90",
+      "2026-08-24-aigc-ai-16-73e4eab311",
+      "2026-08-19-6-08a28b00bd"
+    ],
+    "trendNote": "最新复盘：交易闭环、AI购物、商品库信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "answer-shelf",
     "title": "货架会藏进AI答案里",
     "summary": "AI一次只能给少量候选，传统搜索页里的大量曝光机会会被压缩，品牌首先要争取进入AI答案。",
-    "takeaways": ["商家竞争从关键词排名变成候选资格", "AI推荐位会比搜索首屏更稀缺", "商品差异必须让机器读得懂"],
-    "keywords": ["答案货架", "候选资格", "机器可读", "推荐位稀缺", "AI可见性"]
+    "takeaways": [
+      "商家竞争从关键词排名变成候选资格",
+      "AI推荐位会比搜索首屏更稀缺",
+      "商品差异必须让机器读得懂"
+    ],
+    "keywords": [
+      "答案货架",
+      "候选资格",
+      "机器可读",
+      "推荐位稀缺",
+      "AI可见性"
+    ],
+    "sourceCount": 146,
+    "relatedArticleIds": [
+      "ai-visibility-agentic-commerce-weekly-2026-08-30",
+      "daily-2026-08-30-d22191244e060f",
+      "daily-2026-08-26-21460ced93cc20",
+      "meta-openclaw-shopping-agent-2026-08-26",
+      "2026-08-25-ek-ai-agentic-commerce-a543deec90",
+      "geo-shopping-entry-2026-08-25",
+      "daily-2026-08-16-286aec54d0edce",
+      "daily-2026-08-15-32e6ac7bd8b443",
+      "daily-2026-08-14-ee38732a131581",
+      "daily-2026-08-09-7debda74073518"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、GEO，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "agentic-funnel",
     "title": "电商漏斗会被智能体重写",
     "summary": "曝光、点击、详情、加购、支付的页面漏斗，会变成需求表达、候选进入、证据验证、授权交易的智能体漏斗。",
-    "takeaways": ["新增候选进入率", "新增解释可信度", "新增授权下单率", "传统详情页转化率不再解释全部交易"],
-    "keywords": ["智能体漏斗", "候选进入率", "授权下单率", "解释可信度", "转化漏斗"]
+    "takeaways": [
+      "新增候选进入率",
+      "新增解释可信度",
+      "新增授权下单率",
+      "传统详情页转化率不再解释全部交易"
+    ],
+    "keywords": [
+      "智能体漏斗",
+      "候选进入率",
+      "授权下单率",
+      "解释可信度",
+      "转化漏斗"
+    ],
+    "sourceCount": 201,
+    "relatedArticleIds": [
+      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
+      "daily-2026-09-03-9934a0352cf765",
+      "2026-09-03-digital-commerce-360-anthropic--cd817a484a",
+      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
+      "daily-2026-09-02-0860bf13512c29",
+      "taobao-qianwen-closed-loop-2026-08-30",
+      "ai-visibility-agentic-commerce-weekly-2026-08-30",
+      "daily-2026-08-30-d22191244e060f",
+      "daily-2026-08-29-2134c3dedae52a",
+      "agentic-shopping-evolution-2026-08-26"
+    ],
+    "trendNote": "最新复盘：AI购物、购物智能体、Agentic Commerce显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "merchant-readable-store",
     "title": "商家需要一间“给机器看的店”",
     "summary": "品牌既要经营给人看的内容，也要经营给AI读取、比较、验证和调用的结构化信息资产。",
-    "takeaways": ["产品参数、场景、证据和售后要统一", "评价和认证要可被AI引用", "库存价格接口化会变成基础能力"],
-    "keywords": ["机器可读店铺", "结构化商品", "证据资产", "商家Agent", "GEO"]
+    "takeaways": [
+      "产品参数、场景、证据和售后要统一",
+      "评价和认证要可被AI引用",
+      "库存价格接口化会变成基础能力"
+    ],
+    "keywords": [
+      "机器可读店铺",
+      "结构化商品",
+      "证据资产",
+      "商家Agent",
+      "GEO"
+    ],
+    "sourceCount": 46,
+    "relatedArticleIds": [
+      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
+      "anthropic-claude-commerce-agent-blueprint-2026-09-03",
+      "daily-2026-09-03-9934a0352cf765",
+      "daily-2026-09-02-0860bf13512c29",
+      "2026-08-30-40-ai-31fedd015e",
+      "ai-visibility-agentic-commerce-weekly-2026-08-30",
+      "meta-openclaw-shopping-agent-2026-08-26",
+      "2026-08-25-geo-1688-ai-geo-570862829a",
+      "2026-08-25-ek-ai-agentic-commerce-a543deec90",
+      "geo-shopping-entry-2026-08-25"
+    ],
+    "trendNote": "最新复盘：AI购物、商家接入、交易闭环正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "multi-agent-market",
     "title": "未来是买方Agent和卖方Agent撮合",
     "summary": "AI购物不会只有一个C端助手，买方Agent、卖方Agent、平台工具、支付和风控会组成新的交易网络。",
-    "takeaways": ["C端导购要和商家供给系统协同", "平台价值在于制定接口和责任规则", "商家侧自动化会决定商品能否被推荐"],
-    "keywords": ["买方Agent", "卖方Agent", "交易网络", "接口规则", "多智能体"]
+    "takeaways": [
+      "C端导购要和商家供给系统协同",
+      "平台价值在于制定接口和责任规则",
+      "商家侧自动化会决定商品能否被推荐"
+    ],
+    "keywords": [
+      "买方Agent",
+      "卖方Agent",
+      "交易网络",
+      "接口规则",
+      "多智能体"
+    ],
+    "sourceCount": 34,
+    "relatedArticleIds": [
+      "anthropic-claude-commerce-agent-blueprint-2026-09-03",
+      "daily-2026-09-03-9934a0352cf765",
+      "daily-2026-09-02-0860bf13512c29",
+      "meta-openclaw-shopping-agent-2026-08-26",
+      "daily-2026-08-21-efe214be6e9775",
+      "daily-2026-08-20-84c99b15d913fa",
+      "daily-2026-08-13-d3070ee4db7fb7",
+      "daily-2026-07-28-0cfa5b4dab8be8",
+      "daily-2026-07-11-32836af59aacfb",
+      "daily-2026-07-10-a0c7e4052c573b"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在商家接入、AI购物、购物智能体，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "habit-before-intelligence",
     "title": "先养成习惯，再证明智能",
     "summary": "AI购物的早期突破口不是复杂大件，而是高频、低风险、偏好稳定的日常消费。",
-    "takeaways": ["买菜、日用品、外卖适合冷启动", "复购场景能快速积累偏好", "低风险场景更容易获得授权"],
-    "keywords": ["高频低风险", "复购入口", "偏好稳定", "日常授权", "习惯养成"]
+    "takeaways": [
+      "买菜、日用品、外卖适合冷启动",
+      "复购场景能快速积累偏好",
+      "低风险场景更容易获得授权"
+    ],
+    "keywords": [
+      "高频低风险",
+      "复购入口",
+      "偏好稳定",
+      "日常授权",
+      "习惯养成"
+    ],
+    "sourceCount": 10,
+    "relatedArticleIds": [
+      "qianwen-taobao-instant-repeat-2026-09-01",
+      "2026-09-01-app-ai-70-ai-da6ca4b16e",
+      "daily-2026-03-27-117643c55a94fc",
+      "daily-2026-03-26-5950e8efac85c3",
+      "daily-2026-03-19-46f4d77b1b89f4",
+      "daily-2026-03-07-7468cbe0b4b9f2",
+      "daily-2026-03-03-23bed4d992a75f",
+      "daily-2026-01-15-b3a1f6ddb73221",
+      "daily-2025-12-09-5b35943a3d73b9",
+      "daily-2025-12-08-9ee9429fa0ec2a"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在即时零售、复购、偏好记忆，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "category-wedge",
     "title": "品类选择决定AI导购成败",
     "summary": "最适合AI导购的品类，是认知成本高、信息可结构化、履约可确定的品类。",
-    "takeaways": ["3C、家电、母婴、旅行适合比较型导购", "低价复购适合授权型导购", "强审美品类需要保留人工主导"],
-    "keywords": ["品类楔子", "认知成本", "结构化比较", "履约确定", "品类策略"]
+    "takeaways": [
+      "3C、家电、母婴、旅行适合比较型导购",
+      "低价复购适合授权型导购",
+      "强审美品类需要保留人工主导"
+    ],
+    "keywords": [
+      "品类楔子",
+      "认知成本",
+      "结构化比较",
+      "履约确定",
+      "品类策略"
+    ],
+    "sourceCount": 23,
+    "relatedArticleIds": [
+      "qianwen-taobao-instant-repeat-2026-09-01",
+      "taobao-qianwen-closed-loop-2026-08-30",
+      "daily-2026-08-22-d0935ce5172bc8",
+      "google-back-to-school-shopping-tools-2026-07-16",
+      "google-shopping-trends-back-to-school-2026-07-16",
+      "daily-2026-06-20-c357cbb4aeba31",
+      "daily-2026-06-04-882243a1fbce39",
+      "daily-2026-06-03-914148b7d1dd69",
+      "google-spring-fashion-shopping-2026-04-23",
+      "daily-2026-04-21-f57fef4cc46777"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在即时零售、复购、偏好记忆，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "risk-first-design",
     "title": "AI导购要先设计失败，而不是先设计成功",
     "summary": "越接近交易，AI失败成本越高。推荐错、价格错、库存错、优惠错、售后错都会直接消耗信任。",
-    "takeaways": ["高风险推荐必须解释不确定性", "关键字段要实时核验", "失败兜底应成为产品主流程的一部分"],
-    "keywords": ["风险设计", "失败兜底", "不确定性", "误购", "信任损耗"]
+    "takeaways": [
+      "高风险推荐必须解释不确定性",
+      "关键字段要实时核验",
+      "失败兜底应成为产品主流程的一部分"
+    ],
+    "keywords": [
+      "风险设计",
+      "失败兜底",
+      "不确定性",
+      "误购",
+      "信任损耗"
+    ],
+    "sourceCount": 199,
+    "relatedArticleIds": [
+      "claude-commerce-agent-architecture-2026-09-04",
+      "daily-2026-09-04-a8839bacba28ee",
+      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
+      "anthropic-claude-commerce-agent-blueprint-2026-09-03",
+      "daily-2026-09-03-9934a0352cf765",
+      "2026-09-03-digital-commerce-360-anthropic--cd817a484a",
+      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
+      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
+      "daily-2026-09-02-0860bf13512c29",
+      "taobao-qianwen-closed-loop-2026-08-30"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、商家接入，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "evidence-led-recommendation",
     "title": "推荐理由要从“话术”变成“证据”",
     "summary": "AI导购的说服力不应来自拟人表达，而应来自参数、评价、测评、认证、价格历史和售后记录的证据组合。",
-    "takeaways": ["每个推荐绑定证据来源", "区分事实、推断和主观偏好", "允许用户追问证据而不是只追问商品"],
-    "keywords": ["证据推荐", "事实来源", "评价可信", "测评引用", "可追溯"]
+    "takeaways": [
+      "每个推荐绑定证据来源",
+      "区分事实、推断和主观偏好",
+      "允许用户追问证据而不是只追问商品"
+    ],
+    "keywords": [
+      "证据推荐",
+      "事实来源",
+      "评价可信",
+      "测评引用",
+      "可追溯"
+    ],
+    "sourceCount": 37,
+    "relatedArticleIds": [
+      "daily-2026-08-30-d22191244e060f",
+      "daily-2026-08-16-286aec54d0edce",
+      "daily-2026-08-15-32e6ac7bd8b443",
+      "daily-2026-08-14-ee38732a131581",
+      "daily-2026-08-05-73d5671dbd19ad",
+      "daily-2026-07-09-3d36eb925f6e28",
+      "daily-2026-07-06-9ff3847b4f7534",
+      "daily-2026-06-27-ca12d684099abd",
+      "daily-2026-05-17-ee165670f60ece",
+      "daily-2026-05-12-693fb8a1adcd89"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在AI搜索、AI购物、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "intent-cart",
     "title": "购物车会变成“意图容器”",
     "summary": "未来购物车不只是待支付商品列表，而是用户未完成决策、备选方案、价格提醒和跨平台比较的集合。",
-    "takeaways": ["购物车要保留决策上下文", "支持候选替换和等价品提醒", "价格/库存变化应触发重新推荐"],
-    "keywords": ["意图购物车", "跨平台购物车", "未完成决策", "价格提醒", "候选替换"]
+    "takeaways": [
+      "购物车要保留决策上下文",
+      "支持候选替换和等价品提醒",
+      "价格/库存变化应触发重新推荐"
+    ],
+    "keywords": [
+      "意图购物车",
+      "跨平台购物车",
+      "未完成决策",
+      "价格提醒",
+      "候选替换"
+    ],
+    "sourceCount": 1,
+    "relatedArticleIds": [
+      "google-universal-cart-2026-05-20"
+    ],
+    "trendNote": "最新复盘：Universal Cart、Agentic Shopping、跨平台购物车显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "contextual-entry",
     "title": "AI购物入口会从搜索框扩散到场景触点",
     "summary": "图片、视频、直播、浏览器、聊天、地图、日历、相册都可能成为购物入口，AI导购要在兴趣产生的瞬间出现。",
-    "takeaways": ["入口越靠近场景，表达成本越低", "视觉和内容场景适合触发灵感购物", "不同入口需要共享同一套偏好和购物状态"],
-    "keywords": ["场景入口", "视觉触发", "内容种草", "多入口", "即时意图"]
+    "takeaways": [
+      "入口越靠近场景，表达成本越低",
+      "视觉和内容场景适合触发灵感购物",
+      "不同入口需要共享同一套偏好和购物状态"
+    ],
+    "keywords": [
+      "场景入口",
+      "视觉触发",
+      "内容种草",
+      "多入口",
+      "即时意图"
+    ],
+    "sourceCount": 69,
+    "relatedArticleIds": [
+      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
+      "2026-09-03-digital-commerce-360-anthropic--cd817a484a",
+      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
+      "daily-2026-08-30-d22191244e060f",
+      "meta-openclaw-shopping-agent-2026-08-26",
+      "daily-2026-08-22-d0935ce5172bc8",
+      "daily-2026-08-16-286aec54d0edce",
+      "daily-2026-08-15-32e6ac7bd8b443",
+      "daily-2026-08-14-ee38732a131581",
+      "daily-2026-08-05-73d5671dbd19ad"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "privacy-permission",
     "title": "授权和隐私会成为购物体验的一部分",
     "summary": "AI导购需要读取偏好、地址、预算、购买历史甚至支付权限，用户是否授权取决于产品如何解释用途和边界。",
-    "takeaways": ["敏感记忆要可见可管", "授权要按品类和金额分级", "用一次性授权降低初次尝试门槛"],
-    "keywords": ["隐私", "权限", "预算上限", "分级授权", "一次性授权"]
+    "takeaways": [
+      "敏感记忆要可见可管",
+      "授权要按品类和金额分级",
+      "用一次性授权降低初次尝试门槛"
+    ],
+    "keywords": [
+      "隐私",
+      "权限",
+      "预算上限",
+      "分级授权",
+      "一次性授权"
+    ],
+    "sourceCount": 1,
+    "relatedArticleIds": [
+      "amazon-agent-permission-2026-03-12"
+    ],
+    "trendNote": "最新复盘：近一批高价值信息集中在平台治理、AI代买、权限，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "post-purchase-agent",
     "title": "导购不能止步于下单，售后才是长期信任来源",
     "summary": "AI导购如果参与购买决策，就应继续跟进物流、使用、退换、保价和复购，否则用户会把风险留给自己。",
-    "takeaways": ["订单后跟进能强化信任", "退换和保价应自动提醒", "使用反馈会反哺下一次推荐"],
-    "keywords": ["售后Agent", "物流跟进", "退换货", "保价", "复购反馈"]
+    "takeaways": [
+      "订单后跟进能强化信任",
+      "退换和保价应自动提醒",
+      "使用反馈会反哺下一次推荐"
+    ],
+    "keywords": [
+      "售后Agent",
+      "物流跟进",
+      "退换货",
+      "保价",
+      "复购反馈"
+    ],
+    "sourceCount": 13,
+    "relatedArticleIds": [
+      "daily-2026-09-04-a8839bacba28ee",
+      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
+      "meta-openclaw-shopping-agent-2026-08-26",
+      "daily-2026-07-11-32836af59aacfb",
+      "daily-2026-05-23-0ef4e15b64ebe2",
+      "daily-2026-05-09-b99a5f015693fc",
+      "daily-2026-05-02-803ff0b6b27c76",
+      "daily-2026-03-22-b1211759d490f9",
+      "doubao-vs-qianwen-2026-03-11",
+      "daily-2026-02-23-d0d45250fd6962"
+    ],
+    "trendNote": "最新复盘：交易闭环、AI购物、OpenClaw信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "merchant-incentive",
     "title": "没有商家激励，AI导购很难形成供给飞轮",
     "summary": "商家愿不愿意接入AI导购，取决于能否带来可归因订单、可控成本和更好的用户匹配。",
-    "takeaways": ["要给商家清晰的归因数据", "结构化资料维护要有收益反馈", "广告和自然推荐必须边界清楚"],
-    "keywords": ["商家激励", "订单归因", "供给飞轮", "广告标识", "运营成本"]
+    "takeaways": [
+      "要给商家清晰的归因数据",
+      "结构化资料维护要有收益反馈",
+      "广告和自然推荐必须边界清楚"
+    ],
+    "keywords": [
+      "商家激励",
+      "订单归因",
+      "供给飞轮",
+      "广告标识",
+      "运营成本"
+    ],
+    "sourceCount": 0,
+    "relatedArticleIds": [],
+    "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "ranking-governance",
     "title": "AI推荐排序需要治理，而不只是算法优化",
     "summary": "当AI答案直接影响订单，排序规则会牵涉广告、公平、平台利益、用户利益和责任归属。",
-    "takeaways": ["赞助推荐要显著标识", "推荐逻辑要能解释", "平台应保留用户改写排序目标的权利"],
-    "keywords": ["排序治理", "推荐责任", "赞助标识", "公平性", "平台利益"]
+    "takeaways": [
+      "赞助推荐要显著标识",
+      "推荐逻辑要能解释",
+      "平台应保留用户改写排序目标的权利"
+    ],
+    "keywords": [
+      "排序治理",
+      "推荐责任",
+      "赞助标识",
+      "公平性",
+      "平台利益"
+    ],
+    "sourceCount": 0,
+    "relatedArticleIds": [],
+    "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "from-comparison-to-negotiation",
     "title": "AI导购会从比价走向替用户谈条件",
     "summary": "当AI能代表用户表达预算、时效和偏好，下一步不是只比较现有价格，而是向商家争取优惠、组合和服务承诺。",
-    "takeaways": ["用户需求可成为议价筹码", "商家可以给Agent专属报价", "平台需要防止自动化价格歧视"],
-    "keywords": ["智能议价", "动态报价", "服务承诺", "预算表达", "价格歧视"]
+    "takeaways": [
+      "用户需求可成为议价筹码",
+      "商家可以给Agent专属报价",
+      "平台需要防止自动化价格歧视"
+    ],
+    "keywords": [
+      "智能议价",
+      "动态报价",
+      "服务承诺",
+      "预算表达",
+      "价格歧视"
+    ],
+    "sourceCount": 0,
+    "relatedArticleIds": [],
+    "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
+    "updatedAt": "2026-09-04"
   },
   {
     "id": "social-proof-rebuild",
     "title": "AI会重构“评价”和“口碑”的用法",
     "summary": "用户不再逐条读评论，AI会把评价压缩成结论，因此评价真实性、代表性和场景匹配会变得更重要。",
-    "takeaways": ["评价摘要要保留原始证据", "按用户场景筛评价比按星级更有用", "虚假评价会直接污染AI推荐"],
-    "keywords": ["评价摘要", "口碑重构", "场景化评价", "虚假评价", "用户证据"]
+    "takeaways": [
+      "评价摘要要保留原始证据",
+      "按用户场景筛评价比按星级更有用",
+      "虚假评价会直接污染AI推荐"
+    ],
+    "keywords": [
+      "评价摘要",
+      "口碑重构",
+      "场景化评价",
+      "虚假评价",
+      "用户证据"
+    ],
+    "sourceCount": 0,
+    "relatedArticleIds": [],
+    "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
+    "updatedAt": "2026-09-04"
+  },
+  {
+    "id": "auto-current-signal",
+    "title": "最新复盘：AI购物、Agentic Commerce、技术架构正在收敛成产品主线",
+    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是AI购物、Agentic Commerce、技术架构这些能力之间能否互相闭环。",
+    "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
+    "takeaways": [
+      "用月度高频信号更新路线图优先级",
+      "把新闻动态转成可实验的产品假设",
+      "避免只追热点发布而忽略交易链路"
+    ],
+    "keywords": [
+      "AI购物",
+      "Agentic Commerce",
+      "技术架构",
+      "交易闭环",
+      "商家Agent",
+      "最新复盘",
+      "产品路线"
+    ],
+    "relatedArticleIds": [
+      "daily-2026-09-02-0860bf13512c29",
+      "claude-commerce-agent-architecture-2026-09-04",
+      "daily-2026-09-01-1531069370f45e",
+      "anthropic-claude-commerce-agent-blueprint-2026-09-03",
+      "daily-2026-09-03-9934a0352cf765",
+      "qianwen-taobao-instant-repeat-2026-09-01",
+      "2026-09-01-app-ai-70-ai-da6ca4b16e",
+      "daily-2026-09-04-a8839bacba28ee"
+    ],
+    "updatedAt": "2026-09-04"
+  },
+  {
+    "id": "auto-evidence-gap",
+    "title": "每天新增资料最该沉淀成“证据库”",
+    "summary": "资讯越多，AI导购越不能只做摘要；真正可复用的是场景、约束、失败案例、官方能力和交易规则这些可被产品调用的证据。",
+    "trendNote": "建议把每日信息拆成观点、证据、适用品类、风险边界四类资产，让灵感集成为产品判断的知识底座。",
+    "takeaways": [
+      "每条资料至少沉淀一个产品判断",
+      "把来源链接挂到对应灵感而不是孤立收藏",
+      "优先保留能影响决策链路的证据"
+    ],
+    "keywords": [
+      "证据库",
+      "信息复盘",
+      "产品判断",
+      "资料结构化",
+      "灵感沉淀"
+    ],
+    "relatedArticleIds": [
+      "daily-2026-09-02-0860bf13512c29",
+      "claude-commerce-agent-architecture-2026-09-04",
+      "daily-2026-09-01-1531069370f45e",
+      "anthropic-claude-commerce-agent-blueprint-2026-09-03",
+      "daily-2026-09-03-9934a0352cf765",
+      "qianwen-taobao-instant-repeat-2026-09-01",
+      "2026-09-01-app-ai-70-ai-da6ca4b16e",
+      "daily-2026-09-04-a8839bacba28ee"
+    ],
+    "updatedAt": "2026-09-04"
+  },
+  {
+    "id": "auto-next-experiment",
+    "title": "下一步应围绕“低风险授权”设计实验",
+    "summary": "从近一年资料看，AI导购最容易启动的不是万能代买，而是低风险、高频、可撤回的局部授权。",
+    "trendNote": "可以优先验证三类入口：复购补货、预算内比选、售后/保价提醒；这些场景失败成本低，更容易积累用户信任。",
+    "takeaways": [
+      "用小授权替代一步到位的全自动",
+      "用复购和售后提升留存频次",
+      "用可撤回机制降低心理门槛"
+    ],
+    "keywords": [
+      "低风险授权",
+      "复购",
+      "信任阶梯",
+      "售后",
+      "实验设计"
+    ],
+    "relatedArticleIds": [
+      "daily-2026-09-02-0860bf13512c29",
+      "claude-commerce-agent-architecture-2026-09-04",
+      "daily-2026-09-01-1531069370f45e",
+      "anthropic-claude-commerce-agent-blueprint-2026-09-03",
+      "daily-2026-09-03-9934a0352cf765",
+      "qianwen-taobao-instant-repeat-2026-09-01",
+      "2026-09-01-app-ai-70-ai-da6ca4b16e",
+      "daily-2026-09-04-a8839bacba28ee"
+    ],
+    "updatedAt": "2026-09-04"
   }
 ]
