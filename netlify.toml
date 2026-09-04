@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+  command = "python3 scripts/update_content.py --days 30 --limit 8"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300"

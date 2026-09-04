@@ -1,0 +1,5 @@
+{
+  "buildCommand": "python3 scripts/update_content.py --days 30 --limit 8 || true",
+  "outputDirectory": ".",
+  "cleanUrls": true
+}

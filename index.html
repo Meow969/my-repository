@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meow的AI购物雷达响了</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero compact-hero">
+    <nav class="nav">
+      <div class="brand">Meow的AI购物雷达响了</div>
+      <div class="nav-links tab-switcher" role="tablist" aria-label="主导航">
+        <button class="top-tab active" data-tab="feed" role="tab">有事没事来看看</button>
+        <button class="top-tab" data-tab="inspiration" role="tab">灵感集</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="feedTab" class="tab-panel active">
+      <section class="toolbar" aria-label="筛选工具">
+        <input id="searchInput" type="search" placeholder="搜索标题、来源、标签、洞察…" />
+        <select id="regionFilter"><option value="all">全部地区</option></select>
+        <select id="categoryFilter"><option value="all">全部类型</option></select>
+      </section>
+
+      <section id="daily" class="section">
+        <div class="section-title">
+          <p class="eyebrow">Radar Feed</p>
+          <h2>有事没事来看看</h2>
+        </div>
+        <div id="monthTabs" class="month-tabs"></div>
+        <div id="activeMonthlyReport" class="active-monthly-report"></div>
+        <div id="articleGroups" class="article-groups"></div>
+      </section>
+    </section>
+
+    <section id="inspirationTab" class="tab-panel">
+      <section id="insights" class="section section-soft">
+        <div class="section-title">
+          <p class="eyebrow">Inspiration Lab</p>
+          <h2>AI导购产品灵感集</h2>
+        </div>
+        <p class="section-note">词云只展示能直接启发产品设计的观点关键词。</p>
+        <div class="word-cloud" id="wordCloud"></div>
+
+        <section class="note-lab">
+          <div>
+            <p class="eyebrow">Note</p>
+            <h3>记笔记</h3>
+            <p>写下一个观点或产品想法，系统会从站内资料里找支撑案例，并生成国内外搜索链路。提交后会以“我的笔记”样式加入灵感集。</p>
+          </div>
+          <div class="note-form">
+            <textarea id="noteInput" placeholder="例如：AI导购能不能先从低风险复购场景建立信任，再迁移到高客单品类？"></textarea>
+            <button id="notePreviewBtn">智能搜索支撑</button>
+            <button id="noteSaveBtn" class="primary">加入灵感集</button>
+          </div>
+          <div id="notePreview" class="note-preview"></div>
+        </section>
+
+        <div id="userInsightGrid" class="insight-grid user-grid"></div>
+        <div id="insightGrid" class="insight-grid"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer>Built for AI shopping product research. Public-deploy ready via GitHub Pages / Netlify / Vercel.</footer>
+  <script src="./app.js"></script>
+</body>
+</html>
