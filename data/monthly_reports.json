@@ -4,11 +4,11 @@
     "title": "商业智能体进入架构落地期",
     "summary": "9月最重要的变化，是讨论重心从“AI能不能帮用户买东西”转向“购物智能体如何稳定执行商业流程”。Claude相关蓝图把购物拆成目标理解、约束拆解、商品搜索、证据比较、风险确认和交易调用，说明行业正在从演示型AI走向流程型AI。与此同时，千问/淘宝闪购类案例提示：高频即时场景可能先完成用户教育。",
     "topArticleIds": [
+      "2026-09-03-ai-claude-f643792bd9",
       "daily-2026-09-02-0860bf13512c29",
       "claude-commerce-agent-architecture-2026-09-04",
       "daily-2026-09-01-1531069370f45e",
-      "anthropic-claude-commerce-agent-blueprint-2026-09-03",
-      "daily-2026-09-03-9934a0352cf765"
+      "anthropic-claude-commerce-agent-blueprint-2026-09-03"
     ],
     "productImplication": "本月最值得产品团队做的事，是把AI导购拆成可复用流程模块：需求澄清、候选生成、证据解释、风险提示、价格库存核验、下单确认。不要继续只优化聊天自然度。"
   },

@@ -25,6 +25,29 @@
     ]
   },
   {
+    "id": "2026-09-04-claude-0e332ef34c",
+    "date": "2026-09-04",
+    "title": "Claude 开源电商智能体",
+    "source": "苏哲管理咨询",
+    "region": "国内",
+    "category": "技术架构",
+    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788577636&ver=6947&signature=7swRSvAKgU0pfz9kCOBtRxQYevYiOBzCMWwxfPBde78iBjvUjGlbC2rxjAw8BxcOyu6yTMeo5rIemQmfJ0CFPfNpurBHM7pjP9CratgmJB6c73DTzNxLjTfQfRdWwr96&new=1",
+    "tags": [
+      "AI购物",
+      "交易闭环",
+      "商品库",
+      "技术架构"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 87,
+    "relatedInsightIds": [
+      "trust-ladder",
+      "closed-loop-first",
+      "data-transaction-moat"
+    ]
+  },
+  {
     "id": "2026-09-04-anthropic-447e58cdb9",
     "date": "2026-09-04",
     "title": "Anthropic 重磅推出两大商业智能体:购物助手 + 商家运营助手,开源蓝图助力电商冲刺旺季",
@@ -133,6 +156,30 @@
       "multi-agent-commerce",
       "risk-first-design",
       "contextual-entry"
+    ]
+  },
+  {
+    "id": "2026-09-03-ai-claude-f643792bd9",
+    "date": "2026-09-03",
+    "title": "Claude电商智能体开源了,支付库存还得自己接",
+    "source": "AI源文件",
+    "region": "国内",
+    "category": "技术架构",
+    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788577636&ver=6947&signature=kZIstmVQfrWjIlG1vjcxWoMoT1Kw-%2AetI%2Ak844iI3N8-tupJK1ay8T1UY16bwAv%2AqxUzvStqtApqXEcSus7B1JoOQEm5rRgJxZarI-gyRLY-DP85CO%2AePPkFM1kX73cA&new=1",
+    "tags": [
+      "AI购物",
+      "交易闭环",
+      "商品库",
+      "商家Agent",
+      "技术架构"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 98,
+    "relatedInsightIds": [
+      "trust-ladder",
+      "closed-loop-first",
+      "data-transaction-moat"
     ]
   },
   {
@@ -953,6 +1000,24 @@
     "relatedInsightIds": [
       "multi-agent-commerce",
       "merchant-readable-store"
+    ]
+  },
+  {
+    "id": "2026-08-18-aha-20-fc9a45c80c",
+    "date": "2026-08-18",
+    "title": "支付宝发布智能体跨端互联AHA协议体系，联合千问、华为、荣耀、比亚迪、吉利等20余家企业共建",
+    "source": "封面新闻",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tN05sY004RTZURlBWZkg1Z1VKNWlid29qX1l0S3RsQ202VWE4YVpvTVJpUzRGc2VnWmRldTBZSGQ3OUdsN1luMU9wc3hIR04tMmNkMnRzaXlDM3g3VFlIODIwRkRMNWRxQ3pxV2Ezb1ZKNDZuUlJIeHNn?oc=5",
+    "tags": [
+      "交易闭环"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 72,
+    "relatedInsightIds": [
+      "closed-loop-first"
     ]
   },
   {
