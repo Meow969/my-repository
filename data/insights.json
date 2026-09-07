@@ -15,18 +15,18 @@
       "可执行决策",
       "决策链"
     ],
-    "sourceCount": 149,
+    "sourceCount": 151,
     "relatedArticleIds": [
       "claude-commerce-agent-architecture-2026-09-04",
+      "2026-09-03-claude-ai-13b9df0120",
       "daily-2026-09-01-1531069370f45e",
       "daily-2026-08-30-d22191244e060f",
       "daily-2026-08-28-a458803df2cd95",
       "2026-08-28-ai-ai-b40d9f1500",
       "2026-08-27-ai-3c697caa4f",
       "agentic-shopping-evolution-2026-08-26",
-      "daily-2026-08-23-9ac5af530d0367",
-      "daily-2026-08-19-4e433b148c4222",
-      "daily-2026-08-17-15b0a44055b65e"
+      "2026-08-25-15-ai-677-9de0015868",
+      "daily-2026-08-23-9ac5af530d0367"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、C端AI产品、AI搜索，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-07"
@@ -104,7 +104,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 71,
+    "sourceCount": 72,
     "relatedArticleIds": [
       "2026-09-04-claude-0e332ef34c",
       "daily-2026-09-04-a8839bacba28ee",
@@ -201,7 +201,7 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 54,
+    "sourceCount": 56,
     "relatedArticleIds": [
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
       "2026-09-04-anthropic-ai-0c91eb6e11",
@@ -211,10 +211,10 @@
       "2026-09-03-ai-claude-f643792bd9",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
-      "daily-2026-09-02-0860bf13512c29",
-      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10"
+      "2026-09-03-claude-ai-13b9df0120",
+      "daily-2026-09-02-0860bf13512c29"
     ],
-    "trendNote": "最新复盘：AI购物、商家Agent、交易闭环正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "trendNote": "最新复盘：商家Agent、AI购物、交易闭环正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-07"
   },
   {
@@ -578,8 +578,8 @@
   },
   {
     "id": "auto-current-signal",
-    "title": "最新复盘：AI购物、技术架构、商家Agent正在收敛成产品主线",
-    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是AI购物、技术架构、商家Agent这些能力之间能否互相闭环。",
+    "title": "最新复盘：技术架构、AI购物、商家Agent正在收敛成产品主线",
+    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是技术架构、AI购物、商家Agent这些能力之间能否互相闭环。",
     "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
     "takeaways": [
       "用月度高频信号更新路线图优先级",
@@ -587,11 +587,11 @@
       "避免只追热点发布而忽略交易链路"
     ],
     "keywords": [
-      "AI购物",
       "技术架构",
+      "AI购物",
       "商家Agent",
       "交易闭环",
-      "Agentic Commerce",
+      "商品库",
       "最新复盘",
       "产品路线"
     ],

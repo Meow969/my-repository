@@ -275,6 +275,29 @@
     ]
   },
   {
+    "id": "2026-09-03-claude-ai-13b9df0120",
+    "date": "2026-09-03",
+    "title": "把挑货交给Claude,商家的AI导购到底在看哪些货?",
+    "source": "观测视野",
+    "region": "国内",
+    "category": "技术架构",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788792069&ver=6952&signature=3AZkM5A1q1W79HxsFMA8RbAV8oionztRy1pYqdVUN3g%2ABPZ4rUjeMChhQdgHrYHE69AQc%2AMX0o7kH-5KK09-rcihHC7v5mbqeHcosOtGyvXCSWWUpeFFGPfHOnJHuH-5&new=1",
+    "tags": [
+      "对话导购",
+      "商品库",
+      "商家Agent",
+      "技术架构"
+    ],
+    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 86,
+    "relatedInsightIds": [
+      "decision-os",
+      "data-transaction-moat",
+      "multi-agent-commerce"
+    ]
+  },
+  {
     "id": "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
     "date": "2026-09-03",
     "title": "Anthropic debuts Claude features focused on agentic commerce",
@@ -855,6 +878,28 @@
       "agentic-funnel",
       "multi-agent-commerce",
       "merchant-readable-store"
+    ]
+  },
+  {
+    "id": "2026-08-25-15-ai-677-9de0015868",
+    "date": "2026-08-25",
+    "title": "15秒从AI对话到抖店成交:豆包电商闭环如何改写流量规则,订单暴涨677%",
+    "source": "奇崛数字传媒科技",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788792068&ver=6952&signature=J49pqFc51C8TDaTGzXD4cL-C2h368B0SAP6QvRkwU6snqMX%2AMqbT-1g7sh5AuJDBEEPcssr-jrm8abXVyX4p1Mc%2AEsQ0qXCXfFcGZPFK1ULCPJO1POAxrBx5N2eT1GMh&new=1",
+    "tags": [
+      "AI购物",
+      "交易闭环",
+      "商家Agent"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 78,
+    "relatedInsightIds": [
+      "decision-os",
+      "closed-loop-first",
+      "data-transaction-moat"
     ]
   },
   {
