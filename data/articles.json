@@ -1,27 +1,5 @@
 [
   {
-    "id": "daily-radar-2026-09-07",
-    "date": "2026-09-07",
-    "title": "2026-09-07｜AI购物每日雷达：高质量来源追踪",
-    "source": "AI Shopping Radar",
-    "region": "全球",
-    "category": "每日雷达",
-    "url": "https://news.google.com/search?q=%28AI+shopping+OR+AI%E5%AF%BC%E8%B4%AD+OR+agentic+commerce+OR+%E8%B4%AD%E7%89%A9%E6%99%BA%E8%83%BD%E4%BD%93+OR+conversational+commerce%29+after%3A2026-09-07+before%3A2026-09-08",
-    "tags": [
-      "每日追踪",
-      "高质量来源",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "corePoint": "当天暂未抓到足够新的单篇深度资料，因此保留一条高质量来源追踪入口，避免雷达在信息空窗期断档。",
-    "insight": "对AI导购产品来说，信息空窗也有价值：如果行业没有新产品发布，应把注意力转向已有案例的复盘、交易闭环验证、商家接入质量和用户信任指标，而不是为了更新而收录低质通稿。",
-    "valueScore": 62,
-    "relatedInsightIds": [
-      "decision-os",
-      "evidence-led-recommendation"
-    ]
-  },
-  {
     "id": "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
     "date": "2026-09-06",
     "title": "The Race to Own AI Shopping",
@@ -40,28 +18,6 @@
       "multi-agent-commerce",
       "multi-agent-market",
       "merchant-incentive"
-    ]
-  },
-  {
-    "id": "daily-radar-2026-09-05",
-    "date": "2026-09-05",
-    "title": "2026-09-05｜AI购物每日雷达：高质量来源追踪",
-    "source": "AI Shopping Radar",
-    "region": "全球",
-    "category": "每日雷达",
-    "url": "https://news.google.com/search?q=%28AI+shopping+OR+AI%E5%AF%BC%E8%B4%AD+OR+agentic+commerce+OR+%E8%B4%AD%E7%89%A9%E6%99%BA%E8%83%BD%E4%BD%93+OR+conversational+commerce%29+after%3A2026-09-05+before%3A2026-09-06",
-    "tags": [
-      "每日追踪",
-      "高质量来源",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "corePoint": "当天暂未抓到足够新的单篇深度资料，因此保留一条高质量来源追踪入口，避免雷达在信息空窗期断档。",
-    "insight": "对AI导购产品来说，信息空窗也有价值：如果行业没有新产品发布，应把注意力转向已有案例的复盘、交易闭环验证、商家接入质量和用户信任指标，而不是为了更新而收录低质通稿。",
-    "valueScore": 62,
-    "relatedInsightIds": [
-      "decision-os",
-      "evidence-led-recommendation"
     ]
   },
   {

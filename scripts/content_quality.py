@@ -127,7 +127,7 @@ def normalized_title(title: str, source: str = "") -> str:
 
 def is_search_placeholder(item: dict[str, Any]) -> bool:
     item_id = str(item.get("id", ""))
-    return item_id.startswith("daily-index-") or item_id.startswith("daily-radar-") or item.get("category") in {"每日检索入口", "每日雷达"}
+    return item_id.startswith("daily-index-") or item.get("category") == "每日检索入口"
 
 
 def is_ai_shopping_related(item: dict[str, Any]) -> bool:
