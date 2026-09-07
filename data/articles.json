@@ -27,7 +27,7 @@
     "source": "架构师之道",
     "region": "海外",
     "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788505526&ver=6945&signature=gu0hDtZanTcNToTMswx9jx8qnPa690hXkB32R2rgnW6UTZ9JRXtDru9AeNK3k6E6ZzsFI4%2AHXZZGvnbeGuG5sQdyrhydi0vQdTmMdgV4Sa3MQaXzJx2KTyjNPE0HvzHz&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505526&ver=6945&signature=gu0hDtZanTcNToTMswx9jx8qnPa690hXkB32R2rgnW6UTZ9JRXtDru9AeNK3k6E6ZzsFI4%2AHXZZGvnbeGuG5sQdyrhydi0vQdTmMdgV4Sa3MQaXzJx2KTyjNPE0HvzHz&new=1",
     "tags": [
       "商业智能体",
       "购物流程编排",
@@ -52,7 +52,7 @@
     "source": "苏哲管理咨询",
     "region": "国内",
     "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788577636&ver=6947&signature=7swRSvAKgU0pfz9kCOBtRxQYevYiOBzCMWwxfPBde78iBjvUjGlbC2rxjAw8BxcOyu6yTMeo5rIemQmfJ0CFPfNpurBHM7pjP9CratgmJB6c73DTzNxLjTfQfRdWwr96&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788577636&ver=6947&signature=7swRSvAKgU0pfz9kCOBtRxQYevYiOBzCMWwxfPBde78iBjvUjGlbC2rxjAw8BxcOyu6yTMeo5rIemQmfJ0CFPfNpurBHM7pjP9CratgmJB6c73DTzNxLjTfQfRdWwr96&new=1",
     "tags": [
       "AI购物",
       "交易闭环",
@@ -69,35 +69,13 @@
     ]
   },
   {
-    "id": "2026-09-04-anthropic-447e58cdb9",
-    "date": "2026-09-04",
-    "title": "Anthropic 重磅推出两大商业智能体:购物助手 + 商家运营助手,开源蓝图助力电商冲刺旺季",
-    "source": "光谷一路",
-    "region": "国内",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788517847&ver=6946&signature=fq8KsqJSloP2RTGvyatgW7rwYB9BlhDtRbCx3xU4J35KFMKRLbzLh-AWgdvs%2ARjbtwfee4NrzhFd6-z90bBeS1JYZMjMsWwm1%2AAtvPtWtAPJabEIm7ujotrBzbt-8r1u&new=1",
-    "tags": [
-      "AI购物",
-      "商家Agent",
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
-    "valueScore": 82,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "multi-agent-commerce",
-      "multi-agent-market"
-    ]
-  },
-  {
     "id": "2026-09-04-anthropic-ai-0c91eb6e11",
     "date": "2026-09-04",
     "title": "Anthropic发布两套AI导购蓝图:真正的门槛不是会聊天,而是商品数据能否被机器读懂",
     "source": "智能边角料",
     "region": "国内",
     "category": "趋势框架",
-    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0msobvPGDH_FAid_8LMVi_A1qXa8Fplpd9nBcrFE9amCBjyS9oOXMmZWkZRp4Y8wmZ0U-a2cD8qcr5ELB1P9wL3OIqQJ_0l9bhLf1jEcGO5MuFW9KyC9F9SqUnbde8Psmizla66twJ2yd23w7aOcizVCCjl_eOeKVwVqmhP-oEV3w-SyNmmHOpBb4_oBLgLEICP001xMTVr6NOJBjQH7pCxQ..&type=2&query=AI%E5%AF%BC%E8%B4%AD+%E5%95%86%E5%AE%B6&token=D9BABDBCEDDB44E6DED88478EBC7C68EDF6251F46A9AB624",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791339&ver=6952&signature=7TYX0C8dmUYy4b-1EPrtlWBnK5HmNc9MApoPiBzmRI5-zx8xseK6BDoszDRlPpLD-V-F1W4NaWcmDy1EehDJ5qaLyPP91cCwGb85ALyRObHGeGyugCNrERfWU5GvzKQR&new=1",
     "tags": [
       "对话导购",
       "商品库",
@@ -113,13 +91,35 @@
     ]
   },
   {
+    "id": "2026-09-04-anthropic-447e58cdb9",
+    "date": "2026-09-04",
+    "title": "Anthropic 重磅推出两大商业智能体:购物助手 + 商家运营助手,开源蓝图助力电商冲刺旺季",
+    "source": "光谷一路",
+    "region": "国内",
+    "category": "技术架构",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788517847&ver=6946&signature=fq8KsqJSloP2RTGvyatgW7rwYB9BlhDtRbCx3xU4J35KFMKRLbzLh-AWgdvs%2ARjbtwfee4NrzhFd6-z90bBeS1JYZMjMsWwm1%2AAtvPtWtAPJabEIm7ujotrBzbt-8r1u&new=1",
+    "tags": [
+      "AI购物",
+      "商家Agent",
+      "技术架构"
+    ],
+    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
+    "valueScore": 82,
+    "relatedInsightIds": [
+      "trust-ladder",
+      "multi-agent-commerce",
+      "multi-agent-market"
+    ]
+  },
+  {
     "id": "daily-2026-09-04-a8839bacba28ee",
     "date": "2026-09-04",
     "title": "资本疯狂押注！AI购物助手崛起，颠覆电商支付行业",
     "source": "Sohu",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeno1QTZwbGl6NmlZNHpyS3NNOXl6cm5VUGY4OUlpenFWZHNkUDQ1LW9GSGFreXgwVGJpSnRocGE4czlQVFExSURZQmN5Ymxhb0NPajNHSHVoN0J1M0EtSVMzejl6R0kyUnE0TFNpajZCNU9GYjVIdW01bXdfMVhWNEJOV042T2M2YUl2QQ?oc=5",
+    "url": "https://m.sohu.com/a/1071863135_122157682?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
     "tags": [
       "AI购物",
       "交易闭环"
@@ -141,7 +141,7 @@
     "source": "时局掘金笔记",
     "region": "国内",
     "category": "趋势框架",
-    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0msobvPGDH_FAid_8LMVi_A1qXa8Fplpd9kzqyy9AstsCnAYPpcw6qeFmzibPxOZNZCIjWB_2Po5fISWwxTWSK88ZlAs9TwcdXPuyVR7ikpCwCKNvmpvlJMguGQzgZMuNZVEgpIHiV4eRfQ_hsejeBDliDNMDxFVAxg4-CQDeJp79wKdVmJ1Ua7bgQZ0IwYYEynn0oC-QR85ZhWLv6O878UA..&type=2&query=AI%E5%AF%BC%E8%B4%AD+%E5%95%86%E5%AE%B6&token=D9BABDBCEDDB44E6DED88478EBC7C68EDF6251F46A9AB624",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791340&ver=6952&signature=4eWQ6Df-mhfv5V-Xo9Dl1ug7CYCywQtTrnU5d52rOSvPDnzQqrdA0%2AUSqQU0%2AqydsiUJg96l5TGCnZdiYj%2AbH3NDyYbLemNIKyPrPr8NZHNzAUyvdyD8y1Et9HSTCi%2AA&new=1",
     "tags": [
       "对话导购",
       "商品库",
@@ -163,7 +163,7 @@
     "source": "PaymentsJournal",
     "region": "海外",
     "category": "技术架构",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUXRoRGJreFhlM0ZGc0ZvZE1IRjZBdDZHTVBqVVRzaW4wWE82U1NwakpTQ1BSZmVhTTFza19uZ0h5TFVBS0YxQVdtb3NidmNRbmpxbXNvQ3dHZTUxSlhmTjBmOGxxZDFaa0t1VmZvXzRSdkEwWHAzNmthakxscjFHTlFPeGhsM0pFNGNKallkMjNtQTNfMmo0SVFEM2pzNHfSAZ8BQVVfeXFMTVF0aERia3hYZTNGRnNGb2RNSEY2QXQ2R01QalVUc2luMFhPNlNTcGpKU0NQUmZlYU0xc2tfbmdIeUxVQUtGMUFXbW9zYnZjUW5qcW1zb0N3R2U1MUpYZk4wZjhscWQxWmtLdVZmb180UnZBMFhwMzZrYWpMbHIxR05RT3hobDNKRTRjSmpZZDIzbUEzXzJqNElRRDNqczR3?oc=5",
+    "url": "https://paymentsjournal.com/anthropics-merchant-blueprint-a-key-step-for-agentic-commerce/amp",
     "tags": [
       "Agentic Commerce",
       "商家Agent",
@@ -186,7 +186,7 @@
     "source": "AI源文件",
     "region": "国内",
     "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788577636&ver=6947&signature=kZIstmVQfrWjIlG1vjcxWoMoT1Kw-%2AetI%2Ak844iI3N8-tupJK1ay8T1UY16bwAv%2AqxUzvStqtApqXEcSus7B1JoOQEm5rRgJxZarI-gyRLY-DP85CO%2AePPkFM1kX73cA&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788577636&ver=6947&signature=kZIstmVQfrWjIlG1vjcxWoMoT1Kw-%2AetI%2Ak844iI3N8-tupJK1ay8T1UY16bwAv%2AqxUzvStqtApqXEcSus7B1JoOQEm5rRgJxZarI-gyRLY-DP85CO%2AePPkFM1kX73cA&new=1",
     "tags": [
       "AI购物",
       "交易闭环",
@@ -210,7 +210,7 @@
     "source": "比特拈花",
     "region": "海外",
     "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788505523&ver=6945&signature=77MffL8cCzZL59RNu%2A9XQtveafuq5Skxu1JQSWgxSFVPSBhq07TMf3SFYSPyir4hYdmIBbKYlig2cI51IN0pKRq%2A6uDi4sofeFv7dcSh14aZo5TjInr7P4CIo8tc3j9J&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505523&ver=6945&signature=77MffL8cCzZL59RNu%2A9XQtveafuq5Skxu1JQSWgxSFVPSBhq07TMf3SFYSPyir4hYdmIBbKYlig2cI51IN0pKRq%2A6uDi4sofeFv7dcSh14aZo5TjInr7P4CIo8tc3j9J&new=1",
     "tags": [
       "多智能体",
       "商家Agent",
@@ -235,7 +235,7 @@
     "source": "QQ News",
     "region": "国内",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGeVhlVjd2bG43aGlmZW9ZN1NDbUlJV05oWHVsTVJTb294enZEM0RJTGxTak9ZcEFaV19VMjRwQm5rMmZYRGEtbjk4ejNYZzZIYk12M1dB?oc=5",
+    "url": "https://news.qq.com/rain/a/20260903A07I7F00",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -259,7 +259,7 @@
     "source": "逐鹿实验室",
     "region": "国内",
     "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788750094&ver=6951&signature=pHDhbYxSo5H4fnomLJ2CVSb2xCNHsxpYi-ju%2ATXpMH6vk65q%2AwpzTQWG43sK3Ww-V5%2AMvlQR7sMWdFmga9Ip2IbZiM2qsjYxr1gvbOfaF7MfPYN17m7rEqOno4VOIw7b&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788750094&ver=6951&signature=pHDhbYxSo5H4fnomLJ2CVSb2xCNHsxpYi-ju%2ATXpMH6vk65q%2AwpzTQWG43sK3Ww-V5%2AMvlQR7sMWdFmga9Ip2IbZiM2qsjYxr1gvbOfaF7MfPYN17m7rEqOno4VOIw7b&new=1",
     "tags": [
       "AI购物",
       "交易闭环",
@@ -275,36 +275,13 @@
     ]
   },
   {
-    "id": "2026-09-03-claude-ai-13b9df0120",
-    "date": "2026-09-03",
-    "title": "把挑货交给Claude,商家的AI导购到底在看哪些货?",
-    "source": "观测视野",
-    "region": "国内",
-    "category": "技术架构",
-    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0msobvPGDH_FAid_8LMVi_A1qXa8Fplpd9EdWPSb0V-2F6KQSPBh-BOT0wMqkXVtb9DUUHAJRYbo3UoVy-Jlf4WG704EO_Zzm9EM7KqL6ILJT3GQGcD4C9Vc4fkOnS1373UX_w9bv2OUJwWtlW5f3Qrk3KBatRC9LLkoA0V5LiOOMJhP7W5AIBUGfMO-Qtc0JEXRehriQK8oSfxjh3za6jWA..&type=2&query=AI%E5%AF%BC%E8%B4%AD+%E5%95%86%E5%AE%B6&token=D9BABDBCEDDB44E6DED88478EBC7C68EDF6251F46A9AB624",
-    "tags": [
-      "对话导购",
-      "商品库",
-      "商家Agent",
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 87,
-    "relatedInsightIds": [
-      "decision-os",
-      "data-transaction-moat",
-      "multi-agent-commerce"
-    ]
-  },
-  {
     "id": "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
     "date": "2026-09-03",
     "title": "Anthropic debuts Claude features focused on agentic commerce",
     "source": "Digital Commerce 360",
     "region": "海外",
     "category": "技术架构",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVF9TNVNRaFVmcHh4RkhHcmdtelItMzBtSllwVXpjVUg2NkRYaGMxZ3JRNE5RcjlyNTVaS1BKZ25CMUJMYTlUTmpCd2NlWVozRnpoRmFLZmN3MjdTODBNbFNNXzVSXzFKT24weDBkT3FvTFNEd0QzRDQ2TGwzb2ZCYlZKR1c4RFpxMFg4anhzeTRwTE4wdFVrUjJ4SDFmV004Q1BXVENHRWFsS2_SAbABQVVfeXFMUGctdEF2Z29RdWxoejM5T2JqOTRDM0E5bHFsVTRMMDZQb2prYkJtczhBVl9VQUdLdThwa1VHYU1IUlFjQkxVMWNsckRLQkFQTmppYWdiNHVBekdERTUtNUFCelJyWEo1bXozVkU5elp0akV0S2xGMWNYNXg5TGNzTEJ0a0VLcllid3NRSEVwVTUtOGo2dWhTcmU5aEhFQ3FuUDdCby04NC1mT3BZT0t3alc?oc=5",
+    "url": "https://digitalcommerce360.com/2026/09/02/anthropic-debuts-claude-features-focused-on-agentic-commerce",
     "tags": [
       "Agentic Commerce",
       "技术架构"
@@ -324,7 +301,7 @@
     "source": "biometricupdate.com",
     "region": "海外",
     "category": "技术架构",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ1RqRlU4SWxPLVFJeTJiNmh6RExMZ05IcF8zSlA3czNKcHc1X0JXNTVYRVhwMVpsQmtsX25abDluZEdkT0FQMlZIeTRTSTUwLWkxYjR1SVJMMWNoQkF2cDVPclpwdlNZN185Q3VhdzhMQUFpUWd6dUl3TWRJQ3E4WVJfS3RnaWJDb0tSSlM2WHlIbWpYUWVOaElVM0hNWlZxUlY2Y2puOHR4QTJWMERzMXdOam4zakRSX2plcA?oc=5",
+    "url": "https://biometricupdate.com/202609/anthropic-pushes-claude-deeper-into-agentic-commerce-as-identity-standards-evolve",
     "tags": [
       "Agentic Commerce",
       "技术架构"
@@ -346,7 +323,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "技术架构",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalA4cjZfODdITEUyU1hnbGdlRjFsRG52akhqQTg4WmZ3Y20tUjN0TjhpVEU4bzN0UmNrR2dnZXRoaUlRZEdKWUtpX1JCRTExNVFqUUgzUHI5aGEyWHVPYzFxQzY5UDh1VTZ5UzZXMkZicUVBRVZPeVVSbXlQS3BOQ0JXNGRVaW1JMWlGdkVGWUtJRkNtcjhCS1BKRmFMM0hNV2RCb3lOQ1NuSFZ6Y3JEdE51SGxxTWs?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/anthropic-gives-retailers-blueprint-for-ai-shopping-agents",
     "tags": [
       "AI购物",
       "技术架构"
@@ -365,7 +342,7 @@
     "source": "The Verge",
     "region": "海外",
     "category": "技术架构",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUTQzRmk3d2JRWHoyeWtHelBmM0tiMnZKX2lKcDhrYWF3TzBEa2pHVUtxcENQanZGVU9remJ1OVNMa0wxNVBOUkdtdE9fVERuSHE2M2hHbnI3V3pwNUFxTTB4ZjR2YWZ2akFfaGZTRmNrQmg3VUJuZlpFbDRVV3NjaE1XSkNVckw2T2U1ZEJKTmVGN3RL?oc=5",
+    "url": "https://theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
     "tags": [
       "技术架构"
     ],
@@ -383,7 +360,7 @@
     "source": "深潮TechFlow",
     "region": "国内",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1b1FKWFdlemhzQTZ2WUltdnB2VFdMb255OXRxR2otalRfZ1V1djFHRng3Z0tCYWpPNWt5Yzg0bGdTUDJfQmU3dk05eHNCblpycjdCWg?oc=5",
+    "url": "https://techflowpost.com/article/33711",
     "tags": [
       "交易闭环"
     ],
@@ -404,7 +381,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSkc4WFpEUXN5SjNiclpNLU9YNHpteV9XRkxXb1Z0Z01wdzFpamZ6MlBIcVR4Q0VpVEhiTGJQUnBQWEZ0b1JPTVRINTJsdDBya1JfWURrZS1vUWhQMGhTRWtKMHhKTTJCS1dJaVlMcjlUVnEzUG5POThmUWZ4bmFGcFRKMnZmUlp5Tm51d2ZjeDFieGxUZE1FQVM4Ny00RVpQY2ZPM3JmRXNVWFVoRjAxUUY5czVHU185UEJoQmd2U1lycVhKOEt0MjE0X0E4dVRk?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/how-23-percent-of-merchants-captuared-retails-next-agentic-commerce-advantage",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -426,7 +403,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWmtoT0RESldMdU4wS1VEblh4RWw5Y0RBS2NmSzRtNm4wbXdwM2Y2dE5LRHFnY0ttdjVsc1pVNnl4dXZnbDFJU19fSVd6dlpOTWxmQzZFcEwyZXNsMm9hUDJtYVlRTDZHRWhmblBOWDdyN0MtMllTRHBXUXVJUWNab2FJdHBQbHZQVzVrcHR2ZXVlWFN0UjlzYlY4b3V6Z181LVM4cU1wY2M4Wlo4aFFvRDNoYw?oc=5",
+    "url": "https://pymnts.com/commerce/ecommerce/2026/agentic-payments-turn-bot-traffic-into-a-merchant-revenue-channel",
     "tags": [
       "Agentic Commerce"
     ],
@@ -445,7 +422,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVjA3VE1wanlrU3hueXY5ay0xVmoySkE1RllEbHhBNmwycVdaZjBuV0tNaWl4YWVmNVdPc2ROTnQ3QjR6Mk80WVJraFphSmFWcFB2eEVYS2xoUHhiSmFPcUk3ak8xOV9fbDRGcE56cTNBS2dwVmowcTY4YVIwNVkzcTlWdXRraloyeVFoeEdoaHJJRkluZGtRRkNGbUxMR2JFVHBSSktySmpzMlhiNU9FMUZSbXkyR0E?oc=5",
+    "url": "https://pymnts.com/commerce/social-commerce/2026/youtubes-amazon-deal-pushes-social-commerce-closer-to-checkout",
     "tags": [
       "交易闭环"
     ],
@@ -464,7 +441,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83ZHlGTnE4RUE3aHZmVnhMLWdyNXNuaUlfeFJxTXl0LWhKc1FseDFwWnJLbEhHYlVlRDZBTzRYSW9pXzZtcGF1Z0hfRE5BTFk2b2ktUmVjNXlVN3gyZ2NCY21RQkNldy1sdVl2Ym9CUXl0QWZlX3oyWGRzTVk?oc=5",
+    "url": "https://pymnts.com/study/how-acquirers-prepare-for-agentic-commerce",
     "tags": [
       "Agentic Commerce"
     ],
@@ -483,7 +460,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb090UVQyOFZlQnJqSS1RSUl3Z01RNmN6YXdMM1hyRG9rOFFDcE5uXzE3UF90YjBtOHhvLWhXYUFtZXhQSlFMZDhoUHprMVg4aUJXaHZ4ZUNJSHU0d2pWam9Nb3pQUV9sLTRRbmxrcmZYanlVNWNBQmVFUjR4bEFTd0dzZVVpeHF1R1JydVBxaFRFZw?oc=5",
+    "url": "https://aboutamazon.com/news/retail/how-to-verify-amazon-messages-alexa-for-shopping",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -502,7 +479,7 @@
     "source": "商学同砚社",
     "region": "国内",
     "category": "用户行为",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788505531&ver=6945&signature=C-zMvSowb1Iajr-pjZPd9YIbC1Rb-H1kYxIiaG44YYOiRC6mBePK0jhPkEV%2A4Qc%2AU%2Ap5y82enNwqbnT6LcVTQeV0EubvoYvTc4CLMr%2AfgaGWPHtq6KGWZcBYJ33H9mO5&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505531&ver=6945&signature=C-zMvSowb1Iajr-pjZPd9YIbC1Rb-H1kYxIiaG44YYOiRC6mBePK0jhPkEV%2A4Qc%2AU%2Ap5y82enNwqbnT6LcVTQeV0EubvoYvTc4CLMr%2AfgaGWPHtq6KGWZcBYJ33H9mO5&new=1",
     "tags": [
       "即时零售",
       "复购",
@@ -527,7 +504,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "增长/GEO",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWE1Ya25qanVGQWhFU19ucXhwUGpQMEFJMmxEWkNiczBnUGdKNGI4UVNEUmM5em5idFFmc3dhdzZFT1JEMVcxTEE4cjFkR0RtOFVUeFlTYWN2elN6bUk4ZEpUVUVjYUk3UjBIZThxb0VCRGJjNWNNeUZfV2xyUkNudGY0SzZkVXdmV2VvcUozTQ?oc=5",
+    "url": "https://retaildive.com/news/walmart-fulfillment-center-Carnesville-georgia/829071",
     "tags": [
       "GEO"
     ],
@@ -546,7 +523,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSnFvZ2oyd0RzVHA0RVpzVmdhenN6RG1PbXo1ekJHNG1xcHdmYWdBS3NRandfRWtIWXBqa3FRVnhCdHh6VGxVTi1Pckl4Y1R2VlBjYzZYQnk5MXdqRTJKdnduNnh5Sl91SS1rZE53RGMwMS1pM3BWUm5CVFZzeUdRYl9qUGhmYWZwY3JFYVdPMA?oc=5",
+    "url": "https://pymnts.com/study/global-digital-shopping-index-agentic-commerce-deep-dive",
     "tags": [
       "Agentic Commerce"
     ],
@@ -565,7 +542,7 @@
     "source": "商业六和岛",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788513670&ver=6946&signature=SexVhYyXtc1xLOiVgMZISyVe2JoxPxUccEW0Fhucn44KADZlAIHkA6HLLou6tmC0q46M9puur3PSogw2igAe3D6K1axAZ5GNBic475OQ5In2xfIePJ3oN6zYGXhUseg3&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513670&ver=6946&signature=SexVhYyXtc1xLOiVgMZISyVe2JoxPxUccEW0Fhucn44KADZlAIHkA6HLLou6tmC0q46M9puur3PSogw2igAe3D6K1axAZ5GNBic475OQ5In2xfIePJ3oN6zYGXhUseg3&new=1",
     "tags": [
       "AI购物",
       "对话导购",
@@ -588,7 +565,7 @@
     "source": "老纳99",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788750100&ver=6951&signature=dlr3XKXCZ5vMoT8GNGbAC7hxPaD6AHWjjlFslFaS7dGlJBVpkWLLcoDAMltgi%2AP1xsBqjl66pDk%2AsFQqzkPOPZ-H-fnSukBm1QPVurXogV2KJdqBi%2AFLKLe6Ydb9wgHX&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788750100&ver=6951&signature=dlr3XKXCZ5vMoT8GNGbAC7hxPaD6AHWjjlFslFaS7dGlJBVpkWLLcoDAMltgi%2AP1xsBqjl66pDk%2AsFQqzkPOPZ-H-fnSukBm1QPVurXogV2KJdqBi%2AFLKLe6Ydb9wgHX&new=1",
     "tags": [
       "AI购物",
       "交易闭环",
@@ -610,7 +587,7 @@
     "source": "36 Kr",
     "region": "国内",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiZ3VWdGdPMXptNlVFVDA5ZjJxSnpzWkFWb2U5XzZTY0tmbV9qQmdiOGRvQ0t0a0JEamxCbGswWkZ4R05QQkFtenpCOEQ4cGZ6VkxB?oc=5",
+    "url": "https://eu.36kr.com/zh/p/3960183470947465",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -632,7 +609,7 @@
     "source": "The Motley Fool",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYWN3cnBzaEs0d0NnQlpVWjhUYUVBaF85UmR4Wm1GZHpHRUlXeWNnMERMbEJoUXpackNkSFNnclpTdGktU0lBMlg0SjF4VTU3YXJTLUJCMDJLZ2pNMTUtS1RoTktGaHRaX21ESzF2NXpQZjdjZDhPdnZ4aUxmelduYndKOElOYmVlRTNuZlRYQkVvNm5ONnlhS1lNVDNLRXpYaVhSbFJ0RFVVWnJna1FBUkl4VzBjdkNua3U1ZFdzVk5vZUlUemtibFc4TkZHaWF6eHJHWUFTQWpfaHc?oc=5",
+    "url": "https://fool.com/investing/2026/08/29/mastercard-ceo-ai-shopping-agents-machine-to-machine-payments-and-the-new-infrastructure-of-commerce",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -655,7 +632,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS3BHLUNyTVR0NXhkTHFSTnh6NHE2UFhBYkFQOXhzUFAwbmVYTVVnM2E1MERRSEZ1MVFvdU9KRURSU0NxMXZ1Z2FVdzVwOGVOeVZ2RllYZ29wSXpIZTlhVDc0Q1FFUUlqOHBZUEJwYkxaUWkwTjN0MnF3amU2aWlmeU9oVy1fbnBIa25TR2E2V0RQLVFCQTRQbXEyTE5hX28?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/chatgpt-now-helps-you-pick-a-credit-card",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -674,7 +651,7 @@
     "source": "微三云AI",
     "region": "国内",
     "category": "技术架构",
-    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0mpqfup4FZ8dwid_8LMVi_A1qXa8Fplpd9jE_9vRvij1oRG0pWn7EJPkSy4eBtWAAboC96dB9rpKmAAasWZcAGWMKQmM5gD8O2fBf3Pl0xLV0Z-2xsX3lM5_FZNn4gZYgpez-ngxgp2mh8Scq6Dj0hRQFRHRSvVExDj85XEWi3TZ5sY6YIoMoZgf-MxuKqG_UI_3EyCAGbwTNj32-j2KiwUw..&type=2&query=AI%E6%90%9C%E7%B4%A2+%E7%94%B5%E5%95%86&token=D9BAC1F3EDDB44E6DED88478EBC7C68EDF6251F46A9AB624",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791341&ver=6952&signature=4QyT0Npg8vT43CdWb79EDEukq1LF7iMufIprgepzLYo%2Ao5lWbh8QIGFghKqBO1lDqURC5ReCuwLzrc%2Abz0gM5cf8oDc4CcG1HjtjV%2Aj5sLU%2A0niPR3aXG2aukE8Wl8a9&new=1",
     "tags": [
       "GEO",
       "技术架构"
@@ -695,7 +672,7 @@
     "source": "Digital Commerce 360",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaEduOVlicjh2M3hpa1pkMDlEM0F5Rmhwck5mc05HNEVXVkZnU0lfTzMyWmFTTFROMkVkS3dKaFFDb09KV0dqaThNRTVQaUd1bXRHek5weTJwZzQtN0FvVWhYbjM2ZHI0LU0xVW5SNW1oaGlxUTJ0cngtSktfVHhYYVc3aW81V1Fud1ZqaGNsUmNfQmlmTWlidnFleE1XZjFLUWRvdnU4enVWdFo5ZmxIeWVGX0hBTl8xNk55cExuTjBLVVhC?oc=5",
+    "url": "https://digitalcommerce360.com/industry-resource/ai-spotlight-enabling-purchases-while-stopping-fraud-in-agentic-commerce",
     "tags": [
       "Agentic Commerce"
     ],
@@ -714,7 +691,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTlVsc3dsRWhGamZaRk1Eeko0RXY2Qi1SZ29ycDU1WXk1cXdlWWhxS2dFZldjYmpJTFE5UENvdm9ZZEJ5S29YaDg3dHZjLW00LW1BTmZ0ZERUZ2pSMFZnSnJyZS1RV09IbUhNZnBDdk9FamVERjY0Zy0wY3NYVzVrN0FfTWF2ZGlEREdnNXJ3VkVXbWNtQ05MTlVzaHZ4SGZhazNyRVhlSDBFdw?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/synchrony-says-ai-has-put-every-checkout-in-play",
     "tags": [
       "交易闭环"
     ],
@@ -733,7 +710,7 @@
     "source": "流量蜂传媒",
     "region": "国内",
     "category": "增长/GEO",
-    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSwhtXwx_nmkIOnWIXd85ZN6MMsvwLVrY4VqXa8Fplpd9QoIEtJ9uy5GQwC7bBC6oxd2IydwTVPDbcQ5PZlP1KWPnetQHt3J3oq8bjW5gA7A_7IaQA2NXcN1XtGtS-zItx9EJSl7CW6t3Ta-CJlj5Bmr2O36BhQU6Ge2wJMOogL4pOluA60vvc5jDWzIcg5eU9I887LvvsA453oAlOkmJif4SYTqT4eyLmA..&type=2&query=AI%E5%AF%BC%E8%B4%AD+%E5%95%86%E5%AE%B6&token=ED0FEDA77AE5BB1F71772AABA4AD2FE871C4AC906A9E2914",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791341&ver=6952&signature=%2AYCG6mEVvFnGuFH5%2ACm8RCVwKxDx6pXNQaJpLrTJVwlfY5c6OdGiYm9XuTFEtP2lihoRCtW6QKrDjOZnUOcS55Fx0p%2AielupjBlLD7wRvYNfx0tpqVwEd8XEP5nIysQV&new=1",
     "tags": [
       "对话导购",
       "GEO",
@@ -755,7 +732,7 @@
     "source": "灵工研习社",
     "region": "国内",
     "category": "趋势框架",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788505514&ver=6945&signature=SLqsHMcstHoAPq2Ldzi%2ABvdjQcNzQllZU4pPOf3wKKUiYVX5wHI%2AeoojN-xWONtmrq3K1JSKVCxy8wc8TXq72Hn7HXwPDHGq%2ATC4hHqrK5dsdkTsboA2jdxZx-Ur37Vk&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505514&ver=6945&signature=SLqsHMcstHoAPq2Ldzi%2ABvdjQcNzQllZU4pPOf3wKKUiYVX5wHI%2AeoojN-xWONtmrq3K1JSKVCxy8wc8TXq72Hn7HXwPDHGq%2ATC4hHqrK5dsdkTsboA2jdxZx-Ur37Vk&new=1",
     "tags": [
       "智能体购物",
       "代理购买",
@@ -778,7 +755,7 @@
     "source": "InfoQ-CN",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5bnY5Wi1lWS03SVFYaFQ3RU43UVNJVHVLcG9NZjVhdERwUE45V08xMXF2WUNyZjdjdXhGd1ItajFzbFhEUUs4WXk3NnFWeTRzc3dmdEpRRnVKc01NUGc?oc=5",
+    "url": "https://infoq.cn/article/8ouuK09WuWA7Up35W9vb",
     "tags": [
       "购物智能体"
     ],
@@ -799,7 +776,7 @@
     "source": "达达推歌",
     "region": "海外",
     "category": "技术生态",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788505539&ver=6945&signature=FzQW5wql6CLuKn6nXboykF6oCa99WoU8qPEa1xFVHsWgnm94%2AF4Os831e8VptitMo8rtVIOkrK-nOFoXUndwVuAlFvIqLSfldJljBaI-uLDJHGU1dcfQ6F9loshIyXMK&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505539&ver=6945&signature=FzQW5wql6CLuKn6nXboykF6oCa99WoU8qPEa1xFVHsWgnm94%2AF4Os831e8VptitMo8rtVIOkrK-nOFoXUndwVuAlFvIqLSfldJljBaI-uLDJHGU1dcfQ6F9loshIyXMK&new=1",
     "tags": [
       "OpenClaw",
       "Meta",
@@ -824,7 +801,7 @@
     "source": "Stripe",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CZTRydmdZcktXUFJxOS02YmpqUzU3aFhHN1NzU0NoYmxDOXJqMy16cWVkWVljTTdkVmp1Y0xRalhFeDAzNEpQRkJLMi02WXBpUHFCVzh5dHJHVFE?oc=5",
+    "url": "https://stripe.com/se/customers/wolf-and-badger",
     "tags": [
       "Agentic Commerce"
     ],
@@ -843,7 +820,7 @@
     "source": "GEO优化实战派",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788513670&ver=6946&signature=gurmKlvcu8nCHl4Kk8o3b%2AL-ajSyazNuAmMBBaEPhpjy0mIZRJy5XWxxJa-tSzoORmHxm6InbDMSr%2A42BJrZl4BmZXJQaoTSSZzaAy8AQOphWZ4rphLP3MBy66qBXScz&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513670&ver=6946&signature=gurmKlvcu8nCHl4Kk8o3b%2AL-ajSyazNuAmMBBaEPhpjy0mIZRJy5XWxxJa-tSzoORmHxm6InbDMSr%2A42BJrZl4BmZXJQaoTSSZzaAy8AQOphWZ4rphLP3MBy66qBXScz&new=1",
     "tags": [
       "AI购物",
       "交易闭环",
@@ -865,7 +842,7 @@
     "source": "神神叨叨的EK",
     "region": "国内",
     "category": "行业动态",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788513673&ver=6946&signature=Xt1%2A4uHFbth8dM-ZvdUndWM5owi3KwavYOm4bHEKsPZBA4NTtPbKeUHRyipKmF8JmhzpSuXj2GYKMyOseKVWOzinvCpfqMtqWO19f7H-zWj1PFiPaXW8xdw%2AN2g-ESBT&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513673&ver=6946&signature=Xt1%2A4uHFbth8dM-ZvdUndWM5owi3KwavYOm4bHEKsPZBA4NTtPbKeUHRyipKmF8JmhzpSuXj2GYKMyOseKVWOzinvCpfqMtqWO19f7H-zWj1PFiPaXW8xdw%2AN2g-ESBT&new=1",
     "tags": [
       "Agentic Commerce",
       "交易闭环",
@@ -881,35 +858,13 @@
     ]
   },
   {
-    "id": "2026-08-25-15-ai-677-9de0015868",
-    "date": "2026-08-25",
-    "title": "15秒从AI对话到抖店成交:豆包电商闭环如何改写流量规则,订单暴涨677%",
-    "source": "奇崛数字传媒科技",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YBoZVHco0mTGC7fMYO-mgid_8LMVi_A1qXa8Fplpd9HhrQRx7G3Dq-I313g1uUEebg-iuWHskb6U98KA4EfDQ6CB6aSLxPUGxCAr7qyZlkeBaHgJlKUgPei4y5zgcrUEixLrgQaZJuBRn5XjYpL33AkqmenPbm000v7pQvbdiEp4Wdbs2upMzUXfbkuqVVaKaxsVwwcjTU39sbHmYp0a3zAjcIGepUqA..&type=2&query=AI%E8%B4%AD%E7%89%A9+%E4%BA%A4%E6%98%93%E9%97%AD%E7%8E%AF&token=D9E4295B9BAB3597AFA9F5081BD69347AFB2EFC96A9ABE7C",
-    "tags": [
-      "AI购物",
-      "交易闭环",
-      "商家Agent"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 79,
-    "relatedInsightIds": [
-      "decision-os",
-      "closed-loop-first",
-      "data-transaction-moat"
-    ]
-  },
-  {
     "id": "2026-08-24-aigc-ai-16-73e4eab311",
     "date": "2026-08-24",
     "title": "购物下单先问AI ?但它只有16%的准确率",
     "source": "赛博棱镜AIGC",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788513672&ver=6946&signature=j1AVXHBbur55Y1XofhfQCdO6OUfCxPU6oCOAiTqjTarwEkemGeuvzNA-yMOWoJOP9IiEKxZ5g56PdzxyNdb2vBKCx9nN09cmj0gNpdYjpugW7P7G%2AvuQxuhj5orkgQpT&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513672&ver=6946&signature=j1AVXHBbur55Y1XofhfQCdO6OUfCxPU6oCOAiTqjTarwEkemGeuvzNA-yMOWoJOP9IiEKxZ5g56PdzxyNdb2vBKCx9nN09cmj0gNpdYjpugW7P7G%2AvuQxuhj5orkgQpT&new=1",
     "tags": [
       "AI购物",
       "交易闭环",
@@ -930,7 +885,7 @@
     "source": "Elena的AI营销笔记",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788513671&ver=6946&signature=rp9rx5-4kHPEBUrVyU%2AOpFntxyL8HCUSTetaSlZ-gzkKlE4sQUqQN5FYDy%2AntnGxPAWNRxTtYb1lNGa6d-F1Hn6j4NHKqt0ricSg4ah6kvOqLn7qxeA-czDNRtc-h5bY&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513671&ver=6946&signature=rp9rx5-4kHPEBUrVyU%2AOpFntxyL8HCUSTetaSlZ-gzkKlE4sQUqQN5FYDy%2AntnGxPAWNRxTtYb1lNGa6d-F1Hn6j4NHKqt0ricSg4ah6kvOqLn7qxeA-czDNRtc-h5bY&new=1",
     "tags": [
       "AI购物"
     ],
@@ -950,7 +905,7 @@
     "source": "Bergen Record",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3VpVXFxOEpEdy03U2Vwb2tlbXp3cV9lOXdRcUg5cHBVbHl2bjFWQ3hEWVZmQ0hxSG91dzVnN1N0MHpHRWlFZVR2Vl80RzF1Q0VxcmFHZVJDV0k2ZTczUjdNYzNuMUc0TDBpdzFwRy01WlVtQTJadEJPbFdpNVZIUTdMWnppWmRpYmxJamF1ZF9BS0c5bFBMdXFCYUtJLW1zSUVGWXc3Sld1b3RpOTNjSWpGRlpBS2FNNVNXb3JGN2RhSUo2LWxFaXlOVU8?oc=5",
+    "url": "https://northjersey.com/press-release/story/229959/stylebuddy-launches-expanded-ai-fashion-commerce-platform-for-fashion-brands",
     "tags": [
       "C端AI产品"
     ],
@@ -968,7 +923,7 @@
     "source": "Big News Network.com",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOaGdHa2VacnVUQ0pUY1NVVGYxVXhDVzBXdTU1WFdhNEp0WVFNekdMM3lQVjVrZC11RjkzMW9EYmowNXBKMDJuVHRJclp1NXVEV0pKZ21FajRYLWZwSlNtWk9TVDVQTlE1RFlPQVVoX2twcTdGYmFDNkhvY0NGejVOczFTQnJESU9Bb0xSRDhoMDllVEo2RTlmN2JFaWhTeWphTmZiM08xVzZXNzhQMW9WUVJGeG9lWEVGVjRXSWV2QVRObFF2ZzM0a2lTaUtPcGFKX1E1Yk05UEVKNGRoUUNWWl8xUG12eHVTVHltMzJWdnFJbGs?oc=5",
+    "url": "https://bignewsnetwork.com/news/279257884/pointai-ai-partner-to-aditya-birla-fashion-eyes-rollout-of-one-second-virtual-try-on-technology-across-abfrl-stores",
     "tags": [
       "AI购物",
       "视觉购物"
@@ -990,7 +945,7 @@
     "source": "新京报",
     "region": "国内",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SZWctSkpYVEdXQlZzYW1XVmRMQlNVX2ppOTNaQXNSV2xOYjhDY3Vnbk1pNWpuM1JkcUdYaGNOX0JsTW9BY2t5UG5Yd0J2Ukx2bXdiRG80WEZQem1DOWJTOU1B?oc=5",
+    "url": "https://m.bjnews.com.cn/detail/1787294822129733.html",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -1013,7 +968,7 @@
     "source": "Voice of Alexandria",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQcU1tMHRsLWJHNUZHWThGZjNxUnN4bXJNLTZtWU9sMXR4Nm1FTjFqT1g0NHpYMWwzSFJSeDh4NTl6MWFDY3g1a2JHcjhlQjRqX3ZSYy1uazdsTkNWSTNwemh5MUlLR0lNMUVmeWdBNVlyZzhEX0RvM0NEWjBER2VfTlh1Zy1BaGMtNVNJc2R3NnZRdUwtXzA2UDktVnNnYm4zY1A5c1VDa0dxczh5ZTdQcnBfZWtTck1RUUxsSkktd0ZDQ0tyUUlRMXlkWl91WmxCckwyRFVmeWN3MU9RcC1yMXJBeGp2S2xkWlZTV2VqOXg1Q2s0RDM1LTdqUzRzMVNnYWVOMHdUWThVcnJaQzNvT1dFdk1RUHFjVC1vdWVELThjdHlYdHFaWFBCV05qbHg4TDNYZ1d1aFg3dw?oc=5",
+    "url": "https://voiceofalexandria.com/news/national_business_news/leading-ecommerce-retailer-expands-adoption-of-hawksearch-with-hybrid-search-and-ai-shopping-assistant/article_ceeeac60-34bf-5ebf-8d70-3696011d0e3f.html",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -1037,7 +992,7 @@
     "source": "InfoQ-CN",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Cd3hmdmlFc0xvVDE0RHB1dVdNS2dVWkEweFFaVjBPZGNaMXV5YUZMMHFheDhfalpFZHg1NXdfdTh0R2Mxdkd2RnkxdFB5MHNteUY3RlBUWHNSdW9XV1E?oc=5",
+    "url": "https://infoq.cn/article/61DFAJiVlqlaWQXi9kzA",
     "tags": [
       "AI购物"
     ],
@@ -1049,32 +1004,13 @@
     ]
   },
   {
-    "id": "2026-08-19-324cc45313",
-    "date": "2026-08-19",
-    "title": "支付宝发布智能体商业底座，联合多家企业共建生态",
-    "source": "三易生活",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZelFHLW84TnVlTjB4UXRLYWJLbFowMGhmRURIdWt5ek9lem1OeWxkTmktVVRVT2x5LTRJYXhQOFVzWHU3VHNjRjU5MHN3LVZydVl6clBESDdNUFFucEk1UEJSN29DQjBk?oc=5",
-    "tags": [
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "closed-loop-first"
-    ]
-  },
-  {
     "id": "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
     "date": "2026-08-19",
     "title": "押宝智能体商业赛道 支付机构加速抢占核心流量入口 - eu.36kr.com",
     "source": "36氪",
     "region": "国内",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kZjkySnY4eHh0SDFlWlc5T1NQdkk4LTJOaHhCQzZvN0JYcFpwVy1yUXk2a0pTbjZrVWVaTXo0bG5BUFJqSmZLa3ZfR25qNHVrdmJ3?oc=5",
+    "url": "https://eu.36kr.com/zh/p/3947222519266433",
     "tags": [
       "Agentic Commerce",
       "交易闭环"
@@ -1095,7 +1031,7 @@
     "source": "上观新闻",
     "region": "国内",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNTm4zLUxrWDNGSGNQWDBCUWQ1UGFxQUF4ejFMckg0SGdjTGUycjgyOG9TVnMyamFaTzFGdWZaMlEzcE9tSHh3eVRqSFZUb3kxMHhUbHBiTkpWbGZW?oc=5",
+    "url": "https://shobserver.cn/news/detail?id=1162176",
     "tags": [
       "交易闭环",
       "商家Agent"
@@ -1115,7 +1051,7 @@
     "source": "封面新闻",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tN05sY004RTZURlBWZkg1Z1VKNWlid29qX1l0S3RsQ202VWE4YVpvTVJpUzRGc2VnWmRldTBZSGQ3OUdsN1luMU9wc3hIR04tMmNkMnRzaXlDM3g3VFlIODIwRkRMNWRxQ3pxV2Ezb1ZKNDZuUlJIeHNn?oc=5",
+    "url": "https://m.thecover.cn/news_details.html?eid=jfqzoU1pz%2B2H90qSdq8Jkw%3D%3D",
     "tags": [
       "交易闭环"
     ],
@@ -1133,7 +1069,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSUotWW5KS0JOMnJhektFaDU0Zjc5NmpWVUoyR0pYbmh0WEFlUWF6RWY0eWNxTV8zYTZiVVc5ZUJzMDdWTTNpRDVzV19JdEVfU3pxV19TYTg5bkx0THQyQnZkZ3BxYzFyQXZmRk9pWHd6dDhwQVZXcmlmS2VtZ3AxelFkME4zUTFLdzRudXdOM2xHMGdhRXdhTTVLbzBFcVlzZ1ZOSlljRWxLSWRQeS1XZHlrdw?oc=5",
+    "url": "https://cnbc.com/video/2026/08/17/credit-card-issuer-synchrony-partners-with-openai-for-chatgpt-shopping.html",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -1152,7 +1088,7 @@
     "source": "亿邦动力网",
     "region": "国内",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01ajF3T2x5QWF3YjNjdjNMQVktejkwNEpPZnpnRjBGVXZHeWZMbUR4a21TWTlZUXFWd2F0NmxOcmNCRk4tVk5mN25zaGd3cloxVHZJQlBR?oc=5",
+    "url": "https://ebrun.com/20260817/695431.shtml",
     "tags": [
       "Agentic Commerce",
       "交易闭环",
@@ -1173,7 +1109,7 @@
     "source": "The Nation Newspaper",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRDZmZnhqSVRjNnpoenZ3aV9KbUEzOHViUEFvQ1JsaEFrcXI5a0FpY0ZVd2VTVTZ5RmI2V3JMMk9ueTIyMk8wS1hzblNvekloSzhXR3RZU3dDSDZ1ZVFDYmxOMDd2NTJRSTE2YVFjUER2N2liclp0eDNXdlZZd244SFo4dTViRFlDRTNEbGRvYjN4S3RFaHdZadIBngFBVV95cUxQeFdwSUNaU1ZlN2o4VWNtOWozdmR0ZlFqaGtfOFJGLWRBcnpoSHY4UzBuRDJnLUMyUWo1eHJ5Yi00T0pLSVBzY1FBUXE5WEttbFNvTGFwaXlfYmJkZjBZS0tCV0FGeUpjX2lWcWt1aFI2ZS1HLUE1N21Ecm1ISVg1UkNHa09xUF96alZxSjQtb1liQUI3SnotWjg4RWIwUQ?oc=5",
+    "url": "https://thenationonlineng.net/stop-searching-start-chatting-glovo-pioneers-ai-quick-commerce",
     "tags": [
       "AI搜索"
     ],
@@ -1194,7 +1130,7 @@
     "source": "Woman's World",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNemFnMGhxVEpseUZzd1RtZ1I0aXpCN0V5aXZaUm5BYkZaS1lwem5GWnczMWhUWllFaEpMSUxKSVI0WHdnRkxkNnVJcVZUMDIzOUdMcTRZR2NDSFFxYTdjdlpsODl2Nm5Md25Fdk44c2EtVk9SbHJTOS02NHhkb1Rsd0dUYTVJdF8zMldaMmpXTUdTd0ZENXRMaTE4ams5RUc4d2RB?oc=5",
+    "url": "https://womansworld.com/shopping/can-free-ai-tools-find-the-perfect-gift-i-tested-four-assistants",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -1217,7 +1153,7 @@
     "source": "亿邦动力网",
     "region": "国内",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBTHEtVk5fT0RMZEZqdjBTWHBiVVhOanRDa1VScHp4WEpzYUR2ZkpXUjEycnVEbFRBeVFCcERhRTAzSVJLcjRfTC03ODVDdTRFX2RxQm93?oc=5",
+    "url": "https://ebrun.com/20260814/694245.shtml",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -1239,7 +1175,7 @@
     "source": "Reuters",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNel8wZ2xacEtpNDU0anhxdVNWUEFQUDVjVW9qWU5BdU9WX1VzT3pZTHAxam9ONkZxQ0VFVTNZdE5ZbVdMT3JzOHlBZHZoNXpnbkJiNmh5cllpTFM5MlRWcWVNWUI2amFwMHlJUG5yblZja0h5VHE1TENzQ2NUa1hUOVpEcEdTVVM3VGpoNzZtZmthcXRWU0tmVkNlM0xCaHVraE9YLVBHbWsyLUFoX203SS0yVnJha0FZbV9FU1ln?oc=5",
+    "url": "https://reuters.com/business/retail-consumer/rise-ai-shopping-pushes-merchants-protect-loyalty-adyen-says-2026-08-13",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -1262,7 +1198,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNekpCWmhmYlJBeHNIWk9JVUphMHNYVjlVR01iaHozNExiTXZDM3pOUk0zRjNzWmo2N3Vrek52clFRQzZuZzRocEgzTkVMTTBTQ3hHOHBhSmE4cG1OVFlXbVpBMlhYc19MMVBDazROeFJhSWtFWlE4QVpyYXN3WXFFdWljNDRmSDFjVkVaOHhHSEU?oc=5",
+    "url": "https://aboutamazon.com/news/retail/alexa-for-shopping-learn-and-be-curious-podcast",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -1281,7 +1217,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdHc0LWo0STRSbm9aODkzelpabl9Fa2lkZVFjMFladmNfUUpSdlJQcW1oSXk4bllZQll0LWhxOVBIdjB1a2tZR0xzTGN1blR1SEFfR0lkSmx6MUZiNDBkLW5DUTJETFMtRHg5NUFhcVVhbllqSjFlZ0ctZzg2aXRlUC1ZTl9ZT21rLU1aRS1OU2FtdUc3alJHRnFqTkljaFFad3dtajR4TlFrYWdpb0Y1dkdwREh4cDJaWGhaaG45VzVuQQ?oc=5",
+    "url": "https://pymnts.com/news/b2b-payments/2026/how-ai-shopping-agents-stablecoins-and-smarter-checkout-drive-business-growth",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -1304,7 +1240,7 @@
     "source": "trendhunter.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40YjZhWFR5NG9tNGFDOFcyZ1dCeUdDWkFZdHItWEhySWxYVFg2NnNGbllLcC1tUXExT1VHaWNqaUVyMDZ5STc0aDNhWXppZHN4blBXczBaQmEyVXA2MGF3bDQ1cGNaY1pM?oc=5",
+    "url": "https://trendhunter.com/slideshow/august-2026-buiness",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -1326,7 +1262,7 @@
     "source": "Yahoo Tech",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFB1dF9iTy1FOVdFU29KRk1DWnVzc3p5RUZLQk80YnhtcTA0MzJyX1RRREFSWXU3bnFnVnpVaU1kMWJuWFRUSHExMFZTV1JkMzlmMTdjOExIX2p0RmE5c2RJc3R6MXI5eF9wR0RWR2o4enJKNzJGWXpnbGFsZ0xlX3VUT0stV3FkV1dJWGY4ajc?oc=5",
+    "url": "https://tech.yahoo.com/ai/chatgpt/articles/let-chatgpt-gemini-alexa-shop-050000983.html",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -1345,7 +1281,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTUZCYWZiZTFOMmZuUUFEZ01NQkVhQUg5X2tqb0NxajdnM2dPZHFDWGxIZERNRmpRZWZxUGQzUWdCNTN1eVp0bm1Cc1lsU2tyNHRRR3BBMWt6U2tIbHhyV3EyOHlMVS0wLUlTLU0yTTJDbFJaYlE1bHJ3N0F6YVZqeF84OW9OYWFrRjJGMGVIUQ?oc=5",
+    "url": "https://pymnts.com/news/retail/2026/retailers-steer-ai-traffic-back-own-checkouts",
     "tags": [
       "AI购物",
       "交易闭环",
@@ -1368,7 +1304,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbnVMUC1JLTNpNFRseTV0MVJCZENHT0hTRjcxSjEtZ2w3eFJSTmYzdXhwMUM4S0YxZk1hdWM5LUtnODU0RWJESmpOa1p6dGlLb1NFc18ySmFYaF9tLXpBYWF1RjV2QzBGZWplcGdSVDJmcC1VTnFwbnNwXzd2TS1mX2x6Q2lHcGowcGtybzR5SURoQjRRYWhKQzc2S0ktX29LVFl0QlJxWkx1a0hoaGJyMjdqOFZtV1pscGp4N2Zrbw?oc=5",
+    "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
     "tags": [
       "C端AI产品"
     ],
@@ -1386,7 +1322,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHh0TWI3dHdLZjBVWnpfTkVlbl9IRVJSY1RGOFdVYVdqSXBzb1JSbU5DVExZTHlwTEVWSGYwSGFrc1MtZFJGVTlRY0RFRWJCX0NmakF0UXZJVHhReGt1Q19ybUlKRkg5RmRKSFBQdXBzUzFUa244TTZocXlwcVQtSHpvcVZJMmxMNGZ2NS0xc3ZRZlowR2xKbHhSem1tRmR0bUVpTlhNLWRUSzY1OHRVVDZ3?oc=5",
+    "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -1408,7 +1344,7 @@
     "source": "InfoQ-CN",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kd3lYN1Q4a0haMmFzOXVERTFZbkFxRnFuSi1rY1dNUktfa0JRMXd4bzhQRkpRRGlPSkVFRGdaclJqQ0NIT0lMdU5rcnI4RUpkYktMZm8yS05kb0FBeXc?oc=5",
+    "url": "https://infoq.cn/article/8TfMHMQEm0fW0wXu3IlB",
     "tags": [
       "AI购物"
     ],
@@ -1426,7 +1362,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM0dvamVjS3JRdWJvTm1lUmtSTmNCaV9idVlVS3ZwRk50V2hOOWdoQVhOeXlvcW03UmVINC05OHByNXhpSlh3T2M5bnozM1J4RmxuU3RXY1JuSEtIMmhLUWhLa1RsZUl2X0M4XzhvU0kwdlZLTnRJNTdyOEZKazhqanB3SXlndDMxWVZaYWJ3?oc=5",
+    "url": "https://retaildive.com/news/amazon-alexa-for-shopping-agentic-ai-adoption/826806",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -1445,7 +1381,7 @@
     "source": "Digital Commerce 360",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YcC0yYmpLRlF0OHBWTDNNRktTTTRFMGtGNEJiQ1hPZlU4VGFNRzU2U3RZdkFzZENVOE5XZXdEb3lmbDdJeXFkRE9RaTVPRnNDVUZ6ZzZNX25SdlZUVzZDUnBkUmhRRjBVSUJRNjEtdWJUU1Ns0gF6QVVfeXFMUGt6R2lYcGstcW1PSjdfSUdwNFZyRnd5Y1NFU2xMOGo1bi02QTN6emd4cl9pck1fN0R3NlVqQlJGYmhLdjRWc3JEd3FraVBfYnBfeUIwRVRuWTFWaXV5SGpjTTFlQkxUdEFWNDN1b0R6UG9Ia2FZb2cyTmc?oc=5",
+    "url": "https://digitalcommerce360.com/article/watsco-ecommerce-sales",
     "tags": [
       "C端AI产品"
     ],
@@ -1463,7 +1399,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBsRlpyU0JIN0o4YXpoRkRkdFhoRjhYQVVNQzM2Mmd2dTdiNVp5NFRfbkRQVnR5cGMyNHpERUdiRU5CV0NpdG5XRUZn?oc=5",
+    "url": "https://openai.com/index/avatarin",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -1485,7 +1421,7 @@
     "source": "Kohl's Corporate",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT3FXWmlibFQtQWdhbWpQTy0xakNrNjdjWnJCNE5yZHl0NFJ6YTBEckhxN1VkRGg5QWFNekJoRmIzNTZfM245cWx6cE9wckhLODh3R1h4bkxoNDQ3NllxbDhDSFZqMVllVzFjYjFDSmtiazB5SUJCRWNwN243d2pDNVRWVVY2STNmVFlZQ2plUjBDRVo3ZEFhQjdybU9WOXp2b3pMOWRDZUY?oc=5",
+    "url": "https://corporate.kohls.com/news/meet-kohls-new-ai-shopping-assistant-for-styling-inspiration-and-support",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -1504,7 +1440,7 @@
     "source": "Business Wire",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNUjB3RzZiQl9YUGxtV0FxMW5aNTFucVlXTjFCdEluUmlCNHJaRXRlaVVvV2RaejdYa2d6Z01COGFpeHNOWjlfeHBnZjM3QkJRbjNpZDlVcTVCa3ZzUVNiMmtMdXhNbFZ1c0hEb2J2WmRVTzR3UmlhTUxHU2tlNEg5WkE5OFpyS0tyR002QkhCWVAwdEtDaUhfREJUcmpia0hlZ1dtNkpFMk1xM3p3aU5YOU9QdHpvMTJjcV9nb3c1M0hyeHZXSms1NVZ1M3FuYXpNLU5XM2d3S1F2U3U4dDZFYXBFcVF2cmxNMEdPV0lZZGRJSkh4OUI3NTlPTi1VQWd2MHRqUWZycjFPOWU1N0FpdVhn?oc=5",
+    "url": "https://businesswire.com/news/home/20260728590863/en/Algolia-Brings-Agentic-Commerce-to-the-Modern-Storefront-Giving-Retailers-AI-Shopping-Experiences-Built-on-Trusted-Product-Data",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -1527,7 +1463,7 @@
     "source": "Retail Week",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVUhzXzhBajl4Vk5zSTFDVUpHWVJ1UC1hV1h5ejJUc3JNaGhHSjZRejdyU2JwdUp3aFoyVTNweEhHVHlTUWNMMVVCcUxnRlA4S3dPV2NPakc2b2JNdENRVW11TkZtOVF2NEhjcGw1cDNTc2JWMV9sc1FrQmVNdUlQcFRMcnNSR2JuQUdWMGJBdUxOdzVqeXBZWUhfbTlvOXlZRE9aa3hIcjR2YXdRU1lqSTNLd0xyTmJRV095M3RzYm5hcm50SHJnZ1pwQ3RxSFBmWWxqdHdVSmZDWk5IeC1JZDJB?oc=5",
+    "url": "https://retail-week.com/people/qanda-kingfisher-chief-ai-officer-on-being-ahead-of-the-curve-with-ai-agents-and-agentic-commerce/7051737.article",
     "tags": [
       "购物智能体"
     ],
@@ -1548,7 +1484,7 @@
     "source": "InfoQ-CN",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5McGQ3V29KeGVuaEZGN24yVkJvcVQzSERBMm1KRGotMUdyODF1azFJaHphTEZlWnFQSGphYllnX2pWVEx3ZmdZWXZYZHdXVXk4RnhNS1J4MU1VX0E?oc=5",
+    "url": "https://infoq.cn/video/TV8xhCYdGPx6a38TuzEh",
     "tags": [
       "购物智能体"
     ],
@@ -1569,7 +1505,7 @@
     "source": "jpost.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMlc3TUI1dVFEd2xZZDdSVE5RVVgtV3ZoNDlIXzkwTkgyb1MzRG5IUkxScnlZWkxhMWw4ZnZLNzR2WXRYcVZTOGJBc0Q0Qi1IN3k2TWhxUVFOOVk4YnJmdHZKN1VMaGRYWGxKRk1kaTBNNVhCWXN0b1Fjc0s3RWtmaHJwSGh4bU0?oc=5",
+    "url": "https://jpost.com/business-and-innovation/banking-and-finance/article-903491",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -1591,7 +1527,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUUxTZkRrR0lHemZSOUl6UnVabkc1TXMwYmViNEpFWjlxQWJoOVhiQmp4VTA3ZHNtVnNoT0dudDMtSmplUWtsN1NoamhRX2lZaThIdGVwNXZHeG16RWRtdnlodXhMM3VQS1pRaVpJemJGbU1heXJmUUdDS0hSX2FnYmF1QTBuZw?oc=5",
+    "url": "https://retaildive.com/news/michaels-ai-shopping-assistant-ask-mike/826016",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -1610,7 +1546,7 @@
     "source": "Progressive Grocer",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXk5Z3g1clFXUmVnRUJ3SUJUUllGM2Z6d3BUa05fSk5FYm5KRUd0RGlYUVgtRGUxbEZQNXN2NXZDNDNtNXdhQVluNV9DeFZHR3JvM1ctLWJseGZIa2VrNjJpRG51S0tpWE1VbndQd0lYSW5sT2tDQ3ByclZlRmZJVnJ4UW5wQUktUXduTDd4ZmVqcnVucW8xSA?oc=5",
+    "url": "https://progressivegrocer.com/schnucks-teams-vitalityip-ai-powered-agentic-shopping-assistant",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -1633,7 +1569,7 @@
     "source": "TechRadar",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa0UyeDFJNHM4czc4NFp2MmRwVjFfcU5EcDRmNXFtOWNhSDhXdFlJM1VIUjU2dVZlRkJjRG1GenJ4YmhjSDI2UDUxSkRDdHBaNER4SlNRYmthampuTlVQdVZ6eUJMLUJNLWVfc1JMSDhIOEtXUkd5Q1Z1VVl0TUYzZ3Z3LVoxcGpwTjluZk02UWZJXzktOVB4X2VRWHZCUHg0b0hv?oc=5",
+    "url": "https://techradar.com/pro/agentic-commerce-why-ai-agents-are-transforming-the-ecommerce-landscape",
     "tags": [
       "购物智能体"
     ],
@@ -1654,7 +1590,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qdVlFeXdsTDdEMHlVMFlQWkx1WkxDNWFHUDZMcUZHSnhNRU5WS3Z3bXI2aEg5bnNMY1htemlnUE01TEpaQ0J2aUlvQ2dfRDFfQTJr?oc=5",
+    "url": "https://wallstreetcn.com/articles/3777341",
     "tags": [
       "购物智能体"
     ],
@@ -1675,7 +1611,7 @@
     "source": "Retail Customer Experience",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbXJIVnM5X0lkaVR3bWlFM3d6dTJ3NGZHUWg5cDlIdjFPUVc0YTVRQW9PZTJVT2tuNXk5OWVCQW5Sa05MNFNoV1FQbFBvYVEycTV0NlBWdkJub1pKUUItRmdKNHJ0bExSRmRTV1dieGp2SkdkejNFaXNpNWM1OUR0OHFYZWxzbVM0WWJDU2RObFR6U3BDVWpaWTAxSTlITElKSjlfN2t0eHBKQThSRkJjOUthZHJseUtzVnVIV3E5Y0JWdnNKblhqdA?oc=5",
+    "url": "https://retailcustomerexperience.com/articles/consumers-wary-about-ai-shopping-assistants-but-amazon-is-changing-perceptions",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -1694,7 +1630,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDhLTkxOQm00d0plQ0V0bnhSX1VCbzlKQkpvdk43THdxLWFBX1FMdG1LNmo3cjA1NjZWTVdlX3E3ay1qLWJTaUxURVhkQVFwZzBGR3d1Y3R3RnRKOE1UTHRFVzNJZlhXWWNicUQ0UF9ad0RkYVZtVHU2MFlfNHA1aGNsVVpvZmRBN3ZMS2Jtbkx6cHFTaUNNeGd6X0FZNFc5MDE4eml6bnd6Y1A4WWZVWQ?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/48percent-of-online-shoppers-now-use-ai-before-buying",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -1716,7 +1652,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRWs0SjdKVndrSmNmel95VmplWmJSVEFDd1ZXd0gydEZDUUc0elVvWTVWdVd4dW1YaVY1UEFVUDhzZmtId1FLc0hxWUJDczVOT1lBNVRUWGp0THg4a0xDRG9fZ1FuV05fWDgtdEg0bjVqV3lpcUhveURJOV9rSmZyamRRZm5fZUxWMGNuLS1aUEtHU0l5NzhVMkNObHVmSGdqNjk2bEZ3Vjk2NkE?oc=5",
+    "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations",
     "tags": [
       "AI购物"
     ],
@@ -1734,7 +1670,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV1kzOUMxekEyWWxwQmR1RU9iQUZVUE5ROXBPbXc4N28xdVhXTjJRZDdaVWhseXlEdnY0X1pHVFFXWFBIbVZxOTcwWTE0OVhzRk5iN2dEc196NV9YWC1YLThucjZ3TFVzbENxbGRsSGdFR0hYbDVpVXcwLVR5ams1Z0JZWVJzQ0lubGFfVmtZUmV3ODZNWGQzYkFwRWtSS2JMRnZ1T05qMFRoeThCemVEZlFB?oc=5",
+    "url": "https://pymnts.com/study_posts/the-millennial-shopping-map-how-ai-search-and-stores-compete-before-checkout",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -1758,7 +1694,7 @@
     "source": "Amazon Web Services (AWS)",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNGpieWkweHdMM2ZaVlFwRWtKOVRWaktKLU5pSXZGek5fQlB5ci1LaEJLZHJmSEIyMHJvVzdWTERhWDdaWm5OdWFQX3g2endpTjlPM3Z4ZTBFMnl4cVNWRG1mZVV5YXozTHVoaV9vSnBwTTZkNDVQWmdJYS1Gb0M4UE1zb25DZkF6VHlPUFNQYnZUa2NoSzM1dWlvbEFQanpqb25RWHJfdG1Sa3hoYWktVXNTQmx4c1BtMFlUYnZtVm1HTjJBSmlGbFA4d2t3RHBNTTE1RXViV05Za3Mxa2M1Uk5iWEFlZER3RHV6ZzdaUnk?oc=5",
+    "url": "https://aws.amazon.com/blogs/messaging-and-targeting/build-an-autonomous-ecommerce-assistant-with-aws-end-user-messaging-amazon-bedrock-agentcore-and-openclaw",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -1780,7 +1716,7 @@
     "source": "Practical Ecommerce",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQREkxbDg4OFN1eXhxOGdpYTQ3bVJBQl82bll5MEdIQ3BCa21ETEVxU3cySV9DeXFKQ042cFJMc1N2MWxMbFJkTnF4aEh5aExfTGd4WTRuOGtvTVBVenhpTDVVczJxUkg1S2ZiRTJBaHdKVjQ5MW1ncFdRMElmV1JSa19kZw?oc=5",
+    "url": "https://practicalecommerce.com/intent-clusters-guide-ai-product-discovery",
     "tags": [
       "C端AI产品"
     ],
@@ -1798,7 +1734,7 @@
     "source": "雨果跨境",
     "region": "国内",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZSFpOb2JMUnFXTHNtZTlGYXlvOVdFblMxVklKVTZwRktuRWxkZnkyeTU4UFJvb0JQYmhBUGROcV9yZnJ3V0dZMTlCY0c?oc=5",
+    "url": "https://m.cifnews.com/article/187426",
     "tags": [
       "AI购物",
       "商家接入"
@@ -1820,7 +1756,7 @@
     "source": "Netguru",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0ZjVwVW44LVlJU21NeDV1cFN5STYwWVM2WTE4SjFzaGoyUWlzbENhanFwNUktVldkUXNUaEVpb21rS1BKVFB1LWJOZDFvM05qOWJJRU04VC1RYXlv?oc=5",
+    "url": "https://netguru.com/blog/ecommerce-ai-agents",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -1842,7 +1778,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcG9WTWJWUjJudENGYndiMzdnSE9RdGROamtJZXg1SWxMeUd6Vm53bnVGaHB5ckpVby1XbHV3YkN3NzNONkRFcXNEZ3FVemtxb252ZzFsNGV2Y2I4dElpRkRaSWRHVnF4OTV0N052N2MyZkxlSjREdkxCeGpxRU9sRm1MVFpzM2VhNzM1YmEtT0l2Njdya19MUEs3Z25za1d2MnFYUA?oc=5",
+    "url": "https://pymnts.com/news/retail/2026/amazon-walmarts-ai-shopping-race-is-battle-context-not-clicks",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -1864,7 +1800,7 @@
     "source": "research.web3caff.com",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5KcnZ1TWtsenliTzBodFA0anNaZmpXc053eVhXdEwwVnZHWUQzeFdlS1FEVVNCRFlwR2FQY2xTQ0szb2NSY3ZfUmdvTnMtVmZ5Q01xMTZLRQ?oc=5",
+    "url": "https://research.web3caff.com/archives/46743",
     "tags": [
       "购物智能体",
       "交易闭环",
@@ -1887,7 +1823,7 @@
     "source": "亿邦动力网",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RM3RDNXNYa3dUQnFJTW42SFJ4a1VrUVJ0RE5uRXQ0T0w0R3p0Y2UtanhpOUVmM3pMUUV3NFBFM1RpM3FOd2R1TTRDRHJlTWs3eW5pbi13?oc=5",
+    "url": "https://ebrun.com/20260707/685974.shtml",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -1909,7 +1845,7 @@
     "source": "JD Supra",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xWnhiTHJwUEhsN3hUSHJrU3RLV2hLejMzbWs1RWVBY195RG9MOGQtWVpob3Z0c2pMaURVejJYcFU3Z3Y4R1dWTGdVVjI4UXdWRGkzc2lnQkZXME1hSUVsZElKV0M4VGhVZ1BoSl9oN0c1M3RPOVRIX01RUFc?oc=5",
+    "url": "https://jdsupra.com/legalnews/when-ai-goes-shopping-without-6414040",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -1931,7 +1867,7 @@
     "source": "CDOTrends",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc3diWnNxTW9SbTZvd2R5QVByOS1XSVhfWmNLLVMxX2RRZ1Fvc3hLVzhEdUNudUpzY2lJbXVCNTBveHBOampsaVRSbmo2WmhtcFAtZS1LZUNkRUhvSGx2dXg4NFRmdVVHRzJ4b0dBcHJRTXJCam8waU13aFpjWTQyQ0VNSXgzXy1SQm8tbWF4b2N1aDhhTUUydGdIblRGM2xCa0Zr?oc=5",
+    "url": "https://cdotrends.com/story/5076/borderless-stack-how-malaysia-engineering-future-commerce-alipay",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -1953,7 +1889,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4a0YxSU1EbXNmdkpqNlVjQkFWSHluVzRZb09RQTR1a3FUSjhNVWtMYlZXSml6TzVoMmwzT0h4UTRscmxqQnRocnJCSTVsSHhTTmhZ?oc=5",
+    "url": "https://wallstreetcn.com/articles/3776193",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -1975,7 +1911,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU2VwNkJpSThuQW4ycVRBYmpLcTJwMjNvSzF2NlBYOV8tM1FJeFV1d1lnZThSbzY2X1QwbzU1X0JjZ1QwMXFIQU9lckswQlhERzRlYWdJMzZ1QkJBQzBMWU12QWRfZ0szckgzWFJxSmZUUWd3eHFFMWI2NWZLNWVWMXg4cmtDbVgtSVYxOUhfZXBYWUR1aUdrcjk3Um9FZGE5cUoxcTcyN2Z1NHhHZFVKTg?oc=5",
+    "url": "https://pymnts.com/transportation/travel-payments/2026/edo-taps-visa-to-allow-ai-agents-to-purchase-travel",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -1997,7 +1933,7 @@
     "source": "FF News",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT3MtZkZ5UXQ0OG5aVDlSaGI3dWJmcHRPWGYwdm5ySmVwUmlITDBBMzNaOXJCXzJYQ3l6VDdDaUFDYVYzVGRNQlFwVTV5cW1QNWRlUFFHZFd6Zi1EdHFhb1U3N1dNTlVwdGdzME0yZ1Z4ajl0Y0xsNGFLc2FPd3ZNZTcySGoxcDQtZ3lqY1dfRmZVaGg4ZHpNSDEzdklhTTI2SW94U1VOVU0tWWVObkdXSUVR?oc=5",
+    "url": "https://ffnews.com/news/visa-unlocks-agentic-commerce-in-europe-ai-agents-now-executing-live-retail-transactions",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -2019,7 +1955,7 @@
     "source": "Retail World Magazine",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVDR6OEpJRHM0ajRMRk1oT3lhX1BMbGw2U2hnbVZoWlZmWGQ2Wng2Y05DN0t5cm1XOXN3RG1pREVjX2l3dWwzUFhzMWJNdjkwdjJVOWdjSlRKYktpTnRSd1Uybmt3MXh6eUI4RUx4NktHSzJEcjZBSDdpdUN4UWh0dG5SQQ?oc=5",
+    "url": "https://retailworldmagazine.com.au/woolworths-upgrades-ai-shopping-assistant",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -2038,7 +1974,7 @@
     "source": "Ecommerce News - Europe",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YYWgzVDhPeVFhcDBqdVl4Rm1BNHhPeDFwT1N5WGZISm1ZYXBVdzlYU3NZRjJjbmtHcUxqakcwaXNjcldjZXc3bWpzaDJrX1hGRElKbnJkcmdKV3VUWXU4SmpCYVZ4VXYydHFTMlFvTXJOQ1Y5SHIxeWRGaGE3Zw?oc=5",
+    "url": "https://ecommercenews.eu/amazon-launches-ai-assistant-for-german-sellers",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -2061,7 +1997,7 @@
     "source": "亿邦动力网",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TS3lqN1E3aEEtMGdQMUFzMVlFSWpvclJ4XzRKNzBWdGFOeUZHRXdBaXNHZHdIOUNCb1hVdVNzSTV4Z3hhM2RVam5rYzhDMjNhcUZCaE53?oc=5",
+    "url": "https://ebrun.com/20260628/684939.shtml",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -2080,7 +2016,7 @@
     "source": "Tech Times",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRm5XT3Y2Yks3Wm50ZWl0NE14ZHdrYWVoUGw4d0g5cmRHNUthMHpoOG1NR25zVTRuOXY0V1Y0MWRvVEpnT3NWUnVjVzBLYzBETE4wUnZmS3JIVmwxR0gwSjBTNnZvNEFZZWU2Zm82WFdRT2VDWlRVME91MWFsZHNFenRuLW54bHVKZ2VQNUFmWFdSQVphcUdhcUxVNDBxbzVXU0k2clVMd3I2OXZHakVXdWhwVndTSlpncl9US1AyWnIzREItajJ3MDJHcV8yZw?oc=5",
+    "url": "https://techtimes.com/articles/319212/20260627/ai-shopping-assistant-launches-newegg-real-time-catalog-powers-pc-build-advice.htm",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -2103,7 +2039,7 @@
     "source": "Newsweek",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mc25NTlNuOVNZWmxQN3JmSGdaM1dHRUp5bWt6VHpWcDloMHNodmNQTHdXSTJtYmF3VW1CWmVUdDhkYk9MV21sUlJuQWZva2ppV1pXeC0taC1tQlVsYjJ4R0ZJQ3RNaTFKUG9va0d6bkdqRkt4emZaVUE5RXNIV3M?oc=5",
+    "url": "https://newsweek.com/ai-shopping-gets-complicated-at-checkout-12126480",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -2126,7 +2062,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wMHNYTEZhLU5SOXBrb1BCR1ZyUFdoVmhCVVZkdDdLd1ppekRnZkE5M1otaGxUVTZqSjlwZTk3WmJCYzE3ekctSW9MNEFZSXM1RmR1Wmlya3VXdkZjZGtJRkZIaXFFbk8wUEE?oc=5",
+    "url": "https://openai.com/index/how-agents-are-transforming-work",
     "tags": [
       "购物智能体"
     ],
@@ -2147,7 +2083,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGJzcXRXbkdWVUdEUm9EY3Nxa3NrZmZveXZHbE1UODhBRTBVRktfelRpZVc1cFlmS1ZnX2k4aFZNbG90ZkNzOW4zTDZlWDJxRWw1VU9YX2FLbHFCWlZNX2xfLWR1MDVwRGVaRnR6M3R1M0twZG5yTWNobmJEQ2xIbmpra1NLV2xkc3JxMzIzQS1jM3lTYzFvaVA5OFR0T01SU0JhU1FQeUhpdEJFVzI4RElzTQ?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/samsung-teams-with-glance-to-put-agentic-commerce-on-tv",
     "tags": [
       "购物智能体"
     ],
@@ -2168,7 +2104,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd0NqRkZSTV9jOEZFOEZLRzhGa2tveGtfcW1Ya2JsV1pFLXhRdFg1WTkzWmxITllmUm5mNUVZSUpTOTlYVW9RT1pnNkdOTGRKcXptekYzYzh6Q1oyQ2pITlBrV1hYWnJlSmdHVlNTakNScmhFdm9FQXQ5cVNsbnd5RHpzbHZYYy1ORWJCUmFxNnRXNTRIYVZtanBaV216aGVLSjhGSlVIRU9nLVc4ZlU3YlRWZm5udw?oc=5",
+    "url": "https://retaildive.com/spons/from-invisible-to-recommended-how-brands-become-visible-to-ai-shopping-age/822985",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -2191,7 +2127,7 @@
     "source": "TIKR.com",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzNlVk8wZ2Rid0Mwc3dOWmVWMm1IWHhOeDdLTkRENXlYdDF6STFRMmNhUmh3ZndxVE1ERWFWd0dmT3pGWHRlSklwb2otYnhCVTVXcm94cFR0MWR5M1FYSmVrem1VS3NIRzJ1QURxV19Ea3NGNUpydmVJTHNELS1xUFdTTmdvS3VNdlJxRkF1Q2htd21GU1dCSm9UZ3VmN1BBM1ppZkk4YVh1RXpFdUpqYkhDSDhYdGhKejRmblI2SWw?oc=5",
+    "url": "https://tikr.com/blog/pinterest-beats-q1-estimates-and-commits-4-billion-to-aws-heres-what-every-investors-need-to-know",
     "tags": [
       "AI购物",
       "视觉购物",
@@ -2214,7 +2150,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZG1taFltY3VQX2RaM29kN3NDM3pqOTFGa25NT1dmRTlKa0ZJY09HRjduZjNlc1ZOMkZWVlV2T1pJOWdFeGNVa201a3hZcFdhSjRiVmZWRVNuZGhnTWVpWHVrdnVJbTJwWVlFcGpQd3I3ODZib0NnakRrTnU4c3BheWhLenV0SDVQcndOUkNjMEQ0NTE5STBSUy05S1U1SXUwZm1MLUFueVpXZks3WFRBS1ZUdlhwWkFBS3NkQTNlbFNjSjA?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/instacart-reports-agentic-ai-assistant-drives-bigger-grocery-orders",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -2262,7 +2198,7 @@
     "source": "Kearney",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVUF4SEhwTVF3UkZYSjc4YzM5MEg1Sml5NVp3OTl6Y3BvX21vY2pKZzRmVWhrcGo3VVU4UERRVHJBbmJvLWM0UW5OX0RVbWhFbDBOSEg2c28yVF95NnB5Z01YZFl4a2FfRGxYbGZUSUFEZjlXcV9VQ0dlYnhmN01IOU9UcWwteVduNWJsVzdzNGtEWGliVmROY1hkaUZOZDR1Y1JlZFM1WkJaTEZmT3VxcS1TMVNLbmxvekxlOFFNcEdRVVlR?oc=5",
+    "url": "https://kearney.com/service/digital-analytics/article/agentic-commerce-how-ai-changes-consumer-decisions-brands-and-retail",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -2284,7 +2220,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1dreE9Xdmg1MDNwTlpMMWVHODRPWjhmcTNIblIwQlQyUVFFUG9PWEJZOFNtQWhIdnhfRndqelF6bmdZQTdpYWd2TDE2d2h5VGhSSFgtRURrRWJzdkNvV0NITUZhT0dDZkZFeGxGeGQ5MjZCOXVYc1hZSTMtN2V6ZDIxVHVtck5oQW9NN3M0NzlKbXhTZ3ljYTRxd2lzLWJ1NzEtaGJ5WjZvSDRlZzJleHk4NA?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/visa-and-mastercard-put-tokens-in-charge-of-ai-commerce",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -2306,7 +2242,7 @@
     "source": "Uber",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwQnJ1U28zVFNYWktaeFMxQmlSRV94dFVNWHdoZWRfR0NmUFNubHZmTEFndFNPRDRQQlFlVmhnU2g5R3ZYdDE3Y3RVRVNKZmE2TGw4WnFodmQ3QnZRbS1ZT2ZR?oc=5",
+    "url": "https://uber.com/us/en/blog/uber-cart-assistant",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -2331,7 +2267,7 @@
     "source": "Cannabis Business Times",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTlFHWDM5OGN1Y0U1dTNaM0xWRW0tMFRPMl9qdl9DSGp2b2lQYnFwZUtaaGI1TnQtNUFvSV9VV190eWhBUG5XYjMtcmw4RGpnS1F5NEJ4N2JCMHZjX2NPSlpIaDNjSXg1RXFJMUFQYzd3Z19LZnJGa3BPampMUDFYa3dsbFoxM3lyajJZWFBESGp1NEhuRGlkVVlhS0kzQzlwUm5hZF82Z2pXMnlBbjJXcm0xSkpuT25hNmpRd3g5dHpqSV81c2RDeFZKMGlRS3Y5QkVGbmV3aVN2ZHVEZEtDakhhcUxkUFJyR2N0WlRWT2UwVmpTMWQ0?oc=5",
+    "url": "https://cannabisbusinesstimes.com/vendor-news/news/15827719/dutchie-launches-consumer-ai-featuring-voice-ai-agentic-commerce-register-copilot-and-consumer-pulse",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -2353,7 +2289,7 @@
     "source": "雷科技",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1JejNCX19SX2dBci1rdW1LUU95U2NxUl9vd3dWLVRaRzNuWWRaQnNLNnZuYlZEaFVVanVhalNoM0MwY2dDQnFLUzZNSi1IQQ?oc=5",
+    "url": "https://leikeji.com/article/77335",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -2372,7 +2308,7 @@
     "source": "FoodNavigator.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOHJOaUlGQk5jellFcDdEN0IyWUw4cW5WdUZEY0kyLUZWcS1kRmJKc0Q0a0t5YXBISm1jRGpZc3ZIc2tBM3JEZXdvNzJkVnNTS2RlWUVOMTJuTGpLTmdSNENLZWpvZm03VU5waEZkQkhQS1NDVndKTkRjX1dwaDJtRl84YWRtR0FxTnE1VTJwWl9jTWx2b0Z0NFpvbzRjb0M0aXc?oc=5",
+    "url": "https://foodnavigator.com/Article/2026/06/12/agentic-commerce-and-the-shift-in-shopper-behavior",
     "tags": [
       "购物智能体"
     ],
@@ -2393,7 +2329,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMERvMWhhc2RGMjVzQjRod0xFc1F3OGV0TXBxRDRkQXBZSXJmOS1sbzgtbVZZX0NWaVhTZHFlRlFOS3A1OEVwcHF5S25wVXdYSUhiVzRXVVlMMFpwdzdyUU5id3FQYzBCX1RrdUFUMjlZQmNFUUF5UF9MTUFYOUZzdlNRUl9RLWg5eVhRSm1GWlpqYTZmZUFldDJSWHB0d3duQXRIT2NoN1lsQy1TSVJmZ0t1Xzg3TS1YbFRjeA?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/permission-not-payments-will-shape-agentic-commerce-revolution",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -2415,7 +2351,7 @@
     "source": "McKinsey & Company",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNM1JXb2NTXzdPWGNDbHptWDFQaE5feVNqZlpfQzRtZEtEc0dlVUJVWjdzeHR4TFhqeUY2WmFtYzc4RjJEQ2JKQThzS3huUzh3MkVFOGlQZG8tOS1ReW9HdDRPM05sSGQ5NDZYLWIwR1R5enROYkNJdHcwaWNqbmFyanlKWmdPd1cxWHhJc3gyeDlURjA5QW1sV3RvSWt0amxUM1JHd285djFPU1BYeEJUOUJLbElucXJ3UE1UMzFkRkRXMkRvVHQxYllqYTFXYnkzQTRyMW02SnNNaTNLVjNOZmhjZw?oc=5",
+    "url": "https://mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/europes-new-ecommerce-agenda-how-ai-is-resetting-growth-and-competition",
     "tags": [
       "购物智能体"
     ],
@@ -2436,7 +2372,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMGxXeUVGM3FhOEZhVkZfY0VJcHVXYlZZMDctWjVDZFRiZ2RZSVVZV0g0MTBPYXJTOExCTEZ5X3ZDUFE3UU0wQ0tPa3VuanRNUUhUWm8zMlN1YVFyamNoT0w3TV9IeE5QcUtZOENqSkNTajdLYzh4dnNFUkEyRjZ1TzRtYWxrQzhhUUlFNEg0TExNeUdaYTgwOWxaT1ZQTTdSYW1tYg?oc=5",
+    "url": "https://pymnts.com/news/b2b-payments/2026/santanders-getnet-plugs-merchants-into-agentic-commerce",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -2458,7 +2394,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ0dOZmN4aGkyaHhIZzViNDJPR2dlRmZFRzlKamNINUg4VmJmR21aT0pYdDJEdVVsOEtxUUJndk9OWVpxZTN4dUhSc25sREs0bXd5Zk9XemNGcWNpTFJuMHdacjBKTlhIUndNdFJjY1VGT2xBX2IySHJadHdxc0JrZk1pVFhDdE0zQWR4X2dodlJZZ2pObkdZQWEtbmZURGExVnpTOGtjdWNwaWpMLTZfTmJyMA?oc=5",
+    "url": "https://retaildive.com/spons/agentic-commerce-ai-is-now-your-shoppers-first-stop-showing-up-is-just-t/821824",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -2480,7 +2416,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONkoyUXVtclp6aE1zWG1qZWhIVzZOb0RTQmJYamNieldfMF9reDJoM0NFRUxBMHNHeXZzMi00OEpielFwdWVTeFJhNklhX1VQQmd5SUlCRWV6Z3ZLZllsZE5GQjhDNVprSkpLMkZJYTdUTnRsdmsyRERwZjBOX21HampvZlA1R1E5YUt3?oc=5",
+    "url": "https://aboutamazon.com/news/aws/pinterest-aws-4-billion-ai-infrastructure-deal",
     "tags": [
       "AI购物",
       "视觉购物",
@@ -2503,7 +2439,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbFNEUzhSeHNWQlQxVThsV3JvbjRiQWpNY0RQMVd6LWE4RnQtTG5QOUNsTHhMNFZGdVlZc1d6eGJpNzlBWnNKQldBSS02cVJuWXc1S2R2bVR5ZnFZdFJDT2FlQzNnVHRrUHRXblh3eDBqU01DRnNwcWgyT0l1SEd5Sk1XclNQdVctemtSdkdfeVZJQ1lQdkZNX0NBOGp4aW45endJ?oc=5",
+    "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason",
     "tags": [
       "AI购物",
       "视觉购物",
@@ -2549,7 +2485,7 @@
     "source": "PayPal Newsroom",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNEZ1THJzV3NBR1p0dzBvX2tva2dHLTNwWUgtUzNBal9CODJWOHlrNEpnM2J1VjROb0Vzd3JyT3RpVXVwX2U1ZGhYUTFaU0FXNGJNcVVjaWRsSVV1UzJENjF3UHFUX1ZZSmJiSXBleWlGWnNnQkZwODRuVW15MUZ4TVp0VzJZVFhXaU5QdWI2dnhqVDBqVUZ0QlRrOHVXTVFaMmRUZmEwU1FobEFxZ2ZEZl90TUpUQ1IzUDZrYmJmV3g2bUJ5TTBlVGlXVjEzbVRaSUNheXJlWjhTU0xKWTNLVmE4VHFPT2FEYldKRHUwa0J4RUkxZXJQVU54Y2ljamluLUg0?oc=5",
+    "url": "https://newsroom.paypal-corp.com/2026-06-02-Hey-Savi-and-PayPal-Launch-UKs-First-Agentic-Commerce-Platform-with-In-App-Checkout-Debenhams-Group-Joins-as-First-Retail-Adopter",
     "tags": [
       "购物智能体",
       "C端AI产品",
@@ -2572,7 +2508,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Ma1N0NjNmQjJmYVBKaFh2NUFtVlRRdGtRZ2dWMFJSTjFqX05OVndQaDNtYk4yOWVzWWppdzFwN2dMb1NzcndDLTV1emN0SFNaM0Nz?oc=5",
+    "url": "https://wallstreetcn.com/articles/3773577",
     "tags": [
       "AI购物"
     ],
@@ -2590,7 +2526,7 @@
     "source": "Business Chief",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQlRzVkVuV0Z2MkV4eGwyWUE3ZEZ5RzNmSGJyQ00tamM4aWUtT2t6eE1vUTJsd05CMVVTXzlTaG5iWjc1bEFLdFFmVzJZV05saUV6akxQRFFHMl9XTWpNdXdWWkpHcm9xVDdRR1loTXhhSGt3ZFRIRXdzWThUeEVVMEdyNTFVWVZDeGh2Qk9fQQ?oc=5",
+    "url": "https://businesschief.com/news/aws-launches-ai-shopping-assistant-for-global-retailers",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -2613,7 +2549,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRFZoUUN3Nnd0NzB5dlB4YUtPOGRyN09kTy05T0JQcnUxNmdWZ0ZhNkdYWjFvU0ZhNnhpYjFRTllGY0pVcC1RMTBwVlFMMlNyZnRTVm03M29PbFBzb3JDcVVyVFNZV1lwVVRoZk5fUGg1Z01QbHhMV3FmWnI1ZVBNTFJLai1FMjJwT2RCQmprdUNPTHo1N2hNTU9uc19hQQ?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/trust-gap-holding-agentic-commerce-back",
     "tags": [
       "购物智能体"
     ],
@@ -2634,7 +2570,7 @@
     "source": "Mirakl",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdEQ0dEJvRjFSNHRpenpFVUlzaEt3T0I0dTY4ZnZLbno3X3A2UUxrTWVaNG54RTdGem0tM2hQYVhOODcweDhRYmNESWcyUkhtNTlTaHI4TFZhRXNtcTJSNmQ1UlhEUEJwRW5zZ1QxcHBnNV9SbHdSbkFBTzkxSjQzdXJlTHI3T2trc2NjRmRtYW1RUVpUU05sYzdWYllzcTlrQ0pNQWtHS19Ib1RBa0dnYWF3aVJCOW42aEVnc21HQktsWXNkLWNSQjM3ZExfUQ?oc=5",
+    "url": "https://mirakl.com/blogs/agentic-commerce/why-retailers-arent-ready-agentic-commerce-and-what-marketplace-leaders-do-differently",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -2656,7 +2592,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbHNkSVpVTnJ0SGFrRXByRFUyTWpKa3NLbWJ3ck5sMGRTbHdreWhXU3FsSmkzb05EajBMTnJsZWF4MDlLd0d3NlU5dlR5RFUwVDJHd1RIRW9TVlVqVVphbFdXVC1DX2NZQXZaR3k1ak1CanAtX0dOVkotaUlZNnMtRUNPVQ?oc=5",
+    "url": "https://aboutamazon.com/news/aws/aws-agentic-shopping-assistant-retailers",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -2679,7 +2615,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcm82OC12ZWQ0X0NBOWE3QTZfUHJiU29PdHRZOE5JQkVYMlRFWDZUTFQ4elRHZ296NmJ5M3J3MjUwVjVkYnNwQ19ia2ZHM2NUNlhXdDI3elhHck1LeW0yTmY3bkN1dlFJVEtud2Z0TVNSM29fUGxQdTExempQTUxKZy14SFp6bVROeDkwMS05SQ?oc=5",
+    "url": "https://retaildive.com/news/lowes-diy-shoppers-ai-tools-online-conversions/821019",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -2698,7 +2634,7 @@
     "source": "Mastercard",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNWd0dTFOcmFxNmkxb25raEpQNjFwZmlZOWF0QkFhZ0dibl9md1B6aVJYTUVQb19Fend5Nkd3T29hWjdvcFVvRzV6b3hVcTlKa09TRFVXbEhtWTFFM2hJbGxaWERZVDFnajAtLTZ4aHlyNmQ3NlM5SW9pajlnZmtDM1drQmRKOFJQcXFwT3h0X0MxSGNfaXA5VHo5SHgwREJ2QUdzbHdZNndrM095eW1OTWdrcXU?oc=5",
+    "url": "https://mastercard.com/global/en/business/payments/merchant-cloud/insights/agentic-commerce-for-merchants.html",
     "tags": [
       "Agentic Commerce",
       "交易闭环"
@@ -2719,7 +2655,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQanNRSHRtMHNZd3hPNHR1aFN5dENmUzg0cTNKSnJYMEx6WEZNTHlWcVRkYkVYSHhsaEl1SzRqTldaNExHMEtvRklCaGtKZkRSRldnZkR4Y3ZaOHlyVDlTeE5CanY5U2V4Wm0zTEkxWjRRM00xbjJNOGhyMTVfX2pPVTNRNmljaklVbDZxUXJ3a1JHY1JoNi16WmgtVkZUYzdsSFg0UDBZdU0xNENPTkptajRtQQ?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/the-agentic-commerce-checklist-every-merchant-needs-now",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -2741,7 +2677,7 @@
     "source": "雨果跨境",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAteDhWb3o2cDV0OGJ4cjA0bHpzMlM0ZTZoMDByZFhBZjN5MWVZZUNzZ2NOeXYxRTNtMGc4bXhZcUY4SUlBVEpwVk9nNm0?oc=5",
+    "url": "https://m.cifnews.com/article/186181",
     "tags": [
       "AI购物"
     ],
@@ -2760,7 +2696,7 @@
     "source": "AI Magazine",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVUd3bktwV01GZ05HTjA2eWdTYXhfT1hNTl9uaFpWZHBlcDltaWdlOWpRVHpaXzVaTUVrVFNFelFCQmxLdTdlTmJMb0U3Nml0M181ZmF3T3RfbXI0X0JsX1d5OC1obzh6bGdjblJaSHVLLVEwM0ZoMjJqUzNZUXFGS05JYjJ5akk?oc=5",
+    "url": "https://aimagazine.com/news/klarna-plugs-practical-agentic-commerce-into-chatgpt",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -2825,7 +2761,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOGtkZFZCblpNVnlBZU1FSlhycjNfSnlocVFqd05wb2VxeUxSZ2tYN19BcnJMYzFLbkxTc0hESG9NRFM0VWwyS3l4a1hqUExQRWFvQlhDaTRhVFNIcWNCV3lZcXlLSEItZ2RfTUFDLTBETzRmcGtCWS1hTFNNTEJWTHd1bFRGTTRCV3p5NURIdGlPWWM?oc=5",
+    "url": "https://pymnts.com/visa/2026/visa-wants-to-make-ai-shoppers-as-trusted-as-human-ones",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -2847,7 +2783,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZzZ5UkFRbTN0OTdCWXRZVGpOTVBNVmNfOEh2Nm8tdnFvMjhrQWlndjVDQ0E5Y3N3THBubXpOVHFPSC1XeFpyQ0tKcUpXS1kwS2c1OWZNU29Qb1ZqdmV3MzFYR01YLWRUY0ZGSXJVY1VlbmRFai1DYWxqcmpJdEd1LWJkTTlYSXl2ODhqUjZlQ1gtZW1feklkMFpYQm84blJYaHRkLU5yOHBEaElUOEplRG00Qk5HZ1AyMzhHUlZWWGRNN2ky?oc=5",
+    "url": "https://techcrunch.com/2026/05/19/googles-new-universal-cart-wants-to-follow-your-entire-shopping-journey-across-the-internet",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -2870,7 +2806,7 @@
     "source": "财联社",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1vT21xTFAtbFRHQi1WWUhvOU5iR3dnV096dU9pWlU1TmdRdko2eEFlYVUtVU9MREFpTlhBOG9pLWFDREFzWXpXVA?oc=5",
+    "url": "https://cls.cn/detail/2374562",
     "tags": [
       "AI购物"
     ],
@@ -2888,7 +2824,7 @@
     "source": "thepaper.cn",
     "region": "国内",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96STR6TmJMLW5qaXVfU09BU2IwaFllcURjWU42OHdXcHg1M1NScUlrT0lHQTdfS3R6aHdReWU2VndtR3V4NUdzWHBmTlFVNXBRd0J1OVl0X1FVVTA0Z1BxQQ?oc=5",
+    "url": "https://thepaper.cn/newsDetail_forward_33187401",
     "tags": [
       "购物智能体",
       "AI搜索"
@@ -2910,7 +2846,7 @@
     "source": "The Next Web",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTU8tSlJOendnbV9BNGxJWm04SXdZVEZrYUFfLUlrbmd5OUdVZ3h5MGRGdTQ5UVFSZ284Mmd0OWFRRjFnVnUtemM5anJLOXhHN3g1WW43LVM4NVFSSHVyNFhRYnVoaDdTd2FoQ3JhVjNaYlRvS2VnMEQzNG9Yb0Y3dUVuY0h5RDJZNEd2bmp1dUZabUd6WVJuaWZWellMQTRrZjFkZWFxOGRUNk04?oc=5",
+    "url": "https://thenextweb.com/news/chinas-tech-giants-are-replacing-the-search-bar-with-ai-agents-that-shop-for-you",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -2932,7 +2868,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYXpZTmdYSC1qUWhwUGxDdnBpSTZ4QzcyclRURWFKWnNTbGczSjhwRWpSNzM0SmVray1vdUpuNDEzaVV5Q2JUZGtuVU91LVpReWFzRzFlaTl6bXlRVW9MeTVKb1pyZFF5N2FSMi1KcnRFVnRLa0liOU1RelhjdHB2SGgxdUJsMUQ2cVhnalFGeXpRZw?oc=5",
+    "url": "https://retaildive.com/news/etsy-debuts-chatgpt-app-ai-conversational-search/820083",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -2951,7 +2887,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wY2lodzJobTkxeTI2TW81bEU2UXZWZEhEdGhJV2c1NXZ5QzJJVzcxc3RoQVNYckt0RkJHTVdLN2d5OHlPa0NSbG5YODVzb3AtTTRSUkZldnJQaUF4M0xZWWt6SG9ZRWdPd210TFJPQTdIYml0SXJFS1kzaw?oc=5",
+    "url": "https://aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -2974,7 +2910,7 @@
     "source": "Harvard Business Review",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcFZWcG1wZnR6QWkxYkZWc3JLNGpkaVNucDJHZWhseDFWN24yQ1JaSlJwanYzWUlwTloxMmUyZkRiVndYbkRjczBzMmRIa3Z1Zzd2RUxjUWRPcGozU3Fva2lFY3RiZkdOeFl6c2NXU2hQZllidndnU0NaalBaT0d0cTZiZkU1cmdmOE81R3JQWl9iUQ?oc=5",
+    "url": "https://hbr.org/2026/05/research-traditional-marketing-doesnt-work-on-ai-shopping-agents",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -2997,7 +2933,7 @@
     "source": "证券时报",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1dklpWWVXS2hDeUdfRE5feGZ6eS1ZSS1sYngyYXdnMEttVnJ3NU00STlnTldyNGduRnkzaTBQSHdBdkFUYXpWSTRJT0w5V0VWWTJCaHY5WEJJZE03?oc=5",
+    "url": "https://stcn.com/article/detail/3904646.html",
     "tags": [
       "AI购物",
       "交易闭环"
@@ -3018,7 +2954,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xRkVuVmlYTkpwdkJfeGczbGVuUlRUQzJ1NjZjOVNwTW1HLUN2LVliWm1iS0ZCSU5teGYtdmVJQ2xqMzlvcU93YTZsRlZ2LThYdlF3?oc=5",
+    "url": "https://wallstreetcn.com/articles/3771956",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -3037,7 +2973,7 @@
     "source": "Sohu",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nbV9wbFN4MTZSNnMxbWh2eUx0aWxEdkYwenY0d3NJcEplSmNOYlo2SlRnS2UyekN6V2o1QVpSLXd4dmVrNmhKbFdNQ2duR3BNOFE?oc=5",
+    "url": "https://sohu.com/a/1021092903_223764",
     "tags": [
       "AI购物",
       "交易闭环"
@@ -3057,7 +2993,7 @@
     "source": "xueqiu.com",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jVkhiNEF6LTJ6alhQZmJZXzgyYXNnd1E4RENqLUllWUxKT3hQenVtaHM1RTNZWlZmcXpoYUJqM2FEck5fcnhCY1JRQ00xLUhM?oc=5",
+    "url": "https://xueqiu.com/4176691356/388066501",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -3080,7 +3016,7 @@
     "source": "C114通信网",
     "region": "国内",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UZ2llYlAydzNOOGJIMnp0Q1FfUFUtaWVfSVlNQWJfWV9fc0NFVE16cFBGQnZWd1dCVXpiSTl6UFRqbFpZTHBkRWxhczNqNWtB?oc=5",
+    "url": "https://m.c114.com.cn/w241-1309952.html",
     "tags": [
       "AI购物",
       "商家接入"
@@ -3102,7 +3038,7 @@
     "source": "Bain & Company",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZVVLSW15RVNHd3JOSTJCT3hHalZLeU5IMUh5bldEWUtjVDNmQmxrWmdmc3pCZHJ6ZHFpU2NsMkpLT25Dd3ZqZF9OLWxFams2V2RhblVTejBHeXVSNU9wQzJTLWlwVmFsOVlwN09SQlBQVGtReDdxanJOZzlhYXFPRHJRUQ?oc=5",
+    "url": "https://bain.com/insights/rewiring-demand-generation-in-age-of-AI-agents",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -3124,7 +3060,7 @@
     "source": "Fast Company",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdC1RMDNQMkJtU0tWLWZXWmNSWEJaVVMza2NQQnY2WGR4MkV6aGxOUGdGbG1oR0ZGbWp6YlRQZy01eWdOWnQ5SEhOSDNBdkE5SUpYaXBDQjBjTy1icUNOWUwxbkltakpsN0V2NDNuYnRWWHdYZTRIczh1dkFsaF83ZHZMaHJDc3VGR2ZxSF9WSHZ6OXg5cmFiR1g5amhKX25FTzk5U3RsTUJjdw?oc=5",
+    "url": "https://fastcompany.com/91533534/shop-til-you-bot-google-openai-and-the-race-to-build-agentic-commerce",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -3170,7 +3106,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTE9EcHlSdUJiTElLRHZEUlV3dkhrejZJYjZvRE44VmlRbnJtSExfX2NmWHp1YmVtV1Z2OWF0c1pMMmZRQ3gzMnpXQ3BFVU9aOC00V252QzVQWnJqUzVCSVB3VWdJYk9ObnYwb0RFWGhoVHQ4dXRqNDk2R29QaDgtbTRmOA?oc=5",
+    "url": "https://retaildive.com/news/agentic-commerce-us-one-trillion-2030/818936",
     "tags": [
       "购物智能体"
     ],
@@ -3191,7 +3127,7 @@
     "source": "安全内参",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9mMHhhUmt6d1ZWYldiVzB5aW45eEdVdzVWRklweE15Vy05N1BBYzBpSWl5T1hzVm9za2xxWk0tVm53ajVkbTNoREYybVdBZw?oc=5",
+    "url": "https://secrss.com/articles/89942",
     "tags": [
       "购物智能体"
     ],
@@ -3212,7 +3148,7 @@
     "source": "The Globe and Mail",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbHJWZUdkSmNQMEVSRHNGX3ljTFBmUmxZeWo1YmpGWmhqUlROOUJIaDlmb0ZMMjF4Y1BfQXF1RVVXTEJuVUpWeGJpc3ZRZTZudHZqUWU2V0xrNDgycTRwaEo1SjIzQ1FsbHdUMHJodWpFbWlGZW1kSFVUMm1QZTlVR2VQX0pBLXBRUEtuWkE4dTc5NUJDeThidHNSYXoxV2kxbWhtSXVyRnI3MHpWVkFtaWNiaEhQZw?oc=5",
+    "url": "https://theglobeandmail.com/business/article-as-ai-upends-shopping-retailers-tailor-their-pitches-for-chatbots",
     "tags": [
       "AI购物",
       "商家接入"
@@ -3259,7 +3195,7 @@
     "source": "Modern Retail",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVWk5YXY2M2J6Rk84Vl8wZEhZb0pYdWtCNVIyU2g0Z3NfU2hhTUhRVVBWd2NmcnNObGNpWFFkSnlUYW1wYjJrZF9BX09tQThGUXRiTElVSXRDLXhjQUpXQXZJaVFjRkNwc2VlQi03OS1GOFdoOTQtQTRXXzVZVEZYVXlqOXNvSnp2QVVXbEpmcXlTU2FocE55WTFOeDIzUHptZno0VnpySFFwdHRQNVNrdmhKS0NLSmM?oc=5",
+    "url": "https://modernretail.co/technology/retailers-are-rushing-to-build-ai-apps-its-unclear-if-shoppers-will-use-them",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -3282,7 +3218,7 @@
     "source": "McKinsey & Company",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPemEzVzBFUjdKbENmWFJfaVlzc2sydkd3WVpZZkZtVTZ5MU1QQVM1YXFRSzd4X3dVMUFfWG1rRWV0RWdwN1JPV3RoU2JGVEhpRWE5Yk41X0RYZnp0RzNxdkpQczFTYUFNYWRSY3BJWkxUNV9uZjl5bkNjRG9wSUd2QS1B?oc=5",
+    "url": "https://mckinsey.com/featured-insights/charts/shopping-gets-an-ai-assist",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -3301,7 +3237,7 @@
     "source": "Stripe",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YbW0xMW4zREVCXzZ3cXI2ZXhTdHlYRFMyWmZLaV9OajdoeXFIbzB2WGd4RFVSMVJ6UmhqSHZidi1fNFgyaFVmNmg5eGhRTWZGTkNhemZVM0NpcDdsMDd0dVE2cGFDaUtob0RCWFVibDVzczQ?oc=5",
+    "url": "https://stripe.com/cn/sessions/2026/beyond-checkout-where-agentic",
     "tags": [
       "Agentic Commerce",
       "交易闭环"
@@ -3322,7 +3258,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFN5X2pya2x3TFg1TU10Rzk5Z0s2RWVuWVJUMmNHSV9rZ1g1c3kwWmY0REN6N0pvZWUxX1lQRVlRcHZURkdPYk5Ca3IyVGJmRTNjTVhfRDh4ZmIyM0NkeFpJZHVhdWlsRExUQkZ2eDJ1UG1DcFRJTmdrUFVrdEhZUTBrNGtsejEyU3lzSzdFZlVFQkFxOG9QeWNGa01pcHMteUFhQ0lReG03WTZqOTMxUlpQQQ?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/43-percent-of-retailers-are-piloting-ai-shopping-agents",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -3345,7 +3281,7 @@
     "source": "McKinsey & Company",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVHFObjltYm5sVW16SzBjemdDRmttUHZrME51RE5CcVhEcWhhZGQ2SkdXVkZVMjBJeXJRWjRnbXdiYTZJT3AzemZoZlIxRHZRa1hfR1JHT1kxb3JSZWNKdnVDNFR1Z1VJZFhPOWFQODdmOXFHelA0Skt0bm9jX0RoMHdsWjRyN2JVbVNudkRkOGIzczU2Nk5zRkJYREtOREh1OXBqRU9pWFdmeFhYRXJDaDVaTQ?oc=5",
+    "url": "https://mckinsey.com/industries/retail/our-insights/shopping-in-the-age-of-ai-redefining-stores-for-a-new-era",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -3367,7 +3303,7 @@
     "source": "AI: Reset to Zero",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmX2lZTXRtcXJRLVhBYUhjVU04cVRDbGxtSVJkZjJTb0Itb1ZNSUxkbFJ5NkI5bzlvT3RhVHpodm51RC1sei1jd1JtU1RvdVNfMU9GSDk1S2JkWjRSRjRRd1BiaUlIaXlIdjVvUzRyb2tWSnlmcGNHdjl1aw?oc=5",
+    "url": "https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -3389,7 +3325,7 @@
     "source": "Mass Market Retailers",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNFpLY3lTRDViZ1VLOS14QVJhbGZ0QjZLWGF1anM1NWtLZ21pSkNEc0xBSmZjc1pHd3d6VVlteDM0QmJ5NUNYR2VzaUZXXzlxSzZUdEZIcTFSNG00S0RUemFhQng2Z1lOMkVsMDlqS0k3bUJ4R1pfTXRnNkZGUkVxYy1R?oc=5",
+    "url": "https://massmarketretailers.com/instacart-brings-grocery-shopping-to-claude",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -3414,7 +3350,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaTh5N1NmR0VzQXBYakRRaU9oTjdETHJ0SUt3STZoaFI3NVNMUlc0ZmVmU2ktNGFfbHFPcGdQQ1UtYWx4WlhCdjFLQjQyUXFkWURKdWdIOXctUF9SOG00NjBmdTlOa25sYW0tTGtZaU13NjRZcjdHMmU1YnBTWkdCYUJsYzFKal9ZZjlxSGpxbFpZVXRDeUFzaHJ6SkU3UU9HNnRBMjRRWWNUMEo1Y1Y3cU1YZFlQOGlINFUzSUZzUF9scVVo?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/ulta-beauty-deploys-google-powered-ai-assistant-and-agentic-commerce",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -3437,7 +3373,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QnVnaXU0bWFnZF9MMVBROVpXeXVtSHBDSE1kc0k1cXMzdG1uLUJIT2U2Rk9jVVJNV2FzNzA4VFhrUkNqNi1janYtNzNneXZIWURncGNiZGdSWU1HVkxCN2tBYVZuWWc?oc=5",
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
     "tags": [
       "C端AI产品",
       "视觉购物"
@@ -3459,7 +3395,7 @@
     "source": "The National Law Review",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd0lSRDZWVWtpOU1EQmtnYURCUlB1aTV4bDZqUlRxX24xOHZOV0dkOVdGWVdvS241NVNnd1AwMVhKdFZSZktKUWtPNUw0bVpQcE9DTkxOX0RNYUlpR0lCbjE4MDFaT2dQQjFwWlJOeEtmY3hIamk2aXFoYTZRZmUxbXlXOER4R0pPUWxaS2RMVHNyeVN4eE1sVXVGRGvSAaIBQVVfeXFMTVhGMmxaUXBPdWxnY01DaWlWZTVtajFSY1VRWlBOYUozQXVSQ0h3S21GV2NMZ0p4eVdlTzdwVDlqWWxRWGlkUUdmSzRZcTl1T2UyRThWcnFKam1XeVBkalV2WHZHQkppbjhVR2pvTEJXakc1MW4zZ1BRbHVrRTFYRV85RUh4b0h6eEQtNGo1c0RCVkg3ZTFPSEVkTjV1TVNLNVFn?oc=5",
+    "url": "https://natlawreview.com/article/agentic-ai-commerce-next-wave-online-shopping-and-retailer-risk",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -3482,7 +3418,7 @@
     "source": "Finextra Research",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWZNRnlBN1F3UmdBem5aZFM2WmxJc242VWNQcUpDMXVjYzZYbWIzdE5HSW8yYU1sN25CVTFUNXY2ZDN3RC1UN1F3Yl9nYzFRUV9LZmNON21QOFN6N1lrek9CWWRfMTZTNzBxZms0alhrVmJlSlRra3JoM2xzYVZNeG9LT1lqdDdES2FJWHZiQjYtVllNT3c?oc=5",
+    "url": "https://finextra.com/blogposting/31414/deep-dive-agentic-commerce-and-payment-protocols",
     "tags": [
       "购物智能体",
       "交易闭环",
@@ -3505,7 +3441,7 @@
     "source": "xueqiu.com",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5FVFV1d1N6N2MtS1J2TWNpSld3clBmWjQ0M01STVFjQ25XTno4R1kxQnJIeGd2WVdBQWgySXlzVDlCVVdEMUNweFZwbmZ1dHNo?oc=5",
+    "url": "https://xueqiu.com/3569380258/384531659",
     "tags": [
       "购物智能体",
       "交易闭环",
@@ -3528,7 +3464,7 @@
     "source": "The Drum",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdTBKV1Uxb2ZEb0tDbmIwZFc4T3VxTVpmNDc0aXByb0lJYXFHYU1NX3dqdUhtNHQwd0M3SWUzdm5uNFdaRlVhdDFkTWpSTklhOEdOSGNRdkJwX0JVUThfeHhoUXF3cU8yMGpkZ2JYS2hhUU5IWnZ6TElYVUNtV1hCcWZaVXo?oc=5",
+    "url": "https://thedrum.com/opinion/rufus-remembers-me-and-now-it-shops-for-me-too",
     "tags": [
       "AI购物"
     ],
@@ -3546,7 +3482,7 @@
     "source": "Adobe for Business",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYnBVbTNjYTg2QW42ZmQ4LVJuSjdVM1JmbEhQYnJzbFU3eElXNjBlLUhqelk4amlHenRqc1lsOUY2SUczYU5VY1Y2TXo1dFdua21qTTF4cld4MXZobEFWTGpFd0RpS09jOFFfaTN3WUVCWmNUNkFydjloT2d1NmpmX1dxaXBoOVFSUnc?oc=5",
+    "url": "https://business.adobe.com/blog/ai-traffic-surge-retail-sites-not-machine-readable",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -3568,7 +3504,7 @@
     "source": "Retail Brew",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnNmSGFVZWN5OUtMMEpTWlUtQ0NQVTJCRGhDNWUxNklKR1M1bnZXTU5ZU1hZSi1WQk1MU29JaUN2cGlIQVYwZlgxQUVSRjE0eUFYdjJCaEotamEzYm9oTTFab01iN3pJcVhKTUN0UDFOQnljdHVHT1c0Y1JXMVJ6ZVBfTUFyZ2xoQlRzQnlUYnAwVVFnMkwzWnlwa01IZGZueFFvOThrek1nQlU2NmZFYkczandzeDZvWFpkblhiVUZLcHg2?oc=5",
+    "url": "https://retailbrew.com/stories/2026/04/14/david-s-bridal-says-yes-to-agentic-shopping-within-chatgpt-and-microsoft-copilot",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -3591,7 +3527,7 @@
     "source": "Quad/Graphics",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY2sxTlFpNkJCYnpRWkk1VFoyejNzZGRUTWROQVp5cDh2Zy15VnVrZXY2dTdadFIwbHNQX19VM056MUtJWjRQUklld3Jlc2ZPbHR5UkF0NnhrRHBXVzFKVW55dmFNQUZ1R3Z4MlRUVHBDbW9DMXFhT3dNWE11N1czZ1dkSGNOZlRXcEozQTVqUmJNWW00RE9zRlBzdVdSX0kw?oc=5",
+    "url": "https://quad.com/insights/consumer-insights/the-rise-of-ai-shopping-and-the-looming-trust-cliff",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -3614,7 +3550,7 @@
     "source": "deloitte.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVkwwZnJVQmh0V0g3dkVkanB6VENLSVpfTGJEQkZWc3NnOS1xdFVZQ013Ml9LbU5PRDlZbU9SUmtQMlBjS3o2bDJ3QlFlQkhFdWs1WDg3NEM5eGFiVzMxcHg2a3V5Nnk4YkhBZlFId29KZHd1S190Yy1zOVBteTA1REpHSU04aHBpb0J1V0VlT0FxSEdlRkgxaTVoMVZrU0Vtaks0ck5RazBTNkFEWDk5UC1pZlVTbzNaUmtGOG5lOVVyZEQwX2J6c1pPTy1RbE91U0ptbw?oc=5",
+    "url": "https://deloitte.com/us/en/industries/financial-services/articles/how-agentic-ai-is-transforming-e-commerce-and-commerce-payments.html",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -3636,7 +3572,7 @@
     "source": "finance.sina.com.cn",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiVHhPRHQ5eGc2VFAzWEpoOEhnRktCS3NKQUZjRkRpXzM2eTh4S2JUODA3YnJGMTJVYzFEdnppbWhZLTd1aHJRamZYdVFQZVd1RHp5MzJQZkxCUmpITjlPOFZXOXh6TEd1cXJTTVNFTm1JeC14U0dOdGtfUmJKeXc?oc=5",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-11/doc-inhuazck1594574.shtml",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -3658,7 +3594,7 @@
     "source": "Retail Gazette",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWG52OFk4S3B1OVpQWGJEcWZIcFBNbTRYR3BnSmNQMGEzUUx3djlhT05MWkNXeFJzTnVFYl9wOVpnQUdhZTVNS2FWRnRPWEVqVGZESnpzc1FGNlFPd0R2VXFXN191UE12M0R2a284N1IwcEtvOXRmclBaQkstV2licUVfYlpsNElwZUVvNkpuUWNiVms4V2F3Q2lVcFh6ODdrVG1WUjlSTjJ0U09Lb1djMnUwOUpCWXdrTFZz?oc=5",
+    "url": "https://retailgazette.co.uk/blog/2026/04/frasers-group-launches-ai-shopping-assistant-and-sees-conversions-jump-25",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -3677,7 +3613,7 @@
     "source": "htxt.co.za",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM19hVEVvVVE3c0xUd3ludE51RnhpTFNmUEJJNExaSGpaWHVUa2NEcDFGZ3lvSVhFSjJQR0M0NE5nYjVpRnFLRVZYYUdrdUludDhkMWs3LUM5MEw2U2c4eFFfTGlNM1FOMFNVdy1GT3ZyOV9FZTUzSzVpSDU0aV85eVJaeXl5Qmpq?oc=5",
+    "url": "https://htxt.co.za/2026/04/meet-pixie-sixty60s-new-ai-powered-shopping-assistant",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -3696,7 +3632,7 @@
     "source": "亿邦动力网",
     "region": "国内",
     "category": "平台案例",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pNzNKYkZpd2NNMUtqZHc3U24zZlNZcC1IS29ocDV4bFNrWjlVMU1teFY1VHNDRlItUHowTVVCbV9ESGFoMmk2cXBGN0tIbXI3Rm1HNGdn?oc=5",
+    "url": "https://ebrun.com/20260409/654876.shtml",
     "tags": [
       "商品库",
       "即时零售",
@@ -3718,7 +3654,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9QMVFqUHJSNXVyRUtuQXlJdTlOMHpoX3FrTmNmYV9ZaFhGVk92b1kwNnVWZzBLX19BbjRJNlVYWGpabV9VaGNxaDl5WEg0aTFNeDBR?oc=5",
+    "url": "https://wallstreetcn.com/articles/3769514",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -3740,7 +3676,7 @@
     "source": "eMarketer",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU3VyTDJBcFVTSjVHc0JXNkJhOVVaTE0wVFUyRVRYcDBaRk9EbHQ3bnRSYVVjY0pMWGhiLWhDQmFfZXY3Z3IwbDZkSS1FUTNabFI2VTc5Tk5UVHZIYU8teWhUc25YUGJRcXV2U1dVSW5yZlhOaGhZM1RVVEU2dVQ5YzBOaUtQdkl1N2hwUkFDX0EwQV8xOERoY3psSWFKMF9od0t4UGJvamhoX1N6OVpsag?oc=5",
+    "url": "https://emarketer.com/content/faq-on-agentic-commerce-how-brands-should-act-now-compete-ai-driven-landscape",
     "tags": [
       "购物智能体"
     ],
@@ -3761,7 +3697,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmVWUWg4cFZ6cy0xWEtHNFBNdG1DVU1JZ2VVUDZqVE9XWklaTDRGZnc0UGswZmlqd0JEWXZSTWtkbENmY1VrX09IRm9Nam9VakFidWhKUzFiRGpqQ2hXTTVHSGN2djJCdUUxMDRaWFd1cEhITUViRlFiaEJfQVhyaVVWa2lzajg2dmZ6ajhPVHlzT09mNEhJX2libW9FS3hnSUpGVGwxOG1KRGxCRE5xb0JoQ25MRlFrcWpsNmdTbw?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/rezolve-ceo-sees-growing-competition-over-control-of-ai-shopping",
     "tags": [
       "购物智能体"
     ],
@@ -3782,7 +3718,7 @@
     "source": "Futurism",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JODU3Uml0ZUtmdmtkdEdheTRMWE5kTjRQY21rRXBnc2ctb2ZxdDNoaEpLZWdaZGpzZFR3MFFlYnJLWXRLVnl1MkQ3UTcwZTA1V0pONUVKR250WVh6aG4xemYxWm5OdmhnS2R6OFVkSXZOZw?oc=5",
+    "url": "https://futurism.com/artificial-intelligence/target-ai-agent-tos",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -3805,7 +3741,7 @@
     "source": "al.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcDZ6NlczY2xyVm9mbVBobTdDbU9tU3hHVDBqcFpWZDFNdnRoZUIzaEJ5UE5vSEVaS3hHWk5DSVVUWnFpRXBTNDBHaG15bGtjZGlnVmxYNm11emxUNzJoT1ljVWZ3ZnotWTdGbFBQYjREdW1YU1cwaW9xOGd4N0IzbmhMbVlIRDFDN0Zv0gGfAUFVX3lxTE41OVZ3T2pzSTZGeVd4TV95OTIzanJaUGxfYUI4WEdHSmcxWFBsaVBHTERBei1WQm9remJKbmFTTkRGTXhXN3RDYTd4LUhtYnVkeHFJT1hQdUpHMEI1LVFtbEhmOGJfVHVqUzkzb0ZJSmM4cnhzbjh1Sy1ScXd3WFhxc2I3VTVfV1EzWmxYT0x5c3g3Y183R3RMZUJ2YmQ5RQ?oc=5",
+    "url": "https://al.com/news/2026/04/walmart-revamps-a-checkout-option-for-shoppers.html",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -3828,7 +3764,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWksyaEgzMDdpOGxhMFZ6SkwxSmw0WlA2RXlWMFlIbFdJRjQwb1Q5bVA5MmMxZ0liRTNiY3VPMzFEVEdKb3RCZ1d0aEJmRzBUZTNWMHNmc2ZORlk5QnZDTGtFNjRTRHdYaG9ES0JLRk96OU9xS3ZmT1N5SElNd25OWWdYR2RwYmpSNGZiNHRUaDM5ZFFHR1ZXWElqQm1MNlk?oc=5",
+    "url": "https://pymnts.com/legal/2026/perplexity-asks-federal-court-to-lift-amazon-shopping-agent-ban",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -3851,7 +3787,7 @@
     "source": "Digital Commerce 360",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVGpRYVlIakw1aktKZ3AyLVROa21kUnJBVnVFcXAyaG1odzFOZG1jbHNfVnBRRTR1OXRuV1I0SFkybTI5Nkxwb1NHRHA5WkVfQ2NiY0FmSnptc2tZX2tJYko0Rm9XTEdScGtWZE9zWnhHdS1EY3d6WWh2NWNHcWhDQU5EOV93aVBfQWfSAY8BQVVfeXFMTXZ0dTRBczU5ZXFlSXpueEYwX2YyMWNybVR1am5HZU85Z2hIcTVKWFFPSmdUTmR1WmhJTXBQUDhfWkVHZGZ2am5XNjhmcUZfa3hkS2pIeU9OOVRFaE5kSFNjdVJCSVlmMXhsWnQ3Ul9kQkNIRkZvaU1ySXp4NTM3MW43bmRMeW5pWkpfUlVaZ1U?oc=5",
+    "url": "https://digitalcommerce360.com/2026/04/02/visa-mastercard-in-agentic-commerce",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -3873,7 +3809,7 @@
     "source": "Yellow.com",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQZVppbkNuSElPaENGTU5FTUxyRE0wWjZqaVpxWXVRM3NvdkRYN3NoQ3hJSzhqOVJNVEVZTkhvdmxPYkF1SzU4S3lhOUtvbks2b21XOVlnQUhTZ3NtM3Z2YVoxVE5nOENsSTZGcTM1aVd1RUtmTTAxTmlCYXQ0RTFhUGVKUkVvbVBHaUo3enQ5RlFQS1RyMmpmTzc0Q25BRGNZcXowTVc4dG8tMGF2aTNrMW5ncGJtVThadEkteTBxMmVGRkh4LUtrZ3JwOVVNcF9EblpKaFNFWE1wZWplMm4zMmVXREZCOUhzVXJ3enNfSnpkVHBxdW5XbWR3MmVzWDUtXy1abm1vOWczRmVxdUY5dXZ1bUNyelJPNTlfaERWcnozLVZucUFXWTdrcjk1ODNDZmdyYUdyWmtGdHNCYmRPTm4xakFOYjBlMmRybjlpX2RlRk1GUzNsVEszVUFSSWRf?oc=5",
+    "url": "https://yellow.com/zh/news/%E5%BD%93%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BC%80%E5%A7%8B%E4%B8%BA%E4%BA%8B%E7%89%A9%E4%BB%98%E6%AC%BE%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88%EF%BC%9F%E7%AD%94%E6%A1%88%E5%B7%B2%E7%BB%8F%E5%87%BA%E7%8E%B0",
     "tags": [
       "购物智能体"
     ],
@@ -3894,7 +3830,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUkNqNFZUM05VN3AyOTJ5eHlxUkZ5RzBFQTAtNEtJNlNqaVNZS3V5Zkp6TUZpcy1BUHR5YUV4STZ3OTVMZ3lzUTNtN2JLalctNFBLT3NYemZ4bHpBZmhWMEFNdXB5eFRwdjluWGwtai1NaERLUHdXNnh1clU1VW1HQktPNEpNNEk4cXpuc3BWbw?oc=5",
+    "url": "https://retaildive.com/news/ask-macys-AI-conversational-shopping-assistant/815928",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -3913,7 +3849,7 @@
     "source": "me.news",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aWTRiTm9BWUVhV1N5b3dKeVNkM3JKQm5XZmhueDN5Q0ZkLXpsLW9OMUxOQmVaS2h4bkJKTjhpeXVNU05hbF93MmRTWQ?oc=5",
+    "url": "https://me.news/contents/267494",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -3935,7 +3871,7 @@
     "source": "Finextra Research",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPek9LcFI1a0tpbU53b2c4SHJidTdkSjFxbHY2MXhQVk9nV2FkY2ZzaUxXaXcyeVlwclZPdm5hV3o3Ty1NdlZfODJqVHRMMEs4cGJzZ3RhVkJLaGVXdG56ak1mT3BoRU1tYzBja3BYaWJPUXJYZlE2OEdWSTNVNkk4TEQ2dlJHNmJlSWMtLW4wcjBocUVBMGljOA?oc=5",
+    "url": "https://finextra.com/blogposting/31251/deep-dive-the-hidden-liability-of-agentic-commerce",
     "tags": [
       "购物智能体",
       "交易闭环",
@@ -3958,7 +3894,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JMHhvWTZIUVYybTdjbktpZm14aHZvc0hOYjRtQjViYmxTbmY0QVg0cHVBaWhqU01yaGxHSlJIWTAwaUoxa2xpMHlxUG80UXNDN19GQXhWc2t3aUptUk9lUk9lX0llTkZvRUN1QWxnXy11My1Dbmg3NGtHNNIBgAFBVV95cUxPblpLOWgxenZEM0JMQzRGZFFiQmprbkNoVjNuZkxEbTgyZ3FONXEyNjJYSy1vQU9Oa3FrcTZTTjZ6NFhWZU1xUXdwaVpVSWJHR0FCcjZ2NHIxWVFQTERXWDVzb3J5QVdqenZUOWZ3WDVoQ0x5SldscnBuMG8tLUNMVg?oc=5",
+    "url": "https://cnbc.com/select/ai-insurance-tools-for-comparison-shopping",
     "tags": [
       "AI购物"
     ],
@@ -3976,7 +3912,7 @@
     "source": "Modern Retail",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ1lIaDc1WEQ0SFlyYk1mdzNSUnZPSXdkUHkySGppeENDaFJDWGxGaVdraXlnMGNmU1ZWaDBLVkxDOTVIWmpVODdqMWV0b3JNN0xoVFVxajFqYl9ZMXg4WTI1TjNkSlVpRHNMNDNHU3YxN1pHZi13MjFKMUlZM0pfWU9NNmdqY1RQVEZ2NHlYcw?oc=5",
+    "url": "https://modernretail.co/technology/what-went-wrong-with-chatgpts-instant-checkout",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -4000,7 +3936,7 @@
     "source": "Startups.co.uk",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sS0FJdVhhdy1EelIxaVhYcHh4WEpna3M2NFI5QzR6T01sMGF6MWswclhaZU9PcVQ5ZFd0dkpkZUNSNmtDM1Zsa240UnA2NDJCaEdhdXhueUo4eG1idlJ6RUs0ODRhZw?oc=5",
+    "url": "https://startups.co.uk/news/chatgpt-shopping-assistant",
     "tags": [
       "C端AI产品",
       "交易闭环",
@@ -4023,7 +3959,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazlkcW1kWHVfUVgzVXQtdFlNV3doaGFpTGV3UnIydldvcXdlMTF6bjFBeDNGMDMtWkVBb0JNU0hDYzBwdGFIV2FoSjNaUFhxYXNHdGRPN2NNbl8ybE9vcnJ3V1NhZThLamtKWF8wNVpwLW4tLU5MLThDUDhscjUwLW9tTkY?oc=5",
+    "url": "https://aboutamazon.com/news/retail/amazon-big-spring-sale-2026-best-deals",
     "tags": [
       "AI购物"
     ],
@@ -4041,7 +3977,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTWDMtRnVkS0FnbVZ6NWZwaXViUTZaZ0ZuTXBRMnd3dmhKeDFnZHpWT2ozWUJvSlVobFVYRVhVLXN6THVvR0RucG5MZzhfUHZFUmpEMFNTRXpXN19BM3ZTeGk3VVd6QUFKa2RpNTJ5WGs?oc=5",
+    "url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -4063,7 +3999,7 @@
     "source": "艾奇SEM",
     "region": "国内",
     "category": "增长/GEO",
-    "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8D%83%E9%97%AE%E7%9B%B4%E6%8E%A5%E6%89%93%E8%BD%A6%E8%B4%AD%E7%89%A9+%E8%B1%86%E5%8C%85%E7%AB%99%E5%86%85%E4%B8%8B%E5%8D%95+AI%E7%94%B5%E5%95%86%E9%97%AD%E7%8E%AF+GEO",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791342&ver=6952&signature=EUqffJqBwXfX9P8i%2AJs15PwS05F%2AIa5DLSIZBXiTjP7-KQxhnIOD5q-9UqktPml4XTkXbk4umBkr31BT2TcWbRuQCvMhoAVRMSDAzTMAFzWBNSuT1DuWdSQFzPY%2AUo0E&new=1",
     "tags": [
       "GEO",
       "豆包",
@@ -4088,7 +4024,7 @@
     "source": "Accenture",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUWxTMEpkZzdCQjRlbzEwSGdCRFZNb1N6d3ZsY01SemJHR3RwU2g4SVNUMTcybG13UzlNalBxSFFWQVdVM2ZURm8yNDhVQWdfdHlBSzZPb3RmOWhmZmoyV2I5VE53ZHJWamdfOXd1YTlQUWVIeUZoR0xxRVdSNXBXaV8yU2d0YlNYSTg4OXZHbzBBb1pwbGtIVTRHcTBlMzRkQ2UtcG9nZW54bXNlR3FTdl9rQQ?oc=5",
+    "url": "https://newsroom.accenture.com/news/2026/accenture-invests-in-davinci-commerce-to-advance-agentic-ai-led-shopping",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -4110,7 +4046,7 @@
     "source": "thestreet.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUkg2QjBEaEoxUV9DVF8xU2g2NnZUX3dlNDg2WEdBN1BieGVpdDVrQW9vdllESlF2X1p6bXdadmstY2M2U0VjWmFBbENkb1NKNGZoWFYwMEptbXM1SjRTQzYzRm0zOXFMN1BvOVEwQVNoRFhDY3UtQzBucTRpYjFZWExHX3doQQ?oc=5",
+    "url": "https://thestreet.com/retail/walmart-fires-openai-in-playbook-changing-move",
     "tags": [
       "AI购物",
       "交易闭环"
@@ -4132,7 +4068,7 @@
     "source": "亿邦动力网",
     "region": "国内",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2NDE5dzNrSDdEbVJHRmE1LURrbHpTZHI5bWFuMHZrbElVaTFJTWdnZ1RJeXdiaUk3THl5TWhwcndwT0t6RzZPSGV6allfYXlOWlBPc0pR?oc=5",
+    "url": "https://ebrun.com/20260321/648501.shtml",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -4154,7 +4090,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa2pLb1hoNURvU0Z2S1g2VHRiZVJ6QlRucXN6WVpFYkxzZzAwV1ZqWGZMUFg1bUhxYkV6SFotOUh6N3F6a0ZQYmhUOXZSWlJGSGVGWFprcUVvZW5BLVNtVThURDZnRWk3b09LSmtKLU4xUDVuUC1pNjViel9jY1loZzZ2VWxLdHljZHd5Q2NsRzlzY2_SAZgBQVVfeXFMUFFiRGhnMnNJX04zbldhX2FaMEJqT3oybFhMLV9mYlJCMm8tUWJzNjM1bE0zODE2NS1iWS1CRFZKRTJicFhyWEhkT3hwcEZRSGlwNlNiYjNxODlEZ0lhZ3ZKM2JEaERNX0lMVHhpdmM4a0NFN2hYU0lVcElGYTVDUlhzS2hBV2NoYVFJdDBmbU1sTnNXdXRhSEs?oc=5",
+    "url": "https://cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -4176,7 +4112,7 @@
     "source": "新浪网",
     "region": "国内",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOWGowZlgzVGJlbW5Jc25RazloNEZHT2lMTGtoTUVNS3ZPaExjd2dia3ZoQzh4WjNIWEhCdl83RUp0ZUNUa0VRY0diaEplLUZ5aDFwUFpjR1h4UTI5NEdud1llNnRRZzdaNldQQ29nMW4yV3I1QmtsbXRveTZaYnBId3ozaWd1dElMSVJzOF9RQXRjSXJqZWdwRTVFdDlTTG0xbmU4S3RmRmVfblg5TC1iMzJUc21Nd2VXX3FuNzJ5b3ZpcGtvM05kc3lyTkktSmJBbFprbVRwem1IUlUxMFVNTlF1RHZ1LXJnVjdjZl94U0txWHdtaXJ3NXFHdVFoaXZNeHhB?oc=5",
+    "url": "https://finance.sina.cn/tech/2026-03-19/detail-inhrpwvq4498941.d.html?oid=WA+0821+7001+0763+%28FORTRESS%29+Pintu+Baja+Mother+And+Son+Sidorejo+Salatiga&vt=4",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -4200,7 +4136,7 @@
     "source": "WIRED",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMC05MExiVXJDMEtRcUVpeUhYRHVHLXBpOWpmUzV5MmlIV3FxbUNZMlZRYVloWm5yMHI5Z1c5QzdWdG1qelkzMl9PM1VVdWVrc0lyUVZwVElseFdTd1F1dVB6TEFOLVZVcFJlYktDaHk3Z3FJSHBZX0NrLWtfMjgwY2w2bWpRQlNmWDhF?oc=5",
+    "url": "https://wired.com/story/ai-lab-walmart-openai-shaking-up-agentic-shopping-deal",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -4223,7 +4159,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSXhrLU10SjBfd3dldGdrSkVhcUNKTXZGdmY1Y1RhUVZ6STM2cHBnZ0Y5NW90NGswMFVKQ002Ukhwc0M3eDJESy1RNDJCeGNXZ1ZxQ2V1aDFDNkJ1RFNEUDR5d2xGTGpxT21sQ3ZtZmo0aTFKay1meWItUWx6R3BNVndwR0ZkUTFnQ3VxdktJYUZ5bzRtOXdVZVJwSlBPZw?oc=5",
+    "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -4245,7 +4181,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaTRqWW5KUEt4ZDUyYVVJcVJEZFRGdWZVNFl1b3ktbUhlNDVyeDRIM29ZOW9zUHQ3Y21JMkVHOHdLdEh5OEc2a0hKQlE0U3JsalRwUFJSTThvWWRmOWwxb1huYzhSLVM2VFJtR0FaVDNhLWJiQi0zV1BlRm1PYzZyaU9ZeUtGSlktZm4tblpNS29PQjVaclZHVVZocDdEcnZZOWdPRVhNekVvNF9oYXc?oc=5",
+    "url": "https://techcrunch.com/2026/03/16/shopify-is-preparing-for-ai-shopping-agents-to-change-everything-exec-says",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -4267,7 +4203,7 @@
     "source": "CoinDesk",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRnBmd01XbE1zMXBmUGJQQnhvZFJqS194SDg4eGFZdEE0d1RTVDJsSDBQR2RQWWY3TklubDhBaEZ4YzZubkc3ZGk4cVZyN1VKSUlCcEl1RUhRUHQ2UlQwTmxEUlZuWW1pNlptZGZ5cTVjTVpCelRQdVB3RDg5N0pkSjJramdlNFktZDBqMmxSNGJ3cmxsamdVS2RSSzVnSHVUS1FJaGpqRUJjSGVvRmlMdDVlUDc4MEpXc3RjSmtqblRaZERNRGNJ?oc=5",
+    "url": "https://coindesk.com/zh/tech/2026/03/15/visa-is-ready-for-ai-agents-so-is-coinbase-they-re-building-very-different-internets",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -4289,7 +4225,7 @@
     "source": "Retail TouchPoints",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZi1rSE5vaFVLellybWxzYzU5Y1NoMmFIdEhocm9iRFlDc1ZLMHZ3aDBNWXpQTXpnYkZ0ZmJidXdtcmI0MjlVTUZEY2tvN2JWSTIycXpIdFVpc1B4YWVvNzNXdG9lRTJYWF9hZW1yTTFSeFhxRXN1QWdQbWtFOTE3VGNMT3F4eENrXzVHZnU1R1Z5b0tOOGpMSk00TTd2RXF1T2VBOXlUT1FrX3lSQ3c?oc=5",
+    "url": "https://retailtouchpoints.com/executive-viewpoints/why-agentic-ai-is-a-game-changer-for-ecommerce/617659",
     "tags": [
       "购物智能体"
     ],
@@ -4310,7 +4246,7 @@
     "source": "直面派",
     "region": "国内",
     "category": "平台对比",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788504606&ver=6945&signature=LzuPvdbVSSsKB--pcenD-BJS2-xb329KH1e05ox0%2Aa-zAOnXxLrmtfU40gc9VTHrPMDmWezZboxDm-YyLXBbce6TveKXfIpeA-yp8ZkQpr00IANiVlq8tq8BQ69FzUo2&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788504606&ver=6945&signature=LzuPvdbVSSsKB--pcenD-BJS2-xb329KH1e05ox0%2Aa-zAOnXxLrmtfU40gc9VTHrPMDmWezZboxDm-YyLXBbce6TveKXfIpeA-yp8ZkQpr00IANiVlq8tq8BQ69FzUo2&new=1",
     "tags": [
       "ChatGPT",
       "豆包",
@@ -4335,7 +4271,7 @@
     "source": "Modern Retail",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdjg5cGEzeGZTXzg1b01aTFJyZ2NONHhqbWhhenQydUZTUVcwZjQyM0JzM3A3Zm9Ocl85RkU2ZnAwWkdzLW1fakxjWlBoc0gxbU9mbXBpQ0RWRklGeGhOUmt6QW56WjZzcEZBUS05d1NNMURiemVfY2JqdU5HN0VNNlZZQmctSWhHYmpyRnlVTExQSEJyaldpQzd5RDJxcExzNm1IS3lOSS1lR0YzbTNxTXJ0a1VlNW9wTW8xRDdNM0ZsMEg2ekcyX1h3dXVsWmZWTjVOVlFqU0Fsa0N3TnRQSHJTZWNYYi1qUlNj?oc=5",
+    "url": "https://modernretail.co/technology/shopify-says-purchases-are-coming-inside-chatgpt-through-agentic-storefronts-as-openai-retreats-on-instant-checkout",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -4360,7 +4296,7 @@
     "source": "周见大势",
     "region": "海外",
     "category": "平台治理",
-    "url": "https://weixin.sogou.com/weixin?type=2&query=%E4%BA%9A%E9%A9%AC%E9%80%8A%E8%83%9C%E8%AF%89%E8%83%8C%E5%90%8E+AI%E6%99%BA%E8%83%BD%E4%BD%93%E6%9B%BF%E4%BD%A0%E8%B4%AD%E7%89%A9+%E5%B9%B3%E5%8F%B0%E8%AE%B8%E5%8F%AF",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791343&ver=6952&signature=38ijA6vxwIcrN5KEFp-jkV6guxaglJ4xy8Mid7b3I2Zwa%2A5lVSjS-I-yc6esj0EjPeAt5IBOQl1H5pD3jK4CihDZrbCmSFg3KRG6zsMGkGU42IecHs6HVcUpo1GUn3A4&new=1",
     "tags": [
       "平台治理",
       "AI代买",
@@ -4385,7 +4321,7 @@
     "source": "i黑马",
     "region": "国内",
     "category": "平台对比",
-    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788504605&ver=6945&signature=Om7RSbPStsLUQMMKiFmVUNsEdY%2ASayoYQz6JFcMXkXkTYQoA9RTImtTl4Z6BeYS3JvL2OkkZ2Hh3MHZKBr6KxcMeTWFkKbNCfFqoyFX2u-YzCRe2fQqfQeTYAjNK-%2AgC&new=1",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788504605&ver=6945&signature=Om7RSbPStsLUQMMKiFmVUNsEdY%2ASayoYQz6JFcMXkXkTYQoA9RTImtTl4Z6BeYS3JvL2OkkZ2Hh3MHZKBr6KxcMeTWFkKbNCfFqoyFX2u-YzCRe2fQqfQeTYAjNK-%2AgC&new=1",
     "tags": [
       "豆包",
       "千问",
@@ -4409,7 +4345,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTUEzOFA4RnMyakh1OFhYMEtfVG9wdHBiYmdHREZnN184ZEhiTG1yWnFudDMtMXlHdGdZWVYzaU92RVFUQnBVV01Ia2w2dVJiMnEwN3c1NTBfMGNjN1BpQWNTM2M5MkpGZ0ZnOHl5dGl3aVlvdlNPNTU2RVVieFUtMlJaMkhoU2daSWc0NlN5SXhlUU9lbXh6WHBMWGtSYVBodEVJNnVZME1YbEduSDJFdGVRUQ?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/openai-moves-commerce-focus-to-brand-owned-chatgpt-apps",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -4428,7 +4364,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNHRvd0ZKTzFIQWVDREhfOGFPSEdReVREMkhaN3kxU1djSDA3OXJSeWN6aVFPSmoyakFrRW5tTWgyZm85WEMzd3QxNnRSOGZyUDJxZFF0SzJkQkcxT18wM0FYcm0temU2WWkzM2lZTnExZmFrRGEzTC1kbV9vaU0ydURkYlF1cXpYT3RQb0phcWlTS3UtTWh0X09lRzZVaDAx0gGmAUFVX3lxTE9FOTJBd0NSLTljcVctMUxlcFVZbVozXzZ6S1pLQjdUMEFSZF9pS1JhMWhhcm95NEtMcXlLbHdNVEJ6NERHbVJ6RG9jeDJJZ1liR2JRbWs0S043cXZQZkIwbzdtUWpQaFl1aUdROHVmaWxrQ19rRkdEWFllSDVqc292ZkZjRUNCcHFwU1BfYWUydVRES01GWV9TMXdiM2xyTzVjZjUtbnc?oc=5",
+    "url": "https://cnbc.com/2026/03/10/amazon-wins-court-order-to-block-perplexitys-ai-shopping-agent.html",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -4451,7 +4387,7 @@
     "source": "Tom's Hardware",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNQmg1d3dSUmd5NU40TWNCUENIMzJ3TFFPSGgzbVZPZTVQUHFmZU9JQ1kyWkxMa2FDOEtuTXlWOF84U1EwSC1LRE9qMjBJdEpadkZ3OWRlZ21Gc05nV2RHRWplMHp1bHNHM2ZxQmFHMHBRTm1qcGR3SlQ5eUJTNzRrME5wbmU3S2ZkeFBPVWZUN0lrLW5YOVcwY0hmQjIxTnpNbzhvSU1GQmliMWc5bWdqYlE1RUlaQjAyRklVNFY5MDc0ZDdvR19tRnBhems0c2FBZFFSSXdjUTRGbG5UeUFsampSeVF2OEtjRjhBMGJiNUpVaVZnWnAyMHgybnY2TEg1TlpqdXBpUHNoSUZ1X2d2bGxHTFdBSnltRjN1VnhkOVNRZy1DUW9rV0ZEU1VUdVdmZkN4ek5fNi1wZkxfLWNvMGFvTm9TWnA5a05DdHZPVVpVUzRRLUZkcERVRko2VmhLRlVLaTFyYw?oc=5",
+    "url": "https://tomshardware.com/tech-industry/artificial-intelligence/amazons-rufus-ai-shopping-assistant-can-be-easily-jailbroken-and-tricked-into-answering-other-questions-specific-prompts-break-the-chatbots-guidelines-and-reach-underlying-ai-engine",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -4470,7 +4406,7 @@
     "source": "雷峰网",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xVVg0Rko1b1U4ZnhlQ19PTGdqb2gxLWdBOG81QW16SEFQLTBrcWcyX09ENEpDcXIyeTZKZktCRUx4MHp0M1d3WjVUMXhMblBmZjQ1LXZtZXpIWlpfZ3BCZ19ldUx6QkF5WDlxbDQwNEZwdmxu?oc=5",
+    "url": "https://m.leiphone.com/category/industrynews/7T5R0aIBcn5PqAUE.html",
     "tags": [
       "购物智能体"
     ],
@@ -4491,7 +4427,7 @@
     "source": "Value Added Resource",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xbWROSDdVYkNGUDlTblk4Mmd1dy1qTXJPNkpWQXBmNmlYQkZTYWx0RmlpOWF0c0s4b1pkSy16eFR4UG5JMW55blZXR0lOVUFyMmJ0SEVsajMzMFhWY0JpZTUwUEZOOVdmS2dmWUdnbW91QXR1MTJBWkY1T3dwdnM?oc=5",
+    "url": "https://valueaddedresource.net/openai-pauses-chatgpt-instant-checkout",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -4515,7 +4451,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb1Y4Wk5iTTVPOW44Unhodm1oLXdJVlpRRHpEYlJScHdKdUE4WnhQTTM4aWZGUDhVZVdGVG9CRjVGd00tVVpoMGlXX1NRdG4yZE9Rc3FXOGNOcVBKT0lZT1FqZVBhaTR4dGlONTBWZXpoTUJPRmZYUmRTUEpSb1JEYlVUUFFYTWtYSlJNUkN1WXBHazJxVVZ6a005amViaE5FR2dIYTJQdw?oc=5",
+    "url": "https://pymnts.com/mastercard/2026/mastercard-unveils-open-standard-to-verify-ai-agent-transactions",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -4537,7 +4473,7 @@
     "source": "Jing Daily",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVDVCRlBtb2YwQk1tUG9pbWhNdVdsTGx4UEcxdjVOV3RqQ3FabU1UOV8tSld0NnZlYmFtTEhlRjltdmtRdThQanlKOGhJZE10MXJxeE9WeWMzdUpoTjV0WHZSdmNQYVVGNEQ1VjhQRmpPQmhRNjRGWkh4WG5NT1ZoSFdyaXZaUmNKZWZrYW1pWkc4UQ?oc=5",
+    "url": "https://jingdaily.com/posts/meta-tests-ai-shopping-research-tool-to-rival-chatgpt-gemini",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -4560,7 +4496,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14b1NfNV9zUUE3MlhxSzVNYlhFa1hERmZnak9pV25RM0VkY2YtYWwwbW54N29jbHdaTmgzZE1LNld4SnlGUVhFU0tTSlZZV3pOR21B?oc=5",
+    "url": "https://openai.com/index/gpt-5-3-instant",
     "tags": [
       "C端AI产品",
       "即时零售"
@@ -4582,7 +4518,7 @@
     "source": "McKinsey & Company",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRGhMTnNUSHpVRUl2cFU1VncybXRwMHJyMDVCUks2VVFWYXJjbkJZVE41d01YMnlnOS1iN0htbWhwRWRCWnR1ekZmWi1lNEIyQ2pjU2w4S0k3V2syMmRtQS15eUJ5aExDREFaak9OWjJ4MmVOcmxBdHVxMXJuUVhoX0l1MTBlb245MTBLR3BNTWdvOVBjZW54Z3Z1MFpvZVFHVGlKZV85TkFPc3dhcmZwMFVwNG5CX1o2SUZJNVR4bjlEZzBMVkhlemNxRWpaWWRiSUdvcmxZaVo4QQ?oc=5",
+    "url": "https://mckinsey.com/capabilities/quantumblack/our-insights/europes-agentic-commerce-moment-decision-influence-is-here-execution-is-coming",
     "tags": [
       "购物智能体"
     ],
@@ -4603,7 +4539,7 @@
     "source": "panteracapital.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OaG5iMjIwRHkxb3dJaHJScHdqN1FwSUlRak01em5uOVo4X2pnMjBYVTUtbEpuRGZCTUgwdVVvUnVFSzhwQWM0TmY4SjFFM2hGbHhIMFNlazYwMk04MHJ6elk4UFZUd2hQYU9FZlJoLXU?oc=5",
+    "url": "https://panteracapital.com/financial-rails-of-agentic-commerce",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -4625,7 +4561,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdzNDUkdOVVl0ZmYwRWJlWU9haWFYclNzeFFvUlA3TDBrd3pscE5VS0duWDZmQmwweERacGx1blFqNU9ZMlZjUWhVM2NyYUxQQUNUWGxjM3d5Y3BLRHlBVGpNM1NHLTAzRjdfejdtRWtXUE1FRDlKUWJWbXJzdUZjVG5SWEltTzhhOXZRcGpycDRGQ296VE5yY0xLRTd1c2s2WEdrallGbm45bG8?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/ai-agents-start-shopping-and-payments-firms-adapt",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -4648,7 +4584,7 @@
     "source": "Payments Dive",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaFlsWnhlOXBtUW9CdnpVNzBVNlJWUkstUXpDXzVKdDRwdDA4QlYxNm14RXZRdUZrUXM5NDNVMnRWUHFxX21xOEgyY0w4MmFiQ3JsZ3FmcUhJcWp4VnFGVjMzSEpqV0o1UkNKLUtqc1JaTWlwRlFtTGZjY0JPdjB6QlkyeWNzT0F6?oc=5",
+    "url": "https://paymentsdive.com/news/stripes-slower-view-of-agentic-commerce/813056",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -4670,7 +4606,7 @@
     "source": "QQ News",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IQ1c4RHFVdjZTUkZ3VGhDRVhMb0NFRFQ3ejg1TTlLUU1FUVV5ZExlc1hERm5jU3lSYzd0X2gyc0R0Wk1sZURxRWlrclllem1QXzNsTWFB?oc=5",
+    "url": "https://news.qq.com/rain/a/20260224A061HR00",
     "tags": [
       "AI购物"
     ],
@@ -4688,7 +4624,7 @@
     "source": "Retail Brew",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU3M2WEQtRU10TmNQYUIyR1Z1SkVOVGJqMV91RXVGSERnOU5GMDJDWlNyN3hFLTc2M1dlc1RWSEpSakZ6SHl1VEJEc2haUVNudWdIUDVTdy1yTksxSVduZEpPMXhaM2NaZzQ1VV82SUFFSWVUNi1DQy1mZmxrUkxXMUVEaXVJNWNJYlBNUlF4bFV5S0Ftd0ZtMFNPQmFXdXhU?oc=5",
+    "url": "https://retailbrew.com/stories/2026/02/23/shopify-says-ai-shopping-will-not-bypass-its-checkout",
     "tags": [
       "AI购物",
       "交易闭环"
@@ -4710,7 +4646,7 @@
     "source": "sppm.tsinghua.edu.cn",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fblBoZ0tfamFYR19Ycmc1OXNqYzV2UkQwdndxZDVDcXA0b2hFZ2ttbkZaZktRRmV4RU53em43LUNvZ2hxQTdYOWljLXJGN1ZSQ1ZPWFdocmlrMnZyRWh6SA?oc=5",
+    "url": "https://sppm.tsinghua.edu.cn/info/1063/9096.htm",
     "tags": [
       "AI购物"
     ],
@@ -4728,7 +4664,7 @@
     "source": "AdExchanger",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FUTZSM0VKd2ZfOHlMN2RpelhxS0p1ZTZWbW9uOGNKdUJoYkIxSVJ1anNuaFlkX2VDR2oyUHJmMVlfMmRVSkZTYWEwRVlDVjFKMEY2MHNEeHlMTUlxU0JiMFljVW1LSnlmWDljd0tMcWs?oc=5",
+    "url": "https://adexchanger.com/daily-news-roundup/friday-20022026",
     "tags": [
       "购物智能体",
       "AI搜索"
@@ -4750,7 +4686,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUGt5dHdCRXE3cVZJUlJiRDRyVUY4cHBXRmNCUEhQd0FOS1k0MmdYczd6NXFOVHZjNHB4UEFQNzNPUDVFTDdqQmJPOURDU1NzVVR2SjlWeW9VcUJKQmJadnlMM3pNU3pseG9qejZDbFJueW82TWcybkRxYTRsUUNLOVpuMVNRUDJwcW1F0gGQAUFVX3lxTFBQM0VFM0xHT3hTa2d2SDN1Q25HeTJONlpWVktzVmd3ZWtTYnZPUUdGbjhWaVdtSGxsWFFfa2VCeFFpS0c1YVdSUUhQZHU2aXlSNHJTTzlvUVpDMVVrenFRLWdiSDliY0FHalJaVVlXYVBwOG02YXR1UEk0TE1nekYybW5PYmNsTmxOQmIyellVRA?oc=5",
+    "url": "https://cnbc.com/2026/02/19/amazon-revenue-passes-walmart-earnings-reports.html",
     "tags": [
       "AI购物"
     ],
@@ -4768,7 +4704,7 @@
     "source": "cnBeta.COM",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92X1Z0WURiZDJaVEJkbzNBa2RGWXNDRGtUdHZvOUJ5YlZZTmtINWlSbGFwaWJJX21PdC1ZSnluUkFIWXRUd212WHdXbXNTUTRQUG9MTWR2WHZWYndJLXRpRA?oc=5",
+    "url": "https://cnbeta.com.tw/articles/tech/1550282.htm",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -4790,7 +4726,7 @@
     "source": "Business Wire",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNX0taTWE4UThtMWRsM3FST0F3RWdPR2ZJWmtMNEt6RjhZLUtIOGlwX0dNSU9fMGliSVI4Vk5zQWpMUFhBT19CbTUweFFYUjVsWmlTd09aRXpDYW53NDBZRlVWTTl1eWVRUTFYZ1FkVFRUOENRUElTYmxPZlF5bVJoZ2E4d0FEVlN1LU82eDg2bFFYTVFpMWJyVXc5SjVlX29faE03V3owdmdoRENLdUFsLU8zdTNKZEY3RThNQUhreDZud0NkWF9IaXJrYm1xbnpYaDdr?oc=5",
+    "url": "https://businesswire.com/news/home/20260217995165/en/True-Fit-Launches-Agentic-AI-Shopping-Experience-Powered-by-20-Years-of-Fit-Data",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -4812,7 +4748,7 @@
     "source": "PR Newswire",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWkVLV1QtaGpSeVdUWEFwMTlZQm5GbG54YjBZOXRWbERDeF9PUXJPdVFKNzBWRVNuX2RmLTZzSEVrOWV2cnhRREF2d3lCY0tvX055ZDVFenZxSzRxckd2X2oxZGN2R29hVDJfc0hCNGpCdFdVQ19nOVQtU2NuTjRKbDlzbmd0Zlg4aFFBbzRzNHltLU5fZmc0SkxVdzBQcVBYMmdnRVhtZ1dURmpRc0ZwWmU2UnAtZXB3aExTLXNIZlZjWnR2Skd4U0ctQlhJNDB4NEpfaXdkWm5QT1FYalp3bGkyNXRZQQ?oc=5",
+    "url": "https://prnewswire.com/apac/news-releases/dbs-is-first-bank-in-asia-pacific-to-pilot-visa-intelligent-commerce-for-everyday-payments-302688457.html",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -4834,7 +4770,7 @@
     "source": "forbes.com",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYk9GQzNMVDhJZDI0X21haWhnMnNCMm9hTTBTemVaRF9POXNNRGFRXzF4SUxMVm5DV0U5OXBYckFsOXRuckNXb19ETkpMbTkxdXAwQWZaZUxRdjlpdlVmMllJNFJ6U0FqeHdLZ3VBQ25TUVBpY3Bac3h5QWI2WmRfY3U0WkNMcFNod0p4NDNWdXpLUzJjTUwyV0xrQjExZGxVTDNOV0hweEZ1Um9HeUtEYmR4NlZwQ2F6TVdwcEFrNA?oc=5",
+    "url": "https://forbes.com/sites/jasongoldberg/2026/02/15/amazons-andy-jassy-just-named-his-biggest-threat-its-not-a-retailer",
     "tags": [
       "AI购物",
       "商家接入"
@@ -4856,7 +4792,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORGw1TU5CcTR3Ti0yOXhhcmFGbXlPVjFOb2IycGYxTGJ1azliMEhXUzI2QlhfbDZSN0Z4X2ZHTmJUMURTMnRnbk8xVUVpc0ZMYlBmRmF2N3pXaUpmMWFScE5mWkE5Y0V1S0tCRGc3YS03TDRHTXJUZm5ranVxSF90cTlwZURBbzgtRHpIQ3owUWhfZGhyUWYtY1dmN29YLUJmajZtUXdueU5oVjY0aFpPVENJeE1kT1Q0Zkx6R1J6TQ?oc=5",
+    "url": "https://pymnts.com/transportation/travel-payments/2026/expedia-embraces-agentic-commerce-to-fight-platform-disruption",
     "tags": [
       "购物智能体"
     ],
@@ -4877,7 +4813,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSlk4QXJhNGNlNGxTamZaMm5QbDloYjY3bHFTbEVHR1pfT0I5dDBCQUk4OHJhbGFwN1I0ZGkteXN5TzlzOGVpMTNfOWJyNUJfYjAzQlUzQTNmUDFPSnVDdEdWZTV4X1FZaVlzQ01oYXpSdEttdmRGTHFDanJ1U0xNMHNOamstdw?oc=5",
+    "url": "https://aboutamazon.com/news/retail/how-to-use-amazon-shopping-ai-assistant",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -4896,7 +4832,7 @@
     "source": "cj.sina.cn",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa2x5WHF2c1p5Q1lSVFh1TllydkRYYWxpTXBpODlCcGV3RV80RGZfSnV1bE0td0djd0ZsWVNZOVduY1l4MlJxaXI0Zkx0TTFOdHRxYUpQdWh4SGtKMFkxWDVNdl9JMDhvM05NTVhkSmpaTEd6OXB1WGhONlV3Q25CS3VYUnE?oc=5",
+    "url": "https://cj.sina.cn/articles/view/7879776328/1d5abd8480680188wc?froms=ggmp&vt=4",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -4915,7 +4851,7 @@
     "source": "Practical Ecommerce",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PaHY4S2FreUZLYXpIaUlCOE9Jd1N5ZmFtOEtIcTNmbTFybnpjbWRELWN6a0trVXdCdGJTV0dfUXN5YTFaV2N5OFFJU1FJdXlMQTc3NUNKWWxOT1NEOXVGYlVhV3NFZFEweU5yaVZBT01lQQ?oc=5",
+    "url": "https://practicalecommerce.com/google-discover-for-ecommerce",
     "tags": [
       "AI购物"
     ],
@@ -4933,7 +4869,7 @@
     "source": "PPC Land",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTFZaY1ZDS3Y3QkR4U3ZuMElJeG9mV29MVGRfRHpnRWlodVpUWkVOXzdySUZKdGllMk40bW1vd3lnTlNHaVM3ZFVjOGtZMDkwbmkwYk81YWZndlBPWVNTbWZmOEo4X0JnUE9pN0VlN29IWFNQN0tBSXIzcW1lLVFBdXNEMlhiaFN5RlE?oc=5",
+    "url": "https://ppc.land/amazons-ai-shopping-assistant-drove-12-billion-in-sales-for-2025",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -4952,7 +4888,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BU1licFVodnBLOFpndVRrazUtdTVFWDBwUGFCTTdramFJWDJ6a3MweE1wV2QxYW9KU1RkcmJCTG54VTFSaEpTVnkyVGE2UG5sekNZ?oc=5",
+    "url": "https://wallstreetcn.com/articles/3765171",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -4974,7 +4910,7 @@
     "source": "Chain Store Age",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa0g5NjQzejZRWmo3cmtUT1MwcGRjd01JRHdIVmV1NHB2NGw0ODdYZ2hIaUVSdkIyUFBNRkxZczJRajExQkw3Z3F6VXByVjI1djNTcDItdjJtMVBuTjhuMHktUTFTcUJzbUpyeF9uMEVKUFlscjV5OWEyM2M0cUR5anliaw?oc=5",
+    "url": "https://chainstoreage.com/heres-how-consumers-want-use-ai-shopping-assistants",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -4993,7 +4929,7 @@
     "source": "管理咨询网平台资讯",
     "region": "海外",
     "category": "咨询报告",
-    "url": "https://weixin.sogou.com/weixin?type=2&query=%E9%BA%A6%E8%82%AF%E9%94%A1+%E8%B4%AD%E7%89%A9%E6%99%BA%E8%83%BD%E4%BD%93%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E9%9B%B6%E5%94%AE%E4%B8%9A",
+    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791343&ver=6952&signature=oJcLNtreSgGIvbh6AC6E4gnPI86kLiCkElegTy9Mx7GbggCfj7Pi5Nk2hJQeK1lkF61uBbS%2AjikuE3HsM7c4gooTBSIcsSk4UUwXUEHFB2JBYGlQMjR1yo8kP9J3CUri&new=1",
     "tags": [
       "麦肯锡",
       "购物智能体",
@@ -5016,7 +4952,7 @@
     "source": "Business Wire",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQkx1LTBlS0ZwWUwtV04wSEFZa1pHMjNSM0pRcEVVY1JhdHRoQjJyemxzQkZUX2RXb0V2ek90b3lFY3dlZXBVWDJIVEw1cXAzaGhhNlZybklOZmNpMGtJamRWQUZFUXlwRG56RHRwdGVUeFBGNTBXZVFveEJKX011ZUJtMDM5SzVuangxY05IeXZkVmFtT0EzV2IwaThPQWctQ3REVDl6cXJicGsyZnFVTTJ3ZWMzV3BtbGJnQUh6cGNJc2Ra?oc=5",
+    "url": "https://businesswire.com/news/home/20260204939235/en/UK-Retailers-Eye-Online-Growth-as-AI-Transforms-Shopping-and-Delivery",
     "tags": [
       "AI购物",
       "商家接入"
@@ -5038,7 +4974,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVYkliZ09FRVR1SEdaTXNZQWNpcjFuUEo4bDZ3ZTJBTnhLcHI1QndxWV83QkdXd2htczNmUEQzYWhpYml1Sy05TWhHcEhfWU5sVWQ0?oc=5",
+    "url": "https://wallstreetcn.com/articles/3764857",
     "tags": [
       "AI购物"
     ],
@@ -5056,7 +4992,7 @@
     "source": "J.P. Morgan",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzYtSXZmTllHMFIwcktIc0VjdWs1R20zTk1VM2NwUGdWN0NoeFM0bG5QV1YwWDk2eER2MXhaVkJ6MFRaak5VUVlydzFkSEN0enNraldrbDNMSk9zNG5DS1BqVndYREowWUNWZkozT3AtZzJjS2pNSUJJNzRCXy12ODNKb2o?oc=5",
+    "url": "https://jpmorgan.com/payments/newsroom/agentic-commerce-ai-future-shopping",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -5078,7 +5014,7 @@
     "source": "Practical Ecommerce",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTzFTUVlqUFctZm04VnNjdHVRNVROem9RWm9Id05YR3BWYTRtdko0X0NLSmpQV3BCVUZJeV9mQ0hQOHdnSTFfX2JFcTZEdWdSbmc2U2xwd0F4VzZMNEpFQmZwTGU5TEs3XzVZMks5NUNDTElLTUg2Q2VhZXQwd3dmdmJ3?oc=5",
+    "url": "https://practicalecommerce.com/why-marketplaces-block-ai-shopping-agents",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -5100,7 +5036,7 @@
     "source": "McKinsey & Company",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdDF1Yk42R0Z2SUN5YWM3NVBXY3kzN0hWLVBhTTNwX3pqZW1ScU5tM2k5Z05ncFpNclBBQVd3eXhFNlZrS0hfeGRCNE9xQWJDWC1yNjFKWktia1AtbHZFeGlFeWJiTnNQS3NrUXZ6ZFdWNHBQLXBuQTlrbm94RmxTQTBEbnRKVV82NmRIUnhzT2JYOG9jbGlvQmtxTlVuSmVQR1Q4WGFMMA?oc=5",
+    "url": "https://mckinsey.com/capabilities/quantumblack/our-insights/the-automation-curve-in-agentic-commerce",
     "tags": [
       "购物智能体"
     ],
@@ -5121,7 +5057,7 @@
     "source": "PYMNTS.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZlg2NGNkUnpUSTJxbzZ3WFRCNmdmNGUxeUJTYlBqVTdxWXZvTFJKYUtTVUx4Q0FrbWFweG9Xa1JYaXpMUEtZOWJFUUF6dDVsSGxydzY3VmdRak11eWlZMnlGMnFkM0VPZWRaVTZhQl93OVNTamIyQk9XRnA2QmNvaDVUWGRsZlM5UUhBRlQ5QVlPdXpscTg4cl9sR0hoQQ?oc=5",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/ebay-blocks-use-of-ai-buy-for-me-agents",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -5143,7 +5079,7 @@
     "source": "新华网客户端",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLTRKdnhzMTVfeDkwWGtsM1FIaW1zV0xNU3hXVjBhandMWXJRLWJ4MVdkRWd0UGdBZ2QtWExrSmkweXVFSnBWekRqeElhQ3R6cGpORGJEOGl0TlhGSzRSVFI0RmVnbzQycUM2OFRxTUtITWw5Zjd5WmRjRjFjU2hRemoyVDJscGhzeVRsSkl2SQ?oc=5",
+    "url": "https://app.xinhuanet.com/news/article.html?articleId=1312b5dae6ef7d6fdf6109ff4de6ead4",
     "tags": [
       "AI购物"
     ],
@@ -5161,7 +5097,7 @@
     "source": "Tata Consultancy Services",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMmdvZGFmZW1uOUZKal9jM1Bkd3hCOGxHZFhqWEM4YWZkOG9VaG1WUDFab0dOd0I0WUxKalEyT09rR0ZpajR3SDZva2NrOXVFbXoza2M4U0FvUjZfT2txMnNORkJSSDRCNVJuZmpJOEpNSWgteVhkZEExOTNuSWJBZERNcE5fUnBMdlMzZXU0M041ZzBPcWc5UXJKbUF5QkowQzdOVFpRNnhBZy1jd1ZsUFZmMFI?oc=5",
+    "url": "https://tcs.com/what-we-do/services/tcs-interactive/article/agentic-commerce-role-transform-future-of-shopping",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -5183,7 +5119,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSkF5YkZRb21sU2thbzk5UEl1YzZGUGd5eHFXYkx3TmVZTWhSb2dCWHRSc2lYNHFvR0VUek11UkNxbWVMbE1YajhGQktRNUJQemFiRE94X2NFTTUzbnBhNjVMN3ZzU3c1OEtRa1hMcVZDaUFlQ0wydnhzS21HQzhpdFZB?oc=5",
+    "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q4-2025-report",
     "tags": [
       "AI购物"
     ],
@@ -5201,7 +5137,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQWmlGT04yMXN5YTVKNkRaM3dvMUc1MWZVemdtUS1RVi1Lc092M1l6Zl8zRTJTVVUwYll3S2c1bWwyb3ZONmE5OFhwNk96M1JFZjVzZHk3M1hrZ2FpbnpDOV9mT0Q0NGE0MDRqS0M5OFprZDU4Z05IT0I3Yw?oc=5",
+    "url": "https://aboutamazon.com/news/retail/one-medical-ai-health-assistant",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -5223,7 +5159,7 @@
     "source": "Mastercard",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa0w2Q0lQYmMwSDhQcE1pTFhmNVB1QzMzM08zY3hvTHNpUzU3NW5LYWhlTjFYZTdPMUtuaUFzRlYyMGh2Z0lrd3RDTDhOcm9lUWQwLXEyOTRaT2Z5elItczdpb0RGbE9fOFlOZG5ucWhzTUpIU3FfUlQ0YjlpdTROU0lBMGtKWktIb2lkNVF4VW5mYXMyVnZVVGtzRnpBUktJX3lN?oc=5",
+    "url": "https://mastercard.com/us/en/news-and-trends/stories/2026/agentic-commerce-rules-of-the-road.html",
     "tags": [
       "购物智能体"
     ],
@@ -5244,7 +5180,7 @@
     "source": "FinTech Global",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc19lZzl0Sjl1aG9vSVp2QTFfNVMwSXl2b1BSV0g1LVRmTjRKWENiWHJ2MDYzelBGVkV1TXNfcHhrOVc2aHhpdG5PazUyUW9seTlNOEtDYklxSEgyQ0ZiSXJBaWpEc0M1RlhEazNCemkzTXdZaWxTZEx4RDl5d2h3TFBZV3FPblctMjdlSXg1Y2h3V2pOZWc4?oc=5",
+    "url": "https://fintech.global/2026/01/19/revolut-pay-targets-agentic-commerce-with-ap2-integration",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -5266,7 +5202,7 @@
     "source": "Visual Capitalist",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONEpDc2RJWkdrX3lnQ3JTOHNyUFBfTWZid0NpZGJ6RnhNQlFxaDFrY2Z4dWxwRnpKTWpSdnh6NDNVNEUwMTYwSGVmQ1pOblNGSEhkRlN4cFVIWmFQQll1M092UFNlalpiZGhEWDFjMVROb2FvQzFWUTFKbFZqSnl1TzNfTQ?oc=5",
+    "url": "https://visualcapitalist.com/charted-the-explosive-growth-of-gen-ai-apps",
     "tags": [
       "C端AI产品",
       "视觉购物"
@@ -5288,7 +5224,7 @@
     "source": "donews.com",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1aU0tGaDNUV1JSZmdTOTBteFBYT0lUZjhaS3VnYk5yV2dQUzd4UkdTQ0VNcjJkWE4wVUZhb3FFWXQ4MHd6NnZnSHN3eldVM1YxSlNLUVUxbGN2Q0tiSHc?oc=5",
+    "url": "https://donews.com/news/detail/1/6380456.html",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -5307,7 +5243,7 @@
     "source": "InfoQ-CN",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lNTlVR2VieF92bldMQlZBbUVBb0JlUHJiM2NrcUdZZ05naHZTdzdSZ05odkprUEZEMUtqTjFxWkVEU093OHMxMlE3aVlIbzdMUzBzYkZwbC10QmRqc1E?oc=5",
+    "url": "https://infoq.cn/article/DE0ifdKyd4Oevz5Bgr3X",
     "tags": [
       "购物智能体",
       "C端AI产品",
@@ -5331,7 +5267,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Jb3B4VC1abk1lbXN0Nl9ZR0ZIRjlUdzVjQnpocnRHMTlnOGljdTJ1MVI2QzRkakRMX0FUYWxNSFF4MVZTcXVsZE96cFB1U1JTcTRB?oc=5",
+    "url": "https://wallstreetcn.com/articles/3763341",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -5355,7 +5291,7 @@
     "source": "Amazon Web Services (AWS)",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU2ozMjdlQUQ1cFpvRDZzRmljMlI4aUc0MnRXS0RQRTZ0VnlBMW5PeHdCdWJUWnpVZGZUVTJlV1I5WVRzVDZkSm9rQWJYUWdFdWNvcmZzd1dDbkdVZ18tcTNrd19XcGV6MzRFU2ZLT2lURXhmejJRQmpDYlVhUGMwQjRsZ2VoX25SM19EdjU3ZlhacmY5VG9hM1JPWlJTRHVkMmVxRTd5VDM0RzN5S0dIRjJfZU5EMWQxRXpWbA?oc=5",
+    "url": "https://aws.amazon.com/cn/blogs/china/beyond-chatbot-how-to-design-a-truly-executable-agentic-commerce-ecommerce-system",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -5377,7 +5313,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdmhCYVl6UFdxZDQxX2FVSktMYm5RVEc2YjBES0g3SjlESDZ5ZnRoWG40WTN6aVRQMVltTWp3QTVyN3M1c2xUNHFJODJHYjctYWVtd0gwaE9CRURCUGk0UGlMV3RRci1DUl8xdjIzQ0NkbVM4M3hIejdqQUNuX3pFQ0x6cllPVy1yY1ZRODBxRU84WjZ1dzRfYjVkQlluajNha3Uway01VVljUzFyR21SOEVfaUYyLXJtdDkyOUhldzllM25YX2xJb0JCcW4yamFn?oc=5",
+    "url": "https://techcrunch.com/2026/01/13/a-consumer-watchdog-issued-a-warning-about-googles-ai-agent-shopping-protocol-google-says-shes-wrong",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -5400,7 +5336,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX3g3TkoxOTZieXhpOWd2ZnBTNnM2Rl9rZTJ1WmlzMVZhUFlmVWlpWmVyOTZJUV9WcHIyR1VaeGxaQzZDYW1BeDRWbGVIWGx6UWpEdUJ4LXpoZk1YUDNHcnlJNTFKOWxCOXJDNm13V1NnNmFJRjFiM2FKUnp1VkdobmVTZ1NpN2ZEV2c?oc=5",
+    "url": "https://retaildive.com/news/walmart-google-gemini-ai-assisted-shopping/809307",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -5419,7 +5355,7 @@
     "source": "Digital Commerce 360",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMl92UDF4QUtTVUdhdi1lOUlkd3k1eVg4TmpzUXRoUDkzNnItMXJ5X0pJdUZ2WDJ4YV9xTXFjbGxjempkMnRMTXdHWExzYkVveWJzMFRxOWYwN19EeFllM0hFam9TS2VLSm5PNFBqTER5M1ZaTUkzaGFWNDN1dlhZbnhld3QzNGMtd04zUEcyYnZpc1JQbTNDX3dB0gGfAUFVX3lxTE9XOWZsVG56alUzWU9QZldUMHdQQU9ubjZfV25IbldvazdQZS10V3AzOHlCcl9EQWlsYWxfcUc5UmFYSjhNcGVIcVExN3VvTXJjaEQ5REw0cTg3RHRWaTR3bnNGbEMzd3lrZlp6UWswc0ZraFJ2clJtbmRnTDJIWkVBdmNxSGRRZUZrZ1o2YjlacWtuVy1iUko1MjBqcDA1RQ?oc=5",
+    "url": "https://digitalcommerce360.com/2026/01/12/jd-sports-agentic-commerce-ai-shopping-checkout",
     "tags": [
       "AI购物",
       "Agentic Commerce",
@@ -5441,7 +5377,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTXRuLVl4MjcxQ3o5dHBnSDQ0M2IwblN6YWpnUDIzZXZIby1jQUhRdWwyeHJXbFVCNXM5UUxjT200X1N5d0xBajN6UVRHR182dnl2Tk9hTnNSeU9XS3JqdXNYUmJCMThQWVRjQS1pcGZwbnVpYzdkVGVVNHd3aG1oOEhyR3NvbW1BTS1iNFlUanFRMl9Xb0xPUjVqYTZ4MjNicTY3d0ZkVzJwd9IBrwFBVV95cUxOMXYzcWwzajFSb0lJUHprSFNtRmZzQUUxTU1xOUp4VWVGMlBDZkdEM25lN2dERldWTjFsV20yVDdaTm5jdnlUaEVUUV9jLWNYZWcxdGJvbldFS2RPQWM1VUt4NFJRdWlwSFNTa25mNExpV3hqRGkwalRqYzBkRklwTFdUdDlvTlRfYzJETW9PaXJSdnZNTzlNaGVfQ3RXRTFMQVY1UlYyWV94QnBRdjhz?oc=5",
+    "url": "https://cnbc.com/2026/01/11/google-launches-universal-commerce-protocol-bets-on-ai-powered-retail.html",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -5464,7 +5400,7 @@
     "source": "QQ News",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11ZFVfaGRXOGRIb3l1Z0p6TlV1ZTFESkhGVzZYVnhRQm1sU2g3OHhfMFhjQ1F4LWN2NktVbW9VbUU3MDZmczRmNEVZeDFXbWRZQ3I2OWpR?oc=5",
+    "url": "https://news.qq.com/rain/a/20260108A05ZJS00",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -5486,7 +5422,7 @@
     "source": "Ecommerce News - Europe",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbGhYaFFSOEJMcEszbXdMelJTLVRTaDVZT1JKcWN2OWVXbkZpV1dUYkQ1dzRjTldicHZXS3R4TkdzQjZQOXNSVXdoMm5mUVhDLThMMFF1S0tCSG53cngzM203ZUxOM0Zva1pkY3djOEUwVlJxTzVfYnhsWmlRUWJSbg?oc=5",
+    "url": "https://ecommercenews.eu/58-of-consumers-use-ai-tools-to-research-products",
     "tags": [
       "C端AI产品",
       "AI搜索"
@@ -5508,7 +5444,7 @@
     "source": "Microsoft Source",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUEJaM0tlcUhKbnZVWndvR3V5QU54b2c3bks1bVE1MWhTV0ZHUGhEZFRabWtzNnlDWG5yd0lKUzJZX3R3M1V4RkhxaGsxSG1OaTZfMmJhU3dvYjBrd2dsa0NuZEhxSUwxeVc0eEZDLXVsTnZ4c1IyNERvTlBtWTFOUkk1T1BnSTlFYm83NHpXakZhemFyWEdJd1Fwc2VSb2tzbl91Q0kwWURyNThEdFo1dHVVdmkzWlQtY2JrbDFaVEMwcktnSmNURnpBWXpyZnJhUWVFaFNNYjRGYXhwUXhtQmRIRFd2aE9oX1BvdDRlMDhONHQ2Y0dKM3ZNTQ?oc=5",
+    "url": "https://news.microsoft.com/source/2026/01/08/microsoft-propels-retail-forward-with-agentic-ai-capabilities-that-power-intelligent-automation-for-every-retail-function",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -5531,7 +5467,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa0ZQb0g2eHFlZnp4TTl1T01jQWF1UDU5cU5fX3F5SnFxRzliNE43eFFtbERBV3R1UnRKZzJ1QVdWczJqYXFsbC1vN3QyWjRjeXlVWG9weTA2cW12NmYxTlo4aENJVElIazZ4LXVOUGdvQm1SSzljZkFER1pPRzU2a1pJS0ZUakpoOTlQMUU3VHVleDZjcU01S0Jnakd4d1ViakZRSERSOVpnUFRjb1o5RmtjcXpJR01SS1MwOA?oc=5",
+    "url": "https://retaildive.com/news/holiday-e-commerce-spending-growth-ai-assistants-two-hundred-fifty-eight-billion/808742",
     "tags": [
       "C端AI产品"
     ],
@@ -5549,7 +5485,7 @@
     "source": "Tom's Guide",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHhBRmdMSkZ3YWtKbEhBbjdOalVmSHdyeTlhOGJuX2Vnd0hUUGVtMjB5ZG5WSWZydERLNDhpM3AxVGVWODVoaFJOaHNYR25lbVI0VkNwclk0dV92SlB1SXV0UVR5cnVNZDd4QlFSd28tZUpkd1NlbEUyNHo5MzFCWS1YUG1acXNUa0VaTXVGYWJWa3diUmRrQ3F5TVlSRTJXcldxTENn?oc=5",
+    "url": "https://tomsguide.com/ai/openai-may-buy-pinterest-and-it-could-change-how-we-search-shop-and-scroll",
     "tags": [
       "AI购物",
       "视觉购物",
@@ -5572,7 +5508,7 @@
     "source": "forbes.com",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQnloMkhuYlIyM01RWjhsZ0UxaUw1TTk3eElQaV9tRWQ4MXBWeXRoX05VVUwtODFEQTJOdmtQa3hUTmM5Ym9KQjRCNUxsNGRhMGhEbkxTZmRJMVNpRWNhSjhPTEtvY09LQUVoLWJkTjJ3NXBVdFVxOHJvVUxoNDB1VDQ1cE5QT2VVaVBoR1ViSmF3aEtCLThGSG5UM0lidmxr?oc=5",
+    "url": "https://forbes.com/sites/johnwerner/2026/01/03/it-buys-for-us-3-major-risks-of-ai-in-ecommerce",
     "tags": [
       "C端AI产品"
     ],
@@ -5590,7 +5526,7 @@
     "source": "雷科技",
     "region": "国内",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3RWUwUDBZUTYybUVUZ2NNSzlMV0dzSk40cXdWYnJwaXNvMlR4WlBpeDUyNEc1SHRiY1lueHpaX2swYUw4U2ZFako4Q1lrQQ?oc=5",
+    "url": "https://leikeji.com/article/73673",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -5613,7 +5549,7 @@
     "source": "Lifehacker",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nY3BITGhBUkNSU2JFUHE5SmR4Z3I1U3I4U1ppZFd1MHpuYXBiX29SYkVlOHh0NkIzME12WVZYSjRJMXp3OF9uUHN6WlllNEtVbzduV1FvVTVnMzRXOXR5dGNCS2xzYXR3N25QbjF0aGYwMjA2eXNhckl3?oc=5",
+    "url": "https://lifehacker.com/tech/what-it-is-like-to-use-an-ai-shopping-cart",
     "tags": [
       "AI购物",
       "交易闭环"
@@ -5635,7 +5571,7 @@
     "source": "Boston Consulting Group",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYWlXRkh0TndqUVRETWkwU2RVU2I3RjNObmxGcTJBTDIwNkpBZGxpaWpLMGROWlNub2J3cl9LV0J5eWFmQm44UTRfa1lJZlZDc0V0bnhOUWFXVWl4YnJIYno5LTNkeV9hSlNoeVN2cjh6MzZNMlBVbHhsVjdaaUNRZk1fVmtzOUo5cVJj?oc=5",
+    "url": "https://bcg.com/publications/2025/china-will-ai-agents-transform-retail-banking",
     "tags": [
       "购物智能体"
     ],
@@ -5656,7 +5592,7 @@
     "source": "Retail TouchPoints",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2Z3QzkzY1FMQ0lYUzRnZ1owNGZHZGRiZGVwaThrTXM5c0RnU2NRQzRvQXp1OFlYT0hPLVhheExoV1FXQVNJaEJsUC1nalJTR3UxU2pMU1o0WTBITDJZbGJvNmVjVWhZQllQNVhoTEpobHZYNFV1YVEwMUNCU3ZTOW94N2hFaHZzVFFkempYQUxrdUlwQmZsdGY3Y0ppZElEcE01czd6YVVLQ2pxUUY4?oc=5",
+    "url": "https://retailtouchpoints.com/features/what-chatgpts-instant-checkout-offering-means-for-retailers/154593",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -5681,7 +5617,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcjk2UjZBTUYzaDAyQXRwSFROZW95SUFkV1ZhbDd1MGZHYWxmWVNTYXZXN0Nib3VQaEpKejl0TXc0cTZhQ1h1V3VNak5FYi13bHBtYm83cXR2WXpDSzFfMXNkRV9yRmVtUXFOa2wyTzhRNHgzX29GTHNGN1lhNUpHbVhBRFVxRTJqX0JxMTlCcEhXWXZEeGtmWnJCc25iUdIBowFBVV95cUxQbldvc3NtakRobEJPOUkxNVZ6bndYbmdFZXBreENyY2xsMFZCaEdIUzY0UTlUZTlpZndUdXRJclRTY3cwZks5YmJ6OFU2bkVfUWxBM3RvZkdoTlVuUnh4Vlg5N2ZPY2RqYzNDbVhuaEM2NmpYbjlkU0daekd2ZEpGX2JVMk10WU84NXltOFlLaERMYUJ3azJoWDd4dlU1ZEVXQUk4?oc=5",
+    "url": "https://cnbc.com/2025/12/24/amazon-faces-a-dilemma-fight-ai-shopping-agents-or-join-them.html",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -5703,7 +5639,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BeDVtWUpQWmljd2lscmZRTkFtUzl2Vi14SWxBWDFrZTI3UGdsQTlkYXZRMVdYQUN6dG9ROGZtSDhrdmJ5cEdzZzZjYVJqNm85NDV5bEdRSGtrbWNCejZBYm1abURVNHl2eWZKdmJXZ0FJTDlM?oc=5",
+    "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -5725,7 +5661,7 @@
     "source": "FinTech Weekly",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRnZJQUtjdlFkVU9KbG45a0NRVEpVR3lKdEt4NkJ0Y2Z2Vk5sYXhjTzhwU1E3NFVNSTJzVTFUN1NWOS1YQVZqbVRERHprRXlmNHAxMjk5S2JtaUNPeERPSXpRZkxPaTFhd2JZWUtwd3Y5RkZXQWIyeG80aWlTWmVtNUNVUUZhYTRaNXJsM0x3ekNXZkNTNENyYndweGx3WWpYa1JhdQ?oc=5",
+    "url": "https://fintechweekly.com/magazine/articles/agentic-commerce-stablecoins-micropayments-ai-payments",
     "tags": [
       "购物智能体"
     ],
@@ -5746,7 +5682,7 @@
     "source": "Tearsheet",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVlZxbUI0SGZYU3dLSVYwRTJZUWJxQWNzRFpyOUlsUDZvWl9YcFk3ZkpiRmYxVHlZT1hMNFJINUdFZU0tRXY4RnZNTmgwSXR2VnQ2YmVMSGJ6QWdEcnVTUkRtc1g2cjhlTWhDVkpiVkc5TFIzNzNlb1pteG5MV3Y0U3NKUGd4ei0zT1F2ZVgyTnhQMnFFY3dQNEZSMXc3blV2OUEzM08wRW5RalpOZ2I3WFpmdmFSbERJb01j?oc=5",
+    "url": "https://tearsheet.co/artificial-intelligence/paypals-play-for-agentic-commerce-making-ai-shopping-work-for-main-street",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -5769,7 +5705,7 @@
     "source": "Business Wire",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQ1FmbmNaTHpNbWRQLXhqT0dxVXIzd1oxVVNzT2Vjb2xfR2xRQWpieWY0ellDTE1ZUUdvdk5FcHNVaUlKMjdDekRBYVBqVnRtRUt1VnM3YTg2bmFpTXpONTItR3FpSnFENnZCVnI5VzVadE5QbldUSlVqUDlmVENYV2hiZUdMeTFfaXBCT3YyYmIzY1g4MUM1cFRPaHVRdG1tUk5IMjBqUnZfMHZhN0ZsR2hJS3k5dWxFbjFRd3BkVnZ4X2NMeU42Q0VKYUZCcnBDeXlVUzROenh0bS1hUlZaMUNyd0JaTnpjSnlhWVdEWjdTRUVfcVNwSThn?oc=5",
+    "url": "https://businesswire.com/news/home/20251218520399/en/Skyfire-Demonstrates-Secure-Agentic-Commerce-Purchase-Using-the-KYAPay-Protocol-and-Visa-Intelligent-Commerce",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -5791,7 +5727,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55MUY0elAtYS01UG1PWXVkU19WRm9jUjVKYkg5U2NuZ3VwcDZzRTJWb1pTZEVOcmtDN1hjTFktWTVaTFlFX2M5eGVHc3ktYjQyWWcwQnRZV0h4VVk5cVhGX0NB?oc=5",
+    "url": "https://openai.com/index/new-chatgpt-images-is-here",
     "tags": [
       "C端AI产品",
       "视觉购物"
@@ -5813,7 +5749,7 @@
     "source": "bcg.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcUpJZC1WM0pVZW1mLXZJcmdzblRaV0QtWWtXME40aEhyUEJDbHMxeDlPR0g4MnFRQkFZWm5sWWcwdU9uR1hCaFl0LVpWaVhKRG5xQ2l0dl9peHRRTVUwQmJ6a0wtcUpMd1A2Rk1jTEZMWXRCU0pheXdHQzBQVks3Nm8wWmEtUGZIalJuQVJ0akhDWFM4?oc=5",
+    "url": "https://bcg.com/publications/2025/european-players-must-prepare-for-agentic-e-commerce",
     "tags": [
       "购物智能体"
     ],
@@ -5834,7 +5770,7 @@
     "source": "财联社",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBsSml5T0NZNHNleEpDbTZPcGxtc0N5N0xvNVdyc1FGYUxad0Uyci1vaVY3ZVV6NUNwOGhqTXhzOUhGYm5NRnc?oc=5",
+    "url": "https://m.cls.cn/detail/2229030",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -5856,7 +5792,7 @@
     "source": "人民网",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GWHNOeFk5S0ZVRVdZU3Z5dS1xX002UGctTThBU1hBcElvUENJUHdOZW9VaHZ5NF9qSTBlLVhIZTRGMHFyamZtRGVpdURYVzV3aEpjUjdVS25aVUlFYXNHa044QjhFaDhfcFE?oc=5",
+    "url": "http://sz.people.com.cn/n2/2025/1213/c202846-41441302.html",
     "tags": [
       "购物智能体"
     ],
@@ -5877,7 +5813,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0pOQkhyOTdZYmpSTjRON2dvNVUwX2lZVjhGZ01tS3NkRFc1ckltalg2NDU3bk1QSjRORGhVOEFzRVhkZGoydG9oQzB2OTh4YkV0a2JuR290TTdJQlRVcWNYMmlEQ1ZqOUJjVDBKN1p2Ul9BSkQwNU5iRWNydnNNY1ZtRmxKbWoyRmdiSjB30gGTAUFVX3lxTE9FZXVFOW0wdW9pbjJrc1phNmtBdXpCZzF3b054eEFzODl4R05mc3NFMVVTM1N3RjBCVTVqbzE2MHdLMnhNaGlqbXN5NW5sWWo2TWhCaDhXTFZJdlZoMlZpRjQxT0hxR3BKMVdudHo1WkFXYjJreWh6cXVtVmpDRTRxZDNXdU5iQWFJMF9XRHdOVjJBWQ?oc=5",
+    "url": "https://cnbc.com/2025/12/12/ai-chatgpt-holiday-shopping-sales-walmart-target.html",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -5899,7 +5835,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOFczVkRNRk5PbEg2VzZaNm1aYndxV3p0a1hHQXE4cnpmVlZoR2tUU05lR0lGX3g4T0lPNlVaZGMwdWJ2UXpiMmZKbkpHeEFIbHpoZ3JZQnFVLTNsUnY2eTFwdDZvV0ZDM2lFWVVWVWtadEpPSnhncV94WXlBMzlJbkhVX1NJZ1JadjZHcHVHcE1LTTlNdVRlME8tOGtrN0JxNm8w?oc=5",
+    "url": "https://techcrunch.com/2025/12/11/googles-ai-try-on-feature-for-clothes-now-works-with-just-a-selfie",
     "tags": [
       "AI购物",
       "视觉购物"
@@ -5921,7 +5857,7 @@
     "source": "TechRadar",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU0FxNERDZllMXzliZnJ1STdFbVMzbGF4cU1Ka0tpemZMMERFR3pCbUtyQUpMRjJPNlF3YWhVRGpwQzItSUtfdFBEbFdqVjFsRktiMlRyMy1wajgxWVduaWJRQUs1aUpiSC1JVHEwWWFkT1lsZ3NKamlJWXpHaUVRWlVUa0lyNE5uTGh1aFNWR1NReXB0WXlRbWplbVM1aFJXMEhUbw?oc=5",
+    "url": "https://techradar.com/ai-platforms-assistants/chatgpt/instacart-brings-instant-checkout-to-chatgpt",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -5944,7 +5880,7 @@
     "source": "grocerydive.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTVnN2RjeDdoNU5meUd5M0NGUnc5czJidTFEbHR4QkFFTWFxLXVGdTlVWWMwRUgxS0JQdnJPMFVEMHN2eTU3bHVTczN5ZS0wdGliZ2x0Y2pRSUwxdnBYXzI1WFhIY0owaXUtMlk3OERSZkw2TnV1ZG9JdWZKUGxBeXZoanhiZmVsN0syX1RxVFFuNllMQTUzb0UwZkRHc2dJcEJLYXp3?oc=5",
+    "url": "https://grocerydive.com/news/more-than-a-store-albertsons-agentic-ai-tool-grocery-ecommerce/807344",
     "tags": [
       "购物智能体",
       "C端AI产品",
@@ -5967,7 +5903,7 @@
     "source": "Instacart",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUnhyaE5yYlFYa2pmWFNaZXZ4SlRYYzhjQmNaQVJMWlRCTkNYdG5QdmVyWURhQk1ySkMzbkgzSHlXWHFNMjFnbVhIdHAyUmFsQXdFdDlEZEZGeGMweHlQbXdLLVNRbmEyWkdoVjNnSFJkR3lwS0dHTU5ZSEl2WmZ5cXhLSk5lNjZtVlZ3MXF3bld2RlRCLTI5cFhTNElEN0JySU5YN2IwMzRaVG91eEp2dktLYWl2SDhFLWlsN3VSbEhyVEtfUW55ag?oc=5",
+    "url": "https://investors.instacart.com/news-releases/news-release-details/instacart-app-launches-openai-chatgpt-first-company-offer-new",
     "tags": [
       "C端AI产品",
       "交易闭环",
@@ -6011,7 +5947,7 @@
     "source": "AI Magazine",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnNGdERrb21YOGVzS0dfZVA5X05peURyVnlqd09sR0RXRXlaVWJCc0c1V05JNFRlSVp6LTVZTExzY3VNQTdfS2g0elBObWt4NzJFQm1EWWZXalN0dW9yTXZ6ZFlaa3JFZDFDdklpSnBNblRFNEQtRTFWcXo0WG1wWHQ0aDV5STRMUUgw?oc=5",
+    "url": "https://aimagazine.com/news/how-alibaba-is-using-ai-to-reshape-its-ecommerce-empire",
     "tags": [
       "C端AI产品"
     ],
@@ -6029,7 +5965,7 @@
     "source": "Livemint",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPaXJqLTJpc2V6ZkI0ekw5b0VULVlRWXRqTzZreEo3eWxRSDZabmJzaE54TDVuaGZqdldDRGw5UEZxTjhnZzd3U3YwOTJGa29Sc0lxNFRQWlJQLWpLdXJ0NHNyZTdLWDBaZ0FhMS1lbnFmVHdIMjFGUWc3VGhWelY3a1JzVjdFRE15U01EQlc1eXZTRWswclFpVzdPRHo1SUxfY2hwSWMzdUVKRWJ2cEg0WmZ5WUlBYmNxX2FiSXIxb3lKNTB5bzZjRXkteVEwVC1SRFlhc0NaX081S3RpdE5MX2RmdUZfWWx1bmFlTkp2ZGRmWU8wZFFJalhPbjdFMFBsT2NIdEZ4NNIBjAJBVV95cUxQakkwcmVwVW5WMFlmNXNpb21MeGc0SXF1Vml5YmE3bS0xLUVJbjdiT1RYaXVDZ1dwa3A4TU14cHYzdkp0eTFGMFBTZ2VGUmlfZmVmVTJLMHFXZmpzV2U0ODg0Z01OSDBBTll3SG9CcFRma0JoVG5sODJXNkJZbDlpR2U2eG9ndU9pb09nMmVQem1pdjhHeWpJbmVVYlJXblpiM1BUVjFveVdGZTN1T1FFSTBUY0ZMZGNJekgwLVN5V2RVS0hjbG5JNUE1NHRSOEltdFl5TzBIaWFsdFFIR2E1RFRJM3ZHcFIwT3ZmODY2ZzgxZkxTQlRJYXRSRXh0czJnYkEzdkpGMGpZVjh4?oc=5",
+    "url": "https://livemint.com/companies/news/cristiano-ronaldo-investor-perplexity-brand-sports-digital-hub-what-cr7-partnership-football-legacy-ai-answer-engine-11764905171478.html",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -6051,7 +5987,7 @@
     "source": "Customer Experience Dive",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSUd6eWJvTXljVjVpdEtBNEthT29EV2M4VFlpZWdnSEVuVFFxbmhKaDJ4UmxuSkNxZHdBUHBWVXNXOFFUSGJwZVZvMFkxV19OVURrYmRpSkxaM3YxbTZDeE1HMFhrR2NncDgzNkhBU20taldsN1FWOGpseC1DUDVUbUR5R3VaNFBjaG8ycjRzTnZuUGFGMERV?oc=5",
+    "url": "https://customerexperiencedive.com/news/albertsons-agentic-ai-shopping-assistant/807067",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -6074,7 +6010,7 @@
     "source": "Google Blog",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSEZoYmxCMDlGZ3lJemkyWWhjWmw3X19CZjM4bTJjd0xtSlpxTC02RlczdnA3YU9ySEZyYkk3cGIxOXlBZVJXaTdkYzQtek1FODR0MHhYQkFJdFh5bkVkU285RGl5RlI1SEducEZyQko4S2EzZG5BN0VId2FjZ0xfWnZOM3E4WGV2Q1VN?oc=5",
+    "url": "https://blog.google/intl/en-in/products/virtual-apparel-try-on-tool-comes-to-india",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -6097,7 +6033,7 @@
     "source": "Business Wire",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNU1lxNmd6RTRFc2ZIS0FxNWxzcGN1Q1R5ZTBvMzhKLWpBbXZTT2F2aEhTcUFkQzMzeHJSaFNKUDlvWWVTODY5SUNhV3ZwdTlLckZDT3lJamZPR2d3TDE0MzA1eGNQWHJsaTdxZ2lweDk3X3IxelgxdjV1cHY3bGVhTmFaRGkzQXhHTmtuZnJKWlBTdTROZ3I2OXFQay0zLW1PUUNfUThzSW1hREZLakFkYWhhM1ozUEhpTmVseFdnZERPSW14N0hmUzdHa1pGejZhX1ZpWEk5VWhldFZnRGdFQ1QxVG1SbFk2WDBDaGcyZFhSVVBYNnFYU1pfSWMzSTg2N3Azb1o2c0VNbGpQZWdtSlZBcXhaYm1vSUFvRFI4eWZjdzNfQ0JqdDlUemxmT0R6WFE?oc=5",
+    "url": "https://businesswire.com/news/home/20251202286559/en/Perfect-Corp.-Partners-with-Tom-Ford-Fashion-to-Deliver-Ultra-Realistic-3D-Virtual-Try-On-for-Luxury-Eyewear-Redefining-the-Digital-Shopping-Experience",
     "tags": [
       "AI购物",
       "视觉购物"
@@ -6119,7 +6055,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9vS0ZRSFVNeHFtSnpldU04TXYzclh2ZEtUbmx6OHFtaUhiY3A5X3RZdGRVZ0twS3NkQnQxeFdMZ09zQ19RbXpN?oc=5",
+    "url": "https://openai.com/index/mirakl",
     "tags": [
       "购物智能体"
     ],
@@ -6140,7 +6076,7 @@
     "source": "조선일보",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS01HVzZPcE1oc2llQ19iaXFiY29WaUFDRWVHSUFxVXdsaS0zUDFjMnFJV2kzeVVpdVdNUXJPZ0E2OGk4TmI2NlZfSlZNZl9Qb2FfNlYtVWdfTVlfZ09sRU0zNk9RZG5xNDhSRkJNazAxNzZTTDFDYW5Ya21ZQk5mUTYxekhDREJC?oc=5",
+    "url": "https://chosun.com/english/industry-en/2025/11/30/CHYQXILNJZFPXHLAOUFHRWOPFA",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -6163,7 +6099,7 @@
     "source": "世界新聞網",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ea05Fa0FGRG44Z3FDR193Q3ZfWW5neE9Yd1J0WVhhQUFiQ181SlFXWVJETUN2Wm1kbDJvQjNqTUtpS21CaHZScEpFQmVGTTZuVV9QS2lOd2UyNnlwZDlTcThncC03Z1EwU1HSAWdBVV95cUxNeHN0djFfY1VSU08yVzhGTVdON2VTQS1aeFI1NFJnTndydHhPTnAySUFSVDVHazBYeGxEaGN0S0tVcFlEZ18xX1dqaEh6YXg4T1pYSDlDSVQzZDd5R2dtWElNSTVxVjI4?oc=5",
+    "url": "https://worldjournal.com/wj/story/121208/9170938",
     "tags": [
       "AI购物"
     ],
@@ -6181,7 +6117,7 @@
     "source": "weforum.org",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWDJZQjZZZk44OUFiRnpYSmJyV3Znd0thS1pjQXpUc0k3SHFmbnBtY1EwVzJDdk1yZk9qNHBKbEdYNS1halJJQ3NYUlE1OXByOGhpamNxbDQ2MWJLc3VQLWhkMkROSm8xWUJFZXljb1pYM29WWDZsUDllRkozMUt1QVJJSnQ0VHNKMEp3SXZyRlg?oc=5",
+    "url": "https://weforum.org/stories/artificial-intelligence/ai-shopping-agents-energy-news",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -6203,7 +6139,7 @@
     "source": "Statista",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWElORmR5bDZyMVFJRGdBSkZPT2ZEaTlPU1VfRENEdEh2Q3U4YWIwaFJISVRyeWlBeE1SWHNmaWQ0Z0F3QUY1ZTJma21KOGRtdFJUMW1kU1FNcW5pYkd3UkE5Q2tiMVZpNkxQQUZ1djhXckJOWUdiSFdpejBRc1NTWkt4TVBKMHhVMTMyY3RNM2NtUkpCRi10UdIBngFBVV95cUxNcmEySkZUTldjWEdLRE9pZlppOW5JRzRTNHMwR2RucHRyMmhYOXU4RFN3VHZiTnJTR0Y4OThFbWp0ZFFjTnhDLWpySFFyUFdjUU5kckNCREJPV3I5eDh6SnNtWENfYkswcFF6LW9hNFhxbW9PM2l5cWRmdElxSy1lM01OdnlwbnJFVW1uLUhZTFVJWWVGdF9ScFlnUnBaQQ?oc=5",
+    "url": "https://statista.com/chart/35529/ai-tools-adoption-and-applications-for-holiday-shopping",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -6222,7 +6158,7 @@
     "source": "Business Wire",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOY0tYenIySTB1NlRfTTVyYUJDN0Vwc3hhSk9KN1VwdUJIdGtERHpyWTA5aWxNSWE2a0lpWm5TNkU4Wkw5c0p2MGZ3ZGtrckdHbmlEMHN1aHF5YjNNMUl5Q1JxNW9TaGRDUl9sLTlhM3dCQ3lROEd0MkdRcjZjTTN3NHpSdG9qazN4OXR4R0JPZlhQcmpna1VKSjZuYzl3LV9rUEhIU3V3d0swYmttWlJMVllFMTdKWE15UVM5b192NGxlOWYwcmZ0a0xNWElWMnRNRGc0c0NNdUl0M0NNaTNtVVV3V0ZvYWEwZ0pQOWE5QQ?oc=5",
+    "url": "https://businesswire.com/news/home/20251126580530/en/Newegg-Partners-With-PayPal-to-Integrate-PayPal-Agentic-Commerce-Services-for-AI-Shopping-Experiences",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -6245,7 +6181,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSEZjSXRJMXlwYmxWRHB0TExTSmtWR3llOEtFSDNMZ2t2dWJLYkZQVVIybmg4dUp1cm1UNWwzWmhOM212SEYtQ3FSbzVNYUtVN2F2MDFla2tzdWxVRUx5WHBlUUtMeUZpbHo3ZlJ3Unk1VF94Y3poYWNHUExySE5JeDVRWkxiN21EcDlKOUpRQnNEaXJyMHViVUdNNmc2YnFsUDB4b2R3cGFpanZvUjF0XzR4aHJzMThKTHF3d0lxNV9IcGQ0LXB6WFE1LTVEbms?oc=5",
+    "url": "https://techcrunch.com/2025/11/25/openai-and-perplexity-are-launching-ai-shopping-assistants-but-competing-startups-arent-sweating-it",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -6268,7 +6204,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55TGwtaXZGaWpqVkpSdURfaUJlYTZuWGVTQmxZdDZRaWRLUFZXMGdtRGYyV056bFRWdEZwRlF5cWN0TXdLWFFYMjI4dVljTmJ1Y0Z5MXUyRWppYklSTF8xeg?oc=5",
+    "url": "https://openai.com/index/chatgpt-shopping-research",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -6291,7 +6227,7 @@
     "source": "Consultancy.eu",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcFRENzhsWG9NcWlsYkwwNHRndVBPTlUzTzVGT2pXNGJhMXBnLUNaQ3FCN2V5MmFDc21aVExMVE0zY3lqV09vS2JveGdRNTlFSmcxQklUOGw4REpWOEFDX1BRaS1MMy1idVRJdG91eklJS2loUUNTUk5ZMlJFd0ZFYWhDdjhQVnZLdHUwWUNCMDA3ZERYRGVIMtIBngFBVV95cUxQdncyd2lDN3BtVDRzcGpUUmswU0ZuS0lDQzRuUHlhZnNVcjh6bUhSXzJ4RkhLS2ZGc2JmeU9hbVpFcTFQcTc1Wkl5eGsxUVZ4V0pnNVQwLVh2MjBGQ3JTUGVaY19DV3BaTVFucDRGMDFSSFdRUDN3YXRtTTh1ZHpuQkp6ZVVXYlZFdFI2ejVRN0VlaTRjS3BlcC1rMzVyZw?oc=5",
+    "url": "https://consultancy.eu/news/12757/agentic-ai-in-ecommerce-how-merchants-can-stay-relevant",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -6313,7 +6249,7 @@
     "source": "The Verge",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbzVXSy1vOVAtTFBiYk9QNm9mWmFnLVJERU12eV94Yk9pTGdNanJiSFZRZUthbzg1eGh5cXczVUpNVzFCMVQyamZVdklkbzMzOEk5aHBzN3lDR1B1VlFhMFlmcXllcVdDN3I3ZWMybWNkR051c2lMSXFsdWVYU2t0N3FuRnY1cldQR3RwSnZHbTY5YWx5WmRNSlFqc0RiemlvQmc?oc=5",
+    "url": "https://theverge.com/podcast/823909/the-doordash-problem-ai-agents-web-amazon-perplexity-lawsuit",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -6335,7 +6271,7 @@
     "source": "CNBC",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtRmxsa1NhYUluNm5ueUNhOWtMODZmQkJhQUpucGZ1cFlHRWs0bjlfYTN6azFIVnl0Ukpna0t1Yy1tam9VRThxU3RvcHVlV3ljZU5tbVdXZ0JPSS1LOE5ObGswdVZqN2lMbU1xTDNNRy1ZQXdmVkNvLTBObTlTd9IBgwFBVV95cUxOcGVjN2lJMFRfM29VOXNLbjdIaWc0VUY5dXM2MnBJTG51MWk1UUJRQl8zbENsVFUzX25fWUZkRkVhVjNxaDR4RHJDeTlTak51LUtpbTdPWDNSUzhvVzB6MzhyMExTcVpHMUFvS21QMnBGUklBZ3VGZVRELS1NUWxodWNrUQ?oc=5",
+    "url": "https://cnbc.com/2025/11/19/perplexity-ai-online-shopping-paypal.html",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -6357,7 +6293,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1IR2kzTFRZWThqSG1tU0FHMzNfNHU0dDJwNXFnR1o4NVhfcEJLb2txS01GUG0waW1obVd2XzRaRWRKTms3ZnB4Q2pMcEVSc1JGTEtuYnp5TG1jUHpKdS1QMnRRNkpRQmdaQXlNTzJBMWFxb3ViZU82Z3ZZOFVRZw?oc=5",
+    "url": "https://aboutamazon.com/news/retail/amazon-agentic-ai-gen-ai-shopping",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -6380,7 +6316,7 @@
     "source": "searchenginejournal.com",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX3BDLUxBajVsaU5aUTR4TDR0RHdQTW1CaWtNU2g5UkN0NEpTeGFEemQzTlNPbkVCRGpmRGZsdmxmZE5mNmd4VVZmcmg5X2NmZlFqSF9kaERpcEZpNVlPSnpWaUxmMmk3Rk1NcVotWnhFMk1SdjNhakE5UWFjTC1lSFowaDZINXJObUdvSjkzVVhoNVA3Wm0zbmUtYw?oc=5",
+    "url": "https://searchenginejournal.com/seo-pulse-ai-shopping-gpt-5-1-eu-pressure-on-google/560985",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -6402,7 +6338,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbFVHc3I3YnU2ckxUZE4wZUM3dVdMRGRCajgwbzd2a3MxVnJpMFVEdkdVSGItWXI2WWplaTVvZ1h4eGxwQ3pqeVdEOGdmLWVfa0h5V3hqa1FtbXNQX3NNMG02US04dHgwaThjcWtaRExOc0ZobktuQmRhdDYwY1NJWVBDcDFxRFpCRGVfbkJlVlpReVQ5TGFVNmNieWoyWnFqQkxZZG9Wd0RuQm4yNkdmd1h1M1o5bFFyTWVib1ExSFcxRzVmVU1lR3hTUGpLWk5paFNyNVNoc0k?oc=5",
+    "url": "https://techcrunch.com/2025/11/13/google-expands-ai-shopping-with-conversational-search-agentic-checkout-and-an-ai-that-calls-stores-for-you",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -6426,7 +6362,7 @@
     "source": "Target Corporation",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdUpKVXRFV2lFNkVRTURCc2t4RjNLa05OejNiRTRrYXZOMmF4MkpYbV9iZEFtcGpIdm1yU3lRN1VzcjI3RVhLQnMwWFZFUWtsbVIzQlpqNEdNQmFSNEdjUlEwcWYxQlZ2X0lWOGRXRUlzOW1xeTRlUzFJaWs2ekdwQVA1c1UzZGVBSlo4WWVTSjFidFdKdHJMSEJvUTYyUERpaWlDYk52ejB1aTV2MnNPTm9xeFpXZGVNeGhteXFEUzhOZ0hOQ3NKNG5QejdmUEd0aGdaLVpvZnhnVnZ1?oc=5",
+    "url": "https://corporate.target.com/press/release/2025/11/target-launches-new-ai-powered-features-to-make-holiday-shopping-easier,-smarter-and-more-fun",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -6445,7 +6381,7 @@
     "source": "Statista",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Ra2V5LUNxUVJvYWZzeW9Kcm55MWxHUmxoWHR4OS1IVkVhdGtsQ214ZVdlckdScXZNUV9Zd3NKMy1zZGJIVktzeG85MTNiOUR6T0pGdkNJLWhVVHpHblU0VUwtSnhrOWRrd3VfeUV5WHDSAXZBVV95cUxOWFJPOG1laWY4Xy1pUDNLblk5bGhva2JxWTFVNDdCckZRYXloaURraUxqanpmVTczTXBkS1hsemZFLWNhdkpNMWM3bHJRamQzbW5CQk1iREZMbzJDOThSNWdKdVNWZHdadmplbVpjN0NQQ3VMdERB?oc=5",
+    "url": "https://statista.com/chart/35442/ai-tools-usage-e-commerce",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -6464,7 +6400,7 @@
     "source": "insights.som.yale.edu",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONTliOVA2T3U4ck5wZDVRb0JQdVU5SmF5ellmV1lwRDJraWsyUGVxMnliWmtPa2h2Ti1pdGUxWFk4RDFrZHk3M19naXVPZ3F5Nm8xYU4wVk1aWkt1UkNXd25Fai0wX3BYd1FSRWc3WV9jbkt4b3JjQlowZWxtWDgwbw?oc=5",
+    "url": "https://insights.som.yale.edu/insights/are-ai-chatbots-changing-how-we-shop",
     "tags": [
       "AI购物"
     ],
@@ -6482,7 +6418,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SVTVWSEUxY0dvMHFNUEZYMjFYMEJyYjNqYmVhTUtSeFhqSjRYX0tjN1JNX09BWTVUWGgwS2hTT0VON0JmckVEX2swb0dNY2RLbGdlOTZEc0xHcXpwNHNIdmpZRW1POHB1UUdxQ0cwZ0Q1bTctOE9vYjhR?oc=5",
+    "url": "https://aboutamazon.com/news/retail/amazon-black-friday-deals-2025",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -6501,7 +6437,7 @@
     "source": "Medium",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVEpYNjV0U3J4aGU5OERUcTBvM2w4Rkg4TjFEcHRPeUxpVWdOVEpPS2h2bGJLYWpGNFpINWRGbGc5cUdqWGxabm04ODNFQUtkMjhFZHJkaV9CVXNaREhZdWR0UVdOUDVUMGhzUEp6LVBfQ3ZtTWhoemM1U0cxVkV4Nkk1Qy1UQjZHMngybjhCV05rVnB0RUdiMUx0UU55OXRHQXE1RlIzVkJQZEFkNElxdS1ILU8?oc=5",
+    "url": "https://medium.com/@adnanmasood/chat-driven-commerce-the-rise-of-inline-shopping-in-conversational-ai-13462e196ca5",
     "tags": [
       "AI购物"
     ],
@@ -6519,7 +6455,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNHAtc3pEa0NaX2tEU2ZlUllNZlNVT1pSMGxYaGUtS1ZUVG16dGpUVTNVZktWcUtLYXotWWlmZW1KOUh6S1BxUktURUNzdHNNQnVoOEVVS1JHa013RTRnNGM3U2stOC1MdWJhbms5d0hnY2p6dWdKSWNVRkw4dE9CS01nRkhvNVNp?oc=5",
+    "url": "https://retaildive.com/news/amazon-sues-perplexity-ai-shopping-agents/804871",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -6542,7 +6478,7 @@
     "source": "Reuters",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZTlmSWZ5R0JEcE9PUjA1TVhEdjJCbEQwQ2dVeGdjRG94WkwxNERMbzJ0eGFfQ0M3NTh3RFhLVUZzaHZMZk9jS25hc0FLVnJSc21TWnppTmdud3k2SVNKdDFncUo3TUVKWUlPbERYN2diOHBXYkJpcWlYR2NZWUpzTi1oRjR2MGZRY1lHMXMydE9lX0VXWnp5RzlldnQtN2FJTjZkRkZ2bEhib1R6bzJHaThpdTdLdnRsWUtRblkwMW5rc2gzOERPa2tR?oc=5",
+    "url": "https://reuters.com/business/retail-consumer/perplexity-receives-legal-threat-amazon-over-agentic-ai-shopping-tool-2025-11-04",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -6565,7 +6501,7 @@
     "source": "The Verge",
     "region": "海外",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb1JFMk5GY2VGd1hyVV9WRjZxdnotaThRdnBvR3Nfc0p5TjhHTDlxcnQ0SEZvSGtScDhUaEJLbjNJcnZNTGVmQWpsZWhpY05PYWJQQm0tN1JBM2V5eVZ2S0I3WThaUnM1NDV4Y1l0SDFTV0wzNTd1QlBsWXRIdU1WbUdpbmk?oc=5",
+    "url": "https://theverge.com/news/813755/amazon-perplexity-ai-shopping-agent-block",
     "tags": [
       "购物智能体",
       "AI搜索"
@@ -6587,7 +6523,7 @@
     "source": "Customer Experience Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnZqQ1M4NFQ4NlZKd2ZlQzREQVUxQ1FxakxqNmhRYS1JSThsYThrVW5pSW5Wdk5NSkJMRTRkaUI2dHF2aUpzRFNPX1Btb2ljU0tDeHdPUk9YZFdkN1VqYTFQemxOZ1dDNDlaZ01wRlIxc2JoN1BNTGlmQ2lYalNicVcyc2Zna0U4MHFtNkdxOEt3NTRTcFNR?oc=5",
+    "url": "https://customerexperiencedive.com/news/walmart-ai-tools-in-store-online-holiday/804541",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -6606,7 +6542,7 @@
     "source": "Fortune",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGRxdXpTM3pnWTFHMGg3NVpUYk1RLWs0VUptYmgxemstbWxxYmpoc1pkTFpGUERabE5JeDlSWERfbHBtV0RoZkRpV3lyWGN4d0dLamxKWjFwc1dURU85U0d2Ym1HZDBDek55X2tka3ItNHNTV1pFT0tTNGJvQ093RDFuTlFwNXl5THZPUG1seGR6c3BqaEdCRmRSYVk1aVlSNlJ6aW5hNA?oc=5",
+    "url": "https://fortune.com/2025/11/02/amazon-rufus-ai-shopping-assistant-chatbot-10-billion-sales-monetization",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -6625,7 +6561,7 @@
     "source": "Modern Retail",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQ3FINUYzZEVtTG1yZVFuUnBwSlNmX1prYklWVURPbWRXdGlMZVFzQWpPYVlMVFZ2SHAtSEVqRjduVm1RWkNnc1l3Y09FdUxSQmdERmZLQVI5Wm5PT21iTVZUUDVnWU5Fem9oZzFIdU1taXRyZ255aC1VZ3c0dlRweVkxR1c2TjBCZmFraU9zcHpzSndNZWJ2Yi13UHdXN3dWYlhvVldJSEpXeDUybExRcE9Lcmc4N0pRelVpYUw4UEhOdUVTSzZ3WTVhb2g?oc=5",
+    "url": "https://modernretail.co/technology/amazon-ceo-expects-to-find-ways-to-partner-with-third-party-ai-shopping-agents-in-the-future",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -6647,7 +6583,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWXpYWjI0d0RvTktOY3dZTHRzVHBIdXVWa2lCNGE4enM5c0dINlJndVptMThVWkcwQWlQNV90WmU3RWJTUmJIUnRidTJxS3hKMlotV3Y4QjlDdWJzSTN6V0k3aEZoZzJCR3lUeUQwTmdoN05yZlYyOUZaOUFDTmtTSjNB?oc=5",
+    "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2025-report",
     "tags": [
       "AI购物"
     ],
@@ -6665,7 +6601,7 @@
     "source": "PwC",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR1hWeG5Dcjk0TjF0S0V0Q0RBeEszOXhEOWIwMFZ0YzhMS21tS19pcy1SM19sUU5LaDNyMHRiZDRaY0E1NEV1cUVCYVVfUWt4TnpHNjlFVzlmb1JUN1FrMlVsRGFDM0x3czdEOG92QVQ0WkkzRGlhZnhSeHBNaV9jZUFtM0lzRmNtcktoVVRoOG1xb2JWaXpKNnhqVUFvVDdlbGx4N2tSU2paNzFQaThR?oc=5",
+    "url": "https://pwc.com/us/en/about-us/newsroom/press-releases/stripe-collaboration-next-era-agentic-commerce.html",
     "tags": [
       "购物智能体"
     ],
@@ -6686,7 +6622,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVdKWERGM0Q5LWhOdVdOY21vQTNiQ2U5TERDdFgwY0dNYXdJRFdQNlNHNEpZaXlpYjRjR2NiVnB6aWhYTE1oY0lZZGJOT1paNVAwVE10R2VBZlNsV2pBeUFDSl9KTm9hMHdZSkd6Tm43a2VUWkp4dzFuMUZ2X3dZTWRVdjdXakVoZlRlUTIzR1dpZVgyRmtON1g0RHFSUmVpbEFNeXgxWU0xMkN0cGktODYzUQ?oc=5",
+    "url": "https://techcrunch.com/2025/10/28/paypal-partners-with-openai-to-let-users-pay-for-their-shopping-within-chatgpt",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -6705,7 +6641,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0VzNzYXdpekdxUG9CTUZiX3IwUnNoWVhWeDRZU3lfSDVURWp2ZXRuN3hmbklxenhnaXotZFhucE9jeEdjbG9OOWttV3AtejJGU01z?oc=5",
+    "url": "https://wallstreetcn.com/articles/3758032",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -6727,7 +6663,7 @@
     "source": "Digital Trends",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdTV0TDBwa0czUVhUa3otRGowWTJERG00c2M4VVl6TTdnQjNtRE5Ld2lWNF9aNzRNSF9PYUdoanAxamI2Qk5zbE12NE5JVFpmWF9SajhjbGZldmNDVTVFQWJoZjQ1R2hKNi05QVktSFZ0RGNwM0pCVHhGUUhnWDdydXRiWkplZnB1N2JkSG5xd2JPOVM1a0tlNzNwRXdMWVE2ZGc2M28xZWNKMWVPUW1MMg?oc=5",
+    "url": "https://digitaltrends.com/computing/ai-browsers-are-here-and-you-need-to-learn-how-to-use-the-web-properly",
     "tags": [
       "购物智能体"
     ],
@@ -6748,7 +6684,7 @@
     "source": "Shopify",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14d05uVmV5YkFBdEV2bE14ZlctQk83X1FySkhJOTFobXlSQzlQS0xOdHhaaGY2aGtxQnowSHZMZXlQMXdNejFFdk5vUHVTMjQyOTktRQ?oc=5",
+    "url": "https://shopify.com/zh/blog/ai-chatbot",
     "tags": [
       "AI购物"
     ],
@@ -6766,7 +6702,7 @@
     "source": "Cloudflare Blog",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lSER2aUk1U1MtT1dZbUEtdmxyVjJEemNkZ1BXR3B1NjJDYVdlaGVqZFJrekRKS010WS02d0lBbUdxNE5yc3JYRWVYb1lGa2NORWI2eGpUb1dhQ1oyUjVfaWZn?oc=5",
+    "url": "https://blog.cloudflare.com/secure-agentic-commerce",
     "tags": [
       "购物智能体"
     ],
@@ -6787,7 +6723,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNN2thclBjQmM4bjM5Y0lBU3RMb241aWVnWjloVWlzekg2c3JnUkxQTnpIT1RZRzJxZ1VBYW1na2U4Nlk1OVMxUnFpRW5EaUQzQmVzcHZaX0tBN0NfLS1jYlpJRjh2ZS14YTJ4MlFmaWZZTFlDX0ZNUU1GbmFzRlJPYnVJUDFJeTdUbEE?oc=5",
+    "url": "https://aboutamazon.com/news/retail/amazon-things-to-buy-help-me-decide-gen-ai",
     "tags": [
       "AI购物"
     ],
@@ -6805,7 +6741,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hRjkzQmw4MUN5R3o1LV9MVndpNXZzTlRGMlJmVFZqVVZES0R6VWVmYWtfSU8zMUljYXNQbW0xU3JkN3pma2xqM1F6SVJLUmwyWjluUnpMZGk4VE1DM2dsVA?oc=5",
+    "url": "https://openai.com/index/introducing-chatgpt-atlas",
     "tags": [
       "购物智能体",
       "C端AI产品"
@@ -6827,7 +6763,7 @@
     "source": "The Conversation",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVDhWODNzMkExQS1iVFJEQlpBS1VHbFJ5bi1HbHE5Vk52SExVaDl6OFZGeHhVRmVKU2NwVWR5UnpWNUNBR1JTM2dBbWtCREVfRmJrSk01ZjVnMWdJeEszQnYtMFBWZGVZX2Z2RnBFNVg4ZXplUk1pTHBtQmh5QjAyYmpFQTkyblRseUZpU3hENjNPSDdPQmNIT2swdjNNeUxsdkpETHIzOTN4Vzh2OXlNd083VFF4R0F2OEE?oc=5",
+    "url": "https://theconversation.com/openai-slipped-shopping-into-800-million-chatgpt-users-chats-heres-why-that-matters-267402",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -6846,7 +6782,7 @@
     "source": "McKinsey & Company",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNV9TUEZMYk0yNE8tb0V5WlpZaVp4T0c4eXhkS2tTX2daVHczWHJ5UkEtQlo2RDNOMnh4emxUNUZBOGJFZW45NFZoQlYxTVFqS3JlODB2RmR4MjU5RFp1SWdaUDRhYjhVanprak9DR0lnelExYzM1YklESlB0UlFteW1OMEhZaW1xZkpncjdTOVRZMXpvckd2ODV1T2JjT3ZKb0hnd0ZJdzlIRW5kM0xfNzBScTkyLWV1VkF1R0NQMHBEUWpsaFhXVVkzVnFHcGFyN21PZkpjRjU3Nkx1V3o1WEo5YkhWMHNnZXlkNDAyVnVHQjliaTF3?oc=5",
+    "url": "https://mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants",
     "tags": [
       "购物智能体",
       "C端AI产品",
@@ -6869,7 +6805,7 @@
     "source": "QQ News",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UV01TQTE2TEFjRm9SUVc1d05Fb0F1SC1mY0Zud05xUXRKcXhGYTdLNDltd1hwdnpHT3RLU0FvNTBnZTZBRU1QWUViTW80ZnY5ZERvM2dFbw?oc=5",
+    "url": "https://view.inews.qq.com/a/20251015A02RPJ00",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -6891,7 +6827,7 @@
     "source": "Mastercard",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZU5DbkM5c0xDVGhRMTUzd2N4V3dPTzhjMGxCZXlpRUJVYWQ2dWcwVHdzOXJncVRkMzhrTF9OUkdhUEc5ZWo5eU53QmZBRlRuUTE4SlZNVmowUUVhNHFlWFo5TXpQbG5fbzlfYzJHQXdIdHZLaUN4MXFJZ0V0cjRFYWhiNVlFVVExem1tX3hfQzhDTWx6TXV4RnZFd21sQQ?oc=5",
+    "url": "https://mastercard.com/global/en/news-and-trends/stories/2025/agentic-commerce-framework.html",
     "tags": [
       "购物智能体"
     ],
@@ -6912,7 +6848,7 @@
     "source": "Shopify",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16eDZYd09XMzlMWmNsRWQwWnBBLWxqNnByc1V3cjhoc3pwZkc3bzlBVmhxVk5WYWYtaFpFbE5Ld2FJS2RnTkNKTzRLOVRuVVpJQ2NJZ296VXZYY3NvWGRZ?oc=5",
+    "url": "https://shopify.com/zh/blog/ecommerce-software",
     "tags": [
       "AI购物"
     ],
@@ -6930,7 +6866,7 @@
     "source": "积墨 AI",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdURYTHZMMFNfRTc4dnAzZXZPU0JTVDNCbXpLSzBJbzZoaVQzX0RicHNRbkhkeVpKajFVRUFtazg5Wi1MS29CTjA4SjlzN0VBY19nYkFPYklQWk5LWkwxeE16ZVpDLTI4ZGc4Rlcxa2xBcDBjVGFzN3o3c3NaY1JQdDVtTmh4NHdPZGEzaVpCWVk3VC1uZVc5U1FhWjdiZw?oc=5",
+    "url": "https://jimo.studio/blog/openai-launches-shopping-agent-ai-has-already-reshaped-e-commerce-logic",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -6952,7 +6888,7 @@
     "source": "bgr.com",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DMkZjajdrVnFsdEtObVJoM1JRY0pfb3FlUjI3QVE1S1cyY3hYdzFxZlg5eFd4S294UDlZSGRUZWtocWhTNExrVEF2SVZDWl9PUVNBU3dMWlNZb0FWRVM2R0ZNZExZWF9TVUJFTU9fZlY1NFJmY1E?oc=5",
+    "url": "https://bgr.com/1991231/google-ai-shopping-update-try-on-shoes",
     "tags": [
       "AI购物",
       "视觉购物"
@@ -6974,7 +6910,7 @@
     "source": "Mirakl",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeGlHdVlKamRnQUNmLWdSQkYwODVibDVTaF9WTmpvTmwzaXVtN0dRSVRhRGdPeDZ0RGNRZ1AtUTB6Nk5HUW92ZGtEUU16YzEwVTdKZ3hMWE96WE5VTWt1UVQ4RWJleEd6ZWxWZmVTbHJlYzNjcFpneGc0VC14LVlXV0hVdk53RkJaeExuRkp5TENKamZEZUV5b3ZZLVY5Nkpxd293TXpaUXBJazY4SG1KdjBFOTBQZS1CVklzaQ?oc=5",
+    "url": "https://mirakl.com/blogs/agentic-commerce/winning-in-the-age-of-agentic-commerce-how-retailers-can-thrive-in-the-ai",
     "tags": [
       "购物智能体",
       "商家接入"
@@ -6996,7 +6932,7 @@
     "source": "forrester.com",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObURkVXctUGY0aE5DVU9nQXM5MUdwZ1V5YjRhNDFvalJXX2hwdE5fVFI2ZUJMbjlSTGhCSGVCOFUyS1hHSXB1QnZHaUN1MVBzYWl0Yk9INjBsZkM3RmxJblNXaF82ZndudjlFaU1jYS1SX0I0eXp3UjJXeldicmtpcTJpVjh3U19HdUpRazJvbjUxVXdiSmR3bGgwRnhqRjcyWTFZYTA4SUdxMFotLXJyV3J5eUs5Q3pkbXp6eVJ3UQ?oc=5",
+    "url": "https://forrester.com/blogs/agentic-commerce-conversational-commerce-the-future-of-owned-digital-shopping-experiences",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -7018,7 +6954,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzNQWERua3R3ZEpFRmNYNl9XYUI3dWJjc2FpQ0owZU5USlpGMF95TjQ4WXpFUThnM2ZuRTgzS2VSdTRCZHBSVGdQbWpTS0lPcWVDcnlxazJ2TlhUbjNDeklUcW56VGJQWVhBd2d1SkxjbG1senV2VmQyQlFSalgyaUxrajBiczVkYWl0M1V6VDViRHA5OFhBd1ZaMjBPRkZfVUx0dWloOGktVmo2YTlzNmp3?oc=5",
+    "url": "https://techcrunch.com/2025/09/30/paypals-honey-to-integrate-with-chatgpt-and-other-ais-for-shopping-assistance",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -7037,7 +6973,7 @@
     "source": "OpenAI",
     "region": "海外",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCZC1fZHFfMXFaZm5EV2x0WEJ2U0tkV2tndWprV0VHQVUtZzZEcjN6amdRWXk4c3pxZ2U3bVdDLXhDWkNrb2FYeGg2dnRlTlR6TFJrcGN3?oc=5",
+    "url": "https://openai.com/index/buy-it-in-chatgpt",
     "tags": [
       "购物智能体",
       "C端AI产品",
@@ -7061,7 +6997,7 @@
     "source": "InfoQ-CN",
     "region": "国内",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44cVZBOEJxRGxyRUhGUTNkWkpsb0MyR2FBekwxRjVWY1RUMVlMMTNlV1RrM2hIVUJHdHNCQnRjekJtMmN1VmJCeldrcHRMbngzREwyd1RpNmVUQQ?oc=5",
+    "url": "https://infoq.cn/news/Zg0xSIocswc4Br74V3y8",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -7083,7 +7019,7 @@
     "source": "McKinsey & Company",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORkNhWUJRcExzeER3VlFfZ095c2F0c2F6LXlXczFIOFhuUUdFZXdTcDFwQ0poamtFWWIyZ3lEam95bVNYSWNvRmkxUUotVWUtMkF2UmdaZ04wbjVCOGJiS3pTN2xyZ0k4SkxFaXJrZ3NjbnRCLWlqTDJWSVd3UWZvNHgzUTdkQy02T1pPSWhRRjc3WDhkeFZidkFfdExOMnNFMjVqZmlfLUJtRW0tWUc1UGNIdmItNWpGUnd1UnZIOG8tNDhDT2tLTjF2WlRXRnpPWVJ4aEp4QkhGUHpI?oc=5",
+    "url": "https://mckinsey.com/capabilities/people-and-organization/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era",
     "tags": [
       "购物智能体"
     ],
@@ -7104,7 +7040,7 @@
     "source": "Pinterest Newsroom",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSGZsMU9lWXlYc2NGOElPWER6R3E5ck8zUkZUSUlJM3ZVU0kxNXM0cUNyTTBHMWcxYllfa0dIYWh3Y0h3bkp0VWJDNlV5TmwyYVZ6bjN0TkRGMW5qM3lMMG1HeF9PZ2RaeWJEME56Q3dkX05nWkp3SktSMWdDOTFneU9wb0ZwXzNKNDFiZ1ZaeHl6X3Z2TS1ScEd4VVRFZ19uWGRZ?oc=5",
+    "url": "https://newsroom.pinterest.com/news/pinterest-introduces-top-of-search-ads-and-new-advertising-tools",
     "tags": [
       "AI购物",
       "视觉购物",
@@ -7127,7 +7063,7 @@
     "source": "Modern Retail",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMHlWcmZ3aW1Ud2tsaEV5d1JsbGhuYkpISEs3UzhDRHZZLVpPelRVN2gybU1jcU1feVdxWDdUVUhseUE2NDB3RnVXZmVsTno1b3RxS3VkTmpZU0RfX2lQRF9hWVgwODRFM01HTl84MlFvT2c3Q1JhV1FCUGpWdmFQbzBHbXQ5X3Vua0M4N01RTXZBTWJLRHlzVzh5V0dqZ25uZC1QczlrVTFhSE5SNHExWXQwdTdrNlZrMkNUdmJlQm5oaFowZ2lr?oc=5",
+    "url": "https://modernretail.co/technology/chatgpt-is-now-20-of-walmarts-referral-traffic-while-amazon-wards-off-ai-shopping-agents",
     "tags": [
       "AI购物",
       "购物智能体",
@@ -7150,7 +7086,7 @@
     "source": "移动支付网",
     "region": "国内",
     "category": "交易闭环",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yY2JPOXNmMVdEMi1MRjhSTGFnNzZ6cG0yaXQ3TGFNcENSVmdWTWNSZFJEak5RWWNHcENXZkZxMU01LVFieW9mZm5GZ3l3YjRRZjA1Y0psZ05BOHhlNC1WWA?oc=5",
+    "url": "https://m.mpaypass.com.cn/news/202509/23172500.html",
     "tags": [
       "购物智能体",
       "交易闭环"
@@ -7172,7 +7108,7 @@
     "source": "The Verge",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQY1Rud3BQeURCanFMZ2g1ZWlodWs4ejFxM3NITXdacmhmRzJyLW8taC1sMDVfVUMtem1uZW5vQ1JjTkVfcHNmV0h0MjU5RmFCQnhSQjk2UjBMcmxaUTA4YnBnalhVcWtsOGdMcGgxd1pIRUtqRmp6UVhtM1NRVmZkcDhIUXZ3ZzQzY3pYbWJkdw?oc=5",
+    "url": "https://theverge.com/tech/782540/tiktok-shop-scanning-gaza-videos-e-commerce-dupes",
     "tags": [
       "AI购物",
       "视觉购物",
@@ -7195,7 +7131,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeThQXzlMdWF2SVRZNTFtR0pxemxmeE42XzhsT0dZZV9HS0ZYanVYc2k2LVJMWDZZVmFwV3R6cXlWR3BBMHNydXFaNzdxY09UVWlnWEhGWmNsWnpZNXVuaXFlYW0tSWRQQWxSOGsyOTFxNEJoZDJmLWRsZEpGR0VwMVMzd1pfWG8?oc=5",
+    "url": "https://techcrunch.com/2025/09/18/google-and-paypal-team-up-on-agentic-commerce",
     "tags": [
       "购物智能体"
     ],
@@ -7216,7 +7152,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "商家/生态",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NNalVRem9pSFg3dkVhSXlHQ3lGdWVHTC0tMmh6VGh2M3FpV2hRTE9SUnphNHU0Q1FWcHdRbXZhdXA4Y1VzSGYxdjNpVmhSOTRMLVd3UnE1TjAtRzFKbnlTQTlWMFRqS295Ny1vTmsxUy12ZjRBZFlLM1FReWcyNFYyRmpVVkpTQlY1V0Z5Vm9MM0xMSEdpdU1jQWdpZjE0VWxjVXJMTEVFbzJiOUlsaGQ2UWxjSkJHYkE?oc=5",
+    "url": "https://techcrunch.com/2025/09/17/amazon-launches-ai-agent-to-help-sellers-complete-tasks-and-manage-their-businesses",
     "tags": [
       "购物智能体",
       "C端AI产品",
@@ -7239,7 +7175,7 @@
     "source": "About Amazon",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUUdCVElWUDVaa041S3NkODNRakJpeUI2Q3ZtaG1vYlFGd0lqQUZYMWtTMkVoaUdaMUxIRV9UN1RuUWJmd1NrVzk5ZW5mSDhwbVI2WFgxZ0dWdU1XYVEwOUpHdkdDLTZ6c3I4QXNmcE9KX1MtSlBMNEFDYmNyZ1lhWDBFNzcwc2tCR0VB?oc=5",
+    "url": "https://aboutamazon.com/news/retail/amazon-prime-big-deals-day-when-october-7-8",
     "tags": [
       "AI购物"
     ],
@@ -7257,7 +7193,7 @@
     "source": "华尔街见闻",
     "region": "国内",
     "category": "AI搜索",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KUHJRWkJwcmFEQlI5YkxBX0Ric2hSckVwVFJhMVRBYWpRVGx4ZkxrRWZEUnh3ZEZEQ2VEZm5qVnRnVkFyOTYyTmVQNE9td2lGMG1n?oc=5",
+    "url": "https://wallstreetcn.com/articles/3755576",
     "tags": [
       "AI购物",
       "AI搜索"
@@ -7279,7 +7215,7 @@
     "source": "rezolve.com",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON1JLMThmOU5jOHVLc2RHN3JjR1lzUzJJQi1YWHhOMEdPdGxoekdsUklHQ0dTRkNENGMtaEdORGlIWFBrU0p4ZjkwU1NWZmctRW5LYlR3eG1oTzlrUnR2T0FSbVdtczh1VXpYR2M3YkJoRjZsTkRGTlBuRG5ZOWEzalpTa29DczI0WlJz?oc=5",
+    "url": "https://rezolve.com/blogs/augmented-reality-ar-and-virtual-reality-vr-in-ecommerce",
     "tags": [
       "AI购物",
       "视觉购物"
@@ -7301,7 +7237,7 @@
     "source": "appinventiv.com",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lQzhaVktPTDJ2MEVMOVViTUIyTnc4X084ZWF4ZU05VXJmVnNuemlHRWFJR2x3cTNaQW94dVRGdzE2NGFLVDZRRkJ3MGZiWjFmWjR3bDVnc09LV0dxUFdJ?oc=5",
+    "url": "https://appinventiv.com/blog/ai-in-voice-commerce",
     "tags": [
       "C端AI产品"
     ],
@@ -7319,7 +7255,7 @@
     "source": "Marketing Dive",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcUtFWUFOTC0tUGNlVkttb2dJaXVZRUl0VHluNWdMQUZsSWJZR1h1S0xhY2dWdEJDVERqMlRpdEcxVXJISk5lMUpsZ0U5bHM4TDF3cUNqUVlSRDduNFEzMWFsMTgwUEJuOHFOa3cxZjVhR1ZfNnBiaVVUUmp5V3MyT2J1LVRMRHpTd09VZjh3Zl9DRDBET01jUmlWY0hDZnpGRmVWOWtfYWIyb0t0?oc=5",
+    "url": "https://marketingdive.com/news/ralph-lauren-debuts-ask-ralph-ai-shopping-assistant-on-mobile-app/759756",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -7338,7 +7274,7 @@
     "source": "Google Cloud Press Corner",
     "region": "海外",
     "category": "智能体购物",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQTk5Nko4TTlJZEFaRm5HdVd5bWFQRXFWZURxZ3RoQnZqWU9HMW12Zk5OUll5cE9reFhHdVpzdXp3RktWSC1OTzBGWGF3LWVKeFFfUFRub0VtZzlRYUVCS2VmMVhIT3l5WXNVUnQ4bmllSTBDcXZlVExrM0YxbG8zT1hEcUhGNU11T2tfR3JIMW1TTVhhQ09EVklmQkhJVm9LVV9ZdU82SHVON2dpNE5wNWw3UERYX3JkaVdhTW1peWV0RDlVUktBN2pwTjh2RTM2RTJJUXhMRkhIZndpeWFOV2g1ekhGbmpzWjNfMUxRV0RQN2c2OVNBSjZ6QWZUR19ndjZN?oc=5",
+    "url": "https://googlecloudpresscorner.com/2025-09-10-Google-Cloud-Launches-Conversational-Commerce-Agent,-Delivering-AI-Enabled,-Personalized-Shopping-Experiences-for-Customers",
     "tags": [
       "AI购物",
       "购物智能体"
@@ -7360,7 +7296,7 @@
     "source": "Ralph Lauren Corporation",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54R3gtNElXRGRiTF9wMDE4NTZSNlRVczdTVTVxWmdVdFJpcXZJdGVOSURTcno3bEZHUHBIVjU0WmFuS0RON0NJS1pXY3VCMnlYZmc5YjF3QmtBUnIzUEdHbThocVVPalZi?oc=5",
+    "url": "https://corporate.ralphlauren.com/pr_250909_AskRalph.html",
     "tags": [
       "AI购物",
       "C端AI产品"
@@ -7379,7 +7315,7 @@
     "source": "Retail Dive",
     "region": "海外",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZU4xZzRneEVaOUF2M3loUFNYSl9mSEhoYmlqNGt3RW1wT2RfaDZSU1ZBaXVYNjZ5aGUybjl6UG0yRUxET1N2ZXRDTXFUdDhBRUl2N0M4ZjlFQmVlSlY5OHFsLXhfSjc0WndRN0Z0VFV1OW1OclBhVFlKWjlmNkVVUVNza0l1Tk1mdUxZVVdFU0U?oc=5",
+    "url": "https://retaildive.com/news/amazon-lens-visual-search-ai-shopping-assistant/759421",
     "tags": [
       "AI购物",
       "C端AI产品",
@@ -7403,7 +7339,7 @@
     "source": "新浪新闻_手机新浪网",
     "region": "国内",
     "category": "产品功能",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhMmI3VXl5c2JJWTRsRXVNTk9LQ2VwMXZfRXU4Y2thOXY3WXFVMGhUVHlNZ0VsSGlROGtQN2tpRV9NU3JGa0tOX3o3dGFOUzRHY09Tb1IyMnFHMWpwNzFRbWF3OE05TzFQUk9hZkJGV24wTE04Y1pHNQ?oc=5",
+    "url": "https://news.sina.cn/ai/2025-09-07/detail-infpsaum0744578.d.html?vt=4",
     "tags": [
       "C端AI产品",
       "视觉购物",
@@ -7426,7 +7362,7 @@
     "source": "Nasscom",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0R3N2pueWlwVEtOWWRvZ0VlSmwzT3I2MlhfUF9vSG1tV21aUVE2RmFoemhEUU9ENkcxbGF4Z3lfNmJEeEVOajZVaUpXS0FUbnN0eEZ2b3VHdW52d2pQanNGRXFhNlhNX2k3QXdLQ0lJaWxsUFZGUHdPUzR3ZTh3cWdJQVZfUUtUbW1YTFp6M0JFSVM1U19BbFMtaFphS1NjTUk0?oc=5",
+    "url": "https://community.nasscom.in/communities/ai-inside/ai-shopping-assistant-redefining-how-we-buy-online",
     "tags": [
       "AI购物",
       "C端AI产品"

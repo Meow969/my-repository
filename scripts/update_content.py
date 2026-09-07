@@ -26,9 +26,9 @@ from pathlib import Path
 from typing import Any
 
 try:
-    from content_quality import canonical_source, clean_display_title, dedupe_items, is_ai_shopping_related, is_duplicate
+    from content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate
 except ImportError:  # pragma: no cover
-    from scripts.content_quality import canonical_source, clean_display_title, dedupe_items, is_ai_shopping_related, is_duplicate
+    from scripts.content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate
 
 try:
     import requests
@@ -252,17 +252,47 @@ def parse_wechat_date(block: str) -> str:
 
 
 def resolve_sogou_link(session: requests.Session, link: str, referer: str) -> str:
+    link = clean_url(link)
     try:
         response = session.get(link, headers={"Referer": referer}, timeout=12, allow_redirects=False)
     except requests.RequestException:
         return link
     chunks = re.findall(r"url \+= '([^']*)'", response.text)
     if chunks:
-        return "".join(chunks).replace("@", "")
+        return clean_url("".join(chunks).replace("@", ""))
     location = response.headers.get("Location", "")
     if location and "antispider" not in location:
-        return urllib.parse.urljoin(link, location)
+        return clean_url(urllib.parse.urljoin(link, location))
     return link
+
+
+def decode_google_news_url(session: requests.Session, url: str) -> str:
+    url = clean_url(url)
+    parsed = urllib.parse.urlsplit(url)
+    if parsed.netloc.lower() != "news.google.com" or "/articles/" not in parsed.path and "/read/" not in parsed.path:
+        return url
+    article_id = parsed.path.rstrip("/").split("/")[-1]
+    try:
+        response = session.get(f"https://news.google.com/articles/{article_id}", timeout=12)
+        signature_match = re.search(r'data-n-a-sg="([^"]+)"', response.text)
+        timestamp_match = re.search(r'data-n-a-ts="([^"]+)"', response.text)
+        if not signature_match or not timestamp_match:
+            return url
+        payload = [
+            "Fbv4je",
+            f'["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{article_id}",{timestamp_match.group(1)},"{signature_match.group(1)}"]',
+        ]
+        decoded = session.post(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+            data="f.req=" + urllib.parse.quote(json.dumps([[payload]])),
+            headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+            timeout=12,
+        )
+        parsed_rows = json.loads(decoded.text.split("\n\n", 1)[1])[:-2]
+        original = json.loads(parsed_rows[0][2])[1]
+        return clean_url(original) if original.startswith("http") else url
+    except Exception:
+        return url
 
 
 def fetch_wechat(days: int) -> list[dict[str, Any]]:
@@ -297,7 +327,7 @@ def fetch_wechat(days: int) -> list[dict[str, Any]]:
             snippet = clean_text(summary_match.group(1)) if summary_match else ""
             source = canonical_source(clean_text(source_match.group(1)) if source_match else "微信公众号")
             title = clean_display_title(title, source)
-            link = urllib.parse.urljoin("https://weixin.sogou.com/weixin", html.unescape(title_match.group(1)))
+            link = urllib.parse.urljoin("https://weixin.sogou.com/weixin", clean_url(title_match.group(1)))
             items.append({
                 "date": date or dt.datetime.now(TZ).date().isoformat(),
                 "title": title,
@@ -310,11 +340,16 @@ def fetch_wechat(days: int) -> list[dict[str, Any]]:
                 "needsResolve": True,
             })
         time.sleep(0.25)
-    for item in items[:16]:
+    resolved_items = []
+    for item in items:
         if item.get("needsResolve"):
-            item["url"] = resolve_sogou_link(session, item["rawUrl"], "https://weixin.sogou.com/weixin")
+            resolved_url = resolve_sogou_link(session, item["rawUrl"], "https://weixin.sogou.com/weixin")
+            if "weixin.sogou.com" in resolved_url:
+                continue
+            item["url"] = resolved_url
             time.sleep(0.15)
-    return items
+        resolved_items.append(item)
+    return resolved_items
 
 
 def parse_rss_date(value: str) -> str:
@@ -508,6 +543,15 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
     selected = [item for item in normalized if item["valueScore"] >= 72 and not any(is_duplicate(item, old) for old in existing)]
     selected.sort(key=lambda item: (item["date"], item["valueScore"]), reverse=True)
     selected = selected[:limit]
+    link_session = requests.Session()
+    link_session.headers.update({"User-Agent": "Mozilla/5.0"})
+    resolved_selected = []
+    for item in selected:
+        item["url"] = decode_google_news_url(link_session, item["url"])
+        if urllib.parse.urlsplit(item["url"]).netloc.lower() == "news.google.com":
+            continue
+        resolved_selected.append(item)
+    selected = resolved_selected
     if not dry_run:
         before_merge_count = len(selected) + len(existing)
         merged = dedupe_items(selected + existing, limit=520)

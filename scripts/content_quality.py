@@ -71,6 +71,14 @@ TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id",
     "gclid", "fbclid", "mc_cid", "mc_eid", "spm", "from", "source",
 }
+
+
+def clean_url(url: str) -> str:
+    cleaned = str(url or "").strip().replace("\\/", "/")
+    cleaned = re.sub(r"&(?:amp|#0*38|#x0*26);", "&", cleaned, flags=re.I)
+    cleaned = re.sub(r"%(?:c3%97|C3%97)tamp%3[dD]", "&timestamp=", cleaned)
+    cleaned = cleaned.replace("×tamp=", "&timestamp=")
+    return cleaned.strip(' \"\'')
 SHOPPING_TERMS = [
     "shopping", "commerce", "retail", "merchant", "seller", "ecommerce", "checkout", "cart",
     "product discovery", "personal shopper", "try on", "rufus", "agentic commerce", "storefront",
@@ -107,9 +115,9 @@ def canonical_url(url: str) -> str:
     if not url:
         return ""
     try:
-        parsed = urllib.parse.urlsplit(html.unescape(url.strip()))
+        parsed = urllib.parse.urlsplit(clean_url(url))
     except Exception:
-        return url.strip()
+        return clean_url(url)
     query = urllib.parse.parse_qsl(parsed.query, keep_blank_values=False)
     query = [(k, v) for k, v in query if k.lower() not in TRACKING_PARAMS and not k.lower().startswith("utm_")]
     path = re.sub(r"/+$", "", parsed.path)

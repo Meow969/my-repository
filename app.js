@@ -281,6 +281,7 @@ function renderArticles(articles) {
 }
 
 function renderArticle(article) {
+  const openLabel = article.url.includes('weixin.sogou.com/weixin') ? '检索原文' : '打开原文';
   return `
     <article class="article-card">
       <div class="article-head">
@@ -293,7 +294,7 @@ function renderArticle(article) {
       </div>
       <h4>核心观点</h4><p>${article.corePoint}</p>
       <h4>产品洞察</h4><p>${article.insight}</p>
-      <a class="open-link" href="${article.url}" target="_blank" rel="noreferrer">打开原文 →</a>
+      <a class="open-link" href="${article.url}" target="_blank" rel="noreferrer">${openLabel} →</a>
     </article>`;
 }
 
