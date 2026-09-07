@@ -1,5 +1,70 @@
 [
   {
+    "id": "daily-radar-2026-09-07",
+    "date": "2026-09-07",
+    "title": "2026-09-07｜AI购物每日雷达：高质量来源追踪",
+    "source": "AI Shopping Radar",
+    "region": "全球",
+    "category": "每日雷达",
+    "url": "https://news.google.com/search?q=%28AI+shopping+OR+AI%E5%AF%BC%E8%B4%AD+OR+agentic+commerce+OR+%E8%B4%AD%E7%89%A9%E6%99%BA%E8%83%BD%E4%BD%93+OR+conversational+commerce%29+after%3A2026-09-07+before%3A2026-09-08",
+    "tags": [
+      "每日追踪",
+      "高质量来源",
+      "AI购物",
+      "Agentic Commerce"
+    ],
+    "corePoint": "当天暂未抓到足够新的单篇深度资料，因此保留一条高质量来源追踪入口，避免雷达在信息空窗期断档。",
+    "insight": "对AI导购产品来说，信息空窗也有价值：如果行业没有新产品发布，应把注意力转向已有案例的复盘、交易闭环验证、商家接入质量和用户信任指标，而不是为了更新而收录低质通稿。",
+    "valueScore": 62,
+    "relatedInsightIds": [
+      "decision-os",
+      "evidence-led-recommendation"
+    ]
+  },
+  {
+    "id": "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+    "date": "2026-09-06",
+    "title": "The Race to Own AI Shopping",
+    "source": "Practical Ecommerce",
+    "region": "海外",
+    "category": "趋势框架",
+    "url": "https://practicalecommerce.com/the-race-to-own-ai-shopping",
+    "tags": [
+      "AI购物",
+      "商家Agent"
+    ],
+    "corePoint": "围绕“The Race to Own AI Shopping”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "multi-agent-commerce",
+      "multi-agent-market",
+      "merchant-incentive"
+    ]
+  },
+  {
+    "id": "daily-radar-2026-09-05",
+    "date": "2026-09-05",
+    "title": "2026-09-05｜AI购物每日雷达：高质量来源追踪",
+    "source": "AI Shopping Radar",
+    "region": "全球",
+    "category": "每日雷达",
+    "url": "https://news.google.com/search?q=%28AI+shopping+OR+AI%E5%AF%BC%E8%B4%AD+OR+agentic+commerce+OR+%E8%B4%AD%E7%89%A9%E6%99%BA%E8%83%BD%E4%BD%93+OR+conversational+commerce%29+after%3A2026-09-05+before%3A2026-09-06",
+    "tags": [
+      "每日追踪",
+      "高质量来源",
+      "AI购物",
+      "Agentic Commerce"
+    ],
+    "corePoint": "当天暂未抓到足够新的单篇深度资料，因此保留一条高质量来源追踪入口，避免雷达在信息空窗期断档。",
+    "insight": "对AI导购产品来说，信息空窗也有价值：如果行业没有新产品发布，应把注意力转向已有案例的复盘、交易闭环验证、商家接入质量和用户信任指标，而不是为了更新而收录低质通稿。",
+    "valueScore": 62,
+    "relatedInsightIds": [
+      "decision-os",
+      "evidence-led-recommendation"
+    ]
+  },
+  {
     "id": "claude-commerce-agent-architecture-2026-09-04",
     "date": "2026-09-04",
     "title": "Claude有效商业智能体架构指南【万字长文分享】",
@@ -229,6 +294,28 @@
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
+    ]
+  },
+  {
+    "id": "2026-09-03-bb1ea2039a",
+    "date": "2026-09-03",
+    "title": "人工智能每日要闻",
+    "source": "逐鹿实验室",
+    "region": "国内",
+    "category": "技术架构",
+    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788750094&ver=6951&signature=pHDhbYxSo5H4fnomLJ2CVSb2xCNHsxpYi-ju%2ATXpMH6vk65q%2AwpzTQWG43sK3Ww-V5%2AMvlQR7sMWdFmga9Ip2IbZiM2qsjYxr1gvbOfaF7MfPYN17m7rEqOno4VOIw7b&new=1",
+    "tags": [
+      "AI购物",
+      "交易闭环",
+      "技术架构"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 87,
+    "relatedInsightIds": [
+      "trust-ladder",
+      "multi-agent-commerce",
+      "structured-dialogue"
     ]
   },
   {
@@ -539,6 +626,28 @@
     ]
   },
   {
+    "id": "2026-08-30-99-ai-geo-ae696a9092",
+    "date": "2026-08-30",
+    "title": "三家 AI 助手都在打通交易闭环,对做 GEO 的人意味着什么",
+    "source": "老纳99",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://mp.weixin.qq.com/s?src=11%C3%97tamp%3D1788750100&ver=6951&signature=dlr3XKXCZ5vMoT8GNGbAC7hxPaD6AHWjjlFslFaS7dGlJBVpkWLLcoDAMltgi%2AP1xsBqjl66pDk%2AsFQqzkPOPZ-H-fnSukBm1QPVurXogV2KJdqBi%2AFLKLe6Ydb9wgHX&new=1",
+    "tags": [
+      "AI购物",
+      "交易闭环",
+      "GEO"
+    ],
+    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 86,
+    "relatedInsightIds": [
+      "trust-ladder",
+      "closed-loop-first",
+      "data-transaction-moat"
+    ]
+  },
+  {
     "id": "daily-2026-08-30-d22191244e060f",
     "date": "2026-08-30",
     "title": "别再聊AI搜索了 Perplexity已经在布局下一个战略方向",
@@ -659,6 +768,28 @@
     "relatedInsightIds": [
       "closed-loop-first",
       "agentic-funnel"
+    ]
+  },
+  {
+    "id": "2026-08-27-ai-3c697caa4f",
+    "date": "2026-08-27",
+    "title": "小红书AI小工具上线,机会来了",
+    "source": "流量蜂传媒",
+    "region": "国内",
+    "category": "增长/GEO",
+    "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSwhtXwx_nmkIOnWIXd85ZN6MMsvwLVrY4VqXa8Fplpd9QoIEtJ9uy5GQwC7bBC6oxd2IydwTVPDbcQ5PZlP1KWPnetQHt3J3oq8bjW5gA7A_7IaQA2NXcN1XtGtS-zItx9EJSl7CW6t3Ta-CJlj5Bmr2O36BhQU6Ge2wJMOogL4pOluA60vvc5jDWzIcg5eU9I887LvvsA453oAlOkmJif4SYTqT4eyLmA..&type=2&query=AI%E5%AF%BC%E8%B4%AD+%E5%95%86%E5%AE%B6&token=ED0FEDA77AE5BB1F71772AABA4AD2FE871C4AC906A9E2914",
+    "tags": [
+      "对话导购",
+      "GEO",
+      "商家Agent"
+    ],
+    "corePoint": "商家竞争正在从搜索排名延伸到AI答案可见性和智能体推荐资格。",
+    "insight": "需要为商家建设AI可读信息资产，让商品卖点、适用场景、证据、履约承诺能被智能体稳定理解和引用。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "decision-os",
+      "answer-shelf",
+      "multi-agent-commerce"
     ]
   },
   {

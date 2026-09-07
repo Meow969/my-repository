@@ -126,7 +126,8 @@ def normalized_title(title: str, source: str = "") -> str:
 
 
 def is_search_placeholder(item: dict[str, Any]) -> bool:
-    return str(item.get("id", "")).startswith("daily-index-") or item.get("category") == "每日检索入口"
+    item_id = str(item.get("id", ""))
+    return item_id.startswith("daily-index-") or item_id.startswith("daily-radar-") or item.get("category") in {"每日检索入口", "每日雷达"}
 
 
 def is_ai_shopping_related(item: dict[str, Any]) -> bool:
@@ -155,6 +156,8 @@ def title_similarity(left: dict[str, Any], right: dict[str, Any]) -> float:
 
 
 def is_duplicate(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    if is_search_placeholder(left) and is_search_placeholder(right) and left.get("date") != right.get("date"):
+        return False
     left_url = canonical_url(left.get("url", ""))
     right_url = canonical_url(right.get("url", ""))
     if left_url and right_url and left_url == right_url:

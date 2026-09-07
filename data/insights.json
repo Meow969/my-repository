@@ -15,21 +15,21 @@
       "可执行决策",
       "决策链"
     ],
-    "sourceCount": 151,
+    "sourceCount": 154,
     "relatedArticleIds": [
+      "daily-radar-2026-09-07",
+      "daily-radar-2026-09-05",
       "claude-commerce-agent-architecture-2026-09-04",
       "2026-09-03-claude-ai-13b9df0120",
       "daily-2026-09-01-1531069370f45e",
       "daily-2026-08-30-d22191244e060f",
       "daily-2026-08-28-a458803df2cd95",
       "2026-08-28-ai-ai-b40d9f1500",
-      "agentic-shopping-evolution-2026-08-26",
-      "2026-08-25-15-ai-677-9de0015868",
-      "daily-2026-08-23-9ac5af530d0367",
-      "daily-2026-08-19-4e433b148c4222"
+      "2026-08-27-ai-3c697caa4f",
+      "agentic-shopping-evolution-2026-08-26"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、C端AI产品、AI搜索，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "memory-as-asset",
@@ -54,7 +54,7 @@
       "daily-2025-12-09-5b35943a3d73b9"
     ],
     "trendNote": "最新复盘：相关资料继续指向即时零售、复购、偏好记忆，记忆能力要从聊天上下文升级为可编辑的购买约束，否则很难支撑长期授权。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "trust-ladder",
@@ -72,21 +72,21 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 156,
+    "sourceCount": 161,
     "relatedArticleIds": [
+      "daily-radar-2026-09-07",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "daily-radar-2026-09-05",
       "claude-commerce-agent-architecture-2026-09-04",
       "2026-09-04-claude-0e332ef34c",
       "2026-09-04-anthropic-447e58cdb9",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-ai-claude-f643792bd9",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
-      "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "qianwen-taobao-instant-repeat-2026-09-01",
-      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
+      "2026-09-03-bb1ea2039a"
     ],
-    "trendNote": "最新复盘：AI购物、交易闭环、Agentic Commerce信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
-    "updatedAt": "2026-09-06"
+    "trendNote": "最新复盘：AI购物、Agentic Commerce、交易闭环信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "closed-loop-first",
@@ -104,21 +104,21 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 70,
+    "sourceCount": 74,
     "relatedArticleIds": [
+      "daily-radar-2026-09-07",
+      "daily-radar-2026-09-05",
       "2026-09-04-claude-0e332ef34c",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-ai-claude-f643792bd9",
+      "2026-09-03-bb1ea2039a",
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
       "2026-09-02-pymnts-com-youtube-s-amazon-dea-b3cc6c84b1",
       "qianwen-taobao-instant-repeat-2026-09-01",
-      "2026-08-30-40-ai-31fedd015e",
-      "daily-2026-08-29-2134c3dedae52a",
-      "2026-08-27-pymnts-com-synchrony-says-ai-ha-af0cd4d007",
-      "2026-08-25-geo-1688-ai-geo-570862829a"
+      "2026-08-30-40-ai-31fedd015e"
     ],
-    "trendNote": "最新复盘：交易闭环、AI购物、商品库信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
-    "updatedAt": "2026-09-06"
+    "trendNote": "最新复盘：交易闭环、AI购物、Agentic Commerce信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "answer-shelf",
@@ -136,21 +136,21 @@
       "推荐位稀缺",
       "AI可见性"
     ],
-    "sourceCount": 139,
+    "sourceCount": 140,
     "relatedArticleIds": [
       "daily-2026-08-30-d22191244e060f",
       "2026-08-28-ai-ai-b40d9f1500",
+      "2026-08-27-ai-3c697caa4f",
       "daily-2026-08-26-21460ced93cc20",
       "meta-openclaw-shopping-agent-2026-08-26",
       "2026-08-25-ek-ai-agentic-commerce-a543deec90",
       "daily-2026-08-16-286aec54d0edce",
       "daily-2026-08-15-32e6ac7bd8b443",
       "daily-2026-08-14-ee38732a131581",
-      "daily-2026-08-09-7debda74073518",
-      "daily-2026-08-05-73d5671dbd19ad"
+      "daily-2026-08-09-7debda74073518"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、GEO，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "agentic-funnel",
@@ -183,7 +183,7 @@
       "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
     "trendNote": "最新复盘：AI购物、Agentic Commerce、购物智能体显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "merchant-readable-store",
@@ -201,8 +201,9 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 53,
+    "sourceCount": 56,
     "relatedArticleIds": [
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
       "2026-09-04-anthropic-447e58cdb9",
       "2026-09-04-anthropic-ai-0c91eb6e11",
       "2026-09-04-ai-ddd300e3a7",
@@ -211,11 +212,10 @@
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
       "2026-09-03-claude-ai-13b9df0120",
-      "daily-2026-09-02-0860bf13512c29",
-      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10"
+      "daily-2026-09-02-0860bf13512c29"
     ],
-    "trendNote": "最新复盘：AI购物、商家Agent、交易闭环正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
-    "updatedAt": "2026-09-06"
+    "trendNote": "最新复盘：商家Agent、AI购物、交易闭环正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "multi-agent-market",
@@ -233,8 +233,9 @@
       "接口规则",
       "多智能体"
     ],
-    "sourceCount": 38,
+    "sourceCount": 39,
     "relatedArticleIds": [
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
       "2026-09-04-anthropic-447e58cdb9",
       "2026-09-04-anthropic-ai-0c91eb6e11",
       "2026-09-04-ai-ddd300e3a7",
@@ -243,11 +244,10 @@
       "daily-2026-09-02-0860bf13512c29",
       "meta-openclaw-shopping-agent-2026-08-26",
       "daily-2026-08-21-efe214be6e9775",
-      "daily-2026-08-20-84c99b15d913fa",
-      "daily-2026-08-13-d3070ee4db7fb7"
+      "daily-2026-08-20-84c99b15d913fa"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、商家接入、商家Agent，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、商家Agent、商家接入，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "habit-before-intelligence",
@@ -279,7 +279,7 @@
       "daily-2025-12-08-9ee9429fa0ec2a"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在即时零售、复购、偏好记忆，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "category-wedge",
@@ -311,7 +311,7 @@
       "daily-2025-12-16-6940201404688c"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在即时零售、复购、偏好记忆，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "risk-first-design",
@@ -343,7 +343,7 @@
       "2026-09-03-the-verge-chatgpt-grok-and-clau-6e34895554"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、技术架构，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "evidence-led-recommendation",
@@ -361,8 +361,10 @@
       "测评引用",
       "可追溯"
     ],
-    "sourceCount": 32,
+    "sourceCount": 34,
     "relatedArticleIds": [
+      "daily-radar-2026-09-07",
+      "daily-radar-2026-09-05",
       "daily-2026-08-30-d22191244e060f",
       "daily-2026-08-16-286aec54d0edce",
       "daily-2026-08-15-32e6ac7bd8b443",
@@ -370,12 +372,10 @@
       "daily-2026-08-05-73d5671dbd19ad",
       "daily-2026-07-09-3d36eb925f6e28",
       "daily-2026-07-06-9ff3847b4f7534",
-      "daily-2026-06-27-ca12d684099abd",
-      "daily-2026-05-17-ee165670f60ece",
-      "daily-2026-05-12-693fb8a1adcd89"
+      "daily-2026-06-27-ca12d684099abd"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI搜索、AI购物、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、每日追踪，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "intent-cart",
@@ -399,7 +399,7 @@
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b"
     ],
     "trendNote": "最新复盘：Universal Cart、Agentic Shopping、跨平台购物车显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "contextual-entry",
@@ -431,7 +431,7 @@
       "daily-2026-08-05-73d5671dbd19ad"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "privacy-permission",
@@ -454,7 +454,7 @@
       "amazon-agent-permission-2026-03-12"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在平台治理、AI代买、权限，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "post-purchase-agent",
@@ -486,7 +486,7 @@
       "daily-2026-02-23-d0d45250fd6962"
     ],
     "trendNote": "最新复盘：交易闭环、AI购物、OpenClaw信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "merchant-incentive",
@@ -504,10 +504,12 @@
       "广告标识",
       "运营成本"
     ],
-    "sourceCount": 0,
-    "relatedArticleIds": [],
-    "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-06"
+    "sourceCount": 1,
+    "relatedArticleIds": [
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533"
+    ],
+    "trendNote": "最新复盘：AI购物、商家Agent正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "ranking-governance",
@@ -528,7 +530,7 @@
     "sourceCount": 0,
     "relatedArticleIds": [],
     "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "from-comparison-to-negotiation",
@@ -551,7 +553,7 @@
       "2026-05-12-ai-e6bd5aca25"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "social-proof-rebuild",
@@ -572,12 +574,12 @@
     "sourceCount": 0,
     "relatedArticleIds": [],
     "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "auto-current-signal",
-    "title": "最新复盘：技术架构、AI购物、商家Agent正在收敛成产品主线",
-    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是技术架构、AI购物、商家Agent这些能力之间能否互相闭环。",
+    "title": "最新复盘：AI购物、技术架构、商家Agent正在收敛成产品主线",
+    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是AI购物、技术架构、商家Agent这些能力之间能否互相闭环。",
     "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
     "takeaways": [
       "用月度高频信号更新路线图优先级",
@@ -585,8 +587,8 @@
       "避免只追热点发布而忽略交易链路"
     ],
     "keywords": [
-      "技术架构",
       "AI购物",
+      "技术架构",
       "商家Agent",
       "Agentic Commerce",
       "交易闭环",
@@ -597,13 +599,13 @@
       "2026-09-03-ai-claude-f643792bd9",
       "daily-2026-09-02-0860bf13512c29",
       "claude-commerce-agent-architecture-2026-09-04",
-      "daily-2026-09-01-1531069370f45e",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
-      "qianwen-taobao-instant-repeat-2026-09-01",
-      "2026-09-04-claude-0e332ef34c"
+      "2026-09-04-claude-0e332ef34c",
+      "2026-09-03-bb1ea2039a",
+      "2026-09-03-claude-ai-13b9df0120"
     ],
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "auto-evidence-gap",
@@ -626,13 +628,13 @@
       "2026-09-03-ai-claude-f643792bd9",
       "daily-2026-09-02-0860bf13512c29",
       "claude-commerce-agent-architecture-2026-09-04",
-      "daily-2026-09-01-1531069370f45e",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
-      "qianwen-taobao-instant-repeat-2026-09-01",
-      "2026-09-04-claude-0e332ef34c"
+      "2026-09-04-claude-0e332ef34c",
+      "2026-09-03-bb1ea2039a",
+      "2026-09-03-claude-ai-13b9df0120"
     ],
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   },
   {
     "id": "auto-next-experiment",
@@ -655,12 +657,12 @@
       "2026-09-03-ai-claude-f643792bd9",
       "daily-2026-09-02-0860bf13512c29",
       "claude-commerce-agent-architecture-2026-09-04",
-      "daily-2026-09-01-1531069370f45e",
       "anthropic-claude-commerce-agent-blueprint-2026-09-03",
       "daily-2026-09-03-9934a0352cf765",
-      "qianwen-taobao-instant-repeat-2026-09-01",
-      "2026-09-04-claude-0e332ef34c"
+      "2026-09-04-claude-0e332ef34c",
+      "2026-09-03-bb1ea2039a",
+      "2026-09-03-claude-ai-13b9df0120"
     ],
-    "updatedAt": "2026-09-06"
+    "updatedAt": "2026-09-07"
   }
 ]

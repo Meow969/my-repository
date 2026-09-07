@@ -498,6 +498,38 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def make_daily_radar_entry(date: str) -> dict[str, Any]:
+    next_day = (dt.date.fromisoformat(date) + dt.timedelta(days=1)).isoformat()
+    query = urllib.parse.quote(
+        f'(AI shopping OR AI导购 OR agentic commerce OR 购物智能体 OR conversational commerce) after:{date} before:{next_day}'
+    )
+    return {
+        "id": f"daily-radar-{date}",
+        "date": date,
+        "title": f"{date}｜AI购物每日雷达：高质量来源追踪",
+        "source": "AI Shopping Radar",
+        "region": "全球",
+        "category": "每日雷达",
+        "url": f"https://news.google.com/search?q={query}",
+        "tags": ["每日追踪", "高质量来源", "AI购物", "Agentic Commerce"],
+        "corePoint": "当天暂未抓到足够新的单篇深度资料，因此保留一条高质量来源追踪入口，避免雷达在信息空窗期断档。",
+        "insight": "对AI导购产品来说，信息空窗也有价值：如果行业没有新产品发布，应把注意力转向已有案例的复盘、交易闭环验证、商家接入质量和用户信任指标，而不是为了更新而收录低质通稿。",
+        "valueScore": 62,
+        "relatedInsightIds": ["decision-os", "evidence-led-recommendation"],
+    }
+
+
+def ensure_recent_daily_coverage(articles: list[dict[str, Any]], days: int = 7) -> tuple[list[dict[str, Any]], int]:
+    today = dt.datetime.now(TZ).date()
+    existing_dates = {item.get("date") for item in articles}
+    additions = []
+    for offset in range(days - 1, -1, -1):
+        date = (today - dt.timedelta(days=offset)).isoformat()
+        if date not in existing_dates:
+            additions.append(make_daily_radar_entry(date))
+    return articles + additions, len(additions)
+
+
 def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]:
     existing = load_json(ARTICLES_PATH, [])
     existing = dedupe_items(existing)
@@ -510,13 +542,15 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
     selected = selected[:limit]
     if not dry_run:
         before_merge_count = len(selected) + len(existing)
-        merged = dedupe_items(selected + existing, limit=520)
+        merged, coverage_added = ensure_recent_daily_coverage(selected + existing)
+        merged = dedupe_items(merged, limit=520)
         write_json(ARTICLES_PATH, merged)
         refresh_monthly_reports(merged)
         insight_changed = refresh_insights(merged)
         meta = load_json(META_PATH, {})
         meta["lastUpdated"] = dt.datetime.now(TZ).replace(microsecond=0).isoformat()
         meta["latestAdded"] = len(selected)
+        meta["dailyCoverageAdded"] = coverage_added
         meta["duplicatesRemoved"] = max(0, before_merge_count - len(merged))
         meta["sourceCount"] = len({item.get("source") for item in merged})
         meta["lastInsightUpdated"] = dt.datetime.now(TZ).date().isoformat()
