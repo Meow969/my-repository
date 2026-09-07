@@ -132,7 +132,7 @@ def is_search_placeholder(item: dict[str, Any]) -> bool:
 
 def is_ai_shopping_related(item: dict[str, Any]) -> bool:
     if is_search_placeholder(item):
-        return True
+        return False
     text = " ".join([
         str(item.get("title", "")),
         str(item.get("snippet", "")),
@@ -203,7 +203,7 @@ def normalize_item_identity(item: dict[str, Any]) -> dict[str, Any]:
 
 
 def dedupe_items(items: list[dict[str, Any]], limit: int | None = None) -> list[dict[str, Any]]:
-    normalized = [normalize_item_identity(item) for item in items if item.get("title")]
+    normalized = [normalize_item_identity(item) for item in items if item.get("title") and not is_search_placeholder(item)]
     ordered = sorted(normalized, key=item_quality, reverse=True)
     kept: list[dict[str, Any]] = []
     for item in ordered:

@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -36,7 +38,14 @@ jobs:
             git config user.email "ai-shopping-radar-bot@users.noreply.github.com"
             git add data
             git commit -m "Update AI shopping radar data"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              if [[ "$attempt" == "3" ]]; then
+                echo "Failed to push data updates after 3 attempts"
+                exit 1
+              fi
+              sleep 5
+            done
           else
             echo "No data changes"
           fi

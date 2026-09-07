@@ -8,7 +8,6 @@ import html
 import json
 import re
 import time
-import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
@@ -193,25 +192,6 @@ def normalize(item: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def fallback_day(date: str) -> dict[str, Any]:
-    next_day = (dt.date.fromisoformat(date) + dt.timedelta(days=1)).isoformat()
-    query = urllib.parse.quote(f'(AI shopping OR AI导购 OR agentic commerce OR consumer AI) after:{date} before:{next_day}')
-    return {
-        'id': 'daily-index-' + date,
-        'date': date,
-        'title': f'{date}｜AI购物/消费AI当日资料检索入口',
-        'source': 'Google News Search',
-        'region': '全球',
-        'category': '每日检索入口',
-        'url': f'https://news.google.com/search?q={query}',
-        'tags': ['每日追踪', '全网检索', 'C端AI产品'],
-        'corePoint': '当日未检索到足够明确的AI购物单篇高价值文章，因此保留一个按日期限定的全网检索入口，避免资料库日期断档。',
-        'insight': '这类日期不应强行编造观点。产品资料库需要区分“已精选文章”和“待人工复核检索入口”，后续自动更新或人工复核时可替换为真实高价值文章。',
-        'valueScore': 60,
-        'relatedInsightIds': ['decision-os']
-    }
-
-
 def main():
     existing = json.loads(ARTICLES.read_text(encoding='utf-8'))
     manual = {item['id']: item for item in existing if not item['id'].startswith('daily-') and not item['id'].startswith('daily-index-')}
@@ -222,17 +202,11 @@ def main():
         current = by_day.get(item['date'])
         if not current or item['valueScore'] > current['valueScore']:
             by_day[item['date']] = item
-    start = dt.date(2025,9,4); end = dt.date(2026,9,4)
-    cur = start
-    daily = []
-    while cur <= end:
-        date = cur.isoformat()
-        daily.append(by_day.get(date) or fallback_day(date))
-        cur += dt.timedelta(days=1)
+    daily = sorted(by_day.values(), key=lambda item: item['date'], reverse=True)
     merged = list(manual.values()) + daily
     final = dedupe_items(merged)
     ARTICLES.write_text(json.dumps(final, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-    print('written', len(final), 'daily', len(daily), 'fallback', sum(1 for x in daily if x['id'].startswith('daily-index-')))
+    print('written', len(final), 'daily', len(daily), 'fallback', 0)
 
 if __name__ == '__main__':
     main()

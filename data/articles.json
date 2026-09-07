@@ -4850,27 +4850,6 @@
     ]
   },
   {
-    "id": "daily-index-2026-02-14",
-    "date": "2026-02-14",
-    "title": "2026-02-14｜AI购物/消费AI当日资料检索入口",
-    "source": "Google News Search",
-    "region": "全球",
-    "category": "每日检索入口",
-    "url": "https://news.google.com/search?q=%28AI+shopping+OR+AI%E5%AF%BC%E8%B4%AD+OR+agentic+commerce+OR+consumer+AI%29+after%3A2026-02-14+before%3A2026-02-15",
-    "tags": [
-      "每日追踪",
-      "全网检索",
-      "C端AI产品"
-    ],
-    "corePoint": "当日未检索到足够明确的AI购物单篇高价值文章，因此保留一个按日期限定的全网检索入口，避免资料库日期断档。",
-    "insight": "这类日期不应强行编造观点。产品资料库需要区分“已精选文章”和“待人工复核检索入口”，后续自动更新或人工复核时可替换为真实高价值文章。",
-    "valueScore": 60,
-    "relatedInsightIds": [
-      "decision-os",
-      "contextual-entry"
-    ]
-  },
-  {
     "id": "daily-2026-02-12-7157b38744565f",
     "date": "2026-02-12",
     "title": "Expedia Embraces Agentic Commerce to Fight Platform Disruption",
