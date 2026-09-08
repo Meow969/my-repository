@@ -5,10 +5,10 @@
     "summary": "9月最重要的变化，是讨论重心从“AI能不能帮用户买东西”转向“购物智能体如何稳定执行商业流程”。Claude相关蓝图把购物拆成目标理解、约束拆解、商品搜索、证据比较、风险确认和交易调用，说明行业正在从演示型AI走向流程型AI。与此同时，千问/淘宝闪购类案例提示：高频即时场景可能先完成用户教育。",
     "topArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
-      "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
       "daily-2026-09-01-1531069370f45e",
-      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
-      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14"
+      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947"
     ],
     "productImplication": "本月最值得产品团队做的事，是把AI导购拆成可复用流程模块：需求澄清、候选生成、证据解释、风险提示、价格库存核验、下单确认。不要继续只优化聊天自然度。"
   },

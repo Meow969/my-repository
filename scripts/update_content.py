@@ -293,7 +293,7 @@ INSIGHT_RULES = {
     "social-proof-rebuild": ["评价", "口碑", "评论", "虚假评价", "social proof"],
     "merchant-readable-store": ["geo", "商家", "卖家", "商品资料", "可见性"],
     "competitor-function-radar": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "shopee", "虾皮", "amazon", "rufus", "alexa", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "得物"],
-    "visual-try-on-as-proof": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "fit", "fashion"],
+    "visual-try-on-as-proof": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "virtual fitting", "服饰导购", "ai试穿", "造型导购"],
     "local-life-agent-loop": ["美团", "小美", "问小团", "本地生活", "外卖", "买菜", "到店"],
 }
 
@@ -302,6 +302,10 @@ AUTO_INSIGHT_PREFIX = "auto-"
 NEGATIVE_WORDS = ["融资", "培训", "课程", "招商", "广告", "大会报名", "招聘", "破解版"]
 BLOCKED_URL_HOSTS = {"ebrun.com", "ttplus.cn"}
 LOW_VALUE_SOURCES = {"Stocktwits", "体坛"}
+LOW_VALUE_TITLE_PATTERNS = [
+    "dunkin", "chief merchant", "ad auction", "fulfillment center", "tire benefit",
+    "token充值", "充值中心", "多人工作台", "measurement stack", "new ecommerce tools",
+]
 HIGH_VALUE_WORDS = [
     "闭环", "智能体", "Agentic Commerce", "导购", "购物助手", "千问", "豆包", "淘宝",
     "京东", "Rufus", "Claude", "OpenClaw", "Universal Commerce Protocol", "UCP",
@@ -322,7 +326,10 @@ def is_blocked_source_or_url(item: dict[str, Any]) -> bool:
     host = urllib.parse.urlsplit(item.get("url", "")).netloc.lower().removeprefix("www.").removeprefix("m.")
     if host in BLOCKED_URL_HOSTS or item.get("source") in LOW_VALUE_SOURCES:
         return True
-    return any(word in item.get("title", "") for word in ["体育投注", "注册在线"])
+    title = item.get("title", "").lower()
+    if any(word in item.get("title", "") for word in ["体育投注", "注册在线"]):
+        return True
+    return any(pattern in title for pattern in LOW_VALUE_TITLE_PATTERNS)
 
 
 def write_json(path: Path, data: Any) -> None:

@@ -128,46 +128,6 @@
     ]
   },
   {
-    "id": "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
-    "date": "2026-09-03",
-    "title": "Walmart shoppers can now get Dunkin’ delivered alongside orders",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://retaildive.com/news/walmart-shoppers-dunkin-delivery-coffee/829560",
-    "tags": [
-      "竞品案例",
-      "虚拟试穿"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 80,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "competitor-function-radar"
-    ]
-  },
-  {
-    "id": "2026-09-03-modern-retail-big-box-briefing--8613a5b771",
-    "date": "2026-09-03",
-    "title": "Big-Box Briefing: Sam’s Club targets high-retention members with new tire benefit",
-    "source": "Modern Retail",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://modernretail.co/operations/big-box-briefing-sams-club-targets-high-retention-members-with-new-tire-benefit",
-    "tags": [
-      "竞品案例",
-      "虚拟试穿"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 80,
-    "relatedInsightIds": [
-      "competitor-function-radar",
-      "visual-try-on-as-proof"
-    ]
-  },
-  {
     "id": "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
     "date": "2026-09-03",
     "title": "Anthropic debuts Claude features focused on agentic commerce",
@@ -185,60 +145,6 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-03-token-ai-kimi-690cbc3e7c",
-    "date": "2026-09-03",
-    "title": "充Token如同充话费！天猫上线AI充值中心，阿里云、智谱、Kimi都来了",
-    "source": "新京报",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://m.bjnews.com.cn/detail/1788422724129530.html",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
-    "insight": "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "competitor-function-radar"
-    ]
-  },
-  {
-    "id": "2026-09-03-ai-token-kimi-minimax-b866f69534",
-    "date": "2026-09-03",
-    "title": "天猫上线AI Token充值中心：阿里云、智谱、Kimi、MiniMax均可购买",
-    "source": "驱动之家",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://news.mydrivers.com/1/1148/1148408.htm",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
-    "insight": "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "competitor-function-radar"
-    ]
-  },
-  {
-    "id": "2026-09-03-google-ads-commerce-blog-build--3f1a23e836",
-    "date": "2026-09-03",
-    "title": "Build a measurement stack you can rely on to steer your campaigns.",
-    "source": "Google Ads & Commerce Blog",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-measurement-stack",
-    "tags": [
-      "虚拟试穿"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "structured-dialogue"
     ]
   },
   {
@@ -282,28 +188,6 @@
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
-    "date": "2026-09-02",
-    "title": "Kohl’s names Walmart fashion alum as chief merchant",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://retaildive.com/news/kohls-walmart-fashion-alum-chief-merchant/829281",
-    "tags": [
-      "竞品案例",
-      "虚拟试穿",
-      "商家Agent"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 90,
-    "relatedInsightIds": [
-      "multi-agent-commerce",
-      "multi-agent-market",
-      "merchant-incentive"
     ]
   },
   {
@@ -368,28 +252,6 @@
     ]
   },
   {
-    "id": "2026-09-02-practical-ecommerce-new-ecommer-4b333a3958",
-    "date": "2026-09-02",
-    "title": "New Ecommerce Tools: September 2, 2026",
-    "source": "Practical Ecommerce",
-    "region": "海外",
-    "category": "工具动态",
-    "url": "https://practicalecommerce.com/new-ecommerce-tools-september-2-2026",
-    "tags": [
-      "商家Agent",
-      "AI工具",
-      "电商运营"
-    ],
-    "corePoint": "电商工具层正在快速把AI嵌入运营、搜索和内容生产，商家侧效率会反过来影响C端导购可用的供给质量。",
-    "insight": "不要只做C端推荐助手，也要关注商家如何低成本提供结构化素材、促销规则和售后承诺；这是推荐可信度的上游。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "merchant-readable-store",
-      "multi-agent-commerce",
-      "merchant-incentive"
-    ]
-  },
-  {
     "id": "daily-2026-09-01-1531069370f45e",
     "date": "2026-09-01",
     "title": "Is that message really from Amazon? Just ask Alexa for Shopping.",
@@ -410,28 +272,6 @@
     "relatedInsightIds": [
       "trust-ladder",
       "post-purchase-agent",
-      "competitor-function-radar"
-    ]
-  },
-  {
-    "id": "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
-    "date": "2026-09-01",
-    "title": "Walmart to build $1.3B fulfillment center in Georgia",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://retaildive.com/news/walmart-fulfillment-center-Carnesville-georgia/829071",
-    "tags": [
-      "竞品案例",
-      "虚拟试穿",
-      "GEO"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 90,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "merchant-readable-store",
       "competitor-function-radar"
     ]
   },
@@ -471,25 +311,6 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-01-retail-dive-amazon-s-ad-auction-56608b9626",
-    "date": "2026-09-01",
-    "title": "Amazon’s ad auction surcharges secretly bilked brands of billions, FTC alleges",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://retaildive.com/news/amazon-hid-surcharges-ad-auctions-alleges-ftc-complaint/829294",
-    "tags": [
-      "竞品案例",
-      "虚拟试穿"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "competitor-function-radar"
     ]
   },
   {
