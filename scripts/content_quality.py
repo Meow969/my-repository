@@ -48,12 +48,25 @@ SOURCE_ALIASES = {
     "界面": "界面新闻",
     "白鲸出海": "白鲸出海",
     "雨果跨境": "雨果跨境",
+    "corporate.walmart.com": "Walmart Corporate",
+    "walmart corporate": "Walmart Corporate",
+    "target corporation": "Target Corporation",
+    "corporate.target.com": "Target Corporation",
+    "kohl's corporate": "Kohl's Corporate",
+    "corporate.kohls.com": "Kohl's Corporate",
+    "instacart": "Instacart",
+    "pinterest newsroom": "Pinterest Newsroom",
 }
 
 SOURCE_PREFERENCE = {
     "Google Shopping Blog": 34,
     "Google Blog": 32,
     "About Amazon": 32,
+    "Walmart Corporate": 31,
+    "Target Corporation": 29,
+    "Kohl's Corporate": 28,
+    "Instacart": 28,
+    "Pinterest Newsroom": 26,
     "OpenAI Blog": 30,
     "OpenAI": 30,
     "Shopify Blog": 28,
@@ -108,6 +121,7 @@ SHOPPING_TERMS = [
     "电商", "零售", "购物", "导购", "商家", "卖家", "商品", "下单", "支付", "淘宝", "京东",
     "天猫", "千问", "美团", "小美", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa",
     "得物", "闪购", "买菜", "货架", "履约", "售后", "比价", "试穿", "试衣", "试鞋", "虚拟试穿",
+    "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "aidge", "aliexpress",
 ]
 AI_TERMS = [
     "ai", "agent", "assistant", "chatgpt", "gemini", "claude", "perplexity", "rufus", "anthropic",
@@ -186,6 +200,20 @@ def event_signature(item: dict[str, Any]) -> str:
         return f"{date}:tmall-1111-ai-shopping-apps"
     if ("amazon" in text or "亚马逊" in text) and any(term in text for term in ["rufus", "alexa", "ai购物助手", "ai shopping assistant"]):
         return f"{date}:amazon-ai-shopping-assistant"
+    if "walmart" in text and any(term in text for term in ["sparky", "gemini", "agentic", "ai-assisted shopping", "ai discovery"]):
+        return f"{date}:walmart-ai-shopping"
+    if "target" in text and any(term in text for term in ["ai-powered", "shopping", "holiday shopping", "shopping agent"]):
+        return f"{date}:target-ai-shopping"
+    if ("kohl" in text or "kohls" in text) and any(term in text for term in ["ai shopping assistant", "styling", "inspiration"]):
+        return f"{date}:kohls-ai-shopping-assistant"
+    if "instacart" in text and any(term in text for term in ["chatgpt", "checkout", "ai agent", "ai shopping"]):
+        return f"{date}:instacart-ai-checkout"
+    if "pinterest" in text and any(term in text for term in ["ai", "visual", "shopping", "collage"]):
+        return f"{date}:pinterest-ai-shopping"
+    if ("shopee" in text or "虾皮" in text) and any(term in text for term in ["ai agent", "ai导购", "消费级ai", "shopping assistant"]):
+        return f"{date}:shopee-ai-shopping"
+    if "得物" in text and any(term in text for term in ["ai鉴别", "鉴别机器人", "试穿", "决策"]):
+        return f"{date}:dewu-ai-shopping-trust"
     return ""
 
 

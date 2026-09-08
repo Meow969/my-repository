@@ -66,7 +66,14 @@ WECHAT_QUERIES = [
     "Shopee AI shopping assistant",
     "Amazon Rufus AI shopping assistant",
     "Amazon Alexa shopping assistant AI",
+    "Walmart Sparky AI shopping assistant",
+    "Walmart Gemini AI shopping",
+    "Target AI shopping assistant",
+    "Kohl's AI shopping assistant",
+    "Instacart AI shopping checkout",
+    "Pinterest AI shopping visual search",
     "Google virtual try on shopping AI",
+    "Google AI Mode shopping virtual try on",
     "AI购物助手 电商",
     "Agentic Commerce",
     "Universal Commerce Protocol AI购物",
@@ -102,6 +109,14 @@ GOOGLE_NEWS_QUERIES = [
     "Google AI shopping",
     "Amazon Rufus AI shopping",
     "Amazon Alexa AI shopping assistant",
+    "Walmart Sparky AI shopping assistant",
+    "Walmart Google Gemini AI assisted shopping",
+    "Target AI shopping assistant holiday shopping",
+    "Kohl's AI shopping assistant styling",
+    "Instacart ChatGPT checkout AI shopping",
+    "Pinterest AI shopping visual discovery",
+    "Alibaba Aidge AI ecommerce assistant",
+    "AliExpress AI shopping assistant",
     "Perplexity shopping AI",
     "Taobao AI shopping assistant",
     "Taobao AI try on virtual fitting",
@@ -133,7 +148,13 @@ GOOGLE_NEWS_QUERIES = [
     "AI shopping memory personalization",
     "retail AI agent customer experience",
     "site:aboutamazon.com/news/retail Rufus AI shopping",
+    "site:aboutamazon.com/news/retail Alexa for Shopping AI assistant",
     "site:blog.google/products/shopping AI shopping",
+    "site:corporate.walmart.com/news Sparky AI shopping",
+    "site:corporate.target.com AI powered shopping features",
+    "site:corporate.kohls.com AI shopping assistant",
+    "site:company.instacart.com ChatGPT checkout Instacart",
+    "site:newsroom.pinterest.com AI shopping visual search",
     "site:blog.google/products/ads-commerce agentic commerce",
     "site:shopify.com/blog AI ecommerce shopping",
     "site:stripe.com agentic commerce",
@@ -157,9 +178,13 @@ GOOGLE_NEWS_QUERIES = [
     "天猫 AI导购",
     "天猫 AI试穿",
     "千问 淘宝 闪购 AI购物",
+    "阿里 悟空 电商 AI Agent",
+    "阿里 Aidge AI电商 商家",
     "美团 小美 AI助手",
     "美团 AI导购",
+    "美团 问小团 AI搜索 本地生活",
     "得物 AI试穿",
+    "得物 AI鉴别机器人 WAIC",
     "虾皮 AI导购",
     "购物智能体",
     "AI电商",
@@ -201,6 +226,12 @@ SOURCE_WEIGHT = {
     "Google Ads & Commerce Blog": 14,
     "Google Blog": 14,
     "OpenAI Blog": 13,
+    "About Amazon": 13,
+    "Walmart Corporate": 13,
+    "Target Corporation": 12,
+    "Kohl's Corporate": 11,
+    "Instacart": 11,
+    "Pinterest Newsroom": 10,
     "Shopify Blog": 10,
     "Anthropic": 13,
     "Stripe": 12,
@@ -225,7 +256,7 @@ SOURCE_WEIGHT = {
 TAG_RULES = {
     "AI购物": ["ai购物", "购物助手", "购物智能体", "ai shopping", "shopping agent"],
     "对话导购": ["导购", "对话式", "conversation", "conversational"],
-    "竞品案例": ["淘宝", "天猫", "千问", "美团", "小美", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa", "得物", "walmart", "instacart"],
+    "竞品案例": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa", "得物", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "aidge", "aliexpress"],
     "虚拟试穿": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "try on", "fitting", "ar"],
     "Agentic Commerce": ["agentic commerce", "智能体商业", "代理购物"],
     "交易闭环": ["闭环", "下单", "支付", "checkout", "交易", "购物车"],
@@ -261,6 +292,9 @@ INSIGHT_RULES = {
     "from-comparison-to-negotiation": ["比价", "议价", "报价", "优惠", "谈条件", "动态价格"],
     "social-proof-rebuild": ["评价", "口碑", "评论", "虚假评价", "social proof"],
     "merchant-readable-store": ["geo", "商家", "卖家", "商品资料", "可见性"],
+    "competitor-function-radar": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "shopee", "虾皮", "amazon", "rufus", "alexa", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "得物"],
+    "visual-try-on-as-proof": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "fit", "fashion"],
+    "local-life-agent-loop": ["美团", "小美", "问小团", "本地生活", "外卖", "买菜", "到店"],
 }
 
 AUTO_INSIGHT_PREFIX = "auto-"
@@ -271,7 +305,8 @@ HIGH_VALUE_WORDS = [
     "京东", "Rufus", "Claude", "OpenClaw", "Universal Commerce Protocol", "UCP",
     "支付", "checkout", "履约", "复购", "GEO", "AI可见性", "商品库", "架构",
     "天猫", "美团", "小美", "虾皮", "Shopee", "得物", "试穿", "试衣", "试鞋",
-    "virtual try", "try-on", "AI万能搜", "Alexa", "Walmart", "Instacart",
+    "virtual try", "try-on", "AI万能搜", "Alexa", "Walmart", "Sparky", "Target",
+    "Kohl", "Instacart", "Pinterest", "问小团", "Aidge", "AliExpress",
 ]
 
 
@@ -510,7 +545,7 @@ def infer_category(tags: list[str], text: str) -> str:
         return "技术架构"
     if any(word in lower for word in ["周报", "动态", "趋势"]):
         return "行业动态"
-    if "竞品案例" in tags or any(word in lower for word in ["淘宝", "天猫", "千问", "豆包", "京东", "美团", "小美", "虾皮", "shopee", "得物", "rufus", "alexa", "walmart", "instacart", "meta"]):
+    if "竞品案例" in tags or any(word in lower for word in ["淘宝", "天猫", "千问", "豆包", "京东", "美团", "小美", "问小团", "虾皮", "shopee", "得物", "rufus", "alexa", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "aidge", "aliexpress", "meta"]):
         return "平台案例"
     if "GEO" in tags or "AI可见性" in text:
         return "增长/GEO"
@@ -540,6 +575,13 @@ def related_insights(text: str) -> list[str]:
 
 def make_core_point(item: dict[str, Any], tags: list[str]) -> str:
     title = item["title"]
+    lower = title.lower()
+    if any(word in lower for word in ["sparky", "alexa for shopping", "rufus", "ai shopping assistant", "ai-powered shopping"]):
+        return "海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。"
+    if any(word in title for word in ["问小团", "小美"]):
+        return "美团类本地生活AI的关键不在“会聊天”，而在能把位置、时间、排队、配送、优惠和服务约束合并成即时决策。"
+    if any(word in title for word in ["千问", "淘宝", "天猫", "AI万能搜"]):
+        return "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。"
     if "虚拟试穿" in tags:
         return "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。"
     if "竞品案例" in tags:
@@ -558,6 +600,14 @@ def make_core_point(item: dict[str, Any], tags: list[str]) -> str:
 
 
 def make_insight(item: dict[str, Any], tags: list[str]) -> str:
+    title = item["title"]
+    lower = title.lower()
+    if any(word in lower for word in ["sparky", "alexa for shopping", "rufus", "ai shopping assistant", "ai-powered shopping"]):
+        return "产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。"
+    if any(word in title for word in ["问小团", "小美"]):
+        return "本地生活导购适合从“帮我安排今晚/附近/预算内”切入，把服务供给实时性做成差异化；比起商品参数，用户更在意确定性和省心程度。"
+    if any(word in title for word in ["千问", "淘宝", "天猫", "AI万能搜"]):
+        return "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。"
     if "虚拟试穿" in tags:
         return "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。"
     if "竞品案例" in tags:
@@ -668,6 +718,13 @@ def article_matches_insight(article: dict[str, Any], insight: dict[str, Any]) ->
         article.get("insight", ""),
         " ".join(article.get("tags", [])),
     ]).lower()
+    if insight.get("id") == "visual-try-on-as-proof":
+        return any(term in text for term in [
+            "虚拟试穿", "试穿", "试衣", "试鞋", "visual shopping", "virtual try", "try-on", "try on",
+            "personal fit", "virtual fitting", "服饰导购", "美妆试", "球鞋试", "ai试穿", "造型导购",
+        ])
+    if insight.get("id") == "local-life-agent-loop":
+        return any(term in text for term in ["美团", "小美", "问小团", "本地生活", "外卖", "买菜", "到店", "即时零售", "grocery"])
     if insight.get("id") in article.get("relatedInsightIds", []):
         return True
     return any(str(word).lower() in text for word in insight.get("keywords", []) if len(str(word)) > 1)

@@ -1,19 +1,19 @@
 {
   "siteTitle": "AI购物雷达",
   "subtitle": "回溯一年、每日更新：只保留对 AI C端产品、购物智能体和对话导购有产品启发的信息。",
-  "lastUpdated": "2026-09-08T12:04:21+08:00",
+  "lastUpdated": "2026-09-08T12:28:18+08:00",
   "updateTime": "每天 11:00（Asia/Shanghai）",
   "selectionRule": "只收录能改变产品判断的信息：入口迁移、交易闭环、用户信任、商家接入、协议生态、品类策略。过滤泛AI新闻、重复通稿和营销软文。",
-  "latestAdded": 8,
+  "latestAdded": 4,
   "lastInsightUpdated": "2026-09-08",
   "latestInsightChanged": 26,
   "lastQualityReview": "2026-09-04T20:12:45+08:00",
-  "duplicatesRemoved": 0,
-  "sourceCount": 168,
+  "duplicatesRemoved": 19,
+  "sourceCount": 167,
   "placeholderRemoved": 3,
   "linkRepair": "2026-09-08: forced fresh data loading, blocked expired WeChat temporary links, removed query-only false positives, and merged duplicate Claude/Anthropic commerce-blueprint coverage.",
   "brokenLinksRemoved": 3,
   "expiredWechatRemoved": 26,
   "offTopicRemoved": 2,
-  "competitorCoverage": "Expanded queries and seeded stable competitor/product-function cases for Taobao/Tmall/Qwen, Meituan Xiaomei, Shopee, Amazon, Dewu and Google virtual try-on."
+  "competitorCoverage": "Expanded product-function competitor coverage for Taobao/Tmall/Qwen, Meituan Xiaomei/Wenxiaotuan, Shopee, Amazon Alexa/Rufus, Walmart/Gemini, Target, Pinterest, Instacart, Dewu and Google virtual try-on."
 }

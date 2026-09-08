@@ -6,9 +6,9 @@
     "topArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-09-01-1531069370f45e",
-      "2026-09-05-app-ju1111-a1d080eb56",
-      "competitor-2026-09-07-2026-ai-b8934bcc64",
-      "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f"
+      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
+      "daily-2026-09-04-a8839bacba28ee",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
     "productImplication": "本月最值得产品团队做的事，是把AI导购拆成可复用流程模块：需求澄清、候选生成、证据解释、风险提示、价格库存核验、下单确认。不要继续只优化聊天自然度。"
   },
@@ -17,8 +17,8 @@
     "title": "AI购物从入口争夺进入闭环争夺",
     "summary": "8月的主线是平台开始争夺完整购物链路，而不是只争“AI入口”。淘宝接入千问、Google推进UCP与Universal Cart、GEO讨论转向交易资格，都说明AI推荐位开始具备真实订单分配价值。商家如果不能提供机器可读的商品、价格、库存和履约信息，就可能无法进入AI候选。",
     "topArticleIds": [
-      "daily-2026-08-12-02b78319368c06",
       "daily-2026-08-07-805eb37e0578fe",
+      "daily-2026-08-12-02b78319368c06",
       "daily-2026-08-11-99dd644a355aa5",
       "daily-2026-08-26-21460ced93cc20",
       "daily-2026-08-06-6685b71f4a4ee6"
@@ -35,7 +35,7 @@
       "daily-2026-07-14-d344ac9140db6d",
       "daily-2026-07-23-1e9dcb440e5776",
       "daily-2026-07-15-fc27d77a39d3c3",
-      "daily-2026-07-29-fcd1c0b0824ead"
+      "competitor-2026-07-18-app-waic-2026-ai-950c3c37be"
     ]
   },
   {
@@ -60,7 +60,7 @@
       "daily-2026-05-13-3c134761dade73",
       "daily-2026-05-05-e9a8c4d060c516",
       "daily-2026-05-25-9fb56a369cf82d",
-      "daily-2026-05-19-3a3fd36fc59627"
+      "daily-2026-05-11-8b28e0dba3e891"
     ],
     "productImplication": "AI导购如果想跨商家、跨平台工作，需要尽早抽象商品、购物车、订单、支付、售后等标准对象。只靠页面抓取无法支撑稳定交易。"
   },
@@ -123,10 +123,10 @@
     "productImplication": "产品团队应把当月新信号翻译成可验证假设，并进入需求澄清、推荐解释、交易确认或商家接入模块。",
     "topArticleIds": [
       "daily-2025-12-01-e9a8ad70d36a26",
+      "competitor-2025-12-11-google-studio-quality-digital-try-on",
       "daily-2025-12-11-f90de11d7342c8",
       "daily-2025-12-04-3ecc8c673af660",
-      "daily-2025-12-24-8613021720cc7c",
-      "daily-2025-12-22-48ba9124d0487b"
+      "daily-2025-12-24-8613021720cc7c"
     ]
   },
   {

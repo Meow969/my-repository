@@ -39,66 +39,26 @@
     ]
   },
   {
-    "date": "2026-09-07",
-    "title": "2026返校季AI购物走热 亚马逊谷歌占据先发优势",
-    "source": "亿邦动力网",
-    "region": "海外",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260907/706438.shtml",
-    "tags": [
-      "竞品案例",
-      "Amazon",
-      "Google Shopping",
-      "返校季",
-      "AI购物"
-    ],
-    "corePoint": "返校季显示AI购物正在进入具体消费季场景，亚马逊和谷歌的优势来自搜索/货架/广告/履约的既有基础设施。",
-    "insight": "节令型场景适合做AI导购实验：需求集中、品类清晰、预算敏感，产品可以输出清单、替代项、价格提醒和一键补齐。",
-    "valueScore": 86,
-    "relatedInsightIds": [
-      "intent-cart",
-      "answer-shelf",
-      "closed-loop-first"
-    ],
-    "id": "competitor-2026-09-07-2026-ai-b8934bcc64"
-  },
-  {
-    "id": "2026-09-07-ai-agent-saas-ai-dc33be8f8e",
-    "date": "2026-09-07",
-    "title": "千问办公推\"多人工作台\" AI Agent开始碰企业SaaS的蛋糕- AI",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260907/706521.shtml",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 74,
-    "relatedInsightIds": [
-      "multi-agent-commerce"
-    ]
-  },
-  {
     "id": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
     "date": "2026-09-06",
     "title": "Agentic Commerce Starts With Product Data as AI Shopping Metrics Take Shape",
     "source": "eWeek",
     "region": "海外",
-    "category": "竞品功能",
+    "category": "技术架构",
     "url": "https://eweek.com/news/agentic-commerce-product-data",
     "tags": [
       "AI购物",
-      "虚拟试穿",
-      "Agentic Commerce"
+      "Agentic Commerce",
+      "商品库",
+      "数据衡量"
     ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "corePoint": "Agentic Commerce的落地前提是可信、结构化、可度量的商品数据；没有数据层，AI导购只能生成漂亮话，不能稳定促成交易。",
+    "insight": "产品要把商品事实、价格库存、评价证据和转化指标做成闭环监控，让AI推荐能被追责、被优化，而不是只看对话满意度。",
     "valueScore": 76,
     "relatedInsightIds": [
-      "agentic-funnel",
-      "multi-agent-commerce"
+      "data-transaction-moat",
+      "merchant-readable-store",
+      "ranking-governance"
     ]
   },
   {
@@ -120,48 +80,6 @@
       "multi-agent-commerce",
       "multi-agent-market",
       "merchant-incentive"
-    ]
-  },
-  {
-    "id": "2026-09-05-app-ju1111-a1d080eb56",
-    "date": "2026-09-05",
-    "title": "支付宝携手千问App、淘宝闪购等发布首个JU1111网站协议_体坛网_体坛+",
-    "source": "体坛",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://m.ttplus.cn/HOeV7Gmwikicu",
-    "tags": [
-      "竞品案例",
-      "交易闭环",
-      "即时零售"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 87,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "data-transaction-moat",
-      "high-frequency-entry"
-    ]
-  },
-  {
-    "id": "2026-09-05-app-ai-act-457b66c831",
-    "date": "2026-09-05",
-    "title": "体育投注注册在线携手淘宝闪购、千问App等发布中国首个AI商业协议ACT",
-    "source": "体坛",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ttplus.cn/wiki-pRv5OLhAXL.html",
-    "tags": [
-      "竞品案例",
-      "即时零售"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 76,
-    "relatedInsightIds": [
-      "data-transaction-moat",
-      "high-frequency-entry"
     ]
   },
   {
@@ -192,39 +110,20 @@
     "title": "Will agentic commerce push more merchants into marketplaces?",
     "source": "TechRadar",
     "region": "海外",
-    "category": "竞品功能",
+    "category": "趋势框架",
     "url": "https://techradar.com/pro/will-agentic-commerce-push-more-merchants-into-marketplaces",
     "tags": [
-      "虚拟试穿",
       "Agentic Commerce",
-      "商家Agent"
+      "商家Agent",
+      "平台生态"
     ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "corePoint": "Agentic Commerce可能强化大平台，因为商家需要进入AI可调用的市场和履约网络，而不是只维护独立站页面。",
+    "insight": "AI导购会放大供给侧的接入壁垒：商品资料、库存、售后、支付和归因越标准化，越容易成为智能体默认候选。",
     "valueScore": 75,
     "relatedInsightIds": [
-      "agentic-funnel",
-      "multi-agent-commerce",
-      "multi-agent-market"
-    ]
-  },
-  {
-    "id": "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
-    "date": "2026-09-03",
-    "title": "Walmart shoppers can now get Dunkin’ delivered alongside orders",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://retaildive.com/news/walmart-shoppers-dunkin-delivery-coffee/829560",
-    "tags": [
-      "竞品案例",
-      "虚拟试穿"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 80,
-    "relatedInsightIds": [
-      "closed-loop-first"
+      "multi-agent-market",
+      "merchant-readable-store",
+      "agentic-funnel"
     ]
   },
   {
@@ -245,60 +144,6 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-03-token-ai-kimi-690cbc3e7c",
-    "date": "2026-09-03",
-    "title": "充Token如同充话费！天猫上线AI充值中心，阿里云、智谱、Kimi都来了",
-    "source": "新京报",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://m.bjnews.com.cn/detail/1788422724129530.html",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "structured-dialogue"
-    ]
-  },
-  {
-    "id": "2026-09-03-ai-token-kimi-minimax-b866f69534",
-    "date": "2026-09-03",
-    "title": "天猫上线AI Token充值中心：阿里云、智谱、Kimi、MiniMax均可购买",
-    "source": "驱动之家",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://news.mydrivers.com/1/1148/1148408.htm",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "structured-dialogue"
-    ]
-  },
-  {
-    "id": "2026-09-03-google-ads-commerce-blog-build--3f1a23e836",
-    "date": "2026-09-03",
-    "title": "Build a measurement stack you can rely on to steer your campaigns.",
-    "source": "Google Ads & Commerce Blog",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-measurement-stack",
-    "tags": [
-      "虚拟试穿"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "structured-dialogue"
     ]
   },
   {
@@ -345,28 +190,6 @@
     ]
   },
   {
-    "id": "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
-    "date": "2026-09-02",
-    "title": "Kohl’s names Walmart fashion alum as chief merchant",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://retaildive.com/news/kohls-walmart-fashion-alum-chief-merchant/829281",
-    "tags": [
-      "竞品案例",
-      "虚拟试穿",
-      "商家Agent"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 84,
-    "relatedInsightIds": [
-      "multi-agent-commerce",
-      "multi-agent-market",
-      "merchant-incentive"
-    ]
-  },
-  {
     "id": "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
     "date": "2026-09-02",
     "title": "Spreedly Sees Good Bots Becoming an Agentic Commerce Channel",
@@ -410,19 +233,21 @@
     "title": "NIQ and Similarweb Advance Agentic Commerce Measurement for the AI Shopping Era",
     "source": "Yahoo Finance",
     "region": "海外",
-    "category": "竞品功能",
+    "category": "增长/GEO",
     "url": "https://finance.yahoo.com/technology/ai/articles/niq-similarweb-advance-agentic-commerce-104500222.html",
     "tags": [
       "AI购物",
-      "虚拟试穿",
-      "Agentic Commerce"
+      "Agentic Commerce",
+      "数据衡量",
+      "GEO"
     ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "corePoint": "Agentic Commerce开始需要新的衡量体系，品牌不仅要看搜索流量，还要看自己是否被AI入口理解、引用和推荐。",
+    "insight": "导购产品可以提供“AI可见性/被推荐原因/竞品替代”看板，帮助商家把内容资产转化为机器可读的成交机会。",
     "valueScore": 74,
     "relatedInsightIds": [
-      "agentic-funnel",
-      "multi-agent-commerce"
+      "answer-shelf",
+      "ranking-governance",
+      "merchant-readable-store"
     ]
   },
   {
@@ -431,18 +256,19 @@
     "title": "New Ecommerce Tools: September 2, 2026",
     "source": "Practical Ecommerce",
     "region": "海外",
-    "category": "竞品功能",
+    "category": "工具动态",
     "url": "https://practicalecommerce.com/new-ecommerce-tools-september-2-2026",
     "tags": [
-      "虚拟试穿",
-      "商家Agent"
+      "商家Agent",
+      "AI工具",
+      "电商运营"
     ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "corePoint": "电商工具层正在快速把AI嵌入运营、搜索和内容生产，商家侧效率会反过来影响C端导购可用的供给质量。",
+    "insight": "不要只做C端推荐助手，也要关注商家如何低成本提供结构化素材、促销规则和售后承诺；这是推荐可信度的上游。",
     "valueScore": 73,
     "relatedInsightIds": [
+      "merchant-readable-store",
       "multi-agent-commerce",
-      "multi-agent-market",
       "merchant-incentive"
     ]
   },
@@ -452,36 +278,22 @@
     "title": "Is that message really from Amazon? Just ask Alexa for Shopping.",
     "source": "About Amazon",
     "region": "海外",
-    "category": "C端AI产品",
+    "category": "竞品功能",
     "url": "https://aboutamazon.com/news/retail/how-to-verify-amazon-messages-alexa-for-shopping",
     "tags": [
-      "AI购物",
-      "C端AI产品"
+      "竞品案例",
+      "Amazon",
+      "Alexa",
+      "信任验证",
+      "售后/安全"
     ],
-    "corePoint": "这条信息反映C端AI产品正在改变用户完成任务和消费决策的方式：Is that message really from Amazon? Just ask Alexa for Shopping. - About Amazon",
-    "insight": "把它用于AI导购时，重点看它能否缩短用户表达需求、形成判断、完成动作的链路，而不是只看功能是否新奇。",
-    "valueScore": 95,
+    "corePoint": "Alexa for Shopping 被用于验证Amazon消息真伪，说明购物AI的价值不只在买前推荐，也可以切入买后信任与安全确认。",
+    "insight": "导购产品要把“防误导/防诈骗/售后确认”纳入信任体系：用户越愿意让AI代劳，越需要一个可询问、可追溯的安全代理。",
+    "valueScore": 90,
     "relatedInsightIds": [
-      "decision-os"
-    ]
-  },
-  {
-    "id": "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
-    "date": "2026-09-01",
-    "title": "Walmart to build $1.3B fulfillment center in Georgia",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "增长/GEO",
-    "url": "https://retaildive.com/news/walmart-fulfillment-center-Carnesville-georgia/829071",
-    "tags": [
-      "GEO"
-    ],
-    "corePoint": "商家竞争正在从搜索排名延伸到AI答案可见性和智能体推荐资格。",
-    "insight": "需要为商家建设AI可读信息资产，让商品卖点、适用场景、证据、履约承诺能被智能体稳定理解和引用。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "merchant-readable-store"
+      "trust-ladder",
+      "post-purchase-agent",
+      "competitor-function-radar"
     ]
   },
   {
@@ -501,25 +313,6 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-01-retail-dive-amazon-s-ad-auction-56608b9626",
-    "date": "2026-09-01",
-    "title": "Amazon’s ad auction surcharges secretly bilked brands of billions, FTC alleges",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://retaildive.com/news/amazon-hid-surcharges-ad-auctions-alleges-ftc-complaint/829294",
-    "tags": [
-      "竞品案例",
-      "虚拟试穿"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "structured-dialogue"
     ]
   },
   {
@@ -979,17 +772,22 @@
     "title": "How Amazon's AI shopping assistant makes hundreds of millions of products feel personal",
     "source": "About Amazon",
     "region": "海外",
-    "category": "C端AI产品",
+    "category": "竞品功能",
     "url": "https://aboutamazon.com/news/retail/alexa-for-shopping-learn-and-be-curious-podcast",
     "tags": [
-      "AI购物",
-      "C端AI产品"
+      "竞品案例",
+      "Amazon",
+      "Alexa",
+      "个性化",
+      "商品库"
     ],
-    "corePoint": "这条信息反映C端AI产品正在改变用户完成任务和消费决策的方式：How Amazon's AI shopping assistant makes hundreds of millions of products feel personal - About Amazon",
-    "insight": "把它用于AI导购时，重点看它能否缩短用户表达需求、形成判断、完成动作的链路，而不是只看功能是否新奇。",
-    "valueScore": 96,
+    "corePoint": "Amazon把数亿商品的复杂货架压缩进Alexa对话助手，核心壁垒来自商品库、评价、购买历史和履约能力的组合。",
+    "insight": "AI导购的个性化不是多问两句偏好，而是能把长期购买记录、预算、品牌禁忌、尺码和交付偏好持续用于排序，并允许用户纠正。",
+    "valueScore": 94,
     "relatedInsightIds": [
-      "decision-os"
+      "memory-as-asset",
+      "data-transaction-moat",
+      "competitor-function-radar"
     ]
   },
   {
@@ -1178,25 +976,6 @@
     ]
   },
   {
-    "id": "daily-2026-07-29-fcd1c0b0824ead",
-    "date": "2026-07-29",
-    "title": "Meet Kohl’s New AI Shopping Assistant For Styling, Inspiration, and Support",
-    "source": "Kohl's Corporate",
-    "region": "海外",
-    "category": "C端AI产品",
-    "url": "https://corporate.kohls.com/news/meet-kohls-new-ai-shopping-assistant-for-styling-inspiration-and-support",
-    "tags": [
-      "AI购物",
-      "C端AI产品"
-    ],
-    "corePoint": "这条信息反映C端AI产品正在改变用户完成任务和消费决策的方式：Meet Kohl’s New AI Shopping Assistant For Styling, Inspiration, and Support - Kohl's Corporate",
-    "insight": "把它用于AI导购时，重点看它能否缩短用户表达需求、形成判断、完成动作的链路，而不是只看功能是否新奇。",
-    "valueScore": 87,
-    "relatedInsightIds": [
-      "decision-os"
-    ]
-  },
-  {
     "id": "daily-2026-07-28-0cfa5b4dab8be8",
     "date": "2026-07-28",
     "title": "Algolia Brings Agentic Commerce to the Modern Storefront, Giving Retailers AI Shopping Experiences Built on Trusted Product Data",
@@ -1366,6 +1145,30 @@
       "risk-first-design",
       "trust-ladder"
     ]
+  },
+  {
+    "date": "2026-07-18",
+    "title": "得物App参展WAIC 2026，全球首个AI鉴别机器人首发亮相",
+    "source": "上观新闻",
+    "region": "国内",
+    "category": "竞品功能",
+    "url": "https://www.shobserver.com/news/detail?id=1146422",
+    "tags": [
+      "竞品案例",
+      "得物",
+      "AI鉴别",
+      "信任",
+      "年轻用户"
+    ],
+    "corePoint": "得物把AI能力落在鉴别机器人，切入的是交易信任而不是导购话术，适合高客单、真假风险高的品类。",
+    "insight": "在潮鞋、奢品、二手等场景，AI导购的第一价值可能不是推荐，而是鉴别、估价和风险提示；信任基础建好后再做转化更稳。",
+    "valueScore": 88,
+    "relatedInsightIds": [
+      "evidence-led-recommendation",
+      "risk-first-design",
+      "social-proof-rebuild"
+    ],
+    "id": "competitor-2026-07-18-app-waic-2026-ai-950c3c37be"
   },
   {
     "id": "daily-2026-07-17-90c1e8042bffc3",
@@ -1732,25 +1535,6 @@
     ]
   },
   {
-    "id": "daily-2026-06-28-f67b661cc7e799",
-    "date": "2026-06-28",
-    "title": "Pinterest连推四项AI应用创新 CEO声称“正利用AI转型为购物平台”",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "C端AI产品",
-    "url": "https://ebrun.com/20260628/684939.shtml",
-    "tags": [
-      "AI购物",
-      "C端AI产品"
-    ],
-    "corePoint": "这条信息反映C端AI产品正在改变用户完成任务和消费决策的方式：Pinterest连推四项AI应用创新 CEO声称“正利用AI转型为购物平台” - 亿邦动力网",
-    "insight": "把它用于AI导购时，重点看它能否缩短用户表达需求、形成判断、完成动作的链路，而不是只看功能是否新奇。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "decision-os"
-    ]
-  },
-  {
     "id": "daily-2026-06-27-ca12d684099abd",
     "date": "2026-06-27",
     "title": "AI Shopping Assistant Launches at Newegg: Real-Time Catalog Powers PC Build Advice",
@@ -1884,29 +1668,6 @@
       "privacy-permission"
     ],
     "id": "competitor-2026-06-22-shopee-ai-f87b7022fc"
-  },
-  {
-    "id": "daily-2026-06-20-c357cbb4aeba31",
-    "date": "2026-06-20",
-    "title": "Pinterest Beats Q1 Estimates and Commits $4 Billion to AWS. Here’s What Every Investors Need to Know",
-    "source": "TIKR.com",
-    "region": "海外",
-    "category": "产品功能",
-    "url": "https://tikr.com/blog/pinterest-beats-q1-estimates-and-commits-4-billion-to-aws-heres-what-every-investors-need-to-know",
-    "tags": [
-      "AI购物",
-      "视觉购物",
-      "AI搜索"
-    ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "category-wedge",
-      "risk-first-design"
-    ]
   },
   {
     "id": "daily-2026-06-19-10e5b92e51f050",
@@ -2637,21 +2398,22 @@
     "title": "Meet Alexa for Shopping, your personalized, agentic AI assistant on Amazon",
     "source": "About Amazon",
     "region": "海外",
-    "category": "智能体购物",
+    "category": "竞品功能",
     "url": "https://aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant",
     "tags": [
-      "AI购物",
+      "竞品案例",
+      "Amazon",
+      "Alexa",
       "购物智能体",
-      "C端AI产品"
+      "低风险授权"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "Alexa for Shopping把比较、价格历史、目标价提醒等能力包装成agentic assistant，切入点是低风险、高频的购物决策辅助。",
+    "insight": "值得借鉴的是授权节奏：先做解释和比价，再做提醒和收藏，最后才进入自动购买。产品要把“可撤回的小授权”设计成留存机制。",
     "valueScore": 96,
     "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "decision-os",
-      "risk-first-design"
+      "trust-ladder",
+      "from-comparison-to-negotiation",
+      "competitor-function-radar"
     ]
   },
   {
@@ -2683,17 +2445,23 @@
     "title": "千问、淘宝全面打通，AI电商时代更近了",
     "source": "华尔街见闻",
     "region": "国内",
-    "category": "C端AI产品",
+    "category": "平台案例",
     "url": "https://wallstreetcn.com/articles/3771956",
     "tags": [
-      "AI购物",
-      "C端AI产品"
+      "竞品案例",
+      "千问",
+      "淘宝",
+      "AI购物闭环",
+      "对话导购",
+      "交易闭环"
     ],
-    "corePoint": "这条信息反映C端AI产品正在改变用户完成任务和消费决策的方式：千问、淘宝全面打通，AI电商时代更近了 - 华尔街见闻",
-    "insight": "把它用于AI导购时，重点看它能否缩短用户表达需求、形成判断、完成动作的链路，而不是只看功能是否新奇。",
-    "valueScore": 93,
+    "corePoint": "千问与淘宝打通的核心不是“多一个AI入口”，而是把问答、商品理解、购物车和下单链路接到同一条任务流里。",
+    "insight": "AI导购最值得跟踪的是闭环深度：能不能从模糊需求一路走到可买清单、优惠计算、风险提示和确认下单，而不是只提升搜索召回。",
+    "valueScore": 94,
     "relatedInsightIds": [
-      "decision-os"
+      "closed-loop-first",
+      "competitor-function-radar",
+      "agentic-funnel"
     ]
   },
   {
@@ -3055,6 +2823,30 @@
     ]
   },
   {
+    "id": "competitor-2026-04-23-google-spring-fashion-shopping-search",
+    "date": "2026-04-23",
+    "title": "3 easy ways to shop for spring with Google",
+    "source": "Google Shopping Blog",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://blog.google/products-and-platforms/products/search/spring-fashion-shopping-tips",
+    "tags": [
+      "竞品案例",
+      "Google Search",
+      "视觉购物",
+      "服饰导购",
+      "AI搜索"
+    ],
+    "corePoint": "Google把春季穿搭购物包装成搜索里的场景化任务，体现“季节/场景/风格”正在替代关键词成为导购入口。",
+    "insight": "AI导购可围绕季节、旅行、通勤、约会等场景生成可购买方案；关键不是列商品，而是把审美目标翻译成预算、搭配、尺码和替代项。",
+    "valueScore": 84,
+    "relatedInsightIds": [
+      "contextual-entry",
+      "visual-try-on-as-proof",
+      "decision-os"
+    ]
+  },
+  {
     "id": "daily-2026-04-22-3322ca2227bf9c",
     "date": "2026-04-22",
     "title": "Ulta Beauty Deploys Google-Powered AI Assistant and Agentic Commerce",
@@ -3334,28 +3126,6 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "2026-04-09-ai-agent-68c9bb7b84",
-    "date": "2026-04-09",
-    "title": "淘宝闪购商家端AI Agent再升级：一句话可完成开票商品下架- 零售",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260409/654876.shtml",
-    "tags": [
-      "商品库",
-      "即时零售",
-      "商家Agent"
-    ],
-    "corePoint": "高频低风险的即时消费场景更容易培养用户使用AI购物的习惯。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 74,
-    "relatedInsightIds": [
-      "data-transaction-moat",
-      "multi-agent-commerce",
-      "multi-agent-market"
     ]
   },
   {
@@ -3797,22 +3567,23 @@
     "title": "电商版“龙虾”来了！阿里悟空发布，用 AI 破解电商经营核心焦虑|阿里巴巴|淘宝闪购|Qwen|千问|商家_手机新浪网",
     "source": "新浪网",
     "region": "国内",
-    "category": "商家/生态",
+    "category": "平台案例",
     "url": "https://finance.sina.cn/tech/2026-03-19/detail-inhrpwvq4498941.d.html?oid=WA+0821+7001+0763+%28FORTRESS%29+Pintu+Baja+Mother+And+Son+Sidorejo+Salatiga&vt=4",
     "tags": [
-      "AI购物",
-      "C端AI产品",
-      "商家接入",
-      "即时零售"
+      "竞品案例",
+      "阿里悟空",
+      "商家Agent",
+      "淘宝闪购",
+      "千问",
+      "商品库"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
-    "valueScore": 85,
+    "corePoint": "阿里悟空指向商家侧Agent化：平台不只要让消费者会问，也要让商家能把商品、经营动作和履约规则结构化交给AI调用。",
+    "insight": "AI导购的质量上限由供给侧决定。产品应设计商家可维护的“机器可读卖点/禁售约束/履约承诺”，否则C端推荐会被脏数据拖垮。",
+    "valueScore": 88,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
-      "habit-before-intelligence",
-      "risk-first-design"
+      "data-transaction-moat"
     ]
   },
   {
@@ -4424,17 +4195,22 @@
     "title": "How to use Alexa for Shopping to compare products, check price history, auto-buy items at target prices, and more",
     "source": "About Amazon",
     "region": "海外",
-    "category": "C端AI产品",
+    "category": "竞品功能",
     "url": "https://aboutamazon.com/news/retail/how-to-use-amazon-shopping-ai-assistant",
     "tags": [
-      "AI购物",
-      "C端AI产品"
+      "竞品案例",
+      "Amazon",
+      "Alexa",
+      "价格追踪",
+      "自动购买"
     ],
-    "corePoint": "这条信息反映C端AI产品正在改变用户完成任务和消费决策的方式：How to use Alexa for Shopping to compare products, check price history, auto-buy items at target prices, and more - About Amazon",
-    "insight": "把它用于AI导购时，重点看它能否缩短用户表达需求、形成判断、完成动作的链路，而不是只看功能是否新奇。",
+    "corePoint": "Amazon公开展示Alexa可比较商品、查看价格历史，并在目标价触发自动购买，代表导购从建议走向条件式执行。",
+    "insight": "自动购买最适合从“用户定义清晰条件”开始：预算、品牌、补货周期、目标价和排除项都可配置，AI只在边界内执行，降低失控感。",
     "valueScore": 95,
     "relatedInsightIds": [
-      "decision-os"
+      "trust-ladder",
+      "intent-cart",
+      "closed-loop-first"
     ]
   },
   {
@@ -4725,6 +4501,30 @@
     ]
   },
   {
+    "date": "2026-01-22",
+    "title": "美团App上线「问小团」AI搜索，智能匹配用户所需服务",
+    "source": "新浪财经",
+    "region": "国内",
+    "category": "竞品功能",
+    "url": "https://finance.sina.com.cn/roll/2026-01-22/doc-inhicwve2962756.shtml",
+    "tags": [
+      "竞品案例",
+      "美团",
+      "问小团",
+      "AI搜索",
+      "本地生活"
+    ],
+    "corePoint": "问小团代表本地生活搜索从关键词匹配走向自然语言意图匹配，用户可以用场景化表达寻找服务。",
+    "insight": "本地生活AI搜索要从“搜店”升级为“解决一个当下任务”：把人群、位置、时间、预算、排队和交通成本合并排序。",
+    "valueScore": 84,
+    "relatedInsightIds": [
+      "local-life-agent-loop",
+      "answer-shelf",
+      "decision-os"
+    ],
+    "id": "competitor-2026-01-22-app-ai-2130600ec1"
+  },
+  {
     "id": "daily-2026-01-21-f670403f850a60",
     "date": "2026-01-21",
     "title": "Amazon One Medical introduces agentic Health AI assistant for simpler, personalized, and more actionable health care",
@@ -4881,25 +4681,6 @@
     ]
   },
   {
-    "id": "daily-2026-01-12-402b4760d23e51",
-    "date": "2026-01-12",
-    "title": "Walmart teams up with Google’s Gemini for AI-assisted shopping",
-    "source": "Retail Dive",
-    "region": "海外",
-    "category": "C端AI产品",
-    "url": "https://retaildive.com/news/walmart-google-gemini-ai-assisted-shopping/809307",
-    "tags": [
-      "AI购物",
-      "C端AI产品"
-    ],
-    "corePoint": "这条信息反映C端AI产品正在改变用户完成任务和消费决策的方式：Walmart teams up with Google’s Gemini for AI-assisted shopping - Retail Dive",
-    "insight": "把它用于AI导购时，重点看它能否缩短用户表达需求、形成判断、完成动作的链路，而不是只看功能是否新奇。",
-    "valueScore": 92,
-    "relatedInsightIds": [
-      "decision-os"
-    ]
-  },
-  {
     "id": "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0",
     "date": "2026-01-12",
     "title": "JD Sports tests agentic commerce by linking AI shopping to checkout",
@@ -4942,6 +4723,54 @@
       "answer-shelf",
       "decision-os",
       "risk-first-design"
+    ]
+  },
+  {
+    "id": "competitor-2026-01-11-walmart-google-ai-discovery",
+    "date": "2026-01-11",
+    "title": "Walmart and Google Turn AI Discovery Into Effortless Shopping Experiences",
+    "source": "Walmart Corporate",
+    "region": "海外",
+    "category": "平台案例",
+    "url": "https://corporate.walmart.com/news/2026/01/11/walmart-and-google-turn-ai-discovery-into-effortless-shopping-experiences",
+    "tags": [
+      "竞品案例",
+      "Walmart",
+      "Google Gemini",
+      "AI购物",
+      "入口合作"
+    ],
+    "corePoint": "沃尔玛与Google把AI发现入口接入购物场景，说明零售平台正在从自有搜索框竞争，转向在通用AI入口里争夺可被调用的商品和履约能力。",
+    "insight": "AI导购产品不能只盯站内会话体验，还要设计“被外部AI调用”的供给接口：商品理解、价格库存、配送承诺和品牌规则要能被第三方入口稳定读取。",
+    "valueScore": 91,
+    "relatedInsightIds": [
+      "competitor-function-radar",
+      "agentic-funnel",
+      "merchant-readable-store"
+    ]
+  },
+  {
+    "id": "competitor-2026-01-11-google-agentic-commerce-retailer-tools",
+    "date": "2026-01-11",
+    "title": "New tech and tools for retailers to succeed in an agentic shopping era",
+    "source": "Google Ads & Commerce Blog",
+    "region": "海外",
+    "category": "技术架构",
+    "url": "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms",
+    "tags": [
+      "竞品案例",
+      "Google",
+      "Agentic Commerce",
+      "商家接入",
+      "交易协议"
+    ],
+    "corePoint": "Google把agentic shopping明确拆到商家工具、协议和广告/商业基础设施，竞争焦点从“谁的助手更聪明”转到“谁能组织供给被智能体执行”。",
+    "insight": "AI导购要同步建设商家侧能力：结构化商品、可解释卖点、实时履约、归因和治理规则。没有供给侧接口，C端再会聊也难以稳定成交。",
+    "valueScore": 91,
+    "relatedInsightIds": [
+      "multi-agent-market",
+      "merchant-readable-store",
+      "agentic-funnel"
     ]
   },
   {
@@ -5380,6 +5209,30 @@
     ]
   },
   {
+    "id": "competitor-2025-12-11-google-studio-quality-digital-try-on",
+    "date": "2025-12-11",
+    "title": "Google virtual try on shopping feature adds new studio-quality images",
+    "source": "Google Shopping Blog",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://blog.google/products-and-platforms/products/shopping/studio-quality-digital-try-on",
+    "tags": [
+      "竞品案例",
+      "Google Shopping",
+      "虚拟试穿",
+      "视觉购物",
+      "服饰导购"
+    ],
+    "corePoint": "Google把虚拟试穿升级为更高质量的个人数字形象，本质是在解决服饰电商最难被文字导购消除的“上身不确定性”。",
+    "insight": "试穿能力应该进入导购排序而不是停留在营销玩法：把身形、场景、风格和退货风险变成推荐证据，才能让AI从“会描述衣服”升级为“帮我判断适不适合”。",
+    "valueScore": 92,
+    "relatedInsightIds": [
+      "visual-try-on-as-proof",
+      "category-wedge",
+      "evidence-led-recommendation"
+    ]
+  },
+  {
     "id": "daily-2025-12-11-f90de11d7342c8",
     "date": "2025-12-11",
     "title": "Google’s AI try-on feature for clothes now works with just a selfie",
@@ -5399,29 +5252,6 @@
       "structured-dialogue",
       "risk-first-design",
       "contextual-entry"
-    ]
-  },
-  {
-    "id": "daily-2025-12-10-8e3d03857d1ef3",
-    "date": "2025-12-10",
-    "title": "Instacart becomes ChatGPT’s first app with full checkout",
-    "source": "TechRadar",
-    "region": "海外",
-    "category": "交易闭环",
-    "url": "https://techradar.com/ai-platforms-assistants/chatgpt/instacart-brings-instant-checkout-to-chatgpt",
-    "tags": [
-      "AI购物",
-      "C端AI产品",
-      "交易闭环"
-    ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "decision-os",
-      "risk-first-design"
     ]
   },
   {
@@ -5468,27 +5298,6 @@
       "trust-ladder",
       "habit-before-intelligence",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
-    "date": "2025-12-08",
-    "title": "Instacart and OpenAI partner on AI shopping experiences",
-    "source": "OpenAI Blog",
-    "region": "海外",
-    "category": "趋势框架",
-    "url": "https://openai.com/index/instacart-partnership",
-    "tags": [
-      "AI购物",
-      "交易闭环"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 74,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "agentic-funnel",
-      "intent-cart"
     ]
   },
   {
@@ -5912,17 +5721,22 @@
     "title": "Target Launches New AI-Powered Features to Make Holiday Shopping Easier, Smarter and More Fun",
     "source": "Target Corporation",
     "region": "海外",
-    "category": "C端AI产品",
+    "category": "竞品功能",
     "url": "https://corporate.target.com/press/release/2025/11/target-launches-new-ai-powered-features-to-make-holiday-shopping-easier,-smarter-and-more-fun",
     "tags": [
+      "竞品案例",
+      "Target",
       "AI购物",
-      "C端AI产品"
+      "节日购物",
+      "灵感导购"
     ],
-    "corePoint": "这条信息反映C端AI产品正在改变用户完成任务和消费决策的方式：Target Launches New AI-Powered Features to Make Holiday Shopping Easier, Smarter and More Fun - Target Corporation",
-    "insight": "把它用于AI导购时，重点看它能否缩短用户表达需求、形成判断、完成动作的链路，而不是只看功能是否新奇。",
-    "valueScore": 87,
+    "corePoint": "Target把AI能力绑定节日购物任务，说明高峰期导购的关键是把送礼、清单、灵感和预算管理组合起来，而不是单点搜索增强。",
+    "insight": "节日/大促是AI导购最适合验证的场景：用户目标明确但选择过载，产品可做礼物建议、收件人画像、预算分摊、库存提醒和替代方案。",
+    "valueScore": 89,
     "relatedInsightIds": [
-      "decision-os"
+      "contextual-entry",
+      "intent-cart",
+      "competitor-function-radar"
     ]
   },
   {
@@ -6662,21 +6476,22 @@
     "title": "Pinterest introduces Top of Search ads and new advertising tools to power visual shopping decisions",
     "source": "Pinterest Newsroom",
     "region": "海外",
-    "category": "产品功能",
+    "category": "竞品功能",
     "url": "https://newsroom.pinterest.com/news/pinterest-introduces-top-of-search-ads-and-new-advertising-tools",
     "tags": [
-      "AI购物",
+      "竞品案例",
+      "Pinterest",
       "视觉购物",
-      "AI搜索"
+      "AI搜索",
+      "广告/推荐位"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "Pinterest把搜索顶部广告和视觉购物决策绑定，说明AI/视觉导购最终会影响推荐位、商业化和品牌可见性。",
+    "insight": "如果AI导购成为新货架，就必须提前设计赞助内容标识、品牌可见性规则和排序解释；否则用户信任与商业化会互相消耗。",
     "valueScore": 87,
     "relatedInsightIds": [
-      "agentic-funnel",
+      "ranking-governance",
       "answer-shelf",
-      "category-wedge",
-      "risk-first-design"
+      "competitor-function-radar"
     ]
   },
   {
@@ -6792,6 +6607,54 @@
     ]
   },
   {
+    "date": "2025-09-17",
+    "title": "淘宝、美团、支付宝都在做AI导购，能不能用你的消费数据？",
+    "source": "证券时报",
+    "region": "国内",
+    "category": "行业动态",
+    "url": "https://stcn.com/article/detail/3343541.html",
+    "tags": [
+      "竞品案例",
+      "淘宝",
+      "美团",
+      "支付宝",
+      "隐私授权"
+    ],
+    "corePoint": "当淘宝、美团、支付宝都把AI导购接入消费场景，用户数据授权会成为体验能力和信任风险的共同前提。",
+    "insight": "AI导购越想个性化，越要把“为什么需要这些数据、用到哪里、如何关闭和删除”产品化，否则记忆能力会被用户视为监控。",
+    "valueScore": 87,
+    "relatedInsightIds": [
+      "privacy-permission",
+      "trust-ladder",
+      "memory-as-asset"
+    ],
+    "id": "competitor-2025-09-17-ai-86111b0c72"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "我让美团的小美给我做了半天助理",
+    "source": "智东西",
+    "region": "国内",
+    "category": "竞品功能",
+    "url": "https://zhidx.com/p/504573.html",
+    "tags": [
+      "竞品案例",
+      "美团",
+      "小美",
+      "AI助手",
+      "本地生活"
+    ],
+    "corePoint": "小美的体验测试更能暴露真实产品边界：AI能串联需求，但在复杂约束、实时供给和服务确认上仍需要平台能力兜底。",
+    "insight": "评估竞品时不要只看演示视频，要记录失败点：问不清、查不到、无法确认、不能下单，往往就是自家产品可以做得更稳的机会。",
+    "valueScore": 85,
+    "relatedInsightIds": [
+      "risk-first-design",
+      "local-life-agent-loop",
+      "trust-ladder"
+    ],
+    "id": "competitor-2025-09-16-d86c877864"
+  },
+  {
     "id": "daily-2025-09-15-7e3d3934f8dabc",
     "date": "2025-09-15",
     "title": "Prime Big Deal Days is back October 7–8: Here are 5 shopping tips to save big during the event",
@@ -6854,6 +6717,30 @@
     ]
   },
   {
+    "date": "2025-09-12",
+    "title": "美团新动作！用AI点外卖，有“暗号”才能体验",
+    "source": "证券时报",
+    "region": "国内",
+    "category": "竞品功能",
+    "url": "https://stcn.com/article/detail/3336379.html",
+    "tags": [
+      "竞品案例",
+      "美团",
+      "小美",
+      "外卖",
+      "即时零售"
+    ],
+    "corePoint": "美团把“用AI点外卖”作为早期灰度能力，说明高频低客单场景适合先验证自然语言下单和偏好记忆。",
+    "insight": "外卖导购可以比电商更早做半自动：用户常买、预算稳定、替代容忍度高，适合用“推荐—确认—复购”的轻授权链路训练信任。",
+    "valueScore": 86,
+    "relatedInsightIds": [
+      "local-life-agent-loop",
+      "habit-before-intelligence",
+      "closed-loop-first"
+    ],
+    "id": "competitor-2025-09-12-ai-2a8969793a"
+  },
+  {
     "id": "daily-2025-09-12-a18826d18731c1",
     "date": "2025-09-12",
     "title": "The Role of AI in Voice Commerce Integration",
@@ -6870,6 +6757,30 @@
     "relatedInsightIds": [
       "decision-os"
     ]
+  },
+  {
+    "date": "2025-09-11",
+    "title": "美团内测AI生活助手小美",
+    "source": "DoNews",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://donews.com/news/detail/1/6107946.html",
+    "tags": [
+      "竞品案例",
+      "美团",
+      "小美",
+      "本地生活",
+      "AI助手"
+    ],
+    "corePoint": "美团小美把AI助手放进本地生活服务入口，核心不是聊天，而是围绕吃喝玩乐、外卖、到店等场景完成即时决策。",
+    "insight": "本地生活AI导购的关键变量是“附近、现在、可履约”：推荐理由必须和距离、营业状态、配送时效、优惠和评价一起被计算。",
+    "valueScore": 86,
+    "relatedInsightIds": [
+      "local-life-agent-loop",
+      "high-frequency-entry",
+      "closed-loop-first"
+    ],
+    "id": "competitor-2025-09-11-donews-ai-0f33fa349b"
   },
   {
     "id": "daily-2025-09-11-d4d492de655d7c",
