@@ -171,7 +171,7 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 192,
+    "sourceCount": 193,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
@@ -179,10 +179,10 @@
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
       "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
       "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
       "daily-2026-08-30-d22191244e060f",
-      "daily-2026-08-29-2134c3dedae52a",
-      "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086"
+      "daily-2026-08-29-2134c3dedae52a"
     ],
     "trendNote": "最新复盘：Agentic Commerce、AI购物、购物智能体显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
     "updatedAt": "2026-09-08"
@@ -203,7 +203,7 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 42,
+    "sourceCount": 43,
     "relatedArticleIds": [
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
@@ -212,9 +212,9 @@
       "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
       "2026-09-02-yahoo-finance-niq-and-similarwe-b725b9f9af",
       "2026-09-02-practical-ecommerce-new-ecommer-4b333a3958",
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
       "daily-2026-08-21-efe214be6e9775",
-      "daily-2026-08-20-84c99b15d913fa",
-      "2026-08-19-6-08a28b00bd"
+      "daily-2026-08-20-84c99b15d913fa"
     ],
     "trendNote": "最新复盘：AI购物、商家Agent、商家接入正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-08"
@@ -328,7 +328,7 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 188,
+    "sourceCount": 190,
     "relatedArticleIds": [
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "daily-2026-09-04-a8839bacba28ee",
@@ -339,9 +339,9 @@
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
-      "daily-2026-08-29-2134c3dedae52a"
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、虚拟试穿、购物智能体，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -418,8 +418,9 @@
       "多入口",
       "即时意图"
     ],
-    "sourceCount": 44,
+    "sourceCount": 45,
     "relatedArticleIds": [
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
       "daily-2026-08-30-d22191244e060f",
       "daily-2026-08-22-d0935ce5172bc8",
       "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
@@ -428,10 +429,9 @@
       "daily-2026-08-05-73d5671dbd19ad",
       "daily-2026-07-09-3d36eb925f6e28",
       "daily-2026-07-06-9ff3847b4f7534",
-      "daily-2026-06-27-ca12d684099abd",
-      "dialogue-is-shopping-2026-06-18"
+      "daily-2026-06-27-ca12d684099abd"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、视觉购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、竞品案例，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -615,13 +615,13 @@
       "2026-09-03-ai-token-kimi-minimax-b866f69534",
       "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
       "daily-2026-09-01-1531069370f45e",
-      "2026-08-18-aha-20-fc9a45c80c",
-      "daily-2026-08-12-02b78319368c06",
-      "competitor-2026-07-18-app-waic-2026-ai-950c3c37be"
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-retail-dive-amazon-s-ad-auction-56608b9626"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、Amazon，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 40
+    "sourceCount": 43
   },
   {
     "id": "visual-try-on-as-proof",
@@ -648,13 +648,13 @@
       "2026-09-03-ai-token-kimi-minimax-b866f69534",
       "2026-09-03-google-ads-commerce-blog-build--3f1a23e836",
       "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
-      "daily-2026-08-22-d0935ce5172bc8",
-      "daily-2026-06-04-882243a1fbce39",
-      "daily-2026-06-03-914148b7d1dd69"
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-retail-dive-amazon-s-ad-auction-56608b9626"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、商家Agent，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 26
+    "sourceCount": 29
   },
   {
     "id": "local-life-agent-loop",
@@ -674,6 +674,7 @@
       "高频场景"
     ],
     "relatedArticleIds": [
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
       "daily-2026-06-19-10e5b92e51f050",
       "daily-2026-06-16-30f36e4cb45b27",
       "competitor-2026-06-03-sohu-ai-b174d31ca0",
@@ -682,17 +683,16 @@
       "daily-2026-03-26-5950e8efac85c3",
       "daily-2026-03-12-016f6d5e971fa7",
       "daily-2026-03-07-7468cbe0b4b9f2",
-      "daily-2026-03-03-23bed4d992a75f",
-      "competitor-2026-01-22-app-ai-2130600ec1"
+      "daily-2026-03-03-23bed4d992a75f"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在即时零售、AI购物、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、竞品案例，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 19
+    "sourceCount": 20
   },
   {
     "id": "auto-current-signal",
-    "title": "最新复盘：Agentic Commerce、竞品案例、虚拟试穿正在收敛成产品主线",
-    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是Agentic Commerce、竞品案例、虚拟试穿这些能力之间能否互相闭环。",
+    "title": "最新复盘：竞品案例、Agentic Commerce、虚拟试穿正在收敛成产品主线",
+    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是竞品案例、Agentic Commerce、虚拟试穿这些能力之间能否互相闭环。",
     "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
     "takeaways": [
       "用月度高频信号更新路线图优先级",
@@ -700,11 +700,11 @@
       "避免只追热点发布而忽略交易链路"
     ],
     "keywords": [
-      "Agentic Commerce",
       "竞品案例",
+      "Agentic Commerce",
       "虚拟试穿",
-      "交易闭环",
       "AI购物",
+      "商家Agent",
       "最新复盘",
       "产品路线"
     ],
@@ -712,11 +712,11 @@
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
       "daily-2026-09-01-1531069370f45e",
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
       "2026-09-03-modern-retail-big-box-briefing--8613a5b771",
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "daily-2026-09-04-a8839bacba28ee"
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128"
     ],
     "updatedAt": "2026-09-08"
   },
@@ -741,11 +741,11 @@
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
       "daily-2026-09-01-1531069370f45e",
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
       "2026-09-03-modern-retail-big-box-briefing--8613a5b771",
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "daily-2026-09-04-a8839bacba28ee"
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128"
     ],
     "updatedAt": "2026-09-08"
   },
@@ -770,11 +770,11 @@
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-02-retail-dive-kohl-s-names-walmar-7e9948498f",
       "daily-2026-09-01-1531069370f45e",
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
       "2026-09-03-modern-retail-big-box-briefing--8613a5b771",
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "daily-2026-09-04-a8839bacba28ee"
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128"
     ],
     "updatedAt": "2026-09-08"
   }

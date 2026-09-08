@@ -414,6 +414,47 @@
     ]
   },
   {
+    "id": "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
+    "date": "2026-09-01",
+    "title": "Walmart to build $1.3B fulfillment center in Georgia",
+    "source": "Retail Dive",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://retaildive.com/news/walmart-fulfillment-center-Carnesville-georgia/829071",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿",
+      "GEO"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 90,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "merchant-readable-store",
+      "competitor-function-radar"
+    ]
+  },
+  {
+    "id": "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+    "date": "2026-09-01",
+    "title": "Kohl’s digital sales grow as AI shopping tools help conversion, despite Q2 overall sales decline",
+    "source": "Digital Commerce 360",
+    "region": "海外",
+    "category": "平台案例",
+    "url": "https://digitalcommerce360.com/2026/09/01/kohls-digital-sales-ai-shopping-conversion-q2-fy26",
+    "tags": [
+      "AI购物",
+      "竞品案例"
+    ],
+    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
+    "valueScore": 80,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
     "id": "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
     "date": "2026-09-01",
     "title": "Global Digital Shopping Index: The Agentic Commerce Deep Dive",
@@ -430,6 +471,25 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
+    ]
+  },
+  {
+    "id": "2026-09-01-retail-dive-amazon-s-ad-auction-56608b9626",
+    "date": "2026-09-01",
+    "title": "Amazon’s ad auction surcharges secretly bilked brands of billions, FTC alleges",
+    "source": "Retail Dive",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://retaildive.com/news/amazon-hid-surcharges-ad-auctions-alleges-ftc-complaint/829294",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "competitor-function-radar"
     ]
   },
   {
