@@ -63,6 +63,45 @@
     "id": "competitor-2026-09-07-2026-ai-b8934bcc64"
   },
   {
+    "id": "2026-09-07-ai-agent-saas-ai-dc33be8f8e",
+    "date": "2026-09-07",
+    "title": "千问办公推\"多人工作台\" AI Agent开始碰企业SaaS的蛋糕- AI",
+    "source": "亿邦动力网",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://ebrun.com/20260907/706521.shtml",
+    "tags": [
+      "竞品案例"
+    ],
+    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
+    "valueScore": 74,
+    "relatedInsightIds": [
+      "multi-agent-commerce"
+    ]
+  },
+  {
+    "id": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+    "date": "2026-09-06",
+    "title": "Agentic Commerce Starts With Product Data as AI Shopping Metrics Take Shape",
+    "source": "eWeek",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://eweek.com/news/agentic-commerce-product-data",
+    "tags": [
+      "AI购物",
+      "虚拟试穿",
+      "Agentic Commerce"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "multi-agent-commerce"
+    ]
+  },
+  {
     "id": "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
     "date": "2026-09-06",
     "title": "The Race to Own AI Shopping",
@@ -81,6 +120,48 @@
       "multi-agent-commerce",
       "multi-agent-market",
       "merchant-incentive"
+    ]
+  },
+  {
+    "id": "2026-09-05-app-ju1111-a1d080eb56",
+    "date": "2026-09-05",
+    "title": "支付宝携手千问App、淘宝闪购等发布首个JU1111网站协议_体坛网_体坛+",
+    "source": "体坛",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://m.ttplus.cn/HOeV7Gmwikicu",
+    "tags": [
+      "竞品案例",
+      "交易闭环",
+      "即时零售"
+    ],
+    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
+    "valueScore": 87,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "data-transaction-moat",
+      "high-frequency-entry"
+    ]
+  },
+  {
+    "id": "2026-09-05-app-ai-act-457b66c831",
+    "date": "2026-09-05",
+    "title": "体育投注注册在线携手淘宝闪购、千问App等发布中国首个AI商业协议ACT",
+    "source": "体坛",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://ttplus.cn/wiki-pRv5OLhAXL.html",
+    "tags": [
+      "竞品案例",
+      "即时零售"
+    ],
+    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "data-transaction-moat",
+      "high-frequency-entry"
     ]
   },
   {
@@ -103,6 +184,88 @@
       "trust-ladder",
       "risk-first-design",
       "post-purchase-agent"
+    ]
+  },
+  {
+    "id": "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
+    "date": "2026-09-04",
+    "title": "Will agentic commerce push more merchants into marketplaces?",
+    "source": "TechRadar",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://techradar.com/pro/will-agentic-commerce-push-more-merchants-into-marketplaces",
+    "tags": [
+      "虚拟试穿",
+      "Agentic Commerce",
+      "商家Agent"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "multi-agent-commerce",
+      "multi-agent-market"
+    ]
+  },
+  {
+    "id": "2026-09-04-marktechpost-anthropic-released-3cc64d89bf",
+    "date": "2026-09-04",
+    "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
+    "source": "MarkTechPost",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment",
+    "tags": [
+      "虚拟试穿",
+      "商家Agent",
+      "技术架构"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "multi-agent-commerce",
+      "multi-agent-market",
+      "merchant-incentive"
+    ]
+  },
+  {
+    "id": "2026-09-04-pymnts-com-anthropic-debuts-com-620d0c24e6",
+    "date": "2026-09-04",
+    "title": "Anthropic Debuts Commerce Agent Blueprint With Visa and Mastercard",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/anthropic-built-the-shopping-brain-and-skipped-the-wallet",
+    "tags": [
+      "虚拟试穿",
+      "技术架构"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "multi-agent-commerce"
+    ]
+  },
+  {
+    "id": "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
+    "date": "2026-09-03",
+    "title": "Walmart shoppers can now get Dunkin’ delivered alongside orders",
+    "source": "Retail Dive",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://retaildive.com/news/walmart-shoppers-dunkin-delivery-coffee/829560",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 80,
+    "relatedInsightIds": [
+      "closed-loop-first"
     ]
   },
   {
