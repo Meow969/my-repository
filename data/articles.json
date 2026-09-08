@@ -21,6 +21,26 @@
     ]
   },
   {
+    "id": "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
+    "date": "2026-09-07",
+    "title": "NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand",
+    "source": "stocktwits.com",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://stocktwits.com/news-articles/markets/equity/nike-stock-pre-market-google-gemini-ai-fifa-world-cup-2026/cZXDwngReVn",
+    "tags": [
+      "AI购物",
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
     "id": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
     "date": "2026-09-06",
     "title": "Agentic Commerce Starts With Product Data as AI Shopping Metrics Take Shape",
@@ -295,6 +315,25 @@
     ]
   },
   {
+    "id": "2026-09-01-retail-dive-target-bets-on-90s--1bc342b7cd",
+    "date": "2026-09-01",
+    "title": "Target bets on ’90s nostalgia with exclusive Delia’s collection",
+    "source": "Retail Dive",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://retaildive.com/news/target-90s-nostalgia-exclusive-delias-collection/829163",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 79,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
     "id": "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
     "date": "2026-09-01",
     "title": "Global Digital Shopping Index: The Agentic Commerce Deep Dive",
@@ -378,6 +417,26 @@
     ]
   },
   {
+    "id": "2026-08-29-finance-biggo-com-evercore-lift-8b8776f56a",
+    "date": "2026-08-29",
+    "title": "Evercore Lifts Amazon Price Target to $355 as AI Shopping Gains Traction",
+    "source": "finance.biggo.com",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://finance.biggo.com/news/62be6422-2a59-4855-b9a4-7bf1f6aa8fbb",
+    "tags": [
+      "AI购物",
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
     "id": "daily-2026-08-28-a458803df2cd95",
     "date": "2026-08-28",
     "title": "ChatGPT Now Helps You Pick a Credit Card",
@@ -394,6 +453,28 @@
     "valueScore": 87,
     "relatedInsightIds": [
       "decision-os"
+    ]
+  },
+  {
+    "id": "2026-08-28-ue-keeta-ai-a686e8011b",
+    "date": "2026-08-28",
+    "title": "美团电话会：三季度外卖UE预计同比明显改善，Keeta盈利加速，AI迈向商家端",
+    "source": "华尔街见闻",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://wallstreetcn.com/articles/3780576",
+    "tags": [
+      "竞品案例",
+      "即时零售",
+      "商家Agent"
+    ],
+    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "multi-agent-commerce",
+      "multi-agent-market",
+      "high-frequency-entry"
     ]
   },
   {
@@ -472,6 +553,26 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
+    ]
+  },
+  {
+    "id": "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
+    "date": "2026-08-25",
+    "title": "Walmart says its AI assistant, Sparky, is leading to customers spending 40% more than those who shop without it",
+    "source": "Yahoo Finance",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://finance.yahoo.com/technology/ai/articles/walmart-says-ai-assistant-sparky-163000558.html",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。",
+    "insight": "产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "decision-os",
+      "competitor-function-radar"
     ]
   },
   {
