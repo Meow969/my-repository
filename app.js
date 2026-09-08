@@ -162,8 +162,8 @@ function renderGlobalStats() {
   const insightCount = activeInsights().length;
   const totalInsights = state.insights.length + state.userInsights.length;
   const label = state.query
-    ? `语义召回：资讯 ${feedCount} 条 · 灵感 ${insightCount} 个`
-    : `${fmtMonth(state.month)} ${currentMonthCount} 条精选 · 灵感 ${totalInsights} 个`;
+    ? `资讯 ${feedCount} · 灵感 ${insightCount}`
+    : `${state.month.slice(5)}月 ${currentMonthCount}条 · 灵感 ${totalInsights}`;
   document.getElementById('globalStats').textContent = label;
 }
 
