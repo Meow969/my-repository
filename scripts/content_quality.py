@@ -181,6 +181,20 @@ def normalized_article_text(item: dict[str, Any]) -> str:
     ]).lower()
 
 
+def normalized_meaning(value: str) -> str:
+    text = unicodedata.normalize("NFKC", clean_display_title(value or "", "")).lower()
+    text = re.sub(r"[^a-z0-9\u4e00-\u9fa5]+", "", text)
+    return text
+
+
+def insight_signature(item: dict[str, Any]) -> str:
+    core = normalized_meaning(str(item.get("corePoint", "")))
+    insight = normalized_meaning(str(item.get("insight", "")))
+    if len(core) < 18 or len(insight) < 18:
+        return ""
+    return f"{core}|{insight}"
+
+
 def event_signature(item: dict[str, Any]) -> str:
     text = normalized_article_text(item)
     date = str(item.get("date", ""))[:7]
@@ -255,6 +269,12 @@ def is_duplicate(left: dict[str, Any], right: dict[str, Any]) -> bool:
         return True
     left_event = event_signature(left)
     if left_event and left_event == event_signature(right):
+        return True
+    left_meaning = insight_signature(left)
+    if left_meaning and left_meaning == insight_signature(right) and (
+        str(left.get("date", "")) == str(right.get("date", ""))
+        or title_similarity(left, right) >= 0.55
+    ):
         return True
     left_title = normalized_title(left.get("title", ""), left.get("source", ""))
     right_title = normalized_title(right.get("title", ""), right.get("source", ""))

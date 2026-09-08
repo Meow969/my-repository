@@ -298,6 +298,7 @@ INSIGHT_RULES = {
 }
 
 AUTO_INSIGHT_PREFIX = "auto-"
+DAILY_INSIGHT_PREFIX = "daily-reflection-"
 
 NEGATIVE_WORDS = ["融资", "培训", "课程", "招商", "广告", "大会报名", "招聘", "破解版"]
 BLOCKED_URL_HOSTS = {"ebrun.com", "ttplus.cn"}
@@ -570,6 +571,23 @@ def infer_category(tags: list[str], text: str) -> str:
     return "趋势框架"
 
 
+def infer_content_type(tags: list[str], category: str, text: str, source: str = "") -> str:
+    lower = text.lower()
+    if "竞品案例" in tags or category in {"平台案例", "竞品功能"}:
+        return "竞品"
+    if "技术架构" in tags or any(word in lower for word in ["protocol", "blueprint", "openclaw", "ucp", "mcp", "协议", "架构"]):
+        return "技术/协议"
+    if "商家Agent" in tags or category == "商家/生态" or any(word in lower for word in ["merchant", "seller", "商家", "卖家", "生态"]):
+        return "商家生态"
+    if any(word in lower for word in ["report", "survey", "forecast", "research", "调研", "报告", "预测", "数据"]):
+        return "研究数据"
+    if any(word in lower for word in ["观点", "深度", "why", "how", "解析", "复盘", "拆解"]):
+        return "深度观点"
+    if category in {"C端AI产品", "产品功能", "AI搜索", "智能体购物"}:
+        return "产品功能"
+    return "行业新闻"
+
+
 def score_item(item: dict[str, Any], tags: list[str]) -> int:
     text = f"{item['title']} {item.get('snippet', '')}"
     score = 45 + SOURCE_WEIGHT.get(item.get("source", ""), 0) + len(tags) * 5
@@ -594,40 +612,42 @@ def related_insights(text: str) -> list[str]:
 def make_core_point(item: dict[str, Any], tags: list[str]) -> str:
     title = item["title"]
     lower = title.lower()
+    subject = f"《{title}》"
     if any(word in lower for word in ["sparky", "alexa for shopping", "rufus", "ai shopping assistant", "ai-powered shopping"]):
-        return "海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。"
+        return f"{subject}显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。"
     if any(word in title for word in ["问小团", "小美"]):
-        return "美团类本地生活AI的关键不在“会聊天”，而在能把位置、时间、排队、配送、优惠和服务约束合并成即时决策。"
+        return f"{subject}显示，美团类本地生活AI的关键不在“会聊天”，而在能把位置、时间、排队、配送、优惠和服务约束合并成即时决策。"
     if any(word in title for word in ["千问", "淘宝", "天猫", "AI万能搜"]):
-        return "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。"
+        return f"{subject}显示，阿里系AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。"
     if "虚拟试穿" in tags:
-        return "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。"
+        return f"{subject}说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。"
     if "竞品案例" in tags:
-        return "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。"
+        return f"{subject}的信号在于：头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。"
     if "交易闭环" in tags:
-        return "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。"
+        return f"{subject}说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。"
     if "技术架构" in tags:
-        return "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。"
+        return f"{subject}说明，购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。"
     if "即时零售" in tags:
-        return "高频低风险的即时消费场景更容易培养用户使用AI购物的习惯。"
+        return f"{subject}说明，高频低风险的即时消费场景更容易培养用户使用AI购物的习惯。"
     if "GEO" in tags:
-        return "商家竞争正在从搜索排名延伸到AI答案可见性和智能体推荐资格。"
+        return f"{subject}说明，商家竞争正在从搜索排名延伸到AI答案可见性和智能体推荐资格。"
     if "Agentic Commerce" in tags:
-        return "Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。"
+        return f"{subject}说明，Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。"
     return f"围绕“{title}”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。"
 
 
 def make_insight(item: dict[str, Any], tags: list[str]) -> str:
     title = item["title"]
     lower = title.lower()
+    subject = f"围绕《{title}》"
     if any(word in lower for word in ["sparky", "alexa for shopping", "rufus", "ai shopping assistant", "ai-powered shopping"]):
-        return "产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。"
+        return f"{subject}，产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。"
     if any(word in title for word in ["问小团", "小美"]):
-        return "本地生活导购适合从“帮我安排今晚/附近/预算内”切入，把服务供给实时性做成差异化；比起商品参数，用户更在意确定性和省心程度。"
+        return f"{subject}，本地生活导购适合从“帮我安排今晚/附近/预算内”切入，把服务供给实时性做成差异化；比起商品参数，用户更在意确定性和省心程度。"
     if any(word in title for word in ["千问", "淘宝", "天猫", "AI万能搜"]):
-        return "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。"
+        return f"{subject}，AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。"
     if "虚拟试穿" in tags:
-        return "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。"
+        return f"{subject}，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。"
     if "竞品案例" in tags:
         return "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。"
     if "交易闭环" in tags or "商品库" in tags:
@@ -637,7 +657,9 @@ def make_insight(item: dict[str, Any], tags: list[str]) -> str:
     if "即时零售" in tags:
         return "先从复购、买菜、日用品等低风险场景建立偏好记忆，比从复杂大件切入更容易形成日常使用。"
     if "GEO" in tags:
-        return "需要为商家建设AI可读信息资产，让商品卖点、适用场景、证据、履约承诺能被智能体稳定理解和引用。"
+        return f"{subject}，需要为商家建设AI可读信息资产，让商品卖点、适用场景、证据、履约承诺能被智能体稳定理解和引用。"
+    if "Agentic Commerce" in tags:
+        return f"{subject}，不要只看它是不是又一个AI入口，而要看它是否改变了发现、比较、确认和支付之间的责任分工。"
     return "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。"
 
 
@@ -649,13 +671,16 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
     tags = infer_tags(text)
     if not is_relevant(item, tags):
         return {}
+    category = infer_category(tags, text)
+    content_type = infer_content_type(tags, category, text, item["source"])
     return {
         "id": slugify(f"{item['date']}-{item['source']}-{item['title']}"),
         "date": item["date"],
         "title": item["title"],
         "source": item["source"],
         "region": item["region"],
-        "category": infer_category(tags, text),
+        "contentType": content_type,
+        "category": category,
         "url": item["url"],
         "tags": tags,
         "corePoint": make_core_point(item, tags),
@@ -815,10 +840,90 @@ def build_auto_insights(articles: list[dict[str, Any]], now: str) -> list[dict[s
     ]
 
 
+def daily_reflection_angle(articles: list[dict[str, Any]]) -> tuple[str, str, str, list[str]]:
+    text = " ".join([
+        " ".join(item.get("tags", [])) + " " + item.get("title", "") + " " + item.get("corePoint", "")
+        for item in articles
+    ]).lower()
+    if any(term in text for term in ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "amazon", "alexa", "rufus", "walmart", "target", "pinterest", "instacart", "shopee", "得物"]):
+        return (
+            "竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
+            "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
+            "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
+            ["竞品拆解", "功能模块", "交易闭环", "产品假设"],
+        )
+    if any(term in text for term in ["试穿", "试衣", "visual", "fashion", "style", "图片", "视觉"]):
+        return (
+            "视觉能力的价值不是生成图片，而是把购买风险提前显性化",
+            "当天资料指向非标品导购的关键：用户真正缺的不是更多商品，而是对尺码、风格、场景适配和后悔成本的判断证据。",
+            "试穿、相似款和风格翻译应进入推荐排序，让AI从“描述商品”升级为“证明它适合我”。",
+            ["视觉导购", "适配证据", "非标品", "风险前置"],
+        )
+    if any(term in text for term in ["agentic commerce", "checkout", "支付", "下单", "购物车", "闭环"]):
+        return (
+            "AI导购的分水岭是能否承担交易责任",
+            "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
+            "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
+            ["交易责任", "授权边界", "支付闭环", "可靠执行"],
+        )
+    if any(term in text for term in ["商家", "merchant", "seller", "商品库", "可见性", "geo"]):
+        return (
+            "下一代导购竞争会先发生在供给侧",
+            "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
+            "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
+            ["供给侧", "机器可读", "商家Agent", "AI可见性"],
+        )
+    if any(term in text for term in ["记忆", "personal", "偏好", "复购", "habit"]):
+        return (
+            "记忆不是用户画像，而是可编辑的购买约束",
+            "当天资料显示，长期偏好只有在预算、品牌禁忌、尺码、补货周期和场景里被用户看见并可修改，才会变成信任资产。",
+            "AI导购应提供“我的购买规则”面板，让用户能纠正、冻结或删除记忆，而不是被动接受黑箱个性化。",
+            ["记忆", "购买约束", "复购", "可编辑偏好"],
+        )
+    return (
+        "把新闻变成产品资产，关键是沉淀可实验假设",
+        "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
+        "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
+        ["产品假设", "信息复盘", "实验设计", "决策链路"],
+    )
+
+
+def build_daily_reflections(articles: list[dict[str, Any]], now: str) -> list[dict[str, Any]]:
+    by_date: dict[str, list[dict[str, Any]]] = {}
+    for item in articles:
+        by_date.setdefault(item["date"], []).append(item)
+    reflections = []
+    for date in sorted(by_date.keys(), reverse=True):
+        day_articles = sorted(by_date[date], key=lambda item: item.get("valueScore", 0), reverse=True)
+        top = day_articles[:4]
+        title, summary, trend_note, keywords = daily_reflection_angle(top)
+        tags = [tag for tag, _ in tag_counts(top)[:5]]
+        reflections.append({
+            "id": f"{DAILY_INSIGHT_PREFIX}{date}",
+            "title": f"{date[5:]} 反思：{title}",
+            "summary": summary,
+            "trendNote": trend_note,
+            "takeaways": [
+                "把当天信号改写成一个可验证产品假设",
+                "优先记录它影响的是入口、证据、授权还是交易",
+                "把相关资料挂回灵感，避免资讯只被收藏不被复用",
+            ],
+            "keywords": list(dict.fromkeys(keywords + tags))[:8],
+            "relatedArticleIds": [item["id"] for item in top],
+            "sourceCount": len(day_articles),
+            "updatedAt": now,
+        })
+    return reflections
+
+
 def refresh_insights(articles: list[dict[str, Any]]) -> int:
     now = dt.datetime.now(TZ).date().isoformat()
     existing = load_json(INSIGHTS_PATH, [])
-    base = [item for item in existing if not str(item.get("id", "")).startswith(AUTO_INSIGHT_PREFIX)]
+    base = [
+        item for item in existing
+        if not str(item.get("id", "")).startswith(AUTO_INSIGHT_PREFIX)
+        and not str(item.get("id", "")).startswith(DAILY_INSIGHT_PREFIX)
+    ]
     recent_cutoff = dt.datetime.now(TZ).date() - dt.timedelta(days=30)
     recent = [item for item in articles if dt.date.fromisoformat(item["date"]) >= recent_cutoff]
     reviewed = []
@@ -831,9 +936,10 @@ def refresh_insights(articles: list[dict[str, Any]]) -> int:
         updated["trendNote"] = trend_note_for(insight, related, recent)
         updated["updatedAt"] = now
         reviewed.append(updated)
+    daily_reflections = build_daily_reflections(articles, now)
     auto = build_auto_insights(articles, now)
-    write_json(INSIGHTS_PATH, reviewed + auto)
-    return len(reviewed) + len(auto)
+    write_json(INSIGHTS_PATH, reviewed + daily_reflections + auto)
+    return len(reviewed) + len(daily_reflections) + len(auto)
 
 
 def main() -> None:

@@ -58,6 +58,7 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .score { flex: 0 0 auto; color: white; background: var(--ink); border-radius: 999px; padding: 6px 10px; font-weight: 900; font-size: 13px; height: fit-content; }
 .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
 .pill { border: 1px solid var(--line); background: rgba(255,255,255,0.64); color: var(--muted); border-radius: 999px; padding: 6px 10px; font-size: 12px; }
+.type-pill { border-color: rgba(255,122,69,0.24); background: rgba(255,122,69,0.11); color: var(--accent-2); font-weight: 900; }
 .article-card h4, .monthly-card h4 { margin: 14px 0 6px; font-size: 14px; color: var(--accent); }
 .article-card p, .monthly-card p { margin: 0; color: #35323a; line-height: 1.76; }
 .open-link { display: inline-flex; margin-top: 16px; color: var(--accent); font-weight: 900; }
@@ -88,6 +89,7 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .insight-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .user-grid:empty { display: none; }
 .insight-card { background: white; border: 1px solid var(--line); border-radius: 26px; padding: 22px; }
+.daily-reflection-card { background: linear-gradient(145deg, #ffffff, #f7f4ff); border-color: rgba(107,78,255,0.2); }
 .insight-card h3 { margin: 6px 0 10px; font-size: 22px; letter-spacing: -0.04em; }
 .insight-card p { color: var(--muted); line-height: 1.72; margin: 0 0 14px; }
 .trend-note { color: #30284e !important; background: rgba(107,78,255,0.08); border-left: 4px solid var(--accent); padding: 12px 14px; border-radius: 14px; }

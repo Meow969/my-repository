@@ -1,26 +1,5 @@
 [
   {
-    "id": "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-    "date": "2026-09-08",
-    "title": "Agentic Commerce Demands a Full Consumer Experience, Not Just a Smarter Checkout",
-    "source": "Beet.TV",
-    "region": "海外",
-    "category": "趋势框架",
-    "url": "https://beet.tv/2026/09/agentic-commerce-demands-a-full-consumer-experience-not-just-a-smarter-checkout.html",
-    "tags": [
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "agentic-funnel",
-      "multi-agent-commerce"
-    ]
-  },
-  {
     "id": "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
     "date": "2026-09-07",
     "title": "NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand",
@@ -33,12 +12,13 @@
       "竞品案例",
       "虚拟试穿"
     ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "corePoint": "《NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
     "valueScore": 76,
     "relatedInsightIds": [
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
@@ -61,7 +41,8 @@
       "data-transaction-moat",
       "merchant-readable-store",
       "ranking-governance"
-    ]
+    ],
+    "contentType": "研究数据"
   },
   {
     "id": "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
@@ -82,7 +63,8 @@
       "multi-agent-commerce",
       "multi-agent-market",
       "merchant-incentive"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
@@ -96,12 +78,13 @@
       "竞品案例",
       "虚拟试穿"
     ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "corePoint": "《How AI is powering Target’s back-to-school push》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《How AI is powering Target’s back-to-school push》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
     "valueScore": 80,
     "relatedInsightIds": [
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-09-04-a8839bacba28ee",
@@ -115,15 +98,16 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《资本疯狂押注！AI购物助手崛起，颠覆电商支付行业》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "risk-first-design",
       "post-purchase-agent"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
@@ -145,7 +129,8 @@
       "multi-agent-market",
       "merchant-readable-store",
       "agentic-funnel"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
@@ -159,13 +144,14 @@
       "Agentic Commerce",
       "技术架构"
     ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "corePoint": "《Anthropic debuts Claude features focused on agentic commerce》说明，购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
     "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
@@ -178,7 +164,7 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "corePoint": "《Agentic Payment 智能体支付研报：从支付路径到生态图景》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
     "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 72,
     "relatedInsightIds": [
@@ -186,7 +172,8 @@
       "risk-first-design",
       "post-purchase-agent",
       "closed-loop-first"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-09-02-0860bf13512c29",
@@ -200,15 +187,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“How 23% of Merchants Captured Retail’s Next Agentic Commerce Advantage”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
@@ -221,32 +209,14 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
-    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
+    "corePoint": "《Spreedly Sees Good Bots Becoming an Agentic Commerce Channel》说明，Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
+    "insight": "围绕《Spreedly Sees Good Bots Becoming an Agentic Commerce Channel》，不要只看它是不是又一个AI入口，而要看它是否改变了发现、比较、确认和支付之间的责任分工。",
     "valueScore": 75,
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-    "date": "2026-09-02",
-    "title": "How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "趋势框架",
-    "url": "https://pymnts.com/study/how-acquirers-prepare-for-agentic-commerce",
-    "tags": [
-      "Agentic Commerce"
     ],
-    "corePoint": "Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
-    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "multi-agent-commerce"
-    ]
+    "contentType": "行业新闻"
   },
   {
     "id": "2026-09-02-yahoo-finance-niq-and-similarwe-b725b9f9af",
@@ -269,7 +239,8 @@
       "answer-shelf",
       "ranking-governance",
       "merchant-readable-store"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-09-01-1531069370f45e",
@@ -293,7 +264,8 @@
       "trust-ladder",
       "post-purchase-agent",
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
@@ -307,12 +279,13 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "corePoint": "《Kohl’s digital sales grow as AI shopping tools help conversion, despite Q2 overall sales decline》的信号在于：头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
     "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
     "valueScore": 80,
     "relatedInsightIds": [
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "2026-09-01-retail-dive-target-bets-on-90s--1bc342b7cd",
@@ -326,31 +299,13 @@
       "竞品案例",
       "虚拟试穿"
     ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "corePoint": "《Target bets on ’90s nostalgia with exclusive Delia’s collection》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Target bets on ’90s nostalgia with exclusive Delia’s collection》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
     "valueScore": 79,
     "relatedInsightIds": [
       "competitor-function-radar"
-    ]
-  },
-  {
-    "id": "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
-    "date": "2026-09-01",
-    "title": "Global Digital Shopping Index: The Agentic Commerce Deep Dive",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "趋势框架",
-    "url": "https://pymnts.com/study/global-digital-shopping-index-agentic-commerce-deep-dive",
-    "tags": [
-      "Agentic Commerce"
     ],
-    "corePoint": "Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
-    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
-    "valueScore": 74,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "multi-agent-commerce"
-    ]
+    "contentType": "竞品"
   },
   {
     "id": "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
@@ -363,13 +318,14 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "corePoint": "《实测微信AI助手、AI版支付宝，生态与安全成决胜关键 - 36kr.com》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
     "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 72,
     "relatedInsightIds": [
       "trust-ladder",
       "closed-loop-first"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-08-30-d22191244e060f",
@@ -383,15 +339,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“别再聊AI搜索了 Perplexity已经在布局下一个战略方向”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-29-2134c3dedae52a",
@@ -406,15 +363,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Mastercard CEO: AI Shopping Agents, Machine-to-Machine Payments, and the New Infrastructure of Commerce》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "2026-08-29-finance-biggo-com-evercore-lift-8b8776f56a",
@@ -429,12 +387,13 @@
       "竞品案例",
       "虚拟试穿"
     ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "corePoint": "《Evercore Lifts Amazon Price Target to $355 as AI Shopping Gains Traction》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Evercore Lifts Amazon Price Target to $355 as AI Shopping Gains Traction》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
     "valueScore": 73,
     "relatedInsightIds": [
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-08-28-a458803df2cd95",
@@ -453,7 +412,8 @@
     "valueScore": 87,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "2026-08-28-ue-keeta-ai-a686e8011b",
@@ -468,14 +428,15 @@
       "即时零售",
       "商家Agent"
     ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "corePoint": "《美团电话会：三季度外卖UE预计同比明显改善，Keeta盈利加速，AI迈向商家端》的信号在于：头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
     "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
     "valueScore": 73,
     "relatedInsightIds": [
       "multi-agent-commerce",
       "multi-agent-market",
       "high-frequency-entry"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086",
@@ -488,13 +449,14 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
-    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
+    "corePoint": "《AI Spotlight: Enabling Purchases While Stopping Fraud in Agentic Commerce》说明，Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
+    "insight": "围绕《AI Spotlight: Enabling Purchases While Stopping Fraud in Agentic Commerce》，不要只看它是不是又一个AI入口，而要看它是否改变了发现、比较、确认和支付之间的责任分工。",
     "valueScore": 75,
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "2026-08-27-pymnts-com-synchrony-says-ai-ha-af0cd4d007",
@@ -507,13 +469,14 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "corePoint": "《Synchrony Says AI Has Put Every Checkout in Play》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
     "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 73,
     "relatedInsightIds": [
       "closed-loop-first",
       "agentic-funnel"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-08-26-21460ced93cc20",
@@ -526,15 +489,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“技术革命：为 Agentic AI 时代做好准备 | 技术趋势”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "2026-08-26-stripe-wolf-badger-makes-shoppi-f381faf542",
@@ -547,13 +511,14 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
-    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
+    "corePoint": "《Wolf & Badger Makes Shopping Easier with Agentic Commerce》说明，Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
+    "insight": "围绕《Wolf & Badger Makes Shopping Easier with Agentic Commerce》，不要只看它是不是又一个AI入口，而要看它是否改变了发现、比较、确认和支付之间的责任分工。",
     "valueScore": 75,
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
@@ -573,7 +538,8 @@
     "relatedInsightIds": [
       "decision-os",
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-08-23-9ac5af530d0367",
@@ -591,7 +557,8 @@
     "valueScore": 73,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-22-d0935ce5172bc8",
@@ -605,15 +572,16 @@
       "AI购物",
       "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“PointAI, AI Partner to Aditya Birla Fashion, Eyes Rollout of One-Second Virtual Try-On Technology Across ABFRL Stores”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "category-wedge",
       "structured-dialogue",
       "risk-first-design",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-21-efe214be6e9775",
@@ -628,15 +596,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“阿里国际智能体已有超5万付费商家，能力正式向国内电商开放”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-08-20-84c99b15d913fa",
@@ -652,15 +621,16 @@
       "商家接入",
       "AI搜索"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "《Leading eCommerce Retailer Expands Adoption of HawkSearch With Hybrid Search and AI Shopping Assistant》显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。",
+    "insight": "围绕《Leading eCommerce Retailer Expands Adoption of HawkSearch With Hybrid Search and AI Shopping Assistant》，产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。",
     "valueScore": 85,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-08-19-4e433b148c4222",
@@ -678,26 +648,8 @@
     "valueScore": 85,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "2026-08-19-324cc45313",
-    "date": "2026-08-19",
-    "title": "支付宝发布智能体商业底座，联合多家企业共建生态",
-    "source": "三易生活",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "https://3elife.net/Art/internet/202608/19/109449.html",
-    "tags": [
-      "Agentic Commerce",
-      "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "closed-loop-first"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
@@ -711,34 +663,15 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "corePoint": "《押宝智能体商业赛道 支付机构加速抢占核心流量入口 - eu.36kr.com》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
     "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 72,
     "relatedInsightIds": [
       "closed-loop-first",
       "agentic-funnel",
       "contextual-entry"
-    ]
-  },
-  {
-    "id": "2026-08-19-6-08a28b00bd",
-    "date": "2026-08-19",
-    "title": "国内首个智能体跨端互联协议发布，智能体加速商业化，商家支付费率打6折",
-    "source": "上观新闻",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "https://shobserver.cn/news/detail?id=1162176",
-    "tags": [
-      "交易闭环",
-      "商家Agent"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 72,
-    "relatedInsightIds": [
-      "multi-agent-commerce",
-      "merchant-readable-store"
-    ]
+    "contentType": "行业新闻"
   },
   {
     "id": "2026-08-18-aha-20-fc9a45c80c",
@@ -751,12 +684,13 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "corePoint": "《支付宝发布智能体跨端互联AHA协议体系，联合千问、华为、荣耀、比亚迪、吉利等20余家企业共建》显示，阿里系AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
+    "insight": "围绕《支付宝发布智能体跨端互联AHA协议体系，联合千问、华为、荣耀、比亚迪、吉利等20余家企业共建》，AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
     "valueScore": 72,
     "relatedInsightIds": [
       "closed-loop-first"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-08-17-15b0a44055b65e",
@@ -775,7 +709,8 @@
     "valueScore": 88,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-16-286aec54d0edce",
@@ -788,15 +723,16 @@
     "tags": [
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Stop Searching, Start Chatting: Glovo pioneers AI quick-commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 69,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-15-32e6ac7bd8b443",
@@ -811,15 +747,16 @@
       "C端AI产品",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Can AI Find the Perfect Gift? I Tested ChatGPT, Gemini, Perplexity and Alexa to See Which Worked Best”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-13-d3070ee4db7fb7",
@@ -834,15 +771,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Rise of AI shopping pushes merchants to protect loyalty, Adyen says”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-08-12-02b78319368c06",
@@ -866,7 +804,8 @@
       "memory-as-asset",
       "data-transaction-moat",
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-08-11-99dd644a355aa5",
@@ -881,15 +820,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《How AI Shopping Agents, Stablecoins and Smarter Checkout Drive Business Growth》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 91,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-08-09-7debda74073518",
@@ -903,15 +843,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Top 100 Business Trends in August 2026: From AI Shopping Agents to Agentic Commerce…”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-08-ca3accf328697b",
@@ -930,7 +871,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-07-805eb37e0578fe",
@@ -945,15 +887,16 @@
       "交易闭环",
       "商家接入"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Retailers Steer AI Traffic Back to Own Checkouts》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 95,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "merchant-readable-store",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-08-06-6685b71f4a4ee6",
@@ -971,7 +914,8 @@
     "valueScore": 89,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-05-73d5671dbd19ad",
@@ -985,15 +929,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Shopify says AI search is driving more traffic and sales, not replacing Google”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-08-04-c752dcf8432726",
@@ -1011,7 +956,8 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-31-d8b016eaba3d0a",
@@ -1029,7 +975,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-30-92bd9948eec7fd",
@@ -1043,15 +990,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“How avatarin built a 24/7 retail agent with GPT-Realtime”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-07-28-0cfa5b4dab8be8",
@@ -1066,15 +1014,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Algolia Brings Agentic Commerce to the Modern Storefront, Giving Retailers AI Shopping Experiences Built on Trusted Product Data”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-07-27-df057072123319",
@@ -1087,15 +1036,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Q&A: Kingfisher chief AI officer on being ahead of the curve with AI agents and agentic commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-26-6b2b25d2de499a",
@@ -1108,15 +1058,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“AI Agent 与前沿部署工程：商业决策智能实践 ｜ Summit 2026”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 71,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-24-e4167899ef67b3",
@@ -1130,15 +1081,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Your Taxes: Can AI tax agents replace human experience in the tax field?”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-23-1e9dcb440e5776",
@@ -1157,7 +1109,8 @@
     "valueScore": 92,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-22-b4c4f3b8977958",
@@ -1172,36 +1125,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Schnucks Teams With VitalityIP on AI-Powered Agentic Shopping Assistant”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2026-07-20-145039c839b856",
-    "date": "2026-07-20",
-    "title": "Agentic commerce: why AI agents are transforming the ecommerce landscape",
-    "source": "TechRadar",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://techradar.com/pro/agentic-commerce-why-ai-agents-are-transforming-the-ecommerce-landscape",
-    "tags": [
-      "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 85,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-19-0fa747f02e5a78",
@@ -1214,15 +1147,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“蚂蚁数科WAIC发布“商业智能体超级工厂”，开启全天候“AI生产力”时代”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 71,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "date": "2026-07-18",
@@ -1246,7 +1180,8 @@
       "risk-first-design",
       "social-proof-rebuild"
     ],
-    "id": "competitor-2026-07-18-app-waic-2026-ai-950c3c37be"
+    "id": "competitor-2026-07-18-app-waic-2026-ai-950c3c37be",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-07-17-90c1e8042bffc3",
@@ -1265,7 +1200,8 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-16-4067a81ccd9406",
@@ -1279,15 +1215,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“48% of Online Shoppers Now Use AI Before Buying”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 87,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-15-fc27d77a39d3c3",
@@ -1305,7 +1242,8 @@
     "valueScore": 89,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-14-d344ac9140db6d",
@@ -1321,15 +1259,16 @@
       "交易闭环",
       "AI搜索"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《The Millennial Shopping Map: How AI, Search and Stores Compete Before Checkout》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 95,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-07-13-f6670fa6430b20",
@@ -1343,15 +1282,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Build an autonomous ecommerce assistant with AWS End User Messaging, Amazon Bedrock AgentCore, and OpenClaw”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2026-07-12-4aea95fbfc804d",
@@ -1369,7 +1309,8 @@
     "valueScore": 73,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-10-a0c7e4052c573b",
@@ -1383,15 +1324,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“AI agents for ecommerce: how they work, top tools, and how to build one”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-07-09-3d36eb925f6e28",
@@ -1405,15 +1347,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“The New Storefront Is the AI Conversation”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 83,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-08-7faa93e3004991",
@@ -1428,15 +1371,16 @@
       "交易闭环",
       "AI搜索"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Agentic Payment 研报（上篇）：从支付宝3 亿笔AI 支付看智能体时代的支付重构序幕拉开，全景式解析A2A / A2M 范式、ACT 协议、授权模型、风控体系与全球玩家竞争》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 85,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2026-07-06-9ff3847b4f7534",
@@ -1450,15 +1394,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“When AI Goes Shopping Without Permission: What Amazon v. Perplexity Means for Ecommerce Brands”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-05-f85bd630b361be",
@@ -1472,15 +1417,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《The Borderless Stack: How Malaysia is Engineering Future Commerce with Alipay+》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 73,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-07-04-5f844913607099",
@@ -1494,15 +1440,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "《豆包、千问：将下线智能体功能》显示，阿里系AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
+    "insight": "围绕《豆包、千问：将下线智能体功能》，AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
     "valueScore": 79,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-07-03-59dfd664f66d5a",
@@ -1516,15 +1463,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“eDO Taps Visa to Allow AI Agents to Purchase Travel”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 87,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-07-02-a3cc9a9fd55e88",
@@ -1538,15 +1486,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Visa Unlocks Agentic Commerce in Europe: AI Agents Now Executing Live Retail Transactions”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-07-01-0a0622ecb22caf",
@@ -1565,7 +1514,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-06-29-442eeeee07cc27",
@@ -1580,15 +1530,16 @@
       "C端AI产品",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Amazon launches AI assistant for German sellers”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-06-27-ca12d684099abd",
@@ -1603,15 +1554,16 @@
       "C端AI产品",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "《AI Shopping Assistant Launches at Newegg: Real-Time Catalog Powers PC Build Advice》显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。",
+    "insight": "围绕《AI Shopping Assistant Launches at Newegg: Real-Time Catalog Powers PC Build Advice》，产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-06-26-7dd86f0799c245",
@@ -1626,15 +1578,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《AI Shopping Gets Complicated at Checkout》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-06-25-f8d9b1e2094c82",
@@ -1647,36 +1600,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“How agents are transforming work”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 87,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
-  },
-  {
-    "id": "daily-2026-06-24-dfef81698a4281",
-    "date": "2026-06-24",
-    "title": "Samsung Teams With Glance to Put Agentic Commerce on TV",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://pymnts.com/news/artificial-intelligence/2026/samsung-teams-with-glance-to-put-agentic-commerce-on-tv",
-    "tags": [
-      "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 91,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-06-22-84799743dc2b39",
@@ -1691,15 +1624,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“From invisible to recommended: How brands become visible to AI shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "date": "2026-06-22",
@@ -1723,7 +1657,8 @@
       "risk-first-design",
       "privacy-permission"
     ],
-    "id": "competitor-2026-06-22-shopee-ai-f87b7022fc"
+    "id": "competitor-2026-06-22-shopee-ai-f87b7022fc",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-06-19-10e5b92e51f050",
@@ -1739,15 +1674,16 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Instacart Reports AI Agent Drives Bigger Grocery Orders》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 91,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "研究数据"
   },
   {
     "id": "dialogue-is-shopping-2026-06-18",
@@ -1771,7 +1707,8 @@
       "merchant-readable-store",
       "data-transaction-moat",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-06-18-056958016a4b28",
@@ -1785,15 +1722,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Agentic commerce: how AI changes consumer decisions, brands, and retail”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-06-17-711a58e625bb7b",
@@ -1807,15 +1745,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Visa and Mastercard Put Tokens in Charge of AI Commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 91,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-06-16-30f36e4cb45b27",
@@ -1832,15 +1771,16 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Cart Assistant: Agentic Grocery Shopping on Uber Eats》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 85,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-06-15-999b5b1b29c57a",
@@ -1854,36 +1794,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Dutchie Launches Consumer AI featuring Voice AI, Agentic Commerce, Register Co-Pilot, and Consumer Pulse”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2026-06-12-b4b916f7bb872b",
-    "date": "2026-06-12",
-    "title": "Tips for brands to win with agentic commerce",
-    "source": "FoodNavigator.com",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://foodnavigator.com/Article/2026/06/12/agentic-commerce-and-the-shift-in-shopper-behavior",
-    "tags": [
-      "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-06-11-3d1f660fc96b5a",
@@ -1897,15 +1817,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Permission, Not Payments, Will Shape the Agentic Commerce Revolution》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 91,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-06-10-ad12dd8918a33b",
@@ -1918,15 +1839,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Europe’s new e‑commerce agenda: How AI is resetting growth and competition”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-06-09-7a19d15be76fd1",
@@ -1940,15 +1862,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Santander’s Getnet Plugs Merchants Into Agentic Commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 95,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-06-08-acf2f844514f0e",
@@ -1962,15 +1885,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Agentic commerce: AI is now your shopper’s first stop. Showing up is just the beginning.”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-06-04-882243a1fbce39",
@@ -1985,15 +1909,16 @@
       "视觉购物",
       "AI搜索"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Pinterest inks $4 billion AI deal with AWS, the largest infrastructure commitment in its history”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 95,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "category-wedge",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-06-03-914148b7d1dd69",
@@ -2008,15 +1933,16 @@
       "视觉购物",
       "AI搜索"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Amazon will show AI product images when you search for some reason”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "category-wedge",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "date": "2026-06-03",
@@ -2040,7 +1966,8 @@
       "risk-first-design",
       "closed-loop-first"
     ],
-    "id": "competitor-2026-06-03-sohu-ai-b174d31ca0"
+    "id": "competitor-2026-06-03-sohu-ai-b174d31ca0",
+    "contentType": "竞品"
   },
   {
     "id": "google-thrifting-ai-search-2026-06-03",
@@ -2063,7 +1990,8 @@
       "structured-dialogue",
       "decision-os",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-06-02-947e7cd6c292e7",
@@ -2078,15 +2006,16 @@
       "C端AI产品",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Press Release: Hey Savi and PayPal Launch UK's First Agentic Commerce Platform with In-App Checkout; Debenhams Group Joins as First Retail Adopter - Jun 2, 2026》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 85,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-06-01-2d1baaa8aadf8b",
@@ -2104,73 +2033,8 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "daily-2026-05-31-a01f641a94bd17",
-    "date": "2026-05-31",
-    "title": "AWS Launches AI Shopping Assistant for Global Retailers",
-    "source": "Business Chief",
-    "region": "海外",
-    "category": "商家/生态",
-    "url": "https://businesschief.com/news/aws-launches-ai-shopping-assistant-for-global-retailers",
-    "tags": [
-      "AI购物",
-      "C端AI产品",
-      "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "merchant-readable-store",
-      "multi-agent-market",
-      "decision-os",
-      "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2026-05-29-ad1b2b76719977",
-    "date": "2026-05-29",
-    "title": "The Trust Gap Holding Agentic Commerce Back",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://pymnts.com/news/artificial-intelligence/2026/trust-gap-holding-agentic-commerce-back",
-    "tags": [
-      "购物智能体"
-    ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 91,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
-  },
-  {
-    "id": "daily-2026-05-28-bcf7d492f15468",
-    "date": "2026-05-28",
-    "title": "The agentic commerce readiness gap: Are you AI-ready?",
-    "source": "Mirakl",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://mirakl.com/blogs/agentic-commerce/why-retailers-arent-ready-agentic-commerce-and-what-marketplace-leaders-do-differently",
-    "tags": [
-      "AI购物",
-      "购物智能体"
-    ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-05-27-91a7bfbfddefb5",
@@ -2185,15 +2049,16 @@
       "C端AI产品",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "《How AWS is helping retailers build their own AI-powered shopping experiences》显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。",
+    "insight": "围绕《How AWS is helping retailers build their own AI-powered shopping experiences》，产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。",
     "valueScore": 96,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-05-26-350c48d1f12bff",
@@ -2212,7 +2077,8 @@
     "valueScore": 92,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "2026-05-26-mastercard-agentic-commerce-ai--ba213632b7",
@@ -2226,14 +2092,15 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "corePoint": "《Agentic commerce & AI payments: Elevate your checkout strategy》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
     "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 79,
     "relatedInsightIds": [
       "closed-loop-first",
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-05-25-9fb56a369cf82d",
@@ -2247,15 +2114,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“The Agentic Commerce Checklist Every Merchant Needs Now”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 95,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-05-22-194e84580a4750",
@@ -2270,15 +2138,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Klarna Plugs Practical Agentic Commerce Into ChatGPT”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
@@ -2291,12 +2160,13 @@
     "tags": [
       "技术架构"
     ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "corePoint": "《How we’re helping retailers thrive with new Universal Commerce Protocol features and AI tools on Google》说明，购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
     "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
     "valueScore": 76,
     "relatedInsightIds": [
       "multi-agent-commerce"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "google-universal-cart-2026-05-20",
@@ -2320,7 +2190,8 @@
       "decision-os",
       "closed-loop-first",
       "intent-cart"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-05-20-8afe23caa75775",
@@ -2334,15 +2205,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Visa Wants to Make AI Shoppers as Trusted as Human Ones”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 87,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-05-19-3a3fd36fc59627",
@@ -2357,15 +2229,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Google's new Universal Cart wants to follow your entire shopping journey across the internet》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 93,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-05-18-883276d10f1140",
@@ -2383,7 +2256,8 @@
     "valueScore": 83,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-05-17-ee165670f60ece",
@@ -2397,15 +2271,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕““每个人都有了100名员工”——Perplexity首席商务官谈AI智能体能否真正撑起一门生意”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 63,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-05-15-fefecaf4ebc5f4",
@@ -2419,15 +2294,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“China leads the agentic commerce race as Alibaba, Meituan, and JD.com deploy AI shopping agents at scale”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-05-14-e53a0994cf069b",
@@ -2446,7 +2322,8 @@
     "valueScore": 92,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-05-13-3c134761dade73",
@@ -2470,7 +2347,8 @@
       "trust-ladder",
       "from-comparison-to-negotiation",
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-05-12-693fb8a1adcd89",
@@ -2485,15 +2363,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Research: Traditional Marketing Doesn’t Work on AI Shopping Agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 93,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "研究数据"
   },
   {
     "id": "daily-2026-05-11-8b28e0dba3e891",
@@ -2518,7 +2397,8 @@
       "closed-loop-first",
       "competitor-function-radar",
       "agentic-funnel"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "date": "2026-05-10",
@@ -2542,7 +2422,8 @@
       "category-wedge",
       "evidence-led-recommendation"
     ],
-    "id": "competitor-2026-05-10-ai-ai-b15ffc150d"
+    "id": "competitor-2026-05-10-ai-ai-b15ffc150d",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-05-09-b99a5f015693fc",
@@ -2556,15 +2437,16 @@
       "AI购物",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“以AI赋能电商内容生产运营提速，中国移动为商家降本增效”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "risk-first-design",
       "post-purchase-agent"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-05-08-2d9e349b78d019",
@@ -2578,37 +2460,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Rewiring Demand Generation in the Age of AI Agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
-  },
-  {
-    "id": "daily-2026-05-07-d68acfc631036b",
-    "date": "2026-05-07",
-    "title": "Shop ’til you bot: Google, OpenAI, and the race to build agentic commerce",
-    "source": "Fast Company",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://fastcompany.com/91533534/shop-til-you-bot-google-openai-and-the-race-to-build-agentic-commerce",
-    "tags": [
-      "AI购物",
-      "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "google-gardening-search-ai-2026-05-06",
@@ -2632,7 +2493,8 @@
       "structured-dialogue",
       "risk-first-design",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-05-05-e9a8c4d060c516",
@@ -2645,15 +2507,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“US agentic commerce revenue forecast to reach $1 trillion by 2030”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "研究数据"
   },
   {
     "id": "daily-2026-05-03-68fd902bc16590",
@@ -2666,15 +2529,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“自主商业智能体的12类攻击向量和五层安全框架”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-05-02-803ff0b6b27c76",
@@ -2688,15 +2552,16 @@
       "AI购物",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“As AI upends shopping, retailers tailor their pitches for chatbots”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "risk-first-design",
       "post-purchase-agent"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "google-ucp-updates-2026-05-01",
@@ -2721,7 +2586,8 @@
       "multi-agent-market",
       "closed-loop-first",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2026-05-01-51f21b5fca9bed",
@@ -2736,15 +2602,16 @@
       "C端AI产品",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Retailers are rushing to build AI apps. It’s unclear if shoppers will use them”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-04-29-3a833334ba1e57",
@@ -2763,7 +2630,8 @@
     "valueScore": 96,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "2026-04-29-stripe-beyond-checkout-where-ag-9310c1997a",
@@ -2777,14 +2645,15 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "corePoint": "《Beyond checkout: Where agentic commerce actually starts》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
     "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 79,
     "relatedInsightIds": [
       "closed-loop-first",
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-04-28-c593743066b83b",
@@ -2799,15 +2668,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“43% of Retailers Are Piloting AI Shopping Agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 91,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-04-27-89f2f8c8f3a763",
@@ -2821,15 +2691,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Shopping in the age of AI: Redefining stores for a new era”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 91,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-26-7e02c947827d17",
@@ -2843,40 +2714,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“AI: Anthropic's 'fascinating' internal test of AI Agents Shopping. RTZ #1068”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
-  },
-  {
-    "id": "daily-2026-04-24-b7bfc0643bbe0a",
-    "date": "2026-04-24",
-    "title": "Instacart brings grocery shopping to Claude",
-    "source": "Mass Market Retailers",
-    "region": "海外",
-    "category": "交易闭环",
-    "url": "https://massmarketretailers.com/instacart-brings-grocery-shopping-to-claude",
-    "tags": [
-      "AI购物",
-      "C端AI产品",
-      "交易闭环",
-      "商家接入",
-      "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "merchant-readable-store",
-      "risk-first-design"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "competitor-2026-04-23-google-spring-fashion-shopping-search",
@@ -2900,7 +2747,8 @@
       "contextual-entry",
       "visual-try-on-as-proof",
       "decision-os"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-04-22-3322ca2227bf9c",
@@ -2915,15 +2763,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Ulta Beauty Deploys Google-Powered AI Assistant and Agentic Commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-21-f57fef4cc46777",
@@ -2937,15 +2786,16 @@
       "C端AI产品",
       "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Introducing ChatGPT Images 2.0”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 83,
     "relatedInsightIds": [
       "category-wedge",
       "structured-dialogue",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-20-68a876852717bf",
@@ -2960,15 +2810,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Agentic AI Commerce: The Next Wave of Online Shopping and Retailer Risk”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-04-19-fa90e6d6a52454",
@@ -2983,15 +2834,16 @@
       "交易闭环",
       "AI搜索"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Deep Dive: Agentic Commerce and Payment Protocols: By Sam Boboev》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2026-04-18-39a79369e19eab",
@@ -3006,15 +2858,16 @@
       "交易闭环",
       "视觉购物"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Coinbase vs Circle：在支付赛道上的竞合分析》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 81,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-04-17-ab071ea3dd2abe",
@@ -3032,7 +2885,8 @@
     "valueScore": 73,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-16-8c3ab90fcd05d0",
@@ -3046,15 +2900,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“AI traffic grows but retail sites lag in AI search visibility”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-14-42c17024d10b46",
@@ -3069,15 +2924,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“David’s Bridal says yes to agentic shopping within ChatGPT and Microsoft Copilot”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-13-8e5a996ac96f28",
@@ -3092,15 +2948,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“The Harris Poll Return of Touch research”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "研究数据"
   },
   {
     "id": "daily-2026-04-12-b2fa339b7be1a0",
@@ -3114,15 +2971,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《How Agentic AI is Transforming Commerce and Payment》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-04-11-370069836d49a1",
@@ -3136,15 +2994,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“神笔AI Agent 联手钉钉悟空，上新4大电商AI技能，重构电商运营效率”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-10-d63bce285e2ea1",
@@ -3163,7 +3022,8 @@
     "valueScore": 85,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-09-57c71cec46257e",
@@ -3182,7 +3042,8 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-08-346a6657ca24d9",
@@ -3196,15 +3057,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“150亿豪赌迎来翻身之作？Meta发布首款重磅AI模型Muse Spark”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-07-e097fe5551dc48",
@@ -3217,36 +3079,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“FAQ on agentic commerce: How brands should act now to compete in an AI-driven landscape”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
-  },
-  {
-    "id": "daily-2026-04-06-068be7c8182d2b",
-    "date": "2026-04-06",
-    "title": "Rezolve AI CEO on the Future of Agentic Commerce",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://pymnts.com/news/artificial-intelligence/2026/rezolve-ceo-sees-growing-competition-over-control-of-ai-shopping",
-    "tags": [
-      "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 91,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-04-05-adaa2252b3d0a6",
@@ -3261,15 +3103,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Target Warns That If Its AI Shopping Agent Makes an Expensive Mistake, You'll Have to Pay for It”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-04-04-f3030d10659903",
@@ -3284,38 +3127,16 @@
       "C端AI产品",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Walmart revamps a checkout option for shoppers》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "decision-os",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2026-04-03-d41339b299519c",
-    "date": "2026-04-03",
-    "title": "Perplexity Asks Federal Court to Lift Amazon Shopping Agent Ban",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "AI搜索",
-    "url": "https://pymnts.com/legal/2026/perplexity-asks-federal-court-to-lift-amazon-shopping-agent-ban",
-    "tags": [
-      "AI购物",
-      "购物智能体",
-      "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
-    "valueScore": 91,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "contextual-entry",
-      "evidence-led-recommendation"
-    ]
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-04-02-1bcb667a60c028",
@@ -3329,15 +3150,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Ecommerce Trends: How Visa and Mastercard are approaching agentic commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-04-01-ce3e67591f73e8",
@@ -3350,15 +3172,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“当人工智能开始为事物付款会发生什么？答案已经出现”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-31-611a0c2988aa25",
@@ -3377,7 +3200,8 @@
     "valueScore": 92,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-30-00df6e4afdb5eb",
@@ -3391,38 +3215,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《支付巨头的突围：Stripe 如何用稳定币改写全球资金的默认路径》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 81,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2026-03-29-600fb6bf59cebc",
-    "date": "2026-03-29",
-    "title": "Deep Dive: The hidden liability of agentic commerce: By Sam Boboev",
-    "source": "Finextra Research",
-    "region": "海外",
-    "category": "交易闭环",
-    "url": "https://finextra.com/blogposting/31251/deep-dive-the-hidden-liability-of-agentic-commerce",
-    "tags": [
-      "购物智能体",
-      "交易闭环",
-      "AI搜索"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "agentic-funnel",
-      "risk-first-design"
-    ]
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-03-28-7a8e7698b1922f",
@@ -3440,7 +3242,8 @@
     "valueScore": 84,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-27-117643c55a94fc",
@@ -3456,38 +3259,16 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《What went wrong with ChatGPT’s Instant Checkout》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 81,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "habit-before-intelligence",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2026-03-26-5950e8efac85c3",
-    "date": "2026-03-26",
-    "title": "OpenAI Drops ChatGPT Instant Checkout For New AI Assistant",
-    "source": "Startups.co.uk",
-    "region": "海外",
-    "category": "交易闭环",
-    "url": "https://startups.co.uk/news/chatgpt-shopping-assistant",
-    "tags": [
-      "C端AI产品",
-      "交易闭环",
-      "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
-    "valueScore": 85,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "habit-before-intelligence",
-      "risk-first-design"
-    ]
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-03-25-1cad8714e8cc1c",
@@ -3505,7 +3286,8 @@
     "valueScore": 95,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-24-91164de425406d",
@@ -3519,15 +3301,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Powering Product Discovery in ChatGPT”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-23-83907e869c7490",
@@ -3541,15 +3324,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Accenture Invests in DaVinci Commerce to Advance Agentic AI-Led Shopping”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-22-b1211759d490f9",
@@ -3563,15 +3347,16 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Walmart fires OpenAI in playbook-changing move》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 73,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "risk-first-design",
       "post-purchase-agent"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-03-20-0372d7a281d3d8",
@@ -3585,15 +3370,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“OpenAI's first crack at online shopping stumbled. It's preparing for the next wave”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-19-46f4d77b1b89f4",
@@ -3618,7 +3404,8 @@
       "merchant-readable-store",
       "multi-agent-market",
       "data-transaction-moat"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-03-18-256922227f228b",
@@ -3633,15 +3420,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-03-17-d339106762016f",
@@ -3655,15 +3443,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“World launches tool to verify humans behind AI shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-16-ddd8e6d4a154d5",
@@ -3677,15 +3466,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Shopify is preparing for AI shopping agents to change everything, exec says”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-15-4af455ef867015",
@@ -3699,15 +3489,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《为何加密多头认为人工智能代理将使稳定币成为默认支付层》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 81,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-03-13-17b4e1a1b5db9a",
@@ -3720,15 +3511,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Why Agentic AI is a Game-Changer for Ecommerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-03-12-016f6d5e971fa7",
@@ -3745,15 +3537,16 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Shopify says purchases are coming ‘inside ChatGPT’ through agentic storefronts as OpenAI retreats on Instant Checkout》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 89,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-03-11-7c43fbcf7b6015",
@@ -3772,30 +3565,8 @@
     "valueScore": 91,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "daily-2026-03-10-9f0ea3afc50cb0",
-    "date": "2026-03-10",
-    "title": "Amazon wins court order to block Perplexity's AI shopping agent",
-    "source": "CNBC",
-    "region": "海外",
-    "category": "AI搜索",
-    "url": "https://cnbc.com/2026/03/10/amazon-wins-court-order-to-block-perplexitys-ai-shopping-agent.html",
-    "tags": [
-      "AI购物",
-      "购物智能体",
-      "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
-    "valueScore": 92,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "contextual-entry",
-      "evidence-led-recommendation"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-09-f683dc75890cf8",
@@ -3814,7 +3585,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-08-dab13e15e6db91",
@@ -3827,15 +3599,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“易点天下「可见性峰会」圆满收官，以GEO+GEM构筑AI时代品牌全球化护城河”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-07-7468cbe0b4b9f2",
@@ -3851,15 +3624,16 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《OpenAI Hits Pause on “Buy in ChatGPT” Just Months After Instant Checkout Launch》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "habit-before-intelligence",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-03-05-15fcb7d85f9c52",
@@ -3873,38 +3647,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Mastercard Unveils Open Standard to Verify AI Agent Transactions》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 87,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2026-03-04-2f97b490fdc048",
-    "date": "2026-03-04",
-    "title": "Meta tests AI shopping research tool to rival ChatGPT, Gemini",
-    "source": "Jing Daily",
-    "region": "海外",
-    "category": "AI搜索",
-    "url": "https://jingdaily.com/posts/meta-tests-ai-shopping-research-tool-to-rival-chatgpt-gemini",
-    "tags": [
-      "AI购物",
-      "C端AI产品",
-      "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "decision-os",
-      "contextual-entry"
-    ]
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-03-03-23bed4d992a75f",
@@ -3918,15 +3670,16 @@
       "C端AI产品",
       "即时零售"
     ],
-    "corePoint": "高频低风险消费正在成为AI购物习惯养成的更优入口，用户更容易授权AI处理重复选择。",
-    "insight": "先用买菜、日用品、外卖等场景训练偏好记忆和授权边界，再迁移到复杂高客单决策。",
+    "corePoint": "《GPT-5.3 Instant: Smoother, more useful everyday conversations》说明，高频低风险的即时消费场景更容易培养用户使用AI购物的习惯。",
+    "insight": "先从复购、买菜、日用品等低风险场景建立偏好记忆，比从复杂大件切入更容易形成日常使用。",
     "valueScore": 83,
     "relatedInsightIds": [
       "habit-before-intelligence",
       "preference-memory",
       "decision-os",
       "memory-as-asset"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-03-02-a3c3cadaab3578",
@@ -3939,15 +3692,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Europe’s agentic commerce moment: Decision influence is here; execution is coming”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-02-27-3b0f5524ffb9da",
@@ -3961,15 +3715,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《The Financial Rails of Agentic Commerce》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-02-26-1c33b40afa72ee",
@@ -3984,15 +3739,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《AI Agents Start Shopping and Payments Firms Adapt》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 87,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-02-25-c10d83261028e1",
@@ -4006,15 +3762,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Stripe’s slower view of agentic commerce》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-02-24-bca30973110fe0",
@@ -4032,7 +3789,8 @@
     "valueScore": 79,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-02-23-d0d45250fd6962",
@@ -4046,15 +3804,16 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Shopify says AI shopping will ‘not bypass’ its checkout》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "risk-first-design",
       "post-purchase-agent"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-02-22-bb0b53904b8615",
@@ -4072,7 +3831,8 @@
     "valueScore": 69,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-02-20-30a9ac4c22a9f9",
@@ -4086,15 +3846,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“The Agentic Protocol Wars Come To Ecommerce; Perplexity Says Ads Erode Trust In AI”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2026-02-19-3a11c9d339093b",
@@ -4112,29 +3873,8 @@
     "valueScore": 88,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "daily-2026-02-18-1c12e9167678dc",
-    "date": "2026-02-18",
-    "title": "豆包登顶苹果App Store免费榜排名反超千问、蚂蚁阿福- AI 人工智能",
-    "source": "cnBeta.COM",
-    "region": "国内",
-    "category": "智能体购物",
-    "url": "https://cnbeta.com.tw/articles/tech/1550282.htm",
-    "tags": [
-      "购物智能体",
-      "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 71,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "decision-os",
-      "risk-first-design"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-02-17-f4a0d65f56075c",
@@ -4148,15 +3888,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“True Fit Launches Agentic AI Shopping Experience Powered by 20 Years of Fit Data”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-02-16-c4383e61f4a296",
@@ -4170,15 +3911,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《DBS is First Bank in Asia Pacific to Pilot Visa Intelligent Commerce for Everyday Payments》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 73,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-02-15-f9d187192d5fe0",
@@ -4192,36 +3934,16 @@
       "AI购物",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Why Amazon’s Biggest Competitive Challenge May Not Be Another Retailer”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "risk-first-design",
       "post-purchase-agent"
-    ]
-  },
-  {
-    "id": "daily-2026-02-12-7157b38744565f",
-    "date": "2026-02-12",
-    "title": "Expedia Embraces Agentic Commerce to Fight Platform Disruption",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://pymnts.com/transportation/travel-payments/2026/expedia-embraces-agentic-commerce-to-fight-platform-disruption",
-    "tags": [
-      "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 91,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-02-11-7fae5bd7de6a54",
@@ -4245,7 +3967,8 @@
       "trust-ladder",
       "intent-cart",
       "closed-loop-first"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "date": "2026-02-10",
@@ -4269,7 +3992,8 @@
       "social-proof-rebuild",
       "risk-first-design"
     ],
-    "id": "competitor-2026-02-10-app-3-z-321081f64c"
+    "id": "competitor-2026-02-10-app-3-z-321081f64c",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-02-10-d86df14ec789b9",
@@ -4288,7 +4012,8 @@
     "valueScore": 73,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-02-08-fbadb4bacf0b3e",
@@ -4306,7 +4031,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-02-06-c93b8cd897f020",
@@ -4320,15 +4046,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“堪比“ChatGPT”时刻！SemiAnalysis深度解读：Claude Code将是AI “智能体”的转折点”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 79,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-02-05-378a1bbb379006",
@@ -4347,7 +4074,8 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-02-04-19e5f8b5096c1b",
@@ -4361,15 +4089,16 @@
       "AI购物",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“UK Retailers Eye Online Growth as AI Transforms Shopping and Delivery”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "risk-first-design",
       "post-purchase-agent"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2026-02-03-b49839aa774086",
@@ -4387,29 +4116,8 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "daily-2026-02-02-c10b83fc14ff4d",
-    "date": "2026-02-02",
-    "title": "Agentic Commerce: The Future of AI-Powered Shopping",
-    "source": "J.P. Morgan",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://jpmorgan.com/payments/newsroom/agentic-commerce-ai-future-shopping",
-    "tags": [
-      "AI购物",
-      "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-29-1a98f8ebcd2d86",
@@ -4423,15 +4131,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Why Marketplaces Block AI Shopping Agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-01-28-acca4a8c9e3e2f",
@@ -4444,15 +4153,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“The automation curve in agentic commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-27-83c3c4ce90f167",
@@ -4466,15 +4176,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“eBay Blocks Use of AI ‘Buy-For-Me’ Agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 87,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-25-27679e673e9934",
@@ -4492,7 +4203,8 @@
     "valueScore": 69,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-23-1a13d7d40473b1",
@@ -4506,15 +4218,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Agentic commerce and its role in transforming the future of shopping”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-22-e5c6aec15cae7e",
@@ -4532,7 +4245,8 @@
     "valueScore": 95,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "date": "2026-01-22",
@@ -4556,7 +4270,8 @@
       "answer-shelf",
       "decision-os"
     ],
-    "id": "competitor-2026-01-22-app-ai-2130600ec1"
+    "id": "competitor-2026-01-22-app-ai-2130600ec1",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-01-21-f670403f850a60",
@@ -4570,15 +4285,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Amazon One Medical introduces agentic Health AI assistant for simpler, personalized, and more actionable health care”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 93,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-20-325e5c30718d8e",
@@ -4591,37 +4307,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“The new rules of the road for agentic commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
-  },
-  {
-    "id": "daily-2026-01-19-7b74e13a0f8193",
-    "date": "2026-01-19",
-    "title": "Revolut Pay targets agentic commerce with AP2 integration",
-    "source": "FinTech Global",
-    "region": "海外",
-    "category": "交易闭环",
-    "url": "https://fintech.global/2026/01/19/revolut-pay-targets-agentic-commerce-with-ap2-integration",
-    "tags": [
-      "购物智能体",
-      "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "agentic-funnel",
-      "risk-first-design"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-18-044a01ef57ce58",
@@ -4635,15 +4330,16 @@
       "C端AI产品",
       "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Charted: The Explosive Growth of Gen AI Apps”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 60,
     "relatedInsightIds": [
       "category-wedge",
       "structured-dialogue",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-16-69707bc3df56d5",
@@ -4659,15 +4355,16 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《首个智能体商业信任协议来了！支付宝携手千问 App、淘宝闪购等发布 AI 商业协议 ACT》显示，阿里系AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
+    "insight": "围绕《首个智能体商业信任协议来了！支付宝携手千问 App、淘宝闪购等发布 AI 商业协议 ACT》，AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
     "valueScore": 87,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2026-01-14-0d5d31b874dce0",
@@ -4681,15 +4378,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“不只是 Chatbot：如何设计一个真正可执行的 Agentic Commerce 电商系统”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-13-4224665ec967a0",
@@ -4704,15 +4402,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“A consumer watchdog issued a warning about Google's AI agent shopping protocol -- Google says she's wrong”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 93,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0",
@@ -4727,14 +4426,15 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "corePoint": "《JD Sports tests agentic commerce by linking AI shopping to checkout》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
     "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 83,
     "relatedInsightIds": [
       "closed-loop-first",
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-01-11-4a89d7fd226793",
@@ -4749,15 +4449,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Google bolsters bet on AI-powered commerce with new platform for shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "competitor-2026-01-11-walmart-google-ai-discovery",
@@ -4781,7 +4482,8 @@
       "competitor-function-radar",
       "agentic-funnel",
       "merchant-readable-store"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "competitor-2026-01-11-google-agentic-commerce-retailer-tools",
@@ -4805,7 +4507,8 @@
       "multi-agent-market",
       "merchant-readable-store",
       "agentic-funnel"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2026-01-10-fbcb8bc1045397",
@@ -4819,15 +4522,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“京东做了一个新电商平台”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 87,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-09-2e8b1ef0491064",
@@ -4841,15 +4545,16 @@
       "C端AI产品",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“58% of consumers use AI tools to research products”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "研究数据"
   },
   {
     "id": "daily-2026-01-08-b9f43442c77bab",
@@ -4864,15 +4569,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Microsoft propels retail forward with agentic AI capabilities that power intelligent automation for every retail function》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 85,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2026-01-07-5dc564640f2d79",
@@ -4890,7 +4596,8 @@
     "valueScore": 96,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2026-01-04-c6a18207304cfc",
@@ -4905,15 +4612,16 @@
       "视觉购物",
       "AI搜索"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“OpenAI may buy Pinterest — and it could change how we search, shop and scroll”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "category-wedge",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2026-01-03-cb402f08aeefc9",
@@ -4931,7 +4639,8 @@
     "valueScore": 73,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-30-93572dcf6113a3",
@@ -4946,15 +4655,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“2025 AI应用众生相：翻译逆袭、搜索争夺入口、浏览器迈入Agent时代”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-29-c2ef590a75ae4d",
@@ -4968,15 +4678,16 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《So, I Tried an AI Shopping Cart》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 77,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "risk-first-design",
       "post-purchase-agent"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2025-12-26-31dc57d8a89872",
@@ -4989,40 +4700,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“从实体网点到智能机器人：AI智能体能否重塑零售银行业？”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
-  },
-  {
-    "id": "daily-2025-12-25-d6cbcfe1005eb4",
-    "date": "2025-12-25",
-    "title": "What ChatGPT’s ‘Instant Checkout’ Offering Means for Retailers",
-    "source": "Retail TouchPoints",
-    "region": "海外",
-    "category": "交易闭环",
-    "url": "https://retailtouchpoints.com/features/what-chatgpts-instant-checkout-offering-means-for-retailers/154593",
-    "tags": [
-      "AI购物",
-      "C端AI产品",
-      "交易闭环",
-      "商家接入",
-      "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "merchant-readable-store",
-      "risk-first-design"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-24-8613021720cc7c",
@@ -5036,15 +4723,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Amazon faces 'leader's dilemma' — fight AI shopping bots or join them”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 88,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-22-48ba9124d0487b",
@@ -5058,15 +4746,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Continuously hardening ChatGPT Atlas against prompt injection attacks”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 87,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-21-dfc0900d97a94d",
@@ -5079,15 +4768,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Beyond the Subscription: Why Agentic Commerce Needs Stablecoins to Scale”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-12-19-32e102a6a2b3b3",
@@ -5102,15 +4792,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“PayPal’s play for agentic commerce: Making AI shopping work for Main Street”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-18-b1ce7a07dfb281",
@@ -5124,37 +4815,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Skyfire Demonstrates Secure Agentic Commerce Purchase Using the KYAPay Protocol and Visa Intelligent Commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2025-12-16-6940201404688c",
-    "date": "2025-12-16",
-    "title": "The new ChatGPT Images is here",
-    "source": "OpenAI",
-    "region": "海外",
-    "category": "产品功能",
-    "url": "https://openai.com/index/new-chatgpt-images-is-here",
-    "tags": [
-      "C端AI产品",
-      "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
-    "valueScore": 83,
-    "relatedInsightIds": [
-      "category-wedge",
-      "structured-dialogue",
-      "decision-os",
-      "risk-first-design"
-    ]
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2025-12-15-ca8a8749505e64",
@@ -5167,15 +4837,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“AI Agents Will Reshape E-Commerce. European Players Must Prepare Now.”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-14-a29e9c2343c4f3",
@@ -5189,15 +4860,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《蚂蚁国际进击：从跨境支付到智能体支付|深度》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 73,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-12-13-277e14b7b6a072",
@@ -5210,15 +4882,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“长三角AI应用场景案例征集在沪启动 人民网智能体（一体机）同步亮相”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 60,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-12-2b5d461c3a7004",
@@ -5232,15 +4905,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“AI tools could drive $263 billion in holiday sales. Walmart and Target are racing to get in”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 84,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "competitor-2025-12-11-google-studio-quality-digital-try-on",
@@ -5264,7 +4938,8 @@
       "visual-try-on-as-proof",
       "category-wedge",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2025-12-11-f90de11d7342c8",
@@ -5278,15 +4953,16 @@
       "AI购物",
       "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Google’s AI try-on feature for clothes now works with just a selfie”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "category-wedge",
       "structured-dialogue",
       "risk-first-design",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-09-5b35943a3d73b9",
@@ -5301,15 +4977,16 @@
       "C端AI产品",
       "即时零售"
     ],
-    "corePoint": "高频低风险消费正在成为AI购物习惯养成的更优入口，用户更容易授权AI处理重复选择。",
-    "insight": "先用买菜、日用品、外卖等场景训练偏好记忆和授权边界，再迁移到复杂高客单决策。",
+    "corePoint": "《More than a Store: Can Albertsons’ agentic AI tool fix the drudgery of grocery e-commerce?》说明，高频低风险的即时消费场景更容易培养用户使用AI购物的习惯。",
+    "insight": "先从复购、买菜、日用品等低风险场景建立偏好记忆，比从复杂大件切入更容易形成日常使用。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "habit-before-intelligence",
       "memory-as-asset"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-08-9ee9429fa0ec2a",
@@ -5324,15 +5001,16 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Instacart App Launches in OpenAI ChatGPT - First Company to Offer New Instant Checkout App Experience》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 85,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "habit-before-intelligence",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2025-12-07-c2d8cbc4137af7",
@@ -5350,7 +5028,8 @@
     "valueScore": 73,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-12-05-db9b51e87c5fc2",
@@ -5364,38 +5043,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Cristiano Ronaldo invests in Perplexity AI, announces brand collaboration for digital hub — What we know”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
-  },
-  {
-    "id": "daily-2025-12-04-3ecc8c673af660",
-    "date": "2025-12-04",
-    "title": "Albertsons launches agentic AI shopping assistant",
-    "source": "Customer Experience Dive",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://customerexperiencedive.com/news/albertsons-agentic-ai-shopping-assistant/807067",
-    "tags": [
-      "AI购物",
-      "购物智能体",
-      "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 89,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "decision-os",
-      "risk-first-design"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-03-424c734fa4a3c2",
@@ -5410,15 +5067,16 @@
       "C端AI产品",
       "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Virtual Apparel Try On tool comes to India”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "category-wedge",
       "structured-dialogue",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-02-1a71509393f17d",
@@ -5432,15 +5090,16 @@
       "AI购物",
       "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Perfect Corp. Partners with Tom Ford Fashion to Deliver Ultra-Realistic 3D Virtual Try-On for Luxury Eyewear, Redefining the Digital Shopping Experience”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "category-wedge",
       "structured-dialogue",
       "risk-first-design",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-12-01-e9a8ad70d36a26",
@@ -5453,15 +5112,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Inside Mirakl’s agentic commerce vision”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-30-834f12fba740dc",
@@ -5476,15 +5136,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Amazon Blocks ChatGPT AI Shopping Agents Ahead of Black Friday”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-29-97adf84bf98de4",
@@ -5502,7 +5163,8 @@
     "valueScore": 69,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-28-5b8d18af62b67f",
@@ -5516,15 +5178,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“This month in AI: The rise and risks of AI shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-27-f3dd1fb944659d",
@@ -5543,7 +5206,8 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-26-1824432e7859be",
@@ -5558,15 +5222,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Newegg Partners With PayPal to Integrate PayPal Agentic Commerce Services for AI-Shopping Experiences”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-25-c50e6219796acb",
@@ -5581,15 +5246,16 @@
       "C端AI产品",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "《OpenAI and Perplexity are launching AI shopping assistants, but competing startups aren't sweating it》显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。",
+    "insight": "围绕《OpenAI and Perplexity are launching AI shopping assistants, but competing startups aren't sweating it》，产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。",
     "valueScore": 93,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-11-24-53d248fd80c793",
@@ -5604,15 +5270,16 @@
       "C端AI产品",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Introducing shopping research in ChatGPT”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "研究数据"
   },
   {
     "id": "daily-2025-11-21-c1f37692f3efb0",
@@ -5626,15 +5293,16 @@
       "购物智能体",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Agentic AI in ecommerce: How merchants can stay relevant”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "id": "daily-2025-11-20-fffc13c7303b8b",
@@ -5648,15 +5316,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“The DoorDash problem and the great AI browser fight”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-19-c950ad73b45abe",
@@ -5670,15 +5339,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Perplexity announces free product to streamline online shopping”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 88,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-18-d4815f5d39ed93",
@@ -5693,15 +5363,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“How Amazon is using generative and agentic AI to transform the shopping experience”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-11-14-295351a2d8ca3a",
@@ -5715,15 +5386,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“SEO Pulse: AI Shopping, GPT-5.1 & EU Pressure On Google”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-13-4b55e886a2ff49",
@@ -5739,15 +5411,16 @@
       "交易闭环",
       "AI搜索"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Google augments AI shopping with conversational search, agentic checkout and an AI that calls stores for you》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 96,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "行业新闻"
   },
   {
     "id": "daily-2025-11-12-c3d2934bfde0d9",
@@ -5771,7 +5444,8 @@
       "contextual-entry",
       "intent-cart",
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2025-11-11-1133013a9d39f2",
@@ -5790,7 +5464,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-10-6f591df775a2b7",
@@ -5808,7 +5483,8 @@
     "valueScore": 69,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-11-09-78dd9e965e39b1",
@@ -5827,7 +5503,8 @@
     "valueScore": 95,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "date": "2025-11-08",
@@ -5851,7 +5528,8 @@
       "intent-cart",
       "structured-dialogue"
     ],
-    "id": "competitor-2025-11-08-11ai-ai-5000-bc702b8368"
+    "id": "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2025-11-07-95e2581f3feabd",
@@ -5869,7 +5547,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-06-7aa8ef6760da3c",
@@ -5884,38 +5563,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Amazon sues Perplexity over AI shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
-  },
-  {
-    "id": "daily-2025-11-05-8d6d75fbf1e751",
-    "date": "2025-11-05",
-    "title": "Amazon sues Perplexity over 'agentic' shopping tool",
-    "source": "Reuters",
-    "region": "海外",
-    "category": "AI搜索",
-    "url": "https://reuters.com/business/retail-consumer/perplexity-receives-legal-threat-amazon-over-agentic-ai-shopping-tool-2025-11-04",
-    "tags": [
-      "AI购物",
-      "购物智能体",
-      "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
-    "valueScore": 85,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "contextual-entry",
-      "evidence-led-recommendation"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-04-4ba7b65ce1a606",
@@ -5929,15 +5586,16 @@
       "购物智能体",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕“Amazon and Perplexity have kicked off the great AI web browser fight”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 79,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-03-ecde15087570ad",
@@ -5956,7 +5614,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-11-02-c072951b426ee8",
@@ -5975,7 +5634,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-31-1f6916e0d4bf5d",
@@ -5989,15 +5649,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Amazon CEO expects to 'find ways' to partner with third-party AI shopping agents in the future”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-30-2859457e65dce8",
@@ -6015,7 +5676,8 @@
     "valueScore": 95,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-29-0ef4ff459666d1",
@@ -6028,15 +5690,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“PwC and Stripe Launch Collaboration to Accelerate the Next Era of Agentic Commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-28-e6e58f4fb3a311",
@@ -6055,7 +5718,8 @@
     "valueScore": 89,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-27-506d4c177e5782",
@@ -6069,15 +5733,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“5年内将成用户“商品发现”主渠道！AI代理重塑电商格局”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-26-d08617365a1ad5",
@@ -6090,15 +5755,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“AI browsers are here, and you need to learn how to use the web properly”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 60,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-10-25-aaadbe33c089f8",
@@ -6116,7 +5782,8 @@
     "valueScore": 73,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-24-d2add2c343a540",
@@ -6129,15 +5796,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Securing agentic commerce: helping AI Agents transact with Visa and Mastercard”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-23-b3c47308eed149",
@@ -6155,29 +5823,8 @@
     "valueScore": 95,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "daily-2025-10-21-f048037e0b5165",
-    "date": "2025-10-21",
-    "title": "Introducing ChatGPT Atlas",
-    "source": "OpenAI",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://openai.com/index/introducing-chatgpt-atlas",
-    "tags": [
-      "购物智能体",
-      "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 87,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "decision-os",
-      "risk-first-design"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-20-85e813f5a4b55c",
@@ -6196,7 +5843,8 @@
     "valueScore": 73,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-10-17-3757ba40d36a1e",
@@ -6211,15 +5859,16 @@
       "C端AI产品",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“The agentic commerce opportunity: How AI agents are ushering in a new era for consumers and merchants”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "date": "2025-10-16",
@@ -6243,7 +5892,8 @@
       "structured-dialogue",
       "contextual-entry"
     ],
-    "id": "competitor-2025-10-16-ai-6-ai-4be6bbef6f"
+    "id": "competitor-2025-10-16-ai-6-ai-4be6bbef6f",
+    "contentType": "竞品"
   },
   {
     "date": "2025-10-16",
@@ -6267,7 +5917,8 @@
       "merchant-readable-store",
       "merchant-incentive"
     ],
-    "id": "competitor-2025-10-16-ai-11-3ad48be7ea"
+    "id": "competitor-2025-10-16-ai-11-3ad48be7ea",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2025-10-15-f59a7cfba07406",
@@ -6281,15 +5932,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“独家｜阿里前高管汤兴创业项目Alvin's Club 完成数千万美元Pre-A 轮融资，用 AI 重构全球电商新范式”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 83,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-14-5a4f421742feee",
@@ -6302,15 +5954,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Agentic token framework: Driving trusted AI transactions”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-13-4b15c6c1bdf120",
@@ -6328,7 +5981,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-09-428951f161d05b",
@@ -6342,15 +5996,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“OpenAI上线购物Agent，AI早已改写电商逻辑”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-10-08-7f791e53424cc9",
@@ -6364,59 +6019,16 @@
       "AI购物",
       "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Google's Latest AI Shopping Update Lets You Try On Shoes Without Leaving Your House”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
       "category-wedge",
       "structured-dialogue",
       "risk-first-design",
       "contextual-entry"
-    ]
-  },
-  {
-    "id": "daily-2025-10-07-d878dce9d99262",
-    "date": "2025-10-07",
-    "title": "Agentic commerce: The new AI playbook for retailers",
-    "source": "Mirakl",
-    "region": "海外",
-    "category": "商家/生态",
-    "url": "https://mirakl.com/blogs/agentic-commerce/winning-in-the-age-of-agentic-commerce-how-retailers-can-thrive-in-the-ai",
-    "tags": [
-      "购物智能体",
-      "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "merchant-readable-store",
-      "multi-agent-market",
-      "agentic-funnel",
-      "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2025-10-01-b22000ab48f480",
-    "date": "2025-10-01",
-    "title": "Agentic Commerce? Conversational Commerce? The Future Of Owned Digital Shopping Experiences",
-    "source": "forrester.com",
-    "region": "海外",
-    "category": "智能体购物",
-    "url": "https://forrester.com/blogs/agentic-commerce-conversational-commerce-the-future-of-owned-digital-shopping-experiences",
-    "tags": [
-      "AI购物",
-      "购物智能体"
-    ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
-    ]
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-30-67ef10966f2a4f",
@@ -6435,7 +6047,8 @@
     "valueScore": 89,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-29-06e290cccd10b0",
@@ -6451,15 +6064,16 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 96,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2025-09-28-6b0d69f713ce98",
@@ -6473,15 +6087,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“用 AI 重塑电商，京东零售发布电商创新 AI 架构体系 Oxygen”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2025-09-26-47529fa807485b",
@@ -6494,15 +6109,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“The agentic organization: Contours of the next paradigm for the AI era”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-25-2652514eff9282",
@@ -6526,7 +6142,8 @@
       "ranking-governance",
       "answer-shelf",
       "competitor-function-radar"
-    ]
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "daily-2025-09-24-3b435d30e2a6e3",
@@ -6541,15 +6158,16 @@
       "购物智能体",
       "C端AI产品"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“ChatGPT is now 20% of Walmart's referral traffic — while Amazon wards off AI shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "decision-os",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-23-a0d888c4c03f92",
@@ -6563,15 +6181,16 @@
       "购物智能体",
       "交易闭环"
     ],
-    "corePoint": "这条信息指向AI购物从“推荐答案”进入“交易执行”：购物车、支付、下单和履约正在成为AI入口竞争的一部分。",
-    "insight": "产品上要把交易确认做成独立能力：预算、库存、优惠、到达时间和售后责任必须在AI建议前后被核验，否则推荐越强，误购风险越高。",
+    "corePoint": "《Google推出AI支付协议，万事达卡、Visa、PayPal、蚂蚁国际等参与》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 81,
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "技术/协议"
   },
   {
     "id": "daily-2025-09-22-8368a45941d42a",
@@ -6586,15 +6205,16 @@
       "视觉购物",
       "AI搜索"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“TikTok is tagging videos from Gaza with TikTok Shop products”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "category-wedge",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-18-2a6ebeb2b19979",
@@ -6607,15 +6227,16 @@
     "tags": [
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Google and PayPal team up on agentic commerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 93,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-17-66d75b36d6bbf0",
@@ -6630,15 +6251,16 @@
       "C端AI产品",
       "商家接入"
     ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
+    "corePoint": "围绕“Amazon launches AI agent to help sellers complete tasks and manage their businesses”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
       "merchant-readable-store",
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "商家生态"
   },
   {
     "date": "2025-09-17",
@@ -6662,7 +6284,8 @@
       "trust-ladder",
       "memory-as-asset"
     ],
-    "id": "competitor-2025-09-17-ai-86111b0c72"
+    "id": "competitor-2025-09-17-ai-86111b0c72",
+    "contentType": "竞品"
   },
   {
     "date": "2025-09-16",
@@ -6686,7 +6309,8 @@
       "local-life-agent-loop",
       "trust-ladder"
     ],
-    "id": "competitor-2025-09-16-d86c877864"
+    "id": "competitor-2025-09-16-d86c877864",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2025-09-15-7e3d3934f8dabc",
@@ -6704,7 +6328,8 @@
     "valueScore": 95,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-14-e4b269d8da041d",
@@ -6718,15 +6343,16 @@
       "AI购物",
       "AI搜索"
     ],
-    "corePoint": "AI搜索正在把答案、证据、商品卡和购买动作合并，搜索结果页与购物入口的边界变得模糊。",
-    "insight": "导购产品要提供可追溯证据链：为什么推荐、来源是什么、替代项有哪些、哪些条件下不推荐。",
+    "corePoint": "围绕““颠覆谷歌”口号很响，融资估值很高，但“AI搜索”Perplexity的商业化“进展很差””，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "contextual-entry",
       "evidence-led-recommendation"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-13-d5762ac1c79b7a",
@@ -6740,15 +6366,16 @@
       "AI购物",
       "视觉购物"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“Augmented Reality (AR) and Virtual Reality (VR) in eCommerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
       "category-wedge",
       "structured-dialogue",
       "risk-first-design",
       "contextual-entry"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "date": "2025-09-12",
@@ -6772,7 +6399,8 @@
       "habit-before-intelligence",
       "closed-loop-first"
     ],
-    "id": "competitor-2025-09-12-ai-2a8969793a"
+    "id": "competitor-2025-09-12-ai-2a8969793a",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2025-09-12-a18826d18731c1",
@@ -6790,7 +6418,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "date": "2025-09-11",
@@ -6814,7 +6443,8 @@
       "high-frequency-entry",
       "closed-loop-first"
     ],
-    "id": "competitor-2025-09-11-donews-ai-0f33fa349b"
+    "id": "competitor-2025-09-11-donews-ai-0f33fa349b",
+    "contentType": "竞品"
   },
   {
     "id": "daily-2025-09-11-d4d492de655d7c",
@@ -6833,7 +6463,8 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-10-85087d71e6e5bf",
@@ -6847,15 +6478,16 @@
       "AI购物",
       "购物智能体"
     ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
+    "corePoint": "围绕“Google Cloud Launches Conversational Commerce Agent, Delivering AI-Enabled, Personalized Shopping Experiences for Customers”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "risk-first-design",
       "trust-ladder"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-09-93901c9caada54",
@@ -6874,7 +6506,8 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "产品功能"
   },
   {
     "id": "daily-2025-09-08-b166820a289d97",
@@ -6890,15 +6523,16 @@
       "视觉购物",
       "AI搜索"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "《Amazon integrates Lens visual search with its AI shopping assistant》显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。",
+    "insight": "围绕《Amazon integrates Lens visual search with its AI shopping assistant》，产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。",
     "valueScore": 96,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "category-wedge",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-09-07-76cf04f9cc0ccb",
@@ -6913,15 +6547,16 @@
       "视觉购物",
       "AI搜索"
     ],
-    "corePoint": "视觉、试穿和图片搜索正在把购物入口前移到“看到即询问”的瞬间，尤其适合非标和审美型品类。",
-    "insight": "非标品导购不要照搬参数比较，应该强化风格翻译、相似款发现、适配模拟和后悔风险降低。",
+    "corePoint": "围绕“谷歌 Gemini AI 会员权益公布：免费用户每月可用 5 次深度搜索、Pro 会籍每天可生成百张图片”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 71,
     "relatedInsightIds": [
       "agentic-funnel",
       "answer-shelf",
       "category-wedge",
       "risk-first-design"
-    ]
+    ],
+    "contentType": "深度观点"
   },
   {
     "id": "daily-2025-09-05-bf2088a24df9ae",
@@ -6940,6 +6575,7 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
+    ],
+    "contentType": "深度观点"
   }
 ]

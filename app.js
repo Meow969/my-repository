@@ -6,6 +6,7 @@ const state = {
   userInsights: [],
   query: '',
   region: 'all',
+  contentType: 'all',
   category: 'all',
   month: '',
   activeTab: 'feed',
@@ -15,7 +16,7 @@ const state = {
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-08-link-dedupe-v2';
+const DATA_VERSION = '2026-09-08-type-daily-insights-v1';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -138,8 +139,10 @@ function bindNotePanel() {
 
 function renderFilters() {
   const regionFilter = document.getElementById('regionFilter');
+  const typeFilter = document.getElementById('typeFilter');
   const categoryFilter = document.getElementById('categoryFilter');
   unique(state.articles.map(a => a.region)).forEach(region => regionFilter.append(new Option(region, region)));
+  unique(state.articles.map(a => a.contentType || a.category)).forEach(type => typeFilter.append(new Option(type, type)));
   unique(state.articles.map(a => a.category)).forEach(category => categoryFilter.append(new Option(category, category)));
   document.getElementById('searchInput').addEventListener('input', e => {
     state.query = e.target.value.trim().toLowerCase();
@@ -149,6 +152,7 @@ function renderFilters() {
     renderGlobalStats();
   });
   regionFilter.addEventListener('change', e => { state.region = e.target.value; renderFeed(); renderGlobalStats(); });
+  typeFilter.addEventListener('change', e => { state.contentType = e.target.value; renderFeed(); renderGlobalStats(); });
   categoryFilter.addEventListener('change', e => { state.category = e.target.value; renderFeed(); renderGlobalStats(); });
 }
 
@@ -209,6 +213,7 @@ function articleSearchText(article) {
     article.title,
     article.source,
     article.region,
+    article.contentType,
     article.category,
     article.corePoint,
     article.insight,
@@ -245,6 +250,7 @@ function filteredArticles() {
       return matchesSearch
         && matchesMonth
         && (state.region === 'all' || article.region === state.region)
+        && (state.contentType === 'all' || (article.contentType || article.category) === state.contentType)
         && (state.category === 'all' || article.category === state.category);
     });
   if (state.query) results.sort((a, b) => b.score - a.score || b.article.valueScore - a.article.valueScore || b.article.date.localeCompare(a.article.date));
@@ -294,7 +300,7 @@ function renderArticle(article) {
         <span class="score">价值 ${article.valueScore}</span>
       </div>
       <div class="meta">
-        <span class="pill">${article.source}</span><span class="pill">${article.region}</span><span class="pill">${article.category}</span>
+        <span class="pill">${article.source}</span><span class="pill">${article.region}</span><span class="pill type-pill">${article.contentType || article.category}</span><span class="pill">${article.category}</span>
         ${(article.tags || []).map(tag => `<span class="pill">#${tag}</span>`).join('')}
       </div>
       <h4>核心观点</h4><p>${article.corePoint}</p>
@@ -349,9 +355,10 @@ function renderInsights() {
     const related = uniqueLinks([...explicit, ...inferred])
       .sort((a, b) => b.valueScore - a.valueScore || b.date.localeCompare(a.date));
     const visibleRelated = related.slice(0, 8);
+    const isDailyReflection = String(insight.id || '').startsWith('daily-reflection-');
     return `
-      <article class="insight-card">
-        <span class="system-badge">AI复盘 · ${related.length}条信息源${insight.updatedAt ? ` · ${insight.updatedAt.slice(5, 10)}` : ''}</span>
+      <article class="insight-card ${isDailyReflection ? 'daily-reflection-card' : ''}">
+        <span class="system-badge">${isDailyReflection ? '每日新反思' : 'AI复盘'} · ${related.length}条信息源${insight.updatedAt ? ` · ${insight.updatedAt.slice(5, 10)}` : ''}</span>
         <h3>${insight.title}</h3>
         <p>${insight.summary}</p>
         ${insight.trendNote ? `<p class="trend-note">${insight.trendNote}</p>` : ''}
