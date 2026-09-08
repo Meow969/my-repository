@@ -924,6 +924,26 @@
     ]
   },
   {
+    "id": "2026-08-18-6-12-f0dccab366",
+    "date": "2026-08-18",
+    "title": "智能体商业6-12个月将迎爆发？支付宝把战场推向生态",
+    "source": "新浪财经",
+    "region": "国内",
+    "contentType": "商家生态",
+    "category": "趋势框架",
+    "url": "https://finance.sina.com.cn/roll/2026-08-18/doc-ininswna3452694.shtml",
+    "tags": [
+      "Agentic Commerce",
+      "交易闭环"
+    ],
+    "corePoint": "《智能体商业6-12个月将迎爆发？支付宝把战场推向生态》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 72,
+    "relatedInsightIds": [
+      "closed-loop-first"
+    ]
+  },
+  {
     "id": "2026-08-18-aha-20-fc9a45c80c",
     "date": "2026-08-18",
     "title": "支付宝发布智能体跨端互联AHA协议体系，联合千问、华为、荣耀、比亚迪、吉利等20余家企业共建",
@@ -1121,6 +1141,46 @@
       "risk-first-design"
     ],
     "contentType": "深度观点"
+  },
+  {
+    "id": "2026-08-11-target-corporation-target-stren-c21d8f6ef4",
+    "date": "2026-08-11",
+    "title": "Target Strengthens AI and UX Capabilities to Power Its Next Chapter of Growth",
+    "source": "Target Corporation",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://corporate.target.com/news-features/article/2026/08/chandhu-nair-purvi-shah",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "《Target Strengthens AI and UX Capabilities to Power Its Next Chapter of Growth》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Target Strengthens AI and UX Capabilities to Power Its Next Chapter of Growth》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 74,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
+    "id": "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63",
+    "date": "2026-08-11",
+    "title": "3 AI Prompts for Google Ads",
+    "source": "Practical Ecommerce",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://practicalecommerce.com/3-ai-prompts-for-google-ads",
+    "tags": [
+      "虚拟试穿",
+      "技术架构"
+    ],
+    "corePoint": "《3 AI Prompts for Google Ads》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《3 AI Prompts for Google Ads》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 72,
+    "relatedInsightIds": [
+      "multi-agent-commerce"
+    ]
   },
   {
     "id": "daily-2026-08-09-7debda74073518",

@@ -106,7 +106,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 54,
+    "sourceCount": 55,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
@@ -115,9 +115,9 @@
       "daily-2026-08-29-2134c3dedae52a",
       "2026-08-27-pymnts-com-synchrony-says-ai-ha-af0cd4d007",
       "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
+      "2026-08-18-6-12-f0dccab366",
       "2026-08-18-aha-20-fc9a45c80c",
-      "2026-08-17-c7318a84f1",
-      "daily-2026-08-11-99dd644a355aa5"
+      "2026-08-17-c7318a84f1"
     ],
     "trendNote": "最新复盘：交易闭环、Agentic Commerce、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-08"
@@ -327,7 +327,7 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 176,
+    "sourceCount": 178,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
@@ -625,7 +625,7 @@
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 49
+    "sourceCount": 50
   },
   {
     "id": "visual-try-on-as-proof",
@@ -656,9 +656,9 @@
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "2026-08-25-ai-6f60a0b2fd"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 31
+    "sourceCount": 33
   },
   {
     "id": "local-life-agent-loop",
@@ -1207,15 +1207,16 @@
       "交易闭环",
       "产品假设",
       "虚拟试穿",
-      "竞品案例",
-      "Agentic Commerce"
+      "Agentic Commerce",
+      "竞品案例"
     ],
     "relatedArticleIds": [
       "2026-08-18-retail-dive-target-finalizes-di-4048c5948e",
       "2026-08-18-pymnts-com-visa-and-mastercard--5ba11f7326",
+      "2026-08-18-6-12-f0dccab366",
       "2026-08-18-aha-20-fc9a45c80c"
     ],
-    "sourceCount": 3,
+    "sourceCount": 4,
     "updatedAt": "2026-09-08"
   },
   {
@@ -1348,27 +1349,30 @@
   },
   {
     "id": "daily-reflection-2026-08-11",
-    "title": "08-11 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
+    "title": "08-11 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
+    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
+    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
+      "竞品拆解",
+      "功能模块",
+      "交易闭环",
+      "产品假设",
+      "虚拟试穿",
       "AI购物",
       "购物智能体",
-      "交易闭环"
+      "竞品案例"
     ],
     "relatedArticleIds": [
-      "daily-2026-08-11-99dd644a355aa5"
+      "daily-2026-08-11-99dd644a355aa5",
+      "2026-08-11-target-corporation-target-stren-c21d8f6ef4",
+      "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63"
     ],
-    "sourceCount": 1,
+    "sourceCount": 3,
     "updatedAt": "2026-09-08"
   },
   {
