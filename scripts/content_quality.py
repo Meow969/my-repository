@@ -188,6 +188,8 @@ def normalized_meaning(value: str) -> str:
 
 
 def insight_signature(item: dict[str, Any]) -> str:
+    if isinstance(item.get("corePoint"), list):
+        return ""
     core = normalized_meaning(str(item.get("corePoint", "")))
     insight = normalized_meaning(str(item.get("insight", "")))
     if len(core) < 18 or len(insight) < 18:

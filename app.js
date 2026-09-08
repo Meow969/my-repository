@@ -16,7 +16,7 @@ const state = {
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-08-content-grounding-v1';
+const DATA_VERSION = '2026-09-08-core-points-v1';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -221,11 +221,25 @@ function articleSearchText(article) {
     article.region,
     article.contentType,
     article.category,
-    article.corePoint,
+    corePointText(article.corePoint),
     article.insight,
     ...(article.tags || []),
     ...related.flatMap(insight => [insight.title, insight.summary, ...(insight.keywords || [])])
   ].join(' ').toLowerCase();
+}
+
+function corePointText(corePoint) {
+  if (Array.isArray(corePoint)) return corePoint.join(' ');
+  return String(corePoint || '');
+}
+
+function renderCorePoints(corePoint) {
+  const points = Array.isArray(corePoint)
+    ? corePoint
+    : String(corePoint || '').split(/\n+|(?:^|\s)\d+[.、]\s*/).map(item => item.trim()).filter(Boolean);
+  const cleanPoints = points.map(point => String(point || '').trim()).filter(Boolean);
+  if (cleanPoints.length <= 1) return `<p>${escapeHtml(cleanPoints[0] || '')}</p>`;
+  return `<ol class="core-points">${cleanPoints.map(point => `<li>${escapeHtml(point)}</li>`).join('')}</ol>`;
 }
 
 function expandSearchTerms(query) {
@@ -309,7 +323,7 @@ function renderArticle(article) {
         <span class="pill">${article.source}</span><span class="pill">${article.region}</span><span class="pill type-pill">${article.contentType || article.category}</span><span class="pill">${article.category}</span>
         ${(article.tags || []).map(tag => `<span class="pill">#${tag}</span>`).join('')}
       </div>
-      <h4>核心观点</h4><p>${article.corePoint}</p>
+      <h4>核心观点</h4>${renderCorePoints(article.corePoint)}
       <h4>产品洞察</h4><p>${article.insight}</p>
       <a class="open-link" href="${article.url}" target="_blank" rel="noreferrer">${openLabel} →</a>
     </article>`;
@@ -400,7 +414,7 @@ function tokenize(text) {
 
 function scoreLocalArticles(tokens) {
   return state.articles.map(article => {
-    const haystack = [article.title, article.corePoint, article.insight, ...(article.tags || [])].join(' ').toLowerCase();
+    const haystack = [article.title, corePointText(article.corePoint), article.insight, ...(article.tags || [])].join(' ').toLowerCase();
     const score = tokens.reduce((sum, token) => sum + (haystack.includes(token.toLowerCase()) ? 1 : 0), 0);
     return { article, score };
   }).filter(item => item.score > 0).sort((a, b) => b.score - a.score || b.article.valueScore - a.article.valueScore).slice(0, 5).map(item => item.article);
@@ -426,12 +440,12 @@ function curatedWebFallback(note, local) {
     { title: '微信文章搜索：相关中文案例', url: `https://weixin.sogou.com/weixin?type=2&query=${query}`, source: 'Sogou Weixin', snippet: '继续查找国内公众号案例和行业分析。' },
     { title: 'Google 搜索：海外 AI shopping agent 案例', url: `https://www.google.com/search?q=${query}+AI+shopping+agent+commerce+case`, source: 'Google Search', snippet: '继续查找海外产品案例和报告。' }
   ];
-  const localAsWeb = local.slice(0, 2).map(article => ({ title: article.title, url: article.url, source: article.source, snippet: article.corePoint }));
+  const localAsWeb = local.slice(0, 2).map(article => ({ title: article.title, url: article.url, source: article.source, snippet: corePointText(article.corePoint) }));
   return uniqueLinks([...localAsWeb, ...seed]).slice(0, 6);
 }
 
 function buildSupportInsight(note, external, local) {
-  const text = `${note} ${external.map(item => `${item.title} ${item.snippet || ''}`).join(' ')} ${local.map(item => item.corePoint).join(' ')}`;
+  const text = `${note} ${external.map(item => `${item.title} ${item.snippet || ''}`).join(' ')} ${local.map(item => corePointText(item.corePoint)).join(' ')}`;
   const points = [];
   if (/支付|checkout|下单|闭环|购物车|cart|order/i.test(text)) {
     points.push('这类想法的关键验证点不是“AI会不会推荐”，而是能否完成授权、价格库存核验、支付确认、履约追踪和售后归因。');

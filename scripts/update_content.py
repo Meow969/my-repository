@@ -781,54 +781,96 @@ def related_insights_for_item(item: dict[str, Any], tags: list[str]) -> list[str
     return list(dict.fromkeys(ids))[:3]
 
 
-def make_core_point(item: dict[str, Any], tags: list[str]) -> str:
+def excerpt_points(item: dict[str, Any], max_points: int = 2) -> list[str]:
+    excerpt = clean_text(item.get("excerpt", ""))
+    if not excerpt:
+        return []
+    sentences = re.split(r"(?<=[。！？.!?])\s+|[；;]", excerpt)
+    points: list[str] = []
+    for sentence in sentences:
+        sentence = clean_text(sentence).strip(" ，,。.;；")
+        if len(sentence) < 18 or len(sentence) > 120:
+            continue
+        if contains_any(sentence, ["AI", "agent", "shopping", "commerce", "retail", "merchant", "checkout", "购物", "导购", "电商", "零售", "商家", "支付", "商品"]):
+            points.append(sentence)
+        if len(points) >= max_points:
+            break
+    return points
+
+
+def clean_core_points(points: list[str], max_points: int = 3) -> list[str]:
+    cleaned: list[str] = []
+    for point in points:
+        point = clean_text(str(point)).strip(" ，,。.;；")
+        point = re.sub(r"^《[^》]{4,120}》(?:的|显示|说明|聚焦|强调|提醒|从|更像|展示)?", "", point)
+        point = re.sub(r"^围绕[“\"][^”\"]+[”\"]，?", "", point)
+        point = point.strip(" ：:，,")
+        if not point or len(point) < 8:
+            continue
+        if point not in cleaned:
+            cleaned.append(point)
+        if len(cleaned) >= max_points:
+            break
+    return cleaned or ["这条资讯提供了AI购物/导购相关信号，但公开摘要信息有限，需要打开原文进一步确认细节。"]
+
+
+def core_point_text(value: Any) -> str:
+    if isinstance(value, list):
+        return " ".join(str(item) for item in value if item)
+    return str(value or "")
+
+
+def make_core_point(item: dict[str, Any], tags: list[str]) -> list[str]:
     title = item["title"]
     lower = title.lower()
-    subject = f"《{title}》"
     angles = article_angles(item, tags)
+    points: list[str] = []
     if "market_signal" in angles:
-        return f"{subject}更像一条市场信号：资本或经营数据把AI购物能力视为增长变量，但它本身不等同于具体功能拆解。"
+        points.extend(["资本或经营数据开始把AI购物能力计入增长预期。", "这类信息更偏赛道热度信号，不等同于具体产品能力发布。"])
     if "consumer_benchmark" in angles:
-        return f"{subject}的价值在于真实使用测评：它暴露了通用AI在礼物/购物决策里，能给建议但不一定能稳定处理预算、收货、偏好和可购买性。"
+        points.extend(["真实用户测评暴露了通用AI参与购物决策的可用性边界。", "AI能给出建议，但常在预算、收货、偏好、可购买性核对上不稳定。"])
     if "ai_search_commerce" in angles:
-        return f"{subject}说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。"
+        points.extend(["AI搜索和答案引擎正在成为购物上游入口。", "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路。"])
     if "agentic_checkout" in angles:
-        return f"{subject}的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。"
+        points.extend(["智能体商业不只是更聪明的结算。", "核心变化是把发现、比较、授权、支付和售后责任连成完整体验。"])
     if "visual_try_on" in angles:
-        return f"{subject}聚焦视觉/试穿能力：AI把抽象的风格、尺码和上身效果转成可感知证据，用来降低非标品决策不确定性。"
+        points.extend(["视觉/试穿能力把风格、尺码、上身效果转成可感知证据。", "它主要解决服饰、美妆、鞋履等非标品的决策不确定性。"])
     if "product_data" in angles:
-        return f"{subject}强调AI购物的底座是可信、结构化、可度量的商品与供给数据；没有数据层，导购很难稳定推荐和成交。"
+        points.extend(["AI购物的底座是可信、结构化、可度量的商品与供给数据。", "没有商品数据层，导购很难稳定完成推荐、比较和成交。"])
     if "merchant_tools" in angles:
-        return f"{subject}从商家侧说明AI正在进入选品、投放、内容生成和商品表达，供给侧能力会反过来影响用户端推荐质量。"
+        points.extend(["AI正在进入商家侧的选品、投放、内容生成和商品表达。", "供给侧资料质量会反过来影响用户端推荐质量。"])
     if "local_life" in angles:
-        return f"{subject}指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。"
+        points.extend(["本地生活/即时零售更强调当下可执行选择。", "AI需要同时处理位置、时间、库存、配送、优惠和服务约束。"])
     if "platform_assistant" in angles:
-        return f"{subject}展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。"
+        points.extend(["平台正在把AI能力放进购物入口或交易资产。", "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程。"])
     if "discovery_decision" in angles:
-        return f"{subject}关注商品发现和决策效率：AI开始从改写搜索结果，转向理解意图、组织候选和提供推荐理由。"
+        points.extend(["AI购物正在从改写搜索结果转向理解用户意图。", "更重要的能力是组织候选商品，并给出可比较的推荐理由。"])
     if "trust_risk" in angles:
-        return f"{subject}提醒AI购物的瓶颈在信任与风险控制，用户需要知道推荐依据、授权边界和出错后的责任。"
+        points.extend(["AI购物的瓶颈在信任与风险控制。", "用户需要知道推荐依据、授权边界和出错后的责任归属。"])
     if any(word in lower for word in ["sparky", "alexa for shopping", "rufus", "ai shopping assistant", "ai-powered shopping"]):
-        return f"{subject}显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。"
+        points.extend(["海外平台正在把AI导购做成可执行助手。", "能力从理解意图、比较商品，延伸到价格提醒、补货和订单验证。"])
     if any(word in title for word in ["问小团", "小美"]):
-        return f"{subject}显示，美团类本地生活AI的关键不在“会聊天”，而在能把位置、时间、排队、配送、优惠和服务约束合并成即时决策。"
+        points.extend(["本地生活AI的关键不在“会聊天”。", "更关键的是合并位置、时间、排队、配送、优惠和服务约束。"])
     if any(word in title for word in ["千问", "淘宝", "天猫", "AI万能搜"]):
-        return f"{subject}显示，阿里系AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。"
+        points.extend(["阿里系AI能力正在回到电商交易链路内部。", "搜索、清单、凑单、下单等能力开始被统一编排。"])
     if "虚拟试穿" in tags:
-        return f"{subject}说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。"
+        points.extend(["试穿/试衣类AI把导购从问答推荐推进到低成本预体验。", "核心价值是降低非标品的适配不确定性。"])
     if "竞品案例" in tags:
-        return f"{subject}的信号在于：头部平台正在把AI能力嵌入具体购物链路，竞品差异不只在模型，而在入口位置、数据资产、履约深度和交易责任。"
+        points.extend(["头部平台正在把AI能力嵌入具体购物链路。", "竞品差异不只在模型，也在入口位置、数据资产、履约深度和交易责任。"])
     if "交易闭环" in tags:
-        return f"{subject}说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。"
+        points.extend(["AI购物正在从推荐信息走向交易闭环。", "商品、价格、支付、履约等基础能力开始成为核心竞争点。"])
     if "技术架构" in tags:
-        return f"{subject}说明，购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。"
+        points.extend(["购物智能体的重点从单轮问答转向任务编排。", "搜索、比较、确认、支付等工具需要协同工作。"])
     if "即时零售" in tags:
-        return f"{subject}说明，高频低风险的即时消费场景更容易培养用户使用AI购物的习惯。"
+        points.append("高频、低风险的即时消费场景更容易培养用户使用AI购物的习惯。")
     if "GEO" in tags:
-        return f"{subject}说明，商家竞争正在从搜索排名延伸到AI答案可见性和智能体推荐资格。"
+        points.extend(["商家竞争正在从搜索排名延伸到AI答案可见性。", "能否被智能体理解和推荐，会成为新的流量门槛。"])
     if "Agentic Commerce" in tags:
-        return f"{subject}说明，Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。"
-    return f"围绕“{title}”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。"
+        points.extend(["Agentic Commerce会把发现、比较和结算前置到AI入口。", "传统电商漏斗会被重组为意图表达、候选验证和授权交易。"])
+    points = excerpt_points(item) + points
+    if not points:
+        points.append("公开信息显示，这是一条与AI购物/导购相关的行业信号。")
+    return clean_core_points(points)
 
 
 def make_insight(item: dict[str, Any], tags: list[str]) -> str:
@@ -974,7 +1016,7 @@ def refresh_monthly_reports(articles: list[dict[str, Any]]) -> None:
 def article_matches_insight(article: dict[str, Any], insight: dict[str, Any]) -> bool:
     text = " ".join([
         article.get("title", ""),
-        article.get("corePoint", ""),
+        core_point_text(article.get("corePoint", "")),
         article.get("insight", ""),
         " ".join(article.get("tags", [])),
     ]).lower()
@@ -1059,7 +1101,7 @@ def build_auto_insights(articles: list[dict[str, Any]], now: str) -> list[dict[s
 
 def daily_reflection_angle(articles: list[dict[str, Any]]) -> tuple[str, str, str, list[str]]:
     text = " ".join([
-        " ".join(item.get("tags", [])) + " " + item.get("title", "") + " " + item.get("corePoint", "")
+        " ".join(item.get("tags", [])) + " " + item.get("title", "") + " " + core_point_text(item.get("corePoint", ""))
         for item in articles
     ]).lower()
     if any(term in text for term in ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "amazon", "alexa", "rufus", "walmart", "target", "pinterest", "instacart", "shopee", "得物"]):

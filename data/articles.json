@@ -12,7 +12,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《Agentic Commerce Demands a Full Consumer Experience, Not Just a Smarter Checkout》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 82,
     "relatedInsightIds": [
@@ -20,27 +24,6 @@
       "trust-ladder",
       "agentic-funnel"
     ]
-  },
-  {
-    "id": "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
-    "date": "2026-09-07",
-    "title": "NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand",
-    "source": "stocktwits.com",
-    "region": "海外",
-    "category": "平台案例",
-    "url": "https://stocktwits.com/news-articles/markets/equity/nike-stock-pre-market-google-gemini-ai-fifa-world-cup-2026/cZXDwngReVn",
-    "tags": [
-      "AI购物"
-    ],
-    "corePoint": "《NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand》更像一条市场信号：资本或经营数据把AI购物能力视为增长变量，但它本身不等同于具体功能拆解。",
-    "insight": "这类资讯适合用来判断赛道热度和竞品优先级，不适合作为功能结论；产品侧应继续追到官方发布、体验截图或用户反馈后，再沉淀具体设计假设。",
-    "valueScore": 76,
-    "relatedInsightIds": [
-      "competitor-function-radar",
-      "agentic-funnel",
-      "structured-dialogue"
-    ],
-    "contentType": "竞品"
   },
   {
     "id": "2026-09-07-token-ai-kimi-def8e7815c",
@@ -54,7 +37,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《像充话费一样买Token 天猫上线AI空间站，智谱、Kimi等入驻》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "阿里系AI能力正在回到电商交易链路内部"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 76,
     "relatedInsightIds": [
@@ -62,6 +49,30 @@
       "decision-os",
       "closed-loop-first"
     ]
+  },
+  {
+    "id": "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
+    "date": "2026-09-07",
+    "title": "NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand",
+    "source": "stocktwits.com",
+    "region": "海外",
+    "category": "平台案例",
+    "url": "https://stocktwits.com/news-articles/markets/equity/nike-stock-pre-market-google-gemini-ai-fifa-world-cup-2026/cZXDwngReVn",
+    "tags": [
+      "AI购物"
+    ],
+    "corePoint": [
+      "资本或经营数据开始把AI购物能力计入增长预期",
+      "这类信息更偏赛道热度信号，不等同于具体产品能力发布"
+    ],
+    "insight": "这类资讯适合用来判断赛道热度和竞品优先级，不适合作为功能结论；产品侧应继续追到官方发布、体验截图或用户反馈后，再沉淀具体设计假设。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "competitor-function-radar",
+      "agentic-funnel",
+      "structured-dialogue"
+    ],
+    "contentType": "竞品"
   },
   {
     "id": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
@@ -76,7 +87,11 @@
       "Agentic Commerce",
       "商品库"
     ],
-    "corePoint": "《Agentic Commerce Starts With Product Data as AI Shopping Metrics Take Shape》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物的底座是可信、结构化、可度量的商品与供给数据"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 76,
     "relatedInsightIds": [
@@ -97,7 +112,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“The Race to Own AI Shopping”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 75,
     "relatedInsightIds": [
@@ -116,7 +133,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《How AI is powering Target’s back-to-school push》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 80,
     "relatedInsightIds": [
@@ -138,7 +159,11 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "《资本疯狂押注！AI购物助手崛起，颠覆电商支付行业》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -159,7 +184,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Will agentic commerce push more merchants into marketplaces?》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 75,
     "relatedInsightIds": [
@@ -181,7 +210,11 @@
       "Agentic Commerce",
       "技术架构"
     ],
-    "corePoint": "《Anthropic debuts Claude features focused on agentic commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "购物智能体的重点从单轮问答转向任务编排"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -202,7 +235,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《Agentic Payment 智能体支付研报：从支付路径到生态图景》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 72,
     "relatedInsightIds": [
@@ -223,7 +260,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《How 23% of Merchants Captured Retail’s Next Agentic Commerce Advantage》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -245,7 +286,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 78,
     "relatedInsightIds": [
@@ -265,7 +310,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Spreedly Sees Good Bots Becoming an Agentic Commerce Channel》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 75,
     "relatedInsightIds": [
@@ -287,7 +336,11 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "corePoint": "《NIQ and Similarweb Advance Agentic Commerce Measurement for the AI Shopping Era》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 74,
     "relatedInsightIds": [
@@ -308,7 +361,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Is that message really from Amazon? Just ask Alexa for Shopping.》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 90,
     "relatedInsightIds": [
@@ -330,7 +387,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Kohl’s digital sales grow as AI shopping tools help conversion, despite Q2 overall sales decline》更像一条市场信号：资本或经营数据把AI购物能力视为增长变量，但它本身不等同于具体功能拆解。",
+    "corePoint": [
+      "资本或经营数据开始把AI购物能力计入增长预期",
+      "这类信息更偏赛道热度信号，不等同于具体产品能力发布",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "这类资讯适合用来判断赛道热度和竞品优先级，不适合作为功能结论；产品侧应继续追到官方发布、体验截图或用户反馈后，再沉淀具体设计假设。",
     "valueScore": 80,
     "relatedInsightIds": [
@@ -352,7 +413,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Global Digital Shopping Index: The Agentic Commerce Deep Dive》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -372,7 +437,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《实测微信AI助手、AI版支付宝，生态与安全成决胜关键 - 36kr.com》的价值在于真实使用测评：它暴露了通用AI在礼物/购物决策里，能给建议但不一定能稳定处理预算、收货、偏好和可购买性。",
+    "corePoint": [
+      "真实用户测评暴露了通用AI参与购物决策的可用性边界",
+      "AI能给出建议，但常在预算、收货、偏好、可购买性核对上不稳定",
+      "智能体商业不只是更聪明的结算"
+    ],
     "insight": "这类测评最适合转成产品验收标准：AI导购不能只给“看似合理”的推荐，还要核对库存、价格、配送、替代品和用户约束，并解释为什么放弃其他选项。",
     "valueScore": 72,
     "relatedInsightIds": [
@@ -393,7 +462,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Mastercard CEO: AI Shopping Agents, Machine-to-Machine Payments, and the New Infrastructure of Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -415,7 +487,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Evercore Lifts Amazon Price Target to $355 as AI Shopping Gains Traction》更像一条市场信号：资本或经营数据把AI购物能力视为增长变量，但它本身不等同于具体功能拆解。",
+    "corePoint": [
+      "资本或经营数据开始把AI购物能力计入增长预期",
+      "这类信息更偏赛道热度信号，不等同于具体产品能力发布",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "这类资讯适合用来判断赛道热度和竞品优先级，不适合作为功能结论；产品侧应继续追到官方发布、体验截图或用户反馈后，再沉淀具体设计假设。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -438,7 +514,11 @@
       "即时零售",
       "商家Agent"
     ],
-    "corePoint": "《美团电话会：三季度外卖UE预计同比明显改善，Keeta盈利加速，AI迈向商家端》从商家侧说明AI正在进入选品、投放、内容生成和商品表达，供给侧能力会反过来影响用户端推荐质量。",
+    "corePoint": [
+      "AI正在进入商家侧的选品、投放、内容生成和商品表达",
+      "供给侧资料质量会反过来影响用户端推荐质量",
+      "本地生活/即时零售更强调当下可执行选择"
+    ],
     "insight": "AI导购要同时设计商家端体验：帮助商家把商品表达、素材、投放和服务承诺转成AI能理解的供给资产，而不只是优化用户聊天框。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -459,7 +539,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《AI Spotlight: Enabling Purchases While Stopping Fraud in Agentic Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物的瓶颈在信任与风险控制"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 75,
     "relatedInsightIds": [
@@ -480,7 +564,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《Synchrony Says AI Has Put Every Checkout in Play》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -501,7 +589,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Wolf & Badger Makes Shopping Easier with Agentic Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 75,
     "relatedInsightIds": [
@@ -524,7 +616,11 @@
       "竞品案例",
       "即时零售"
     ],
-    "corePoint": "《鸿蒙版淘宝闪购上线AI点单 更有机会赢取百元券包和华为耳机 使用便捷 福利拉满！》指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。",
+    "corePoint": [
+      "本地生活/即时零售更强调当下可执行选择",
+      "AI需要同时处理位置、时间、库存、配送、优惠和服务约束",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -544,7 +640,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Walmart says its AI assistant, Sparky, is leading to customers spending 40% more than those who shop without it》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -566,7 +666,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《8 AI Tools for Shopee Sellers in Malaysia》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 72,
     "relatedInsightIds": [
@@ -587,7 +691,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Instacart’s AI Assistant Turns Chitchat Into Cha-Ching》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 75,
     "relatedInsightIds": [
@@ -607,7 +715,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“StyleBuddy Launches Expanded AI Fashion Commerce Platform for Fashion Brands”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -626,7 +736,11 @@
     "tags": [
       "虚拟试穿"
     ],
-    "corePoint": "《PointAI, AI Partner to Aditya Birla Fashion, Eyes Rollout of One-Second Virtual Try-On Technology Across ABFRL Stores》聚焦视觉/试穿能力：AI把抽象的风格、尺码和上身效果转成可感知证据，用来降低非标品决策不确定性。",
+    "corePoint": [
+      "视觉/试穿能力把风格、尺码、上身效果转成可感知证据",
+      "它主要解决服饰、美妆、鞋履等非标品的决策不确定性",
+      "试穿/试衣类AI把导购从问答推荐推进到低成本预体验"
+    ],
     "insight": "视觉能力应服务“适不适合我”的判断，而不是单纯生成好看图片；可把尺码、风格、场景、退货风险变成推荐排序和对比卡片里的证据。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -647,7 +761,10 @@
     "tags": [
       "商家Agent"
     ],
-    "corePoint": "《阿里国际智能体已有超5万付费商家，能力正式向国内电商开放》从商家侧说明AI正在进入选品、投放、内容生成和商品表达，供给侧能力会反过来影响用户端推荐质量。",
+    "corePoint": [
+      "AI正在进入商家侧的选品、投放、内容生成和商品表达",
+      "供给侧资料质量会反过来影响用户端推荐质量"
+    ],
     "insight": "AI导购要同时设计商家端体验：帮助商家把商品表达、素材、投放和服务承诺转成AI能理解的供给资产，而不只是优化用户聊天框。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -668,7 +785,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Leading eCommerce Retailer Expands Adoption of HawkSearch With Hybrid Search and AI Shopping Assistant》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -690,7 +811,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Target Touts Jump in Traffic From AI Platforms as Sales Climb》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 74,
     "relatedInsightIds": [
@@ -710,7 +835,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《AI 爬虫涌入电商，安全防线正在从“拦截”转向“判断”》提醒AI购物的瓶颈在信任与风险控制，用户需要知道推荐依据、授权边界和出错后的责任。",
+    "corePoint": [
+      "AI购物的瓶颈在信任与风险控制",
+      "用户需要知道推荐依据、授权边界和出错后的责任归属"
+    ],
     "insight": "信任设计要前置到推荐过程：展示证据来源、排序理由、可撤回授权和售后责任，比单纯提升回答流畅度更能推动交易闭环。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -732,7 +860,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《押宝智能体商业赛道 支付机构加速抢占核心流量入口 - eu.36kr.com》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 72,
     "relatedInsightIds": [
@@ -754,7 +886,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Visa and Mastercard Join Rain’s Agentic Commerce Coalition》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -776,7 +912,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《智能体商业6-12个月将迎爆发？支付宝把战场推向生态》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 72,
     "relatedInsightIds": [
@@ -797,7 +937,11 @@
       "竞品案例",
       "交易闭环"
     ],
-    "corePoint": "《支付宝发布智能体跨端互联AHA协议体系，联合千问、华为、荣耀、比亚迪、吉利等20余家企业共建》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 72,
     "relatedInsightIds": [
@@ -818,7 +962,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Credit card issuer Synchrony partners with OpenAI for ChatGPT shopping》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 88,
     "relatedInsightIds": [
@@ -841,7 +988,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《智能体将大规模进入生活服务场景，支付宝发布智能体商业底座》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 75,
     "relatedInsightIds": [
@@ -861,7 +1012,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Stop Searching, Start Chatting: Glovo pioneers AI quick-commerce》指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。",
+    "corePoint": [
+      "本地生活/即时零售更强调当下可执行选择",
+      "AI需要同时处理位置、时间、库存、配送、优惠和服务约束"
+    ],
     "insight": "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。",
     "valueScore": 69,
     "relatedInsightIds": [
@@ -882,7 +1036,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Can AI Find the Perfect Gift? I Tested ChatGPT, Gemini, Perplexity and Alexa to See Which Worked Best》的价值在于真实使用测评：它暴露了通用AI在礼物/购物决策里，能给建议但不一定能稳定处理预算、收货、偏好和可购买性。",
+    "corePoint": [
+      "真实用户测评暴露了通用AI参与购物决策的可用性边界",
+      "AI能给出建议，但常在预算、收货、偏好、可购买性核对上不稳定",
+      "AI搜索和答案引擎正在成为购物上游入口"
+    ],
     "insight": "这类测评最适合转成产品验收标准：AI导购不能只给“看似合理”的推荐，还要核对库存、价格、配送、替代品和用户约束，并解释为什么放弃其他选项。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -903,7 +1061,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Rise of AI shopping pushes merchants to protect loyalty, Adyen says”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -923,7 +1083,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《How Amazon's AI shopping assistant makes hundreds of millions of products feel personal》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 94,
     "relatedInsightIds": [
@@ -945,7 +1109,11 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "《How AI Shopping Agents, Stablecoins and Smarter Checkout Drive Business Growth》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -967,7 +1135,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Target Strengthens AI and UX Capabilities to Power Its Next Chapter of Growth》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 74,
     "relatedInsightIds": [
@@ -988,7 +1160,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《3 AI Prompts for Google Ads》从商家侧说明AI正在进入选品、投放、内容生成和商品表达，供给侧能力会反过来影响用户端推荐质量。",
+    "corePoint": [
+      "AI正在进入商家侧的选品、投放、内容生成和商品表达",
+      "供给侧资料质量会反过来影响用户端推荐质量"
+    ],
     "insight": "AI导购要同时设计商家端体验：帮助商家把商品表达、素材、投放和服务承诺转成AI能理解的供给资产，而不只是优化用户聊天框。",
     "valueScore": 72,
     "relatedInsightIds": [
@@ -1012,7 +1187,11 @@
       "交易闭环",
       "商品库"
     ],
-    "corePoint": "《实测千问开放平台帮你“干活”，智能体生态战进入“履约”阶段》的价值在于真实使用测评：它暴露了通用AI在礼物/购物决策里，能给建议但不一定能稳定处理预算、收货、偏好和可购买性。",
+    "corePoint": [
+      "8月10日，阿里旗下千问开放平台正式上线，面向生态伙伴和开发者开放手机、PC（个人电脑）和AI眼镜三类终端的AI智能体（Agent）接入能力",
+      "近期AI智能体产业显现明确的集体转型信号：全行业竞争重心系统性从底层模型能力比拼切换至上层生态履约体系构建。此前行业长期陷入参数、推理速度、上下文理解能力的技术军备竞赛",
+      "真实用户测评暴露了通用AI参与购物决策的可用性边界"
+    ],
     "insight": "这类测评最适合转成产品验收标准：AI导购不能只给“看似合理”的推荐，还要核对库存、价格、配送、替代品和用户约束，并解释为什么放弃其他选项。",
     "relatedInsightIds": [
       "evidence-led-recommendation",
@@ -1033,7 +1212,11 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "corePoint": "《Top 100 Business Trends in August 2026: From AI Shopping Agents to Agentic Commerce…》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1054,7 +1237,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《I let ChatGPT, Gemini, and Alexa shop my kids' back-to-school supplies — only one got it right》的价值在于真实使用测评：它暴露了通用AI在礼物/购物决策里，能给建议但不一定能稳定处理预算、收货、偏好和可购买性。",
+    "corePoint": [
+      "真实用户测评暴露了通用AI参与购物决策的可用性边界",
+      "AI能给出建议，但常在预算、收货、偏好、可购买性核对上不稳定",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "这类测评最适合转成产品验收标准：AI导购不能只给“看似合理”的推荐，还要核对库存、价格、配送、替代品和用户约束，并解释为什么放弃其他选项。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -1075,7 +1262,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《Retailers Steer AI Traffic Back to Own Checkouts》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "智能体商业不只是更聪明的结算"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 95,
     "relatedInsightIds": [
@@ -1096,7 +1287,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce》关注商品发现和决策效率：AI开始从改写搜索结果，转向理解意图、组织候选和提供推荐理由。",
+    "corePoint": [
+      "AI购物正在从改写搜索结果转向理解用户意图",
+      "更重要的能力是组织候选商品，并给出可比较的推荐理由"
+    ],
     "insight": "逛和选品的核心不是给更多商品，而是把用户模糊需求翻译成可比较的候选集合；导购应输出取舍理由、场景匹配和反例提醒。",
     "valueScore": 89,
     "relatedInsightIds": [
@@ -1117,7 +1311,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Shopify says AI search is driving more traffic and sales, not replacing Google》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1138,7 +1336,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“倒计时 1 天｜跨境电商 AI Workforce 大会明日重磅启幕”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1157,7 +1357,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“How avatarin built a 24/7 retail agent with GPT-Realtime”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -1179,7 +1381,11 @@
       "Agentic Commerce",
       "商品库"
     ],
-    "corePoint": "《Algolia Brings Agentic Commerce to the Modern Storefront, Giving Retailers AI Shopping Experiences Built on Trusted Product Data》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物的底座是可信、结构化、可度量的商品与供给数据"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1200,7 +1406,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Q&A: Kingfisher chief AI officer on being ahead of the curve with AI agents and agentic commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1221,7 +1431,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Michaels launches AI shopping assistant》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 92,
     "relatedInsightIds": [
@@ -1243,7 +1457,11 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "corePoint": "《Schnucks Teams With VitalityIP on AI-Powered Agentic Shopping Assistant》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1265,7 +1483,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Consumers wary about AI shopping assistants but Amazon is changing perceptions》提醒AI购物的瓶颈在信任与风险控制，用户需要知道推荐依据、授权边界和出错后的责任。",
+    "corePoint": [
+      "AI购物的瓶颈在信任与风险控制",
+      "用户需要知道推荐依据、授权边界和出错后的责任归属",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "信任设计要前置到推荐过程：展示证据来源、排序理由、可撤回授权和售后责任，比单纯提升回答流畅度更能推动交易闭环。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1286,7 +1508,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“48% of Online Shoppers Now Use AI Before Buying”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 87,
     "relatedInsightIds": [
@@ -1305,7 +1529,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《The Millennial Shopping Map: How AI, Search and Stores Compete Before Checkout》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 95,
     "relatedInsightIds": [
@@ -1327,7 +1555,11 @@
       "竞品案例",
       "技术架构"
     ],
-    "corePoint": "《Build an autonomous ecommerce assistant with AWS End User Messaging, Amazon Bedrock AgentCore, and OpenClaw》的信号在于：头部平台正在把AI能力嵌入具体购物链路，竞品差异不只在模型，而在入口位置、数据资产、履约深度和交易责任。",
+    "corePoint": [
+      "头部平台正在把AI能力嵌入具体购物链路",
+      "竞品差异不只在模型，也在入口位置、数据资产、履约深度和交易责任",
+      "购物智能体的重点从单轮问答转向任务编排"
+    ],
     "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1348,7 +1580,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Intent Clusters Guide AI Product Discovery》关注商品发现和决策效率：AI开始从改写搜索结果，转向理解意图、组织候选和提供推荐理由。",
+    "corePoint": [
+      "AI购物正在从改写搜索结果转向理解用户意图",
+      "更重要的能力是组织候选商品，并给出可比较的推荐理由"
+    ],
     "insight": "逛和选品的核心不是给更多商品，而是把用户模糊需求翻译成可比较的候选集合；导购应输出取舍理由、场景匹配和反例提醒。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -1369,7 +1604,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“AI agents for ecommerce: how they work, top tools, and how to build one”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1388,7 +1625,9 @@
     "tags": [
       "对话导购"
     ],
-    "corePoint": "围绕“The New Storefront Is the AI Conversation”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 83,
     "relatedInsightIds": [
@@ -1407,7 +1646,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《Agentic Payment 研报（上篇）：从支付宝3 亿笔AI 支付看智能体时代的支付重构序幕拉开，全景式解析A2A / A2M 范式、ACT 协议、授权模型、风控体系与全球玩家竞争》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1428,7 +1671,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《When AI Goes Shopping Without Permission: What Amazon v. Perplexity Means for Ecommerce Brands》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1449,7 +1696,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《eDO Taps Visa to Allow AI Agents to Purchase Travel》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 87,
     "relatedInsightIds": [
@@ -1470,7 +1720,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Visa Unlocks Agentic Commerce in Europe: AI Agents Now Executing Live Retail Transactions》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1491,7 +1745,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Woolworths upgrades AI shopping assistant》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -1512,7 +1770,10 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Amazon launches AI assistant for German sellers》的信号在于：头部平台正在把AI能力嵌入具体购物链路，竞品差异不只在模型，而在入口位置、数据资产、履约深度和交易责任。",
+    "corePoint": [
+      "头部平台正在把AI能力嵌入具体购物链路",
+      "竞品差异不只在模型，也在入口位置、数据资产、履约深度和交易责任"
+    ],
     "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1534,7 +1795,11 @@
       "AI购物",
       "商品库"
     ],
-    "corePoint": "《AI Shopping Assistant Launches at Newegg: Real-Time Catalog Powers PC Build Advice》强调AI购物的底座是可信、结构化、可度量的商品与供给数据；没有数据层，导购很难稳定推荐和成交。",
+    "corePoint": [
+      "AI购物的底座是可信、结构化、可度量的商品与供给数据",
+      "没有商品数据层，导购很难稳定完成推荐、比较和成交",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "产品机会在商家端和数据层：让商品卖点、适用人群、禁忌、库存、价格和履约承诺机器可读，用户端导购才有可验证的推荐依据。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -1556,7 +1821,11 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "《AI Shopping Gets Complicated at Checkout》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -1577,7 +1846,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“From invisible to recommended: How brands become visible to AI shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -1595,7 +1866,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Shopee核心团队砸重金，上线了一款消费级AI应用》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 82,
     "relatedInsightIds": [
@@ -1617,7 +1892,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Instacart Reports AI Agent Drives Bigger Grocery Orders》指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。",
+    "corePoint": [
+      "本地生活/即时零售更强调当下可执行选择",
+      "AI需要同时处理位置、时间、库存、配送、优惠和服务约束",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -1639,7 +1918,11 @@
       "竞品案例",
       "GEO"
     ],
-    "corePoint": "《对话即购物：当用户不再搜索，豆包千问们成了另一个百度淘宝｜#新趋势》强调AI购物的底座是可信、结构化、可度量的商品与供给数据；没有数据层，导购很难稳定推荐和成交。",
+    "corePoint": [
+      "AI购物的底座是可信、结构化、可度量的商品与供给数据",
+      "没有商品数据层，导购很难稳定完成推荐、比较和成交",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "产品机会在商家端和数据层：让商品卖点、适用人群、禁忌、库存、价格和履约承诺机器可读，用户端导购才有可验证的推荐依据。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -1660,7 +1943,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Agentic commerce: how AI changes consumer decisions, brands, and retail》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1681,7 +1968,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Visa and Mastercard Put Tokens in Charge of AI Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -1703,7 +1993,11 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "《Cart Assistant: Agentic Grocery Shopping on Uber Eats》指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。",
+    "corePoint": [
+      "本地生活/即时零售更强调当下可执行选择",
+      "AI需要同时处理位置、时间、库存、配送、优惠和服务约束",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1724,7 +2018,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Dutchie Launches Consumer AI featuring Voice AI, Agentic Commerce, Register Co-Pilot, and Consumer Pulse》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1745,7 +2043,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Permission, Not Payments, Will Shape the Agentic Commerce Revolution》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -1766,7 +2068,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Europe’s new e‑commerce agenda: How AI is resetting growth and competition”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -1785,7 +2089,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Santander’s Getnet Plugs Merchants Into Agentic Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 95,
     "relatedInsightIds": [
@@ -1806,7 +2114,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Agentic commerce: AI is now your shopper’s first stop. Showing up is just the beginning.》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -1826,7 +2138,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《美团AI助手小美将接入腾讯元宝》指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。",
+    "corePoint": [
+      "本地生活/即时零售更强调当下可执行选择",
+      "AI需要同时处理位置、时间、库存、配送、优惠和服务约束",
+      "本地生活AI的关键不在“会聊天”"
+    ],
     "insight": "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。",
     "valueScore": 84,
     "relatedInsightIds": [
@@ -1849,7 +2165,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《Press Release: Hey Savi and PayPal Launch UK's First Agentic Commerce Platform with In-App Checkout; Debenhams Group Joins as First Retail Adopter - Jun 2, 2026》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1870,7 +2190,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“一家中小跨境电商的AI拼连接样本”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -1889,7 +2211,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《How AWS is helping retailers build their own AI-powered shopping experiences》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -1910,7 +2236,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Lowe’s courts DIY shoppers as AI tools boost online conversions”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 92,
     "relatedInsightIds": [
@@ -1930,7 +2258,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《Agentic commerce & AI payments: Elevate your checkout strategy》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 79,
     "relatedInsightIds": [
@@ -1952,7 +2284,11 @@
       "Agentic Commerce",
       "商家Agent"
     ],
-    "corePoint": "《The Agentic Commerce Checklist Every Merchant Needs Now》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI正在进入商家侧的选品、投放、内容生成和商品表达"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 95,
     "relatedInsightIds": [
@@ -1973,7 +2309,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Klarna Plugs Practical Agentic Commerce Into ChatGPT》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -1994,7 +2334,10 @@
     "tags": [
       "技术架构"
     ],
-    "corePoint": "《How we’re helping retailers thrive with new Universal Commerce Protocol features and AI tools on Google》说明，购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "corePoint": [
+      "购物智能体的重点从单轮问答转向任务编排",
+      "搜索、比较、确认、支付等工具需要协同工作"
+    ],
     "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
     "valueScore": 76,
     "relatedInsightIds": [
@@ -2015,7 +2358,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《Google Shopping introduces Universal Cart, agentic shopping》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -2036,7 +2383,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Visa Wants to Make AI Shoppers as Trusted as Human Ones》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 87,
     "relatedInsightIds": [
@@ -2057,7 +2407,10 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《Google's new Universal Cart wants to follow your entire shopping journey across the internet》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "corePoint": [
+      "AI购物正在从推荐信息走向交易闭环",
+      "商品、价格、支付、履约等基础能力开始成为核心竞争点"
+    ],
     "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
     "valueScore": 93,
     "relatedInsightIds": [
@@ -2078,7 +2431,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“今年618风向大变！京东阿里抖音齐发力AI”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 83,
     "relatedInsightIds": [
@@ -2099,7 +2454,11 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "corePoint": "《China leads the agentic commerce race as Alibaba, Meituan, and JD.com deploy AI shopping agents at scale》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -2120,7 +2479,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Etsy debuts app in ChatGPT》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 92,
     "relatedInsightIds": [
@@ -2141,7 +2503,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Meet Alexa for Shopping, your personalized, agentic AI assistant on Amazon》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -2162,7 +2528,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Research: Traditional Marketing Doesn’t Work on AI Shopping Agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 93,
     "relatedInsightIds": [
@@ -2181,7 +2549,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《千问、淘宝全面打通，AI电商时代更近了》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "阿里系AI能力正在回到电商交易链路内部"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 94,
     "relatedInsightIds": [
@@ -2203,7 +2575,11 @@
       "竞品案例",
       "虚拟试穿"
     ],
-    "corePoint": "《欧阳娜娜出任淘宝AI购物大使，AI试穿功能上线》聚焦视觉/试穿能力：AI把抽象的风格、尺码和上身效果转成可感知证据，用来降低非标品决策不确定性。",
+    "corePoint": [
+      "视觉/试穿能力把风格、尺码、上身效果转成可感知证据",
+      "它主要解决服饰、美妆、鞋履等非标品的决策不确定性",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "视觉能力应服务“适不适合我”的判断，而不是单纯生成好看图片；可把尺码、风格、场景、退货风险变成推荐排序和对比卡片里的证据。",
     "valueScore": 88,
     "relatedInsightIds": [
@@ -2225,7 +2601,10 @@
     "tags": [
       "商家Agent"
     ],
-    "corePoint": "《以AI赋能电商内容生产运营提速，中国移动为商家降本增效》从商家侧说明AI正在进入选品、投放、内容生成和商品表达，供给侧能力会反过来影响用户端推荐质量。",
+    "corePoint": [
+      "AI正在进入商家侧的选品、投放、内容生成和商品表达",
+      "供给侧资料质量会反过来影响用户端推荐质量"
+    ],
     "insight": "AI导购要同时设计商家端体验：帮助商家把商品表达、素材、投放和服务承诺转成AI能理解的供给资产，而不只是优化用户聊天框。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -2246,7 +2625,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《US agentic commerce revenue forecast to reach $1 trillion by 2030》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -2267,7 +2650,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“As AI upends shopping, retailers tailor their pitches for chatbots”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -2287,7 +2672,10 @@
       "AI购物",
       "技术架构"
     ],
-    "corePoint": "《Universal Commerce Protocol updates improve AI shopping for retailers》说明，购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "corePoint": [
+      "购物智能体的重点从单轮问答转向任务编排",
+      "搜索、比较、确认、支付等工具需要协同工作"
+    ],
     "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
     "valueScore": 93,
     "relatedInsightIds": [
@@ -2306,7 +2694,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Retailers are rushing to build AI apps. It’s unclear if shoppers will use them”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -2325,7 +2715,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Shopping gets an AI assist”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -2345,7 +2737,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《Beyond checkout: Where agentic commerce actually starts》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 79,
     "relatedInsightIds": [
@@ -2366,7 +2762,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“43% of Retailers Are Piloting AI Shopping Agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -2385,7 +2783,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Shopping in the age of AI: Redefining stores for a new era”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -2404,7 +2804,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“AI: Anthropic's 'fascinating' internal test of AI Agents Shopping. RTZ #1068”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -2423,7 +2825,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Ulta Beauty Deploys Google-Powered AI Assistant and Agentic Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -2444,7 +2850,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Agentic AI Commerce: The Next Wave of Online Shopping and Retailer Risk》提醒AI购物的瓶颈在信任与风险控制，用户需要知道推荐依据、授权边界和出错后的责任。",
+    "corePoint": [
+      "AI购物的瓶颈在信任与风险控制",
+      "用户需要知道推荐依据、授权边界和出错后的责任归属"
+    ],
     "insight": "信任设计要前置到推荐过程：展示证据来源、排序理由、可撤回授权和售后责任，比单纯提升回答流畅度更能推动交易闭环。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -2465,7 +2874,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Deep Dive: Agentic Commerce and Payment Protocols: By Sam Boboev》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -2486,7 +2899,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《AI traffic grows but retail sites lag in AI search visibility》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -2508,7 +2925,11 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "corePoint": "《David’s Bridal says yes to agentic shopping within ChatGPT and Microsoft Copilot》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -2529,7 +2950,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《How Agentic AI is Transforming Commerce and Payment》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -2550,7 +2974,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“神笔AI Agent 联手钉钉悟空，上新4大电商AI技能，重构电商运营效率”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -2570,7 +2996,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Frasers Group launches AI shopping assistant, sees conversions jump 25%》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -2591,7 +3021,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Meet Pixie, Sixty60’s new AI-powered shopping assistant》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -2612,7 +3046,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《FAQ on agentic commerce: How brands should act now to compete in an AI-driven landscape》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -2634,7 +3072,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Target Warns That If Its AI Shopping Agent Makes an Expensive Mistake, You'll Have to Pay for It》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -2655,7 +3097,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Ecommerce Trends: How Visa and Mastercard are approaching agentic commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -2676,7 +3122,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Macy’s introduces AI-powered shopping assistant》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 92,
     "relatedInsightIds": [
@@ -2697,7 +3147,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“These two AI-powered insurance shopping tools are worth a try”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 84,
     "relatedInsightIds": [
@@ -2716,7 +3168,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《What went wrong with ChatGPT’s Instant Checkout》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -2737,7 +3193,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Accenture Invests in DaVinci Commerce to Advance Agentic AI-Led Shopping”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -2756,7 +3214,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Walmart fires OpenAI in playbook-changing move》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -2777,7 +3239,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“OpenAI's first crack at online shopping stumbled. It's preparing for the next wave”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -2798,7 +3262,11 @@
       "即时零售",
       "商家Agent"
     ],
-    "corePoint": "《电商版“龙虾”来了！阿里悟空发布，用 AI 破解电商经营核心焦虑|阿里巴巴|淘宝闪购|Qwen|千问|商家_手机新浪网》从商家侧说明AI正在进入选品、投放、内容生成和商品表达，供给侧能力会反过来影响用户端推荐质量。",
+    "corePoint": [
+      "AI正在进入商家侧的选品、投放、内容生成和商品表达",
+      "供给侧资料质量会反过来影响用户端推荐质量",
+      "本地生活/即时零售更强调当下可执行选择"
+    ],
     "insight": "AI导购要同时设计商家端体验：帮助商家把商品表达、素材、投放和服务承诺转成AI能理解的供给资产，而不只是优化用户聊天框。",
     "valueScore": 88,
     "relatedInsightIds": [
@@ -2821,7 +3289,11 @@
       "竞品案例",
       "Agentic Commerce"
     ],
-    "corePoint": "《Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -2842,7 +3314,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“World launches tool to verify humans behind AI shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
@@ -2861,7 +3335,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Shopify is preparing for AI shopping agents to change everything, exec says”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 89,
     "relatedInsightIds": [
@@ -2880,7 +3356,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《为何加密多头认为人工智能代理将使稳定币成为默认支付层》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -2901,7 +3381,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Why Agentic AI is a Game-Changer for Ecommerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -2920,7 +3402,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《Shopify says purchases are coming ‘inside ChatGPT’ through agentic storefronts as OpenAI retreats on Instant Checkout》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 89,
     "relatedInsightIds": [
@@ -2941,7 +3427,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《OpenAI Moves Commerce Focus to Brand-Owned ChatGPT Apps》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -2963,7 +3452,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Amazon's Rufus AI shopping assistant can be easily jailbroken and tricked into answering other questions — specific prompts break the chatbot's guidelines and reach underlying AI engine》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -2984,7 +3477,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《OpenAI Hits Pause on “Buy in ChatGPT” Just Months After Instant Checkout Launch》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -3005,7 +3502,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Europe’s agentic commerce moment: Decision influence is here; execution is coming》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -3026,7 +3527,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《The Financial Rails of Agentic Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -3047,7 +3552,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《AI Agents Start Shopping and Payments Firms Adapt》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 87,
     "relatedInsightIds": [
@@ -3068,7 +3576,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Stripe’s slower view of agentic commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -3089,7 +3601,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“快手上线AI电商功能，一批电商人饭碗要没了……”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 79,
     "relatedInsightIds": [
@@ -3109,7 +3623,11 @@
       "AI购物",
       "交易闭环"
     ],
-    "corePoint": "《Shopify says AI shopping will ‘not bypass’ its checkout》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -3130,7 +3648,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“观点丨陈天昊：AI购物是大模型走向千家万户的“第一块试验田””，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 69,
     "relatedInsightIds": [
@@ -3149,7 +3669,11 @@
     "tags": [
       "技术架构"
     ],
-    "corePoint": "《The Agentic Protocol Wars Come To Ecommerce; Perplexity Says Ads Erode Trust In AI》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -3170,7 +3694,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Amazon surpasses Walmart in annual revenue for first time, as both chase AI-fueled growth》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 88,
     "relatedInsightIds": [
@@ -3191,7 +3719,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“True Fit Launches Agentic AI Shopping Experience Powered by 20 Years of Fit Data”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3210,7 +3740,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《DBS is First Bank in Asia Pacific to Pilot Visa Intelligent Commerce for Everyday Payments》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -3231,7 +3765,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《How to use Alexa for Shopping to compare products, check price history, auto-buy items at target prices, and more》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 95,
     "relatedInsightIds": [
@@ -3253,7 +3791,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《千问AI购物活动中，用户具体能领到哪些福利和免单卡？》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "阿里系AI能力正在回到电商交易链路内部"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -3274,7 +3816,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Here’s how consumers want to use AI shopping assistants》显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。",
+    "corePoint": [
+      "海外平台正在把AI导购做成可执行助手",
+      "能力从理解意图、比较商品，延伸到价格提醒、补货和订单验证"
+    ],
     "insight": "围绕《Here’s how consumers want to use AI shopping assistants》，产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3293,7 +3838,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“UK Retailers Eye Online Growth as AI Transforms Shopping and Delivery”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3312,7 +3859,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“AI电商走到哪了？”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3331,7 +3880,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Why Marketplaces Block AI Shopping Agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3350,7 +3901,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《The automation curve in agentic commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -3371,7 +3926,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《AI推荐购物靠谱吗？警惕有人刻意误导》关注商品发现和决策效率：AI开始从改写搜索结果，转向理解意图、组织候选和提供推荐理由。",
+    "corePoint": [
+      "AI购物正在从改写搜索结果转向理解用户意图",
+      "更重要的能力是组织候选商品，并给出可比较的推荐理由"
+    ],
     "insight": "逛和选品的核心不是给更多商品，而是把用户模糊需求翻译成可比较的候选集合；导购应输出取舍理由、场景匹配和反例提醒。",
     "valueScore": 69,
     "relatedInsightIds": [
@@ -3392,7 +3950,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Agentic commerce and its role in transforming the future of shopping》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -3413,7 +3975,11 @@
       "竞品案例",
       "GEO"
     ],
-    "corePoint": "《美团App上线「问小团」AI搜索，智能匹配用户所需服务》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "AI购物的底座是可信、结构化、可度量的商品与供给数据"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 84,
     "relatedInsightIds": [
@@ -3435,7 +4001,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《The new rules of the road for agentic commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -3459,7 +4029,11 @@
       "交易闭环",
       "即时零售"
     ],
-    "corePoint": "《首个智能体商业信任协议来了！支付宝携手千问 App、淘宝闪购等发布 AI 商业协议 ACT》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "本地生活/即时零售更强调当下可执行选择"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 87,
     "relatedInsightIds": [
@@ -3481,7 +4055,11 @@
       "竞品案例",
       "Agentic Commerce"
     ],
-    "corePoint": "《不只是 Chatbot：如何设计一个真正可执行的 Agentic Commerce 电商系统》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -3502,7 +4080,10 @@
     "tags": [
       "技术架构"
     ],
-    "corePoint": "《A consumer watchdog issued a warning about Google's AI agent shopping protocol -- Google says she's wrong》说明，购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "corePoint": [
+      "购物智能体的重点从单轮问答转向任务编排",
+      "搜索、比较、确认、支付等工具需要协同工作"
+    ],
     "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
     "valueScore": 93,
     "relatedInsightIds": [
@@ -3524,7 +4105,11 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "corePoint": "《JD Sports tests agentic commerce by linking AI shopping to checkout》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 83,
     "relatedInsightIds": [
@@ -3545,7 +4130,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Google bolsters bet on AI-powered commerce with new platform for shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -3564,7 +4151,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Walmart and Google Turn AI Discovery Into Effortless Shopping Experiences》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -3586,7 +4177,11 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "corePoint": "《New tech and tools for retailers to succeed in an agentic shopping era》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI正在进入商家侧的选品、投放、内容生成和商品表达"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -3607,7 +4202,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“58% of consumers use AI tools to research products”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3626,7 +4223,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Microsoft propels retail forward with agentic AI capabilities that power intelligent automation for every retail function”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -3645,7 +4244,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《OpenAI may buy Pinterest — and it could change how we search, shop and scroll》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -3666,7 +4269,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“It Buys For Us: 3 Major Risks Of AI In Ecommerce”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -3685,7 +4290,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“So, I Tried an AI Shopping Cart”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -3705,7 +4312,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“从实体网点到智能机器人：AI智能体能否重塑零售银行业？”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3725,7 +4334,10 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Amazon faces 'leader's dilemma' — fight AI shopping bots or join them》的信号在于：头部平台正在把AI能力嵌入具体购物链路，竞品差异不只在模型，而在入口位置、数据资产、履约深度和交易责任。",
+    "corePoint": [
+      "头部平台正在把AI能力嵌入具体购物链路",
+      "竞品差异不只在模型，也在入口位置、数据资产、履约深度和交易责任"
+    ],
     "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
     "valueScore": 88,
     "relatedInsightIds": [
@@ -3745,7 +4357,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Beyond the Subscription: Why Agentic Commerce Needs Stablecoins to Scale》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3767,7 +4383,11 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "corePoint": "《PayPal’s play for agentic commerce: Making AI shopping work for Main Street》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -3789,7 +4409,11 @@
       "Agentic Commerce",
       "技术架构"
     ],
-    "corePoint": "《Skyfire Demonstrates Secure Agentic Commerce Purchase Using the KYAPay Protocol and Visa Intelligent Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "购物智能体的重点从单轮问答转向任务编排"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -3810,7 +4434,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“AI Agents Will Reshape E-Commerce. European Players Must Prepare Now.”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -3829,7 +4455,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《蚂蚁国际进击：从跨境支付到智能体支付|深度》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -3850,7 +4480,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《AI tools could drive $263 billion in holiday sales. Walmart and Target are racing to get in》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 84,
     "relatedInsightIds": [
@@ -3871,7 +4505,11 @@
     "tags": [
       "虚拟试穿"
     ],
-    "corePoint": "《Google virtual try on shopping feature adds new studio-quality images》聚焦视觉/试穿能力：AI把抽象的风格、尺码和上身效果转成可感知证据，用来降低非标品决策不确定性。",
+    "corePoint": [
+      "视觉/试穿能力把风格、尺码、上身效果转成可感知证据",
+      "它主要解决服饰、美妆、鞋履等非标品的决策不确定性",
+      "试穿/试衣类AI把导购从问答推荐推进到低成本预体验"
+    ],
     "insight": "视觉能力应服务“适不适合我”的判断，而不是单纯生成好看图片；可把尺码、风格、场景、退货风险变成推荐排序和对比卡片里的证据。",
     "valueScore": 92,
     "relatedInsightIds": [
@@ -3892,7 +4530,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《More than a Store: Can Albertsons’ agentic AI tool fix the drudgery of grocery e-commerce?》指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。",
+    "corePoint": [
+      "本地生活/即时零售更强调当下可执行选择",
+      "AI需要同时处理位置、时间、库存、配送、优惠和服务约束"
+    ],
     "insight": "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -3914,7 +4555,11 @@
       "竞品案例",
       "交易闭环"
     ],
-    "corePoint": "《Instacart App Launches in OpenAI ChatGPT - First Company to Offer New Instant Checkout App Experience》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -3935,7 +4580,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“How Alibaba Is Using AI to Reshape Its Ecommerce Empire”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -3954,7 +4601,11 @@
     "tags": [
       "虚拟试穿"
     ],
-    "corePoint": "《Perfect Corp. Partners with Tom Ford Fashion to Deliver Ultra-Realistic 3D Virtual Try-On for Luxury Eyewear, Redefining the Digital Shopping Experience》聚焦视觉/试穿能力：AI把抽象的风格、尺码和上身效果转成可感知证据，用来降低非标品决策不确定性。",
+    "corePoint": [
+      "视觉/试穿能力把风格、尺码、上身效果转成可感知证据",
+      "它主要解决服饰、美妆、鞋履等非标品的决策不确定性",
+      "试穿/试衣类AI把导购从问答推荐推进到低成本预体验"
+    ],
     "insight": "视觉能力应服务“适不适合我”的判断，而不是单纯生成好看图片；可把尺码、风格、场景、退货风险变成推荐排序和对比卡片里的证据。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -3975,7 +4626,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Inside Mirakl’s agentic commerce vision》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -3997,7 +4652,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Amazon Blocks ChatGPT AI Shopping Agents Ahead of Black Friday》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -4018,7 +4677,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“This month in AI: The rise and risks of AI shopping agents”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -4037,7 +4698,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Santa’s New Helper: Will AI Tools Shape Holiday Shopping?”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -4057,7 +4720,11 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "corePoint": "《Newegg Partners With PayPal to Integrate PayPal Agentic Commerce Services for AI-Shopping Experiences》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -4078,7 +4745,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《OpenAI and Perplexity are launching AI shopping assistants, but competing startups aren't sweating it》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 93,
     "relatedInsightIds": [
@@ -4099,7 +4770,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Introducing shopping research in ChatGPT》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4120,7 +4794,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Agentic AI in ecommerce: How merchants can stay relevant”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -4139,7 +4815,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Perplexity announces free product to streamline online shopping》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 88,
     "relatedInsightIds": [
@@ -4160,7 +4840,10 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《How Amazon is using generative and agentic AI to transform the shopping experience》的信号在于：头部平台正在把AI能力嵌入具体购物链路，竞品差异不只在模型，而在入口位置、数据资产、履约深度和交易责任。",
+    "corePoint": [
+      "头部平台正在把AI能力嵌入具体购物链路",
+      "竞品差异不只在模型，也在入口位置、数据资产、履约深度和交易责任"
+    ],
     "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4180,7 +4863,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“SEO Pulse: AI Shopping, GPT-5.1 & EU Pressure On Google”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -4201,7 +4886,11 @@
       "对话导购",
       "交易闭环"
     ],
-    "corePoint": "《Google augments AI shopping with conversational search, agentic checkout and an AI that calls stores for you》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4222,7 +4911,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Target Launches New AI-Powered Features to Make Holiday Shopping Easier, Smarter and More Fun》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 89,
     "relatedInsightIds": [
@@ -4243,7 +4936,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“U.S. Consumers Warm Up to AI Shopping Tools”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4262,7 +4957,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“Are AI Chatbots Changing How We Shop?”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 69,
     "relatedInsightIds": [
@@ -4281,7 +4978,11 @@
       "对话导购",
       "竞品案例"
     ],
-    "corePoint": "《双11AI导购来帮忙：淘宝“AI万能搜”解决5000万个消费需求，生成两百万份购物清单》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "阿里系AI能力正在回到电商交易链路内部"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 89,
     "relatedInsightIds": [
@@ -4303,7 +5004,9 @@
     "tags": [
       "对话导购"
     ],
-    "corePoint": "围绕“Chat-Driven Commerce: The Rise of Inline Shopping in Conversational AI”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4323,7 +5026,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Amazon sues Perplexity over AI shopping agents》说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。",
+    "corePoint": [
+      "AI搜索和答案引擎正在成为购物上游入口",
+      "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4344,7 +5051,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Walmart introduces AI tools for in-store and online holiday shopping》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4366,7 +5077,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Amazon says its AI shopping assistant Rufus is so effective it's on pace to pull in an extra $10 billion in sales》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4388,7 +5103,10 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Amazon CEO expects to 'find ways' to partner with third-party AI shopping agents in the future》的信号在于：头部平台正在把AI能力嵌入具体购物链路，竞品差异不只在模型，而在入口位置、数据资产、履约深度和交易责任。",
+    "corePoint": [
+      "头部平台正在把AI能力嵌入具体购物链路",
+      "竞品差异不只在模型，也在入口位置、数据资产、履约深度和交易责任"
+    ],
     "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -4408,7 +5126,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《PwC and Stripe Launch Collaboration to Accelerate the Next Era of Agentic Commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4429,7 +5151,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《PayPal partners with OpenAI to let users pay for their shopping within ChatGPT》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 89,
     "relatedInsightIds": [
@@ -4450,7 +5175,11 @@
     "tags": [
       "商品库"
     ],
-    "corePoint": "《5年内将成用户“商品发现”主渠道！AI代理重塑电商格局》强调AI购物的底座是可信、结构化、可度量的商品与供给数据；没有数据层，导购很难稳定推荐和成交。",
+    "corePoint": [
+      "AI购物的底座是可信、结构化、可度量的商品与供给数据",
+      "没有商品数据层，导购很难稳定完成推荐、比较和成交",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "产品机会在商家端和数据层：让商品卖点、适用人群、禁忌、库存、价格和履约承诺机器可读，用户端导购才有可验证的推荐依据。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4471,7 +5200,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“十大最佳AI聊天机器人，助力电商业务”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -4490,7 +5221,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Securing agentic commerce: helping AI Agents transact with Visa and Mastercard》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4511,7 +5246,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Amazon’s new AI-powered shopping feature ‘Help Me Decide’ makes it easy to quickly pick the right product》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 95,
     "relatedInsightIds": [
@@ -4532,7 +5271,10 @@
     "tags": [
       "对话导购"
     ],
-    "corePoint": "《OpenAI slipped shopping into 800 million ChatGPT users’ chats − here’s why that matters》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -4553,7 +5295,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《The agentic commerce opportunity: How AI agents are ushering in a new era for consumers and merchants》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4574,7 +5320,11 @@
       "对话导购",
       "竞品案例"
     ],
-    "corePoint": "《淘宝全新发布“AI万能搜”等6款AI导购应用》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "阿里系AI能力正在回到电商交易链路内部"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 91,
     "relatedInsightIds": [
@@ -4595,7 +5345,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《首个AI全面落地的天猫双11来了》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "阿里系AI能力正在回到电商交易链路内部"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 90,
     "relatedInsightIds": [
@@ -4617,7 +5371,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“独家｜阿里前高管汤兴创业项目Alvin's Club 完成数千万美元Pre-A 轮融资，用 AI 重构全球电商新范式”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 83,
     "relatedInsightIds": [
@@ -4636,7 +5392,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“OpenAI上线购物Agent，AI早已改写电商逻辑”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -4657,7 +5415,11 @@
       "AI购物",
       "虚拟试穿"
     ],
-    "corePoint": "《Google's Latest AI Shopping Update Lets You Try On Shoes Without Leaving Your House》聚焦视觉/试穿能力：AI把抽象的风格、尺码和上身效果转成可感知证据，用来降低非标品决策不确定性。",
+    "corePoint": [
+      "视觉/试穿能力把风格、尺码、上身效果转成可感知证据",
+      "它主要解决服饰、美妆、鞋履等非标品的决策不确定性",
+      "试穿/试衣类AI把导购从问答推荐推进到低成本预体验"
+    ],
     "insight": "视觉能力应服务“适不适合我”的判断，而不是单纯生成好看图片；可把尺码、风格、场景、退货风险变成推荐排序和对比卡片里的证据。",
     "valueScore": 73,
     "relatedInsightIds": [
@@ -4678,7 +5440,10 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《PayPal’s Honey to integrate with ChatGPT and other AIs for shopping assistance》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 89,
     "relatedInsightIds": [
@@ -4701,7 +5466,11 @@
       "交易闭环",
       "技术架构"
     ],
-    "corePoint": "《Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "平台正在把AI能力放进购物入口或交易资产"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4722,7 +5491,10 @@
     "tags": [
       "技术架构"
     ],
-    "corePoint": "《用 AI 重塑电商，京东零售发布电商创新 AI 架构体系 Oxygen》说明，购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
+    "corePoint": [
+      "购物智能体的重点从单轮问答转向任务编排",
+      "搜索、比较、确认、支付等工具需要协同工作"
+    ],
     "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4743,7 +5515,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《ChatGPT is now 20% of Walmart's referral traffic — while Amazon wards off AI shopping agents》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 85,
     "relatedInsightIds": [
@@ -4764,7 +5540,11 @@
     "tags": [
       "交易闭环"
     ],
-    "corePoint": "《Google推出AI支付协议，万事达卡、Visa、PayPal、蚂蚁国际等参与》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "AI购物正在从推荐信息走向交易闭环"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -4785,7 +5565,11 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "corePoint": "《Google and PayPal team up on agentic commerce》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "Agentic Commerce会把发现、比较和结算前置到AI入口"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 93,
     "relatedInsightIds": [
@@ -4806,7 +5590,10 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《Amazon launches AI agent to help sellers complete tasks and manage their businesses》的信号在于：头部平台正在把AI能力嵌入具体购物链路，竞品差异不只在模型，而在入口位置、数据资产、履约深度和交易责任。",
+    "corePoint": [
+      "头部平台正在把AI能力嵌入具体购物链路",
+      "竞品差异不只在模型，也在入口位置、数据资产、履约深度和交易责任"
+    ],
     "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4828,7 +5615,11 @@
       "竞品案例",
       "交易闭环"
     ],
-    "corePoint": "《淘宝、美团、支付宝都在做AI导购，能不能用你的消费数据？》的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。",
+    "corePoint": [
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验",
+      "本地生活/即时零售更强调当下可执行选择"
+    ],
     "insight": "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
     "valueScore": 87,
     "relatedInsightIds": [
@@ -4850,7 +5641,11 @@
       "竞品案例",
       "即时零售"
     ],
-    "corePoint": "《美团新动作！用AI点外卖，有“暗号”才能体验》指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。",
+    "corePoint": [
+      "本地生活/即时零售更强调当下可执行选择",
+      "AI需要同时处理位置、时间、库存、配送、优惠和服务约束",
+      "头部平台正在把AI能力嵌入具体购物链路"
+    ],
     "insight": "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。",
     "valueScore": 86,
     "relatedInsightIds": [
@@ -4872,7 +5667,9 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "围绕“The Role of AI in Voice Commerce Integration”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4890,7 +5687,11 @@
     "tags": [
       "竞品案例"
     ],
-    "corePoint": "《美团内测AI生活助手小美》指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。",
+    "corePoint": [
+      "本地生活/即时零售更强调当下可执行选择",
+      "AI需要同时处理位置、时间、库存、配送、优惠和服务约束",
+      "本地生活AI的关键不在“会聊天”"
+    ],
     "insight": "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。",
     "valueScore": 86,
     "relatedInsightIds": [
@@ -4912,7 +5713,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《Ralph Lauren debuts Ask Ralph AI shopping assistant on mobile app》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 81,
     "relatedInsightIds": [
@@ -4933,7 +5738,9 @@
     "tags": [
       "对话导购"
     ],
-    "corePoint": "围绕“Google Cloud Launches Conversational Commerce Agent, Delivering AI-Enabled, Personalized Shopping Experiences for Customers”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4954,7 +5761,9 @@
       "AI购物",
       "对话导购"
     ],
-    "corePoint": "围绕“Ralph Lauren Introduces Ask Ralph, a New Conversational AI Shopping Experience”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
+    "corePoint": [
+      "公开信息显示，这是一条与AI购物/导购相关的行业信号"
+    ],
     "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
     "valueScore": 77,
     "relatedInsightIds": [
@@ -4974,7 +5783,11 @@
       "AI购物",
       "竞品案例"
     ],
-    "corePoint": "《Amazon integrates Lens visual search with its AI shopping assistant》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "AI购物正在从改写搜索结果转向理解用户意图"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 96,
     "relatedInsightIds": [
@@ -4995,7 +5808,11 @@
     "tags": [
       "AI购物"
     ],
-    "corePoint": "《AI Shopping Assistant: Redefining How We Buy Online》展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。",
+    "corePoint": [
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程",
+      "海外平台正在把AI导购做成可执行助手"
+    ],
     "insight": "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
     "valueScore": 81,
     "relatedInsightIds": [
