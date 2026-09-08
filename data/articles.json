@@ -44,6 +44,25 @@
     "contentType": "竞品"
   },
   {
+    "id": "2026-09-07-token-ai-kimi-def8e7815c",
+    "date": "2026-09-07",
+    "title": "像充话费一样买Token 天猫上线AI空间站，智谱、Kimi等入驻",
+    "source": "新浪财经",
+    "region": "国内",
+    "contentType": "竞品",
+    "category": "平台案例",
+    "url": "https://finance.sina.cn/2026-09-07/detail-iniqzhfq9563173.d.html?vt=4&cid=76524&node_id=76524",
+    "tags": [
+      "竞品案例"
+    ],
+    "corePoint": "《像充话费一样买Token 天猫上线AI空间站，智谱、Kimi等入驻》显示，阿里系AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
+    "insight": "围绕《像充话费一样买Token 天猫上线AI空间站，智谱、Kimi等入驻》，AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
     "id": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
     "date": "2026-09-06",
     "title": "Agentic Commerce Starts With Product Data as AI Shopping Metrics Take Shape",
@@ -783,6 +802,46 @@
     "contentType": "商家生态"
   },
   {
+    "id": "2026-08-20-modern-retail-walmart-extends-s-36a710e2af",
+    "date": "2026-08-20",
+    "title": "Walmart extends Scintilla data platform to Sam’s Club",
+    "source": "Modern Retail",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://modernretail.co/technology/walmart-extends-scintilla-data-platform-to-sams-club",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "《Walmart extends Scintilla data platform to Sam’s Club》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Walmart extends Scintilla data platform to Sam’s Club》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
+    "id": "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01",
+    "date": "2026-08-20",
+    "title": "Target Touts Jump in Traffic From AI Platforms as Sales Climb",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://pymnts.com/earnings/2026/target-touts-traffic-jump-from-ai-platforms-sales-climb",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "《Target Touts Jump in Traffic From AI Platforms as Sales Climb》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Target Touts Jump in Traffic From AI Platforms as Sales Climb》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 74,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
     "id": "daily-2026-08-19-4e433b148c4222",
     "date": "2026-08-19",
     "title": "AI 爬虫涌入电商，安全防线正在从“拦截”转向“判断”",
@@ -824,6 +883,47 @@
     "contentType": "行业新闻"
   },
   {
+    "id": "2026-08-18-retail-dive-target-finalizes-di-4048c5948e",
+    "date": "2026-08-18",
+    "title": "Target finalizes divorce from Ulta, signaling shift in beauty market",
+    "source": "Retail Dive",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://retaildive.com/news/target-finalizes-divorce-from-ulta-signaling-shift-in-beauty-market/827990",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "《Target finalizes divorce from Ulta, signaling shift in beauty market》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Target finalizes divorce from Ulta, signaling shift in beauty market》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 74,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
+    "id": "2026-08-18-pymnts-com-visa-and-mastercard--5ba11f7326",
+    "date": "2026-08-18",
+    "title": "Visa and Mastercard Join Rain’s Agentic Commerce Coalition",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/visa-and-mastercard-join-rains-agentic-commerce-coalition",
+    "tags": [
+      "虚拟试穿",
+      "Agentic Commerce"
+    ],
+    "corePoint": "《Visa and Mastercard Join Rain’s Agentic Commerce Coalition》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Visa and Mastercard Join Rain’s Agentic Commerce Coalition》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "multi-agent-commerce"
+    ]
+  },
+  {
     "id": "2026-08-18-aha-20-fc9a45c80c",
     "date": "2026-08-18",
     "title": "支付宝发布智能体跨端互联AHA协议体系，联合千问、华为、荣耀、比亚迪、吉利等20余家企业共建",
@@ -861,6 +961,27 @@
       "decision-os"
     ],
     "contentType": "产品功能"
+  },
+  {
+    "id": "2026-08-17-c7318a84f1",
+    "date": "2026-08-17",
+    "title": "智能体将大规模进入生活服务场景，支付宝发布智能体商业底座",
+    "source": "新华网",
+    "region": "国内",
+    "contentType": "行业新闻",
+    "category": "趋势框架",
+    "url": "http://news.cn/tech/20260817/97a07d7e0e2e4bda81f3ec778036bd3c/c.html",
+    "tags": [
+      "Agentic Commerce",
+      "交易闭环"
+    ],
+    "corePoint": "《智能体将大规模进入生活服务场景，支付宝发布智能体商业底座》说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
+    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "contextual-entry"
+    ]
   },
   {
     "id": "daily-2026-08-16-286aec54d0edce",
@@ -931,6 +1052,26 @@
       "risk-first-design"
     ],
     "contentType": "商家生态"
+  },
+  {
+    "id": "2026-08-13-target-corporation-how-target-i-046f459e25",
+    "date": "2026-08-13",
+    "title": "How Target is Accelerating Technology to Modernize Its Supply Chain",
+    "source": "Target Corporation",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://corporate.target.com/news-features/article/2026/08/target-proxima-digital-twin-supply-chain",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "《How Target is Accelerating Technology to Modernize Its Supply Chain》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《How Target is Accelerating Technology to Modernize Its Supply Chain》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
   },
   {
     "id": "daily-2026-08-12-02b78319368c06",

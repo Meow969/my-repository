@@ -106,7 +106,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 53,
+    "sourceCount": 54,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
@@ -116,10 +116,10 @@
       "2026-08-27-pymnts-com-synchrony-says-ai-ha-af0cd4d007",
       "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
       "2026-08-18-aha-20-fc9a45c80c",
-      "daily-2026-08-11-99dd644a355aa5",
-      "daily-2026-08-07-805eb37e0578fe"
+      "2026-08-17-c7318a84f1",
+      "daily-2026-08-11-99dd644a355aa5"
     ],
-    "trendNote": "最新复盘：交易闭环、AI购物、Agentic Commerce信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "最新复盘：交易闭环、Agentic Commerce、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -171,7 +171,7 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 172,
+    "sourceCount": 173,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
@@ -327,7 +327,7 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 171,
+    "sourceCount": 176,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
@@ -340,7 +340,7 @@
       "2026-09-01-retail-dive-target-bets-on-90s--1bc342b7cd",
       "daily-2026-08-29-2134c3dedae52a"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、虚拟试穿、竞品案例，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -423,18 +423,18 @@
       "多入口",
       "即时意图"
     ],
-    "sourceCount": 42,
+    "sourceCount": 43,
     "relatedArticleIds": [
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
       "daily-2026-08-30-d22191244e060f",
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "daily-2026-08-22-d0935ce5172bc8",
       "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
+      "2026-08-17-c7318a84f1",
       "daily-2026-08-16-286aec54d0edce",
       "daily-2026-08-15-32e6ac7bd8b443",
       "daily-2026-08-05-73d5671dbd19ad",
-      "daily-2026-07-09-3d36eb925f6e28",
-      "daily-2026-07-06-9ff3847b4f7534"
+      "daily-2026-07-09-3d36eb925f6e28"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、竞品案例，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
@@ -613,6 +613,7 @@
     ],
     "relatedArticleIds": [
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
+      "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "daily-2026-09-01-1531069370f45e",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
@@ -620,12 +621,11 @@
       "2026-08-29-finance-biggo-com-evercore-lift-8b8776f56a",
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "2026-08-25-ai-6f60a0b2fd",
-      "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
-      "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d"
+      "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 44
+    "sourceCount": 49
   },
   {
     "id": "visual-try-on-as-proof",
@@ -647,18 +647,18 @@
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
+      "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
       "2026-09-01-retail-dive-target-bets-on-90s--1bc342b7cd",
       "2026-08-29-finance-biggo-com-evercore-lift-8b8776f56a",
       "2026-08-28-ue-keeta-ai-a686e8011b",
-      "2026-08-25-ai-6f60a0b2fd",
-      "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca"
+      "2026-08-25-ai-6f60a0b2fd"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 25
+    "sourceCount": 31
   },
   {
     "id": "local-life-agent-loop",
@@ -733,14 +733,15 @@
       "功能模块",
       "交易闭环",
       "产品假设",
-      "AI购物",
       "竞品案例",
+      "AI购物",
       "虚拟试穿"
     ],
     "relatedArticleIds": [
-      "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
+      "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
+      "2026-09-07-token-ai-kimi-def8e7815c"
     ],
-    "sourceCount": 1,
+    "sourceCount": 2,
     "updatedAt": "2026-09-08"
   },
   {
@@ -1138,28 +1139,30 @@
   },
   {
     "id": "daily-reflection-2026-08-20",
-    "title": "08-20 反思：下一代导购竞争会先发生在供给侧",
-    "summary": "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
-    "trendNote": "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
+    "title": "08-20 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
+    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
+    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "供给侧",
-      "机器可读",
-      "商家Agent",
-      "AI可见性",
+      "竞品拆解",
+      "功能模块",
+      "交易闭环",
+      "产品假设",
+      "竞品案例",
+      "虚拟试穿",
       "AI购物",
-      "C端AI产品",
-      "商家接入",
-      "AI搜索"
+      "C端AI产品"
     ],
     "relatedArticleIds": [
-      "daily-2026-08-20-84c99b15d913fa"
+      "daily-2026-08-20-84c99b15d913fa",
+      "2026-08-20-modern-retail-walmart-extends-s-36a710e2af",
+      "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01"
     ],
-    "sourceCount": 1,
+    "sourceCount": 3,
     "updatedAt": "2026-09-08"
   },
   {
@@ -1202,36 +1205,44 @@
       "竞品拆解",
       "功能模块",
       "交易闭环",
-      "产品假设"
+      "产品假设",
+      "虚拟试穿",
+      "竞品案例",
+      "Agentic Commerce"
     ],
     "relatedArticleIds": [
+      "2026-08-18-retail-dive-target-finalizes-di-4048c5948e",
+      "2026-08-18-pymnts-com-visa-and-mastercard--5ba11f7326",
       "2026-08-18-aha-20-fc9a45c80c"
     ],
-    "sourceCount": 1,
+    "sourceCount": 3,
     "updatedAt": "2026-09-08"
   },
   {
     "id": "daily-reflection-2026-08-17",
-    "title": "08-17 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
+    "title": "08-17 反思：AI导购的分水岭是能否承担交易责任",
+    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
+    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
+      "交易责任",
+      "授权边界",
+      "支付闭环",
+      "可靠执行",
       "AI购物",
-      "C端AI产品"
+      "C端AI产品",
+      "Agentic Commerce",
+      "交易闭环"
     ],
     "relatedArticleIds": [
-      "daily-2026-08-17-15b0a44055b65e"
+      "daily-2026-08-17-15b0a44055b65e",
+      "2026-08-17-c7318a84f1"
     ],
-    "sourceCount": 1,
+    "sourceCount": 2,
     "updatedAt": "2026-09-08"
   },
   {
@@ -1284,27 +1295,29 @@
   },
   {
     "id": "daily-reflection-2026-08-13",
-    "title": "08-13 反思：下一代导购竞争会先发生在供给侧",
-    "summary": "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
-    "trendNote": "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
+    "title": "08-13 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
+    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
+    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "供给侧",
-      "机器可读",
-      "商家Agent",
-      "AI可见性",
+      "竞品拆解",
+      "功能模块",
+      "交易闭环",
+      "产品假设",
       "AI购物",
       "购物智能体",
-      "商家接入"
+      "商家接入",
+      "竞品案例"
     ],
     "relatedArticleIds": [
-      "daily-2026-08-13-d3070ee4db7fb7"
+      "daily-2026-08-13-d3070ee4db7fb7",
+      "2026-08-13-target-corporation-how-target-i-046f459e25"
     ],
-    "sourceCount": 1,
+    "sourceCount": 2,
     "updatedAt": "2026-09-08"
   },
   {
@@ -7124,8 +7137,8 @@
   },
   {
     "id": "auto-current-signal",
-    "title": "最新复盘：Agentic Commerce、AI购物、虚拟试穿正在收敛成产品主线",
-    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是Agentic Commerce、AI购物、虚拟试穿这些能力之间能否互相闭环。",
+    "title": "最新复盘：Agentic Commerce、AI购物、竞品案例正在收敛成产品主线",
+    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是Agentic Commerce、AI购物、竞品案例这些能力之间能否互相闭环。",
     "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
     "takeaways": [
       "用月度高频信号更新路线图优先级",
@@ -7135,8 +7148,8 @@
     "keywords": [
       "Agentic Commerce",
       "AI购物",
-      "虚拟试穿",
       "竞品案例",
+      "虚拟试穿",
       "交易闭环",
       "最新复盘",
       "产品路线"
