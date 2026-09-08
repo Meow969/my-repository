@@ -26,7 +26,10 @@ const SEARCH_CONCEPTS = {
   '即时': ['即时零售', '买菜', '外卖', '日用品', '高频低风险', '复购', 'local commerce'],
   '评价': ['评价', '口碑', '测评', '评论摘要', 'social proof', 'review'],
   '视觉': ['视觉', '试穿', '图片', '风格', '非标品', 'fashion', 'style'],
-  '治理': ['治理', '排序', '赞助', '公平性', '责任', 'ranking', 'governance']
+  '治理': ['治理', '排序', '赞助', '公平性', '责任', 'ranking', 'governance'],
+  '竞品': ['竞品', '平台案例', '淘宝', '天猫', '千问', '美团', '小美', '虾皮', 'Shopee', '得物', 'Amazon', 'Rufus'],
+  '试穿': ['试穿', '试衣', '试鞋', '虚拟试穿', '视觉导购', 'try-on', 'virtual try', 'fitting'],
+  '本地生活': ['本地生活', '即时零售', '美团', '小美', '淘宝闪购', '外卖', '买菜', '履约确定性']
 };
 const fmtDate = (iso) => new Date(`${iso}T00:00:00+08:00`).toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'short' });
 const fmtMonth = (month) => month.replace('-', '年') + '月';

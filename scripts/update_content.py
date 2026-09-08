@@ -50,8 +50,23 @@ WECHAT_QUERIES = [
     "购物智能体 零售",
     "AI电商闭环",
     "淘宝 千问 AI购物",
+    "淘宝 AI万能搜 AI导购",
+    "淘宝 AI试穿 虚拟试衣",
+    "淘宝设计 AI试穿 服饰导购",
+    "天猫 AI导购 天猫双11",
+    "天猫 AI试穿 虚拟试穿",
     "豆包 AI购物",
     "京东AI购",
+    "美团 小美 AI助手",
+    "美团 AI导购 本地生活",
+    "美团 小美 外卖 买菜 AI",
+    "得物 AI试穿 AI试鞋",
+    "得物 AI导购 球鞋",
+    "虾皮 Shopee AI导购",
+    "Shopee AI shopping assistant",
+    "Amazon Rufus AI shopping assistant",
+    "Amazon Alexa shopping assistant AI",
+    "Google virtual try on shopping AI",
     "AI购物助手 电商",
     "Agentic Commerce",
     "Universal Commerce Protocol AI购物",
@@ -86,7 +101,21 @@ GOOGLE_NEWS_QUERIES = [
     "ChatGPT shopping",
     "Google AI shopping",
     "Amazon Rufus AI shopping",
+    "Amazon Alexa AI shopping assistant",
     "Perplexity shopping AI",
+    "Taobao AI shopping assistant",
+    "Taobao AI try on virtual fitting",
+    "Tmall AI shopping assistant",
+    "Alibaba Qwen Taobao shopping AI",
+    "Meituan Xiaomei AI assistant",
+    "Meituan AI shopping local commerce",
+    "Shopee AI shopping assistant",
+    "Shopee AI recommendation shopping",
+    "Dewu AI try on sneaker shopping",
+    "Google AI virtual try on shopping",
+    "Pinterest AI shopping assistant",
+    "Walmart AI shopping assistant",
+    "Instacart AI shopping assistant",
     "AI consumer app commerce",
     "conversational commerce AI",
     "AI retail assistant",
@@ -122,6 +151,16 @@ GOOGLE_NEWS_QUERIES = [
     "consumer AI app",
     "AI购物",
     "AI导购",
+    "淘宝 AI万能搜",
+    "淘宝 AI试穿",
+    "淘宝设计 AI试穿",
+    "天猫 AI导购",
+    "天猫 AI试穿",
+    "千问 淘宝 闪购 AI购物",
+    "美团 小美 AI助手",
+    "美团 AI导购",
+    "得物 AI试穿",
+    "虾皮 AI导购",
     "购物智能体",
     "AI电商",
     "AI购物 产品设计",
@@ -142,6 +181,17 @@ SOURCE_WEIGHT = {
     "比特拈花": 12,
     "架构师之道": 12,
     "TechWeb": 10,
+    "新华网": 13,
+    "新京报": 12,
+    "界面新闻": 12,
+    "北京商报": 11,
+    "21财经": 11,
+    "央广网": 11,
+    "驱动之家": 10,
+    "新浪财经": 10,
+    "证券时报": 10,
+    "天下网商": 12,
+    "淘宝设计": 13,
     "三易生活": 10,
     "i黑马": 10,
     "商派": 9,
@@ -175,6 +225,8 @@ SOURCE_WEIGHT = {
 TAG_RULES = {
     "AI购物": ["ai购物", "购物助手", "购物智能体", "ai shopping", "shopping agent"],
     "对话导购": ["导购", "对话式", "conversation", "conversational"],
+    "竞品案例": ["淘宝", "天猫", "千问", "美团", "小美", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa", "得物", "walmart", "instacart"],
+    "虚拟试穿": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "try on", "fitting", "ar"],
     "Agentic Commerce": ["agentic commerce", "智能体商业", "代理购物"],
     "交易闭环": ["闭环", "下单", "支付", "checkout", "交易", "购物车"],
     "商品库": ["商品", "sku", "库存", "价格", "履约"],
@@ -218,6 +270,8 @@ HIGH_VALUE_WORDS = [
     "闭环", "智能体", "Agentic Commerce", "导购", "购物助手", "千问", "豆包", "淘宝",
     "京东", "Rufus", "Claude", "OpenClaw", "Universal Commerce Protocol", "UCP",
     "支付", "checkout", "履约", "复购", "GEO", "AI可见性", "商品库", "架构",
+    "天猫", "美团", "小美", "虾皮", "Shopee", "得物", "试穿", "试衣", "试鞋",
+    "virtual try", "try-on", "AI万能搜", "Alexa", "Walmart", "Instacart",
 ]
 
 
@@ -450,11 +504,13 @@ def is_relevant(item: dict[str, Any], tags: list[str]) -> bool:
 
 def infer_category(tags: list[str], text: str) -> str:
     lower = text.lower()
+    if "虚拟试穿" in tags:
+        return "竞品功能"
     if "技术架构" in tags or any(word in lower for word in ["架构", "blueprint", "protocol", "openclaw"]):
         return "技术架构"
     if any(word in lower for word in ["周报", "动态", "趋势"]):
         return "行业动态"
-    if any(word in lower for word in ["淘宝", "千问", "豆包", "京东", "rufus", "meta"]):
+    if "竞品案例" in tags or any(word in lower for word in ["淘宝", "天猫", "千问", "豆包", "京东", "美团", "小美", "虾皮", "shopee", "得物", "rufus", "alexa", "walmart", "instacart", "meta"]):
         return "平台案例"
     if "GEO" in tags or "AI可见性" in text:
         return "增长/GEO"
@@ -484,6 +540,10 @@ def related_insights(text: str) -> list[str]:
 
 def make_core_point(item: dict[str, Any], tags: list[str]) -> str:
     title = item["title"]
+    if "虚拟试穿" in tags:
+        return "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。"
+    if "竞品案例" in tags:
+        return "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。"
     if "交易闭环" in tags:
         return "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。"
     if "技术架构" in tags:
@@ -498,6 +558,10 @@ def make_core_point(item: dict[str, Any], tags: list[str]) -> str:
 
 
 def make_insight(item: dict[str, Any], tags: list[str]) -> str:
+    if "虚拟试穿" in tags:
+        return "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。"
+    if "竞品案例" in tags:
+        return "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。"
     if "交易闭环" in tags or "商品库" in tags:
         return "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。"
     if "技术架构" in tags:

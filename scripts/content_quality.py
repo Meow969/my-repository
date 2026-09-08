@@ -33,6 +33,21 @@ SOURCE_ALIASES = {
     "钛媒体": "钛媒体",
     "人人都是产品经理": "人人都是产品经理",
     "亿邦动力": "亿邦动力网",
+    "新华网": "新华网",
+    "新京报": "新京报",
+    "界面新闻": "界面新闻",
+    "北京商报": "北京商报",
+    "21财经": "21财经",
+    "央广网": "央广网",
+    "驱动之家": "驱动之家",
+    "新浪财经": "新浪财经",
+    "证券时报": "证券时报",
+    "天下网商": "天下网商",
+    "stdaily.com": "科技日报",
+    "t.cj.sina.cn": "新浪",
+    "界面": "界面新闻",
+    "白鲸出海": "白鲸出海",
+    "雨果跨境": "雨果跨境",
 }
 
 SOURCE_PREFERENCE = {
@@ -91,11 +106,12 @@ SHOPPING_TERMS = [
     "shopping", "commerce", "retail", "merchant", "seller", "ecommerce", "checkout", "cart",
     "product discovery", "personal shopper", "try on", "rufus", "agentic commerce", "storefront",
     "电商", "零售", "购物", "导购", "商家", "卖家", "商品", "下单", "支付", "淘宝", "京东",
-    "闪购", "买菜", "货架", "履约", "售后", "比价", "试穿",
+    "天猫", "千问", "美团", "小美", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa",
+    "得物", "闪购", "买菜", "货架", "履约", "售后", "比价", "试穿", "试衣", "试鞋", "虚拟试穿",
 ]
 AI_TERMS = [
     "ai", "agent", "assistant", "chatgpt", "gemini", "claude", "perplexity", "rufus", "anthropic",
-    "智能体", "大模型", "助手", "千问", "豆包", "openclaw", "对话式",
+    "智能体", "大模型", "助手", "千问", "豆包", "openclaw", "对话式", "智能", "算法", "虚拟",
 ]
 
 
@@ -161,6 +177,14 @@ def event_signature(item: dict[str, Any]) -> str:
         return f"{date}:anthropic-commerce-blueprint"
     if ("支付宝" in text or "alipay" in text) and any(term in text for term in ["ju1111", "网站协议", "智能体商业底座"]):
         return f"{date}:alipay-ju1111-protocol"
+    if ("千问" in text or "qwen" in text) and any(term in text for term in ["淘宝", "闪购", "支付宝", "ai购物", "购物闭环"]):
+        return f"{date}:qwen-taobao-shopping-loop"
+    if "淘宝" in text and any(term in text for term in ["ai试穿", "试穿", "试衣", "虚拟试穿"]):
+        return f"{date}:taobao-ai-try-on"
+    if ("淘宝" in text or "天猫" in text) and any(term in text for term in ["ai万能搜", "6款ai导购", "六款ai导购", "双11ai导购"]):
+        return f"{date}:tmall-1111-ai-shopping-apps"
+    if ("amazon" in text or "亚马逊" in text) and any(term in text for term in ["rufus", "alexa", "ai购物助手", "ai shopping assistant"]):
+        return f"{date}:amazon-ai-shopping-assistant"
     return ""
 
 

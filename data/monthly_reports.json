@@ -6,9 +6,9 @@
     "topArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-09-01-1531069370f45e",
+      "competitor-2026-09-07-2026-ai-b8934bcc64",
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "daily-2026-09-04-a8839bacba28ee"
     ],
     "productImplication": "本月最值得产品团队做的事，是把AI导购拆成可复用流程模块：需求澄清、候选生成、证据解释、风险提示、价格库存核验、下单确认。不要继续只优化聊天自然度。"
   },
@@ -19,9 +19,9 @@
     "topArticleIds": [
       "daily-2026-08-12-02b78319368c06",
       "daily-2026-08-07-805eb37e0578fe",
-      "daily-2026-08-03-a0b259f03d264d",
       "daily-2026-08-11-99dd644a355aa5",
-      "daily-2026-08-26-21460ced93cc20"
+      "daily-2026-08-26-21460ced93cc20",
+      "daily-2026-08-06-6685b71f4a4ee6"
     ],
     "productImplication": "产品壁垒要从模型回答迁移到商品数据、履约能力、商家接入和交易责任设计。AI导购的核心KPI不应只是点击率，而应增加候选进入率、推荐采纳率、授权下单率和履约准确率。"
   },
@@ -110,10 +110,10 @@
     "productImplication": "产品团队应把当月新信号翻译成可验证假设，并进入需求澄清、推荐解释、交易确认或商家接入模块。",
     "topArticleIds": [
       "daily-2026-01-28-acca4a8c9e3e2f",
-      "daily-2026-01-15-b3a1f6ddb73221",
       "daily-2026-01-11-4a89d7fd226793",
       "daily-2026-01-07-5dc564640f2d79",
-      "daily-2026-01-22-e5c6aec15cae7e"
+      "daily-2026-01-22-e5c6aec15cae7e",
+      "daily-2026-01-21-f670403f850a60"
     ]
   },
   {
@@ -152,7 +152,7 @@
       "daily-2025-10-17-3757ba40d36a1e",
       "daily-2025-10-30-2859457e65dce8",
       "daily-2025-10-23-b3c47308eed149",
-      "daily-2025-10-28-e6e58f4fb3a311"
+      "competitor-2025-10-16-ai-6-ai-4be6bbef6f"
     ]
   },
   {
