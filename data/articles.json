@@ -39,6 +39,83 @@
     ]
   },
   {
+    "id": "2026-09-07-stocktwits-nke-stock-gains-pre--5a10757ce1",
+    "date": "2026-09-07",
+    "title": "NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand",
+    "source": "Stocktwits",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://stocktwits.com/news-articles/markets/equity/nike-stock-pre-market-google-gemini-ai-fifa-world-cup-2026/cZXDwngReVn",
+    "tags": [
+      "AI购物",
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 76,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
+    "id": "2026-09-07-ai-agent-saas-ai-dc33be8f8e",
+    "date": "2026-09-07",
+    "title": "千问办公推\"多人工作台\" AI Agent开始碰企业SaaS的蛋糕- AI",
+    "source": "亿邦动力网",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://ebrun.com/20260907/706521.shtml",
+    "tags": [
+      "竞品案例"
+    ],
+    "corePoint": "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
+    "insight": "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
+    "valueScore": 74,
+    "relatedInsightIds": [
+      "multi-agent-commerce",
+      "competitor-function-radar"
+    ]
+  },
+  {
+    "id": "2026-09-07-2026-ai-eab82e2cea",
+    "date": "2026-09-07",
+    "title": "2026返校季AI购物走热亚马逊谷歌占据先发优势- 跨境电商",
+    "source": "亿邦动力网",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://ebrun.com/20260907/706438.shtml",
+    "tags": [
+      "AI购物",
+      "竞品案例"
+    ],
+    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "structured-dialogue"
+    ]
+  },
+  {
+    "id": "2026-09-07-15-2026-ai-c181ea0756",
+    "date": "2026-09-07",
+    "title": "15点聊电商：2026返校季AI购物走热亚马逊谷歌占据先发优势- 栏目",
+    "source": "亿邦动力网",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://ebrun.com/20260907/706520.shtml",
+    "tags": [
+      "AI购物",
+      "竞品案例"
+    ],
+    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
+    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "structured-dialogue"
+    ]
+  },
+  {
     "id": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
     "date": "2026-09-06",
     "title": "Agentic Commerce Starts With Product Data as AI Shopping Metrics Take Shape",
@@ -83,6 +160,47 @@
     ]
   },
   {
+    "id": "2026-09-05-app-ju1111-a1d080eb56",
+    "date": "2026-09-05",
+    "title": "支付宝携手千问App、淘宝闪购等发布首个JU1111网站协议_体坛网_体坛+",
+    "source": "体坛",
+    "region": "国内",
+    "category": "平台案例",
+    "url": "https://m.ttplus.cn/HOeV7Gmwikicu",
+    "tags": [
+      "竞品案例",
+      "交易闭环",
+      "即时零售"
+    ],
+    "corePoint": "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
+    "insight": "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
+    "valueScore": 87,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "data-transaction-moat",
+      "high-frequency-entry"
+    ]
+  },
+  {
+    "id": "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
+    "date": "2026-09-04",
+    "title": "How AI is powering Target’s back-to-school push",
+    "source": "Retail Dive",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://retaildive.com/news/target-back-to-school-push-AI/829468",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 80,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
+  },
+  {
     "id": "daily-2026-09-04-a8839bacba28ee",
     "date": "2026-09-04",
     "title": "资本疯狂押注！AI购物助手崛起，颠覆电商支付行业",
@@ -124,6 +242,46 @@
       "multi-agent-market",
       "merchant-readable-store",
       "agentic-funnel"
+    ]
+  },
+  {
+    "id": "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
+    "date": "2026-09-03",
+    "title": "Walmart shoppers can now get Dunkin’ delivered alongside orders",
+    "source": "Retail Dive",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://retaildive.com/news/walmart-shoppers-dunkin-delivery-coffee/829560",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 80,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "competitor-function-radar"
+    ]
+  },
+  {
+    "id": "2026-09-03-modern-retail-big-box-briefing--8613a5b771",
+    "date": "2026-09-03",
+    "title": "Big-Box Briefing: Sam’s Club targets high-retention members with new tire benefit",
+    "source": "Modern Retail",
+    "region": "海外",
+    "category": "竞品功能",
+    "url": "https://modernretail.co/operations/big-box-briefing-sams-club-targets-high-retention-members-with-new-tire-benefit",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 80,
+    "relatedInsightIds": [
+      "competitor-function-radar",
+      "visual-try-on-as-proof"
     ]
   },
   {
@@ -1152,7 +1310,7 @@
     "source": "上观新闻",
     "region": "国内",
     "category": "竞品功能",
-    "url": "https://www.shobserver.com/news/detail?id=1146422",
+    "url": "https://shobserver.com/news/detail?id=1146422",
     "tags": [
       "竞品案例",
       "得物",
