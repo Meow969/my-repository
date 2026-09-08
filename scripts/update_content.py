@@ -318,6 +318,13 @@ def load_json(path: Path, default: Any) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def is_blocked_source_or_url(item: dict[str, Any]) -> bool:
+    host = urllib.parse.urlsplit(item.get("url", "")).netloc.lower().removeprefix("www.").removeprefix("m.")
+    if host in BLOCKED_URL_HOSTS or item.get("source") in LOW_VALUE_SOURCES:
+        return True
+    return any(word in item.get("title", "") for word in ["体育投注", "注册在线"])
+
+
 def write_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -534,10 +541,7 @@ def infer_tags(text: str) -> list[str]:
 
 
 def is_relevant(item: dict[str, Any], tags: list[str]) -> bool:
-    host = urllib.parse.urlsplit(item.get("url", "")).netloc.lower().removeprefix("www.").removeprefix("m.")
-    if host in BLOCKED_URL_HOSTS or item.get("source") in LOW_VALUE_SOURCES:
-        return False
-    if any(word in item.get("title", "") for word in ["体育投注", "注册在线"]):
+    if is_blocked_source_or_url(item):
         return False
     if not tags:
         return False
@@ -669,7 +673,7 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
     resolved_selected = []
     for item in selected:
         item["url"] = decode_google_news_url(link_session, item["url"])
-        if urllib.parse.urlsplit(item["url"]).netloc.lower() == "news.google.com":
+        if urllib.parse.urlsplit(item["url"]).netloc.lower() == "news.google.com" or is_blocked_source_or_url(item):
             continue
         resolved_selected.append(item)
     selected = resolved_selected

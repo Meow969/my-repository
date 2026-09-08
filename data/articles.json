@@ -1,24 +1,5 @@
 [
   {
-    "id": "2026-09-08-whatsapp-ai-b752c1927d",
-    "date": "2026-09-08",
-    "title": "亚马逊升级WhatsApp购物服务上线AI导购功能- 跨境电商",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "http://ebrun.com/20260908/706558.shtml",
-    "tags": [
-      "对话导购",
-      "竞品案例"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 79,
-    "relatedInsightIds": [
-      "structured-dialogue"
-    ]
-  },
-  {
     "id": "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
     "date": "2026-09-08",
     "title": "Agentic Commerce Demands a Full Consumer Experience, Not Just a Smarter Checkout",
@@ -37,63 +18,6 @@
       "closed-loop-first",
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-07-ai-agent-saas-ai-dc33be8f8e",
-    "date": "2026-09-07",
-    "title": "千问办公推\"多人工作台\" AI Agent开始碰企业SaaS的蛋糕- AI",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260907/706521.shtml",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
-    "insight": "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
-    "valueScore": 74,
-    "relatedInsightIds": [
-      "multi-agent-commerce",
-      "competitor-function-radar"
-    ]
-  },
-  {
-    "id": "2026-09-07-2026-ai-eab82e2cea",
-    "date": "2026-09-07",
-    "title": "2026返校季AI购物走热亚马逊谷歌占据先发优势- 跨境电商",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260907/706438.shtml",
-    "tags": [
-      "AI购物",
-      "竞品案例"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "structured-dialogue"
-    ]
-  },
-  {
-    "id": "2026-09-07-15-2026-ai-c181ea0756",
-    "date": "2026-09-07",
-    "title": "15点聊电商：2026返校季AI购物走热亚马逊谷歌占据先发优势- 栏目",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260907/706520.shtml",
-    "tags": [
-      "AI购物",
-      "竞品案例"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "structured-dialogue"
     ]
   },
   {
