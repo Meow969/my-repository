@@ -209,47 +209,6 @@
     ]
   },
   {
-    "id": "2026-09-04-marktechpost-anthropic-released-3cc64d89bf",
-    "date": "2026-09-04",
-    "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
-    "source": "MarkTechPost",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment",
-    "tags": [
-      "虚拟试穿",
-      "商家Agent",
-      "技术架构"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "multi-agent-commerce",
-      "multi-agent-market",
-      "merchant-incentive"
-    ]
-  },
-  {
-    "id": "2026-09-04-pymnts-com-anthropic-debuts-com-620d0c24e6",
-    "date": "2026-09-04",
-    "title": "Anthropic Debuts Commerce Agent Blueprint With Visa and Mastercard",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://pymnts.com/news/artificial-intelligence/2026/anthropic-built-the-shopping-brain-and-skipped-the-wallet",
-    "tags": [
-      "虚拟试穿",
-      "技术架构"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "multi-agent-commerce"
-    ]
-  },
-  {
     "id": "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
     "date": "2026-09-03",
     "title": "Walmart shoppers can now get Dunkin’ delivered alongside orders",

@@ -172,7 +172,8 @@ def event_signature(item: dict[str, Any]) -> str:
     date = str(item.get("date", ""))[:7]
     if ("anthropic" in text or "claude" in text) and any(term in text for term in [
         "merchant blueprint", "商家 agent", "商业智能体", "购物助手", "shopping agents",
-        "agentic commerce", "commerce blueprint", "商家运营助手",
+        "agentic commerce", "commerce blueprint", "commerce agent blueprint", "commerce agents",
+        "merchant agents", "shopping and merchant", "商家运营助手",
     ]):
         return f"{date}:anthropic-commerce-blueprint"
     if ("支付宝" in text or "alipay" in text) and any(term in text for term in ["ju1111", "网站协议", "智能体商业底座"]):

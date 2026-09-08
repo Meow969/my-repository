@@ -200,20 +200,20 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 41,
+    "sourceCount": 40,
     "relatedArticleIds": [
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
       "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
-      "2026-09-04-marktechpost-anthropic-released-3cc64d89bf",
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
       "daily-2026-08-21-efe214be6e9775",
       "daily-2026-08-20-84c99b15d913fa",
       "2026-08-19-6-08a28b00bd",
       "2026-08-17-c4110742de",
-      "daily-2026-08-13-d3070ee4db7fb7"
+      "daily-2026-08-13-d3070ee4db7fb7",
+      "daily-2026-08-07-805eb37e0578fe"
     ],
-    "trendNote": "最新复盘：商家Agent、AI购物、商家接入正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "trendNote": "最新复盘：AI购物、商家Agent、商家接入正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -232,20 +232,20 @@
       "接口规则",
       "多智能体"
     ],
-    "sourceCount": 33,
+    "sourceCount": 32,
     "relatedArticleIds": [
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
       "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
-      "2026-09-04-marktechpost-anthropic-released-3cc64d89bf",
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-08-21-efe214be6e9775",
       "daily-2026-08-20-84c99b15d913fa",
       "daily-2026-08-13-d3070ee4db7fb7",
       "daily-2026-07-28-0cfa5b4dab8be8",
       "daily-2026-07-10-a0c7e4052c573b",
-      "daily-2026-07-02-a3cc9a9fd55e88"
+      "daily-2026-07-02-a3cc9a9fd55e88",
+      "daily-2026-06-29-442eeeee07cc27"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、商家接入、商家Agent，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、商家接入、购物智能体，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -326,20 +326,20 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 192,
+    "sourceCount": 190,
     "relatedArticleIds": [
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
-      "2026-09-04-marktechpost-anthropic-released-3cc64d89bf",
-      "2026-09-04-pymnts-com-anthropic-debuts-com-620d0c24e6",
       "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
       "daily-2026-09-02-0860bf13512c29",
-      "daily-2026-08-29-2134c3dedae52a"
+      "daily-2026-08-29-2134c3dedae52a",
+      "daily-2026-08-26-21460ced93cc20",
+      "daily-2026-08-22-d0935ce5172bc8"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -502,13 +502,12 @@
       "广告标识",
       "运营成本"
     ],
-    "sourceCount": 3,
+    "sourceCount": 2,
     "relatedArticleIds": [
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
-      "2026-09-04-marktechpost-anthropic-released-3cc64d89bf",
       "competitor-2025-10-16-ai-11-3ad48be7ea"
     ],
-    "trendNote": "最新复盘：商家Agent、AI购物、虚拟试穿正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "trendNote": "最新复盘：AI购物、商家Agent正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -631,18 +630,18 @@
     "relatedArticleIds": [
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
       "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
-      "2026-09-04-marktechpost-anthropic-released-3cc64d89bf",
-      "2026-09-04-pymnts-com-anthropic-debuts-com-620d0c24e6",
       "2026-09-03-retail-dive-walmart-shoppers-ca-2ccbf94023",
       "daily-2026-08-22-d0935ce5172bc8",
       "daily-2026-06-20-c357cbb4aeba31",
       "daily-2026-06-04-882243a1fbce39",
       "daily-2026-06-03-914148b7d1dd69",
-      "google-thrifting-ai-search-2026-06-03"
+      "google-thrifting-ai-search-2026-06-03",
+      "competitor-2026-05-10-ai-ai-b15ffc150d",
+      "daily-2026-04-21-f57fef4cc46777"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿、AI购物、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 24
+    "sourceCount": 22
   },
   {
     "id": "local-life-agent-loop",
@@ -691,8 +690,8 @@
       "Agentic Commerce",
       "竞品案例",
       "AI购物",
-      "虚拟试穿",
       "交易闭环",
+      "虚拟试穿",
       "最新复盘",
       "产品路线"
     ],
