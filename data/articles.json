@@ -21,101 +21,6 @@
     ]
   },
   {
-    "id": "2026-09-08-whatsapp-ai-b752c1927d",
-    "date": "2026-09-08",
-    "title": "亚马逊升级WhatsApp购物服务上线AI导购功能- 跨境电商",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "http://ebrun.com/20260908/706558.shtml",
-    "tags": [
-      "对话导购"
-    ],
-    "corePoint": "围绕“亚马逊升级WhatsApp购物服务上线AI导购功能- 跨境电商”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
-    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
-    "valueScore": 74,
-    "relatedInsightIds": [
-      "structured-dialogue"
-    ]
-  },
-  {
-    "id": "2026-09-07-stocktwits-nke-stock-gains-pre--5a10757ce1",
-    "date": "2026-09-07",
-    "title": "NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand",
-    "source": "Stocktwits",
-    "region": "海外",
-    "category": "竞品功能",
-    "url": "https://stocktwits.com/news-articles/markets/equity/nike-stock-pre-market-google-gemini-ai-fifa-world-cup-2026/cZXDwngReVn",
-    "tags": [
-      "AI购物",
-      "竞品案例",
-      "虚拟试穿"
-    ],
-    "corePoint": "试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
-    "insight": "对服饰、美妆、球鞋等非标品，AI导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
-    "valueScore": 76,
-    "relatedInsightIds": [
-      "competitor-function-radar"
-    ]
-  },
-  {
-    "id": "2026-09-07-ai-agent-saas-ai-dc33be8f8e",
-    "date": "2026-09-07",
-    "title": "千问办公推\"多人工作台\" AI Agent开始碰企业SaaS的蛋糕- AI",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260907/706521.shtml",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
-    "insight": "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
-    "valueScore": 74,
-    "relatedInsightIds": [
-      "multi-agent-commerce",
-      "competitor-function-radar"
-    ]
-  },
-  {
-    "id": "2026-09-07-2026-ai-eab82e2cea",
-    "date": "2026-09-07",
-    "title": "2026返校季AI购物走热亚马逊谷歌占据先发优势- 跨境电商",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260907/706438.shtml",
-    "tags": [
-      "AI购物",
-      "竞品案例"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "structured-dialogue"
-    ]
-  },
-  {
-    "id": "2026-09-07-15-2026-ai-c181ea0756",
-    "date": "2026-09-07",
-    "title": "15点聊电商：2026返校季AI购物走热亚马逊谷歌占据先发优势- 栏目",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://ebrun.com/20260907/706520.shtml",
-    "tags": [
-      "AI购物",
-      "竞品案例"
-    ],
-    "corePoint": "头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。",
-    "insight": "竞品监测要拆到功能颗粒度：入口位置、可理解的用户意图、调用的商品/内容资产、是否能闭环下单，以及失败时如何回退。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "structured-dialogue"
-    ]
-  },
-  {
     "id": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
     "date": "2026-09-06",
     "title": "Agentic Commerce Starts With Product Data as AI Shopping Metrics Take Shape",
@@ -157,28 +62,6 @@
       "multi-agent-commerce",
       "multi-agent-market",
       "merchant-incentive"
-    ]
-  },
-  {
-    "id": "2026-09-05-app-ju1111-a1d080eb56",
-    "date": "2026-09-05",
-    "title": "支付宝携手千问App、淘宝闪购等发布首个JU1111网站协议_体坛网_体坛+",
-    "source": "体坛",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://m.ttplus.cn/HOeV7Gmwikicu",
-    "tags": [
-      "竞品案例",
-      "交易闭环",
-      "即时零售"
-    ],
-    "corePoint": "阿里系案例说明AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
-    "insight": "AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
-    "valueScore": 87,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "data-transaction-moat",
-      "high-frequency-entry"
     ]
   },
   {
@@ -834,27 +717,6 @@
     "valueScore": 88,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "2026-08-17-c4110742de",
-    "date": "2026-08-17",
-    "title": "商家开发需求排至明年？支付宝预判智能体商业将迎爆发- 零售",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "https://ebrun.com/20260817/695431.shtml",
-    "tags": [
-      "Agentic Commerce",
-      "交易闭环",
-      "商家Agent"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 76,
-    "relatedInsightIds": [
-      "multi-agent-commerce",
-      "merchant-readable-store"
     ]
   },
   {
@@ -1516,28 +1378,6 @@
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "daily-2026-07-07-3c44e38f52d1b2",
-    "date": "2026-07-07",
-    "title": "调研显示美国消费者逐步接受AI代理购物- AI",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "智能体购物",
-    "url": "https://ebrun.com/20260707/685974.shtml",
-    "tags": [
-      "AI购物",
-      "购物智能体"
-    ],
-    "corePoint": "购物智能体正在从信息助手走向任务代理，用户会逐步把筛选、比较、提醒和部分购买动作交给AI。",
-    "insight": "导购体验要分层授权：先解释，再筛选，再加购，最后代买。越接近支付，越需要确认、可撤回和责任说明。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "answer-shelf",
-      "risk-first-design",
-      "trust-ladder"
     ]
   },
   {
@@ -3673,28 +3513,6 @@
       "trust-ladder",
       "risk-first-design",
       "post-purchase-agent"
-    ]
-  },
-  {
-    "id": "daily-2026-03-21-d6da35660dc70a",
-    "date": "2026-03-21",
-    "title": "阿里妈妈全新发布“AI万相”：首创多Agent协同工作流- 零售",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "商家/生态",
-    "url": "https://ebrun.com/20260321/648501.shtml",
-    "tags": [
-      "购物智能体",
-      "商家接入"
-    ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "merchant-readable-store",
-      "multi-agent-market",
-      "agentic-funnel",
-      "risk-first-design"
     ]
   },
   {

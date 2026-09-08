@@ -300,6 +300,8 @@ INSIGHT_RULES = {
 AUTO_INSIGHT_PREFIX = "auto-"
 
 NEGATIVE_WORDS = ["融资", "培训", "课程", "招商", "广告", "大会报名", "招聘", "破解版"]
+BLOCKED_URL_HOSTS = {"ebrun.com", "ttplus.cn"}
+LOW_VALUE_SOURCES = {"Stocktwits", "体坛"}
 HIGH_VALUE_WORDS = [
     "闭环", "智能体", "Agentic Commerce", "导购", "购物助手", "千问", "豆包", "淘宝",
     "京东", "Rufus", "Claude", "OpenClaw", "Universal Commerce Protocol", "UCP",
@@ -532,6 +534,11 @@ def infer_tags(text: str) -> list[str]:
 
 
 def is_relevant(item: dict[str, Any], tags: list[str]) -> bool:
+    host = urllib.parse.urlsplit(item.get("url", "")).netloc.lower().removeprefix("www.").removeprefix("m.")
+    if host in BLOCKED_URL_HOSTS or item.get("source") in LOW_VALUE_SOURCES:
+        return False
+    if any(word in item.get("title", "") for word in ["体育投注", "注册在线"]):
+        return False
     if not tags:
         return False
     return is_ai_shopping_related(item)
