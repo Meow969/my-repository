@@ -15,7 +15,7 @@
       "可执行决策",
       "决策链"
     ],
-    "sourceCount": 57,
+    "sourceCount": 58,
     "relatedArticleIds": [
       "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
@@ -68,7 +68,7 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 144,
+    "sourceCount": 145,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
@@ -100,7 +100,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 138,
+    "sourceCount": 139,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-07-token-ai-kimi-def8e7815c",
@@ -345,20 +345,20 @@
       "测评引用",
       "可追溯"
     ],
-    "sourceCount": 11,
+    "sourceCount": 12,
     "relatedArticleIds": [
       "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
       "daily-2026-08-22-d0935ce5172bc8",
       "daily-2026-08-15-32e6ac7bd8b443",
+      "2026-08-10-510496218f",
       "daily-2026-08-08-ca3accf328697b",
       "daily-2026-08-06-6685b71f4a4ee6",
       "daily-2026-07-12-4aea95fbfc804d",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
       "daily-2026-01-25-27679e673e9934",
-      "competitor-2025-12-11-google-studio-quality-digital-try-on",
-      "daily-2025-12-02-1a71509393f17d"
+      "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在交易闭环、虚拟试穿、竞品案例，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在交易闭环、竞品案例、虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -585,7 +585,7 @@
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、AI购物、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 77
+    "sourceCount": 78
   },
   {
     "id": "visual-try-on-as-proof",
@@ -1266,6 +1266,30 @@
       "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63"
     ],
     "sourceCount": 3,
+    "updatedAt": "2026-09-08"
+  },
+  {
+    "id": "daily-reflection-2026-08-10",
+    "title": "08-10 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
+    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
+    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
+    "takeaways": [
+      "把当天信号改写成一个可验证产品假设",
+      "优先记录它影响的是入口、证据、授权还是交易",
+      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
+    ],
+    "keywords": [
+      "竞品拆解",
+      "功能模块",
+      "交易闭环",
+      "产品假设",
+      "竞品案例",
+      "商品库"
+    ],
+    "relatedArticleIds": [
+      "2026-08-10-510496218f"
+    ],
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
