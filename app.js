@@ -154,6 +154,7 @@ function renderFilters() {
   regionFilter.addEventListener('change', e => { state.region = e.target.value; renderFeed(); renderGlobalStats(); });
   typeFilter.addEventListener('change', e => { state.contentType = e.target.value; renderFeed(); renderGlobalStats(); });
   categoryFilter.addEventListener('change', e => { state.category = e.target.value; renderFeed(); renderGlobalStats(); });
+  window.addEventListener('resize', renderGlobalStats, { passive: true });
 }
 
 function renderGlobalStats() {
@@ -161,10 +162,15 @@ function renderGlobalStats() {
   const currentMonthCount = monthArticleCount(state.month);
   const insightCount = activeInsights().length;
   const totalInsights = state.insights.length + state.userInsights.length;
+  const compact = window.matchMedia('(max-width: 560px)').matches;
   const label = state.query
-    ? `资讯 ${feedCount} · 灵感 ${insightCount}`
-    : `${state.month.slice(5)}月 ${currentMonthCount}条 · 灵感 ${totalInsights}`;
-  document.getElementById('globalStats').textContent = label;
+    ? (compact ? `${feedCount}讯 · ${insightCount}感` : `资讯 ${feedCount} · 灵感 ${insightCount}`)
+    : (compact ? `${currentMonthCount}讯 · ${totalInsights}感` : `${state.month.slice(5)}月 ${currentMonthCount}条 · 灵感 ${totalInsights}`);
+  const stats = document.getElementById('globalStats');
+  stats.textContent = label;
+  stats.title = state.query
+    ? `筛选后资讯 ${feedCount} 条，灵感 ${insightCount} 条`
+    : `${state.month.slice(5)}月资讯 ${currentMonthCount} 条，灵感 ${totalInsights} 条`;
 }
 
 function hasFeedUpdate() {
