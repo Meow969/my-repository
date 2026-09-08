@@ -254,13 +254,13 @@ SOURCE_WEIGHT = {
 }
 
 TAG_RULES = {
-    "AI购物": ["ai购物", "购物助手", "购物智能体", "ai shopping", "shopping agent"],
+    "AI购物": ["ai购物", "购物助手", "购物智能体", "ai shopping", "shopping agent", "agentic shopping", "ai commerce", "online shopping", "cart assistant"],
     "对话导购": ["导购", "对话式", "conversation", "conversational"],
     "竞品案例": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa", "得物", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "aidge", "aliexpress"],
-    "虚拟试穿": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "try on", "fitting", "ar"],
-    "Agentic Commerce": ["agentic commerce", "智能体商业", "代理购物"],
-    "交易闭环": ["闭环", "下单", "支付", "checkout", "交易", "购物车"],
-    "商品库": ["商品", "sku", "库存", "价格", "履约"],
+    "虚拟试穿": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "try on", "virtual fitting", "fitting room", "augmented reality"],
+    "Agentic Commerce": ["agentic commerce", "agentic shopping", "intelligent commerce", "智能体商业", "代理购物"],
+    "交易闭环": ["闭环", "下单", "支付", "checkout", "checkouts", "交易", "购物车", "universal cart", "cart assistant"],
+    "商品库": ["商品", "sku", "库存", "价格", "履约", "product data", "catalog", "metrics"],
     "即时零售": ["即时零售", "闪购", "买菜", "外卖"],
     "GEO": ["geo", "ai可见性", "可见性", "搜索"],
     "商家Agent": ["商家", "merchant", "seller", "卖家"],
@@ -293,7 +293,7 @@ INSIGHT_RULES = {
     "social-proof-rebuild": ["评价", "口碑", "评论", "虚假评价", "social proof"],
     "merchant-readable-store": ["geo", "商家", "卖家", "商品资料", "可见性"],
     "competitor-function-radar": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "shopee", "虾皮", "amazon", "rufus", "alexa", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "得物"],
-    "visual-try-on-as-proof": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "virtual fitting", "服饰导购", "ai试穿", "造型导购"],
+    "visual-try-on-as-proof": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "virtual fitting", "fitting room", "服饰导购", "ai试穿", "造型导购"],
     "local-life-agent-loop": ["美团", "小美", "问小团", "本地生活", "外卖", "买菜", "到店"],
 }
 
@@ -542,10 +542,77 @@ def fetch_google_news(days: int) -> list[dict[str, Any]]:
     return items
 
 
-def infer_tags(text: str) -> list[str]:
+def contains_term(text: str, term: str) -> bool:
+    """Match terms conservatively so short English fragments do not create false tags."""
+    term = term.strip().lower()
+    if not term:
+        return False
     lower = text.lower()
-    tags = [tag for tag, words in TAG_RULES.items() if any(word.lower() in lower for word in words)]
+    if re.search(r"[\u4e00-\u9fa5]", term):
+        return term in lower
+    escaped = re.escape(term).replace(r"\ ", r"[\s\-_]+")
+    return re.search(rf"(?<![a-z0-9]){escaped}(?![a-z0-9])", lower) is not None
+
+
+def contains_any(text: str, terms: list[str]) -> bool:
+    return any(contains_term(text, term) for term in terms)
+
+
+def infer_tags(text: str) -> list[str]:
+    tags = [tag for tag, words in TAG_RULES.items() if contains_any(text, words)]
     return tags[:6]
+
+
+def article_context(item: dict[str, Any], include_existing_analysis: bool = False) -> str:
+    parts = [
+        str(item.get("title", "")),
+        str(item.get("snippet", "")),
+        str(item.get("excerpt", "")),
+        str(item.get("source", "")),
+        " ".join(item.get("tags", []) or []),
+    ]
+    if include_existing_analysis:
+        parts.extend([str(item.get("corePoint", "")), str(item.get("insight", ""))])
+    return " ".join(parts)
+
+
+def is_visual_try_on_context(text: str) -> bool:
+    return contains_any(text, [
+        "AI试穿", "虚拟试穿", "试穿", "试衣", "试鞋", "virtual try-on", "virtual try on",
+        "try-on", "try on", "virtual fitting", "fitting room", "digital try-on",
+    ])
+
+
+def article_angles(item: dict[str, Any], tags: list[str]) -> list[str]:
+    text = article_context({**item, "tags": tags})
+    title = str(item.get("title", ""))
+    lower = text.lower()
+    angles: list[str] = []
+    if contains_any(title, ["stock", "price target", "pre-market", "premarket", "shares", "q2", "sales decline", "earnings"]):
+        angles.append("market_signal")
+    if contains_any(text, ["tested", "i let", "which worked best", "perfect gift", "gift", "hands-on", "实测", "测评"]):
+        angles.append("consumer_benchmark")
+    if contains_any(text, ["perplexity", "ai search", "ai traffic", "answer engine", "search traffic", "google discover", "ai搜索"]):
+        angles.append("ai_search_commerce")
+    if contains_any(text, ["agentic commerce", "checkout", "checkouts", "payment", "payments", "visa", "mastercard", "stripe", "rain", "acquirer", "支付", "结算", "收单", "协议", "信任协议"]):
+        angles.append("agentic_checkout")
+    if is_visual_try_on_context(text):
+        angles.append("visual_try_on")
+    if contains_any(text, ["product data", "catalog", "商品数据", "商品库", "库存", "价格", "metrics", "可见性", "GEO", "machine readable", "机器可读"]):
+        angles.append("product_data")
+    if contains_any(text, ["merchant", "seller", "商家", "卖家", "google ads", "广告", "投放", "campaign", "aidge"]):
+        angles.append("merchant_tools")
+    if contains_any(text, ["小美", "问小团", "美团", "闪购", "即时零售", "外卖", "买菜", "本地生活", "quick-commerce", "grocery"]):
+        angles.append("local_life")
+    if contains_any(text, ["chatgpt", "perplexity", "gemini", "rufus", "alexa for shopping", "sparky", "ai shopping assistant", "ai-powered shopping", "ai万能搜", "千问", "淘宝", "天猫", "shopee", "虾皮", "instacart", "pinterest", "kohl", "target", "walmart"]):
+        angles.append("platform_assistant")
+    if contains_any(text, ["search", "discovery", "recommendation", "recommendations", "visual search", "collage", "发现", "搜索", "推荐", "逛", "种草"]):
+        angles.append("discovery_decision")
+    if contains_any(text, ["trust", "privacy", "wary", "risk", "fraud", "安全", "隐私", "信任", "风险", "虚假评价"]):
+        angles.append("trust_risk")
+    if not angles:
+        angles.append("general_signal")
+    return list(dict.fromkeys(angles))[:4]
 
 
 def is_relevant(item: dict[str, Any], tags: list[str]) -> bool:
@@ -553,7 +620,35 @@ def is_relevant(item: dict[str, Any], tags: list[str]) -> bool:
         return False
     if not tags:
         return False
-    return is_ai_shopping_related(item)
+    return is_grounded_ai_shopping_item(item, tags)
+
+
+def is_grounded_ai_shopping_item(item: dict[str, Any], tags: list[str]) -> bool:
+    source_text = article_context({**item, "tags": []})
+    has_ai = contains_any(source_text, [
+        "AI", "artificial intelligence", "generative AI", "ChatGPT", "OpenAI", "Gemini", "Claude",
+        "Perplexity", "Bedrock", "AgentCore", "OpenClaw", "agentic", "intelligent commerce",
+        "智能体", "人工智能", "大模型", "千问", "豆包",
+    ])
+    has_commerce = contains_any(source_text, [
+        "shopping", "shop", "shoppers", "commerce", "ecommerce", "e-commerce", "retail", "retailer", "retailers",
+        "checkout", "checkouts", "cart", "merchant", "seller", "sellers", "storefront", "sales", "gift", "gifts", "buying", "purchase", "product data", "catalog",
+        "淘宝", "天猫", "京东", "美团", "闪购", "点单", "Shopee", "Instacart", "Shopify", "Walmart", "Target",
+        "购物", "导购", "电商", "零售", "商品", "商家", "支付", "下单", "履约",
+    ])
+    has_specific_signal = contains_any(source_text, [
+        "AI购物", "AI导购", "AI万能搜", "购物智能体", "agentic commerce", "agentic shopping",
+        "ai shopping assistant", "shopping agent", "alexa for shopping", "cart assistant", "universal cart",
+        "online shopping", "virtual try-on", "虚拟试穿", "AI试穿",
+    ])
+    has_real_try_on = is_visual_try_on_context(source_text) and contains_any(source_text, ["shopping", "ecommerce", "commerce", "服饰", "鞋", "美妆", "购物", "电商"])
+    if has_specific_signal or has_real_try_on:
+        return True
+    if has_ai and has_commerce:
+        return True
+    if "竞品案例" in tags and not has_ai and not has_specific_signal:
+        return False
+    return False
 
 
 def infer_category(tags: list[str], text: str) -> str:
@@ -603,16 +698,116 @@ def score_item(item: dict[str, Any], tags: list[str]) -> int:
     return min(99, max(0, score))
 
 
+def fetch_article_excerpt(url: str, session: requests.Session) -> str:
+    if not url or "weixin.sogou.com" in url:
+        return ""
+    try:
+        response = session.get(url, timeout=8, allow_redirects=True)
+        content_type = response.headers.get("content-type", "")
+        if response.status_code >= 400 or "html" not in content_type.lower():
+            return ""
+        document = response.text[:500_000]
+    except Exception:
+        return ""
+    meta_chunks = re.findall(
+        r'<meta[^>]+(?:name|property)=["\'](?:description|og:description|twitter:description)["\'][^>]+content=["\']([^"\']+)["\']',
+        document,
+        flags=re.I,
+    )
+    body = re.sub(r"<script[\s\S]*?</script>|<style[\s\S]*?</style>|<noscript[\s\S]*?</noscript>", " ", document, flags=re.I)
+    paragraphs = re.findall(r"<p[^>]*>([\s\S]*?)</p>", body, flags=re.I)
+    chunks = meta_chunks + paragraphs[:8]
+    cleaned: list[str] = []
+    for chunk in chunks:
+        text = clean_text(html.unescape(re.sub(r"<[^>]+>", " ", chunk)))
+        if len(text) >= 24 and not re.search(r"cookie|subscribe|sign up|©|privacy policy", text, re.I):
+            cleaned.append(text)
+    return clean_text(" ".join(dict.fromkeys(cleaned)))[:900]
+
+
+def recompute_article_fields(item: dict[str, Any], keep_score: bool = False) -> dict[str, Any]:
+    item = dict(item)
+    item["source"] = canonical_source(item.get("source", ""))
+    item["title"] = clean_display_title(item.get("title", ""), item["source"])
+    if "excerpt" in item:
+        item["excerpt"] = clean_text(item.get("excerpt", ""))[:900]
+    tag_source = dict(item)
+    tag_source["tags"] = []
+    text = article_context(tag_source)
+    tags = infer_tags(text)
+    if not tags and contains_any(text, ["AI", "OpenAI", "ChatGPT", "agent", "智能体", "导购", "购物"]):
+        tags = ["AI购物"]
+    category = infer_category(tags, text)
+    content_type = infer_content_type(tags, category, text, item["source"])
+    item.update({
+        "contentType": content_type,
+        "category": category,
+        "tags": tags,
+        "corePoint": make_core_point(item, tags),
+        "insight": make_insight(item, tags),
+        "relatedInsightIds": related_insights_for_item(item, tags),
+    })
+    if not keep_score:
+        item["valueScore"] = score_item(item, tags)
+    return item
+
+
 def related_insights(text: str) -> list[str]:
-    lower = text.lower()
-    ids = [insight_id for insight_id, words in INSIGHT_RULES.items() if any(word.lower() in lower for word in words)]
+    ids = [insight_id for insight_id, words in INSIGHT_RULES.items() if contains_any(text, words)]
     return ids[:3] or ["structured-dialogue"]
+
+
+ANGLE_RELATED_INSIGHTS = {
+    "market_signal": ["competitor-function-radar", "agentic-funnel"],
+    "consumer_benchmark": ["evidence-led-recommendation", "trust-ladder", "decision-os"],
+    "ai_search_commerce": ["answer-shelf", "merchant-readable-store", "agentic-funnel"],
+    "agentic_checkout": ["closed-loop-first", "trust-ladder", "agentic-funnel"],
+    "visual_try_on": ["visual-try-on-as-proof", "evidence-led-recommendation", "category-wedge"],
+    "product_data": ["data-transaction-moat", "merchant-readable-store", "ranking-governance"],
+    "merchant_tools": ["merchant-incentive", "merchant-readable-store", "multi-agent-market"],
+    "local_life": ["local-life-agent-loop", "high-frequency-entry", "habit-before-intelligence"],
+    "platform_assistant": ["competitor-function-radar", "decision-os", "closed-loop-first"],
+    "discovery_decision": ["decision-os", "answer-shelf", "evidence-led-recommendation"],
+    "trust_risk": ["trust-ladder", "privacy-permission", "risk-first-design"],
+    "general_signal": ["structured-dialogue"],
+}
+
+
+def related_insights_for_item(item: dict[str, Any], tags: list[str]) -> list[str]:
+    ids: list[str] = []
+    for angle in article_angles(item, tags):
+        ids.extend(ANGLE_RELATED_INSIGHTS.get(angle, []))
+    ids.extend(related_insights(article_context({**item, "tags": tags})))
+    return list(dict.fromkeys(ids))[:3]
 
 
 def make_core_point(item: dict[str, Any], tags: list[str]) -> str:
     title = item["title"]
     lower = title.lower()
     subject = f"《{title}》"
+    angles = article_angles(item, tags)
+    if "market_signal" in angles:
+        return f"{subject}更像一条市场信号：资本或经营数据把AI购物能力视为增长变量，但它本身不等同于具体功能拆解。"
+    if "consumer_benchmark" in angles:
+        return f"{subject}的价值在于真实使用测评：它暴露了通用AI在礼物/购物决策里，能给建议但不一定能稳定处理预算、收货、偏好和可购买性。"
+    if "ai_search_commerce" in angles:
+        return f"{subject}说明AI搜索和答案引擎正在成为购物上游入口，零售商需要思考如何把外部AI流量接回自己的商品证据和结算链路。"
+    if "agentic_checkout" in angles:
+        return f"{subject}的关键不只是更聪明的结算，而是智能体商业需要把发现、比较、授权、支付和售后责任连成完整体验。"
+    if "visual_try_on" in angles:
+        return f"{subject}聚焦视觉/试穿能力：AI把抽象的风格、尺码和上身效果转成可感知证据，用来降低非标品决策不确定性。"
+    if "product_data" in angles:
+        return f"{subject}强调AI购物的底座是可信、结构化、可度量的商品与供给数据；没有数据层，导购很难稳定推荐和成交。"
+    if "merchant_tools" in angles:
+        return f"{subject}从商家侧说明AI正在进入选品、投放、内容生成和商品表达，供给侧能力会反过来影响用户端推荐质量。"
+    if "local_life" in angles:
+        return f"{subject}指向本地生活/即时零售场景：AI价值在于把位置、时间、库存、配送、优惠和服务约束合并成当下可执行选择。"
+    if "platform_assistant" in angles:
+        return f"{subject}展示平台把AI能力放进购物入口或交易资产中，重点不是聊天外壳，而是能否改变搜索、选品、比较和下单流程。"
+    if "discovery_decision" in angles:
+        return f"{subject}关注商品发现和决策效率：AI开始从改写搜索结果，转向理解意图、组织候选和提供推荐理由。"
+    if "trust_risk" in angles:
+        return f"{subject}提醒AI购物的瓶颈在信任与风险控制，用户需要知道推荐依据、授权边界和出错后的责任。"
     if any(word in lower for word in ["sparky", "alexa for shopping", "rufus", "ai shopping assistant", "ai-powered shopping"]):
         return f"{subject}显示，海外平台正在把AI导购做成可执行助手：从理解意图、比较商品到价格提醒、自动补货和订单验证，逐步接管传统搜索页的核心动作。"
     if any(word in title for word in ["问小团", "小美"]):
@@ -622,7 +817,7 @@ def make_core_point(item: dict[str, Any], tags: list[str]) -> str:
     if "虚拟试穿" in tags:
         return f"{subject}说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。"
     if "竞品案例" in tags:
-        return f"{subject}的信号在于：头部平台正在把AI能力嵌入搜索、内容、即时零售、试穿和交易链路，竞品差异不只在模型，而在场景入口和履约深度。"
+        return f"{subject}的信号在于：头部平台正在把AI能力嵌入具体购物链路，竞品差异不只在模型，而在入口位置、数据资产、履约深度和交易责任。"
     if "交易闭环" in tags:
         return f"{subject}说明，AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。"
     if "技术架构" in tags:
@@ -640,6 +835,29 @@ def make_insight(item: dict[str, Any], tags: list[str]) -> str:
     title = item["title"]
     lower = title.lower()
     subject = f"围绕《{title}》"
+    angles = article_angles(item, tags)
+    if "market_signal" in angles:
+        return "这类资讯适合用来判断赛道热度和竞品优先级，不适合作为功能结论；产品侧应继续追到官方发布、体验截图或用户反馈后，再沉淀具体设计假设。"
+    if "consumer_benchmark" in angles:
+        return "这类测评最适合转成产品验收标准：AI导购不能只给“看似合理”的推荐，还要核对库存、价格、配送、替代品和用户约束，并解释为什么放弃其他选项。"
+    if "ai_search_commerce" in angles:
+        return "机会点在“AI入口后的承接”：当用户从ChatGPT/Perplexity/Google答案页进入购物，站内导购要接住上下文，继续完成比较、证据展示和购买确认。"
+    if "agentic_checkout" in angles:
+        return "AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。"
+    if "visual_try_on" in angles:
+        return "视觉能力应服务“适不适合我”的判断，而不是单纯生成好看图片；可把尺码、风格、场景、退货风险变成推荐排序和对比卡片里的证据。"
+    if "product_data" in angles:
+        return "产品机会在商家端和数据层：让商品卖点、适用人群、禁忌、库存、价格和履约承诺机器可读，用户端导购才有可验证的推荐依据。"
+    if "merchant_tools" in angles:
+        return "AI导购要同时设计商家端体验：帮助商家把商品表达、素材、投放和服务承诺转成AI能理解的供给资产，而不只是优化用户聊天框。"
+    if "local_life" in angles:
+        return "本地生活更适合先做高频、低风险、强时效的导购：用户要的不是参数大全，而是“现在附近、预算内、能准时送达/可到店”的确定性。"
+    if "platform_assistant" in angles:
+        return "竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。"
+    if "discovery_decision" in angles:
+        return "逛和选品的核心不是给更多商品，而是把用户模糊需求翻译成可比较的候选集合；导购应输出取舍理由、场景匹配和反例提醒。"
+    if "trust_risk" in angles:
+        return "信任设计要前置到推荐过程：展示证据来源、排序理由、可撤回授权和售后责任，比单纯提升回答流畅度更能推动交易闭环。"
     if any(word in lower for word in ["sparky", "alexa for shopping", "rufus", "ai shopping assistant", "ai-powered shopping"]):
         return f"{subject}，产品拆解要关注四个阈值：AI是否有平台级商品/库存/评价资产，是否能记住预算和偏好，是否能解释排序理由，是否敢进入价格提醒、自动购买等低风险授权。"
     if any(word in title for word in ["问小团", "小美"]):
@@ -667,32 +885,28 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
     item = dict(item)
     item["source"] = canonical_source(item.get("source", ""))
     item["title"] = clean_display_title(item.get("title", ""), item["source"])
-    text = f"{item['title']} {item.get('snippet', '')}"
-    tags = infer_tags(text)
+    item["excerpt"] = clean_text(item.get("snippet", ""))[:420]
+    tags = infer_tags(article_context(item))
     if not is_relevant(item, tags):
         return {}
-    category = infer_category(tags, text)
-    content_type = infer_content_type(tags, category, text, item["source"])
-    return {
+    normalized = {
         "id": slugify(f"{item['date']}-{item['source']}-{item['title']}"),
         "date": item["date"],
         "title": item["title"],
         "source": item["source"],
         "region": item["region"],
-        "contentType": content_type,
-        "category": category,
         "url": item["url"],
-        "tags": tags,
-        "corePoint": make_core_point(item, tags),
-        "insight": make_insight(item, tags),
-        "valueScore": score_item(item, tags),
-        "relatedInsightIds": related_insights(text),
+        "excerpt": item.get("excerpt", ""),
     }
+    return recompute_article_fields(normalized)
 
 
 def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]:
     existing = load_json(ARTICLES_PATH, [])
-    existing = dedupe_items(existing)
+    existing = dedupe_items([
+        item for item in (recompute_article_fields(item, keep_score=True) for item in existing)
+        if is_grounded_ai_shopping_item(item, item.get("tags", []))
+    ])
     raw_items = fetch_wechat(days) + fetch_rss(days) + fetch_google_news(days)
     normalized = [normalize_item(item) for item in raw_items if item.get("title") and item.get("url")]
     normalized = [item for item in normalized if item]
@@ -707,7 +921,10 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
         item["url"] = decode_google_news_url(link_session, item["url"])
         if urllib.parse.urlsplit(item["url"]).netloc.lower() == "news.google.com" or is_blocked_source_or_url(item):
             continue
-        resolved_selected.append(item)
+        page_excerpt = fetch_article_excerpt(item["url"], link_session)
+        if page_excerpt:
+            item["excerpt"] = page_excerpt
+        resolved_selected.append(recompute_article_fields(item))
     selected = resolved_selected
     if not dry_run:
         before_merge_count = len(selected) + len(existing)

@@ -20,8 +20,8 @@
       "daily-2026-08-07-805eb37e0578fe",
       "daily-2026-08-12-02b78319368c06",
       "daily-2026-08-11-99dd644a355aa5",
-      "daily-2026-08-26-21460ced93cc20",
-      "daily-2026-08-06-6685b71f4a4ee6"
+      "daily-2026-08-06-6685b71f4a4ee6",
+      "daily-2026-08-17-15b0a44055b65e"
     ],
     "productImplication": "产品壁垒要从模型回答迁移到商品数据、履约能力、商家接入和交易责任设计。AI导购的核心KPI不应只是点击率，而应增加候选进入率、推荐采纳率、授权下单率和履约准确率。"
   },
@@ -34,8 +34,8 @@
       "daily-2026-07-30-92bd9948eec7fd",
       "daily-2026-07-14-d344ac9140db6d",
       "daily-2026-07-23-1e9dcb440e5776",
-      "daily-2026-07-15-fc27d77a39d3c3",
-      "competitor-2026-07-18-app-waic-2026-ai-950c3c37be"
+      "daily-2026-07-16-4067a81ccd9406",
+      "daily-2026-07-03-59dfd664f66d5a"
     ]
   },
   {
@@ -82,11 +82,11 @@
     "title": "国内平台路线分化：内容入口 vs 交易闭环",
     "summary": "3月围绕豆包、千问、ChatGPT电商尝试和平台权限的讨论集中爆发。关键结论是：AI做电商难点不只是模型，而是商家协同、平台许可、履约责任和交易转化。内容平台适合激发需求，电商平台更接近成交闭环。",
     "topArticleIds": [
-      "daily-2026-03-24-91164de425406d",
       "daily-2026-03-20-0372d7a281d3d8",
       "daily-2026-03-02-a3c3cadaab3578",
-      "daily-2026-03-25-1cad8714e8cc1c",
-      "daily-2026-03-31-611a0c2988aa25"
+      "daily-2026-03-31-611a0c2988aa25",
+      "daily-2026-03-11-7c43fbcf7b6015",
+      "daily-2026-03-17-d339106762016f"
     ],
     "productImplication": "产品定位必须先选清楚：做内容种草、交易履约，还是商家增长工具。三者看起来都是AI导购，但数据、流程、指标和商业模式完全不同。"
   },
@@ -99,7 +99,7 @@
       "daily-2026-02-19-3a11c9d339093b",
       "daily-2026-02-26-1c33b40afa72ee",
       "daily-2026-02-20-30a9ac4c22a9f9",
-      "competitor-2026-02-10-app-3-z-321081f64c"
+      "daily-2026-02-17-f4a0d65f56075c"
     ],
     "productImplication": "选品类时不要只看GMV，要看AI能替用户省掉哪段决策。认知成本、结构化程度、履约确定性、退货风险，应该成为AI导购切入品类的四个评分维度。"
   },
@@ -111,9 +111,9 @@
     "topArticleIds": [
       "daily-2026-01-28-acca4a8c9e3e2f",
       "daily-2026-01-11-4a89d7fd226793",
-      "daily-2026-01-07-5dc564640f2d79",
-      "daily-2026-01-22-e5c6aec15cae7e",
-      "daily-2026-01-21-f670403f850a60"
+      "daily-2026-01-13-4224665ec967a0",
+      "competitor-2026-01-11-walmart-google-ai-discovery",
+      "competitor-2026-01-11-google-agentic-commerce-retailer-tools"
     ]
   },
   {
@@ -124,9 +124,9 @@
     "topArticleIds": [
       "daily-2025-12-01-e9a8ad70d36a26",
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
-      "daily-2025-12-11-f90de11d7342c8",
       "daily-2025-12-24-8613021720cc7c",
-      "daily-2025-12-22-48ba9124d0487b"
+      "daily-2025-12-19-32e102a6a2b3b3",
+      "daily-2025-12-09-5b35943a3d73b9"
     ]
   },
   {
@@ -139,7 +139,7 @@
       "daily-2025-11-18-d4815f5d39ed93",
       "daily-2025-11-13-4b55e886a2ff49",
       "daily-2025-11-06-7aa8ef6760da3c",
-      "daily-2025-11-09-78dd9e965e39b1"
+      "daily-2025-11-25-c50e6219796acb"
     ]
   },
   {
@@ -150,9 +150,9 @@
     "topArticleIds": [
       "daily-2025-10-27-506d4c177e5782",
       "daily-2025-10-17-3757ba40d36a1e",
-      "daily-2025-10-30-2859457e65dce8",
       "daily-2025-10-23-b3c47308eed149",
-      "competitor-2025-10-16-ai-6-ai-4be6bbef6f"
+      "competitor-2025-10-16-ai-6-ai-4be6bbef6f",
+      "competitor-2025-10-16-ai-11-3ad48be7ea"
     ]
   },
   {
@@ -165,7 +165,7 @@
       "daily-2025-09-28-6b0d69f713ce98",
       "daily-2025-09-17-66d75b36d6bbf0",
       "daily-2025-09-08-b166820a289d97",
-      "daily-2025-09-15-7e3d3934f8dabc"
+      "daily-2025-09-18-2a6ebeb2b19979"
     ]
   }
 ]
