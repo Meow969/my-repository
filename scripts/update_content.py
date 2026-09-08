@@ -820,11 +820,149 @@ def core_point_text(value: Any) -> str:
     return str(value or "")
 
 
+ENTITY_RULES = [
+    ("淘宝", ["淘宝", "天猫", "千问", "qwen", "alibaba", "aliexpress", "阿里"]),
+    ("美团", ["美团", "小美", "问小团", "keeta"]),
+    ("Amazon", ["amazon", "rufus", "alexa"]),
+    ("Walmart", ["walmart", "sparky"]),
+    ("Google", ["google", "gemini"]),
+    ("OpenAI/ChatGPT", ["openai", "chatgpt"]),
+    ("Perplexity", ["perplexity"]),
+    ("Shopify", ["shopify"]),
+    ("Instacart", ["instacart"]),
+    ("Visa/Mastercard", ["visa", "mastercard"]),
+    ("Stripe", ["stripe"]),
+    ("PayPal", ["paypal", "honey"]),
+    ("Anthropic/Claude", ["anthropic", "claude"]),
+    ("Target", ["target"]),
+    ("Shopee", ["shopee", "虾皮"]),
+    ("得物", ["得物"]),
+    ("Pinterest", ["pinterest"]),
+    ("Etsy", ["etsy"]),
+    ("Klarna", ["klarna"]),
+]
+
+
+SCENARIO_RULES = [
+    ("支付/结算", ["payment", "checkout", "token", "acquirer", "支付", "收单", "结算"]),
+    ("商品数据/指标", ["product data", "catalog", "metrics", "measurement", "index", "forecast", "商品数据", "指标", "预测"]),
+    ("AI购物助手", ["shopping assistant", "ai assistant", "assistant", "rufus", "alexa", "sparky", "购物助手", "导购"]),
+    ("外部AI入口", ["chatgpt", "perplexity", "copilot", "answer engine", "ai search", "ai搜索"]),
+    ("商家/供给侧", ["merchant", "seller", "retailer", "storefront", "marketplace", "商家", "卖家", "店铺", "marketplaces"]),
+    ("转化/流量", ["conversion", "traffic", "sales", "spending", "%", "转化", "流量", "销售"]),
+    ("试穿/视觉体验", ["try-on", "virtual try", "试穿", "试衣", "试鞋", "visual", "视觉"]),
+    ("用户测评/信任", ["tested", "wary", "trust", "risk", "permission", "mistake", "实测", "信任", "风险", "授权"]),
+    ("即时零售/本地生活", ["grocery", "quick-commerce", "instant", "闪购", "外卖", "买菜", "本地生活"]),
+]
+
+
+def detected_labels(text: str, rules: list[tuple[str, list[str]]], limit: int = 3) -> list[str]:
+    labels = [label for label, words in rules if contains_any(text, words)]
+    return labels[:limit]
+
+
+def title_specific_points(item: dict[str, Any]) -> list[str]:
+    text = article_context({**item, "tags": []})
+    title = str(item.get("title", ""))
+    lower = text.lower()
+    entities = detected_labels(text, ENTITY_RULES, 3)
+    scenarios = detected_labels(text, SCENARIO_RULES, 3)
+    points: list[str] = []
+    if entities or scenarios:
+        entity_text = "、".join(entities) if entities else "行业案例"
+        scenario_text = "、".join(scenarios) if scenarios else "AI购物"
+        points.append(f"案例主体是{entity_text}，场景落在{scenario_text}。")
+    if contains_any(text, ["not just", "beyond checkout", "full consumer experience"]):
+        points.append("讨论重点从单点结算效率，扩大到端到端消费体验。")
+    if contains_any(text, ["product data", "trusted product data", "catalog", "metrics", "measurement"]):
+        points.append("商品数据、目录质量和效果指标被提升为AI购物基础设施。")
+    if contains_any(text, ["23%", "48%", "40%", "$1 trillion", "trillion", "forecast", "index", "survey"]):
+        points.append("文章提供了渗透率、交易规模或转化变化等量化信号。")
+    if contains_any(text, ["marketplaces", "marketplace", "protect loyalty", "loyalty"]):
+        points.append("商家面临渠道迁移和用户关系被AI入口截流的压力。")
+    if contains_any(text, ["sues", "permission", "trusted", "risk", "mistake", "without permission", "trust"]):
+        points.append("信任、授权和责任边界成为AI代购能否继续推进的关键问题。")
+    if contains_any(text, ["app in chatgpt", "inside chatgpt", "instant checkout", "openai", "chatgpt apps", "paypal"]):
+        points.append("交易能力正在嵌入外部AI入口，品牌自有站和平台入口关系被重新分配。")
+    if contains_any(text, ["conversion", "spending", "traffic", "sales", "conversions jump"]):
+        points.append("资讯把AI能力与转化、客单或流量变化直接关联。")
+    if contains_any(title, ["how", "why", "what went wrong", "guide", "research"]):
+        points.append("文章更偏机制拆解或方法论，而不是单纯功能发布。")
+    cleaned: list[str] = []
+    for point in points:
+        point = clean_text(point).strip(" ，,。.;；")
+        if point and point not in cleaned:
+            cleaned.append(point)
+    return cleaned[:3]
+
+
+def make_specific_insight(item: dict[str, Any]) -> str:
+    text = article_context({**item, "tags": []})
+    entities = detected_labels(text, ENTITY_RULES, 2)
+    scenarios = detected_labels(text, SCENARIO_RULES, 2)
+    prefix = f"针对{'、'.join(entities)}的{'、'.join(scenarios) or 'AI购物'}信号，" if entities else "针对这类信号，"
+    if contains_any(text, ["product data", "trusted product data", "catalog", "metrics", "measurement"]):
+        return prefix + "产品侧要把商品资料完整度、可引用证据、实时价格库存和转化指标做成同一套监控，而不是只优化对话回答。"
+    if contains_any(text, ["merchant", "merchants", "seller", "sellers", "retailer", "retailers", "marketplace", "marketplaces", "protect loyalty", "storefront", "商家", "卖家"]):
+        return prefix + "需要给商家端提供AI可读商品页、卖点证据、履约承诺和归因工具，避免用户关系被外部AI入口截流。"
+    if contains_any(text, ["acquirer", "visa", "mastercard", "stripe", "payment", "checkout", "token", "支付", "收单", "结算"]):
+        return prefix + "支付不应被当作链路末端按钮，而要设计成可授权、可撤回、可追责的交易能力；否则AI越主动，误购和责任风险越大。"
+    if contains_any(text, ["app in chatgpt", "inside chatgpt", "instant checkout", "openai", "chatgpt", "perplexity", "paypal"]):
+        return prefix + "关键是承接外部AI带来的半成型意图：进入站内后继续保留上下文，并补齐比较、证据、优惠和确认，而不是重新让用户搜索。"
+    if contains_any(text, ["conversion", "spending", "traffic", "sales", "%", "转化", "流量"]):
+        return prefix + "不要只记录功能上线，要追踪它影响了哪一段漏斗：需求表达、候选点击、加购、客单、复购或售后成本。"
+    if contains_any(text, ["tested", "i let", "which worked best", "perfect gift", "实测", "测评"]):
+        return prefix + "可以把真实测评拆成验收清单：是否理解约束、是否核价核库存、是否给替代方案、是否说明不推荐的理由。"
+    if is_visual_try_on_context(text):
+        return prefix + "视觉体验要进入决策证据链，把尺码、风格、场景和退货风险用于推荐排序，而不是停留在营销图片生成。"
+    if contains_any(text, ["grocery", "quick-commerce", "instant", "闪购", "外卖", "买菜", "本地生活"]):
+        return prefix + "更适合先做高频低风险的局部代劳，例如补货、凑单、配送时效确认，再逐步迁移到复杂高客单决策。"
+    if contains_any(text, ["trust", "risk", "permission", "sues", "mistake", "trusted", "风险", "授权", "信任"]):
+        return prefix + "必须把证据来源、授权边界和出错责任放在主流程里；信任机制不是合规补丁，而是AI导购能否成交的前置条件。"
+    return ""
+
+
+LOW_INFORMATION_CORE = "这条资讯提供了AI购物/导购相关信号，但公开摘要信息有限，需要打开原文进一步确认细节。"
+DEFAULT_INSIGHT = "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。"
+
+
+def analysis_signature(value: Any) -> str:
+    return re.sub(r"[^a-z0-9\u4e00-\u9fa5]+", "", core_point_text(value).lower())
+
+
+def prune_redundant_analysis(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    ranked = sorted(articles, key=lambda item: (item.get("valueScore", 0), item.get("date", "")), reverse=True)
+    kept: list[dict[str, Any]] = []
+    seen_pair: set[tuple[str, str]] = set()
+    seen_core: set[str] = set()
+    insight_counts: dict[str, int] = {}
+    for item in ranked:
+        core_points = item.get("corePoint", [])
+        insight = str(item.get("insight", ""))
+        if core_points == [LOW_INFORMATION_CORE] and insight == DEFAULT_INSIGHT:
+            continue
+        core_sig = analysis_signature(core_points)
+        insight_sig = analysis_signature(insight)
+        pair_sig = (core_sig, insight_sig)
+        if core_sig in seen_core:
+            continue
+        if pair_sig in seen_pair:
+            continue
+        insight_cap = 1
+        if insight_counts.get(insight_sig, 0) >= insight_cap:
+            continue
+        seen_core.add(core_sig)
+        seen_pair.add(pair_sig)
+        insight_counts[insight_sig] = insight_counts.get(insight_sig, 0) + 1
+        kept.append(item)
+    return sorted(kept, key=lambda item: (item.get("date", ""), item.get("valueScore", 0)), reverse=True)
+
+
 def make_core_point(item: dict[str, Any], tags: list[str]) -> list[str]:
     title = item["title"]
     lower = title.lower()
     angles = article_angles(item, tags)
-    points: list[str] = []
+    points: list[str] = title_specific_points(item)
     if "market_signal" in angles:
         points.extend(["资本或经营数据开始把AI购物能力计入增长预期。", "这类信息更偏赛道热度信号，不等同于具体产品能力发布。"])
     if "consumer_benchmark" in angles:
@@ -878,6 +1016,9 @@ def make_insight(item: dict[str, Any], tags: list[str]) -> str:
     lower = title.lower()
     subject = f"围绕《{title}》"
     angles = article_angles(item, tags)
+    specific = make_specific_insight(item)
+    if specific:
+        return specific
     if "market_signal" in angles:
         return "这类资讯适合用来判断赛道热度和竞品优先级，不适合作为功能结论；产品侧应继续追到官方发布、体验截图或用户反馈后，再沉淀具体设计假设。"
     if "consumer_benchmark" in angles:
@@ -945,10 +1086,10 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
 
 def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]:
     existing = load_json(ARTICLES_PATH, [])
-    existing = dedupe_items([
+    existing = prune_redundant_analysis(dedupe_items([
         item for item in (recompute_article_fields(item, keep_score=True) for item in existing)
         if is_grounded_ai_shopping_item(item, item.get("tags", []))
-    ])
+    ]))
     raw_items = fetch_wechat(days) + fetch_rss(days) + fetch_google_news(days)
     normalized = [normalize_item(item) for item in raw_items if item.get("title") and item.get("url")]
     normalized = [item for item in normalized if item]
@@ -970,7 +1111,7 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
     selected = resolved_selected
     if not dry_run:
         before_merge_count = len(selected) + len(existing)
-        merged = dedupe_items(selected + existing, limit=520)
+        merged = prune_redundant_analysis(dedupe_items(selected + existing, limit=520))
         write_json(ARTICLES_PATH, merged)
         refresh_monthly_reports(merged)
         insight_changed = refresh_insights(merged)

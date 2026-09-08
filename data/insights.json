@@ -15,20 +15,20 @@
       "可执行决策",
       "决策链"
     ],
-    "sourceCount": 58,
+    "sourceCount": 23,
     "relatedArticleIds": [
       "2026-09-07-token-ai-kimi-def8e7815c",
-      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
-      "daily-2026-09-01-1531069370f45e",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
-      "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
-      "2026-08-29-finance-biggo-com-evercore-lift-8b8776f56a",
       "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
       "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d",
-      "2026-08-24-pymnts-com-instacart-s-ai-assis-48ea879173",
-      "daily-2026-08-20-84c99b15d913fa"
+      "daily-2026-08-22-d0935ce5172bc8",
+      "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01",
+      "2026-08-10-510496218f",
+      "daily-2026-08-06-6685b71f4a4ee6",
+      "daily-2026-06-29-442eeeee07cc27",
+      "daily-2026-05-27-91a7bfbfddefb5"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、AI购物、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、AI购物、虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -68,20 +68,20 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 145,
+    "sourceCount": 30,
     "relatedArticleIds": [
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
-      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
-      "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
+      "2026-09-07-token-ai-kimi-def8e7815c",
       "daily-2026-09-02-0860bf13512c29",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b"
+      "daily-2026-08-19-4e433b148c4222",
+      "2026-08-10-510496218f",
+      "daily-2026-07-28-0cfa5b4dab8be8",
+      "daily-2026-07-14-d344ac9140db6d",
+      "daily-2026-07-06-9ff3847b4f7534",
+      "daily-2026-06-22-84799743dc2b39",
+      "daily-2026-06-17-711a58e625bb7b",
+      "daily-2026-06-11-3d1f660fc96b5a"
     ],
-    "trendNote": "最新复盘：Agentic Commerce、交易闭环、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "最新复盘：竞品案例、Agentic Commerce、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -100,20 +100,20 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 139,
+    "sourceCount": 41,
     "relatedArticleIds": [
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-07-token-ai-kimi-def8e7815c",
-      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
-      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
-      "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
       "daily-2026-09-02-0860bf13512c29",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4"
+      "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
+      "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d",
+      "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01",
+      "daily-2026-08-19-4e433b148c4222",
+      "2026-08-10-510496218f",
+      "daily-2026-07-28-0cfa5b4dab8be8",
+      "daily-2026-07-14-d344ac9140db6d",
+      "daily-2026-06-17-711a58e625bb7b"
     ],
-    "trendNote": "最新复盘：Agentic Commerce、交易闭环、竞品案例信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "最新复盘：竞品案例、Agentic Commerce、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -132,20 +132,19 @@
       "推荐位稀缺",
       "AI可见性"
     ],
-    "sourceCount": 15,
+    "sourceCount": 9,
     "relatedArticleIds": [
-      "daily-2026-08-07-805eb37e0578fe",
       "daily-2026-08-06-6685b71f4a4ee6",
       "daily-2026-08-05-73d5671dbd19ad",
-      "daily-2026-07-12-4aea95fbfc804d",
       "daily-2026-07-06-9ff3847b4f7534",
-      "daily-2026-06-27-ca12d684099abd",
       "dialogue-is-shopping-2026-06-18",
-      "daily-2026-04-16-8c3ab90fcd05d0",
       "daily-2026-02-20-30a9ac4c22a9f9",
-      "daily-2026-01-25-27679e673e9934"
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "daily-2025-11-25-c50e6219796acb",
+      "daily-2025-11-19-c950ad73b45abe",
+      "daily-2025-11-06-7aa8ef6760da3c"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、交易闭环、竞品案例，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、竞品案例、GEO，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -165,20 +164,20 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 96,
+    "sourceCount": 31,
     "relatedArticleIds": [
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
-      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
-      "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-04-techradar-will-agentic-commerce-a02278d2f5",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
       "daily-2026-09-02-0860bf13512c29",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b"
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "daily-2026-08-05-73d5671dbd19ad",
+      "daily-2026-07-28-0cfa5b4dab8be8",
+      "daily-2026-07-14-d344ac9140db6d",
+      "daily-2026-07-06-9ff3847b4f7534",
+      "daily-2026-06-17-711a58e625bb7b",
+      "daily-2026-06-11-3d1f660fc96b5a",
+      "daily-2026-06-08-acf2f844514f0e"
     ],
-    "trendNote": "最新复盘：Agentic Commerce、交易闭环、AI购物显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
+    "trendNote": "最新复盘：AI购物、Agentic Commerce、竞品案例显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -197,18 +196,18 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 18,
+    "sourceCount": 12,
     "relatedArticleIds": [
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "daily-2026-08-21-efe214be6e9775",
       "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63",
-      "daily-2026-08-07-805eb37e0578fe",
       "daily-2026-08-05-73d5671dbd19ad",
       "daily-2026-07-06-9ff3847b4f7534",
-      "daily-2026-06-27-ca12d684099abd",
       "dialogue-is-shopping-2026-06-18",
-      "daily-2026-05-25-9fb56a369cf82d",
-      "daily-2026-05-09-b99a5f015693fc"
+      "daily-2026-03-19-46f4d77b1b89f4",
+      "daily-2026-02-20-30a9ac4c22a9f9",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "daily-2025-11-25-c50e6219796acb"
     ],
     "trendNote": "最新复盘：商家Agent、竞品案例、即时零售正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-08"
@@ -229,12 +228,11 @@
       "接口规则",
       "多智能体"
     ],
-    "sourceCount": 5,
+    "sourceCount": 4,
     "relatedArticleIds": [
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "daily-2026-08-21-efe214be6e9775",
       "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63",
-      "daily-2026-05-09-b99a5f015693fc",
       "daily-2026-03-19-46f4d77b1b89f4"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在商家Agent、竞品案例、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
@@ -256,18 +254,15 @@
       "日常授权",
       "习惯养成"
     ],
-    "sourceCount": 8,
+    "sourceCount": 5,
     "relatedArticleIds": [
       "2026-08-25-ai-6f60a0b2fd",
-      "daily-2026-08-16-286aec54d0edce",
       "daily-2026-06-19-10e5b92e51f050",
       "daily-2026-06-16-30f36e4cb45b27",
-      "competitor-2026-06-03-sohu-ai-b174d31ca0",
-      "daily-2025-12-09-5b35943a3d73b9",
       "competitor-2025-09-12-ai-2a8969793a",
       "competitor-2025-09-11-donews-ai-0f33fa349b"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、即时零售、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -286,12 +281,11 @@
       "履约确定",
       "品类策略"
     ],
-    "sourceCount": 5,
+    "sourceCount": 4,
     "relatedArticleIds": [
       "daily-2026-08-22-d0935ce5172bc8",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
-      "daily-2025-12-02-1a71509393f17d",
       "daily-2025-10-08-7f791e53424cc9"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
@@ -313,20 +307,20 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 12,
+    "sourceCount": 21,
     "relatedArticleIds": [
+      "2026-09-07-token-ai-kimi-def8e7815c",
       "daily-2026-08-22-d0935ce5172bc8",
       "daily-2026-08-19-4e433b148c4222",
-      "daily-2026-07-17-90c1e8042bffc3",
-      "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
+      "daily-2026-07-14-d344ac9140db6d",
+      "daily-2026-06-17-711a58e625bb7b",
+      "daily-2026-06-02-947e7cd6c292e7",
+      "2026-05-26-mastercard-agentic-commerce-ai--ba213632b7",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
-      "google-ucp-updates-2026-05-01",
-      "daily-2026-04-20-68a876852717bf",
-      "daily-2026-01-13-4224665ec967a0",
-      "competitor-2025-12-11-google-studio-quality-digital-try-on",
-      "daily-2025-12-02-1a71509393f17d"
+      "2026-04-29-stripe-beyond-checkout-where-ag-9310c1997a",
+      "daily-2026-03-12-016f6d5e971fa7"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -345,20 +339,16 @@
       "测评引用",
       "可追溯"
     ],
-    "sourceCount": 12,
+    "sourceCount": 6,
     "relatedArticleIds": [
-      "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
       "daily-2026-08-22-d0935ce5172bc8",
-      "daily-2026-08-15-32e6ac7bd8b443",
       "2026-08-10-510496218f",
-      "daily-2026-08-08-ca3accf328697b",
       "daily-2026-08-06-6685b71f4a4ee6",
-      "daily-2026-07-12-4aea95fbfc804d",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
-      "daily-2026-01-25-27679e673e9934",
-      "competitor-2025-12-11-google-studio-quality-digital-try-on"
+      "competitor-2025-12-11-google-studio-quality-digital-try-on",
+      "daily-2025-10-08-7f791e53424cc9"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在交易闭环、竞品案例、虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿、竞品案例、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -377,10 +367,9 @@
       "价格提醒",
       "候选替换"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "relatedArticleIds": [
-      "daily-2026-02-05-378a1bbb379006",
-      "daily-2025-12-29-c2ef590a75ae4d"
+      "daily-2026-02-05-378a1bbb379006"
     ],
     "trendNote": "最新复盘：AI购物显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
     "updatedAt": "2026-09-08"
@@ -422,11 +411,9 @@
       "分级授权",
       "一次性授权"
     ],
-    "sourceCount": 3,
+    "sourceCount": 1,
     "relatedArticleIds": [
-      "daily-2026-08-19-4e433b148c4222",
-      "daily-2026-07-17-90c1e8042bffc3",
-      "daily-2026-04-20-68a876852717bf"
+      "daily-2026-08-19-4e433b148c4222"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
@@ -468,12 +455,11 @@
       "广告标识",
       "运营成本"
     ],
-    "sourceCount": 5,
+    "sourceCount": 4,
     "relatedArticleIds": [
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "daily-2026-08-21-efe214be6e9775",
       "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63",
-      "daily-2026-05-09-b99a5f015693fc",
       "daily-2026-03-19-46f4d77b1b89f4"
     ],
     "trendNote": "最新复盘：商家Agent、竞品案例、即时零售正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
@@ -495,13 +481,11 @@
       "公平性",
       "平台利益"
     ],
-    "sourceCount": 3,
+    "sourceCount": 1,
     "relatedArticleIds": [
-      "daily-2026-06-27-ca12d684099abd",
-      "dialogue-is-shopping-2026-06-18",
-      "daily-2025-10-27-506d4c177e5782"
+      "dialogue-is-shopping-2026-06-18"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在商品库、AI购物、竞品案例，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、GEO，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -520,15 +504,11 @@
       "预算表达",
       "价格歧视"
     ],
-    "sourceCount": 5,
+    "sourceCount": 1,
     "relatedArticleIds": [
-      "2026-08-28-ue-keeta-ai-a686e8011b",
-      "daily-2026-08-21-efe214be6e9775",
-      "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63",
-      "daily-2026-05-09-b99a5f015693fc",
-      "daily-2026-03-19-46f4d77b1b89f4"
+      "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在商家Agent、竞品案例、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -574,18 +554,18 @@
     "relatedArticleIds": [
       "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
-      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
-      "daily-2026-09-01-1531069370f45e",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
-      "2026-08-29-finance-biggo-com-evercore-lift-8b8776f56a",
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "2026-08-25-ai-6f60a0b2fd",
       "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
-      "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d"
+      "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d",
+      "daily-2026-08-21-efe214be6e9775",
+      "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01",
+      "2026-08-10-510496218f"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、AI购物、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 78
+    "sourceCount": 36
   },
   {
     "id": "visual-try-on-as-proof",
@@ -608,12 +588,11 @@
       "daily-2026-08-22-d0935ce5172bc8",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
-      "daily-2025-12-02-1a71509393f17d",
       "daily-2025-10-08-7f791e53424cc9"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 5
+    "sourceCount": 4
   },
   {
     "id": "local-life-agent-loop",
@@ -635,42 +614,18 @@
     "relatedArticleIds": [
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "2026-08-25-ai-6f60a0b2fd",
-      "daily-2026-08-16-286aec54d0edce",
+      "2026-08-10-510496218f",
       "daily-2026-06-19-10e5b92e51f050",
       "daily-2026-06-16-30f36e4cb45b27",
-      "competitor-2026-06-03-sohu-ai-b174d31ca0",
       "daily-2026-03-19-46f4d77b1b89f4",
+      "daily-2026-03-12-016f6d5e971fa7",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "daily-2026-01-16-69707bc3df56d5",
-      "daily-2025-12-09-5b35943a3d73b9"
+      "daily-2025-12-08-9ee9429fa0ec2a"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、即时零售、商家Agent，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08",
-    "sourceCount": 13
-  },
-  {
-    "id": "daily-reflection-2026-09-08",
-    "title": "09-08 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "sourceCount": 14
   },
   {
     "id": "daily-reflection-2026-09-07",
@@ -698,85 +653,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-09-06",
-    "title": "09-06 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce",
-      "商品库"
-    ],
-    "relatedArticleIds": [
-      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
-      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-09-04",
-    "title": "09-04 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
-      "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-04-techradar-will-agentic-commerce-a02278d2f5"
-    ],
-    "sourceCount": 3,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-09-03",
-    "title": "09-03 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce",
-      "技术架构",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-09-02",
     "title": "09-02 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -791,69 +667,36 @@
       "授权边界",
       "支付闭环",
       "可靠执行",
-      "Agentic Commerce",
-      "AI购物"
+      "Agentic Commerce"
     ],
     "relatedArticleIds": [
-      "daily-2026-09-02-0860bf13512c29",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
-      "2026-09-02-yahoo-finance-niq-and-similarwe-b725b9f9af"
+      "daily-2026-09-02-0860bf13512c29"
     ],
-    "sourceCount": 4,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
     "id": "daily-reflection-2026-09-01",
-    "title": "09-01 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
+    "title": "09-01 反思：把新闻变成产品资产，关键是沉淀可实验假设",
+    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
+    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
       "产品假设",
-      "竞品案例",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-09-01-1531069370f45e",
-      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
-      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
-      "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427"
-    ],
-    "sourceCount": 4,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-29",
-    "title": "08-29 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
+      "信息复盘",
+      "实验设计",
+      "决策链路",
       "AI购物",
       "竞品案例"
     ],
     "relatedArticleIds": [
-      "daily-2026-08-29-2134c3dedae52a",
-      "2026-08-29-finance-biggo-com-evercore-lift-8b8776f56a"
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
@@ -877,54 +720,6 @@
     ],
     "relatedArticleIds": [
       "2026-08-28-ue-keeta-ai-a686e8011b"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-27",
-    "title": "08-27 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086",
-      "2026-08-27-pymnts-com-synchrony-says-ai-ha-af0cd4d007"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-26",
-    "title": "08-26 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "2026-08-26-stripe-wolf-badger-makes-shoppi-f381faf542"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -956,52 +751,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-08-24",
-    "title": "08-24 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "2026-08-24-pymnts-com-instacart-s-ai-assis-48ea879173"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-23",
-    "title": "08-23 反思：视觉能力的价值不是生成图片，而是把购买风险提前显性化",
-    "summary": "当天资料指向非标品导购的关键：用户真正缺的不是更多商品，而是对尺码、风格、场景适配和后悔成本的判断证据。",
-    "trendNote": "试穿、相似款和风格翻译应进入推荐排序，让AI从“描述商品”升级为“证明它适合我”。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "视觉导购",
-      "适配证据",
-      "非标品",
-      "风险前置",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-23-9ac5af530d0367"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-08-22",
     "title": "08-22 反思：视觉能力的价值不是生成图片，而是把购买风险提前显性化",
     "summary": "当天资料指向非标品导购的关键：用户真正缺的不是更多商品，而是对尺码、风格、场景适配和后悔成本的判断证据。",
@@ -1026,19 +775,20 @@
   },
   {
     "id": "daily-reflection-2026-08-21",
-    "title": "08-21 反思：下一代导购竞争会先发生在供给侧",
-    "summary": "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
-    "trendNote": "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
+    "title": "08-21 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
+    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
+    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "供给侧",
-      "机器可读",
-      "商家Agent",
-      "AI可见性"
+      "竞品拆解",
+      "功能模块",
+      "交易闭环",
+      "产品假设",
+      "商家Agent"
     ],
     "relatedArticleIds": [
       "daily-2026-08-21-efe214be6e9775"
@@ -1061,97 +811,17 @@
       "功能模块",
       "交易闭环",
       "产品假设",
-      "AI购物",
       "竞品案例"
     ],
     "relatedArticleIds": [
-      "daily-2026-08-20-84c99b15d913fa",
       "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
     "id": "daily-reflection-2026-08-19",
-    "title": "08-19 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-19-4e433b148c4222",
-      "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-18",
-    "title": "08-18 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "Agentic Commerce",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "2026-08-18-pymnts-com-visa-and-mastercard--5ba11f7326",
-      "2026-08-18-6-12-f0dccab366",
-      "2026-08-18-aha-20-fc9a45c80c"
-    ],
-    "sourceCount": 3,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-17",
-    "title": "08-17 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-17-15b0a44055b65e",
-      "2026-08-17-c7318a84f1"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-16",
-    "title": "08-16 反思：把新闻变成产品资产，关键是沉淀可实验假设",
+    "title": "08-19 反思：把新闻变成产品资产，关键是沉淀可实验假设",
     "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
     "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
     "takeaways": [
@@ -1167,37 +837,14 @@
       "AI购物"
     ],
     "relatedArticleIds": [
-      "daily-2026-08-16-286aec54d0edce"
+      "daily-2026-08-19-4e433b148c4222"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-08-15",
-    "title": "08-15 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-15-32e6ac7bd8b443"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-13",
-    "title": "08-13 反思：下一代导购竞争会先发生在供给侧",
+    "id": "daily-reflection-2026-08-11",
+    "title": "08-11 反思：下一代导购竞争会先发生在供给侧",
     "summary": "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
     "trendNote": "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
     "takeaways": [
@@ -1213,59 +860,9 @@
       "AI购物"
     ],
     "relatedArticleIds": [
-      "daily-2026-08-13-d3070ee4db7fb7"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-12",
-    "title": "08-12 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-12-02b78319368c06"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-11",
-    "title": "08-11 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-11-99dd644a355aa5",
-      "2026-08-11-target-corporation-target-stren-c21d8f6ef4",
       "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63"
     ],
-    "sourceCount": 3,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
@@ -1288,76 +885,6 @@
     ],
     "relatedArticleIds": [
       "2026-08-10-510496218f"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-09",
-    "title": "08-09 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-09-7debda74073518"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-08",
-    "title": "08-08 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-08-ca3accf328697b"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-07",
-    "title": "08-07 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-07-805eb37e0578fe"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -1404,29 +931,6 @@
     ],
     "relatedArticleIds": [
       "daily-2026-08-05-73d5671dbd19ad"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-08-04",
-    "title": "08-04 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-04-c752dcf8432726"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -1480,123 +984,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-07-27",
-    "title": "07-27 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-27-df057072123319"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-23",
-    "title": "07-23 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-23-1e9dcb440e5776"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-22",
-    "title": "07-22 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-22-b4c4f3b8977958"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-17",
-    "title": "07-17 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-17-90c1e8042bffc3"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-16",
-    "title": "07-16 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-16-4067a81ccd9406"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-07-14",
     "title": "07-14 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -1615,122 +1002,6 @@
     ],
     "relatedArticleIds": [
       "daily-2026-07-14-d344ac9140db6d"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-13",
-    "title": "07-13 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例",
-      "技术架构"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-13-f6670fa6430b20"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-12",
-    "title": "07-12 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-12-4aea95fbfc804d"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-10",
-    "title": "07-10 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-10-a0c7e4052c573b"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-09",
-    "title": "07-09 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "对话导购"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-09-3d36eb925f6e28"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-08",
-    "title": "07-08 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-08-7faa93e3004991"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -1759,75 +1030,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-07-03",
-    "title": "07-03 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-03-59dfd664f66d5a"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-02",
-    "title": "07-02 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-02-a3cc9a9fd55e88"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-07-01",
-    "title": "07-01 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-01-0a0622ecb22caf"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-06-29",
     "title": "06-29 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
     "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
@@ -1851,76 +1053,26 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-06-27",
-    "title": "06-27 反思：下一代导购竞争会先发生在供给侧",
-    "summary": "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
-    "trendNote": "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "供给侧",
-      "机器可读",
-      "商家Agent",
-      "AI可见性",
-      "AI购物",
-      "商品库"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-06-27-ca12d684099abd"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-06-26",
-    "title": "06-26 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-06-26-7dd86f0799c245"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-06-22",
-    "title": "06-22 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
+    "title": "06-22 反思：把新闻变成产品资产，关键是沉淀可实验假设",
+    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
+    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
       "产品假设",
-      "AI购物",
-      "竞品案例"
+      "信息复盘",
+      "实验设计",
+      "决策链路",
+      "AI购物"
     ],
     "relatedArticleIds": [
-      "daily-2026-06-22-84799743dc2b39",
-      "competitor-2026-06-22-shopee-ai-f87b7022fc"
+      "daily-2026-06-22-84799743dc2b39"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
@@ -1962,14 +1114,12 @@
       "交易闭环",
       "产品假设",
       "竞品案例",
-      "GEO",
-      "Agentic Commerce"
+      "GEO"
     ],
     "relatedArticleIds": [
-      "dialogue-is-shopping-2026-06-18",
-      "daily-2026-06-18-056958016a4b28"
+      "dialogue-is-shopping-2026-06-18"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
@@ -2020,29 +1170,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-06-15",
-    "title": "06-15 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-06-15-999b5b1b29c57a"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-06-11",
     "title": "06-11 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -2066,52 +1193,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-06-10",
-    "title": "06-10 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-06-10-ad12dd8918a33b"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-06-09",
-    "title": "06-09 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-06-09-7a19d15be76fd1"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-06-08",
     "title": "06-08 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -2130,29 +1211,6 @@
     ],
     "relatedArticleIds": [
       "daily-2026-06-08-acf2f844514f0e"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-06-03",
-    "title": "06-03 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "competitor-2026-06-03-sohu-ai-b174d31ca0"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -2182,43 +1240,20 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-06-01",
-    "title": "06-01 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-06-01-2d1baaa8aadf8b"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-05-27",
-    "title": "05-27 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
+    "title": "05-27 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
+    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
+    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
+      "竞品拆解",
+      "功能模块",
+      "交易闭环",
+      "产品假设",
       "竞品案例"
     ],
     "relatedArticleIds": [
@@ -2242,37 +1277,11 @@
       "授权边界",
       "支付闭环",
       "可靠执行",
-      "AI购物",
       "Agentic Commerce",
       "交易闭环"
     ],
     "relatedArticleIds": [
-      "daily-2026-05-26-350c48d1f12bff",
       "2026-05-26-mastercard-agentic-commerce-ai--ba213632b7"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-05-25",
-    "title": "05-25 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce",
-      "商家Agent"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-25-9fb56a369cf82d"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -2301,55 +1310,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-05-21",
-    "title": "05-21 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "技术架构"
-    ],
-    "relatedArticleIds": [
-      "2026-05-21-google-shopping-blog-how-we-re--242e31b910"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-05-20",
-    "title": "05-20 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "google-universal-cart-2026-05-20",
-      "daily-2026-05-20-8afe23caa75775"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-05-19",
     "title": "05-19 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -2373,8 +1333,8 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-05-18",
-    "title": "05-18 反思：把新闻变成产品资产，关键是沉淀可实验假设",
+    "id": "daily-reflection-2026-05-14",
+    "title": "05-14 反思：把新闻变成产品资产，关键是沉淀可实验假设",
     "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
     "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
     "takeaways": [
@@ -2387,53 +1347,6 @@
       "信息复盘",
       "实验设计",
       "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-18-883276d10f1140"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-05-15",
-    "title": "05-15 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-15-fefecaf4ebc5f4"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-05-14",
-    "title": "05-14 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
       "AI购物"
     ],
     "relatedArticleIds": [
@@ -2466,52 +1379,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-05-12",
-    "title": "05-12 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-12-693fb8a1adcd89"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-05-11",
-    "title": "05-11 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-11-8b28e0dba3e891"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-05-10",
     "title": "05-10 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
     "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
@@ -2537,74 +1404,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-05-09",
-    "title": "05-09 反思：下一代导购竞争会先发生在供给侧",
-    "summary": "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
-    "trendNote": "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "供给侧",
-      "机器可读",
-      "商家Agent",
-      "AI可见性"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-09-b99a5f015693fc"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-05-05",
-    "title": "05-05 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-05-e9a8c4d060c516"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-05-02",
-    "title": "05-02 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-02-803ff0b6b27c76"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-05-01",
     "title": "05-01 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -2623,10 +1422,9 @@
       "技术架构"
     ],
     "relatedArticleIds": [
-      "google-ucp-updates-2026-05-01",
-      "daily-2026-05-01-51f21b5fca9bed"
+      "google-ucp-updates-2026-05-01"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
@@ -2644,313 +1442,11 @@
       "授权边界",
       "支付闭环",
       "可靠执行",
-      "AI购物",
       "Agentic Commerce",
       "交易闭环"
     ],
     "relatedArticleIds": [
-      "daily-2026-04-29-3a833334ba1e57",
       "2026-04-29-stripe-beyond-checkout-where-ag-9310c1997a"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-28",
-    "title": "04-28 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-28-c593743066b83b"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-27",
-    "title": "04-27 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-27-89f2f8c8f3a763"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-26",
-    "title": "04-26 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-26-7e02c947827d17"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-22",
-    "title": "04-22 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-22-3322ca2227bf9c"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-20",
-    "title": "04-20 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-20-68a876852717bf"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-19",
-    "title": "04-19 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-19-fa90e6d6a52454"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-16",
-    "title": "04-16 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-16-8c3ab90fcd05d0"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-14",
-    "title": "04-14 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-14-42c17024d10b46"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-12",
-    "title": "04-12 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-12-b2fa339b7be1a0"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-11",
-    "title": "04-11 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-11-370069836d49a1"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-10",
-    "title": "04-10 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-10-d63bce285e2ea1"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-09",
-    "title": "04-09 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-09-57c71cec46257e"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-07",
-    "title": "04-07 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-07-e097fe5551dc48"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -2975,167 +1471,6 @@
     ],
     "relatedArticleIds": [
       "daily-2026-04-05-adaa2252b3d0a6"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-04-02",
-    "title": "04-02 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-02-1bcb667a60c028"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-31",
-    "title": "03-31 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-31-611a0c2988aa25"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-28",
-    "title": "03-28 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-28-7a8e7698b1922f"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-27",
-    "title": "03-27 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-27-117643c55a94fc"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-23",
-    "title": "03-23 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-23-83907e869c7490"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-22",
-    "title": "03-22 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-22-b1211759d490f9"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-20",
-    "title": "03-20 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-20-0372d7a281d3d8"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -3191,98 +1526,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-03-17",
-    "title": "03-17 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-17-d339106762016f"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-16",
-    "title": "03-16 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-16-ddd8e6d4a154d5"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-15",
-    "title": "03-15 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-15-4af455ef867015"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-13",
-    "title": "03-13 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-13-17b4e1a1b5db9a"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-03-12",
     "title": "03-12 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -3306,145 +1549,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-03-11",
-    "title": "03-11 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-11-7c43fbcf7b6015"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-09",
-    "title": "03-09 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-09-f683dc75890cf8"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-07",
-    "title": "03-07 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-07-7468cbe0b4b9f2"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-03-02",
-    "title": "03-02 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-02-a3c3cadaab3578"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-27",
-    "title": "02-27 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-27-3b0f5524ffb9da"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-26",
-    "title": "02-26 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-26-1c33b40afa72ee"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-02-25",
     "title": "02-25 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -3463,29 +1567,6 @@
     ],
     "relatedArticleIds": [
       "daily-2026-02-25-c10d83261028e1"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-24",
-    "title": "02-24 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-24-bca30973110fe0"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -3515,29 +1596,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-02-22",
-    "title": "02-22 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-22-bb0b53904b8615"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-02-20",
     "title": "02-20 反思：把新闻变成产品资产，关键是沉淀可实验假设",
     "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
@@ -3556,122 +1614,6 @@
     ],
     "relatedArticleIds": [
       "daily-2026-02-20-30a9ac4c22a9f9"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-19",
-    "title": "02-19 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-19-3a11c9d339093b"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-17",
-    "title": "02-17 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-17-f4a0d65f56075c"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-16",
-    "title": "02-16 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-16-c4383e61f4a296"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-11",
-    "title": "02-11 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-11-7fae5bd7de6a54"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-10",
-    "title": "02-10 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-10-d86df14ec789b9"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -3700,144 +1642,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-02-04",
-    "title": "02-04 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-04-19e5f8b5096c1b"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-02-03",
-    "title": "02-03 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-03-b49839aa774086"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-29",
-    "title": "01-29 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-29-1a98f8ebcd2d86"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-28",
-    "title": "01-28 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-28-acca4a8c9e3e2f"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-25",
-    "title": "01-25 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-25-27679e673e9934"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-23",
-    "title": "01-23 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-23-1a13d7d40473b1"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-01-22",
     "title": "01-22 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
     "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
@@ -3857,29 +1661,6 @@
     ],
     "relatedArticleIds": [
       "competitor-2026-01-22-app-ai-2130600ec1"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-20",
-    "title": "01-20 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-20-325e5c30718d8e"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -3910,151 +1691,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2026-01-14",
-    "title": "01-14 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "竞品案例",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-14-0d5d31b874dce0"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-13",
-    "title": "01-13 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "技术架构"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-13-4224665ec967a0"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-12",
-    "title": "01-12 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-11",
-    "title": "01-11 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
-      "竞品案例",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-11-4a89d7fd226793",
-      "competitor-2026-01-11-walmart-google-ai-discovery",
-      "competitor-2026-01-11-google-agentic-commerce-retailer-tools"
-    ],
-    "sourceCount": 3,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-09",
-    "title": "01-09 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-09-2e8b1ef0491064"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-08",
-    "title": "01-08 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-08-b9f43442c77bab"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2026-01-04",
     "title": "01-04 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
     "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
@@ -4073,122 +1709,6 @@
     ],
     "relatedArticleIds": [
       "daily-2026-01-04-c6a18207304cfc"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2026-01-03",
-    "title": "01-03 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-03-cb402f08aeefc9"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-29",
-    "title": "12-29 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-29-c2ef590a75ae4d"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-26",
-    "title": "12-26 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-26-31dc57d8a89872"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-24",
-    "title": "12-24 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-24-8613021720cc7c"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-21",
-    "title": "12-21 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-21-dfc0900d97a94d"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -4213,76 +1733,6 @@
     ],
     "relatedArticleIds": [
       "daily-2025-12-19-32e102a6a2b3b3"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-18",
-    "title": "12-18 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce",
-      "技术架构"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-18-b1ce7a07dfb281"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-15",
-    "title": "12-15 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-15-ca8a8749505e64"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-14",
-    "title": "12-14 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "交易闭环"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-14-a29e9c2343c4f3"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -4334,29 +1784,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2025-12-09",
-    "title": "12-09 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-09-5b35943a3d73b9"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2025-12-08",
     "title": "12-08 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
     "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
@@ -4375,75 +1802,6 @@
     ],
     "relatedArticleIds": [
       "daily-2025-12-08-9ee9429fa0ec2a"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-07",
-    "title": "12-07 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-07-c2d8cbc4137af7"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-02",
-    "title": "12-02 反思：视觉能力的价值不是生成图片，而是把购买风险提前显性化",
-    "summary": "当天资料指向非标品导购的关键：用户真正缺的不是更多商品，而是对尺码、风格、场景适配和后悔成本的判断证据。",
-    "trendNote": "试穿、相似款和风格翻译应进入推荐排序，让AI从“描述商品”升级为“证明它适合我”。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "视觉导购",
-      "适配证据",
-      "非标品",
-      "风险前置",
-      "虚拟试穿"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-02-1a71509393f17d"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-12-01",
-    "title": "12-01 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-12-01-e9a8ad70d36a26"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -4473,76 +1831,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2025-11-28",
-    "title": "11-28 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-28-5b8d18af62b67f"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-11-27",
-    "title": "11-27 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-27-f3dd1fb944659d"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-11-26",
-    "title": "11-26 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-26-1824432e7859be"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2025-11-25",
     "title": "11-25 反思：把新闻变成产品资产，关键是沉淀可实验假设",
     "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
@@ -4567,46 +1855,23 @@
   },
   {
     "id": "daily-reflection-2025-11-24",
-    "title": "11-24 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
+    "title": "11-24 反思：把新闻变成产品资产，关键是沉淀可实验假设",
+    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
+    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
+      "产品假设",
+      "信息复盘",
+      "实验设计",
+      "决策链路",
       "AI购物"
     ],
     "relatedArticleIds": [
       "daily-2025-11-24-53d248fd80c793"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-11-21",
-    "title": "11-21 反思：下一代导购竞争会先发生在供给侧",
-    "summary": "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
-    "trendNote": "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "供给侧",
-      "机器可读",
-      "商家Agent",
-      "AI可见性",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-21-c1f37692f3efb0"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -4658,29 +1923,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2025-11-14",
-    "title": "11-14 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-14-295351a2d8ca3a"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2025-11-13",
     "title": "11-13 反思：AI导购的分水岭是能否承担交易责任",
     "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
@@ -4701,122 +1943,6 @@
     ],
     "relatedArticleIds": [
       "daily-2025-11-13-4b55e886a2ff49"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-11-12",
-    "title": "11-12 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-12-c3d2934bfde0d9"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-11-11",
-    "title": "11-11 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-11-1133013a9d39f2"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-11-10",
-    "title": "11-10 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-10-6f591df775a2b7"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-11-08",
-    "title": "11-08 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "对话导购",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "competitor-2025-11-08-11ai-ai-5000-bc702b8368"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-11-07",
-    "title": "11-07 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "对话导购"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-07-95e2581f3feabd"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -4846,29 +1972,6 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2025-11-03",
-    "title": "11-03 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-03-ecde15087570ad"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2025-11-02",
     "title": "11-02 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
     "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
@@ -4893,280 +1996,24 @@
     "updatedAt": "2026-09-08"
   },
   {
-    "id": "daily-reflection-2025-10-31",
-    "title": "10-31 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-31-1f6916e0d4bf5d"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-29",
-    "title": "10-29 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-29-0ef4ff459666d1"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
     "id": "daily-reflection-2025-10-28",
-    "title": "10-28 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
+    "title": "10-28 反思：把新闻变成产品资产，关键是沉淀可实验假设",
+    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
+    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
     "takeaways": [
       "把当天信号改写成一个可验证产品假设",
       "优先记录它影响的是入口、证据、授权还是交易",
       "把相关资料挂回灵感，避免资讯只被收藏不被复用"
     ],
     "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
+      "产品假设",
+      "信息复盘",
+      "实验设计",
+      "决策链路",
       "AI购物"
     ],
     "relatedArticleIds": [
       "daily-2025-10-28-e6e58f4fb3a311"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-27",
-    "title": "10-27 反思：下一代导购竞争会先发生在供给侧",
-    "summary": "当天资料提醒我们，AI能否推荐好商品，取决于商家是否把卖点、库存、评价、履约和禁忌规则变成机器可读资产。",
-    "trendNote": "可以把商家后台从“填商品信息”升级为“训练AI如何理解和推荐我的商品”的工作台。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "供给侧",
-      "机器可读",
-      "商家Agent",
-      "AI可见性",
-      "商品库"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-27-506d4c177e5782"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-25",
-    "title": "10-25 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-25-aaadbe33c089f8"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-24",
-    "title": "10-24 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-24-d2add2c343a540"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-23",
-    "title": "10-23 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-23-b3c47308eed149"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-20",
-    "title": "10-20 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "对话导购"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-20-85e813f5a4b55c"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-17",
-    "title": "10-17 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-17-3757ba40d36a1e"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-16",
-    "title": "10-16 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "竞品案例",
-      "对话导购"
-    ],
-    "relatedArticleIds": [
-      "competitor-2025-10-16-ai-6-ai-4be6bbef6f",
-      "competitor-2025-10-16-ai-11-3ad48be7ea"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-15",
-    "title": "10-15 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-15-f59a7cfba07406"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-10-09",
-    "title": "10-09 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-09-428951f161d05b"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -5191,29 +2038,6 @@
     ],
     "relatedArticleIds": [
       "daily-2025-10-08-7f791e53424cc9"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-09-30",
-    "title": "09-30 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-09-30-67ef10966f2a4f"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
@@ -5351,14 +2175,13 @@
       "功能模块",
       "交易闭环",
       "产品假设",
-      "竞品案例",
-      "对话导购"
+      "对话导购",
+      "竞品案例"
     ],
     "relatedArticleIds": [
-      "daily-2025-09-17-66d75b36d6bbf0",
       "competitor-2025-09-17-ai-86111b0c72"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
@@ -5377,14 +2200,12 @@
       "交易闭环",
       "产品假设",
       "竞品案例",
-      "即时零售",
-      "AI购物"
+      "即时零售"
     ],
     "relatedArticleIds": [
-      "competitor-2025-09-12-ai-2a8969793a",
-      "daily-2025-09-12-a18826d18731c1"
+      "competitor-2025-09-12-ai-2a8969793a"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
@@ -5402,114 +2223,18 @@
       "功能模块",
       "交易闭环",
       "产品假设",
-      "竞品案例",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "competitor-2025-09-11-donews-ai-0f33fa349b",
-      "daily-2025-09-11-d4d492de655d7c"
-    ],
-    "sourceCount": 2,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-09-10",
-    "title": "09-10 反思：记忆不是用户画像，而是可编辑的购买约束",
-    "summary": "当天资料显示，长期偏好只有在预算、品牌禁忌、尺码、补货周期和场景里被用户看见并可修改，才会变成信任资产。",
-    "trendNote": "AI导购应提供“我的购买规则”面板，让用户能纠正、冻结或删除记忆，而不是被动接受黑箱个性化。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "记忆",
-      "购买约束",
-      "复购",
-      "可编辑偏好",
-      "对话导购"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-09-10-85087d71e6e5bf"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-09-09",
-    "title": "09-09 反思：把新闻变成产品资产，关键是沉淀可实验假设",
-    "summary": "当天资料的价值不在信息本身，而在能否被拆成入口、数据、证据、授权、交易和复盘这些可落地模块。",
-    "trendNote": "每条资讯都应回答一个产品问题：它改变用户决策链路的哪一步，能否被做成小实验验证。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "产品假设",
-      "信息复盘",
-      "实验设计",
-      "决策链路",
-      "AI购物",
-      "对话导购"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-09-09-93901c9caada54"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-09-08",
-    "title": "09-08 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
-    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
-    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "竞品拆解",
-      "功能模块",
-      "交易闭环",
-      "产品假设",
-      "AI购物",
       "竞品案例"
     ],
     "relatedArticleIds": [
-      "daily-2025-09-08-b166820a289d97"
-    ],
-    "sourceCount": 1,
-    "updatedAt": "2026-09-08"
-  },
-  {
-    "id": "daily-reflection-2025-09-05",
-    "title": "09-05 反思：AI导购的分水岭是能否承担交易责任",
-    "summary": "当天资料说明行业正在从“答案更好”转向“动作更可靠”：库存、价格、支付、售后和授权边界会决定用户是否敢让AI继续往前走。",
-    "trendNote": "产品上要把确认、撤回、保价、售后责任做成主流程，而不是把它们藏在推荐结果之后。",
-    "takeaways": [
-      "把当天信号改写成一个可验证产品假设",
-      "优先记录它影响的是入口、证据、授权还是交易",
-      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
-    ],
-    "keywords": [
-      "交易责任",
-      "授权边界",
-      "支付闭环",
-      "可靠执行",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-09-05-bf2088a24df9ae"
+      "competitor-2025-09-11-donews-ai-0f33fa349b"
     ],
     "sourceCount": 1,
     "updatedAt": "2026-09-08"
   },
   {
     "id": "auto-current-signal",
-    "title": "最新复盘：Agentic Commerce、AI购物、交易闭环正在收敛成产品主线",
-    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是Agentic Commerce、AI购物、交易闭环这些能力之间能否互相闭环。",
+    "title": "最新复盘：竞品案例、AI购物、Agentic Commerce正在收敛成产品主线",
+    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是竞品案例、AI购物、Agentic Commerce这些能力之间能否互相闭环。",
     "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
     "takeaways": [
       "用月度高频信号更新路线图优先级",
@@ -5517,23 +2242,17 @@
       "避免只追热点发布而忽略交易链路"
     ],
     "keywords": [
-      "Agentic Commerce",
-      "AI购物",
-      "交易闭环",
       "竞品案例",
-      "商品库",
+      "AI购物",
+      "Agentic Commerce",
       "最新复盘",
       "产品路线"
     ],
     "relatedArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
-      "daily-2026-09-01-1531069370f45e",
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-07-token-ai-kimi-def8e7815c",
+      "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
     ],
     "updatedAt": "2026-09-08"
   },
@@ -5556,13 +2275,9 @@
     ],
     "relatedArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
-      "daily-2026-09-01-1531069370f45e",
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-07-token-ai-kimi-def8e7815c",
+      "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
     ],
     "updatedAt": "2026-09-08"
   },
@@ -5585,13 +2300,9 @@
     ],
     "relatedArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
-      "daily-2026-09-01-1531069370f45e",
-      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-07-token-ai-kimi-def8e7815c",
+      "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
     ],
     "updatedAt": "2026-09-08"
   }
