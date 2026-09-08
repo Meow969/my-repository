@@ -21,98 +21,6 @@
     ]
   },
   {
-    "id": "claude-commerce-agent-architecture-2026-09-04",
-    "date": "2026-09-04",
-    "title": "Claude有效商业智能体架构指南【万字长文分享】",
-    "source": "架构师之道",
-    "region": "海外",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505526&ver=6945&signature=gu0hDtZanTcNToTMswx9jx8qnPa690hXkB32R2rgnW6UTZ9JRXtDru9AeNK3k6E6ZzsFI4%2AHXZZGvnbeGuG5sQdyrhydi0vQdTmMdgV4Sa3MQaXzJx2KTyjNPE0HvzHz&new=1",
-    "tags": [
-      "商业智能体",
-      "购物流程编排",
-      "Claude",
-      "工具调用",
-      "交易语义"
-    ],
-    "corePoint": "购物智能体的核心不是生成更顺滑的话术，而是把开放对话压进可执行的商业流程：理解目标、拆解约束、检索商品、比较证据、确认风险、调用交易。",
-    "insight": "AI导购要从“聊天产品”转成“决策操作系统”。自由对话只负责吸收需求，关键节点必须结构化，否则无法稳定成交、无法解释推荐，也无法追责。真正的产品能力是把模糊需求翻译成可验证、可执行、可回滚的购物动作。",
-    "valueScore": 95,
-    "relatedInsightIds": [
-      "decision-os",
-      "structured-dialogue",
-      "trust-ladder",
-      "risk-first-design"
-    ]
-  },
-  {
-    "id": "2026-09-04-claude-0e332ef34c",
-    "date": "2026-09-04",
-    "title": "Claude 开源电商智能体",
-    "source": "苏哲管理咨询",
-    "region": "国内",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788577636&ver=6947&signature=7swRSvAKgU0pfz9kCOBtRxQYevYiOBzCMWwxfPBde78iBjvUjGlbC2rxjAw8BxcOyu6yTMeo5rIemQmfJ0CFPfNpurBHM7pjP9CratgmJB6c73DTzNxLjTfQfRdWwr96&new=1",
-    "tags": [
-      "AI购物",
-      "交易闭环",
-      "商品库",
-      "技术架构"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 87,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "closed-loop-first",
-      "data-transaction-moat"
-    ]
-  },
-  {
-    "id": "2026-09-04-anthropic-ai-0c91eb6e11",
-    "date": "2026-09-04",
-    "title": "Anthropic发布两套AI导购蓝图:真正的门槛不是会聊天,而是商品数据能否被机器读懂",
-    "source": "智能边角料",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791339&ver=6952&signature=7TYX0C8dmUYy4b-1EPrtlWBnK5HmNc9MApoPiBzmRI5-zx8xseK6BDoszDRlPpLD-V-F1W4NaWcmDy1EehDJ5qaLyPP91cCwGb85ALyRObHGeGyugCNrERfWU5GvzKQR&new=1",
-    "tags": [
-      "对话导购",
-      "商品库",
-      "商家Agent"
-    ],
-    "corePoint": "围绕“Anthropic发布两套AI导购蓝图:真正的门槛不是会聊天,而是商品数据能否被机器读懂”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 82,
-    "relatedInsightIds": [
-      "data-transaction-moat",
-      "multi-agent-commerce",
-      "multi-agent-market"
-    ]
-  },
-  {
-    "id": "2026-09-04-anthropic-447e58cdb9",
-    "date": "2026-09-04",
-    "title": "Anthropic 重磅推出两大商业智能体:购物助手 + 商家运营助手,开源蓝图助力电商冲刺旺季",
-    "source": "光谷一路",
-    "region": "国内",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788517847&ver=6946&signature=fq8KsqJSloP2RTGvyatgW7rwYB9BlhDtRbCx3xU4J35KFMKRLbzLh-AWgdvs%2ARjbtwfee4NrzhFd6-z90bBeS1JYZMjMsWwm1%2AAtvPtWtAPJabEIm7ujotrBzbt-8r1u&new=1",
-    "tags": [
-      "AI购物",
-      "商家Agent",
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
-    "valueScore": 82,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "multi-agent-commerce",
-      "multi-agent-market"
-    ]
-  },
-  {
     "id": "daily-2026-09-04-a8839bacba28ee",
     "date": "2026-09-04",
     "title": "资本疯狂押注！AI购物助手崛起，颠覆电商支付行业",
@@ -132,28 +40,6 @@
       "trust-ladder",
       "risk-first-design",
       "post-purchase-agent"
-    ]
-  },
-  {
-    "id": "2026-09-04-ai-ddd300e3a7",
-    "date": "2026-09-04",
-    "title": "AI导购上线前:普通人能做的商品问答整理",
-    "source": "时局掘金笔记",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791340&ver=6952&signature=4eWQ6Df-mhfv5V-Xo9Dl1ug7CYCywQtTrnU5d52rOSvPDnzQqrdA0%2AUSqQU0%2AqydsiUJg96l5TGCnZdiYj%2AbH3NDyYbLemNIKyPrPr8NZHNzAUyvdyD8y1Et9HSTCi%2AA&new=1",
-    "tags": [
-      "对话导购",
-      "商品库",
-      "商家Agent"
-    ],
-    "corePoint": "围绕“AI导购上线前:普通人能做的商品问答整理”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 76,
-    "relatedInsightIds": [
-      "data-transaction-moat",
-      "multi-agent-commerce",
-      "multi-agent-market"
     ]
   },
   {
@@ -180,55 +66,6 @@
     ]
   },
   {
-    "id": "2026-09-03-ai-claude-f643792bd9",
-    "date": "2026-09-03",
-    "title": "Claude电商智能体开源了,支付库存还得自己接",
-    "source": "AI源文件",
-    "region": "国内",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788577636&ver=6947&signature=kZIstmVQfrWjIlG1vjcxWoMoT1Kw-%2AetI%2Ak844iI3N8-tupJK1ay8T1UY16bwAv%2AqxUzvStqtApqXEcSus7B1JoOQEm5rRgJxZarI-gyRLY-DP85CO%2AePPkFM1kX73cA&new=1",
-    "tags": [
-      "AI购物",
-      "交易闭环",
-      "商品库",
-      "商家Agent",
-      "技术架构"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 98,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "closed-loop-first",
-      "data-transaction-moat"
-    ]
-  },
-  {
-    "id": "anthropic-claude-commerce-agent-blueprint-2026-09-03",
-    "date": "2026-09-03",
-    "title": "Anthropic开源Claude商业智能体蓝图",
-    "source": "比特拈花",
-    "region": "海外",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505523&ver=6945&signature=77MffL8cCzZL59RNu%2A9XQtveafuq5Skxu1JQSWgxSFVPSBhq07TMf3SFYSPyir4hYdmIBbKYlig2cI51IN0pKRq%2A6uDi4sofeFv7dcSh14aZo5TjInr7P4CIo8tc3j9J&new=1",
-    "tags": [
-      "多智能体",
-      "商家Agent",
-      "买家Agent",
-      "风控",
-      "工具生态"
-    ],
-    "corePoint": "商业智能体不会是一个万能聊天框，而会演化为买家Agent、商家Agent、平台工具和风控系统共同协作的多角色网络。",
-    "insight": "AI导购产品不能只做C端助手。买家侧负责表达需求，商家侧必须提供可被机器读取的商品知识、履约承诺和交易能力。未来平台的关键位置，是定义买卖双方Agent如何交换意图、证据、价格、库存和责任边界。",
-    "valueScore": 94,
-    "relatedInsightIds": [
-      "multi-agent-market",
-      "merchant-readable-store",
-      "trust-ladder",
-      "risk-first-design"
-    ]
-  },
-  {
     "id": "daily-2026-09-03-9934a0352cf765",
     "date": "2026-09-03",
     "title": "Anthropic 开源商家 Agent 施工手册：购物 + 商家两个 Agent，四个行业开箱即跑",
@@ -250,51 +87,6 @@
       "multi-agent-market",
       "agentic-funnel",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "2026-09-03-bb1ea2039a",
-    "date": "2026-09-03",
-    "title": "人工智能每日要闻",
-    "source": "逐鹿实验室",
-    "region": "国内",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788750094&ver=6951&signature=pHDhbYxSo5H4fnomLJ2CVSb2xCNHsxpYi-ju%2ATXpMH6vk65q%2AwpzTQWG43sK3Ww-V5%2AMvlQR7sMWdFmga9Ip2IbZiM2qsjYxr1gvbOfaF7MfPYN17m7rEqOno4VOIw7b&new=1",
-    "tags": [
-      "AI购物",
-      "交易闭环",
-      "技术架构"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 87,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "multi-agent-commerce",
-      "structured-dialogue"
-    ]
-  },
-  {
-    "id": "2026-09-03-claude-ai-13b9df0120",
-    "date": "2026-09-03",
-    "title": "把挑货交给Claude,商家的AI导购到底在看哪些货?",
-    "source": "观测视野",
-    "region": "国内",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788792069&ver=6952&signature=3AZkM5A1q1W79HxsFMA8RbAV8oionztRy1pYqdVUN3g%2ABPZ4rUjeMChhQdgHrYHE69AQc%2AMX0o7kH-5KK09-rcihHC7v5mbqeHcosOtGyvXCSWWUpeFFGPfHOnJHuH-5&new=1",
-    "tags": [
-      "对话导购",
-      "商品库",
-      "商家Agent",
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 86,
-    "relatedInsightIds": [
-      "decision-os",
-      "data-transaction-moat",
-      "multi-agent-commerce"
     ]
   },
   {
@@ -496,31 +288,6 @@
     ]
   },
   {
-    "id": "qianwen-taobao-instant-repeat-2026-09-01",
-    "date": "2026-09-01",
-    "title": "千问App接了淘宝闪购，AI用户复购率快到70%了！「AI帮你买菜」正从「尝鲜」变成一种「日常」",
-    "source": "商学同砚社",
-    "region": "国内",
-    "category": "用户行为",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505531&ver=6945&signature=C-zMvSowb1Iajr-pjZPd9YIbC1Rb-H1kYxIiaG44YYOiRC6mBePK0jhPkEV%2A4Qc%2AU%2Ap5y82enNwqbnT6LcVTQeV0EubvoYvTc4CLMr%2AfgaGWPHtq6KGWZcBYJ33H9mO5&new=1",
-    "tags": [
-      "即时零售",
-      "复购",
-      "偏好记忆",
-      "低风险场景",
-      "淘宝闪购"
-    ],
-    "corePoint": "AI购物最先形成习惯的不是高客单复杂决策，而是买菜、日用品、外卖等高频、低风险、履约确定的重复消费。",
-    "insight": "AI导购的第一战场不是“帮我买最好的扫地机”，而是“按我的偏好补齐今天需要的东西”。高频场景的价值在于沉淀偏好记忆和授权边界，长期会反哺更复杂的购物决策。",
-    "valueScore": 89,
-    "relatedInsightIds": [
-      "habit-before-intelligence",
-      "preference-memory",
-      "closed-loop-first",
-      "memory-as-asset"
-    ]
-  },
-  {
     "id": "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
     "date": "2026-09-01",
     "title": "Walmart to build $1.3B fulfillment center in Georgia",
@@ -556,51 +323,6 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-08-30-40-ai-31fedd015e",
-    "date": "2026-08-30",
-    "title": "淘宝接入千问:40亿商品AI购物,行业首个全闭环",
-    "source": "商业六和岛",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513670&ver=6946&signature=SexVhYyXtc1xLOiVgMZISyVe2JoxPxUccEW0Fhucn44KADZlAIHkA6HLLou6tmC0q46M9puur3PSogw2igAe3D6K1axAZ5GNBic475OQ5In2xfIePJ3oN6zYGXhUseg3&new=1",
-    "tags": [
-      "AI购物",
-      "对话导购",
-      "交易闭环",
-      "商品库",
-      "GEO"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 99,
-    "relatedInsightIds": [
-      "data-transaction-moat",
-      "structured-dialogue"
-    ]
-  },
-  {
-    "id": "2026-08-30-99-ai-geo-ae696a9092",
-    "date": "2026-08-30",
-    "title": "三家 AI 助手都在打通交易闭环,对做 GEO 的人意味着什么",
-    "source": "老纳99",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788750100&ver=6951&signature=dlr3XKXCZ5vMoT8GNGbAC7hxPaD6AHWjjlFslFaS7dGlJBVpkWLLcoDAMltgi%2AP1xsBqjl66pDk%2AsFQqzkPOPZ-H-fnSukBm1QPVurXogV2KJdqBi%2AFLKLe6Ydb9wgHX&new=1",
-    "tags": [
-      "AI购物",
-      "交易闭环",
-      "GEO"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 86,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "closed-loop-first",
-      "data-transaction-moat"
     ]
   },
   {
@@ -668,27 +390,6 @@
     ]
   },
   {
-    "id": "2026-08-28-ai-ai-b40d9f1500",
-    "date": "2026-08-28",
-    "title": "AI搜索时代,电商的获客和用人难题,指向同一套架构",
-    "source": "微三云AI",
-    "region": "国内",
-    "category": "技术架构",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791341&ver=6952&signature=4QyT0Npg8vT43CdWb79EDEukq1LF7iMufIprgepzLYo%2Ao5lWbh8QIGFghKqBO1lDqURC5ReCuwLzrc%2Abz0gM5cf8oDc4CcG1HjtjV%2Aj5sLU%2A0niPR3aXG2aukE8Wl8a9&new=1",
-    "tags": [
-      "GEO",
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
-    "valueScore": 81,
-    "relatedInsightIds": [
-      "decision-os",
-      "answer-shelf",
-      "agentic-funnel"
-    ]
-  },
-  {
     "id": "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086",
     "date": "2026-08-27",
     "title": "AI Spotlight: Enabling Purchases While Stopping Fraud in Agentic Commerce",
@@ -727,51 +428,6 @@
     ]
   },
   {
-    "id": "2026-08-27-ai-3c697caa4f",
-    "date": "2026-08-27",
-    "title": "小红书AI小工具上线,机会来了",
-    "source": "流量蜂传媒",
-    "region": "国内",
-    "category": "增长/GEO",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791341&ver=6952&signature=%2AYCG6mEVvFnGuFH5%2ACm8RCVwKxDx6pXNQaJpLrTJVwlfY5c6OdGiYm9XuTFEtP2lihoRCtW6QKrDjOZnUOcS55Fx0p%2AielupjBlLD7wRvYNfx0tpqVwEd8XEP5nIysQV&new=1",
-    "tags": [
-      "对话导购",
-      "GEO",
-      "商家Agent"
-    ],
-    "corePoint": "商家竞争正在从搜索排名延伸到AI答案可见性和智能体推荐资格。",
-    "insight": "需要为商家建设AI可读信息资产，让商品卖点、适用场景、证据、履约承诺能被智能体稳定理解和引用。",
-    "valueScore": 73,
-    "relatedInsightIds": [
-      "decision-os",
-      "answer-shelf",
-      "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "agentic-shopping-evolution-2026-08-26",
-    "date": "2026-08-26",
-    "title": "让AI替你购物——智能体商业的演进曲线",
-    "source": "灵工研习社",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505514&ver=6945&signature=SLqsHMcstHoAPq2Ldzi%2ABvdjQcNzQllZU4pPOf3wKKUiYVX5wHI%2AeoojN-xWONtmrq3K1JSKVCxy8wc8TXq72Hn7HXwPDHGq%2ATC4hHqrK5dsdkTsboA2jdxZx-Ur37Vk&new=1",
-    "tags": [
-      "智能体购物",
-      "代理购买",
-      "信任阶梯",
-      "Agentic Commerce"
-    ],
-    "corePoint": "AI购物不是从人工浏览直接跳到全自动代买，而是沿着信息整理、决策辅助、条件授权、自动交易逐级演进。",
-    "insight": "产品不应急着证明AI能替用户买，而要证明AI知道什么时候不能买。克制、确认和拒绝能力是AI导购信任感的一部分；信任建立后，自动化才有商业价值。",
-    "valueScore": 94,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "decision-os",
-      "agentic-funnel"
-    ]
-  },
-  {
     "id": "daily-2026-08-26-21460ced93cc20",
     "date": "2026-08-26",
     "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
@@ -793,31 +449,6 @@
     ]
   },
   {
-    "id": "meta-openclaw-shopping-agent-2026-08-26",
-    "date": "2026-08-26",
-    "title": "Meta要用OpenClaw做AI购物助手：Agent正在进入购物全流程，电商自动化底座成焦点",
-    "source": "达达推歌",
-    "region": "海外",
-    "category": "技术生态",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788505539&ver=6945&signature=FzQW5wql6CLuKn6nXboykF6oCa99WoU8qPEa1xFVHsWgnm94%2AF4Os831e8VptitMo8rtVIOkrK-nOFoXUndwVuAlFvIqLSfldJljBaI-uLDJHGU1dcfQ6F9loshIyXMK&new=1",
-    "tags": [
-      "OpenClaw",
-      "Meta",
-      "购物助手",
-      "电商自动化",
-      "买卖双边"
-    ],
-    "corePoint": "购物智能体会同时改造买方和卖方：买方用AI发现、比较、下单；卖方用AI管理商品、内容、客服、投放和履约。",
-    "insight": "只做C端AI导购会缺少半个闭环。真正可扩展的导购平台，需要同时给商家一套机器可读的经营系统，让买方智能体能稳定理解商品、证据和交易条件。",
-    "valueScore": 86,
-    "relatedInsightIds": [
-      "multi-agent-market",
-      "merchant-readable-store",
-      "post-purchase-agent",
-      "contextual-entry"
-    ]
-  },
-  {
     "id": "2026-08-26-stripe-wolf-badger-makes-shoppi-f381faf542",
     "date": "2026-08-26",
     "title": "Wolf & Badger Makes Shopping Easier with Agentic Commerce",
@@ -834,113 +465,6 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-08-25-geo-1688-ai-geo-570862829a",
-    "date": "2026-08-25",
-    "title": "淘宝、豆包、1688抢AI购物入口,GEO服务商不能只做“优化”了",
-    "source": "GEO优化实战派",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513670&ver=6946&signature=gurmKlvcu8nCHl4Kk8o3b%2AL-ajSyazNuAmMBBaEPhpjy0mIZRJy5XWxxJa-tSzoORmHxm6InbDMSr%2A42BJrZl4BmZXJQaoTSSZzaAy8AQOphWZ4rphLP3MBy66qBXScz&new=1",
-    "tags": [
-      "AI购物",
-      "交易闭环",
-      "GEO"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 99,
-    "relatedInsightIds": [
-      "data-transaction-moat",
-      "agentic-funnel",
-      "merchant-readable-store"
-    ]
-  },
-  {
-    "id": "2026-08-25-ek-ai-agentic-commerce-a543deec90",
-    "date": "2026-08-25",
-    "title": "AI可见性 * Agentic Commerce 行业周报",
-    "source": "神神叨叨的EK",
-    "region": "国内",
-    "category": "行业动态",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513673&ver=6946&signature=Xt1%2A4uHFbth8dM-ZvdUndWM5owi3KwavYOm4bHEKsPZBA4NTtPbKeUHRyipKmF8JmhzpSuXj2GYKMyOseKVWOzinvCpfqMtqWO19f7H-zWj1PFiPaXW8xdw%2AN2g-ESBT&new=1",
-    "tags": [
-      "Agentic Commerce",
-      "交易闭环",
-      "GEO"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 97,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "multi-agent-commerce",
-      "merchant-readable-store"
-    ]
-  },
-  {
-    "id": "2026-08-25-15-ai-677-9de0015868",
-    "date": "2026-08-25",
-    "title": "15秒从AI对话到抖店成交:豆包电商闭环如何改写流量规则,订单暴涨677%",
-    "source": "奇崛数字传媒科技",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788792068&ver=6952&signature=J49pqFc51C8TDaTGzXD4cL-C2h368B0SAP6QvRkwU6snqMX%2AMqbT-1g7sh5AuJDBEEPcssr-jrm8abXVyX4p1Mc%2AEsQ0qXCXfFcGZPFK1ULCPJO1POAxrBx5N2eT1GMh&new=1",
-    "tags": [
-      "AI购物",
-      "交易闭环",
-      "商家Agent"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 78,
-    "relatedInsightIds": [
-      "decision-os",
-      "closed-loop-first",
-      "data-transaction-moat"
-    ]
-  },
-  {
-    "id": "2026-08-24-aigc-ai-16-73e4eab311",
-    "date": "2026-08-24",
-    "title": "购物下单先问AI ?但它只有16%的准确率",
-    "source": "赛博棱镜AIGC",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513672&ver=6946&signature=j1AVXHBbur55Y1XofhfQCdO6OUfCxPU6oCOAiTqjTarwEkemGeuvzNA-yMOWoJOP9IiEKxZ5g56PdzxyNdb2vBKCx9nN09cmj0gNpdYjpugW7P7G%2AvuQxuhj5orkgQpT&new=1",
-    "tags": [
-      "AI购物",
-      "交易闭环",
-      "商品库"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 85,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "data-transaction-moat"
-    ]
-  },
-  {
-    "id": "2026-08-24-elena-ai-ai-8000-1-5-ai-b69f03130e",
-    "date": "2026-08-24",
-    "title": "京东AI购物助手近8000万用户、千问成交1.5亿笔:AI正在吃掉成交入口",
-    "source": "Elena的AI营销笔记",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788513671&ver=6946&signature=rp9rx5-4kHPEBUrVyU%2AOpFntxyL8HCUSTetaSlZ-gzkKlE4sQUqQN5FYDy%2AntnGxPAWNRxTtYb1lNGa6d-F1Hn6j4NHKqt0ricSg4ah6kvOqLn7qxeA-czDNRtc-h5bY&new=1",
-    "tags": [
-      "AI购物"
-    ],
-    "corePoint": "围绕“京东AI购物助手近8000万用户、千问成交1.5亿笔:AI正在吃掉成交入口”，文章提供了AI购物/导购从概念走向真实商业场景的最新观察。",
-    "insight": "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "data-transaction-moat",
-      "agentic-funnel"
     ]
   },
   {
@@ -4038,31 +3562,6 @@
     ]
   },
   {
-    "id": "qianwen-doubao-geo-2026-03-24",
-    "date": "2026-03-24",
-    "title": "千问直接打车购物、豆包站内下单，AI电商闭环了，你还不做GEO？",
-    "source": "艾奇SEM",
-    "region": "国内",
-    "category": "增长/GEO",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791342&ver=6952&signature=EUqffJqBwXfX9P8i%2AJs15PwS05F%2AIa5DLSIZBXiTjP7-KQxhnIOD5q-9UqktPml4XTkXbk4umBkr31BT2TcWbRuQCvMhoAVRMSDAzTMAFzWBNSuT1DuWdSQFzPY%2AUo0E&new=1",
-    "tags": [
-      "GEO",
-      "豆包",
-      "千问",
-      "站内下单",
-      "商业化闭环"
-    ],
-    "corePoint": "AI搜索商业化的关键拐点，是从答案展示进入站内下单；一旦闭环跑通，GEO就会直接影响交易分配。",
-    "insight": "品牌不应只问‘AI有没有提到我’，而要问‘AI能不能确认我适合谁、为什么适合、现在能不能买、出了问题谁负责’。这些问题决定AI是否敢把订单交给你。",
-    "valueScore": 88,
-    "relatedInsightIds": [
-      "merchant-readable-store",
-      "answer-shelf",
-      "closed-loop-first",
-      "contextual-entry"
-    ]
-  },
-  {
     "id": "daily-2026-03-23-83907e869c7490",
     "date": "2026-03-23",
     "title": "Accenture Invests in DaVinci Commerce to Advance Agentic AI-Led Shopping",
@@ -4285,31 +3784,6 @@
     ]
   },
   {
-    "id": "chatgpt-doubao-commerce-2026-03-12",
-    "date": "2026-03-12",
-    "title": "ChatGPT“放弃”电商，豆包偏向虎山行",
-    "source": "直面派",
-    "region": "国内",
-    "category": "平台对比",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788504606&ver=6945&signature=LzuPvdbVSSsKB--pcenD-BJS2-xb329KH1e05ox0%2Aa-zAOnXxLrmtfU40gc9VTHrPMDmWezZboxDm-YyLXBbce6TveKXfIpeA-yp8ZkQpr00IANiVlq8tq8BQ69FzUo2&new=1",
-    "tags": [
-      "ChatGPT",
-      "豆包",
-      "转化率",
-      "商家配合",
-      "电商闭环"
-    ],
-    "corePoint": "通用AI直接做电商会遇到转化低、商家动力不足、履约不可控的问题；有内容和交易生态的平台反而更有机会继续试。",
-    "insight": "AI导购不是模型能力单点竞争，而是生态协同问题。缺少商家收益机制和交易责任分配时，用户觉得方便，商家未必愿意接，平台也难以长期补贴。",
-    "valueScore": 90,
-    "relatedInsightIds": [
-      "multi-agent-market",
-      "closed-loop-first",
-      "trust-ladder",
-      "risk-first-design"
-    ]
-  },
-  {
     "id": "daily-2026-03-12-016f6d5e971fa7",
     "date": "2026-03-12",
     "title": "Shopify says purchases are coming ‘inside ChatGPT’ through agentic storefronts as OpenAI retreats on Instant Checkout",
@@ -4332,55 +3806,6 @@
       "trust-ladder",
       "agentic-funnel",
       "risk-first-design"
-    ]
-  },
-  {
-    "id": "amazon-agent-permission-2026-03-12",
-    "date": "2026-03-12",
-    "title": "亚马逊胜诉背后：AI智能体替你购物，平台许可不是“可选项”？",
-    "source": "周见大势",
-    "region": "海外",
-    "category": "平台治理",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791343&ver=6952&signature=38ijA6vxwIcrN5KEFp-jkV6guxaglJ4xy8Mid7b3I2Zwa%2A5lVSjS-I-yc6esj0EjPeAt5IBOQl1H5pD3jK4CihDZrbCmSFg3KRG6zsMGkGU42IecHs6HVcUpo1GUn3A4&new=1",
-    "tags": [
-      "平台治理",
-      "AI代买",
-      "权限",
-      "数据边界",
-      "责任"
-    ],
-    "corePoint": "购物智能体进入交易平台会触发平台主权问题：谁有权访问页面、操作账户、提交订单、承担错误后果。",
-    "insight": "AI导购越接近交易，越需要权限和责任设计。未来产品竞争不只是用户体验，还包括平台授权、反爬策略、账户安全、订单责任和争议处理。",
-    "valueScore": 88,
-    "relatedInsightIds": [
-      "trust-ladder",
-      "multi-agent-market",
-      "risk-first-design",
-      "privacy-permission"
-    ]
-  },
-  {
-    "id": "doubao-vs-qianwen-2026-03-11",
-    "date": "2026-03-11",
-    "title": "豆包被曝入场AI购物，与千问有何不同？",
-    "source": "i黑马",
-    "region": "国内",
-    "category": "平台对比",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788504605&ver=6945&signature=Om7RSbPStsLUQMMKiFmVUNsEdY%2ASayoYQz6JFcMXkXkTYQoA9RTImtTl4Z6BeYS3JvL2OkkZ2Hh3MHZKBr6KxcMeTWFkKbNCfFqoyFX2u-YzCRe2fQqfQeTYAjNK-%2AgC&new=1",
-    "tags": [
-      "豆包",
-      "千问",
-      "平台路线",
-      "闭环式购物"
-    ],
-    "corePoint": "豆包和千问代表两种AI购物路线：一种依托内容/兴趣生态导流，一种依托电商/支付/履约生态闭环。",
-    "insight": "AI导购没有唯一入口形态。内容平台更适合激发需求和解释商品，电商平台更适合完成交易和售后。产品定位必须先回答自己掌握的是用户意图、商品供给还是履约能力。",
-    "valueScore": 92,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "agentic-funnel",
-      "risk-first-design",
-      "post-purchase-agent"
     ]
   },
   {
@@ -4965,29 +4390,6 @@
     "valueScore": 81,
     "relatedInsightIds": [
       "decision-os"
-    ]
-  },
-  {
-    "id": "mckinsey-shopping-agent-retail-2026-02-04",
-    "date": "2026-02-04",
-    "title": "麦肯锡：购物智能体如何改变零售业",
-    "source": "管理咨询网平台资讯",
-    "region": "海外",
-    "category": "咨询报告",
-    "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1788791343&ver=6952&signature=oJcLNtreSgGIvbh6AC6E4gnPI86kLiCkElegTy9Mx7GbggCfj7Pi5Nk2hJQeK1lkF61uBbS%2AjikuE3HsM7c4gooTBSIcsSk4UUwXUEHFB2JBYGlQMjR1yo8kP9J3CUri&new=1",
-    "tags": [
-      "麦肯锡",
-      "购物智能体",
-      "零售",
-      "Agentic Commerce"
-    ],
-    "corePoint": "购物智能体会分品类、分决策复杂度改变零售，不是所有交易都会同速迁移到AI入口。",
-    "insight": "AI导购选品类要看两个维度：认知成本是否高、信息是否可结构化。最适合切入的是需要比较但能被数据表达的品类，如3C、家电、旅行、母婴和标准化服务。",
-    "valueScore": 91,
-    "relatedInsightIds": [
-      "category-wedge",
-      "agentic-funnel",
-      "contextual-entry"
     ]
   },
   {

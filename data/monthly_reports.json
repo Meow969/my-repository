@@ -4,11 +4,11 @@
     "title": "商业智能体进入架构落地期",
     "summary": "9月最重要的变化，是讨论重心从“AI能不能帮用户买东西”转向“购物智能体如何稳定执行商业流程”。Claude相关蓝图把购物拆成目标理解、约束拆解、商品搜索、证据比较、风险确认和交易调用，说明行业正在从演示型AI走向流程型AI。与此同时，千问/淘宝闪购类案例提示：高频即时场景可能先完成用户教育。",
     "topArticleIds": [
-      "2026-09-03-ai-claude-f643792bd9",
       "daily-2026-09-02-0860bf13512c29",
-      "claude-commerce-agent-architecture-2026-09-04",
       "daily-2026-09-01-1531069370f45e",
-      "anthropic-claude-commerce-agent-blueprint-2026-09-03"
+      "daily-2026-09-03-9934a0352cf765",
+      "daily-2026-09-04-a8839bacba28ee",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
     "productImplication": "本月最值得产品团队做的事，是把AI导购拆成可复用流程模块：需求澄清、候选生成、证据解释、风险提示、价格库存核验、下单确认。不要继续只优化聊天自然度。"
   },
@@ -17,11 +17,11 @@
     "title": "AI购物从入口争夺进入闭环争夺",
     "summary": "8月的主线是平台开始争夺完整购物链路，而不是只争“AI入口”。淘宝接入千问、Google推进UCP与Universal Cart、GEO讨论转向交易资格，都说明AI推荐位开始具备真实订单分配价值。商家如果不能提供机器可读的商品、价格、库存和履约信息，就可能无法进入AI候选。",
     "topArticleIds": [
-      "2026-08-30-40-ai-31fedd015e",
-      "2026-08-25-geo-1688-ai-geo-570862829a",
-      "2026-08-25-ek-ai-agentic-commerce-a543deec90",
       "daily-2026-08-12-02b78319368c06",
-      "daily-2026-08-07-805eb37e0578fe"
+      "daily-2026-08-07-805eb37e0578fe",
+      "daily-2026-08-03-a0b259f03d264d",
+      "daily-2026-08-11-99dd644a355aa5",
+      "daily-2026-08-26-21460ced93cc20"
     ],
     "productImplication": "产品壁垒要从模型回答迁移到商品数据、履约能力、商家接入和交易责任设计。AI导购的核心KPI不应只是点击率，而应增加候选进入率、推荐采纳率、授权下单率和履约准确率。"
   },
@@ -97,9 +97,9 @@
     "topArticleIds": [
       "daily-2026-02-11-7fae5bd7de6a54",
       "daily-2026-02-12-7157b38744565f",
-      "mckinsey-shopping-agent-retail-2026-02-04",
       "daily-2026-02-19-3a11c9d339093b",
-      "daily-2026-02-26-1c33b40afa72ee"
+      "daily-2026-02-26-1c33b40afa72ee",
+      "daily-2026-02-20-30a9ac4c22a9f9"
     ],
     "productImplication": "选品类时不要只看GMV，要看AI能替用户省掉哪段决策。认知成本、结构化程度、履约确定性、退货风险，应该成为AI导购切入品类的四个评分维度。"
   },

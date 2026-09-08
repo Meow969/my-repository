@@ -79,6 +79,14 @@ def clean_url(url: str) -> str:
     cleaned = re.sub(r"%(?:c3%97|C3%97)tamp%3[dD]", "&timestamp=", cleaned)
     cleaned = cleaned.replace("×tamp=", "&timestamp=")
     return cleaned.strip(' \"\'')
+
+
+def is_temporary_wechat_url(url: str) -> bool:
+    parsed = urllib.parse.urlsplit(clean_url(url))
+    if parsed.netloc.lower() != "mp.weixin.qq.com":
+        return False
+    params = dict(urllib.parse.parse_qsl(parsed.query, keep_blank_values=True))
+    return parsed.path == "/s" and ("signature" in params or "timestamp" in params or params.get("src") == "11")
 SHOPPING_TERMS = [
     "shopping", "commerce", "retail", "merchant", "seller", "ecommerce", "checkout", "cart",
     "product discovery", "personal shopper", "try on", "rufus", "agentic commerce", "storefront",

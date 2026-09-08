@@ -26,9 +26,9 @@ from pathlib import Path
 from typing import Any
 
 try:
-    from content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate
+    from content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate, is_temporary_wechat_url
 except ImportError:  # pragma: no cover
-    from scripts.content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate
+    from scripts.content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate, is_temporary_wechat_url
 
 try:
     import requests
@@ -344,7 +344,7 @@ def fetch_wechat(days: int) -> list[dict[str, Any]]:
     for item in items:
         if item.get("needsResolve"):
             resolved_url = resolve_sogou_link(session, item["rawUrl"], "https://weixin.sogou.com/weixin")
-            if "weixin.sogou.com" in resolved_url:
+            if "weixin.sogou.com" in resolved_url or is_temporary_wechat_url(resolved_url):
                 continue
             item["url"] = resolved_url
             time.sleep(0.15)
