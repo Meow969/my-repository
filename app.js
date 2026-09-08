@@ -15,6 +15,8 @@ const state = {
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
+const DATA_VERSION = '2026-09-08-link-dedupe-v2';
+const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
   '信任': ['信任', '授权', '可撤回', '解释', '证据', '风险', 'trust', 'permission'],
@@ -33,10 +35,10 @@ const escapeHtml = (text = '') => text.replace(/[&<>"]/g, char => ({ '&': '&amp;
 
 async function loadData() {
   const [articles, insights, reports, meta] = await Promise.all([
-    fetch('./data/articles.json').then(r => r.json()),
-    fetch('./data/insights.json').then(r => r.json()),
-    fetch('./data/monthly_reports.json').then(r => r.json()),
-    fetch('./data/meta.json').then(r => r.json())
+    fetchJson('./data/articles.json'),
+    fetchJson('./data/insights.json'),
+    fetchJson('./data/monthly_reports.json'),
+    fetchJson('./data/meta.json')
   ]);
   state.articles = articles.sort((a, b) => b.date.localeCompare(a.date) || b.valueScore - a.valueScore);
   state.insights = insights;

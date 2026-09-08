@@ -141,6 +141,29 @@ def normalized_title(title: str, source: str = "") -> str:
     return text
 
 
+def normalized_article_text(item: dict[str, Any]) -> str:
+    return " ".join([
+        str(item.get("title", "")),
+        str(item.get("corePoint", "")),
+        str(item.get("insight", "")),
+        str(item.get("snippet", "")),
+        " ".join(item.get("tags", []) or []),
+    ]).lower()
+
+
+def event_signature(item: dict[str, Any]) -> str:
+    text = normalized_article_text(item)
+    date = str(item.get("date", ""))[:7]
+    if ("anthropic" in text or "claude" in text) and any(term in text for term in [
+        "merchant blueprint", "商家 agent", "商业智能体", "购物助手", "shopping agents",
+        "agentic commerce", "commerce blueprint", "商家运营助手",
+    ]):
+        return f"{date}:anthropic-commerce-blueprint"
+    if ("支付宝" in text or "alipay" in text) and any(term in text for term in ["ju1111", "网站协议", "智能体商业底座"]):
+        return f"{date}:alipay-ju1111-protocol"
+    return ""
+
+
 def is_search_placeholder(item: dict[str, Any]) -> bool:
     item_id = str(item.get("id", ""))
     return item_id.startswith("daily-index-") or item.get("category") == "每日检索入口"
@@ -153,7 +176,6 @@ def is_ai_shopping_related(item: dict[str, Any]) -> bool:
         str(item.get("title", "")),
         str(item.get("snippet", "")),
         str(item.get("source", "")),
-        str(item.get("query", "")),
         " ".join(item.get("tags", []) or []),
     ]).lower()
     return any(term.lower() in text for term in SHOPPING_TERMS) and any(term.lower() in text for term in AI_TERMS)
@@ -177,6 +199,9 @@ def is_duplicate(left: dict[str, Any], right: dict[str, Any]) -> bool:
     left_url = canonical_url(left.get("url", ""))
     right_url = canonical_url(right.get("url", ""))
     if left_url and right_url and left_url == right_url:
+        return True
+    left_event = event_signature(left)
+    if left_event and left_event == event_signature(right):
         return True
     left_title = normalized_title(left.get("title", ""), left.get("source", ""))
     right_title = normalized_title(right.get("title", ""), right.get("source", ""))

@@ -103,18 +103,18 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 60,
+    "sourceCount": 59,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
-      "2026-09-02-pymnts-com-youtube-s-amazon-dea-b3cc6c84b1",
       "daily-2026-08-29-2134c3dedae52a",
       "2026-08-27-pymnts-com-synchrony-says-ai-ha-af0cd4d007",
       "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
       "2026-08-19-6-08a28b00bd",
       "2026-08-18-aha-20-fc9a45c80c",
-      "2026-08-17-c4110742de"
+      "2026-08-17-c4110742de",
+      "daily-2026-08-11-99dd644a355aa5"
     ],
     "trendNote": "最新复盘：交易闭环、Agentic Commerce、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-08"
@@ -168,20 +168,20 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 201,
+    "sourceCount": 197,
     "relatedArticleIds": [
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
-      "daily-2026-09-03-9934a0352cf765",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
-      "2026-09-02-pymnts-com-youtube-s-amazon-dea-b3cc6c84b1",
       "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10"
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
+      "daily-2026-08-30-d22191244e060f",
+      "daily-2026-08-29-2134c3dedae52a",
+      "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086"
     ],
-    "trendNote": "最新复盘：Agentic Commerce、AI购物、购物智能体显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
+    "trendNote": "最新复盘：AI购物、Agentic Commerce、购物智能体显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -200,18 +200,18 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 41,
+    "sourceCount": 39,
     "relatedArticleIds": [
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
-      "daily-2026-09-03-9934a0352cf765",
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
       "daily-2026-08-21-efe214be6e9775",
       "daily-2026-08-20-84c99b15d913fa",
       "2026-08-19-6-08a28b00bd",
       "2026-08-17-c4110742de",
-      "daily-2026-08-13-d3070ee4db7fb7"
+      "daily-2026-08-13-d3070ee4db7fb7",
+      "daily-2026-08-07-805eb37e0578fe",
+      "daily-2026-07-28-0cfa5b4dab8be8"
     ],
     "trendNote": "最新复盘：AI购物、商家接入、商家Agent正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-08"
@@ -232,10 +232,9 @@
       "接口规则",
       "多智能体"
     ],
-    "sourceCount": 32,
+    "sourceCount": 31,
     "relatedArticleIds": [
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
-      "daily-2026-09-03-9934a0352cf765",
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-08-21-efe214be6e9775",
       "daily-2026-08-20-84c99b15d913fa",
@@ -243,7 +242,8 @@
       "daily-2026-07-28-0cfa5b4dab8be8",
       "daily-2026-07-11-32836af59aacfb",
       "daily-2026-07-10-a0c7e4052c573b",
-      "daily-2026-07-02-a3cc9a9fd55e88"
+      "daily-2026-07-02-a3cc9a9fd55e88",
+      "daily-2026-06-29-442eeeee07cc27"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、商家接入、购物智能体，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
@@ -327,20 +327,20 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 192,
+    "sourceCount": 187,
     "relatedArticleIds": [
       "daily-2026-09-04-a8839bacba28ee",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
-      "daily-2026-09-03-9934a0352cf765",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-      "2026-09-03-pymnts-com-anthropic-gives-reta-30a0ab2f3c",
-      "2026-09-03-the-verge-chatgpt-grok-and-clau-6e34895554",
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
       "daily-2026-09-02-0860bf13512c29",
-      "daily-2026-08-29-2134c3dedae52a"
+      "daily-2026-08-29-2134c3dedae52a",
+      "daily-2026-08-26-21460ced93cc20",
+      "daily-2026-08-22-d0935ce5172bc8",
+      "daily-2026-08-21-efe214be6e9775",
+      "daily-2026-08-20-84c99b15d913fa",
+      "daily-2026-08-13-d3070ee4db7fb7"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、技术架构，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、购物智能体、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -415,10 +415,8 @@
       "多入口",
       "即时意图"
     ],
-    "sourceCount": 43,
+    "sourceCount": 41,
     "relatedArticleIds": [
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
-      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
       "daily-2026-08-30-d22191244e060f",
       "daily-2026-08-22-d0935ce5172bc8",
       "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
@@ -426,9 +424,11 @@
       "daily-2026-08-15-32e6ac7bd8b443",
       "daily-2026-08-14-ee38732a131581",
       "daily-2026-08-05-73d5671dbd19ad",
-      "daily-2026-07-09-3d36eb925f6e28"
+      "daily-2026-07-09-3d36eb925f6e28",
+      "daily-2026-07-06-9ff3847b4f7534",
+      "daily-2026-06-27-ca12d684099abd"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "最新复盘：近一批高价值信息集中在AI购物、AI搜索、视觉购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -574,8 +574,8 @@
   },
   {
     "id": "auto-current-signal",
-    "title": "最新复盘：Agentic Commerce、AI购物、技术架构正在收敛成产品主线",
-    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是Agentic Commerce、AI购物、技术架构这些能力之间能否互相闭环。",
+    "title": "最新复盘：Agentic Commerce、交易闭环、AI购物正在收敛成产品主线",
+    "summary": "2026-09 的信息密度显示，AI购物的竞争点不是单一助手入口，而是Agentic Commerce、交易闭环、AI购物这些能力之间能否互相闭环。",
     "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
     "takeaways": [
       "用月度高频信号更新路线图优先级",
@@ -584,9 +584,9 @@
     ],
     "keywords": [
       "Agentic Commerce",
-      "AI购物",
-      "技术架构",
       "交易闭环",
+      "AI购物",
+      "对话导购",
       "商家Agent",
       "最新复盘",
       "产品路线"
@@ -594,12 +594,12 @@
     "relatedArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-09-01-1531069370f45e",
-      "daily-2026-09-03-9934a0352cf765",
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8"
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
+      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4"
     ],
     "updatedAt": "2026-09-08"
   },
@@ -623,12 +623,12 @@
     "relatedArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-09-01-1531069370f45e",
-      "daily-2026-09-03-9934a0352cf765",
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8"
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
+      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4"
     ],
     "updatedAt": "2026-09-08"
   },
@@ -652,12 +652,12 @@
     "relatedArticleIds": [
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-09-01-1531069370f45e",
-      "daily-2026-09-03-9934a0352cf765",
       "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8"
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
+      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4"
     ],
     "updatedAt": "2026-09-08"
   }

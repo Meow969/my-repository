@@ -82,53 +82,6 @@
     ]
   },
   {
-    "id": "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
-    "date": "2026-09-04",
-    "title": "Anthropic’s Merchant Blueprint: A Key Step for Agentic Commerce",
-    "source": "PaymentsJournal",
-    "region": "海外",
-    "category": "技术架构",
-    "url": "https://paymentsjournal.com/anthropics-merchant-blueprint-a-key-step-for-agentic-commerce/amp",
-    "tags": [
-      "Agentic Commerce",
-      "商家Agent",
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
-    "valueScore": 76,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "multi-agent-commerce",
-      "risk-first-design",
-      "contextual-entry"
-    ]
-  },
-  {
-    "id": "daily-2026-09-03-9934a0352cf765",
-    "date": "2026-09-03",
-    "title": "Anthropic 开源商家 Agent 施工手册：购物 + 商家两个 Agent，四个行业开箱即跑",
-    "source": "QQ News",
-    "region": "国内",
-    "category": "商家/生态",
-    "url": "https://news.qq.com/rain/a/20260903A07I7F00",
-    "tags": [
-      "AI购物",
-      "购物智能体",
-      "C端AI产品",
-      "商家接入"
-    ],
-    "corePoint": "这条信息说明AI购物不是单边C端体验，商家侧能否被AI读取、比较和调用，会决定商品是否进入候选答案。",
-    "insight": "需要建设“给机器看的店”：结构化卖点、适用场景、评价证据、价格库存和售后承诺。商家运营后台会成为AI导购供给质量的关键。",
-    "valueScore": 91,
-    "relatedInsightIds": [
-      "merchant-readable-store",
-      "multi-agent-market",
-      "agentic-funnel",
-      "risk-first-design"
-    ]
-  },
-  {
     "id": "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
     "date": "2026-09-03",
     "title": "Anthropic debuts Claude features focused on agentic commerce",
@@ -145,65 +98,6 @@
     "valueScore": 77,
     "relatedInsightIds": [
       "agentic-funnel",
-      "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-    "date": "2026-09-03",
-    "title": "Anthropic pushes Claude deeper into agentic commerce as identity standards evolve",
-    "source": "biometricupdate.com",
-    "region": "海外",
-    "category": "技术架构",
-    "url": "https://biometricupdate.com/202609/anthropic-pushes-claude-deeper-into-agentic-commerce-as-identity-standards-evolve",
-    "tags": [
-      "Agentic Commerce",
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
-    "valueScore": 77,
-    "relatedInsightIds": [
-      "agentic-funnel",
-      "multi-agent-commerce",
-      "risk-first-design",
-      "contextual-entry"
-    ]
-  },
-  {
-    "id": "2026-09-03-pymnts-com-anthropic-gives-reta-30a0ab2f3c",
-    "date": "2026-09-03",
-    "title": "Anthropic Gives Retailers Blueprint for AI Shopping Agents",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "技术架构",
-    "url": "https://pymnts.com/news/artificial-intelligence/2026/anthropic-gives-retailers-blueprint-for-ai-shopping-agents",
-    "tags": [
-      "AI购物",
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
-    "valueScore": 74,
-    "relatedInsightIds": [
-      "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-03-the-verge-chatgpt-grok-and-clau-6e34895554",
-    "date": "2026-09-03",
-    "title": "ChatGPT, Grok, and Claude all went down at the same time",
-    "source": "The Verge",
-    "region": "海外",
-    "category": "技术架构",
-    "url": "https://theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-    "tags": [
-      "技术架构"
-    ],
-    "corePoint": "购物智能体的重点从单轮问答转向任务编排，需要搜索、比较、确认、支付等工具协同。",
-    "insight": "可把导购流程拆成需求澄清、候选生成、证据比较、风险提示、下单确认五个稳定模块，降低幻觉和误购风险。",
-    "valueScore": 74,
-    "relatedInsightIds": [
       "multi-agent-commerce"
     ]
   },
@@ -267,25 +161,6 @@
     "relatedInsightIds": [
       "agentic-funnel",
       "multi-agent-commerce"
-    ]
-  },
-  {
-    "id": "2026-09-02-pymnts-com-youtube-s-amazon-dea-b3cc6c84b1",
-    "date": "2026-09-02",
-    "title": "YouTube’s Amazon Deal Pushes Social Commerce Closer to Checkout",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "趋势框架",
-    "url": "https://pymnts.com/commerce/social-commerce/2026/youtubes-amazon-deal-pushes-social-commerce-closer-to-checkout",
-    "tags": [
-      "交易闭环"
-    ],
-    "corePoint": "AI购物正在从推荐信息走向交易闭环，商品、价格、支付、履约等能力开始成为核心竞争点。",
-    "insight": "对话导购要优先接入可信商品资料、实时价格库存、优惠和售后规则；否则只能种草，难以承担成交责任。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "agentic-funnel"
     ]
   },
   {
