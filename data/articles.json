@@ -1,5 +1,28 @@
 [
   {
+    "id": "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
+    "date": "2026-09-08",
+    "title": "Agentic Commerce Demands a Full Consumer Experience, Not Just a Smarter Checkout",
+    "source": "Beet.TV",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://beet.tv/2026/09/agentic-commerce-demands-a-full-consumer-experience-not-just-a-smarter-checkout.html",
+    "tags": [
+      "虚拟试穿",
+      "Agentic Commerce",
+      "交易闭环"
+    ],
+    "corePoint": "《Agentic Commerce Demands a Full Consumer Experience, Not Just a Smarter Checkout》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Agentic Commerce Demands a Full Consumer Experience, Not Just a Smarter Checkout》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 82,
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "agentic-funnel",
+      "multi-agent-commerce"
+    ]
+  },
+  {
     "id": "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
     "date": "2026-09-07",
     "title": "NKE Stock Gains Pre-Market: Google AI Shopping Rollout Targets FIFA World Cup Demand",
@@ -199,6 +222,27 @@
     "contentType": "商家生态"
   },
   {
+    "id": "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
+    "date": "2026-09-02",
+    "title": "How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://pymnts.com/study/how-acquirers-prepare-for-agentic-commerce",
+    "tags": [
+      "虚拟试穿",
+      "Agentic Commerce"
+    ],
+    "corePoint": "《How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 78,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "multi-agent-commerce"
+    ]
+  },
+  {
     "id": "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
     "date": "2026-09-02",
     "title": "Spreedly Sees Good Bots Becoming an Agentic Commerce Channel",
@@ -306,6 +350,26 @@
       "competitor-function-radar"
     ],
     "contentType": "竞品"
+  },
+  {
+    "id": "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
+    "date": "2026-09-01",
+    "title": "Global Digital Shopping Index: The Agentic Commerce Deep Dive",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "contentType": "行业新闻",
+    "category": "趋势框架",
+    "url": "https://pymnts.com/study/global-digital-shopping-index-agentic-commerce-deep-dive",
+    "tags": [
+      "Agentic Commerce"
+    ],
+    "corePoint": "《Global Digital Shopping Index: The Agentic Commerce Deep Dive》说明，Agentic Commerce 会把发现、比较和结算前置到AI入口，重塑传统电商漏斗。",
+    "insight": "围绕《Global Digital Shopping Index: The Agentic Commerce Deep Dive》，不要只看它是不是又一个AI入口，而要看它是否改变了发现、比较、确认和支付之间的责任分工。",
+    "valueScore": 73,
+    "relatedInsightIds": [
+      "agentic-funnel",
+      "multi-agent-commerce"
+    ]
   },
   {
     "id": "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
@@ -521,6 +585,28 @@
     "contentType": "行业新闻"
   },
   {
+    "id": "2026-08-25-ai-6f60a0b2fd",
+    "date": "2026-08-25",
+    "title": "鸿蒙版淘宝闪购上线AI点单 更有机会赢取百元券包和华为耳机 使用便捷 福利拉满！",
+    "source": "驱动之家",
+    "region": "国内",
+    "contentType": "竞品",
+    "category": "平台案例",
+    "url": "https://news.mydrivers.com/1/1146/1146281.htm",
+    "tags": [
+      "竞品案例",
+      "即时零售"
+    ],
+    "corePoint": "《鸿蒙版淘宝闪购上线AI点单 更有机会赢取百元券包和华为耳机 使用便捷 福利拉满！》显示，阿里系AI导购正在从外部问答入口回流到电商交易链路，搜索、试穿、清单、凑单和下单开始被统一编排。",
+    "insight": "围绕《鸿蒙版淘宝闪购上线AI点单 更有机会赢取百元券包和华为耳机 使用便捷 福利拉满！》，AI购物入口不能只做一个聊天框，必须嵌进原有交易资产：历史订单、收藏、购物车、优惠、售后和商家工具，才能形成比搜索更强的闭环。",
+    "valueScore": 77,
+    "relatedInsightIds": [
+      "data-transaction-moat",
+      "high-frequency-entry",
+      "competitor-function-radar"
+    ]
+  },
+  {
     "id": "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
     "date": "2026-08-25",
     "title": "Walmart says its AI assistant, Sparky, is leading to customers spending 40% more than those who shop without it",
@@ -540,6 +626,50 @@
       "competitor-function-radar"
     ],
     "contentType": "竞品"
+  },
+  {
+    "id": "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d",
+    "date": "2026-08-25",
+    "title": "8 AI Tools for Shopee Sellers in Malaysia",
+    "source": "techbarrista.com",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://techbarrista.com/ai-tools-shopee-sellers-malaysia",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿",
+      "商家Agent"
+    ],
+    "corePoint": "《8 AI Tools for Shopee Sellers in Malaysia》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《8 AI Tools for Shopee Sellers in Malaysia》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 72,
+    "relatedInsightIds": [
+      "merchant-incentive",
+      "competitor-function-radar"
+    ]
+  },
+  {
+    "id": "2026-08-24-pymnts-com-instacart-s-ai-assis-48ea879173",
+    "date": "2026-08-24",
+    "title": "Instacart’s AI Assistant Turns Chitchat Into Cha-Ching",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/instacarts-ai-assistant-turns-chitchat-into-cha-ching",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "《Instacart’s AI Assistant Turns Chitchat Into Cha-Ching》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Instacart’s AI Assistant Turns Chitchat Into Cha-Ching》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "decision-os",
+      "intent-cart",
+      "competitor-function-radar"
+    ]
   },
   {
     "id": "daily-2026-08-23-9ac5af530d0367",
@@ -606,6 +736,26 @@
       "risk-first-design"
     ],
     "contentType": "商家生态"
+  },
+  {
+    "id": "2026-08-21-modern-retail-walmart-finally-s-b0a0bf9cf5",
+    "date": "2026-08-21",
+    "title": "Walmart finally starts supporting Apple Pay and Google Pay",
+    "source": "Modern Retail",
+    "region": "海外",
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "url": "https://modernretail.co/technology/walmart-finally-starts-supporting-apple-pay-and-google-pay",
+    "tags": [
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "corePoint": "《Walmart finally starts supporting Apple Pay and Google Pay》说明，试穿/试衣类AI能力正在把导购从“问答推荐”推进到“低成本预体验”，核心价值是降低非标品的不确定性。",
+    "insight": "围绕《Walmart finally starts supporting Apple Pay and Google Pay》，服饰、美妆、球鞋等非标品导购应把“看起来适不适合我”前置成决策证据，并沉淀尺码、风格、场景偏好。",
+    "valueScore": 75,
+    "relatedInsightIds": [
+      "competitor-function-radar"
+    ]
   },
   {
     "id": "daily-2026-08-20-84c99b15d913fa",
