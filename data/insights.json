@@ -71,8 +71,9 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 146,
+    "sourceCount": 147,
     "relatedArticleIds": [
+      "2026-09-08-whatsapp-ai-b752c1927d",
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
@@ -81,8 +82,7 @@
       "daily-2026-08-29-2134c3dedae52a",
       "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086",
       "daily-2026-08-26-21460ced93cc20",
-      "2026-08-26-stripe-wolf-badger-makes-shoppi-f381faf542",
-      "daily-2026-08-11-99dd644a355aa5"
+      "2026-08-26-stripe-wolf-badger-makes-shoppi-f381faf542"
     ],
     "trendNote": "最新复盘：AI购物、Agentic Commerce、购物智能体信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-08"
@@ -103,8 +103,9 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 59,
+    "sourceCount": 60,
     "relatedArticleIds": [
+      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-techflow-agentic-payment-techfl-1c1a5980c8",
       "2026-09-02-pymnts-com-youtube-s-amazon-dea-b3cc6c84b1",
@@ -113,10 +114,9 @@
       "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
       "2026-08-19-6-08a28b00bd",
       "2026-08-18-aha-20-fc9a45c80c",
-      "2026-08-17-c4110742de",
-      "daily-2026-08-11-99dd644a355aa5"
+      "2026-08-17-c4110742de"
     ],
-    "trendNote": "最新复盘：交易闭环、AI购物、购物智能体信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "最新复盘：交易闭环、Agentic Commerce、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -168,8 +168,9 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 200,
+    "sourceCount": 201,
     "relatedArticleIds": [
+      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
       "daily-2026-09-03-9934a0352cf765",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
@@ -178,10 +179,9 @@
       "2026-09-02-pymnts-com-spreedly-sees-good-b-b32400940b",
       "2026-09-02-pymnts-com-youtube-s-amazon-dea-b3cc6c84b1",
       "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10",
-      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
+      "2026-09-01-retail-dive-walmart-to-build-1--dcb2075a10"
     ],
-    "trendNote": "最新复盘：AI购物、Agentic Commerce、购物智能体显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
+    "trendNote": "最新复盘：Agentic Commerce、AI购物、购物智能体显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
     "updatedAt": "2026-09-08"
   },
   {
@@ -595,11 +595,11 @@
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-09-01-1531069370f45e",
       "daily-2026-09-03-9934a0352cf765",
+      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
-      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533"
+      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8"
     ],
     "updatedAt": "2026-09-08"
   },
@@ -624,11 +624,11 @@
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-09-01-1531069370f45e",
       "daily-2026-09-03-9934a0352cf765",
+      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
-      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533"
+      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8"
     ],
     "updatedAt": "2026-09-08"
   },
@@ -653,11 +653,11 @@
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-09-01-1531069370f45e",
       "daily-2026-09-03-9934a0352cf765",
+      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
       "daily-2026-09-04-a8839bacba28ee",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-03-biometricupdate-com-anthropic-p-f6fb769bca",
-      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8",
-      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533"
+      "2026-09-04-paymentsjournal-anthropic-s-mer-6e8b39a6f8"
     ],
     "updatedAt": "2026-09-08"
   }
