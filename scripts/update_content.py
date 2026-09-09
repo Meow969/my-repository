@@ -553,12 +553,13 @@ def fetch_rss(days: int) -> list[dict[str, Any]]:
     return items
 
 
-def fetch_google_news(days: int) -> list[dict[str, Any]]:
+def fetch_google_news(days: int, max_queries: int | None = None) -> list[dict[str, Any]]:
     cutoff = dt.datetime.now(TZ).date() - dt.timedelta(days=days)
     session = requests.Session()
     session.headers.update({"User-Agent": "Mozilla/5.0"})
     items: list[dict[str, Any]] = []
-    for query in GOOGLE_NEWS_QUERIES:
+    queries = GOOGLE_NEWS_QUERIES[:max_queries] if max_queries else GOOGLE_NEWS_QUERIES
+    for query in queries:
         for lang, gl, ceid in [("en-US", "US", "US:en"), ("zh-CN", "CN", "CN:zh-Hans")]:
             try:
                 response = session.get(
@@ -1296,13 +1297,13 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
     return recompute_article_fields(normalized)
 
 
-def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]:
+def update(days: int, limit: int, dry_run: bool = False, skip_wechat: bool = False, max_google_queries: int | None = None) -> list[dict[str, Any]]:
     existing = load_json(ARTICLES_PATH, [])
     existing = prune_redundant_analysis(dedupe_items([
         item for item in (recompute_article_fields(item, keep_score=True) for item in existing)
         if is_relevant_existing_item(item)
     ]))
-    raw_items = fetch_wechat(days) + fetch_rss(days) + fetch_google_news(days)
+    raw_items = ([] if skip_wechat else fetch_wechat(days)) + fetch_rss(days) + fetch_google_news(days, max_google_queries)
     normalized = [normalize_item(item) for item in raw_items if item.get("title") and item.get("url")]
     normalized = [item for item in normalized if item]
     normalized = dedupe_items(normalized)
@@ -1784,9 +1785,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", type=int, default=30)
     parser.add_argument("--limit", type=int, default=8)
+    parser.add_argument("--skip-wechat", action="store_true")
+    parser.add_argument("--max-google-queries", type=int, default=None)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
-    selected = update(args.days, args.limit, args.dry_run)
+    selected = update(args.days, args.limit, args.dry_run, args.skip_wechat, args.max_google_queries)
     print(f"Selected {len(selected)} new items")
     for item in selected:
         print(f"- {item['date']} {item['title']} | {item['source']} | {item['valueScore']}")

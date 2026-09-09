@@ -13,7 +13,7 @@
 1. 登录 Netlify，选择 `Add new site → Import from Git`。
 2. 选择仓库后，Build settings 使用：
    - Base directory: `ai-shopping-radar`
-   - Build command: `python3 scripts/update_content.py --days 45 --limit 15`
+   - Build command: `python3 scripts/update_content.py --days 45 --limit 15 --skip-wechat --max-google-queries 45`
    - Publish directory: `.`
 3. 部署完成后会得到公开链接。
 
