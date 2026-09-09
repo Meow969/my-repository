@@ -29,7 +29,7 @@
       "daily-2026-05-27-91a7bfbfddefb5"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、AI购物、虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "memory-as-asset",
@@ -50,7 +50,7 @@
     "sourceCount": 0,
     "relatedArticleIds": [],
     "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "trust-ladder",
@@ -68,21 +68,21 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 30,
+    "sourceCount": 31,
     "relatedArticleIds": [
       "2026-09-07-token-ai-kimi-def8e7815c",
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-08-19-4e433b148c4222",
+      "2026-08-17-c7318a84f1",
       "2026-08-10-510496218f",
       "daily-2026-07-28-0cfa5b4dab8be8",
       "daily-2026-07-14-d344ac9140db6d",
       "daily-2026-07-06-9ff3847b4f7534",
       "daily-2026-06-22-84799743dc2b39",
-      "daily-2026-06-17-711a58e625bb7b",
-      "daily-2026-06-11-3d1f660fc96b5a"
+      "daily-2026-06-17-711a58e625bb7b"
     ],
-    "trendNote": "最新复盘：竞品案例、Agentic Commerce、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
-    "updatedAt": "2026-09-08"
+    "trendNote": "最新复盘：竞品案例、Agentic Commerce、交易闭环信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "closed-loop-first",
@@ -100,7 +100,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 41,
+    "sourceCount": 42,
     "relatedArticleIds": [
       "2026-09-07-token-ai-kimi-def8e7815c",
       "daily-2026-09-02-0860bf13512c29",
@@ -108,13 +108,13 @@
       "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d",
       "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01",
       "daily-2026-08-19-4e433b148c4222",
+      "2026-08-17-c7318a84f1",
       "2026-08-10-510496218f",
       "daily-2026-07-28-0cfa5b4dab8be8",
-      "daily-2026-07-14-d344ac9140db6d",
-      "daily-2026-06-17-711a58e625bb7b"
+      "daily-2026-07-14-d344ac9140db6d"
     ],
-    "trendNote": "最新复盘：竞品案例、Agentic Commerce、AI购物信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
-    "updatedAt": "2026-09-08"
+    "trendNote": "最新复盘：竞品案例、Agentic Commerce、交易闭环信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "answer-shelf",
@@ -145,7 +145,7 @@
       "daily-2025-11-06-7aa8ef6760da3c"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物、竞品案例、GEO，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "agentic-funnel",
@@ -164,21 +164,21 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 31,
+    "sourceCount": 32,
     "relatedArticleIds": [
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84",
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-08-17-c7318a84f1",
       "daily-2026-08-05-73d5671dbd19ad",
       "daily-2026-07-28-0cfa5b4dab8be8",
       "daily-2026-07-14-d344ac9140db6d",
       "daily-2026-07-06-9ff3847b4f7534",
       "daily-2026-06-17-711a58e625bb7b",
-      "daily-2026-06-11-3d1f660fc96b5a",
-      "daily-2026-06-08-acf2f844514f0e"
+      "daily-2026-06-11-3d1f660fc96b5a"
     ],
     "trendNote": "最新复盘：AI购物、Agentic Commerce、竞品案例显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "merchant-readable-store",
@@ -196,21 +196,21 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 12,
+    "sourceCount": 13,
     "relatedArticleIds": [
       "2026-08-28-ue-keeta-ai-a686e8011b",
       "daily-2026-08-21-efe214be6e9775",
+      "2026-08-17-c7318a84f1",
       "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63",
       "daily-2026-08-05-73d5671dbd19ad",
       "daily-2026-07-06-9ff3847b4f7534",
       "dialogue-is-shopping-2026-06-18",
       "daily-2026-03-19-46f4d77b1b89f4",
       "daily-2026-02-20-30a9ac4c22a9f9",
-      "competitor-2026-01-22-app-ai-2130600ec1",
-      "daily-2025-11-25-c50e6219796acb"
+      "competitor-2026-01-22-app-ai-2130600ec1"
     ],
     "trendNote": "最新复盘：商家Agent、竞品案例、即时零售正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "multi-agent-market",
@@ -236,7 +236,7 @@
       "daily-2026-03-19-46f4d77b1b89f4"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在商家Agent、竞品案例、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "habit-before-intelligence",
@@ -263,7 +263,7 @@
       "competitor-2025-09-11-donews-ai-0f33fa349b"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "category-wedge",
@@ -289,7 +289,7 @@
       "daily-2025-10-08-7f791e53424cc9"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "risk-first-design",
@@ -321,7 +321,7 @@
       "daily-2026-03-12-016f6d5e971fa7"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、虚拟试穿、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "evidence-led-recommendation",
@@ -349,7 +349,7 @@
       "daily-2025-10-08-7f791e53424cc9"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿、竞品案例、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "intent-cart",
@@ -372,7 +372,7 @@
       "daily-2026-02-05-378a1bbb379006"
     ],
     "trendNote": "最新复盘：AI购物显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "contextual-entry",
@@ -393,7 +393,7 @@
     "sourceCount": 0,
     "relatedArticleIds": [],
     "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "privacy-permission",
@@ -416,7 +416,7 @@
       "daily-2026-08-19-4e433b148c4222"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "post-purchase-agent",
@@ -437,7 +437,7 @@
     "sourceCount": 0,
     "relatedArticleIds": [],
     "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "merchant-incentive",
@@ -463,7 +463,7 @@
       "daily-2026-03-19-46f4d77b1b89f4"
     ],
     "trendNote": "最新复盘：商家Agent、竞品案例、即时零售正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "ranking-governance",
@@ -486,7 +486,7 @@
       "dialogue-is-shopping-2026-06-18"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、GEO，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "from-comparison-to-negotiation",
@@ -509,7 +509,7 @@
       "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "social-proof-rebuild",
@@ -530,7 +530,7 @@
     "sourceCount": 0,
     "relatedArticleIds": [],
     "trendNote": "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "competitor-function-radar",
@@ -561,11 +561,11 @@
       "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d",
       "daily-2026-08-21-efe214be6e9775",
       "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01",
-      "2026-08-10-510496218f"
+      "2026-08-17-c7318a84f1"
     ],
-    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、AI购物、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08",
-    "sourceCount": 36
+    "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、商家Agent、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-09",
+    "sourceCount": 37
   },
   {
     "id": "visual-try-on-as-proof",
@@ -591,7 +591,7 @@
       "daily-2025-10-08-7f791e53424cc9"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08",
+    "updatedAt": "2026-09-09",
     "sourceCount": 4
   },
   {
@@ -624,7 +624,7 @@
       "daily-2025-12-08-9ee9429fa0ec2a"
     ],
     "trendNote": "最新复盘：近一批高价值信息集中在竞品案例、即时零售、商家Agent，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-08",
+    "updatedAt": "2026-09-09",
     "sourceCount": 14
   },
   {
@@ -650,7 +650,7 @@
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
     ],
     "sourceCount": 2,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-09-02",
@@ -673,7 +673,7 @@
       "daily-2026-09-02-0860bf13512c29"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-09-01",
@@ -697,7 +697,7 @@
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-28",
@@ -722,7 +722,7 @@
       "2026-08-28-ue-keeta-ai-a686e8011b"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-25",
@@ -748,7 +748,7 @@
       "2026-08-25-techbarrista-com-8-ai-tools-for-b9cbb19c6d"
     ],
     "sourceCount": 3,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-22",
@@ -771,7 +771,7 @@
       "daily-2026-08-22-d0935ce5172bc8"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-21",
@@ -794,7 +794,7 @@
       "daily-2026-08-21-efe214be6e9775"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-20",
@@ -817,7 +817,7 @@
       "2026-08-20-pymnts-com-target-touts-jump-in-39749fcd01"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-19",
@@ -840,7 +840,32 @@
       "daily-2026-08-19-4e433b148c4222"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "id": "daily-reflection-2026-08-17",
+    "title": "08-17 反思：竞品能力要拆成可复用模块，而不是停留在谁发布了什么功能",
+    "summary": "当天资料更适合被沉淀为竞品功能拆解：入口在哪里、调用什么数据、推进到哪一步交易、失败时如何回退。",
+    "trendNote": "把每个竞品动作转成可验证假设，例如是否能提升需求表达效率、降低决策不确定性、或把推荐推进到可确认交易。",
+    "takeaways": [
+      "把当天信号改写成一个可验证产品假设",
+      "优先记录它影响的是入口、证据、授权还是交易",
+      "把相关资料挂回灵感，避免资讯只被收藏不被复用"
+    ],
+    "keywords": [
+      "竞品拆解",
+      "功能模块",
+      "交易闭环",
+      "产品假设",
+      "竞品案例",
+      "Agentic Commerce",
+      "商家Agent"
+    ],
+    "relatedArticleIds": [
+      "2026-08-17-c7318a84f1"
+    ],
+    "sourceCount": 1,
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-11",
@@ -863,7 +888,7 @@
       "2026-08-11-practical-ecommerce-3-ai-prompt-697f013e63"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-10",
@@ -887,7 +912,7 @@
       "2026-08-10-510496218f"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-06",
@@ -910,7 +935,7 @@
       "daily-2026-08-06-6685b71f4a4ee6"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-08-05",
@@ -933,7 +958,7 @@
       "daily-2026-08-05-73d5671dbd19ad"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-07-30",
@@ -956,7 +981,7 @@
       "daily-2026-07-30-92bd9948eec7fd"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-07-28",
@@ -981,7 +1006,7 @@
       "daily-2026-07-28-0cfa5b4dab8be8"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-07-14",
@@ -1004,7 +1029,7 @@
       "daily-2026-07-14-d344ac9140db6d"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-07-06",
@@ -1027,7 +1052,7 @@
       "daily-2026-07-06-9ff3847b4f7534"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-29",
@@ -1050,7 +1075,7 @@
       "daily-2026-06-29-442eeeee07cc27"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-22",
@@ -1073,7 +1098,7 @@
       "daily-2026-06-22-84799743dc2b39"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-19",
@@ -1096,7 +1121,7 @@
       "daily-2026-06-19-10e5b92e51f050"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-18",
@@ -1120,7 +1145,7 @@
       "dialogue-is-shopping-2026-06-18"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-17",
@@ -1143,7 +1168,7 @@
       "daily-2026-06-17-711a58e625bb7b"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-16",
@@ -1167,7 +1192,7 @@
       "daily-2026-06-16-30f36e4cb45b27"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-11",
@@ -1190,7 +1215,7 @@
       "daily-2026-06-11-3d1f660fc96b5a"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-08",
@@ -1213,7 +1238,7 @@
       "daily-2026-06-08-acf2f844514f0e"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-06-02",
@@ -1237,7 +1262,7 @@
       "daily-2026-06-02-947e7cd6c292e7"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-05-27",
@@ -1260,7 +1285,7 @@
       "daily-2026-05-27-91a7bfbfddefb5"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-05-26",
@@ -1284,7 +1309,7 @@
       "2026-05-26-mastercard-agentic-commerce-ai--ba213632b7"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-05-22",
@@ -1307,7 +1332,7 @@
       "daily-2026-05-22-194e84580a4750"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-05-19",
@@ -1330,7 +1355,7 @@
       "daily-2026-05-19-3a3fd36fc59627"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-05-14",
@@ -1353,7 +1378,7 @@
       "daily-2026-05-14-e53a0994cf069b"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-05-13",
@@ -1376,7 +1401,7 @@
       "daily-2026-05-13-3c134761dade73"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-05-10",
@@ -1401,7 +1426,7 @@
       "competitor-2026-05-10-ai-ai-b15ffc150d"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-05-01",
@@ -1425,7 +1450,7 @@
       "google-ucp-updates-2026-05-01"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-04-29",
@@ -1449,7 +1474,7 @@
       "2026-04-29-stripe-beyond-checkout-where-ag-9310c1997a"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-04-05",
@@ -1473,7 +1498,7 @@
       "daily-2026-04-05-adaa2252b3d0a6"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-03-19",
@@ -1498,7 +1523,7 @@
       "daily-2026-03-19-46f4d77b1b89f4"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-03-18",
@@ -1523,7 +1548,7 @@
       "daily-2026-03-18-256922227f228b"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-03-12",
@@ -1546,7 +1571,7 @@
       "daily-2026-03-12-016f6d5e971fa7"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-02-25",
@@ -1569,7 +1594,7 @@
       "daily-2026-02-25-c10d83261028e1"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-02-23",
@@ -1593,7 +1618,7 @@
       "daily-2026-02-23-d0d45250fd6962"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-02-20",
@@ -1616,7 +1641,7 @@
       "daily-2026-02-20-30a9ac4c22a9f9"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-02-05",
@@ -1639,7 +1664,7 @@
       "daily-2026-02-05-378a1bbb379006"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-01-22",
@@ -1663,7 +1688,7 @@
       "competitor-2026-01-22-app-ai-2130600ec1"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-01-16",
@@ -1688,7 +1713,7 @@
       "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2026-01-04",
@@ -1711,7 +1736,7 @@
       "daily-2026-01-04-c6a18207304cfc"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-12-19",
@@ -1735,7 +1760,7 @@
       "daily-2025-12-19-32e102a6a2b3b3"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-12-12",
@@ -1758,7 +1783,7 @@
       "daily-2025-12-12-2b5d461c3a7004"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-12-11",
@@ -1781,7 +1806,7 @@
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-12-08",
@@ -1804,7 +1829,7 @@
       "daily-2025-12-08-9ee9429fa0ec2a"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-11-30",
@@ -1828,7 +1853,7 @@
       "daily-2025-11-30-834f12fba740dc"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-11-25",
@@ -1851,7 +1876,7 @@
       "daily-2025-11-25-c50e6219796acb"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-11-24",
@@ -1874,7 +1899,7 @@
       "daily-2025-11-24-53d248fd80c793"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-11-19",
@@ -1897,7 +1922,7 @@
       "daily-2025-11-19-c950ad73b45abe"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-11-18",
@@ -1920,7 +1945,7 @@
       "daily-2025-11-18-d4815f5d39ed93"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-11-13",
@@ -1945,7 +1970,7 @@
       "daily-2025-11-13-4b55e886a2ff49"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-11-06",
@@ -1969,7 +1994,7 @@
       "daily-2025-11-06-7aa8ef6760da3c"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-11-02",
@@ -1993,7 +2018,7 @@
       "daily-2025-11-02-c072951b426ee8"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-10-28",
@@ -2016,7 +2041,7 @@
       "daily-2025-10-28-e6e58f4fb3a311"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-10-08",
@@ -2040,7 +2065,7 @@
       "daily-2025-10-08-7f791e53424cc9"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-09-29",
@@ -2065,7 +2090,7 @@
       "daily-2025-09-29-06e290cccd10b0"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-09-28",
@@ -2088,7 +2113,7 @@
       "daily-2025-09-28-6b0d69f713ce98"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-09-24",
@@ -2112,7 +2137,7 @@
       "daily-2025-09-24-3b435d30e2a6e3"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-09-23",
@@ -2135,7 +2160,7 @@
       "daily-2025-09-23-a0d888c4c03f92"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-09-18",
@@ -2158,7 +2183,7 @@
       "daily-2025-09-18-2a6ebeb2b19979"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-09-17",
@@ -2182,7 +2207,7 @@
       "competitor-2025-09-17-ai-86111b0c72"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-09-12",
@@ -2206,7 +2231,7 @@
       "competitor-2025-09-12-ai-2a8969793a"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "daily-reflection-2025-09-11",
@@ -2229,7 +2254,7 @@
       "competitor-2025-09-11-donews-ai-0f33fa349b"
     ],
     "sourceCount": 1,
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "auto-current-signal",
@@ -2254,7 +2279,7 @@
       "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
     ],
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "auto-evidence-gap",
@@ -2279,7 +2304,7 @@
       "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
     ],
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   },
   {
     "id": "auto-next-experiment",
@@ -2304,6 +2329,6 @@
       "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
     ],
-    "updatedAt": "2026-09-08"
+    "updatedAt": "2026-09-09"
   }
 ]
