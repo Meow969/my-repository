@@ -1,157 +1,184 @@
 [
   {
     "month": "2026-09",
-    "title": "商业智能体进入架构落地期",
-    "summary": "9月最重要的变化，是讨论重心从“AI能不能帮用户买东西”转向“购物智能体如何稳定执行商业流程”。Claude相关蓝图把购物拆成目标理解、约束拆解、商品搜索、证据比较、风险确认和交易调用，说明行业正在从演示型AI走向流程型AI。与此同时，千问/淘宝闪购类案例提示：高频即时场景可能先完成用户教育。",
+    "title": "Agentic Commerce、AI购物、竞品案例进入交易责任竞争",
+    "summary": "2026-09 共收录 21 条高价值信息，主线集中在Agentic Commerce、AI购物、竞品案例。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、Amazon、Anthropic/Claude、Target等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 21,
     "topArticleIds": [
-      "daily-2026-09-02-0860bf13512c29",
-      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-07-token-ai-kimi-def8e7815c",
-      "2026-09-07-stocktwits-com-nke-stock-gains--7f4ce20d84"
-    ],
-    "productImplication": "本月最值得产品团队做的事，是把AI导购拆成可复用流程模块：需求澄清、候选生成、证据解释、风险提示、价格库存核验、下单确认。不要继续只优化聊天自然度。"
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-08-beet-tv-agentic-commerce-demand-c95518e947",
+      "daily-2026-09-01-1531069370f45e"
+    ]
   },
   {
     "month": "2026-08",
-    "title": "AI购物从入口争夺进入闭环争夺",
-    "summary": "8月的主线是平台开始争夺完整购物链路，而不是只争“AI入口”。淘宝接入千问、Google推进UCP与Universal Cart、GEO讨论转向交易资格，都说明AI推荐位开始具备真实订单分配价值。商家如果不能提供机器可读的商品、价格、库存和履约信息，就可能无法进入AI候选。",
+    "title": "交易闭环、AI购物、竞品案例进入交易责任竞争",
+    "summary": "2026-08 共收录 38 条高价值信息，主线集中在交易闭环、AI购物、竞品案例。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 38,
     "topArticleIds": [
-      "daily-2026-08-06-6685b71f4a4ee6",
-      "daily-2026-08-19-4e433b148c4222",
+      "2026-08-10-510496218f",
       "2026-08-17-c7318a84f1",
-      "daily-2026-08-05-73d5671dbd19ad",
-      "2026-08-10-510496218f"
-    ],
-    "productImplication": "产品壁垒要从模型回答迁移到商品数据、履约能力、商家接入和交易责任设计。AI导购的核心KPI不应只是点击率，而应增加候选进入率、推荐采纳率、授权下单率和履约准确率。"
+      "geo-shopping-entry-2026-08-25",
+      "2026-08-17-c4110742de",
+      "2026-08-18-6-12-f0dccab366"
+    ]
   },
   {
     "month": "2026-07",
-    "title": "场景化购物比功能菜单更容易被用户理解",
-    "summary": "7月的Google购物内容更多围绕返校、学生、趋势等场景展开。它传递的信号是：AI购物不是把所有功能堆给用户，而是围绕“我要完成一个生活任务”组织商品、清单、趋势和工具。",
-    "productImplication": "AI导购可以做任务包，而不是只做搜索框。例如开学清单、搬家补货、养猫新手、旅行准备。任务包能降低用户表达成本，也更容易串联多品类购买。",
+    "title": "Agentic Commerce、AI购物、C端AI产品进入交易责任竞争",
+    "summary": "2026-07 共收录 25 条高价值信息，主线集中在Agentic Commerce、AI购物、C端AI产品。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、Amazon、OpenAI/ChatGPT、Anthropic/Claude等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 25,
     "topArticleIds": [
-      "daily-2026-07-30-92bd9948eec7fd",
-      "daily-2026-07-14-d344ac9140db6d",
-      "daily-2026-07-28-0cfa5b4dab8be8",
-      "daily-2026-07-06-9ff3847b4f7534"
+      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707",
+      "2026-07-17-waic-ai-1a3b8fd745",
+      "2026-07-16-ai-9347f9cc03",
+      "daily-2026-07-04-5f844913607099",
+      "daily-2026-07-29-fcd1c0b0824ead"
     ]
   },
   {
     "month": "2026-06",
-    "title": "品牌竞争开始从搜索页迁移到AI答案",
-    "summary": "6月最值得关注的是“对话即购物”框架：AI压缩了用户中间研究过程，也压缩了品牌通过详情页、直播、内容反复说服用户的机会。未来品牌先要进入AI答案，才有机会进入用户选择。",
+    "title": "竞品案例、AI购物、交易闭环进入交易责任竞争",
+    "summary": "2026-06 共收录 27 条高价值信息，主线集中在竞品案例、AI购物、交易闭环。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、美团、Instacart、PayPal等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 27,
     "topArticleIds": [
-      "daily-2026-06-22-84799743dc2b39",
+      "2026-06-04-app-ai-be4d9cf7b1",
       "dialogue-is-shopping-2026-06-18",
-      "daily-2026-06-08-acf2f844514f0e",
-      "daily-2026-06-19-10e5b92e51f050",
-      "daily-2026-06-17-711a58e625bb7b"
-    ],
-    "productImplication": "导购产品需要把推荐依据透明化，并为商家提供机器可读证据位。否则AI答案会成为新的黑箱货架，用户不知道谁被排除，商家也不知道为什么没被选中。"
+      "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a",
+      "2026-06-10-openai-blog-prc-linked-influenc-6c33d57edf",
+      "2026-06-18-target-corporation-how-target-i-6a7b85b16f"
+    ]
   },
   {
     "month": "2026-05",
-    "title": "协议层成为海外AI购物关键词",
-    "summary": "5月Google围绕UCP、Universal Cart和任务型搜索连续动作，说明Agentic Shopping要规模化必须解决商家接入、跨平台购物车和AI可执行交易的问题。",
+    "title": "AI购物、竞品案例、Agentic Commerce进入交易责任竞争",
+    "summary": "2026-05 共收录 26 条高价值信息，主线集中在AI购物、竞品案例、Agentic Commerce。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、美团、Walmart、Google等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 26,
     "topArticleIds": [
-      "daily-2026-05-27-91a7bfbfddefb5",
-      "daily-2026-05-13-3c134761dade73",
-      "daily-2026-05-19-3a3fd36fc59627",
-      "google-ucp-updates-2026-05-01",
-      "daily-2026-05-14-e53a0994cf069b"
-    ],
-    "productImplication": "AI导购如果想跨商家、跨平台工作，需要尽早抽象商品、购物车、订单、支付、售后等标准对象。只靠页面抓取无法支撑稳定交易。"
+      "2026-05-12-ai-e6bd5aca25",
+      "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
+      "2026-05-14-36-ai-36kr-com-a24d56e17e",
+      "2026-05-26-mastercard-agentic-commerce-ai--ba213632b7",
+      "2026-05-26-ai-95-c8529804b2"
+    ]
   },
   {
     "month": "2026-04",
-    "title": "视觉与风格场景推动非标品AI导购",
-    "summary": "4月的时尚购物资料提示，非标品的AI导购逻辑不同于3C参数比较。用户需要的是风格理解、视觉匹配、试穿想象和后悔风险降低。",
-    "productImplication": "产品需要按品类切换导购范式：时尚做风格共创，家电做参数解释，日用品做复购授权，旅行做约束规划。一个通用推荐模板不够。",
+    "title": "AI购物、竞品案例、Agentic Commerce进入交易责任竞争",
+    "summary": "2026-04 共收录 23 条高价值信息，主线集中在AI购物、竞品案例、Agentic Commerce。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、Amazon、Google、OpenAI/ChatGPT等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 23,
     "topArticleIds": [
-      "daily-2026-04-05-adaa2252b3d0a6",
-      "2026-04-29-stripe-beyond-checkout-where-ag-9310c1997a"
+      "2026-04-09-ai-agent-ec8119d854",
+      "2026-04-29-stripe-beyond-checkout-where-ag-9310c1997a",
+      "2026-04-09-ai-agent-68c9bb7b84",
+      "2026-04-09-ai-ai-ai-bc58c317d1",
+      "daily-2026-04-03-d41339b299519c"
     ]
   },
   {
     "month": "2026-03",
-    "title": "国内平台路线分化：内容入口 vs 交易闭环",
-    "summary": "3月围绕豆包、千问、ChatGPT电商尝试和平台权限的讨论集中爆发。关键结论是：AI做电商难点不只是模型，而是商家协同、平台许可、履约责任和交易转化。内容平台适合激发需求，电商平台更接近成交闭环。",
+    "title": "AI购物、竞品案例、C端AI产品进入交易责任竞争",
+    "summary": "2026-03 共收录 17 条高价值信息，主线集中在AI购物、竞品案例、C端AI产品。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、美团、京东、Amazon等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 17,
     "topArticleIds": [
-      "daily-2026-03-12-016f6d5e971fa7",
-      "daily-2026-03-19-46f4d77b1b89f4",
-      "daily-2026-03-18-256922227f228b"
-    ],
-    "productImplication": "产品定位必须先选清楚：做内容种草、交易履约，还是商家增长工具。三者看起来都是AI导购，但数据、流程、指标和商业模式完全不同。"
+      "qianwen-doubao-geo-2026-03-24",
+      "2026-03-13-pc-ai-mcp-openclaw-91e7d9c1ff",
+      "2026-03-24-openai-blog-powering-product-di-10b56e1b13",
+      "2026-03-19-google-shopping-blog-ai-shoppin-989d33e35e",
+      "2026-03-06-36-2-0-ai-36kr-com-0f6dcf975e"
+    ]
   },
   {
     "month": "2026-02",
-    "title": "品类迁移不会均匀发生",
-    "summary": "2月资料共同指向一个判断：购物智能体不会平均改变所有零售品类。最先被改写的是认知成本高、信息可结构化、履约可确定的品类，以及视觉触发明显的灵感品类。",
+    "title": "AI购物、Agentic Commerce、C端AI产品进入交易责任竞争",
+    "summary": "2026-02 共收录 17 条高价值信息，主线集中在AI购物、Agentic Commerce、C端AI产品。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、Amazon、Walmart、Perplexity等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 17,
     "topArticleIds": [
-      "daily-2026-02-20-30a9ac4c22a9f9",
-      "daily-2026-02-05-378a1bbb379006",
-      "daily-2026-02-25-c10d83261028e1",
+      "2026-02-06-9-1000-ai-46dfb586e1",
+      "2026-02-03-ai-5b2966b229",
+      "daily-2026-02-11-7fae5bd7de6a54",
+      "daily-2026-02-12-7157b38744565f",
       "daily-2026-02-23-d0d45250fd6962"
-    ],
-    "productImplication": "选品类时不要只看GMV，要看AI能替用户省掉哪段决策。认知成本、结构化程度、履约确定性、退货风险，应该成为AI导购切入品类的四个评分维度。"
+    ]
   },
   {
     "month": "2026-01",
-    "title": "购物智能体、AI购物、C端AI产品、交易闭环成为本月主线",
-    "summary": "本月高价值信息集中在购物智能体、AI购物、C端AI产品、交易闭环，重点观察其对AI导购入口、交易闭环和商家接入的影响。",
-    "productImplication": "产品团队应把当月新信号翻译成可验证假设，并进入需求澄清、推荐解释、交易确认或商家接入模块。",
+    "title": "竞品案例、Agentic Commerce、AI购物进入交易责任竞争",
+    "summary": "2026-01 共收录 16 条高价值信息，主线集中在竞品案例、Agentic Commerce、AI购物。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、美团、Amazon、Walmart等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 16,
     "topArticleIds": [
       "daily-2026-01-16-69707bc3df56d5",
       "competitor-2026-01-22-app-ai-2130600ec1",
-      "daily-2026-01-04-c6a18207304cfc"
+      "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0",
+      "2026-01-16-ai-fdaaafc2c2",
+      "2026-01-12-ucp-ai-6492de8e79"
     ]
   },
   {
     "month": "2025-12",
-    "title": "购物智能体、AI购物、视觉购物、C端AI产品成为本月主线",
-    "summary": "本月高价值信息集中在购物智能体、AI购物、视觉购物、C端AI产品，重点观察其对AI导购入口、交易闭环和商家接入的影响。",
-    "productImplication": "产品团队应把当月新信号翻译成可验证假设，并进入需求澄清、推荐解释、交易确认或商家接入模块。",
+    "title": "AI购物、竞品案例、Agentic Commerce进入交易责任竞争",
+    "summary": "2025-12 共收录 17 条高价值信息，主线集中在AI购物、竞品案例、Agentic Commerce。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；Amazon、Walmart、Google、OpenAI/ChatGPT等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 17,
     "topArticleIds": [
+      "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
+      "2025-12-26-the-business-times-shopee-lazad-1aa0c55c73",
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
       "daily-2025-12-19-32e102a6a2b3b3",
-      "daily-2025-12-08-9ee9429fa0ec2a",
-      "daily-2025-12-12-2b5d461c3a7004"
+      "daily-2025-12-23-8a53fee60263d5"
     ]
   },
   {
     "month": "2025-11",
-    "title": "AI购物、C端AI产品、AI搜索、购物智能体成为本月主线",
-    "summary": "本月高价值信息集中在AI购物、C端AI产品、AI搜索、购物智能体，重点观察其对AI导购入口、交易闭环和商家接入的影响。",
-    "productImplication": "产品团队应把当月新信号翻译成可验证假设，并进入需求澄清、推荐解释、交易确认或商家接入模块。",
+    "title": "竞品案例、AI购物、C端AI产品进入交易责任竞争",
+    "summary": "2025-11 共收录 15 条高价值信息，主线集中在竞品案例、AI购物、C端AI产品。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、Amazon、Walmart、Google等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 15,
     "topArticleIds": [
-      "daily-2025-11-24-53d248fd80c793",
-      "daily-2025-11-18-d4815f5d39ed93",
-      "daily-2025-11-13-4b55e886a2ff49",
+      "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
+      "2025-11-19-openai-blog-openai-and-target-t-d76d093067",
       "daily-2025-11-06-7aa8ef6760da3c",
+      "daily-2025-11-13-4b55e886a2ff49",
       "daily-2025-11-25-c50e6219796acb"
     ]
   },
   {
     "month": "2025-10",
-    "title": "AI购物、购物智能体、C端AI产品、商家接入成为本月主线",
-    "summary": "本月高价值信息集中在AI购物、购物智能体、C端AI产品、商家接入，重点观察其对AI导购入口、交易闭环和商家接入的影响。",
-    "productImplication": "产品团队应把当月新信号翻译成可验证假设，并进入需求澄清、推荐解释、交易确认或商家接入模块。",
+    "title": "竞品案例、Agentic Commerce、C端AI产品进入交易责任竞争",
+    "summary": "2025-10 共收录 19 条高价值信息，主线集中在竞品案例、Agentic Commerce、C端AI产品。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、Amazon、Google、OpenAI/ChatGPT等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 19,
     "topArticleIds": [
-      "daily-2025-10-28-e6e58f4fb3a311",
-      "daily-2025-10-08-7f791e53424cc9"
+      "competitor-2025-10-16-ai-6-ai-4be6bbef6f",
+      "2025-10-29-21-ai-0553146e25",
+      "2025-10-16-retail-dive-google-expands-virt-435eed5af4",
+      "2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
+      "daily-2025-10-17-3757ba40d36a1e"
     ]
   },
   {
     "month": "2025-09",
-    "title": "购物智能体、C端AI产品、交易闭环、即时零售成为本月主线",
-    "summary": "本月高价值信息集中在购物智能体、C端AI产品、交易闭环、即时零售，重点观察其对AI导购入口、交易闭环和商家接入的影响。",
-    "productImplication": "产品团队应把当月新信号翻译成可验证假设，并进入需求澄清、推荐解释、交易确认或商家接入模块。",
+    "title": "竞品案例、交易闭环、对话导购进入交易责任竞争",
+    "summary": "2025-09 共收录 9 条高价值信息，主线集中在竞品案例、交易闭环、对话导购。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、美团、京东、Amazon等信号说明购物智能体正在逼近真实交易基础设施。",
+    "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+    "articleCount": 9,
     "topArticleIds": [
-      "daily-2025-09-29-06e290cccd10b0",
-      "daily-2025-09-28-6b0d69f713ce98",
-      "daily-2025-09-18-2a6ebeb2b19979",
       "competitor-2025-09-17-ai-86111b0c72",
-      "competitor-2025-09-12-ai-2a8969793a"
+      "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
+      "competitor-2025-09-12-ai-2a8969793a",
+      "daily-2025-09-18-2a6ebeb2b19979",
+      "daily-2025-09-28-6b0d69f713ce98"
     ]
   }
 ]

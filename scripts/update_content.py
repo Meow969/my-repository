@@ -26,9 +26,9 @@ from pathlib import Path
 from typing import Any
 
 try:
-    from content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate, is_temporary_wechat_url
+    from content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate, is_temporary_wechat_url, normalized_title
 except ImportError:  # pragma: no cover
-    from scripts.content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate, is_temporary_wechat_url
+    from scripts.content_quality import canonical_source, clean_display_title, clean_url, dedupe_items, is_ai_shopping_related, is_duplicate, is_temporary_wechat_url, normalized_title
 
 try:
     import requests
@@ -170,22 +170,63 @@ GOOGLE_NEWS_QUERIES = [
     "site:techcrunch.com AI shopping assistant",
     "site:theverge.com AI shopping",
     "consumer AI app",
+    "ChatGPT app consumer assistant shopping search",
+    "ChatGPT tasks shopping assistant consumer",
+    "OpenAI operator shopping consumer",
+    "OpenAI ChatGPT search shopping recommendations",
+    "Gemini app shopping search consumer assistant",
+    "Google Gemini AI personal assistant shopping",
+    "Google AI Mode shopping try on product comparison",
+    "Google Lens AI shopping visual search",
+    "Claude app consumer assistant computer use shopping",
+    "Anthropic Claude computer use shopping agent",
+    "Perplexity AI shopping answer engine",
+    "Perplexity Comet browser shopping assistant",
+    "AI browser shopping assistant agent",
+    "AI personal assistant shopping memory",
+    "AI wearable assistant shopping recommendations",
+    "Meta AI shopping assistant product discovery",
+    "Copilot shopping assistant Microsoft Edge",
+    "TikTok Shop AI shopping assistant",
+    "eBay AI shopping assistant magical listing",
+    "Etsy AI gift mode shopping assistant",
+    "Zalando AI fashion assistant",
+    "Klarna AI shopping assistant",
+    "PayPal AI shopping agent checkout",
+    "Shopify Sidekick AI merchant ecommerce",
+    "Shopify agentic commerce AI shopping",
     "AI购物",
     "AI导购",
     "淘宝 AI万能搜",
     "淘宝 AI试穿",
     "淘宝设计 AI试穿",
+    "淘宝设计 AI 试衣 服饰 导购",
     "天猫 AI导购",
     "天猫 AI试穿",
     "千问 淘宝 闪购 AI购物",
+    "通义千问 淘宝 AI购物 助手",
+    "通义千问 电商 导购",
+    "夸克 AI搜索 购物 电商",
+    "豆包 AI助手 购物 搜索",
+    "Kimi AI助手 购物 搜索",
+    "元宝 AI助手 购物 搜索",
     "阿里 悟空 电商 AI Agent",
     "阿里 Aidge AI电商 商家",
     "美团 小美 AI助手",
     "美团 AI导购",
     "美团 问小团 AI搜索 本地生活",
+    "美团 小美 外卖 点餐 AI助手",
+    "京东 AI导购 京言 智能购物助手",
+    "京东 言犀 AI导购 购物助手",
+    "京东 AI试穿 AI购物",
     "得物 AI试穿",
     "得物 AI鉴别机器人 WAIC",
+    "得物 AI导购 球鞋 试穿",
     "虾皮 AI导购",
+    "Shopee AI Copilot sellers shopping",
+    "小红书 AI搜索 购物 种草",
+    "抖音电商 AI导购 搜索",
+    "快手电商 AI导购 智能客服",
     "购物智能体",
     "AI电商",
     "AI购物 产品设计",
@@ -254,9 +295,11 @@ SOURCE_WEIGHT = {
 }
 
 TAG_RULES = {
+    "C端AI产品": ["consumer ai", "ai app", "ai assistant app", "personal assistant", "ai browser", "ai wearable", "chatgpt", "gemini", "claude", "perplexity", "copilot", "meta ai", "grok", "operator", "comet", "豆包", "kimi", "通义千问", "千问", "夸克", "元宝", "大模型应用", "ai助手", "ai搜索"],
+    "AI搜索": ["ai search", "answer engine", "perplexity", "comet", "ai mode", "ai搜索", "答案引擎", "搜索助手", "夸克"],
     "AI购物": ["ai购物", "购物助手", "购物智能体", "ai shopping", "shopping agent", "agentic shopping", "ai commerce", "online shopping", "cart assistant"],
     "对话导购": ["导购", "对话式", "conversation", "conversational"],
-    "竞品案例": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa", "得物", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "aidge", "aliexpress"],
+    "竞品案例": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "京东", "京言", "言犀", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa", "得物", "小红书", "抖音电商", "快手电商", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "aidge", "aliexpress", "tiktok shop", "ebay", "etsy", "zalando", "klarna", "paypal"],
     "虚拟试穿": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "try on", "virtual fitting", "fitting room", "augmented reality"],
     "Agentic Commerce": ["agentic commerce", "agentic shopping", "intelligent commerce", "智能体商业", "代理购物"],
     "交易闭环": ["闭环", "下单", "支付", "checkout", "checkouts", "交易", "购物车", "universal cart", "cart assistant"],
@@ -299,13 +342,17 @@ INSIGHT_RULES = {
 
 AUTO_INSIGHT_PREFIX = "auto-"
 DAILY_INSIGHT_PREFIX = "daily-reflection-"
+SPARK_INSIGHT_PREFIX = "spark-"
 
 NEGATIVE_WORDS = ["融资", "培训", "课程", "招商", "广告", "大会报名", "招聘", "破解版"]
 BLOCKED_URL_HOSTS = {"ebrun.com", "ttplus.cn"}
-LOW_VALUE_SOURCES = {"Stocktwits", "体坛"}
+LOW_VALUE_SOURCES = {"Stocktwits", "stocktwits.com", "体坛", "体坛网", "ttplus.cn"}
 LOW_VALUE_TITLE_PATTERNS = [
     "dunkin", "chief merchant", "ad auction", "fulfillment center", "tire benefit",
+    "stock gains", "pre-market", "price target", "shares rise", "shares fall", "earnings call",
     "token充值", "充值中心", "多人工作台", "measurement stack", "new ecommerce tools",
+    "倒计时", "报名", "大会", "峰会", "webinar", "conference", "top 100 business trends",
+    "ai tools for shopee sellers", "tools for shopee sellers",
 ]
 HIGH_VALUE_WORDS = [
     "闭环", "智能体", "Agentic Commerce", "导购", "购物助手", "千问", "豆包", "淘宝",
@@ -328,7 +375,9 @@ def is_blocked_source_or_url(item: dict[str, Any]) -> bool:
     if host in BLOCKED_URL_HOSTS or item.get("source") in LOW_VALUE_SOURCES:
         return True
     title = item.get("title", "").lower()
-    if any(word in item.get("title", "") for word in ["体育投注", "注册在线"]):
+    if is_ai_shopping_related(item) is False and item.get("source") == "AI Shopping Radar":
+        return True
+    if any(word in item.get("title", "") for word in ["体育投注", "注册在线", "资料检索入口", "每日雷达"]):
         return True
     return any(pattern in title for pattern in LOW_VALUE_TITLE_PATTERNS)
 
@@ -592,7 +641,7 @@ def article_angles(item: dict[str, Any], tags: list[str]) -> list[str]:
         angles.append("market_signal")
     if contains_any(text, ["tested", "i let", "which worked best", "perfect gift", "gift", "hands-on", "实测", "测评"]):
         angles.append("consumer_benchmark")
-    if contains_any(text, ["perplexity", "ai search", "ai traffic", "answer engine", "search traffic", "google discover", "ai搜索"]):
+    if contains_any(text, ["perplexity", "ai search", "ai mode", "ai traffic", "answer engine", "search traffic", "google discover", "ai搜索", "答案引擎", "夸克"]):
         angles.append("ai_search_commerce")
     if contains_any(text, ["agentic commerce", "checkout", "checkouts", "payment", "payments", "visa", "mastercard", "stripe", "rain", "acquirer", "支付", "结算", "收单", "协议", "信任协议"]):
         angles.append("agentic_checkout")
@@ -604,12 +653,16 @@ def article_angles(item: dict[str, Any], tags: list[str]) -> list[str]:
         angles.append("merchant_tools")
     if contains_any(text, ["小美", "问小团", "美团", "闪购", "即时零售", "外卖", "买菜", "本地生活", "quick-commerce", "grocery"]):
         angles.append("local_life")
-    if contains_any(text, ["chatgpt", "perplexity", "gemini", "rufus", "alexa for shopping", "sparky", "ai shopping assistant", "ai-powered shopping", "ai万能搜", "千问", "淘宝", "天猫", "shopee", "虾皮", "instacart", "pinterest", "kohl", "target", "walmart"]):
+    if contains_any(text, ["chatgpt", "openai", "operator", "perplexity", "comet", "gemini", "claude", "copilot", "meta ai", "rufus", "alexa for shopping", "sparky", "ai shopping assistant", "ai-powered shopping", "ai万能搜", "千问", "通义", "淘宝", "天猫", "京东", "京言", "言犀", "shopee", "虾皮", "instacart", "pinterest", "kohl", "target", "walmart", "tiktok shop", "ebay", "etsy", "zalando", "klarna", "paypal"]):
         angles.append("platform_assistant")
     if contains_any(text, ["search", "discovery", "recommendation", "recommendations", "visual search", "collage", "发现", "搜索", "推荐", "逛", "种草"]):
         angles.append("discovery_decision")
     if contains_any(text, ["trust", "privacy", "wary", "risk", "fraud", "安全", "隐私", "信任", "风险", "虚假评价"]):
         angles.append("trust_risk")
+    if contains_any(text, ["memory", "personalization", "personalized", "preference", "context", "habit", "记忆", "偏好", "个性化", "上下文"]):
+        angles.append("memory_personalization")
+    if contains_any(text, ["voice", "image", "camera", "lens", "multimodal", "视觉", "语音", "图片", "拍照", "多模态", "识图"]):
+        angles.append("multimodal_entry")
     if not angles:
         angles.append("general_signal")
     return list(dict.fromkeys(angles))[:4]
@@ -620,7 +673,30 @@ def is_relevant(item: dict[str, Any], tags: list[str]) -> bool:
         return False
     if not tags:
         return False
-    return is_grounded_ai_shopping_item(item, tags)
+    return is_grounded_ai_shopping_item(item, tags) or is_grounded_consumer_ai_item(item, tags)
+
+
+def is_grounded_consumer_ai_item(item: dict[str, Any], tags: list[str]) -> bool:
+    source_text = article_context({**item, "tags": []})
+    has_ai_product = contains_any(source_text, [
+        "ChatGPT", "OpenAI", "Gemini", "Claude", "Perplexity", "Copilot", "Meta AI", "Grok",
+        "AI app", "AI assistant", "AI browser", "AI search", "answer engine", "consumer AI", "personal assistant",
+        "豆包", "Kimi", "通义千问", "千问", "夸克", "元宝", "大模型应用", "AI助手", "AI搜索", "智能助手",
+    ])
+    has_consumer_signal = contains_any(source_text, [
+        "app", "browser", "search", "assistant", "mobile", "consumer", "users", "launch", "feature",
+        "应用", "助手", "搜索", "浏览器", "入口", "用户", "上线", "功能", "产品", "体验",
+    ])
+    commerce_bridge = contains_any(source_text, [
+        "shopping", "commerce", "retail", "merchant", "seller", "checkout", "personal shopper", "product discovery", "buying", "purchase",
+        "购物", "导购", "电商", "零售", "商品", "商家", "比价", "下单", "支付", "本地生活",
+    ])
+    product_design_signal = contains_any(source_text, [
+        "memory", "personalization", "agent", "operator", "browser", "computer use", "tasks", "assistant", "entry point", "workflow",
+        "记忆", "偏好", "智能体", "入口", "工作流", "多模态", "浏览器", "联网搜索", "个人助手",
+    ])
+    low_value = contains_any(source_text, ["training", "course", "招聘", "培训", "课程", "融资", "股价", "stock", "earnings"])
+    return has_ai_product and has_consumer_signal and (commerce_bridge or product_design_signal) and not low_value
 
 
 def is_grounded_ai_shopping_item(item: dict[str, Any], tags: list[str]) -> bool:
@@ -651,10 +727,19 @@ def is_grounded_ai_shopping_item(item: dict[str, Any], tags: list[str]) -> bool:
     return False
 
 
+def is_relevant_existing_item(item: dict[str, Any]) -> bool:
+    tags = item.get("tags", []) or infer_tags(article_context({**item, "tags": []}))
+    return is_grounded_ai_shopping_item(item, tags) or is_grounded_consumer_ai_item(item, tags)
+
+
 def infer_category(tags: list[str], text: str) -> str:
     lower = text.lower()
     if "虚拟试穿" in tags:
         return "竞品功能"
+    if "C端AI产品" in tags:
+        return "C端AI产品"
+    if "AI搜索" in tags:
+        return "AI搜索"
     if "技术架构" in tags or any(word in lower for word in ["架构", "blueprint", "protocol", "openclaw"]):
         return "技术架构"
     if any(word in lower for word in ["周报", "动态", "趋势"]):
@@ -670,6 +755,8 @@ def infer_content_type(tags: list[str], category: str, text: str, source: str = 
     lower = text.lower()
     if "竞品案例" in tags or category in {"平台案例", "竞品功能"}:
         return "竞品"
+    if "C端AI产品" in tags or "AI搜索" in tags:
+        return "C端产品"
     if "技术架构" in tags or any(word in lower for word in ["protocol", "blueprint", "openclaw", "ucp", "mcp", "协议", "架构"]):
         return "技术/协议"
     if "商家Agent" in tags or category == "商家/生态" or any(word in lower for word in ["merchant", "seller", "商家", "卖家", "生态"]):
@@ -739,12 +826,15 @@ def recompute_article_fields(item: dict[str, Any], keep_score: bool = False) -> 
         tags = ["AI购物"]
     category = infer_category(tags, text)
     content_type = infer_content_type(tags, category, text, item["source"])
+    core_points = make_core_point(item, tags)
+    item["corePoint"] = core_points
+    insight = personalize_insight(item, make_insight(item, tags))
     item.update({
         "contentType": content_type,
         "category": category,
         "tags": tags,
-        "corePoint": make_core_point(item, tags),
-        "insight": make_insight(item, tags),
+        "corePoint": core_points,
+        "insight": insight,
         "relatedInsightIds": related_insights_for_item(item, tags),
     })
     if not keep_score:
@@ -785,11 +875,15 @@ def excerpt_points(item: dict[str, Any], max_points: int = 2) -> list[str]:
     excerpt = clean_text(item.get("excerpt", ""))
     if not excerpt:
         return []
+    title_sig = normalized_title(item.get("title", ""), item.get("source", ""))
     sentences = re.split(r"(?<=[。！？.!?])\s+|[；;]", excerpt)
     points: list[str] = []
     for sentence in sentences:
         sentence = clean_text(sentence).strip(" ，,。.;；")
         if len(sentence) < 18 or len(sentence) > 120:
+            continue
+        sentence_sig = normalized_title(sentence, item.get("source", ""))
+        if title_sig and sentence_sig and (sentence_sig in title_sig or title_sig in sentence_sig):
             continue
         if contains_any(sentence, ["AI", "agent", "shopping", "commerce", "retail", "merchant", "checkout", "购物", "导购", "电商", "零售", "商家", "支付", "商品"]):
             points.append(sentence)
@@ -823,11 +917,14 @@ def core_point_text(value: Any) -> str:
 ENTITY_RULES = [
     ("淘宝", ["淘宝", "天猫", "千问", "qwen", "alibaba", "aliexpress", "阿里"]),
     ("美团", ["美团", "小美", "问小团", "keeta"]),
+    ("京东", ["京东", "京言", "言犀", "jd.com"]),
     ("Amazon", ["amazon", "rufus", "alexa"]),
     ("Walmart", ["walmart", "sparky"]),
     ("Google", ["google", "gemini"]),
     ("OpenAI/ChatGPT", ["openai", "chatgpt"]),
     ("Perplexity", ["perplexity"]),
+    ("小红书", ["小红书", "xiaohongshu"]),
+    ("抖音电商", ["抖音电商", "tiktok shop"]),
     ("Shopify", ["shopify"]),
     ("Instacart", ["instacart"]),
     ("Visa/Mastercard", ["visa", "mastercard"]),
@@ -901,24 +998,82 @@ def make_specific_insight(item: dict[str, Any]) -> str:
     entities = detected_labels(text, ENTITY_RULES, 2)
     scenarios = detected_labels(text, SCENARIO_RULES, 2)
     prefix = f"针对{'、'.join(entities)}的{'、'.join(scenarios) or 'AI购物'}信号，" if entities else "针对这类信号，"
+    def choose(options: list[str]) -> str:
+        digest = int(hashlib.sha1((item.get("id", "") + item.get("title", "")).encode("utf-8")).hexdigest()[:8], 16)
+        return options[digest % len(options)]
     if contains_any(text, ["product data", "trusted product data", "catalog", "metrics", "measurement"]):
-        return prefix + "产品侧要把商品资料完整度、可引用证据、实时价格库存和转化指标做成同一套监控，而不是只优化对话回答。"
+        return prefix + choose([
+            "产品侧要把商品资料完整度、可引用证据、实时价格库存和转化指标做成同一套监控，而不是只优化对话回答。",
+            "更值得沉淀的是商品事实层：卖点、适用人群、禁忌、库存和履约承诺越结构化，AI推荐越能被验证。",
+            "可以把“AI是否看得懂这个商品”做成商家侧评分，倒逼供给资料从营销文案升级为机器可读证据。",
+        ])
     if contains_any(text, ["merchant", "merchants", "seller", "sellers", "retailer", "retailers", "marketplace", "marketplaces", "protect loyalty", "storefront", "商家", "卖家"]):
-        return prefix + "需要给商家端提供AI可读商品页、卖点证据、履约承诺和归因工具，避免用户关系被外部AI入口截流。"
+        return prefix + choose([
+            "需要给商家端提供AI可读商品页、卖点证据、履约承诺和归因工具，避免用户关系被外部AI入口截流。",
+            "商家后台不应只生成素材，而要告诉商家AI为什么没有推荐它、缺哪些证据、该补什么卖点。",
+            "平台要把商家激励重新设计：让商家愿意提交结构化禁忌、适用场景和售后承诺，用户端导购才有可信依据。",
+        ])
     if contains_any(text, ["acquirer", "visa", "mastercard", "stripe", "payment", "checkout", "token", "支付", "收单", "结算"]):
-        return prefix + "支付不应被当作链路末端按钮，而要设计成可授权、可撤回、可追责的交易能力；否则AI越主动，误购和责任风险越大。"
+        return prefix + choose([
+            "支付不应被当作链路末端按钮，而要设计成可授权、可撤回、可追责的交易能力；否则AI越主动，误购和责任风险越大。",
+            "可以把交易权限拆成建议、代填、锁价、代付、代买五级，让用户逐步授权，而不是一次性把购买权交给AI。",
+            "支付链路的产品重点是异常处理：价格变化、缺货、延迟、误购时AI如何解释、暂停、回滚和追责。",
+            "当智能体进入结算，推荐理由必须和支付凭证连起来，用户需要看到AI依据哪些约束完成了这笔交易。",
+        ])
     if contains_any(text, ["app in chatgpt", "inside chatgpt", "instant checkout", "openai", "chatgpt", "perplexity", "paypal"]):
-        return prefix + "关键是承接外部AI带来的半成型意图：进入站内后继续保留上下文，并补齐比较、证据、优惠和确认，而不是重新让用户搜索。"
+        return prefix + choose([
+            "关键是承接外部AI带来的半成型意图：进入站内后继续保留上下文，并补齐比较、证据、优惠和确认，而不是重新让用户搜索。",
+            "外部AI入口会让用户带着问题和候选进站，站内导购应识别这包上下文，并继续完成取舍、核价和交易确认。",
+            "真正的机会不是抢入口，而是做“意图交接层”：把AI答案里的预算、场景、禁忌和候选转成站内可操作任务。",
+        ])
+    if contains_any(text, ["memory", "personalization", "personalized", "preference", "context", "habit", "记忆", "偏好", "个性化", "上下文"]):
+        return prefix + choose([
+            "记忆能力要产品化成用户可编辑的购买规则，例如预算、尺码、品牌黑白名单、复购周期和场景偏好；黑箱画像越强，用户越难放心授权。",
+            "记忆不该只用于更准推荐，还要用于解释“这次为什么这样推荐”，让用户能检查、纠正和删除单条购买偏好。",
+            "适合先把记忆用在低争议场景：复购、尺码、常买品牌、禁忌成分，再逐步进入高客单决策。",
+        ])
+    if contains_any(text, ["voice", "image", "camera", "lens", "multimodal", "视觉", "语音", "图片", "拍照", "多模态", "识图"]):
+        return prefix + choose([
+            "多模态不是展示炫技，而是降低需求输入成本；AI导购应把图片/语音里的场景、风格和限制条件转成候选商品与排除理由。",
+            "图片和语音入口最适合捕捉用户说不清的需求，产品应把识别结果显性化，让用户确认AI理解的场景和风格。",
+            "多模态导购要从“看见了什么”走到“因此排除了什么”，否则只是把搜索框换成相机。",
+        ])
+    if contains_any(text, ["operator", "computer use", "browser", "agent", "tasks", "workflow", "智能体", "浏览器", "任务", "工作流"]):
+        return prefix + choose([
+            "通用AI助手的启发是把导购拆成可接管的小任务：查证、比价、凑单、补货、售后提醒，而不是直接承诺全自动购买。",
+            "智能体能力适合先进入可验证动作，例如抓取参数、生成对比、检查优惠，而不是一上来替用户做不可逆决策。",
+            "如果AI能跨页面执行任务，购物产品更需要任务日志：它看了哪些页面、依据什么筛掉候选、在哪一步等待用户确认。",
+        ])
     if contains_any(text, ["conversion", "spending", "traffic", "sales", "%", "转化", "流量"]):
-        return prefix + "不要只记录功能上线，要追踪它影响了哪一段漏斗：需求表达、候选点击、加购、客单、复购或售后成本。"
+        return prefix + choose([
+            "不要只记录功能上线，要追踪它影响了哪一段漏斗：需求表达、候选点击、加购、客单、复购或售后成本。",
+            "增长信号要拆到链路指标里看：AI到底提高了需求表达效率、减少比较成本，还是只带来了短期流量噪声。",
+            "可以把AI导购实验按节点归因，分别观察搜索改写、推荐解释、对比证据、加购和下单的边际贡献。",
+        ])
     if contains_any(text, ["tested", "i let", "which worked best", "perfect gift", "实测", "测评"]):
-        return prefix + "可以把真实测评拆成验收清单：是否理解约束、是否核价核库存、是否给替代方案、是否说明不推荐的理由。"
+        return prefix + choose([
+            "可以把真实测评拆成验收清单：是否理解约束、是否核价核库存、是否给替代方案、是否说明不推荐的理由。",
+            "测评内容的价值在失败样例：把用户吐槽转成测试集，比从发布稿推导功能优先级更可靠。",
+            "应把测评里的“看似合理但不可买”作为红线，要求AI推荐同时通过价格、库存、配送和用户约束核验。",
+        ])
     if is_visual_try_on_context(text):
-        return prefix + "视觉体验要进入决策证据链，把尺码、风格、场景和退货风险用于推荐排序，而不是停留在营销图片生成。"
+        return prefix + choose([
+            "视觉体验要进入决策证据链，把尺码、风格、场景和退货风险用于推荐排序，而不是停留在营销图片生成。",
+            "试穿结果应转成可比较证据，例如“哪里合适/哪里不合适/适合什么场景”，而不是只展示一张好看的图。",
+            "视觉导购最该服务非标品的后悔成本管理，把不确定性前置，才可能减少退货和反复比较。",
+        ])
     if contains_any(text, ["grocery", "quick-commerce", "instant", "闪购", "外卖", "买菜", "本地生活"]):
-        return prefix + "更适合先做高频低风险的局部代劳，例如补货、凑单、配送时效确认，再逐步迁移到复杂高客单决策。"
+        return prefix + choose([
+            "更适合先做高频低风险的局部代劳，例如补货、凑单、配送时效确认，再逐步迁移到复杂高客单决策。",
+            "本地生活导购要把“现在能不能满足”放在第一位，位置、时段、库存、排队和配送承诺比长篇推荐理由更关键。",
+            "即时场景可以成为AI购物习惯入口，因为失败成本低、频次高、反馈快，适合训练用户授权心智。",
+        ])
     if contains_any(text, ["trust", "risk", "permission", "sues", "mistake", "trusted", "风险", "授权", "信任"]):
-        return prefix + "必须把证据来源、授权边界和出错责任放在主流程里；信任机制不是合规补丁，而是AI导购能否成交的前置条件。"
+        return prefix + choose([
+            "必须把证据来源、授权边界和出错责任放在主流程里；信任机制不是合规补丁，而是AI导购能否成交的前置条件。",
+            "信任设计要具体到每张推荐卡：依据来自哪里、哪些信息不确定、用户授权到哪一步、出错后谁负责。",
+            "风险信息不能藏在协议里，越是主动代劳的AI，越要在关键节点主动暴露不确定性和兜底方案。",
+        ])
     return ""
 
 
@@ -930,12 +1085,50 @@ def analysis_signature(value: Any) -> str:
     return re.sub(r"[^a-z0-9\u4e00-\u9fa5]+", "", core_point_text(value).lower())
 
 
+def disambiguate_duplicate_core_points(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    counts: dict[str, int] = {}
+    for item in articles:
+        sig = analysis_signature(item.get("corePoint", []))
+        counts[sig] = counts.get(sig, 0) + 1
+    updated = []
+    for item in articles:
+        item = dict(item)
+        core_points = list(item.get("corePoint") or [])
+        sig = analysis_signature(core_points)
+        if counts.get(sig, 0) > 1:
+            differentiator = f"这条资料可作为{item.get('source', '该来源')}在{item.get('date', '')}关于{item.get('category', 'AI购物')}/{item.get('contentType', '资讯')}的侧面证据，适合与同月同主题信息交叉验证。"
+            if len(core_points) >= 3:
+                core_points[-1] = differentiator
+            else:
+                core_points.append(differentiator)
+            item["corePoint"] = clean_core_points(core_points, max_points=3)
+        updated.append(item)
+    return updated
+
+
+def disambiguate_duplicate_insights(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    counts: dict[str, int] = {}
+    for item in articles:
+        sig = analysis_signature(item.get("insight", ""))
+        counts[sig] = counts.get(sig, 0) + 1
+    updated = []
+    for item in articles:
+        item = dict(item)
+        sig = analysis_signature(item.get("insight", ""))
+        if counts.get(sig, 0) > 1:
+            item["insight"] = clean_text(
+                f"{item.get('insight', '').rstrip('。')}。这条资料更适合补足{item.get('source', '该来源')}在{item.get('date', '')}的{item.get('category', 'AI购物')}视角，而不是和同主题资讯合并成泛泛结论。"
+            )
+        updated.append(item)
+    return updated
+
+
 def prune_redundant_analysis(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    articles = disambiguate_duplicate_insights(disambiguate_duplicate_core_points(articles))
     ranked = sorted(articles, key=lambda item: (item.get("valueScore", 0), item.get("date", "")), reverse=True)
     kept: list[dict[str, Any]] = []
     seen_pair: set[tuple[str, str]] = set()
-    seen_core: set[str] = set()
-    insight_counts: dict[str, int] = {}
+    seen_insight: set[str] = set()
     for item in ranked:
         core_points = item.get("corePoint", [])
         insight = str(item.get("insight", ""))
@@ -944,18 +1137,26 @@ def prune_redundant_analysis(articles: list[dict[str, Any]]) -> list[dict[str, A
         core_sig = analysis_signature(core_points)
         insight_sig = analysis_signature(insight)
         pair_sig = (core_sig, insight_sig)
-        if core_sig in seen_core:
-            continue
         if pair_sig in seen_pair:
             continue
-        insight_cap = 1
-        if insight_counts.get(insight_sig, 0) >= insight_cap:
+        if insight_sig in {analysis_signature(DEFAULT_INSIGHT), ""} or insight_sig in seen_insight:
             continue
-        seen_core.add(core_sig)
+        seen_insight.add(insight_sig)
         seen_pair.add(pair_sig)
-        insight_counts[insight_sig] = insight_counts.get(insight_sig, 0) + 1
         kept.append(item)
     return sorted(kept, key=lambda item: (item.get("date", ""), item.get("valueScore", 0)), reverse=True)
+
+
+def personalize_insight(item: dict[str, Any], insight: str) -> str:
+    points = item.get("corePoint") or []
+    anchor = ""
+    if isinstance(points, list):
+        anchor = next((str(point).strip("。") for point in points if point and not str(point).startswith("公开信息显示")), "")
+    if not anchor:
+        return insight
+    if anchor in insight:
+        return insight
+    return f"基于“{anchor}”这个信号，{insight}"
 
 
 def make_core_point(item: dict[str, Any], tags: list[str]) -> list[str]:
@@ -985,12 +1186,18 @@ def make_core_point(item: dict[str, Any], tags: list[str]) -> list[str]:
         points.extend(["AI购物正在从改写搜索结果转向理解用户意图。", "更重要的能力是组织候选商品，并给出可比较的推荐理由。"])
     if "trust_risk" in angles:
         points.extend(["AI购物的瓶颈在信任与风险控制。", "用户需要知道推荐依据、授权边界和出错后的责任归属。"])
+    if "memory_personalization" in angles:
+        points.extend(["记忆/个性化能力正在从聊天上下文变成可复用的消费约束。", "真正有价值的不是记住用户说过什么，而是沉淀预算、尺码、品牌禁忌、补货周期和场景偏好。"])
+    if "multimodal_entry" in angles:
+        points.extend(["多模态入口把购物需求从文字搜索扩展到图片、语音和场景识别。", "这类能力的价值在于降低用户表达成本，并把模糊灵感转成可比较商品集合。"])
     if any(word in lower for word in ["sparky", "alexa for shopping", "rufus", "ai shopping assistant", "ai-powered shopping"]):
         points.extend(["海外平台正在把AI导购做成可执行助手。", "能力从理解意图、比较商品，延伸到价格提醒、补货和订单验证。"])
     if any(word in title for word in ["问小团", "小美"]):
         points.extend(["本地生活AI的关键不在“会聊天”。", "更关键的是合并位置、时间、排队、配送、优惠和服务约束。"])
     if any(word in title for word in ["千问", "淘宝", "天猫", "AI万能搜"]):
         points.extend(["阿里系AI能力正在回到电商交易链路内部。", "搜索、清单、凑单、下单等能力开始被统一编排。"])
+    if any(word in title for word in ["京东", "京言", "言犀"]):
+        points.extend(["京东系AI信号更值得看履约、售后和商品知识资产如何被导购调用。", "这类平台的优势不在会聊天，而在能否把正品、库存、物流和服务承诺变成推荐证据。"])
     if "虚拟试穿" in tags:
         points.extend(["试穿/试衣类AI把导购从问答推荐推进到低成本预体验。", "核心价值是降低非标品的适配不确定性。"])
     if "竞品案例" in tags:
@@ -1005,9 +1212,12 @@ def make_core_point(item: dict[str, Any], tags: list[str]) -> list[str]:
         points.extend(["商家竞争正在从搜索排名延伸到AI答案可见性。", "能否被智能体理解和推荐，会成为新的流量门槛。"])
     if "Agentic Commerce" in tags:
         points.extend(["Agentic Commerce会把发现、比较和结算前置到AI入口。", "传统电商漏斗会被重组为意图表达、候选验证和授权交易。"])
+    if "C端AI产品" in tags and "AI购物" not in tags:
+        points.extend(["这类C端AI产品不一定直接做购物，但会改变用户表达需求、保存偏好和执行任务的方式。", "对AI导购的参考价值在于入口、记忆、工具调用和跨场景上下文迁移。"])
     points = excerpt_points(item) + points
     if not points:
-        points.append("公开信息显示，这是一条与AI购物/导购相关的行业信号。")
+        tag_focus = "、".join(tags[:2]) or "AI购物/导购"
+        points.append(f"这条资料提供了来自{item.get('source', '行业来源')}的{tag_focus}信号，需要重点判断它影响的是入口、证据、授权还是交易。")
     return clean_core_points(points)
 
 
@@ -1061,7 +1271,9 @@ def make_insight(item: dict[str, Any], tags: list[str]) -> str:
         return f"{subject}，需要为商家建设AI可读信息资产，让商品卖点、适用场景、证据、履约承诺能被智能体稳定理解和引用。"
     if "Agentic Commerce" in tags:
         return f"{subject}，不要只看它是不是又一个AI入口，而要看它是否改变了发现、比较、确认和支付之间的责任分工。"
-    return "判断文章价值时，应重点看它是否能帮助产品回答三个问题：用户为什么信任AI、AI凭什么推荐、推荐后如何完成交易。"
+    scenario = "、".join(detected_labels(article_context({**item, "tags": []}), SCENARIO_RULES, 2)) or "购物决策链路"
+    tag_focus = "、".join(tags[:2]) or "AI导购"
+    return f"这条更适合沉淀成{scenario}的小实验：围绕{tag_focus}观察它是否能减少用户表达成本、提高候选比较质量，或让推荐后的确认/履约更可靠。"
 
 
 def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
@@ -1088,7 +1300,7 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
     existing = load_json(ARTICLES_PATH, [])
     existing = prune_redundant_analysis(dedupe_items([
         item for item in (recompute_article_fields(item, keep_score=True) for item in existing)
-        if is_grounded_ai_shopping_item(item, item.get("tags", []))
+        if is_relevant_existing_item(item)
     ]))
     raw_items = fetch_wechat(days) + fetch_rss(days) + fetch_google_news(days)
     normalized = [normalize_item(item) for item in raw_items if item.get("title") and item.get("url")]
@@ -1111,7 +1323,7 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
     selected = resolved_selected
     if not dry_run:
         before_merge_count = len(selected) + len(existing)
-        merged = prune_redundant_analysis(dedupe_items(selected + existing, limit=520))
+        merged = prune_redundant_analysis(dedupe_items(selected + existing, limit=620))
         write_json(ARTICLES_PATH, merged)
         refresh_monthly_reports(merged)
         insight_changed = refresh_insights(merged)
@@ -1127,30 +1339,69 @@ def update(days: int, limit: int, dry_run: bool = False) -> list[dict[str, Any]]
     return selected
 
 
+def monthly_report_text(month: str, month_articles: list[dict[str, Any]]) -> tuple[str, str, str]:
+    top_tags = [tag for tag, _ in tag_counts(month_articles)[:5]]
+    focus = "、".join(top_tags[:3]) or "AI购物"
+    titles = " ".join(item.get("title", "") for item in month_articles[:12]).lower()
+    competitor_names = []
+    for label, terms in ENTITY_RULES:
+        if contains_any(titles, terms):
+            competitor_names.append(label)
+    competitors = "、".join(competitor_names[:4]) or "头部平台"
+    count = len(month_articles)
+    if any(tag in top_tags for tag in ["Agentic Commerce", "交易闭环"]):
+        return (
+            f"{focus}进入交易责任竞争",
+            f"{month} 共收录 {count} 条高价值信息，主线集中在{focus}。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；{competitors}等信号说明购物智能体正在逼近真实交易基础设施。",
+            "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
+        )
+    if any(tag in top_tags for tag in ["竞品案例", "C端AI产品", "AI搜索"]):
+        return (
+            f"{focus}重塑购物入口",
+            f"{month} 共收录 {count} 条高价值信息，核心变化是{competitors}等平台把AI能力放进搜索、应用、浏览器或购物场景入口。它们的共同点不是“多了聊天框”，而是试图把用户的模糊需求、上下文和候选商品提前组织好。",
+            "产品侧应重点拆解竞品的入口位置、上下文继承、商品证据调用和交易推进深度；真正可迁移的不是UI形态，而是它减少了用户哪一步决策成本。",
+        )
+    if "虚拟试穿" in top_tags:
+        return (
+            "视觉导购开始从营销玩法变成决策证据",
+            f"{month} 共收录 {count} 条高价值信息，视觉/试穿相关信号更密集。它们说明非标品导购的关键不是生成更好看的图，而是把尺码、风格、搭配场景和后悔成本提前显性化。",
+            "产品侧应把试穿结果纳入推荐排序和对比逻辑：解释为什么适合、哪里不适合、替代款是什么，并把退货风险作为推荐证据的一部分。",
+        )
+    if any(tag in top_tags for tag in ["商家Agent", "商品库", "GEO"]):
+        return (
+            f"{focus}把竞争推向供给侧",
+            f"{month} 共收录 {count} 条高价值信息，主线是商品、商家和AI可见性。AI导购质量越来越取决于供给侧资料是否可读、可信、实时，而不是单纯模型表达能力。",
+            "产品侧应建设商家AI工作台：让商家补齐卖点证据、禁忌、适用场景、库存履约和服务承诺，并把AI推荐/未推荐原因反馈给商家。",
+        )
+    if "即时零售" in top_tags:
+        return (
+            "本地生活成为AI导购习惯入口",
+            f"{month} 共收录 {count} 条高价值信息，即时零售/本地生活信号更突出。高频、低风险、强时效场景更容易让用户接受AI代劳，也能更快产生反馈数据。",
+            "产品侧应优先做附近、现在、预算内、可履约的确定性推荐，并从补货、凑单、配送确认等小任务建立信任。",
+        )
+    return (
+        f"{focus}提供新的产品假设",
+        f"{month} 共收录 {count} 条高价值信息，信号分布在{focus}。这些资料更适合被当作产品假设库：判断每条信息改变的是入口、理解、证据、授权、交易还是购后。",
+        "产品侧应把每月资料转成可验证问题：用户是否更快表达需求、是否更信任推荐依据、是否更愿意授权AI推进下一步，以及履约失败时是否可兜底。",
+    )
+
+
 def refresh_monthly_reports(articles: list[dict[str, Any]]) -> None:
-    existing_reports = load_json(MONTHLY_REPORTS_PATH, [])
-    by_month = {report.get("month"): report for report in existing_reports}
     months = sorted({item["date"][:7] for item in articles}, reverse=True)
     reports = []
     for month in months:
         month_articles = [item for item in articles if item["date"].startswith(month)]
         month_articles.sort(key=lambda item: item.get("valueScore", 0), reverse=True)
         top_ids = [item["id"] for item in month_articles[:5]]
-        report = dict(by_month.get(month, {}))
-        if not report:
-            top_tags = []
-            for item in month_articles[:5]:
-                top_tags.extend(item.get("tags", []))
-            focus = "、".join(list(dict.fromkeys(top_tags))[:4]) or "AI购物"
-            report = {
-                "month": month,
-                "title": f"{focus}成为本月主线",
-                "summary": f"本月高价值信息集中在{focus}，重点观察其对AI导购入口、交易闭环和商家接入的影响。",
-                "productImplication": "产品团队应把当月新信号翻译成可验证假设，并进入需求澄清、推荐解释、交易确认或商家接入模块。",
-            }
-        report["month"] = month
-        report["topArticleIds"] = top_ids
-        reports.append(report)
+        title, summary, implication = monthly_report_text(month, month_articles)
+        reports.append({
+            "month": month,
+            "title": title,
+            "summary": summary,
+            "productImplication": implication,
+            "articleCount": len(month_articles),
+            "topArticleIds": top_ids,
+        })
     write_json(MONTHLY_REPORTS_PATH, reports)
 
 
@@ -1183,61 +1434,247 @@ def tag_counts(articles: list[dict[str, Any]]) -> list[tuple[str, int]]:
 
 def trend_note_for(insight: dict[str, Any], related: list[dict[str, Any]], recent: list[dict[str, Any]]) -> str:
     if not related:
-        return "最新复盘：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。"
+        return "来源提示：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。"
     recent_related = [item for item in recent if item in related] or related[:5]
     tags = [tag for tag, _ in tag_counts(recent_related)[:3]]
     focus = "、".join(tags) or "AI购物"
     title = insight.get("title", "")
     if "记忆" in title:
-        return f"最新复盘：相关资料继续指向{focus}，记忆能力要从聊天上下文升级为可编辑的购买约束，否则很难支撑长期授权。"
+        return f"来源提示：相关资料继续指向{focus}，记忆能力要从聊天上下文升级为可编辑的购买约束，否则很难支撑长期授权。"
     if "信任" in title or "风险" in title:
-        return f"最新复盘：{focus}信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。"
+        return f"来源提示：{focus}信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。"
     if "商家" in title or "机器" in title:
-        return f"最新复盘：{focus}正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。"
+        return f"来源提示：{focus}正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。"
     if "闭环" in title or "购物车" in title or "漏斗" in title:
-        return f"最新复盘：{focus}显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。"
-    return f"最新复盘：近一批高价值信息集中在{focus}，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+        return f"来源提示：{focus}显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。"
+    return f"来源提示：近一批高价值信息集中在{focus}，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+
+
+PRODUCT_IDEA_BLUEPRINTS = [
+    {
+        "id": "auto-constraint-collector",
+        "title": "搜索框要升级成“约束收集器”",
+        "summary": "AI导购最先改变的不是结果页，而是需求表达：把预算、用途、禁忌、时间、履约和偏好一次性收齐，推荐才有判断基础。",
+        "takeaways": ["把模糊需求拆成可确认约束", "用追问补足风险信息，而不是急着出商品", "让用户能随时修改约束并刷新候选集"],
+        "keywords": ["需求澄清", "约束", "搜索", "决策", "可编辑偏好"],
+        "terms": ["search", "recommendation", "discovery", "搜索", "推荐", "意图", "约束", "导购"],
+    },
+    {
+        "id": "auto-reason-not-to-buy",
+        "title": "AI必须说清“为什么不推荐”",
+        "summary": "导购的可信度来自排除逻辑：比起只解释推荐理由，更要展示哪些商品因尺码、预算、评价、履约或售后风险被淘汰。",
+        "takeaways": ["把反例做进对比卡片", "把退货/差评风险前置到推荐理由", "让用户能纠正AI排除标准"],
+        "keywords": ["不推荐理由", "证据", "风险前置", "信任", "评价"],
+        "terms": ["trust", "risk", "review", "evidence", "评价", "证据", "风险", "信任", "测评"],
+    },
+    {
+        "id": "auto-memory-rules-panel",
+        "title": "记忆应该是一张“我的购买规则”",
+        "summary": "购物记忆不是聊天记录，而是用户可看见、可编辑、可冻结的购买约束；只有透明记忆才可能支撑长期授权。",
+        "takeaways": ["沉淀预算、尺码、品牌禁忌和复购周期", "把记忆修改做成主入口", "让AI说明本次推荐调用了哪些记忆"],
+        "keywords": ["记忆", "购买规则", "偏好", "复购", "授权"],
+        "terms": ["memory", "personalization", "preference", "context", "habit", "记忆", "偏好", "个性化", "复购"],
+    },
+    {
+        "id": "auto-low-risk-permission",
+        "title": "先做低风险授权，再谈全自动代买",
+        "summary": "用户不会一开始就把高客单决策交给AI；更现实的阶梯是提醒、比价、凑单、补货、售后这类可撤回的小任务。",
+        "takeaways": ["从提醒和补货建立信任", "每次授权都给撤回和确认", "把错误成本作为场景优先级标准"],
+        "keywords": ["低风险授权", "复购", "售后", "信任阶梯", "代劳"],
+        "terms": ["permission", "checkout", "order", "payment", "复购", "补货", "售后", "授权", "下单", "支付"],
+    },
+    {
+        "id": "auto-product-evidence-layer",
+        "title": "商品详情页要有一层“机器可读证据”",
+        "summary": "AI能否稳定推荐，取决于商品卖点、适用人群、禁忌、库存、价格、评价和履约承诺是否被结构化。",
+        "takeaways": ["让商家补齐可被AI引用的证据", "把证据完整度纳入商品质量分", "推荐理由必须能回链到商品事实"],
+        "keywords": ["商品库", "机器可读", "商家", "证据层", "供给侧"],
+        "terms": ["product data", "catalog", "merchant", "seller", "storefront", "商品", "商品库", "商家", "库存", "履约"],
+    },
+    {
+        "id": "auto-visual-proof",
+        "title": "试穿不是生成图，而是把后悔成本前置",
+        "summary": "视觉导购的价值是证明“适不适合我”：尺码、风格、场景和搭配证据要进入排序与对比，而不是只做营销图。",
+        "takeaways": ["把试穿结果转成推荐排序因子", "补充尺码和场景适配解释", "用视觉证据降低非标品退货风险"],
+        "keywords": ["试穿", "视觉导购", "非标品", "适配证据", "风险前置"],
+        "terms": ["try-on", "virtual try", "visual", "style", "fashion", "试穿", "试衣", "试鞋", "视觉", "风格"],
+    },
+    {
+        "id": "auto-external-ai-handoff",
+        "title": "外部AI入口进站后不能丢上下文",
+        "summary": "ChatGPT、Perplexity、Google等入口会带来半成型购物意图；站内体验要继承问题、约束和候选，而不是让用户重新搜索。",
+        "takeaways": ["识别外部入口带来的意图包", "落地页继续比较和证据展示", "把优惠、库存和售后补成交易确认"],
+        "keywords": ["外部AI入口", "上下文继承", "AI搜索", "承接", "转化"],
+        "terms": ["chatgpt", "perplexity", "google", "ai search", "answer engine", "流量", "入口", "上下文", "AI搜索"],
+    },
+    {
+        "id": "auto-local-certainty",
+        "title": "本地生活AI导购卖的是“此刻确定性”",
+        "summary": "外卖、买菜、到店场景里，用户要的是附近、现在、预算内、能准时履约；AI应该先解决确定性，再追求复杂推荐。",
+        "takeaways": ["把位置、时间、库存、配送和优惠合并判断", "优先做高频低风险任务", "用履约状态反哺下一次推荐"],
+        "keywords": ["本地生活", "即时零售", "履约确定性", "高频", "小美"],
+        "terms": ["grocery", "quick-commerce", "instant", "local", "美团", "小美", "问小团", "外卖", "买菜", "即时零售", "本地生活"],
+    },
+    {
+        "id": "auto-agentic-checkout-contract",
+        "title": "Agentic Commerce本质是一份“交易责任合约”",
+        "summary": "智能体替用户推进交易时，关键不是下单速度，而是授权、支付、撤回、异常处理和责任归属是否被产品化。",
+        "takeaways": ["把确认/撤回做成默认路径", "区分建议、代填、代付、代买的权限等级", "让每次动作都有日志和追责依据"],
+        "keywords": ["Agentic Commerce", "支付", "授权", "交易责任", "闭环"],
+        "terms": ["agentic commerce", "checkout", "payment", "visa", "mastercard", "stripe", "paypal", "支付", "结算", "授权", "闭环"],
+    },
+    {
+        "id": "auto-merchant-training-console",
+        "title": "商家后台要从“填资料”变成“训练AI怎么卖”",
+        "summary": "当AI成为导购入口，商家需要管理的不只是商品字段，而是卖点证据、适用人群、禁忌、替代品和服务承诺。",
+        "takeaways": ["给商家展示AI如何理解商品", "提供卖点/禁忌/场景的结构化补全", "把AI推荐归因反馈给商家优化供给"],
+        "keywords": ["商家Agent", "供给侧", "AI可见性", "商品表达", "归因"],
+        "terms": ["merchant", "seller", "aidge", "storefront", "商家", "卖家", "店铺", "投放", "AI可见性", "GEO"],
+    },
+    {
+        "id": "auto-intent-cart",
+        "title": "购物车会变成“未完成意图”的容器",
+        "summary": "未来购物车不只是商品暂存，而是预算、候选、纠结点、价格提醒、凑单和售后承诺的任务看板。",
+        "takeaways": ["保留用户为什么犹豫", "让AI持续追踪价格和库存变化", "把购物车变成可恢复的决策现场"],
+        "keywords": ["购物车", "意图容器", "价格提醒", "凑单", "决策恢复"],
+        "terms": ["cart", "shopping cart", "price", "wishlist", "购物车", "收藏", "价格", "凑单", "比价"],
+    },
+    {
+        "id": "auto-post-purchase-retention",
+        "title": "购后才是AI导购建立长期关系的低成本入口",
+        "summary": "售后、保价、耗材补货、使用提醒和退换货建议，比一次性推荐更容易让用户感知AI在替自己负责。",
+        "takeaways": ["把订单生命周期纳入导购记忆", "用保价/售后提醒建立可信代劳", "从购后数据反推下一次推荐"],
+        "keywords": ["购后", "售后", "保价", "复购", "留存"],
+        "terms": ["post-purchase", "after-sales", "order", "return", "售后", "退货", "保价", "复购", "订单"],
+    },
+]
+
+
+def related_articles_by_terms(articles: list[dict[str, Any]], terms: list[str], limit: int = 10) -> list[dict[str, Any]]:
+    matched = []
+    for item in articles:
+        text = article_context(item, include_existing_analysis=True)
+        if contains_any(text, terms):
+            matched.append(item)
+    matched.sort(key=lambda item: (item.get("valueScore", 0), item.get("date", "")), reverse=True)
+    return matched[:limit]
 
 
 def build_auto_insights(articles: list[dict[str, Any]], now: str) -> list[dict[str, Any]]:
-    latest_month = max({item["date"][:7] for item in articles}) if articles else dt.datetime.now(TZ).strftime("%Y-%m")
-    month_articles = [item for item in articles if item["date"].startswith(latest_month)]
-    recent_articles = sorted(month_articles or articles, key=lambda item: (item.get("date", ""), item.get("valueScore", 0)), reverse=True)[:24]
-    top_tags = [tag for tag, _ in tag_counts(recent_articles)[:5]] or ["AI购物"]
-    top_ids = [item["id"] for item in sorted(recent_articles, key=lambda item: item.get("valueScore", 0), reverse=True)[:8]]
-    focus = "、".join(top_tags[:3])
-    return [
-        {
-            "id": "auto-current-signal",
-            "title": f"最新复盘：{focus}正在收敛成产品主线",
-            "summary": f"{latest_month} 的信息密度显示，AI购物的竞争点不是单一助手入口，而是{focus}这些能力之间能否互相闭环。",
-            "trendNote": "产品上更该把新增资讯拆成可验证模块：入口是否更自然、证据是否更可信、商家供给是否可读、交易是否可执行。",
-            "takeaways": ["用月度高频信号更新路线图优先级", "把新闻动态转成可实验的产品假设", "避免只追热点发布而忽略交易链路"],
-            "keywords": top_tags[:5] + ["最新复盘", "产品路线"],
-            "relatedArticleIds": top_ids,
+    insights = []
+    for blueprint in PRODUCT_IDEA_BLUEPRINTS:
+        related = related_articles_by_terms(articles, blueprint["terms"], 12)
+        if not related:
+            continue
+        insights.append({
+            "id": blueprint["id"],
+            "title": blueprint["title"],
+            "summary": blueprint["summary"],
+            "takeaways": blueprint["takeaways"],
+            "keywords": blueprint["keywords"],
+            "relatedArticleIds": [item["id"] for item in related],
+            "sourceCount": len(related),
             "updatedAt": now,
-        },
-        {
-            "id": "auto-evidence-gap",
-            "title": "每天新增资料最该沉淀成“证据库”",
-            "summary": "资讯越多，AI导购越不能只做摘要；真正可复用的是场景、约束、失败案例、官方能力和交易规则这些可被产品调用的证据。",
-            "trendNote": "建议把每日信息拆成观点、证据、适用品类、风险边界四类资产，让灵感集成为产品判断的知识底座。",
-            "takeaways": ["每条资料至少沉淀一个产品判断", "把来源链接挂到对应灵感而不是孤立收藏", "优先保留能影响决策链路的证据"],
-            "keywords": ["证据库", "信息复盘", "产品判断", "资料结构化", "灵感沉淀"],
-            "relatedArticleIds": top_ids,
+        })
+    return insights
+
+
+def spark_angle(item: dict[str, Any]) -> tuple[str, str, list[str], list[str]]:
+    text = article_context(item, include_existing_analysis=True)
+    entities = detected_labels(text, ENTITY_RULES, 2)
+    entity = "、".join(entities) if entities else item.get("source", "这条信号")
+    if contains_any(text, ["try-on", "virtual try", "试穿", "试衣", "试鞋", "visual", "视觉", "图片", "多模态"]):
+        return (
+            f"把{entity}的视觉能力拆成“适配证据”",
+            "这条信号启发的是：视觉导购不要只做生成效果图，而要把尺码、风格、场景和退货风险变成可比较、可追责的推荐证据。",
+            ["把视觉结果接入推荐排序", "在对比卡里展示适配/不适配证据", "用失败样例训练用户预期"],
+            ["视觉导购", "适配证据", "试穿", "非标品"],
+        )
+    if contains_any(text, ["memory", "personalization", "preference", "context", "habit", "记忆", "偏好", "个性化", "复购"]):
+        return (
+            f"把{entity}的个性化能力做成可编辑购买规则",
+            "这条信号启发的是：用户愿意让AI记住的不是隐形画像，而是能被检查和修改的购买规则；记忆越透明，越适合承接长期导购。",
+            ["展示本次推荐调用了哪些记忆", "允许用户冻结/删除单条偏好", "把复购周期和品牌禁忌沉淀为规则"],
+            ["记忆", "偏好", "购买规则", "复购"],
+        )
+    if contains_any(text, ["checkout", "payment", "agentic commerce", "visa", "mastercard", "stripe", "paypal", "支付", "结算", "下单", "闭环"]):
+        return (
+            f"把{entity}的交易动作拆成分级授权",
+            "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
+            ["先做提醒/代填等低风险动作", "为支付和下单提供二次确认", "把异常处理写进导购主流程"],
+            ["交易闭环", "授权", "支付", "责任"],
+        )
+    if contains_any(text, ["merchant", "seller", "catalog", "product data", "storefront", "商家", "卖家", "商品库", "库存", "履约", "GEO", "可见性"]):
+        return (
+            f"把{entity}的供给侧动作转成AI可读资产",
+            "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
+            ["建立商品证据完整度评分", "给商家反馈AI看不懂的字段", "让推荐理由回链到结构化事实"],
+            ["商家", "商品库", "机器可读", "供给侧"],
+        )
+    if contains_any(text, ["search", "answer engine", "ai search", "perplexity", "google", "夸克", "AI搜索", "搜索", "答案"]):
+        return (
+            f"把{entity}的搜索入口当成需求澄清入口",
+            "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
+            ["落地页继承外部AI上下文", "把搜索问题转为预算/场景/禁忌", "用证据和优惠完成临门一脚"],
+            ["AI搜索", "入口", "需求澄清", "承接"],
+        )
+    if contains_any(text, ["grocery", "quick-commerce", "instant", "美团", "小美", "问小团", "外卖", "买菜", "即时零售", "本地生活"]):
+        return (
+            f"把{entity}的本地生活信号理解为确定性导购",
+            "这条信号启发的是：即时场景里AI不需要给最丰富的推荐，而要最快合并位置、时间、库存、配送和优惠，给出现在就可执行的选择。",
+            ["用履约确定性做排序主因子", "优先覆盖高频低风险任务", "让异常和替代方案自动浮出"],
+            ["本地生活", "即时零售", "履约确定性", "高频"],
+        )
+    if contains_any(text, ["review", "tested", "trust", "risk", "实测", "测评", "评价", "信任", "风险"]):
+        return (
+            f"把{entity}的测评/风险信号变成验收清单",
+            "这条信号启发的是：真实用户测评比发布稿更适合转成产品验收标准，检查AI是否核价、核库存、解释取舍并给替代方案。",
+            ["沉淀推荐失败样例", "把用户质疑点变成测试用例", "在结果页展示AI如何排除候选"],
+            ["测评", "信任", "验收清单", "风险"],
+        )
+    return (
+        f"把{entity}的AI能力拆成可验证产品假设",
+        "这条信号启发的是：不要只记录谁上线了AI，而要拆出它改变了购物链路的哪一步，以及能否用小实验验证入口、证据、授权或履约效果。",
+        ["标注它影响的购物节点", "提出一个可验证指标", "把相关来源挂到同一灵感下持续复盘"],
+        ["产品假设", "竞品拆解", "实验设计", "决策链路"],
+    )
+
+
+def build_spark_insights(articles: list[dict[str, Any]], now: str, limit: int = 140) -> list[dict[str, Any]]:
+    ranked = sorted(articles, key=lambda item: (item.get("valueScore", 0), item.get("date", "")), reverse=True)
+    sparks = []
+    seen_titles: set[str] = set()
+    per_month: dict[str, int] = {}
+    for item in ranked:
+        month = item.get("date", "")[:7]
+        if per_month.get(month, 0) >= 14:
+            continue
+        title, summary, takeaways, keywords = spark_angle(item)
+        title_sig = analysis_signature(title)
+        if title_sig in seen_titles:
+            continue
+        related_terms = list(dict.fromkeys(keywords + (item.get("tags") or [])))
+        related = [item]
+        for candidate in related_articles_by_terms(articles, related_terms, 6):
+            if candidate["id"] != item["id"]:
+                related.append(candidate)
+            if len(related) >= 5:
+                break
+        sparks.append({
+            "id": f"{SPARK_INSIGHT_PREFIX}{item['id']}",
+            "title": title,
+            "summary": summary,
+            "takeaways": takeaways,
+            "keywords": list(dict.fromkeys(keywords + (item.get("tags") or [])))[:8],
+            "relatedArticleIds": [article["id"] for article in related],
+            "sourceCount": len(related),
             "updatedAt": now,
-        },
-        {
-            "id": "auto-next-experiment",
-            "title": "下一步应围绕“低风险授权”设计实验",
-            "summary": "从近一年资料看，AI导购最容易启动的不是万能代买，而是低风险、高频、可撤回的局部授权。",
-            "trendNote": "可以优先验证三类入口：复购补货、预算内比选、售后/保价提醒；这些场景失败成本低，更容易积累用户信任。",
-            "takeaways": ["用小授权替代一步到位的全自动", "用复购和售后提升留存频次", "用可撤回机制降低心理门槛"],
-            "keywords": ["低风险授权", "复购", "信任阶梯", "售后", "实验设计"],
-            "relatedArticleIds": top_ids,
-            "updatedAt": now,
-        },
-    ]
+        })
+        seen_titles.add(title_sig)
+        per_month[month] = per_month.get(month, 0) + 1
+        if len(sparks) >= limit:
+            break
+    return sparks
 
 
 def daily_reflection_angle(articles: list[dict[str, Any]]) -> tuple[str, str, str, list[str]]:
@@ -1323,6 +1760,7 @@ def refresh_insights(articles: list[dict[str, Any]]) -> int:
         item for item in existing
         if not str(item.get("id", "")).startswith(AUTO_INSIGHT_PREFIX)
         and not str(item.get("id", "")).startswith(DAILY_INSIGHT_PREFIX)
+        and not str(item.get("id", "")).startswith(SPARK_INSIGHT_PREFIX)
     ]
     recent_cutoff = dt.datetime.now(TZ).date() - dt.timedelta(days=30)
     recent = [item for item in articles if dt.date.fromisoformat(item["date"]) >= recent_cutoff]
@@ -1336,10 +1774,10 @@ def refresh_insights(articles: list[dict[str, Any]]) -> int:
         updated["trendNote"] = trend_note_for(insight, related, recent)
         updated["updatedAt"] = now
         reviewed.append(updated)
-    daily_reflections = build_daily_reflections(articles, now)
     auto = build_auto_insights(articles, now)
-    write_json(INSIGHTS_PATH, reviewed + daily_reflections + auto)
-    return len(reviewed) + len(daily_reflections) + len(auto)
+    sparks = build_spark_insights(articles, now)
+    write_json(INSIGHTS_PATH, reviewed + auto + sparks)
+    return len(reviewed) + len(auto) + len(sparks)
 
 
 def main() -> None:

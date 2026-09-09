@@ -93,6 +93,7 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .insight-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .user-grid:empty { display: none; }
 .insight-card { background: white; border: 1px solid var(--line); border-radius: 26px; padding: 22px; }
+.spark-insight-card { background: linear-gradient(180deg, #fff, rgba(255, 250, 241, 0.92)); border-color: rgba(241, 162, 62, 0.24); }
 .daily-reflection-card { background: linear-gradient(145deg, #ffffff, #f7f4ff); border-color: rgba(107,78,255,0.2); }
 .insight-card h3 { margin: 6px 0 10px; font-size: 22px; letter-spacing: -0.04em; }
 .insight-card p { color: var(--muted); line-height: 1.72; margin: 0 0 14px; }

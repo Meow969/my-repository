@@ -32,10 +32,10 @@ cd /Users/yangmengyao.20/my_project/ai-shopping-radar
 
 ```bash
 cd /Users/yangmengyao.20/my_project/ai-shopping-radar
-python3 scripts/update_content.py --days 30 --limit 8
+python3 scripts/update_content.py --days 45 --limit 15
 ```
 
-脚本会搜索近 30 天候选，按相关性、来源质量、信息密度和产品启发度打分，只追加高价值内容。
+脚本会搜索近 45 天候选，按相关性、来源质量、信息密度、去重强度和产品启发度打分，只追加高价值内容。
 
 ## 每天 11 点自动更新（本机）
 

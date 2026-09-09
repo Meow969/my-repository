@@ -56,6 +56,17 @@ SOURCE_ALIASES = {
     "corporate.kohls.com": "Kohl's Corporate",
     "instacart": "Instacart",
     "pinterest newsroom": "Pinterest Newsroom",
+    "jd.com": "京东",
+    "京东": "京东",
+    "淘宝设计": "淘宝设计",
+    "xiaohongshu": "小红书",
+    "小红书": "小红书",
+    "tiktok": "TikTok",
+    "ebay": "eBay",
+    "etsy": "Etsy",
+    "zalando": "Zalando",
+    "klarna": "Klarna",
+    "paypal": "PayPal",
 }
 
 SOURCE_PREFERENCE = {
@@ -67,6 +78,15 @@ SOURCE_PREFERENCE = {
     "Kohl's Corporate": 28,
     "Instacart": 28,
     "Pinterest Newsroom": 26,
+    "京东": 25,
+    "淘宝设计": 24,
+    "小红书": 20,
+    "TikTok": 20,
+    "eBay": 20,
+    "Etsy": 20,
+    "Zalando": 20,
+    "Klarna": 20,
+    "PayPal": 20,
     "OpenAI Blog": 30,
     "OpenAI": 30,
     "Shopify Blog": 28,
@@ -119,9 +139,9 @@ SHOPPING_TERMS = [
     "shopping", "commerce", "retail", "merchant", "seller", "ecommerce", "checkout", "cart",
     "product discovery", "personal shopper", "try on", "rufus", "agentic commerce", "storefront",
     "电商", "零售", "购物", "导购", "商家", "卖家", "商品", "下单", "支付", "淘宝", "京东",
-    "天猫", "千问", "美团", "小美", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa",
+    "天猫", "千问", "美团", "小美", "京东", "京言", "言犀", "虾皮", "shopee", "亚马逊", "amazon", "rufus", "alexa",
     "得物", "闪购", "买菜", "货架", "履约", "售后", "比价", "试穿", "试衣", "试鞋", "虚拟试穿",
-    "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "aidge", "aliexpress",
+    "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "aidge", "aliexpress", "tiktok shop", "ebay", "etsy", "zalando", "klarna", "paypal",
 ]
 AI_TERMS = [
     "ai", "agent", "assistant", "chatgpt", "gemini", "claude", "perplexity", "rufus", "anthropic",
@@ -188,9 +208,10 @@ def normalized_meaning(value: str) -> str:
 
 
 def insight_signature(item: dict[str, Any]) -> str:
-    if isinstance(item.get("corePoint"), list):
-        return ""
-    core = normalized_meaning(str(item.get("corePoint", "")))
+    core_value = item.get("corePoint", "")
+    if isinstance(core_value, list):
+        core_value = " ".join(str(point) for point in core_value if point)
+    core = normalized_meaning(str(core_value))
     insight = normalized_meaning(str(item.get("insight", "")))
     if len(core) < 18 or len(insight) < 18:
         return ""
@@ -206,6 +227,22 @@ def event_signature(item: dict[str, Any]) -> str:
         "merchant agents", "shopping and merchant", "商家运营助手",
     ]):
         return f"{date}:anthropic-commerce-blueprint"
+    if ("openai" in text or "chatgpt" in text or "operator" in text) and any(term in text for term in ["shopping", "checkout", "agent", "operator", "search", "recommendation", "购物", "导购", "下单"]):
+        return f"{date}:openai-shopping-agent"
+    if ("google" in text or "gemini" in text) and any(term in text for term in ["ai mode", "virtual try", "shopping", "lens", "product comparison", "购物", "试穿", "搜索"]):
+        return f"{date}:google-ai-shopping"
+    if "perplexity" in text and any(term in text for term in ["shopping", "commerce", "buy", "browser", "comet", "answer engine", "购物", "电商"]):
+        return f"{date}:perplexity-shopping-search"
+    if "klarna" in text and any(term in text for term in ["ai assistant", "shopping", "personal shopper", "checkout"]):
+        return f"{date}:klarna-ai-shopping"
+    if "etsy" in text and any(term in text for term in ["gift mode", "ai", "shopping", "recommendation"]):
+        return f"{date}:etsy-ai-gift-shopping"
+    if "zalando" in text and any(term in text for term in ["fashion assistant", "ai", "shopping", "style"]):
+        return f"{date}:zalando-ai-fashion-assistant"
+    if ("京东" in text or "京言" in text or "言犀" in text) and any(term in text for term in ["ai", "智能", "导购", "购物助手", "试穿"]):
+        return f"{date}:jd-ai-shopping"
+    if ("小红书" in text or "xiaohongshu" in text) and any(term in text for term in ["ai", "搜索", "购物", "种草", "推荐"]):
+        return f"{date}:xiaohongshu-ai-shopping-search"
     if ("支付宝" in text or "alipay" in text) and any(term in text for term in ["ju1111", "网站协议", "智能体商业底座"]):
         return f"{date}:alipay-ju1111-protocol"
     if ("千问" in text or "qwen" in text) and any(term in text for term in ["淘宝", "闪购", "支付宝", "ai购物", "购物闭环"]):

@@ -16,7 +16,7 @@ const state = {
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-08-core-points-v1';
+const DATA_VERSION = '2026-09-08-product-ideas-v1';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -375,10 +375,11 @@ function renderInsights() {
     const related = uniqueLinks([...explicit, ...inferred])
       .sort((a, b) => b.valueScore - a.valueScore || b.date.localeCompare(a.date));
     const visibleRelated = related.slice(0, 8);
-    const isDailyReflection = String(insight.id || '').startsWith('daily-reflection-');
+    const isSpark = String(insight.id || '').startsWith('spark-');
+    const badge = isSpark ? '资讯触发的产品灵感' : '产品原则灵感';
     return `
-      <article class="insight-card ${isDailyReflection ? 'daily-reflection-card' : ''}">
-        <span class="system-badge">${isDailyReflection ? '每日新反思' : 'AI复盘'} · ${related.length}条信息源${insight.updatedAt ? ` · ${insight.updatedAt.slice(5, 10)}` : ''}</span>
+      <article class="insight-card ${isSpark ? 'spark-insight-card' : ''}">
+        <span class="system-badge">${badge} · ${related.length}条来源${insight.updatedAt ? ` · ${insight.updatedAt.slice(5, 10)}` : ''}</span>
         <h3>${insight.title}</h3>
         <p>${insight.summary}</p>
         ${insight.trendNote ? `<p class="trend-note">${insight.trendNote}</p>` : ''}

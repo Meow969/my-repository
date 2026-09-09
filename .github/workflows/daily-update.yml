@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install requests
-      - run: python scripts/update_content.py --days 30 --limit 8
+      - run: python scripts/update_content.py --days 45 --limit 15
       - name: Commit data updates
         run: |
           if [[ -n "$(git status --porcelain data)" ]]; then
