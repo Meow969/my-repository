@@ -1,5 +1,59 @@
 [
   {
+    "id": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+    "date": "2026-09-10",
+    "title": "Instacart launches AI assistant Clementine, agentic commerce integrations",
+    "source": "Digital Commerce 360",
+    "region": "海外",
+    "url": "https://digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations",
+    "excerpt": "Instacart launches AI assistant Clementine, agentic commerce integrations Digital Commerce 360",
+    "corePoint": [
+      "案例主体是Instacart，场景落在AI购物助手",
+      "智能体商业不只是更聪明的结算",
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
+    ],
+    "contentType": "竞品",
+    "category": "平台案例",
+    "tags": [
+      "竞品案例",
+      "Agentic Commerce"
+    ],
+    "insight": "基于“案例主体是Instacart，场景落在AI购物助手”这个信号，AI导购不能只在付款页做效率优化，真正机会在于把逛、选、比、确认、支付、售后做成连续责任链；每一步都要有解释、撤回和兜底。",
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "trust-ladder",
+      "agentic-funnel"
+    ],
+    "valueScore": 80
+  },
+  {
+    "id": "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
+    "date": "2026-09-09",
+    "title": "Meet Clementine: Instacart's AI Shopping Assistant That Takes \"What's for Dinner?\" Off Your Plate",
+    "source": "Instacart",
+    "region": "海外",
+    "url": "https://investors.instacart.com/news-releases/news-release-details/meet-clementine-instacarts-ai-shopping-assistant-takes-whats",
+    "excerpt": "Meet Clementine: Instacart's AI Shopping Assistant That Takes \"What's for Dinner?\" Off Your Plate Instacart",
+    "corePoint": [
+      "案例主体是Instacart，场景落在AI购物助手",
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
+    "contentType": "竞品",
+    "category": "平台案例",
+    "tags": [
+      "AI购物",
+      "竞品案例"
+    ],
+    "insight": "基于“案例主体是Instacart，场景落在AI购物助手”这个信号，竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。这条资料更适合补足Instacart在2026-09-09的平台案例视角，而不是和同主题资讯合并成泛泛结论。",
+    "relatedInsightIds": [
+      "competitor-function-radar",
+      "decision-os",
+      "closed-loop-first"
+    ],
+    "valueScore": 74
+  },
+  {
     "id": "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098",
     "date": "2026-09-09",
     "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
@@ -836,7 +890,7 @@
       "平台正在把AI能力放进购物入口或交易资产",
       "这条资料可作为PYMNTS.com在2026-08-24关于平台案例/竞品的侧面证据，适合与同月同主题信息交叉验证"
     ],
-    "insight": "基于“案例主体是Instacart，场景落在AI购物助手”这个信号，竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。",
+    "insight": "基于“案例主体是Instacart，场景落在AI购物助手”这个信号，竞品拆解要落到链路颗粒度：入口在哪里、承接什么意图、调用哪些交易资产、推进到哪一步、失败如何回退；不要只记录“上线AI助手”。这条资料更适合补足PYMNTS.com在2026-08-24的平台案例视角，而不是和同主题资讯合并成泛泛结论。",
     "valueScore": 62,
     "relatedInsightIds": [
       "competitor-function-radar",
