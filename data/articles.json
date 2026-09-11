@@ -27,6 +27,34 @@
     "valueScore": 80
   },
   {
+    "id": "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+    "date": "2026-09-10",
+    "title": "PayPal 谈 Agentic Commerce：AI 智能体将如何进入跨境支付场景？",
+    "source": "InfoQ-CN",
+    "region": "国内",
+    "url": "https://infoq.cn/news/8t2vJHOc5srUyQqSlO9m",
+    "excerpt": "PayPal谈 Agentic Commerce：AI智能体将如何进入跨境支付场景？",
+    "corePoint": [
+      "案例主体是PayPal，场景落在支付/结算",
+      "交易能力正在嵌入外部AI入口，品牌自有站和平台入口关系被重新分配",
+      "这条资料可作为InfoQ-CN在2026-09-10关于平台案例/竞品的侧面证据，适合与同月同主题信息交叉验证"
+    ],
+    "contentType": "竞品",
+    "category": "平台案例",
+    "tags": [
+      "竞品案例",
+      "Agentic Commerce",
+      "交易闭环"
+    ],
+    "insight": "基于“案例主体是PayPal，场景落在支付/结算”这个信号，针对PayPal的支付/结算信号，支付链路的产品重点是异常处理：价格变化、缺货、延迟、误购时AI如何解释、暂停、回滚和追责。",
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "trust-ladder",
+      "agentic-funnel"
+    ],
+    "valueScore": 80
+  },
+  {
     "id": "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
     "date": "2026-09-09",
     "title": "Meet Clementine: Instacart's AI Shopping Assistant That Takes \"What's for Dinner?\" Off Your Plate",
@@ -37,7 +65,7 @@
     "corePoint": [
       "案例主体是Instacart，场景落在AI购物助手",
       "平台正在把AI能力放进购物入口或交易资产",
-      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+      "这条资料可作为Instacart在2026-09-09关于平台案例/竞品的侧面证据，适合与同月同主题信息交叉验证"
     ],
     "contentType": "竞品",
     "category": "平台案例",
@@ -2855,7 +2883,7 @@
     "corePoint": [
       "案例主体是PayPal，场景落在支付/结算",
       "交易能力正在嵌入外部AI入口，品牌自有站和平台入口关系被重新分配",
-      "智能体商业不只是更聪明的结算"
+      "这条资料可作为PayPal在2026-06-02关于平台案例/竞品的侧面证据，适合与同月同主题信息交叉验证"
     ],
     "insight": "基于“案例主体是PayPal，场景落在支付/结算”这个信号，针对PayPal的支付/结算信号，支付不应被当作链路末端按钮，而要设计成可授权、可撤回、可追责的交易能力；否则AI越主动，误购和责任风险越大。",
     "valueScore": 64,
