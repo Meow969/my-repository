@@ -16,7 +16,7 @@ const state = {
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-08-product-ideas-v1';
+const DATA_VERSION = '2026-09-11-product-insights-v2';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -242,6 +242,16 @@ function renderCorePoints(corePoint) {
   return `<ol class="core-points">${cleanPoints.map(point => `<li>${escapeHtml(point)}</li>`).join('')}</ol>`;
 }
 
+function renderProductInsight(insight) {
+  const parts = String(insight || '').split(/\s*｜\s*|\n+/).map(item => item.trim()).filter(Boolean);
+  if (parts.length <= 1) return `<p>${escapeHtml(parts[0] || '')}</p>`;
+  return `<ul class="product-insight-list">${parts.map(part => {
+    const match = part.match(/^([^：:]{2,8})[：:]\s*(.+)$/);
+    if (!match) return `<li>${escapeHtml(part)}</li>`;
+    return `<li><strong>${escapeHtml(match[1])}</strong><span>${escapeHtml(match[2])}</span></li>`;
+  }).join('')}</ul>`;
+}
+
 function expandSearchTerms(query) {
   const base = tokenize(query).concat(query).map(term => String(term || '').trim()).filter(Boolean);
   const expanded = [...base];
@@ -324,7 +334,7 @@ function renderArticle(article) {
         ${(article.tags || []).map(tag => `<span class="pill">#${tag}</span>`).join('')}
       </div>
       <h4>核心观点</h4>${renderCorePoints(article.corePoint)}
-      <h4>产品洞察</h4><p>${article.insight}</p>
+      <h4>产品洞察</h4>${renderProductInsight(article.insight)}
       <a class="open-link" href="${article.url}" target="_blank" rel="noreferrer">${openLabel} →</a>
     </article>`;
 }

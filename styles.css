@@ -65,6 +65,10 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .article-card p, .monthly-card p { margin: 0; color: #35323a; line-height: 1.76; }
 .core-points { margin: 0; padding-left: 20px; color: #35323a; line-height: 1.72; }
 .core-points li { margin: 3px 0; }
+.product-insight-list { display: grid; gap: 8px; margin: 0; padding: 12px 14px; list-style: none; color: #30284e; background: rgba(107,78,255,0.07); border-left: 4px solid var(--accent); border-radius: 14px; line-height: 1.68; }
+.product-insight-list li { display: grid; gap: 2px; }
+.product-insight-list strong { color: var(--accent); font-size: 12px; letter-spacing: 0.04em; }
+.product-insight-list span { color: #35323a; }
 .open-link { display: inline-flex; margin-top: 16px; color: var(--accent); font-weight: 900; }
 .active-monthly-report { margin: 8px 0 28px; }
 .featured-monthly { background: linear-gradient(145deg, rgba(255,255,255,0.92), rgba(238,234,255,0.82)); border-color: rgba(107,78,255,0.2); }
