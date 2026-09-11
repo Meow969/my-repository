@@ -10,13 +10,15 @@ const state = {
   category: 'all',
   month: '',
   activeTab: 'feed',
-  activeKeyword: 'all'
+  activeKeyword: 'all',
+  noteSupport: null,
+  justSavedNoteId: ''
 };
 
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-11-product-insights-v2';
+const DATA_VERSION = '2026-09-11-note-lab-v2';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -32,6 +34,22 @@ const SEARCH_CONCEPTS = {
   '试穿': ['试穿', '试衣', '试鞋', '虚拟试穿', '视觉导购', 'try-on', 'virtual try', 'fitting'],
   '本地生活': ['本地生活', '即时零售', '美团', '小美', '淘宝闪购', '外卖', '买菜', '履约确定性']
 };
+const NOTE_KEYWORD_RULES = [
+  ['可信赖', ['可信', '信任', '放心', '可靠', 'trust']],
+  ['更懂你', ['懂你', '理解我', '个性化', '偏好', 'personal']],
+  ['偏好记忆', ['记忆', '偏好', '画像', '复购', 'context']],
+  ['授权边界', ['授权', '边界', '可撤回', '确认', 'permission']],
+  ['结账转化', ['结账', '转化', 'checkout', '支付', '下单']],
+  ['价格库存核验', ['价格', '库存', '核验', '实时', 'stock']],
+  ['履约售后', ['履约', '售后', '物流', '退货', '原因']],
+  ['商家资料层', ['商家', '卖家', '商品库', '机器可读', 'GEO']],
+  ['视觉导购', ['试穿', '视觉', '图片', '风格', '非标', 'fashion']],
+  ['即时零售', ['买菜', '外卖', '即时', '本地生活', '高频']],
+  ['跨平台交易', ['跨平台', '协议', 'UCP', 'agentic commerce', '购物车']],
+  ['竞品验证', ['沃尔玛', 'Walmart', 'Instacart', 'Amazon', 'Rufus', '淘宝', '天猫', '美团', 'Target']]
+];
+const NOTE_STOPWORDS = new Set(['这个', '那个', '因为', '所以', '但是', '然后', '应该', '需要', '重要', '很重要', '说明', '表明', '测试', '月份', '导购的', '更懂你很', '你的', '我的', '进行', '一个', '一种']);
+const WEAK_NOTE_COPY = /案例主体|侧面证据|交叉验证|链路颗粒度|这条资料|这类想法的关键验证点|站内支撑|上线AI助手|补足.*视角|AI会不会推荐|标题|核心观点|基于“/;
 const fmtDate = (iso) => new Date(`${iso}T00:00:00+08:00`).toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'short' });
 const fmtMonth = (month) => month.replace('-', '年') + '月';
 const unique = (arr) => [...new Set(arr)].filter(Boolean);
@@ -369,7 +387,7 @@ function insightMatchesKeyword(insight) {
 }
 
 function noteMatchesKeyword(note) {
-  const haystack = [note.title, note.body, note.generatedInsight, ...(note.keywords || [])].join(' ').toLowerCase();
+  const haystack = [note.title, note.summary, note.body, note.generatedInsight, ...(note.keywords || [])].join(' ').toLowerCase();
   if (state.query && semanticScore(haystack, state.query) <= 0) return false;
   if (state.activeKeyword === 'all') return true;
   const keyword = state.activeKeyword.toLowerCase();
@@ -402,7 +420,9 @@ function renderInsights() {
 }
 
 function loadUserInsights() {
-  try { return JSON.parse(localStorage.getItem(USER_INSIGHTS_KEY) || '[]'); }
+  try {
+    return JSON.parse(localStorage.getItem(USER_INSIGHTS_KEY) || '[]').map(note => enrichSavedNote(note));
+  }
   catch { return []; }
 }
 
@@ -413,14 +433,158 @@ function saveUserInsights() {
 function tokenize(text) {
   const known = unique(state.insights.flatMap(i => i.keywords || []).concat(state.articles.flatMap(a => a.tags || [])));
   const lower = text.toLowerCase();
+  const ruleHits = NOTE_KEYWORD_RULES.filter(([, terms]) => terms.some(term => lower.includes(term.toLowerCase()))).map(([label]) => label);
   const hits = known.filter(word => lower.includes(word.toLowerCase()));
   const cn = (text.match(/[\u4e00-\u9fa5]{2,}/g) || []).flatMap(chunk => {
     const parts = [];
-    for (let i = 0; i < chunk.length - 1; i += 2) parts.push(chunk.slice(i, i + 4));
+    for (let i = 0; i < chunk.length - 1; i += 3) parts.push(chunk.slice(i, i + 4));
     return parts;
   });
   const en = text.match(/[a-zA-Z][a-zA-Z\-]{2,}/g) || [];
-  return unique([...hits, ...cn, ...en]).slice(0, 10);
+  return unique([...ruleHits, ...hits, ...cn, ...en]
+    .map(token => String(token || '').trim())
+    .filter(token => token.length > 1 && !NOTE_STOPWORDS.has(token) && !/^\d+$/.test(token)))
+    .slice(0, 12);
+}
+
+function noteKeywords(note, external = [], local = []) {
+  const lower = note.toLowerCase();
+  const ruleHits = NOTE_KEYWORD_RULES
+    .filter(([, terms]) => terms.some(term => lower.includes(term.toLowerCase())))
+    .map(([label]) => label);
+  const entities = ['Walmart', '沃尔玛', 'Instacart', 'Amazon', 'Rufus', 'Google', 'Gemini', '淘宝', '天猫', '千问', '美团', '小美', '京东']
+    .filter(name => lower.includes(name.toLowerCase()));
+  const supportTags = local.flatMap(article => article.tags || []).filter(tag => !['AI购物', '竞品案例'].includes(tag));
+  const externalSignals = external.map(item => item.source || getHost(item.url)).filter(Boolean).slice(0, 2);
+  return unique([...entities, ...ruleHits, ...supportTags, ...externalSignals]).slice(0, 8);
+}
+
+function noteAngle(note) {
+  const lower = note.toLowerCase();
+  if (/沃尔玛|walmart|结账|checkout|转化|conversion/.test(lower)) {
+    return {
+      title: 'AI内结账不等于自动提升转化',
+      summary: '这条笔记的核心判断是：把结账留在AI界面里只是减少跳转摩擦，真正决定转化的是授权、核价、库存、支付确认、履约追踪和售后责任是否一起闭环。',
+      need: '用户需求：用户想少跳转、少重复确认，但不会因为界面更顺就放弃对价格、库存、配送和售后的确定性要求。',
+      opportunity: '产品机会：把“AI内结账”拆成可验证链路，而不是一个按钮；每一步都要显示AI核验了什么、还缺什么、是否需要用户确认。',
+      method: '验证方法：分别看AI界面内完成率、跳转后完成率、价格库存变更导致的退出率、售后咨询率，避免只用点击率判断成败。'
+    };
+  }
+  if (/可信|信任|可靠|放心|更懂你|懂你|偏好|记忆|personal|trust/.test(lower)) {
+    return {
+      title: '可信赖和更懂你要被设计成可见机制',
+      summary: '这条笔记的核心判断是：AI导购不能只声称“懂你”，而要让用户看见它用了哪些偏好、依据哪些证据、在哪些动作上需要授权。',
+      need: '用户需求：用户要的是“被理解但不被冒犯”——预算、尺码、品牌禁忌、风险偏好可以被记住，但必须能查看、修改和撤回。',
+      opportunity: '产品机会：做一个“我的购买规则”层，把偏好记忆、推荐证据、授权边界放在同一个可编辑面板里。',
+      method: '设计方法：每次推荐都解释调用了哪条记忆、排除了哪些候选、为什么值得信任，让“懂你”从黑箱画像变成用户可控资产。'
+    };
+  }
+  if (/商家|卖家|商品库|机器可读|库存|价格|merchant|seller|catalog|geo/.test(lower)) {
+    return {
+      title: 'AI导购的上限取决于商家资料层',
+      summary: '这条笔记指向供给侧机会：如果商品卖点、适用场景、禁忌、库存、价格和履约承诺不可读，AI再会聊天也只能给模糊建议。',
+      need: '用户需求：用户想要确定答案，而不是漂亮话；确定性来自商品事实、评价证据和履约承诺。',
+      opportunity: '产品机会：商家后台从“填写商品信息”升级为“训练AI如何理解和推荐我的商品”。',
+      method: '方法论：把商家资料完整度、AI引用率、推荐后转化和售后问题做成闭环指标。'
+    };
+  }
+  if (/试穿|视觉|图片|风格|穿搭|非标|fashion|style|visual/.test(lower)) {
+    return {
+      title: '视觉导购要回答“适不适合我”',
+      summary: '这条笔记的价值在于把视觉能力从生成效果图拉回购买决策：尺码、风格、场景适配和后悔风险才是用户真正关心的证据。',
+      need: '用户需求：非标品决策里，用户不是缺商品，而是缺“我买了会不会后悔”的预判。',
+      opportunity: '产品机会：把试穿、相似款、风格翻译和退货风险做进推荐排序与对比卡片。',
+      method: '设计方法：展示适配点和不适配点，让AI不仅推荐商品，也解释为什么不推荐某些商品。'
+    };
+  }
+  if (/复购|买菜|外卖|即时|本地生活|高频|低风险|日用品/.test(lower)) {
+    return {
+      title: 'AI购物应先从高频低风险建立信任',
+      summary: '这条笔记指向一个落地顺序：先让AI在补货、买菜、外卖、凑单这类低风险场景里形成习惯，再迁移到复杂高客单决策。',
+      need: '用户需求：日常消费里用户更在意省心、准时、少出错，而不是长篇解释。',
+      opportunity: '产品机会：把复购周期、常买偏好、配送时效和优惠门槛做成自动提醒/半自动任务。',
+      method: '验证方法：看复购提醒采纳率、替代品接受率、履约失败率和用户主动授权次数。'
+    };
+  }
+  if (/评价|评论|口碑|测评|review|种草|小红书|达人|社媒|social/.test(lower)) {
+    return {
+      title: 'AI导购要把口碑翻译成决策证据',
+      summary: '这条笔记关注的是“别人怎么说”如何真正帮助购买：AI不应只摘要评论，而要把口碑拆成适用人群、使用场景、风险点和反例。',
+      need: '用户需求：用户缺的不是更多评价，而是知道“哪些评价和我有关、哪些评价只是噪音”。',
+      opportunity: '产品机会：把评论、测评、达人内容沉淀成可追问的证据卡，支持按肤质、尺码、预算、场景等个人约束重排。',
+      method: '设计方法：每个推荐都给出支持证据和反对证据，尤其暴露退货原因、差评聚类和不适合人群。'
+    };
+  }
+  if (/价格|优惠|比价|预算|省钱|补贴|券|price|deal/.test(lower)) {
+    return {
+      title: '价格型AI导购必须先建立“算得清”信任',
+      summary: '这条笔记指向价格决策的核心：用户愿意让AI帮忙省钱，但前提是优惠、凑单、券后价、配送费和售后成本都能被透明核算。',
+      need: '用户需求：用户想知道自己到底省了多少钱，而不是被复杂优惠规则带着走。',
+      opportunity: '产品机会：把比价、凑单、用券、保价和替代方案做成一张可审计账单，让AI解释每一步省钱依据。',
+      method: '验证方法：看用户是否愿意采纳AI凑单方案，以及是否因为价格解释减少退出、投诉和重复核对。'
+    };
+  }
+  if (/逛|发现|灵感|种草|不知道买什么|discovery|browse/.test(lower)) {
+    return {
+      title: 'AI导购不只回答问题，也要制造可继续逛的理由',
+      summary: '这条笔记强调“逛”的价值：很多购物意图一开始并不清晰，AI要把模糊兴趣变成可探索路径，而不是急着收敛到一个商品。',
+      need: '用户需求：用户在逛的时候要的是被启发、被理解和低压力试探，而不是立刻被逼下单。',
+      opportunity: '产品机会：把对话结果变成可保存的主题货架、风格路线和后续提醒，让探索过程也沉淀为资产。',
+      method: '设计方法：用“继续看相似灵感/换个预算/换个场景/排除不喜欢”替代单一商品列表。'
+    };
+  }
+  return {
+    title: summarizeNoteTitle(note),
+    summary: `这条笔记要保留的不是原句，而是一个可验证的产品假设：${compactNote(note, 78)}。下一步应判断它影响的是发现、比较、信任、授权、交易还是购后。`,
+    need: '用户需求：先定位用户在哪个购物环节有不确定性，是表达不清、比较太累、证据不足、风险太高，还是履约不可控。',
+    opportunity: '产品机会：把这条想法压成一个可落地机制，明确入口、需要哪些数据、给用户什么输出、失败时如何兜底。',
+    method: '验证方法：不要只看点击，至少观察决策耗时、推荐采纳、二次核对、退出原因和售后问题是否发生变化。'
+  };
+}
+
+function compactNote(note, max = 64) {
+  const clean = String(note || '').replace(/\s+/g, ' ').trim();
+  return clean.length > max ? `${clean.slice(0, max)}…` : clean;
+}
+
+function summarizeNoteTitle(note) {
+  const clean = compactNote(note, 42).replace(/[。！？.!?，,：:；;]$/, '');
+  if (/AI导购|购物智能体|导购/.test(clean)) return clean;
+  return `围绕“${clean}”的产品灵感`;
+}
+
+function isWeakNoteTitle(title = '', body = '') {
+  const cleanTitle = String(title || '').trim();
+  if (!cleanTitle) return true;
+  if (body && (body.startsWith(cleanTitle) || cleanTitle === body.slice(0, 32))) return true;
+  return /很重要|测试表明|^AI导购的|月份的测试|并不会自动|围绕“/.test(cleanTitle) || WEAK_NOTE_COPY.test(cleanTitle);
+}
+
+function isWeakNoteSummary(summary = '', body = '') {
+  const cleanSummary = String(summary || '').trim();
+  if (!cleanSummary) return true;
+  if (body && (cleanSummary === body || body.startsWith(cleanSummary) || cleanSummary.startsWith(body.slice(0, 24)))) return true;
+  return WEAK_NOTE_COPY.test(cleanSummary) || /核心判断是：?$/.test(cleanSummary);
+}
+
+function isWeakNoteInsight(insight = '') {
+  const cleanInsight = String(insight || '').trim();
+  if (!cleanInsight) return true;
+  if (WEAK_NOTE_COPY.test(cleanInsight)) return true;
+  return !/(用户需求|产品机会|设计方法|验证方法|方法论)/.test(cleanInsight);
+}
+
+function enrichSavedNote(note) {
+  const body = note.body || note.note || note.title || '';
+  const angle = noteAngle(body);
+  return {
+    ...note,
+    title: isWeakNoteTitle(note.title, body) ? angle.title : note.title,
+    summary: isWeakNoteSummary(note.summary, body) ? angle.summary : note.summary,
+    keywords: noteKeywords(body, note.external || [], []),
+    generatedInsight: isWeakNoteInsight(note.generatedInsight) ? [angle.need, angle.opportunity, angle.method].join('\n') : note.generatedInsight,
+    body
+  };
 }
 
 function scoreLocalArticles(tokens) {
@@ -442,39 +606,57 @@ function uniqueLinks(items) {
 }
 
 function curatedWebFallback(note, local) {
+  const lower = note.toLowerCase();
   const query = encodeURIComponent(note.slice(0, 80));
+  const contextual = [];
+  if (/沃尔玛|walmart|结账|checkout|转化|conversion/.test(lower)) {
+    contextual.push(
+      { title: 'Walmart：AI discovery and effortless shopping experiences', url: 'https://corporate.walmart.com/news/2026/01/11/walmart-and-google-turn-ai-discovery-into-effortless-shopping-experiences', source: 'Walmart', snippet: '用于观察外部AI入口进入零售交易时，价格、库存、账户和履约如何影响转化。' },
+      { title: 'Google：Universal Cart and agentic shopping', url: 'https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/', source: 'Google', snippet: '跨平台购物车与 agentic shopping，可用来拆解AI内交易的授权和结算边界。' }
+    );
+  }
+  if (/可信|信任|可靠|放心|更懂你|懂你|偏好|记忆|personal|trust/.test(lower)) {
+    contextual.push(
+      { title: 'Amazon：Rufus AI shopping assistant', url: 'https://www.aboutamazon.com/news/retail/amazon-rufus', source: 'Amazon', snippet: '平台内助手结合商品库、评论和购买链路，适合观察信任证据如何嵌进导购。' },
+      { title: 'OpenAI：Powering product discovery in ChatGPT', url: 'https://openai.com/index/powering-product-discovery-in-chatgpt/', source: 'OpenAI', snippet: 'ChatGPT 商品发现强调推荐依据和购物入口，可用于思考AI如何解释“为什么推荐”。' }
+    );
+  }
+  if (/试穿|视觉|图片|风格|穿搭|非标|fashion|style|visual/.test(lower)) {
+    contextual.push(
+      { title: 'Google Shopping：Virtual try-on for apparel', url: 'https://blog.google/products/shopping/virtual-try-on-google-shopping/', source: 'Google', snippet: '虚拟试穿把视觉能力用于尺码、风格和上身效果判断，而不是只生成好看的图。' },
+      { title: 'Google：AI shopping features for apparel discovery', url: 'https://blog.google/products/shopping/ai-shopping-features/', source: 'Google', snippet: '适合参考视觉搜索、风格理解和个性化推荐如何串联。' }
+    );
+  }
+  if (/商家|卖家|商品库|机器可读|库存|价格|merchant|seller|catalog|geo/.test(lower)) {
+    contextual.push(
+      { title: 'Google：New tools for retailers in an agentic shopping era', url: 'https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/', source: 'Google', snippet: '面向零售商的 agentic commerce 工具，适合拆商家资料层和协议接入。' },
+      { title: 'Shopify：AI in Ecommerce', url: 'https://www.shopify.com/blog/ai-ecommerce', source: 'Shopify', snippet: '商家侧AI在商品信息、个性化、客服和运营中的落点。' }
+    );
+  }
   const seed = [
-    { title: 'Google：Universal Cart and agentic shopping', url: 'https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/', source: 'Google', snippet: '跨平台购物车、UCP 和 agentic shopping 的官方产品案例。' },
+    { title: 'Instacart：AI-powered shopping and fulfillment', url: 'https://www.instacart.com/company/', source: 'Instacart', snippet: '即时零售平台围绕购物助手、库存、配送和履约体验的官方入口。' },
     { title: 'Google：UCP updates improve AI shopping for retailers', url: 'https://blog.google/products-and-platforms/products/shopping/ucp-updates/', source: 'Google', snippet: '面向商家的 AI shopping 接入协议与能力更新。' },
     { title: 'Amazon：Rufus AI shopping assistant', url: 'https://www.aboutamazon.com/news/retail/amazon-rufus', source: 'Amazon', snippet: '平台内原生购物助手，结合商品库、评论和购买链路。' },
+    { title: 'OpenAI：Powering product discovery in ChatGPT', url: 'https://openai.com/index/powering-product-discovery-in-chatgpt/', source: 'OpenAI', snippet: 'ChatGPT 内商品发现与购物意图承接，适合参考AI入口如何影响选品。' },
     { title: 'Shopify：AI in Ecommerce', url: 'https://www.shopify.com/blog/ai-ecommerce', source: 'Shopify', snippet: '商家侧 AI 在个性化、库存、客服和运营中的落点。' },
     { title: '微信文章搜索：相关中文案例', url: `https://weixin.sogou.com/weixin?type=2&query=${query}`, source: 'Sogou Weixin', snippet: '继续查找国内公众号案例和行业分析。' },
     { title: 'Google 搜索：海外 AI shopping agent 案例', url: `https://www.google.com/search?q=${query}+AI+shopping+agent+commerce+case`, source: 'Google Search', snippet: '继续查找海外产品案例和报告。' }
   ];
+  const scored = [...contextual, ...seed].map(item => ({ ...item, score: scoreWebResult(item, note) }));
   const localAsWeb = local.slice(0, 2).map(article => ({ title: article.title, url: article.url, source: article.source, snippet: corePointText(article.corePoint) }));
-  return uniqueLinks([...localAsWeb, ...seed]).slice(0, 6);
+  return uniqueLinks([...localAsWeb, ...scored.sort((a, b) => b.score - a.score)]).slice(0, 6);
 }
 
 function buildSupportInsight(note, external, local) {
-  const text = `${note} ${external.map(item => `${item.title} ${item.snippet || ''}`).join(' ')} ${local.map(item => corePointText(item.corePoint)).join(' ')}`;
-  const points = [];
-  if (/支付|checkout|下单|闭环|购物车|cart|order/i.test(text)) {
-    points.push('这类想法的关键验证点不是“AI会不会推荐”，而是能否完成授权、价格库存核验、支付确认、履约追踪和售后归因。');
-  }
-  if (/商家|merchant|seller|GEO|可见性|商品|库存|价格/i.test(text)) {
-    points.push('如果要落地为产品，必须同时建设商家侧机器可读资料层；否则AI只能做内容解释，无法稳定进入订单分配。');
-  }
-  if (/复购|买菜|即时|低风险|日用品|外卖|habit/i.test(text)) {
-    points.push('高频低风险场景适合先跑偏好记忆和授权边界，再把信任迁移到高客单、强比较的复杂品类。');
-  }
-  if (/视觉|试穿|图片|fashion|style|非标/i.test(text)) {
-    points.push('非标品类不要套参数比较逻辑，AI更适合做风格翻译、相似款发现、上身效果预判和后悔风险降低。');
-  }
-  if (/协议|protocol|ucp|agentic/i.test(text)) {
-    points.push('一旦涉及跨平台购物，协议层会比单点模型能力更重要：商品、购物车、订单、售后都需要标准化接口。');
-  }
-  points.push('建议把这个笔记转成一个产品实验：目标用户、被省掉的决策步骤、必须接入的数据、失败兜底、成功指标各写一句。');
-  return points.slice(0, 4).join('\n');
+  const angle = noteAngle(note);
+  const sources = unique([
+    ...external.map(item => item.source || getHost(item.url)).filter(Boolean),
+    ...local.map(item => item.source).filter(Boolean)
+  ]).slice(0, 4);
+  const sourceLine = sources.length
+    ? `支撑信号：优先用 ${sources.join('、')} 的案例核对入口、授权、证据、交易和兜底是否真的成立。`
+    : '支撑信号：当前资料不足时，优先补竞品实测、官方发布和用户反馈，不急着沉淀成产品结论。';
+  return [angle.need, angle.opportunity, angle.method, sourceLine].join('\n');
 }
 
 function decodeBingRedirect(url) {
@@ -506,7 +688,7 @@ function scoreWebResult(item, note) {
   const host = getHost(item.url);
   const text = `${item.title} ${item.snippet} ${item.url}`.toLowerCase();
   const noteTokens = tokenize(note).map(token => token.toLowerCase()).filter(token => token.length > 1);
-  const trusted = ['blog.google', 'aboutamazon.com', 'shopify.com', 'stripe.com', 'mastercard.com', 'visa.com', 'mckinsey.com', 'a16z.com', 'openai.com', 'anthropic.com', 'perplexity.ai', 'mp.weixin.qq.com'];
+  const trusted = ['blog.google', 'aboutamazon.com', 'corporate.walmart.com', 'instacart.com', 'shopify.com', 'stripe.com', 'mastercard.com', 'visa.com', 'mckinsey.com', 'a16z.com', 'openai.com', 'anthropic.com', 'perplexity.ai', 'mp.weixin.qq.com'];
   let score = trusted.some(domain => host.includes(domain)) ? 24 : 0;
   score += /shopping|commerce|retail|agentic|assistant|checkout|merchant|导购|购物|电商|智能体|商家|支付/.test(text) ? 18 : -12;
   score += noteTokens.reduce((sum, token) => sum + (text.includes(token) ? 4 : 0), 0);
@@ -568,26 +750,77 @@ async function fetchOnlineResults(note) {
   return fetchStaticWebResults(note);
 }
 
-async function searchSupportLinks(note) {
-  const keywords = tokenize(note).slice(0, 8);
-  const local = scoreLocalArticles(keywords);
+const waitFrame = () => new Promise(resolve => requestAnimationFrame(resolve));
+
+function renderNoteProgress(activeStep = '分析观点') {
+  const steps = ['分析观点', '匹配站内资料', '联网找支撑', '生成灵感卡片'];
+  const activeIndex = activeStep === '完成' ? steps.length : steps.indexOf(activeStep);
+  return `<div class="note-progress">${steps.map((step, index) => `<span class="${step === activeStep ? 'active' : ''} ${index < activeIndex ? 'done' : ''}">${step}</span>`).join('')}</div>`;
+}
+
+function setNoteBusy(busy, label = '处理中…') {
+  const previewBtn = document.getElementById('notePreviewBtn');
+  const saveBtn = document.getElementById('noteSaveBtn');
+  [previewBtn, saveBtn].forEach(button => {
+    if (!button) return;
+    button.disabled = busy;
+    button.classList.toggle('is-loading', busy);
+  });
+  if (previewBtn) previewBtn.textContent = busy ? label : '智能搜索支撑';
+  if (saveBtn) saveBtn.textContent = busy ? '正在生成…' : '加入灵感集';
+}
+
+function showToast(message) {
+  let toast = document.getElementById('toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'toast';
+    toast.className = 'toast';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add('show');
+  clearTimeout(showToast.timer);
+  showToast.timer = setTimeout(() => toast.classList.remove('show'), 2600);
+}
+
+async function searchSupportLinks(note, onProgress = () => {}) {
+  onProgress('分析观点');
+  await waitFrame();
+  const localTokens = tokenize(note).slice(0, 12);
+  onProgress('匹配站内资料');
+  await waitFrame();
+  const local = scoreLocalArticles(localTokens);
+  onProgress('联网找支撑');
+  await waitFrame();
   const online = await fetchOnlineResults(note);
+  onProgress('生成灵感卡片');
+  await waitFrame();
   const external = uniqueLinks([...(online || []), ...curatedWebFallback(note, local)]).slice(0, 6);
+  const keywords = noteKeywords(note, external, local);
   const insight = buildSupportInsight(note, external, local);
-  return { keywords, local, external, insight };
+  const angle = noteAngle(note);
+  return { title: angle.title, summary: angle.summary, keywords, local, external, insight };
 }
 
 async function renderNotePreview(note) {
   const box = document.getElementById('notePreview');
-  box.innerHTML = '<h4>正在联网搜索支撑材料…</h4><p>会优先匹配高质量信息源，并至少给出 3 条可继续追踪的链接。</p>';
-  const result = await searchSupportLinks(note);
+  state.noteSupport = null;
+  const updateProgress = (step) => {
+    box.innerHTML = `${renderNoteProgress(step)}<h4>${step}中…</h4><p>会把你的原始观点转成标题、摘要、产品洞察，并匹配站内资料和全网支撑链接。</p>`;
+  };
+  const result = await searchSupportLinks(note, updateProgress);
+  state.noteSupport = { note, result };
   box.innerHTML = `
-    <h4>联网搜索与衍生洞察</h4>
+    ${renderNoteProgress('完成')}
+    <h4>已生成：${escapeHtml(result.title)}</h4>
+    <p class="note-preview-summary">${escapeHtml(result.summary)}</p>
     <div class="meta">${(result.keywords || []).slice(0, 8).map(token => `<span class="pill">${escapeHtml(token)}</span>`).join('') || '<span class="pill">暂无关键词</span>'}</div>
     <ul class="derived-insight">${(result.insight || '').split('\n').filter(Boolean).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>
+    <p class="note-preview-ok">已匹配 ${(result.external || []).length} 条全网支撑、${(result.local || []).length} 条站内关联。点击“加入灵感集”后会保存为你的灵感卡片。</p>
     <div class="related note-links">
-      ${(result.external || []).slice(0, 6).map(link => `<a href="${link.url}" target="_blank" rel="noreferrer">全网支撑：${escapeHtml(link.title)}${link.snippet ? `<small>${escapeHtml(link.snippet)}</small>` : ''}</a>`).join('')}
-      ${(result.local || []).map(article => `<a href="${article.url}" target="_blank" rel="noreferrer">站内关联：${article.title}</a>`).join('')}
+      ${(result.external || []).slice(0, 6).map(link => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">全网支撑：${escapeHtml(link.title)}${link.snippet ? `<small>${escapeHtml(link.snippet)}</small>` : ''}</a>`).join('')}
+      ${(result.local || []).map(article => `<a href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">站内关联：${escapeHtml(article.title)}</a>`).join('')}
     </div>`;
   return result;
 }
@@ -596,30 +829,86 @@ function bindNotes() {
   const input = document.getElementById('noteInput');
   document.getElementById('notePreviewBtn').addEventListener('click', async () => {
     const note = input.value.trim();
-    if (!note) return;
-    await renderNotePreview(note);
+    if (!note) return showToast('先写一点想法，我再帮你找支撑。');
+    setNoteBusy(true, '正在搜索…');
+    try {
+      await renderNotePreview(note);
+      showToast('已生成支撑洞察，可以加入灵感集。');
+    } catch (error) {
+      console.warn(error);
+      document.getElementById('notePreview').innerHTML = '<h4>搜索失败</h4><p>网络暂时不稳定，可以稍后再试；也可以先直接加入灵感集。</p>';
+      showToast('搜索支撑失败了，请稍后重试。');
+    } finally {
+      setNoteBusy(false);
+    }
   });
   document.getElementById('noteSaveBtn').addEventListener('click', async () => {
     const note = input.value.trim();
-    if (!note) return;
-    const support = await renderNotePreview(note);
-    state.userInsights.unshift({
-      id: `user-${Date.now()}`,
-      title: note.slice(0, 32),
-      body: note,
-      createdAt: new Date().toISOString(),
-      keywords: (support.keywords || []).slice(0, 6),
-      generatedInsight: support.insight || '',
-      localIds: (support.local || []).map(article => article.id),
-      external: support.external || []
-    });
-    saveUserInsights();
-    input.value = '';
-    document.getElementById('notePreview').innerHTML = '';
-    renderUserInsights();
-    renderGlobalStats();
-    setActiveTab('inspiration');
-    setNotePanelOpen(false);
+    if (!note) return showToast('先写一点想法，再加入灵感集。');
+    setNoteBusy(true, '正在保存…');
+    try {
+      let support = state.noteSupport?.note === note ? state.noteSupport.result : null;
+      if (!support) support = await renderNotePreview(note);
+      const newNote = {
+        id: `user-${Date.now()}`,
+        title: support.title,
+        summary: support.summary,
+        body: note,
+        createdAt: new Date().toISOString(),
+        keywords: (support.keywords || []).slice(0, 6),
+        generatedInsight: support.insight || '',
+        localIds: (support.local || []).map(article => article.id),
+        external: support.external || []
+      };
+      state.userInsights.unshift(enrichSavedNote(newNote));
+      state.justSavedNoteId = newNote.id;
+      saveUserInsights();
+      input.value = '';
+      document.getElementById('notePreview').innerHTML = '';
+      state.noteSupport = null;
+      renderUserInsights();
+      renderGlobalStats();
+      setActiveTab('inspiration');
+      setNotePanelOpen(false);
+      showToast('已加入灵感集，放在最上面了。');
+      setTimeout(() => {
+        document.querySelector(`[data-card-id="${newNote.id}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        state.justSavedNoteId = '';
+        renderUserInsights();
+      }, 180);
+    } catch (error) {
+      console.warn(error);
+      const angle = noteAngle(note);
+      const fallbackNote = enrichSavedNote({
+        id: `user-${Date.now()}`,
+        title: angle.title,
+        summary: angle.summary,
+        body: note,
+        createdAt: new Date().toISOString(),
+        keywords: noteKeywords(note),
+        generatedInsight: [angle.need, angle.opportunity, angle.method].join('\n'),
+        localIds: [],
+        external: curatedWebFallback(note, [])
+      });
+      state.userInsights.unshift(fallbackNote);
+      state.justSavedNoteId = fallbackNote.id;
+      saveUserInsights();
+      input.value = '';
+      document.getElementById('notePreview').innerHTML = '';
+      state.noteSupport = null;
+      renderUserInsights();
+      renderGlobalStats();
+      setActiveTab('inspiration');
+      setNotePanelOpen(false);
+      showToast('搜索不稳定，但已先加入灵感集。');
+      setTimeout(() => {
+        document.querySelector(`[data-card-id="${fallbackNote.id}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        state.justSavedNoteId = '';
+        renderUserInsights();
+      }, 180);
+    } finally {
+      setNoteBusy(false);
+    }
   });
 }
 
@@ -640,18 +929,19 @@ function renderUserInsights() {
   document.getElementById('userInsightGrid').innerHTML = visibleNotes.map(note => {
     const locals = (note.localIds || []).map(id => articlesById[id]).filter(Boolean);
     return `
-      <article class="insight-card user-note-card">
+      <article class="insight-card user-note-card ${state.justSavedNoteId === note.id ? 'just-saved' : ''}" data-card-id="${escapeHtml(note.id)}">
         <div class="user-note-head">
           <span class="user-badge">我的笔记</span>
           <button class="delete-note-btn" data-note-id="${escapeHtml(note.id)}" type="button">删除</button>
         </div>
         <h3>${escapeHtml(note.title)}</h3>
-        <p>${escapeHtml(note.body)}</p>
+        ${note.summary ? `<p class="note-summary">${escapeHtml(note.summary)}</p>` : ''}
+        <div class="original-note"><strong>原始笔记</strong><p>${escapeHtml(note.body)}</p></div>
         ${note.generatedInsight ? `<ul class="derived-insight">${note.generatedInsight.split('\n').filter(Boolean).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>` : ''}
         <div class="meta">${(note.keywords || []).map(word => `<span class="pill">${escapeHtml(word)}</span>`).join('')}</div>
         <div class="related">
-          ${locals.map(article => `<a href="${article.url}" target="_blank" rel="noreferrer">站内支撑：${article.title}</a>`).join('')}
-          ${(note.external || []).map(link => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.title}</a>`).join('')}
+          ${locals.map(article => `<a href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">站内支撑：${escapeHtml(article.title)}</a>`).join('')}
+          ${(note.external || []).map(link => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.title)}</a>`).join('')}
         </div>
       </article>`;
   }).join('');
