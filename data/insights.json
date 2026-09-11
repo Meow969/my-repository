@@ -322,14 +322,16 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 7,
+    "sourceCount": 9,
     "relatedArticleIds": [
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "daily-2026-08-24-365a107d529345",
+      "daily-2026-08-22-d0935ce5172bc8",
       "2026-08-18-pymnts-com-visa-and-mastercard--5ba11f7326",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
       "daily-2026-04-20-68a876852717bf",
       "2026-04-09-ai-ai-ai-bc58c317d1",
+      "competitor-2025-12-11-google-studio-quality-digital-try-on",
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
@@ -794,8 +796,8 @@
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
-      "2026-08-17-c4110742de",
-      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707"
+      "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
+      "2026-08-17-c4110742de"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-11"
@@ -1341,33 +1343,6 @@
     "updatedAt": "2026-09-11"
   },
   {
-    "id": "spark-competitor-2025-11-08-11ai-ai-5000-bc702b8368",
-    "title": "把淘宝的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
-    "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
-    ],
-    "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
-      "对话导购",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
-      "2026-08-10-510496218f",
-      "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
-      "qianwen-doubao-geo-2026-03-24"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-11"
-  },
-  {
     "id": "spark-2026-08-17-c4110742de",
     "title": "把亿邦动力网的交易动作拆成分级授权",
     "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
@@ -1441,6 +1416,34 @@
     ],
     "relatedArticleIds": [
       "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0",
+      "2026-08-10-510496218f",
+      "2026-08-17-c7318a84f1",
+      "2026-06-04-app-ai-be4d9cf7b1",
+      "qianwen-doubao-geo-2026-03-24"
+    ],
+    "sourceCount": 5,
+    "updatedAt": "2026-09-11"
+  },
+  {
+    "id": "spark-2026-03-13-pc-ai-mcp-openclaw-91e7d9c1ff",
+    "title": "把淘宝的供给侧动作转成AI可读资产",
+    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
+    "takeaways": [
+      "建立商品证据完整度评分",
+      "给商家反馈AI看不懂的字段",
+      "让推荐理由回链到结构化事实"
+    ],
+    "keywords": [
+      "商家",
+      "商品库",
+      "机器可读",
+      "供给侧",
+      "竞品案例",
+      "GEO",
+      "技术架构"
+    ],
+    "relatedArticleIds": [
+      "2026-03-13-pc-ai-mcp-openclaw-91e7d9c1ff",
       "2026-08-10-510496218f",
       "2026-08-17-c7318a84f1",
       "2026-06-04-app-ai-be4d9cf7b1",
@@ -1750,18 +1753,18 @@
   },
   {
     "id": "spark-2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
-    "title": "把Target的搜索入口当成需求澄清入口",
-    "summary": "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
+    "title": "把Target的AI能力拆成可验证产品假设",
+    "summary": "这条信号启发的是：不要只记录谁上线了AI，而要拆出它改变了购物链路的哪一步，以及能否用小实验验证入口、证据、授权或履约效果。",
     "takeaways": [
-      "落地页继承外部AI上下文",
-      "把搜索问题转为预算/场景/禁忌",
-      "用证据和优惠完成临门一脚"
+      "标注它影响的购物节点",
+      "提出一个可验证指标",
+      "把相关来源挂到同一灵感下持续复盘"
     ],
     "keywords": [
-      "AI搜索",
-      "入口",
-      "需求澄清",
-      "承接",
+      "产品假设",
+      "竞品拆解",
+      "实验设计",
+      "决策链路",
       "竞品案例"
     ],
     "relatedArticleIds": [
@@ -1874,34 +1877,6 @@
     ],
     "relatedArticleIds": [
       "2026-06-10-openai-blog-prc-linked-influenc-6c33d57edf",
-      "2026-08-10-510496218f",
-      "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
-      "qianwen-doubao-geo-2026-03-24"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-11"
-  },
-  {
-    "id": "spark-daily-2026-04-03-d41339b299519c",
-    "title": "把Amazon、Perplexity的搜索入口当成需求澄清入口",
-    "summary": "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
-    "takeaways": [
-      "落地页继承外部AI上下文",
-      "把搜索问题转为预算/场景/禁忌",
-      "用证据和优惠完成临门一脚"
-    ],
-    "keywords": [
-      "AI搜索",
-      "入口",
-      "需求澄清",
-      "承接",
-      "C端AI产品",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-03-d41339b299519c",
       "2026-08-10-510496218f",
       "2026-08-17-c7318a84f1",
       "2026-06-04-app-ai-be4d9cf7b1",
@@ -2313,18 +2288,18 @@
   },
   {
     "id": "spark-2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
-    "title": "把Practical Ecommerce的搜索入口当成需求澄清入口",
-    "summary": "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
+    "title": "把Practical Ecommerce的测评/风险信号变成验收清单",
+    "summary": "这条信号启发的是：真实用户测评比发布稿更适合转成产品验收标准，检查AI是否核价、核库存、解释取舍并给替代方案。",
     "takeaways": [
-      "落地页继承外部AI上下文",
-      "把搜索问题转为预算/场景/禁忌",
-      "用证据和优惠完成临门一脚"
+      "沉淀推荐失败样例",
+      "把用户质疑点变成测试用例",
+      "在结果页展示AI如何排除候选"
     ],
     "keywords": [
-      "AI搜索",
-      "入口",
-      "需求澄清",
-      "承接",
+      "测评",
+      "信任",
+      "验收清单",
+      "风险",
       "AI购物"
     ],
     "relatedArticleIds": [
