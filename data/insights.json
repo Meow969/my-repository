@@ -29,7 +29,7 @@
       "daily-2026-08-20-84c99b15d913fa"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、AI购物、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "memory-as-asset",
@@ -57,7 +57,7 @@
       "daily-2025-11-20-fffc13c7303b8b"
     ],
     "trendNote": "来源提示：相关资料继续指向C端AI产品、竞品案例、AI搜索，记忆能力要从聊天上下文升级为可编辑的购买约束，否则很难支撑长期授权。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "trust-ladder",
@@ -75,8 +75,9 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 53,
+    "sourceCount": 54,
     "relatedArticleIds": [
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098",
@@ -85,11 +86,10 @@
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
-      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
+      "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427"
     ],
-    "trendNote": "来源提示：Agentic Commerce、交易闭环、C端AI产品信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
-    "updatedAt": "2026-09-11"
+    "trendNote": "来源提示：Agentic Commerce、交易闭环、竞品案例信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "closed-loop-first",
@@ -107,8 +107,9 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 84,
+    "sourceCount": 85,
     "relatedArticleIds": [
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
@@ -117,11 +118,10 @@
       "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "daily-2026-09-02-0860bf13512c29"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
     "trendNote": "来源提示：Agentic Commerce、竞品案例、交易闭环信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "answer-shelf",
@@ -153,7 +153,7 @@
       "daily-2025-11-06-7aa8ef6760da3c"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在C端AI产品、AI搜索、GEO，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "agentic-funnel",
@@ -172,8 +172,9 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 55,
+    "sourceCount": 56,
     "relatedArticleIds": [
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098",
@@ -182,11 +183,10 @@
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "daily-2026-09-02-0860bf13512c29",
       "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
-      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
-      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128"
     ],
     "trendNote": "来源提示：Agentic Commerce、交易闭环、竞品案例显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "merchant-readable-store",
@@ -218,7 +218,7 @@
       "daily-2026-07-06-9ff3847b4f7534"
     ],
     "trendNote": "来源提示：商家Agent、竞品案例、交易闭环正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "multi-agent-market",
@@ -243,7 +243,7 @@
       "daily-2026-07-11-32836af59aacfb"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在商家Agent、竞品案例、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "habit-before-intelligence",
@@ -273,7 +273,7 @@
       "2026-01-16-ai-fdaaafc2c2"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "category-wedge",
@@ -304,7 +304,7 @@
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在商家Agent、竞品案例、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "risk-first-design",
@@ -335,7 +335,7 @@
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "evidence-led-recommendation",
@@ -367,7 +367,7 @@
       "competitor-2026-05-10-ai-ai-b15ffc150d"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在C端AI产品、Agentic Commerce、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "intent-cart",
@@ -390,7 +390,7 @@
       "daily-2026-02-05-378a1bbb379006"
     ],
     "trendNote": "来源提示：AI购物显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "contextual-entry",
@@ -413,7 +413,7 @@
       "daily-2025-12-27-9e481776f4fdf4"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "privacy-permission",
@@ -431,8 +431,9 @@
       "分级授权",
       "一次性授权"
     ],
-    "sourceCount": 10,
+    "sourceCount": 11,
     "relatedArticleIds": [
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "daily-2026-08-24-365a107d529345",
       "2026-06-04-app-ai-be4d9cf7b1",
       "daily-2026-05-29-ad1b2b76719977",
@@ -441,11 +442,10 @@
       "daily-2026-01-20-325e5c30718d8e",
       "daily-2026-01-16-69707bc3df56d5",
       "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0",
-      "daily-2025-12-18-b1ce7a07dfb281",
-      "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d"
+      "daily-2025-12-18-b1ce7a07dfb281"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "post-purchase-agent",
@@ -466,7 +466,7 @@
     "sourceCount": 0,
     "relatedArticleIds": [],
     "trendNote": "来源提示：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "merchant-incentive",
@@ -495,7 +495,7 @@
       "daily-2026-04-24-b7bfc0643bbe0a"
     ],
     "trendNote": "来源提示：商家Agent、竞品案例、即时零售正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "ranking-governance",
@@ -525,7 +525,7 @@
       "daily-2025-10-27-506d4c177e5782"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在AI购物、竞品案例、商品库，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "from-comparison-to-negotiation",
@@ -552,7 +552,7 @@
       "2026-04-09-ai-agent-ec8119d854"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、商家Agent、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "social-proof-rebuild",
@@ -573,7 +573,7 @@
     "sourceCount": 0,
     "relatedArticleIds": [],
     "trendNote": "来源提示：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。",
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "competitor-function-radar",
@@ -595,6 +595,7 @@
       "得物"
     ],
     "relatedArticleIds": [
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
@@ -603,12 +604,11 @@
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
       "daily-2026-09-01-1531069370f45e",
       "2026-08-28-ue-keeta-ai-a686e8011b",
-      "2026-08-25-ai-6f60a0b2fd",
-      "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca"
+      "2026-08-25-ai-6f60a0b2fd"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、AI购物、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11",
-    "sourceCount": 70
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "updatedAt": "2026-09-12",
+    "sourceCount": 71
   },
   {
     "id": "visual-try-on-as-proof",
@@ -634,7 +634,7 @@
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11",
+    "updatedAt": "2026-09-12",
     "sourceCount": 4
   },
   {
@@ -667,7 +667,7 @@
       "daily-2026-04-24-b7bfc0643bbe0a"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、即时零售、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
-    "updatedAt": "2026-09-11",
+    "updatedAt": "2026-09-12",
     "sourceCount": 19
   },
   {
@@ -693,15 +693,15 @@
       "qianwen-doubao-geo-2026-03-24",
       "daily-2026-01-16-69707bc3df56d5",
       "competitor-2025-09-17-ai-86111b0c72",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "competitor-2026-01-22-app-ai-2130600ec1",
-      "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b"
+      "competitor-2026-01-22-app-ai-2130600ec1"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-reason-not-to-buy",
@@ -734,7 +734,7 @@
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-memory-rules-panel",
@@ -754,6 +754,7 @@
     ],
     "relatedArticleIds": [
       "2026-08-10-510496218f",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-02-06-9-1000-ai-46dfb586e1",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
       "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
@@ -763,11 +764,10 @@
       "daily-2025-11-02-c072951b426ee8",
       "daily-2025-11-20-fffc13c7303b8b",
       "daily-2025-12-27-9e481776f4fdf4",
-      "daily-2026-06-16-30f36e4cb45b27",
-      "daily-2026-02-05-378a1bbb379006"
+      "daily-2026-06-16-30f36e4cb45b27"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-low-risk-permission",
@@ -791,16 +791,16 @@
       "qianwen-doubao-geo-2026-03-24",
       "daily-2026-01-16-69707bc3df56d5",
       "competitor-2025-09-17-ai-86111b0c72",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
-      "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
-      "2026-08-17-c4110742de"
+      "competitor-2025-11-08-11ai-ai-5000-bc702b8368"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-product-evidence-layer",
@@ -823,17 +823,17 @@
       "2026-08-17-c7318a84f1",
       "2026-06-04-app-ai-be4d9cf7b1",
       "qianwen-doubao-geo-2026-03-24",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
       "2026-08-17-c4110742de",
-      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707",
-      "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0"
+      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-visual-proof",
@@ -861,7 +861,7 @@
       "daily-2025-09-12-a18826d18731c1"
     ],
     "sourceCount": 7,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-external-ai-handoff",
@@ -885,16 +885,16 @@
       "2026-06-04-app-ai-be4d9cf7b1",
       "qianwen-doubao-geo-2026-03-24",
       "daily-2026-01-16-69707bc3df56d5",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
-      "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
-      "2026-08-17-c4110742de"
+      "competitor-2025-11-08-11ai-ai-5000-bc702b8368"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-local-certainty",
@@ -920,14 +920,14 @@
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
-      "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
       "2026-02-06-9-1000-ai-46dfb586e1",
+      "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
       "2026-04-09-ai-agent-ec8119d854",
       "2026-04-09-ai-agent-68c9bb7b84",
       "2026-08-25-ai-6f60a0b2fd"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-agentic-checkout-contract",
@@ -952,15 +952,15 @@
       "qianwen-doubao-geo-2026-03-24",
       "daily-2026-01-16-69707bc3df56d5",
       "competitor-2025-09-17-ai-86111b0c72",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "competitor-2026-01-22-app-ai-2130600ec1",
-      "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b"
+      "competitor-2026-01-22-app-ai-2130600ec1"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-merchant-training-console",
@@ -981,6 +981,7 @@
     "relatedArticleIds": [
       "2026-08-17-c7318a84f1",
       "qianwen-doubao-geo-2026-03-24",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-08-17-c4110742de",
       "2026-03-13-pc-ai-mcp-openclaw-91e7d9c1ff",
@@ -989,11 +990,10 @@
       "2026-04-09-ai-agent-68c9bb7b84",
       "2026-03-24-openai-blog-powering-product-di-10b56e1b13",
       "2026-08-28-ai-ai-b40d9f1500",
-      "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a",
-      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9"
+      "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-intent-cart",
@@ -1017,8 +1017,8 @@
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
       "2026-08-17-c4110742de",
-      "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
       "2026-03-13-pc-ai-mcp-openclaw-91e7d9c1ff",
+      "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
       "2026-04-09-ai-agent-ec8119d854",
       "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
       "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a",
@@ -1026,7 +1026,7 @@
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "auto-post-purchase-retention",
@@ -1049,17 +1049,17 @@
       "qianwen-doubao-geo-2026-03-24",
       "daily-2026-01-16-69707bc3df56d5",
       "competitor-2025-09-17-ai-86111b0c72",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
       "2026-08-17-c4110742de",
-      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707",
-      "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0"
+      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707"
     ],
     "sourceCount": 12,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-10-510496218f",
@@ -1088,7 +1088,7 @@
       "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-17-c7318a84f1",
@@ -1117,7 +1117,7 @@
       "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-06-04-app-ai-be4d9cf7b1",
@@ -1146,7 +1146,7 @@
       "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-competitor-2025-09-17-ai-86111b0c72",
@@ -1173,7 +1173,35 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
+  },
+  {
+    "id": "spark-2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+    "title": "把Amazon、Walmart的个性化能力做成可编辑购买规则",
+    "summary": "这条信号启发的是：用户愿意让AI记住的不是隐形画像，而是能被检查和修改的购买规则；记忆越透明，越适合承接长期导购。",
+    "takeaways": [
+      "展示本次推荐调用了哪些记忆",
+      "允许用户冻结/删除单条偏好",
+      "把复购周期和品牌禁忌沉淀为规则"
+    ],
+    "keywords": [
+      "记忆",
+      "偏好",
+      "购买规则",
+      "复购",
+      "竞品案例",
+      "Agentic Commerce",
+      "交易闭环"
+    ],
+    "relatedArticleIds": [
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-08-10-510496218f",
+      "2026-08-17-c7318a84f1",
+      "2026-06-04-app-ai-be4d9cf7b1",
+      "qianwen-doubao-geo-2026-03-24"
+    ],
+    "sourceCount": 5,
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
@@ -1201,7 +1229,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
@@ -1229,7 +1257,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-10-digital-commerce-360-instacart--6984f0dd64",
@@ -1256,7 +1284,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
@@ -1283,7 +1311,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-competitor-2026-01-22-app-ai-2130600ec1",
@@ -1312,7 +1340,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
@@ -1340,7 +1368,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-17-c4110742de",
@@ -1367,7 +1395,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-07-01-digital-commerce-360-square-lau-8aa7cbc707",
@@ -1395,7 +1423,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0",
@@ -1422,7 +1450,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-03-13-pc-ai-mcp-openclaw-91e7d9c1ff",
@@ -1450,7 +1478,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
@@ -1477,7 +1505,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-05-21-google-shopping-blog-how-we-re--242e31b910",
@@ -1505,7 +1533,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2025-11-19-openai-blog-openai-and-target-t-d76d093067",
@@ -1532,7 +1560,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
@@ -1558,7 +1586,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-04-09-ai-ai-ai-bc58c317d1",
@@ -1586,7 +1614,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-09-01-1531069370f45e",
@@ -1612,7 +1640,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
@@ -1639,7 +1667,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-28-ai-ai-b40d9f1500",
@@ -1668,7 +1696,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-02-03-ai-5b2966b229",
@@ -1695,7 +1723,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
@@ -1721,7 +1749,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
@@ -1749,7 +1777,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
@@ -1775,7 +1803,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-02-11-7fae5bd7de6a54",
@@ -1801,7 +1829,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-11-06-7aa8ef6760da3c",
@@ -1830,7 +1858,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-26-stripe-wolf-badger-makes-shoppi-f381faf542",
@@ -1856,7 +1884,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-06-10-openai-blog-prc-linked-influenc-6c33d57edf",
@@ -1883,7 +1911,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-09-02-0860bf13512c29",
@@ -1909,7 +1937,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-06-18-target-corporation-how-target-i-6a7b85b16f",
@@ -1936,7 +1964,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
@@ -1962,7 +1990,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-28-ue-keeta-ai-a686e8011b",
@@ -1990,7 +2018,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-25-15-ai-677-9de0015868",
@@ -2016,7 +2044,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-07-29-fcd1c0b0824ead",
@@ -2043,7 +2071,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-05-26-mastercard-intelligent-agentic--4d5209a8e1",
@@ -2071,7 +2099,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-04-24-b7bfc0643bbe0a",
@@ -2099,7 +2127,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-01-12-ucp-ai-6492de8e79",
@@ -2125,7 +2153,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2025-12-26-the-business-times-shopee-lazad-1aa0c55c73",
@@ -2152,7 +2180,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-04-30-modern-retail-amazon-says-its-a-217f179fed",
@@ -2179,7 +2207,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-01-12-402b4760d23e51",
@@ -2206,7 +2234,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-19-6-08a28b00bd",
@@ -2232,7 +2260,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-competitor-2025-12-11-google-studio-quality-digital-try-on",
@@ -2257,7 +2285,7 @@
       "daily-2026-08-22-d0935ce5172bc8"
     ],
     "sourceCount": 4,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
@@ -2284,7 +2312,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
@@ -2310,7 +2338,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-05-13-3c134761dade73",
@@ -2336,7 +2364,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-09-18-2a6ebeb2b19979",
@@ -2363,7 +2391,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098",
@@ -2389,7 +2417,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-10-17-3757ba40d36a1e",
@@ -2415,7 +2443,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
@@ -2441,7 +2469,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-09-28-6b0d69f713ce98",
@@ -2468,7 +2496,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-08-22-d0935ce5172bc8",
@@ -2493,7 +2521,7 @@
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
     "sourceCount": 4,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-07-28-0cfa5b4dab8be8",
@@ -2521,7 +2549,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-06-19-10e5b92e51f050",
@@ -2547,7 +2575,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-07-14-openai-blog-sales-workflows-wit-be71b0a63a",
@@ -2573,7 +2601,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-2026-04-10-openai-blog-learn-chatgpt-workf-90856af4eb",
@@ -2599,7 +2627,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-01-25-27679e673e9934",
@@ -2625,7 +2653,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-10-02-8de59c36e9f190",
@@ -2652,7 +2680,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-07-08-7faa93e3004991",
@@ -2677,7 +2705,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-01-19-7b74e13a0f8193",
@@ -2703,7 +2731,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-06-15-999b5b1b29c57a",
@@ -2730,7 +2758,7 @@
       "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-02-20-30a9ac4c22a9f9",
@@ -2757,7 +2785,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-03-21-d6da35660dc70a",
@@ -2783,7 +2811,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-03-16-ddd8e6d4a154d5",
@@ -2809,7 +2837,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-11-20-fffc13c7303b8b",
@@ -2835,7 +2863,7 @@
       "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-competitor-2026-06-22-shopee-ai-f87b7022fc",
@@ -2861,7 +2889,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-amazon-agent-permission-2026-03-12",
@@ -2887,7 +2915,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-02-19-3a11c9d339093b",
@@ -2913,7 +2941,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-mckinsey-shopping-agent-retail-2026-02-04",
@@ -2939,7 +2967,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-12-27-9e481776f4fdf4",
@@ -2965,7 +2993,7 @@
       "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-08-23-9ac5af530d0367",
@@ -2991,7 +3019,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-06-27-ca12d684099abd",
@@ -3017,7 +3045,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-06-16-30f36e4cb45b27",
@@ -3044,7 +3072,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-09-09-93901c9caada54",
@@ -3071,7 +3099,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-08-20-84c99b15d913fa",
@@ -3097,7 +3125,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-05-31-a01f641a94bd17",
@@ -3123,7 +3151,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-04-26-7e02c947827d17",
@@ -3149,7 +3177,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-04-20-68a876852717bf",
@@ -3175,7 +3203,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-04-16-8c3ab90fcd05d0",
@@ -3201,7 +3229,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-04-11-370069836d49a1",
@@ -3227,7 +3255,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2026-02-05-378a1bbb379006",
@@ -3253,7 +3281,7 @@
       "competitor-2025-09-17-ai-86111b0c72"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-11-07-95e2581f3feabd",
@@ -3279,7 +3307,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-10-27-506d4c177e5782",
@@ -3304,7 +3332,7 @@
       "qianwen-doubao-geo-2026-03-24"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   },
   {
     "id": "spark-daily-2025-09-12-a18826d18731c1",
@@ -3330,6 +3358,6 @@
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
     "sourceCount": 5,
-    "updatedAt": "2026-09-11"
+    "updatedAt": "2026-09-12"
   }
 ]

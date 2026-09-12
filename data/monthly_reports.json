@@ -2,15 +2,15 @@
   {
     "month": "2026-09",
     "title": "Agentic Commerce、竞品案例、C端AI产品进入交易责任竞争",
-    "summary": "2026-09 共收录 16 条高价值信息，主线集中在Agentic Commerce、竞品案例、C端AI产品。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、Amazon、Instacart、PayPal等信号说明购物智能体正在逼近真实交易基础设施。",
+    "summary": "2026-09 共收录 17 条高价值信息，主线集中在Agentic Commerce、竞品案例、C端AI产品。值得注意的是，讨论不再停留在“AI能推荐什么”，而是进入授权、支付、结算、履约和异常处理；淘宝、Amazon、Walmart、Instacart等信号说明购物智能体正在逼近真实交易基础设施。",
     "productImplication": "产品侧应把导购链路拆成建议、比较、确认、授权、支付、履约、售后七个节点分别设计兜底机制；短期优先验证低风险授权和可撤回动作，而不是一步到位做全自动代买。",
-    "articleCount": 16,
+    "articleCount": 17,
     "topArticleIds": [
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-09-instacart-meet-clementine-insta-d4a4376af8",
-      "2026-09-07-token-ai-kimi-def8e7815c"
+      "2026-09-09-instacart-meet-clementine-insta-d4a4376af8"
     ]
   },
   {

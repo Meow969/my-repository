@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+    "date": "2026-09-11",
+    "title": "Walmart Opens Checkout as Amazon Builds Its AI Advantage",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "url": "https://pymnts.com/news/retail/2026/walmart-expands-tap-to-pay-as-amazon-builds-its-ai-capacity",
+    "excerpt": "Walmart is opening its checkout to rival wallets as Amazon spends billions on AI infrastructure as retail technology competition shifts. Today’s most consequential retail technology investments have little to do with making things better, and more to do with redesigning them entirely. Walmart is loosening control at checkout to strengthen the broader customer relationship, betting that payments can become more open as long as identity, loyalty, data and engagement stay inside its ecosystem. Amazon is pushing retail competition upstream into AI infrastructure, where discovery, personalization, recommendations and agentic commerce may influence the purchase before a shopper ever reaches checkout. The bigger retail shift is from owning the transaction to owning the intelligence around it: payments, wallets and infrastructure are becoming easier to outsource, while customer data, decisioning",
+    "corePoint": [
+      "Amazon、Walmart把AI能力放进支付/结算链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "商家面临渠道迁移和用户关系被AI入口截流的压力",
+      "智能体商业不只是更聪明的结算"
+    ],
+    "contentType": "竞品",
+    "category": "平台案例",
+    "tags": [
+      "竞品案例",
+      "Agentic Commerce",
+      "交易闭环"
+    ],
+    "insight": "用户需求：用户想省掉结算操作，但不愿把购买决定完全交出去。｜产品机会：把交易权限拆成建议、代填、锁价、代付、代买五级，让用户逐步授权。｜设计启发：支付确认页要同时展示预算、库存、优惠、到达时间和售后责任，形成可追责凭证。",
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "trust-ladder",
+      "agentic-funnel"
+    ],
+    "valueScore": 83
+  },
+  {
     "id": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
     "date": "2026-09-10",
     "title": "Instacart launches AI assistant Clementine, agentic commerce integrations",
@@ -79,7 +107,7 @@
       "decision-os",
       "closed-loop-first"
     ],
-    "valueScore": 74
+    "valueScore": 73
   },
   {
     "id": "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098",
