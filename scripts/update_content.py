@@ -1484,6 +1484,7 @@ def update(days: int, limit: int, dry_run: bool = False, skip_wechat: bool = Fal
         meta["sourceCount"] = len({item.get("source") for item in merged})
         meta["lastInsightUpdated"] = dt.datetime.now(TZ).date().isoformat()
         meta["latestInsightChanged"] = insight_changed
+        meta["competitorCoverage"] = "Expanded domestic competitor tracking for Taobao/Tmall/Qwen, Meituan Xiaomei/Wenxiaotuan, JD Jingyan/Yanxi/Jingmai, Dewu, Xiaohongshu, Douyin Ecommerce and Pinduoduo, covering both C-end shopping entry points and B-end merchant tools."
         write_json(META_PATH, meta)
     return selected
 
