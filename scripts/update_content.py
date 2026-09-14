@@ -494,25 +494,33 @@ def decode_google_news_url(session: requests.Session, url: str) -> str:
     if parsed.netloc.lower() != "news.google.com" or "/articles/" not in parsed.path and "/read/" not in parsed.path:
         return url
     article_id = parsed.path.rstrip("/").split("/")[-1]
+    params = dict(urllib.parse.parse_qsl(parsed.query, keep_blank_values=True))
+    ceid = params.get("ceid") or "US:en"
     try:
-        response = session.get(f"https://news.google.com/articles/{article_id}", timeout=12)
+        request_url = url
+        if "hl=" not in parsed.query and "gl=" not in parsed.query and "ceid=" not in parsed.query:
+            request_url = f"{url}{'&' if parsed.query else '?'}hl=en-US&gl=US&ceid=US:en"
+        response = session.get(request_url, timeout=12)
         signature_match = re.search(r'data-n-a-sg="([^"]+)"', response.text)
         timestamp_match = re.search(r'data-n-a-ts="([^"]+)"', response.text)
         if not signature_match or not timestamp_match:
             return url
         payload = [
             "Fbv4je",
-            f'["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{article_id}",{timestamp_match.group(1)},"{signature_match.group(1)}"]',
+            f'["garturlreq",[["X","X",["X","X"],null,null,1,1,"{ceid}",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{article_id}",{timestamp_match.group(1)},"{signature_match.group(1)}"]',
         ]
         decoded = session.post(
             "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
             data="f.req=" + urllib.parse.quote(json.dumps([[payload]])),
-            headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+            headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8", "Referer": request_url},
             timeout=12,
         )
-        parsed_rows = json.loads(decoded.text.split("\n\n", 1)[1])[:-2]
-        original = json.loads(parsed_rows[0][2])[1]
-        return clean_url(original) if original.startswith("http") else url
+        parsed_rows = json.loads(decoded.text.split("\n\n", 1)[1])
+        for row in parsed_rows:
+            if len(row) >= 3 and row[0] == "wrb.fr" and row[1] == "Fbv4je" and row[2]:
+                original = json.loads(row[2])[1]
+                return clean_url(original) if original.startswith("http") else url
+        return url
     except Exception:
         return url
 
@@ -520,6 +528,71 @@ def decode_google_news_url(session: requests.Session, url: str) -> str:
 def fallback_search_url(item: dict[str, Any]) -> str:
     query = urllib.parse.quote(f"{item.get('title', '')} {item.get('source', '')}".strip())
     return f"https://www.google.com/search?q={query}"
+
+
+def is_google_news_url(url: str) -> bool:
+    return urllib.parse.urlsplit(clean_url(url)).netloc.lower() == "news.google.com"
+
+
+def is_search_fallback_url(url: str) -> bool:
+    parsed = urllib.parse.urlsplit(clean_url(url))
+    return parsed.netloc.lower() in {"google.com", "www.google.com"} and parsed.path == "/search"
+
+
+def title_overlap_score(left: str, right: str) -> float:
+    left_norm = normalized_title(left)
+    right_norm = normalized_title(right)
+    if not left_norm or not right_norm:
+        return 0.0
+    if left_norm in right_norm or right_norm in left_norm:
+        return 1.0
+    left_chars = set(left_norm)
+    right_chars = set(right_norm)
+    return len(left_chars & right_chars) / max(1, len(left_chars | right_chars))
+
+
+def resolve_direct_url_from_news_search(session: requests.Session, item: dict[str, Any]) -> str:
+    title = item.get("title", "")
+    source = item.get("source", "")
+    if not title:
+        return ""
+    short_title = re.sub(r"\s+-\s+[^-]{2,12}$", "", title).strip()
+    keyword_title = re.sub(r"[\"“”‘’'｜|:：,，。！？!?.、()（）\[\]【】]", " ", short_title)
+    keyword_title = re.sub(r"\s+", " ", keyword_title).strip()
+    compact_title = re.sub(r"[^0-9A-Za-z\u4e00-\u9fa5]+", "", short_title)
+    compact_core = compact_title[:20]
+    compact_head = compact_title[:28]
+    queries = list(dict.fromkeys([
+        f'"{title}" {source}'.strip(),
+        f"{title} {source}".strip(),
+        f"{short_title} {source}".strip(),
+        f"{compact_core} {source}".strip(),
+        f"{compact_head} {source}".strip(),
+        f"{keyword_title} {source}".strip(),
+    ]))
+    for query in queries:
+        for lang, gl, ceid in [("zh-CN", "CN", "CN:zh-Hans"), ("en-US", "US", "US:en")]:
+            try:
+                response = session.get(
+                    "https://news.google.com/rss/search",
+                    params={"q": query, "hl": lang, "gl": gl, "ceid": ceid},
+                    timeout=15,
+                )
+                root = ET.fromstring(response.content)
+            except Exception:
+                continue
+            for node in root.findall(".//item")[:8]:
+                candidate_source = canonical_source(clean_text(node.findtext("source") or ""))
+                candidate_title = clean_display_title(clean_text(node.findtext("title") or ""), candidate_source)
+                if source and candidate_source != source and title_overlap_score(title, candidate_title) < 0.86:
+                    continue
+                if title_overlap_score(title, candidate_title) < 0.72:
+                    continue
+                direct_url = decode_google_news_url(session, node.findtext("link") or "")
+                if direct_url and not is_google_news_url(direct_url):
+                    return direct_url
+            time.sleep(0.03)
+    return ""
 
 
 def fetch_wechat(days: int) -> list[dict[str, Any]]:
@@ -1461,8 +1534,10 @@ def update(days: int, limit: int, dry_run: bool = False, skip_wechat: bool = Fal
     resolved_selected = []
     for item in selected:
         item["url"] = decode_google_news_url(link_session, item["url"])
-        if urllib.parse.urlsplit(item["url"]).netloc.lower() == "news.google.com":
-            item["url"] = fallback_search_url(item)
+        if is_google_news_url(item["url"]):
+            item["url"] = resolve_direct_url_from_news_search(link_session, item)
+        if not item["url"] or is_google_news_url(item["url"]) or is_search_fallback_url(item["url"]):
+            continue
         if is_blocked_source_or_url(item):
             continue
         page_excerpt = fetch_article_excerpt(item["url"], link_session)
