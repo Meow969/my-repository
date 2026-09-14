@@ -15,7 +15,7 @@
       "可执行决策",
       "决策链"
     ],
-    "sourceCount": 53,
+    "sourceCount": 55,
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
       "2026-09-11-cbndata-ai-5926ac2e97",
@@ -79,7 +79,7 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 62,
+    "sourceCount": 63,
     "relatedArticleIds": [
       "2026-09-14-q1-q2-477f743269",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
@@ -111,7 +111,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 79,
+    "sourceCount": 80,
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
@@ -604,7 +604,7 @@
     ],
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、B端商家工具，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-14",
-    "sourceCount": 81
+    "sourceCount": 83
   },
   {
     "id": "visual-try-on-as-proof",
@@ -625,12 +625,13 @@
     ],
     "relatedArticleIds": [
       "daily-2026-08-22-d0935ce5172bc8",
+      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-14",
-    "sourceCount": 3
+    "sourceCount": 4
   },
   {
     "id": "local-life-agent-loop",
@@ -661,9 +662,9 @@
       "2026-08-28-21-ai-token-c573010600",
       "2026-08-25-ai-6f60a0b2fd"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、B端商家工具，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-14",
-    "sourceCount": 26
+    "sourceCount": 27
   },
   {
     "id": "structured-dialogue",
@@ -725,7 +726,7 @@
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6"
     ],
-    "sourceCount": 111,
+    "sourceCount": 113,
     "updatedAt": "2026-09-14",
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
@@ -789,7 +790,7 @@
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6"
     ],
-    "sourceCount": 111,
+    "sourceCount": 113,
     "updatedAt": "2026-09-14",
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
@@ -853,7 +854,71 @@
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6"
     ],
-    "sourceCount": 111,
+    "sourceCount": 113,
+    "updatedAt": "2026-09-14",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+  },
+  {
+    "id": "structured-dialogue",
+    "title": "对话导购要先结构化需求，再给答案",
+    "summary": "好的AI导购不是把商品列表说得更像人，而是把模糊表达拆成预算、场景、偏好、禁忌、履约和风险约束，再组织可比较候选。",
+    "takeaways": [
+      "先问清决策约束再推荐",
+      "把候选差异做成对比证据",
+      "保留用户可修改的决策路径"
+    ],
+    "keywords": [
+      "对话导购",
+      "需求澄清",
+      "结构化决策",
+      "比较",
+      "证据链"
+    ],
+    "relatedArticleIds": [
+      "2026-09-14-q1-q2-477f743269",
+      "2026-09-13-ai-ai-699ba1d926",
+      "2026-09-13-kimi-bai-ai-7dd7e92084",
+      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+      "2026-09-10-ai-ac61f3f501",
+      "2026-09-09-ai-b2284494a6"
+    ],
+    "sourceCount": 132,
+    "updatedAt": "2026-09-14",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、国内竞品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+  },
+  {
+    "id": "data-transaction-moat",
+    "title": "商品数据和履约能力才是AI导购护城河",
+    "summary": "AI导购越接近成交，越依赖实时商品、价格、库存、优惠、物流和售后规则；平台壁垒来自能否把这些交易资产变成可解释证据。",
+    "takeaways": [
+      "把商品事实做成可引用证据",
+      "推荐前先做可买性核验",
+      "用履约和售后能力解释排序"
+    ],
+    "keywords": [
+      "商品库",
+      "履约",
+      "价格库存",
+      "交易闭环",
+      "平台资产"
+    ],
+    "relatedArticleIds": [
+      "2026-09-14-q1-q2-477f743269",
+      "2026-09-13-ai-ai-699ba1d926",
+      "2026-09-13-kimi-bai-ai-7dd7e92084",
+      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-11-ai-ai-6f5abe1327",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+      "2026-09-10-ai-ac61f3f501",
+      "2026-09-09-ai-b2284494a6"
+    ],
+    "sourceCount": 113,
     "updatedAt": "2026-09-14",
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
@@ -1105,6 +1170,7 @@
       "风险前置"
     ],
     "relatedArticleIds": [
+      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
       "daily-2026-07-29-fcd1c0b0824ead",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
@@ -1112,7 +1178,7 @@
       "daily-2026-08-23-9ac5af530d0367",
       "daily-2025-09-12-a18826d18731c1"
     ],
-    "sourceCount": 6,
+    "sourceCount": 7,
     "updatedAt": "2026-09-14"
   },
   {
@@ -2374,6 +2440,34 @@
     "updatedAt": "2026-09-14"
   },
   {
+    "id": "spark-2026-08-14-user-guancha-cn-ai-17a2f160ed",
+    "title": "把淘宝/天猫的视觉能力拆成“适配证据”",
+    "summary": "这条信号启发的是：视觉导购不要只做生成效果图，而要把尺码、风格、场景和退货风险变成可比较、可追责的推荐证据。",
+    "takeaways": [
+      "把视觉结果接入推荐排序",
+      "在对比卡里展示适配/不适配证据",
+      "用失败样例训练用户预期"
+    ],
+    "keywords": [
+      "视觉导购",
+      "适配证据",
+      "试穿",
+      "非标品",
+      "国内竞品",
+      "竞品案例",
+      "虚拟试穿"
+    ],
+    "relatedArticleIds": [
+      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
+      "2026-09-13-ai-ai-699ba1d926",
+      "2026-08-10-510496218f",
+      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-14-q1-q2-477f743269"
+    ],
+    "sourceCount": 5,
+    "updatedAt": "2026-09-14"
+  },
+  {
     "id": "spark-daily-2026-07-29-fcd1c0b0824ead",
     "title": "把Kohl's Corporate的供给侧动作转成AI可读资产",
     "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
@@ -2420,35 +2514,6 @@
     ],
     "relatedArticleIds": [
       "2026-05-26-mastercard-intelligent-agentic--4d5209a8e1",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-14"
-  },
-  {
-    "id": "spark-competitor-2026-05-10-ai-ai-b15ffc150d",
-    "title": "把淘宝/天猫的视觉能力拆成“适配证据”",
-    "summary": "这条信号启发的是：视觉导购不要只做生成效果图，而要把尺码、风格、场景和退货风险变成可比较、可追责的推荐证据。",
-    "takeaways": [
-      "把视觉结果接入推荐排序",
-      "在对比卡里展示适配/不适配证据",
-      "用失败样例训练用户预期"
-    ],
-    "keywords": [
-      "视觉导购",
-      "适配证据",
-      "试穿",
-      "非标品",
-      "国内竞品",
-      "AI购物",
-      "竞品案例",
-      "虚拟试穿"
-    ],
-    "relatedArticleIds": [
-      "competitor-2026-05-10-ai-ai-b15ffc150d",
       "2026-09-13-ai-ai-699ba1d926",
       "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
@@ -2612,10 +2677,11 @@
     ],
     "relatedArticleIds": [
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
+      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
       "daily-2026-08-22-d0935ce5172bc8"
     ],
-    "sourceCount": 3,
+    "sourceCount": 4,
     "updatedAt": "2026-09-14"
   },
   {
@@ -2796,10 +2862,11 @@
     ],
     "relatedArticleIds": [
       "daily-2026-08-22-d0935ce5172bc8",
+      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
       "competitor-2026-05-10-ai-ai-b15ffc150d",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "sourceCount": 3,
+    "sourceCount": 4,
     "updatedAt": "2026-09-14"
   },
   {
@@ -2873,32 +2940,6 @@
     ],
     "relatedArticleIds": [
       "daily-2026-06-19-10e5b92e51f050",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-14"
-  },
-  {
-    "id": "spark-daily-2026-08-24-365a107d529345",
-    "title": "把TechCrunch的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-24-365a107d529345",
       "2026-09-13-ai-ai-699ba1d926",
       "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
