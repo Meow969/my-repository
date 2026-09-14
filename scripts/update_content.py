@@ -87,6 +87,47 @@ WECHAT_QUERIES = [
     "AI购物 案例",
 ]
 
+DOMESTIC_COMPETITOR_QUERIES = [
+    "淘宝 AI导购 C端 购物助手",
+    "淘宝 AI万能搜 导购 体验",
+    "淘宝 问问 AI导购 购物决策",
+    "淘宝 AI试衣间 虚拟试穿 服饰",
+    "淘宝设计 AI 试穿 服饰 导购",
+    "淘宝闪购 AI点单 即时零售",
+    "天猫 AI导购 双11 购物助手",
+    "天猫 AI试穿 虚拟试衣",
+    "天猫 AI空间站 Kimi 智谱 消费者入口",
+    "千问 淘宝 AI购物 助手",
+    "通义千问 电商 导购 购物",
+    "通义千问 淘宝 闪购 AI",
+    "阿里 Aidge AI电商 商家 工具",
+    "阿里国际 AI商家助手 Aidge",
+    "阿里 电商 AI Agent 商家 运营",
+    "京东 AI导购 京言 智能购物助手",
+    "京东 言犀 AI导购 购物助手",
+    "京东 京言 AI助手 商品 推荐",
+    "京东 AI试穿 服饰 导购",
+    "京东 秒送 AI助手 即时零售",
+    "京东 商家 AI助手 京麦 运营",
+    "京东 采销 AI Agent 商品运营",
+    "美团 小美 AI助手 本地生活",
+    "美团 问小团 AI搜索 本地生活",
+    "美团 小美 外卖 点餐 AI助手",
+    "美团 闪购 AI导购 即时零售",
+    "美团 商家 AI助手 经营",
+    "大众点评 AI助手 到店 推荐",
+    "抖音电商 AI导购 搜索 商品卡",
+    "抖音豆包 电商闭环 AI购物",
+    "快手电商 AI导购 智能客服",
+    "小红书 AI搜索 购物 种草",
+    "小红书 AI导购 种草 搜索",
+    "得物 AI试穿 AI试鞋 球鞋",
+    "得物 AI导购 潮流 试穿",
+    "拼多多 AI导购 购物助手",
+]
+
+WECHAT_QUERIES = list(dict.fromkeys(WECHAT_QUERIES + DOMESTIC_COMPETITOR_QUERIES))
+
 RSS_SOURCES = [
     ("Google Shopping Blog", "海外", "https://blog.google/products-and-platforms/products/shopping/rss/"),
     ("Google Ads & Commerce Blog", "海外", "https://blog.google/products/ads-commerce/rss/"),
@@ -101,7 +142,7 @@ RSS_SOURCES = [
     ("a16z", "海外", "https://a16z.com/feed/"),
 ]
 
-GOOGLE_NEWS_QUERIES = [
+GOOGLE_NEWS_QUERIES = DOMESTIC_COMPETITOR_QUERIES + [
     "AI shopping assistant",
     "agentic commerce",
     "AI shopping agent",
@@ -291,11 +332,33 @@ SOURCE_WEIGHT = {
     "虎嗅": 8,
     "钛媒体": 8,
     "亿邦动力网": 8,
+    "电商报": 8,
+    "联商网": 8,
+    "CBNData-第一财经商业数据中心": 9,
+    "第一财经": 9,
+    "经济观察网": 8,
+    "中国经营网": 8,
+    "观点网": 7,
+    "财联社": 11,
+    "零售商业财经": 8,
+    "见实": 8,
+    "雷峰网": 8,
+    "机器之心": 8,
+    "晚点LatePost": 9,
+    "Tech星球": 8,
+    "甲子光年": 8,
+    "商业数据派": 8,
+    "明亮公司": 8,
+    "品牌数读": 7,
+    "派代": 7,
     "人人都是产品经理": 7,
 }
 
 TAG_RULES = {
     "C端AI产品": ["consumer ai", "ai app", "ai assistant app", "personal assistant", "ai browser", "ai wearable", "chatgpt", "gemini", "claude", "perplexity", "copilot", "meta ai", "grok", "operator", "comet", "豆包", "kimi", "通义千问", "千问", "夸克", "元宝", "大模型应用", "ai助手", "ai搜索"],
+    "国内竞品": ["淘宝", "天猫", "淘天", "千问", "通义", "阿里", "京东", "京言", "言犀", "京麦", "美团", "小美", "问小团", "大众点评", "得物", "小红书", "抖音电商", "快手电商", "拼多多"],
+    "C端导购入口": ["万能搜", "ai搜索", "问问", "小美", "问小团", "京言", "智能购物助手", "ai助手", "ai导购", "购物助手", "点单", "找店", "找商品"],
+    "B端商家工具": ["商家", "卖家", "店铺", "京麦", "千牛", "商家后台", "经营", "运营", "投放", "素材", "客服", "aidge", "生意参谋", "采销"],
     "AI搜索": ["ai search", "answer engine", "perplexity", "comet", "ai mode", "ai搜索", "答案引擎", "搜索助手", "夸克"],
     "AI购物": ["ai购物", "购物助手", "购物智能体", "ai shopping", "shopping agent", "agentic shopping", "ai commerce", "online shopping", "cart assistant"],
     "对话导购": ["导购", "对话式", "conversation", "conversational"],
@@ -304,7 +367,7 @@ TAG_RULES = {
     "Agentic Commerce": ["agentic commerce", "agentic shopping", "intelligent commerce", "智能体商业", "代理购物"],
     "交易闭环": ["闭环", "下单", "支付", "checkout", "checkouts", "交易", "购物车", "universal cart", "cart assistant"],
     "商品库": ["商品", "sku", "库存", "价格", "履约", "product data", "catalog", "metrics"],
-    "即时零售": ["即时零售", "闪购", "买菜", "外卖"],
+    "即时零售": ["即时零售", "闪购", "买菜", "外卖", "秒送", "小时达", "本地生活", "到店", "点单"],
     "GEO": ["geo", "ai可见性", "可见性", "搜索"],
     "商家Agent": ["商家", "merchant", "seller", "卖家"],
     "技术架构": ["架构", "开源", "blueprint", "protocol", "ucp", "openclaw", "claude"],
@@ -321,7 +384,7 @@ INSIGHT_RULES = {
     "multi-agent-commerce": ["claude", "blueprint", "商家", "merchant", "openclaw", "agent"],
     "multi-agent-market": ["买方agent", "卖方agent", "商家", "merchant", "撮合", "交易网络"],
     "structured-dialogue": ["导购", "架构", "对话", "搜索", "推荐"],
-    "high-frequency-entry": ["即时零售", "闪购", "买菜", "复购", "外卖"],
+    "auto-local-certainty": ["即时零售", "闪购", "买菜", "复购", "外卖"],
     "habit-before-intelligence": ["高频", "习惯", "复购", "日常", "买菜", "外卖"],
     "category-wedge": ["品类", "非标", "标品", "高客单", "家电", "服饰"],
     "risk-first-design": ["风险", "失败", "误购", "兜底", "退货", "售后"],
@@ -335,7 +398,9 @@ INSIGHT_RULES = {
     "from-comparison-to-negotiation": ["比价", "议价", "报价", "优惠", "谈条件", "动态价格"],
     "social-proof-rebuild": ["评价", "口碑", "评论", "虚假评价", "social proof"],
     "merchant-readable-store": ["geo", "商家", "卖家", "商品资料", "可见性"],
-    "competitor-function-radar": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "shopee", "虾皮", "amazon", "rufus", "alexa", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "得物"],
+    "competitor-function-radar": ["淘宝", "天猫", "千问", "美团", "小美", "问小团", "京东", "京言", "言犀", "shopee", "虾皮", "amazon", "rufus", "alexa", "walmart", "sparky", "target", "kohl", "instacart", "pinterest", "得物"],
+    "auto-domestic-platform-assets": ["国内竞品", "淘宝", "天猫", "淘天", "千问", "美团", "小美", "问小团", "京东", "京言", "言犀", "京麦", "得物", "小红书", "抖音电商", "拼多多"],
+    "merchant-copilot-layer": ["B端商家工具", "商家", "卖家", "店铺", "京麦", "千牛", "经营", "运营", "投放", "素材", "客服", "采销", "Aidge"],
     "visual-try-on-as-proof": ["试穿", "试衣", "试鞋", "virtual try", "try-on", "virtual fitting", "fitting room", "服饰导购", "ai试穿", "造型导购"],
     "local-life-agent-loop": ["美团", "小美", "问小团", "本地生活", "外卖", "买菜", "到店"],
 }
@@ -346,13 +411,14 @@ SPARK_INSIGHT_PREFIX = "spark-"
 
 NEGATIVE_WORDS = ["融资", "培训", "课程", "招商", "广告", "大会报名", "招聘", "破解版"]
 BLOCKED_URL_HOSTS = {"ebrun.com", "ttplus.cn"}
-LOW_VALUE_SOURCES = {"Stocktwits", "stocktwits.com", "体坛", "体坛网", "ttplus.cn"}
+LOW_VALUE_SOURCES = {"Stocktwits", "stocktwits.com", "体坛", "体坛网", "体坛加", "ttplus.cn", "财富号", "blog.csdn.net"}
 LOW_VALUE_TITLE_PATTERNS = [
     "dunkin", "chief merchant", "ad auction", "fulfillment center", "tire benefit",
     "stock gains", "pre-market", "price target", "shares rise", "shares fall", "earnings call",
     "token充值", "充值中心", "多人工作台", "measurement stack", "new ecommerce tools",
     "倒计时", "报名", "大会", "峰会", "webinar", "conference", "top 100 business trends",
     "ai tools for shopee sellers", "tools for shopee sellers",
+    "geo优化", "精准询盘", "巨宇科技", "ai原生社区", "养虾",
 ]
 HIGH_VALUE_WORDS = [
     "闭环", "智能体", "Agentic Commerce", "导购", "购物助手", "千问", "豆包", "淘宝",
@@ -361,6 +427,7 @@ HIGH_VALUE_WORDS = [
     "天猫", "美团", "小美", "虾皮", "Shopee", "得物", "试穿", "试衣", "试鞋",
     "virtual try", "try-on", "AI万能搜", "Alexa", "Walmart", "Sparky", "Target",
     "Kohl", "Instacart", "Pinterest", "问小团", "Aidge", "AliExpress",
+    "淘天", "淘宝问问", "AI试衣间", "通义", "京言", "言犀", "京麦", "京东秒送", "京东采销", "大众点评", "AI点单", "国内竞品",
 ]
 
 
@@ -448,6 +515,11 @@ def decode_google_news_url(session: requests.Session, url: str) -> str:
         return clean_url(original) if original.startswith("http") else url
     except Exception:
         return url
+
+
+def fallback_search_url(item: dict[str, Any]) -> str:
+    query = urllib.parse.quote(f"{item.get('title', '')} {item.get('source', '')}".strip())
+    return f"https://www.google.com/search?q={query}"
 
 
 def fetch_wechat(days: int) -> list[dict[str, Any]]:
@@ -638,6 +710,14 @@ def article_angles(item: dict[str, Any], tags: list[str]) -> list[str]:
     title = str(item.get("title", ""))
     lower = text.lower()
     angles: list[str] = []
+    if contains_any(text, ["淘宝", "天猫", "淘天", "千问", "通义", "阿里", "aidge", "aliexpress"]):
+        angles.append("taobao_alibaba")
+    if contains_any(text, ["美团", "小美", "问小团", "大众点评", "美团闪购", "外卖", "买菜", "到店"]):
+        angles.append("meituan_local")
+    if contains_any(text, ["京东", "京言", "言犀", "京麦", "京东秒送", "采销"]):
+        angles.append("jd_retail")
+    if contains_any(text, ["商家", "卖家", "店铺", "京麦", "千牛", "经营", "运营", "投放", "素材", "客服", "采销", "aidge"]):
+        angles.append("domestic_merchant_ops")
     if contains_any(title, ["stock", "price target", "pre-market", "premarket", "shares", "q2", "sales decline", "earnings"]):
         angles.append("market_signal")
     if contains_any(text, ["tested", "i let", "which worked best", "perfect gift", "gift", "hands-on", "实测", "测评"]):
@@ -683,6 +763,7 @@ def is_grounded_consumer_ai_item(item: dict[str, Any], tags: list[str]) -> bool:
         "ChatGPT", "OpenAI", "Gemini", "Claude", "Perplexity", "Copilot", "Meta AI", "Grok",
         "AI app", "AI assistant", "AI browser", "AI search", "answer engine", "consumer AI", "personal assistant",
         "豆包", "Kimi", "通义千问", "千问", "夸克", "元宝", "大模型应用", "AI助手", "AI搜索", "智能助手",
+        "京言", "言犀", "小美", "问小团", "AI万能搜", "AI试衣间", "AI点单", "智能购物助手",
     ])
     has_consumer_signal = contains_any(source_text, [
         "app", "browser", "search", "assistant", "mobile", "consumer", "users", "launch", "feature",
@@ -691,10 +772,12 @@ def is_grounded_consumer_ai_item(item: dict[str, Any], tags: list[str]) -> bool:
     commerce_bridge = contains_any(source_text, [
         "shopping", "commerce", "retail", "merchant", "seller", "checkout", "personal shopper", "product discovery", "buying", "purchase",
         "购物", "导购", "电商", "零售", "商品", "商家", "比价", "下单", "支付", "本地生活",
+        "淘宝", "天猫", "京东", "美团", "得物", "小红书", "抖音电商", "快手电商", "闪购", "外卖", "买菜", "到店",
     ])
     product_design_signal = contains_any(source_text, [
         "memory", "personalization", "agent", "operator", "browser", "computer use", "tasks", "assistant", "entry point", "workflow",
         "记忆", "偏好", "智能体", "入口", "工作流", "多模态", "浏览器", "联网搜索", "个人助手",
+        "试穿", "试衣", "点单", "搜索", "推荐", "商家后台", "京麦", "千牛", "运营", "投放", "客服",
     ])
     low_value = contains_any(source_text, ["training", "course", "招聘", "培训", "课程", "融资", "股价", "stock", "earnings"])
     return has_ai_product and has_consumer_signal and (commerce_bridge or product_design_signal) and not low_value
@@ -705,18 +788,18 @@ def is_grounded_ai_shopping_item(item: dict[str, Any], tags: list[str]) -> bool:
     has_ai = contains_any(source_text, [
         "AI", "artificial intelligence", "generative AI", "ChatGPT", "OpenAI", "Gemini", "Claude",
         "Perplexity", "Bedrock", "AgentCore", "OpenClaw", "agentic", "intelligent commerce",
-        "智能体", "人工智能", "大模型", "千问", "豆包",
+        "智能体", "人工智能", "大模型", "千问", "豆包", "小美", "问小团", "京言", "言犀", "AI万能搜", "AI试衣间", "AI点单",
     ])
     has_commerce = contains_any(source_text, [
         "shopping", "shop", "shoppers", "commerce", "ecommerce", "e-commerce", "retail", "retailer", "retailers",
         "checkout", "checkouts", "cart", "merchant", "seller", "sellers", "storefront", "sales", "gift", "gifts", "buying", "purchase", "product data", "catalog",
-        "淘宝", "天猫", "京东", "美团", "闪购", "点单", "Shopee", "Instacart", "Shopify", "Walmart", "Target",
+        "淘宝", "天猫", "淘天", "京东", "京麦", "美团", "大众点评", "闪购", "点单", "外卖", "买菜", "到店", "得物", "小红书", "抖音电商", "快手电商", "拼多多", "Shopee", "Instacart", "Shopify", "Walmart", "Target",
         "购物", "导购", "电商", "零售", "商品", "商家", "支付", "下单", "履约",
     ])
     has_specific_signal = contains_any(source_text, [
         "AI购物", "AI导购", "AI万能搜", "购物智能体", "agentic commerce", "agentic shopping",
         "ai shopping assistant", "shopping agent", "alexa for shopping", "cart assistant", "universal cart",
-        "online shopping", "virtual try-on", "虚拟试穿", "AI试穿",
+        "online shopping", "virtual try-on", "虚拟试穿", "AI试穿", "京言", "言犀", "小美", "问小团", "AI试衣间", "AI点单", "商家AI助手",
     ])
     has_real_try_on = is_visual_try_on_context(source_text) and contains_any(source_text, ["shopping", "ecommerce", "commerce", "服饰", "鞋", "美妆", "购物", "电商"])
     if has_specific_signal or has_real_try_on:
@@ -735,6 +818,10 @@ def is_relevant_existing_item(item: dict[str, Any]) -> bool:
 
 def infer_category(tags: list[str], text: str) -> str:
     lower = text.lower()
+    if "国内竞品" in tags and "B端商家工具" in tags:
+        return "商家/生态"
+    if "国内竞品" in tags:
+        return "国内竞品"
     if "虚拟试穿" in tags:
         return "竞品功能"
     if "C端AI产品" in tags:
@@ -754,7 +841,7 @@ def infer_category(tags: list[str], text: str) -> str:
 
 def infer_content_type(tags: list[str], category: str, text: str, source: str = "") -> str:
     lower = text.lower()
-    if "竞品案例" in tags or category in {"平台案例", "竞品功能"}:
+    if "国内竞品" in tags or "竞品案例" in tags or category in {"平台案例", "竞品功能", "国内竞品"}:
         return "竞品"
     if "C端AI产品" in tags or "AI搜索" in tags:
         return "C端产品"
@@ -784,6 +871,15 @@ def score_item(item: dict[str, Any], tags: list[str]) -> int:
     if len(item.get("snippet", "")) < 35:
         score -= 8
     return min(99, max(0, score))
+
+
+def selection_threshold(item: dict[str, Any]) -> int:
+    tags = item.get("tags", []) or []
+    if "国内竞品" in tags and any(tag in tags for tag in ["C端导购入口", "B端商家工具", "即时零售", "虚拟试穿", "交易闭环"]):
+        return 62
+    if "国内竞品" in tags:
+        return 66
+    return 72
 
 
 def fetch_article_excerpt(url: str, session: requests.Session) -> str:
@@ -849,6 +945,10 @@ def related_insights(text: str) -> list[str]:
 
 
 ANGLE_RELATED_INSIGHTS = {
+    "taobao_alibaba": ["auto-domestic-platform-assets", "data-transaction-moat", "decision-os"],
+    "meituan_local": ["local-life-agent-loop", "auto-local-certainty", "trust-ladder"],
+    "jd_retail": ["auto-domestic-platform-assets", "closed-loop-first", "data-transaction-moat"],
+    "domestic_merchant_ops": ["auto-merchant-copilot-loop", "merchant-readable-store", "merchant-incentive"],
     "market_signal": ["competitor-function-radar", "agentic-funnel"],
     "consumer_benchmark": ["evidence-led-recommendation", "trust-ladder", "decision-os"],
     "ai_search_commerce": ["answer-shelf", "merchant-readable-store", "agentic-funnel"],
@@ -856,7 +956,7 @@ ANGLE_RELATED_INSIGHTS = {
     "visual_try_on": ["visual-try-on-as-proof", "evidence-led-recommendation", "category-wedge"],
     "product_data": ["data-transaction-moat", "merchant-readable-store", "ranking-governance"],
     "merchant_tools": ["merchant-incentive", "merchant-readable-store", "multi-agent-market"],
-    "local_life": ["local-life-agent-loop", "high-frequency-entry", "habit-before-intelligence"],
+    "local_life": ["local-life-agent-loop", "auto-local-certainty", "habit-before-intelligence"],
     "platform_assistant": ["competitor-function-radar", "decision-os", "closed-loop-first"],
     "discovery_decision": ["decision-os", "answer-shelf", "evidence-led-recommendation"],
     "trust_risk": ["trust-ladder", "privacy-permission", "risk-first-design"],
@@ -916,9 +1016,9 @@ def core_point_text(value: Any) -> str:
 
 
 ENTITY_RULES = [
-    ("淘宝", ["淘宝", "天猫", "千问", "qwen", "alibaba", "aliexpress", "阿里"]),
-    ("美团", ["美团", "小美", "问小团", "keeta"]),
-    ("京东", ["京东", "京言", "言犀", "jd.com"]),
+    ("淘宝/天猫", ["淘宝", "天猫", "淘天", "千问", "通义", "qwen", "alibaba", "aliexpress", "阿里", "淘宝闪购", "淘宝问问", "万能搜", "千牛"]),
+    ("美团", ["美团", "小美", "问小团", "大众点评", "keeta", "美团闪购"]),
+    ("京东", ["京东", "京言", "言犀", "jd.com", "京麦", "京东秒送", "京东采销"]),
     ("Amazon", ["amazon", "rufus", "alexa"]),
     ("Walmart", ["walmart", "sparky"]),
     ("Google", ["google", "gemini"]),
@@ -942,6 +1042,8 @@ ENTITY_RULES = [
 
 
 SCENARIO_RULES = [
+    ("C端导购入口", ["万能搜", "问问", "小美", "问小团", "京言", "智能购物助手", "ai助手", "ai导购", "购物助手", "搜索入口"]),
+    ("B端经营工具", ["商家", "卖家", "店铺", "京麦", "千牛", "商家后台", "经营", "运营", "投放", "素材", "客服", "采销"]),
     ("支付/结算", ["payment", "checkout", "token", "acquirer", "支付", "收单", "结算"]),
     ("商品数据/指标", ["product data", "catalog", "metrics", "measurement", "index", "forecast", "商品数据", "指标", "预测"]),
     ("AI购物助手", ["shopping assistant", "ai assistant", "assistant", "rufus", "alexa", "sparky", "购物助手", "导购"]),
@@ -950,7 +1052,7 @@ SCENARIO_RULES = [
     ("转化/流量", ["conversion", "traffic", "sales", "spending", "%", "转化", "流量", "销售"]),
     ("试穿/视觉体验", ["try-on", "virtual try", "试穿", "试衣", "试鞋", "visual", "视觉"]),
     ("用户测评/信任", ["tested", "wary", "trust", "risk", "permission", "mistake", "实测", "信任", "风险", "授权"]),
-    ("即时零售/本地生活", ["grocery", "quick-commerce", "instant", "闪购", "外卖", "买菜", "本地生活"]),
+    ("即时零售/本地生活", ["grocery", "quick-commerce", "instant", "闪购", "外卖", "买菜", "秒送", "小时达", "本地生活", "到店", "点单"]),
 ]
 
 
@@ -979,6 +1081,15 @@ def title_specific_points(item: dict[str, Any]) -> list[str]:
         points.append("讨论重点从单点结算效率，扩大到端到端消费体验。")
     if contains_any(text, ["product data", "trusted product data", "catalog", "metrics", "measurement"]):
         points.append("商品数据、目录质量和效果指标被提升为AI购物基础设施。")
+    if contains_any(text, ["淘宝", "天猫", "淘天", "千问", "通义", "ai万能搜", "淘宝问问"]):
+        points.append("阿里系AI导购的看点在于把搜索、内容、收藏、购物车、订单和商家供给统一编排。")
+        points.append("这类动作不只是新增入口，而是在重做用户从模糊需求到可执行购买清单的路径。")
+    if contains_any(text, ["美团", "小美", "问小团", "大众点评", "闪购", "外卖", "买菜", "到店"]):
+        points.append("美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率。")
+        points.append("位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行。")
+    if contains_any(text, ["京东", "京言", "言犀", "京麦", "京东秒送", "采销"]):
+        points.append("京东系AI能力更适合观察商品知识、供应链、正品心智和售后能力如何转化为推荐证据。")
+        points.append("它的导购机会不只是会问答，而是把价格、库存、物流和服务承诺做成可核验决策。")
     if contains_any(text, ["23%", "48%", "40%", "$1 trillion", "trillion", "forecast", "index", "survey"]):
         points.append("文章提供了渗透率、交易规模或转化变化等量化信号。")
     if contains_any(text, ["marketplaces", "marketplace", "protect loyalty", "loyalty"]):
@@ -1020,6 +1131,24 @@ def make_specific_insight(item: dict[str, Any]) -> str:
             "用户需求：用户愿意让AI帮忙，但需要知道它拿了什么权限、用了哪些数据、错了谁负责。｜产品机会：把信任机制前置到推荐和授权过程，而不是藏在协议或设置里。｜设计启发：每张推荐卡都显示依据来源、不确定项、授权边界和可撤回入口。",
             "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制。",
             "用户需求：用户害怕AI替自己做错决定，更害怕无法追责。｜产品机会：建立从建议到下单的可追溯链路，让AI的每一步都有依据和回退。｜设计启发：提供任务日志和责任凭证，告诉用户AI依据哪些约束推进到哪一步。",
+        ])
+    if contains_any(text, ["淘宝", "天猫", "淘天", "千问", "通义", "AI万能搜", "淘宝问问"]):
+        return choose([
+            "用户需求：淘宝/天猫用户不是缺商品，而是缺一个能读懂历史偏好、预算、场景和禁忌的决策组织者。｜产品机会：把AI导购接进搜索、收藏、购物车、优惠、订单和售后，形成从想法到清单的连续链路。｜设计启发：输出“可买清单”而不是纯聊天答案，标清必买、可替、待确认和风险项。",
+            "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单。",
+            "用户需求：用户希望AI懂自己，但仍要能看见推荐依据。｜产品机会：淘宝/千问类入口最适合把偏好记忆做成可编辑购买规则。｜设计启发：每次推荐都显示调用了哪些历史偏好、排除了哪些不适合商品、还需要用户确认什么。",
+        ])
+    if contains_any(text, ["美团", "小美", "问小团", "大众点评", "美团闪购", "外卖", "买菜", "到店"]):
+        return choose([
+            "用户需求：本地生活决策不是“哪个最好”，而是此刻附近、价格合适、能准时履约。｜产品机会：美团类AI应把位置、营业状态、排队、库存、配送、券和替代方案一次算完。｜设计启发：提供最快/最稳/最省三种方案，并说明每种方案的风险和兜底。",
+            "用户需求：点餐、买菜、到店更像任务完成，不像慢慢逛商品。｜产品机会：先从高频低风险的半自动任务建立用户授权习惯，再扩展到复杂服务决策。｜设计启发：AI默认带出可替换规则，例如缺货替品、预算上限、口味禁忌和最晚送达时间。",
+            "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+        ])
+    if contains_any(text, ["京东", "京言", "言犀", "京麦", "京东秒送", "采销"]):
+        return choose([
+            "用户需求：家电、数码、母婴等决策里，用户更在意买得准、送得稳、售后有人管。｜产品机会：京东类AI导购的优势应来自商品知识、供应链履约、正品心智和售后服务，而不是泛聊天。｜设计启发：推荐卡直接展示价格库存核验、配送承诺、售后规则和为什么排除其他款。",
+            "用户需求：复杂标品选择需要把参数、评价、预算、服务承诺压缩成可信判断。｜产品机会：京东/言犀信号适合拆成“专家导购+履约保证”的组合。｜设计启发：让AI输出对比表、风险提示和售后兜底，并把关键事实回链到商品页。",
+            "用户需求：商家和采销需要知道AI会如何理解商品、如何影响推荐和成交。｜产品机会：京麦/言犀类B端能力可变成商家经营驾驶舱。｜设计启发：给商家展示AI推荐命中率、缺失字段、用户追问和转化断点。",
         ])
     if contains_any(text, ["product data", "trusted product data", "catalog", "metrics", "measurement"]):
         return choose([
@@ -1191,6 +1320,8 @@ def make_core_point(item: dict[str, Any], tags: list[str]) -> list[str]:
         points.extend(["AI购物的底座是可信、结构化、可度量的商品与供给数据。", "没有商品数据层，导购很难稳定完成推荐、比较和成交。"])
     if "merchant_tools" in angles:
         points.extend(["AI正在进入商家侧的选品、投放、内容生成和商品表达。", "供给侧资料质量会反过来影响用户端推荐质量。"])
+    if "domestic_merchant_ops" in angles:
+        points.extend(["国内平台的B端AI动作正在从客服/素材生成，扩展到商品理解、经营诊断和投放归因。", "这类能力会间接决定C端导购能否获得足够准确、实时、可解释的供给信息。"])
     if "local_life" in angles:
         points.extend(["本地生活/即时零售更强调当下可执行选择。", "AI需要同时处理位置、时间、库存、配送、优惠和服务约束。"])
     if "platform_assistant" in angles:
@@ -1313,13 +1444,16 @@ def update(days: int, limit: int, dry_run: bool = False, skip_wechat: bool = Fal
     existing = load_json(ARTICLES_PATH, [])
     existing = prune_redundant_analysis(dedupe_items([
         item for item in (recompute_article_fields(item, keep_score=True) for item in existing)
-        if is_relevant_existing_item(item)
+        if is_relevant_existing_item(item) and not is_blocked_source_or_url(item)
     ]))
     raw_items = ([] if skip_wechat else fetch_wechat(days)) + fetch_rss(days) + fetch_google_news(days, max_google_queries)
     normalized = [normalize_item(item) for item in raw_items if item.get("title") and item.get("url")]
     normalized = [item for item in normalized if item]
     normalized = dedupe_items(normalized)
-    selected = [item for item in normalized if item["valueScore"] >= 72 and not any(is_duplicate(item, old) for old in existing)]
+    selected = [
+        item for item in normalized
+        if item["valueScore"] >= selection_threshold(item) and not any(is_duplicate(item, old) for old in existing)
+    ]
     selected.sort(key=lambda item: (item["date"], item["valueScore"]), reverse=True)
     selected = selected[:limit]
     link_session = requests.Session()
@@ -1327,7 +1461,9 @@ def update(days: int, limit: int, dry_run: bool = False, skip_wechat: bool = Fal
     resolved_selected = []
     for item in selected:
         item["url"] = decode_google_news_url(link_session, item["url"])
-        if urllib.parse.urlsplit(item["url"]).netloc.lower() == "news.google.com" or is_blocked_source_or_url(item):
+        if urllib.parse.urlsplit(item["url"]).netloc.lower() == "news.google.com":
+            item["url"] = fallback_search_url(item)
+        if is_blocked_source_or_url(item):
             continue
         page_excerpt = fetch_article_excerpt(item["url"], link_session)
         if page_excerpt:
@@ -1465,6 +1601,22 @@ def trend_note_for(insight: dict[str, Any], related: list[dict[str, Any]], recen
 
 PRODUCT_IDEA_BLUEPRINTS = [
     {
+        "id": "structured-dialogue",
+        "title": "对话导购要先结构化需求，再给答案",
+        "summary": "好的AI导购不是把商品列表说得更像人，而是把模糊表达拆成预算、场景、偏好、禁忌、履约和风险约束，再组织可比较候选。",
+        "takeaways": ["先问清决策约束再推荐", "把候选差异做成对比证据", "保留用户可修改的决策路径"],
+        "keywords": ["对话导购", "需求澄清", "结构化决策", "比较", "证据链"],
+        "terms": ["导购", "对话", "搜索", "推荐", "意图", "约束", "购物助手", "AI万能搜", "京言", "小美"],
+    },
+    {
+        "id": "data-transaction-moat",
+        "title": "商品数据和履约能力才是AI导购护城河",
+        "summary": "AI导购越接近成交，越依赖实时商品、价格、库存、优惠、物流和售后规则；平台壁垒来自能否把这些交易资产变成可解释证据。",
+        "takeaways": ["把商品事实做成可引用证据", "推荐前先做可买性核验", "用履约和售后能力解释排序"],
+        "keywords": ["商品库", "履约", "价格库存", "交易闭环", "平台资产"],
+        "terms": ["商品", "库存", "价格", "履约", "售后", "商品库", "京东", "淘宝", "天猫", "交易闭环", "可买性"],
+    },
+    {
         "id": "auto-constraint-collector",
         "title": "搜索框要升级成“约束收集器”",
         "summary": "AI导购最先改变的不是结果页，而是需求表达：把预算、用途、禁忌、时间、履约和偏好一次性收齐，推荐才有判断基础。",
@@ -1527,6 +1679,22 @@ PRODUCT_IDEA_BLUEPRINTS = [
         "takeaways": ["把位置、时间、库存、配送和优惠合并判断", "优先做高频低风险任务", "用履约状态反哺下一次推荐"],
         "keywords": ["本地生活", "即时零售", "履约确定性", "高频", "小美"],
         "terms": ["grocery", "quick-commerce", "instant", "local", "美团", "小美", "问小团", "外卖", "买菜", "即时零售", "本地生活"],
+    },
+    {
+        "id": "auto-domestic-platform-assets",
+        "title": "国内AI导购的壁垒是“平台资产编排”",
+        "summary": "淘宝、美团、京东这类平台的AI机会不只是更会聊，而是把搜索、内容、商品、优惠、库存、履约、售后和商家工具串成连续决策系统。",
+        "takeaways": ["按平台资产拆解竞品动作", "看AI是否减少用户重新搜索和反复核对", "把C端导购和B端供给工具放在一起评估"],
+        "keywords": ["国内竞品", "平台资产", "淘宝", "美团", "京东", "交易链路"],
+        "terms": ["国内竞品", "淘宝", "天猫", "千问", "美团", "小美", "问小团", "京东", "京言", "言犀", "京麦", "商家", "闪购"],
+    },
+    {
+        "id": "auto-merchant-copilot-loop",
+        "title": "B端AI工具会反向决定C端导购质量",
+        "summary": "商家侧AI如果只做文案和客服，价值有限；真正值得跟踪的是它能否让商品卖点、禁忌、库存、服务承诺和投放归因变成AI可读资产。",
+        "takeaways": ["给商家看AI如何理解商品", "把缺失字段变成经营建议", "用用户追问和转化断点反哺供给表达"],
+        "keywords": ["B端商家工具", "商品库", "AI可读", "经营诊断", "供给侧"],
+        "terms": ["B端商家工具", "商家", "卖家", "店铺", "京麦", "千牛", "经营", "运营", "投放", "素材", "客服", "采销", "aidge"],
     },
     {
         "id": "auto-agentic-checkout-contract",

@@ -41,8 +41,20 @@ SOURCE_ALIASES = {
     "央广网": "央广网",
     "驱动之家": "驱动之家",
     "新浪财经": "新浪财经",
+    "sina.com.cn": "新浪财经",
+    "news.sina.cn": "新浪",
     "证券时报": "证券时报",
     "天下网商": "天下网商",
+    "电商报": "电商报",
+    "联商网": "联商网",
+    "cbndata": "CBNData-第一财经商业数据中心",
+    "cb.com.cn": "中国经营网",
+    "eeo.com.cn": "经济观察网",
+    "yicai": "第一财经",
+    "第一财经": "第一财经",
+    "观点网": "观点网",
+    "cls.cn": "财联社",
+    "财联社": "财联社",
     "stdaily.com": "科技日报",
     "t.cj.sina.cn": "新浪",
     "界面": "界面新闻",
@@ -110,6 +122,14 @@ SOURCE_PREFERENCE = {
     "虎嗅": 14,
     "钛媒体": 14,
     "亿邦动力网": 14,
+    "电商报": 14,
+    "联商网": 13,
+    "CBNData-第一财经商业数据中心": 13,
+    "第一财经": 13,
+    "经济观察网": 12,
+    "中国经营网": 12,
+    "观点网": 10,
+    "财联社": 12,
     "人人都是产品经理": 12,
     "Google News Search": -20,
 }
@@ -241,8 +261,18 @@ def event_signature(item: dict[str, Any]) -> str:
         return f"{date}:zalando-ai-fashion-assistant"
     if ("京东" in text or "京言" in text or "言犀" in text) and any(term in text for term in ["ai", "智能", "导购", "购物助手", "试穿"]):
         return f"{date}:jd-ai-shopping"
+    if ("京东" in text or "京麦" in text or "采销" in text) and any(term in text for term in ["商家", "卖家", "经营", "运营", "ai", "智能"]):
+        return f"{date}:jd-merchant-ai-tools"
+    if ("美团" in text or "小美" in text or "问小团" in text) and any(term in text for term in ["元宝", "腾讯元宝", "接入", "合作", "点外卖"]):
+        return f"{date}:meituan-xiaomei-yuanbao"
+    if ("美团" in text or "小美" in text or "问小团" in text) and any(term in text for term in ["服贸会", "消费决策", "外卖用上ai", "ai应用"]):
+        return f"{date}:meituan-ciftis-ai-apps"
+    if ("美团" in text or "catpaw" in text) and any(term in text for term in ["商家", "经营流程", "agent平台", "ai agent"]):
+        return f"{date}:meituan-merchant-agent-platform"
     if ("小红书" in text or "xiaohongshu" in text) and any(term in text for term in ["ai", "搜索", "购物", "种草", "推荐"]):
         return f"{date}:xiaohongshu-ai-shopping-search"
+    if ("拼多多" in text or "pinduoduo" in text) and any(term in text for term in ["ai搜索", "ai", "搜索", "购物"]):
+        return f"{date}:pdd-ai-search-shopping"
     if ("支付宝" in text or "alipay" in text) and any(term in text for term in ["ju1111", "网站协议", "智能体商业底座"]):
         return f"{date}:alipay-ju1111-protocol"
     if ("千问" in text or "qwen" in text) and any(term in text for term in ["淘宝", "闪购", "支付宝", "ai购物", "购物闭环"]):
@@ -251,6 +281,8 @@ def event_signature(item: dict[str, Any]) -> str:
         return f"{date}:taobao-ai-try-on"
     if ("淘宝" in text or "天猫" in text) and any(term in text for term in ["ai万能搜", "6款ai导购", "六款ai导购", "双11ai导购"]):
         return f"{date}:tmall-1111-ai-shopping-apps"
+    if ("淘宝" in text or "淘天" in text or "天猫" in text) and any(term in text for term in ["服贸会", "五项ai应用", "ai应用", "ai购物"]):
+        return f"{date}:taotian-ai-shopping-apps"
     if ("amazon" in text or "亚马逊" in text) and any(term in text for term in ["rufus", "alexa", "ai购物助手", "ai shopping assistant"]):
         return f"{date}:amazon-ai-shopping-assistant"
     if "walmart" in text and any(term in text for term in ["sparky", "gemini", "agentic", "ai-assisted shopping", "ai discovery"]):
