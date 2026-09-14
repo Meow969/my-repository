@@ -26,7 +26,7 @@
   "redundantAnalysisPruned": "strict_exact_core_insight_v3",
   "yearBackfillCandidates": 3121,
   "yearBackfillNormalized": 138,
-  "coverageDays": 129,
-  "historyCoverageDays": 205,
-  "articleCount": 270
+  "coverageDays": 117,
+  "historyCoverageDays": 117,
+  "articleCount": 143
 }
