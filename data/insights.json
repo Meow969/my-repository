@@ -15,7 +15,7 @@
       "可执行决策",
       "决策链"
     ],
-    "sourceCount": 55,
+    "sourceCount": 53,
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
       "2026-09-11-cbndata-ai-5926ac2e97",
@@ -79,20 +79,20 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 63,
+    "sourceCount": 64,
     "relatedArticleIds": [
       "2026-09-14-q1-q2-477f743269",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6",
-      "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098",
-      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9"
+      "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098"
     ],
-    "trendNote": "来源提示：Agentic Commerce、竞品案例、国内竞品信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "来源提示：竞品案例、Agentic Commerce、国内竞品信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-14"
   },
   {
@@ -111,7 +111,7 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 80,
+    "sourceCount": 78,
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
@@ -124,7 +124,7 @@
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14"
     ],
-    "trendNote": "来源提示：Agentic Commerce、交易闭环、竞品案例信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "来源提示：Agentic Commerce、竞品案例、交易闭环信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-14"
   },
   {
@@ -208,20 +208,20 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 27,
+    "sourceCount": 25,
     "relatedArticleIds": [
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-09-ai-b2284494a6",
       "2026-09-05-ai-9ff3c52d54",
-      "2026-08-28-ue-keeta-ai-a686e8011b",
+      "2026-08-28-wallstreetcn-com-ue-keeta-ai-8ef8180284",
       "daily-2026-08-21-efe214be6e9775",
       "2026-08-19-6-08a28b00bd",
-      "2026-08-17-c4110742de",
-      "daily-2026-08-14-ee38732a131581",
-      "daily-2026-08-07-805eb37e0578fe"
+      "daily-2026-08-07-805eb37e0578fe",
+      "2026-07-27-catpaw-ai-cc271884ec",
+      "daily-2026-07-11-32836af59aacfb"
     ],
-    "trendNote": "来源提示：B端商家工具、商家Agent、国内竞品正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "trendNote": "来源提示：国内竞品、B端商家工具、商家Agent正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-14"
   },
   {
@@ -289,18 +289,18 @@
       "履约确定",
       "品类策略"
     ],
-    "sourceCount": 18,
+    "sourceCount": 19,
     "relatedArticleIds": [
       "2026-09-14-q1-q2-477f743269",
+      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6",
       "2026-09-07-21-ai-181bc203b2",
       "2026-09-05-ai-9ff3c52d54",
-      "2026-08-28-ue-keeta-ai-a686e8011b",
+      "2026-08-28-wallstreetcn-com-ue-keeta-ai-8ef8180284",
       "2026-08-28-21-ai-token-c573010600",
       "daily-2026-08-22-d0935ce5172bc8",
-      "2026-08-20-21-ai-291aadcc9e",
-      "2026-08-19-6-08a28b00bd"
+      "2026-08-20-21-ai-291aadcc9e"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在国内竞品、竞品案例、B端商家工具，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-14"
@@ -482,10 +482,9 @@
       "广告标识",
       "运营成本"
     ],
-    "sourceCount": 8,
+    "sourceCount": 7,
     "relatedArticleIds": [
       "2026-08-19-6-08a28b00bd",
-      "2026-08-17-c4110742de",
       "daily-2026-07-11-32836af59aacfb",
       "daily-2026-06-09-7a19d15be76fd1",
       "2026-05-26-mastercard-intelligent-agentic--4d5209a8e1",
@@ -512,9 +511,8 @@
       "公平性",
       "平台利益"
     ],
-    "sourceCount": 4,
+    "sourceCount": 3,
     "relatedArticleIds": [
-      "daily-2026-08-14-ee38732a131581",
       "daily-2026-06-27-ca12d684099abd",
       "2025-12-26-the-business-times-shopee-lazad-1aa0c55c73",
       "daily-2025-10-27-506d4c177e5782"
@@ -538,16 +536,15 @@
       "预算表达",
       "价格歧视"
     ],
-    "sourceCount": 6,
+    "sourceCount": 5,
     "relatedArticleIds": [
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
       "daily-2026-09-02-0860bf13512c29",
       "daily-2026-08-21-efe214be6e9775",
-      "2026-08-17-c4110742de",
       "daily-2026-07-11-32836af59aacfb",
       "daily-2025-09-28-6b0d69f713ce98"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在交易闭环、Agentic Commerce、B端商家工具，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、交易闭环、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-14"
   },
   {
@@ -597,14 +594,14 @@
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-10-ai-ac61f3f501",
-      "2026-09-09-ai-b2284494a6"
+      "2026-09-10-ai-ac61f3f501"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、B端商家工具，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-14",
-    "sourceCount": 83
+    "sourceCount": 81
   },
   {
     "id": "visual-try-on-as-proof",
@@ -653,18 +650,18 @@
     "relatedArticleIds": [
       "2026-09-14-q1-q2-477f743269",
       "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6",
       "2026-09-07-21-ai-181bc203b2",
       "2026-09-05-ai-9ff3c52d54",
-      "2026-08-28-ue-keeta-ai-a686e8011b",
-      "2026-08-28-21-ai-token-c573010600",
-      "2026-08-25-ai-6f60a0b2fd"
+      "2026-08-28-wallstreetcn-com-ue-keeta-ai-8ef8180284",
+      "2026-08-28-21-ai-token-c573010600"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-14",
-    "sourceCount": 27
+    "sourceCount": 28
   },
   {
     "id": "structured-dialogue",
@@ -694,9 +691,9 @@
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6"
     ],
-    "sourceCount": 132,
+    "sourceCount": 130,
     "updatedAt": "2026-09-14",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、国内竞品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -722,11 +719,11 @@
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-10-ai-ac61f3f501",
-      "2026-09-09-ai-b2284494a6"
+      "2026-09-10-ai-ac61f3f501"
     ],
-    "sourceCount": 113,
+    "sourceCount": 110,
     "updatedAt": "2026-09-14",
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
@@ -758,9 +755,9 @@
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6"
     ],
-    "sourceCount": 132,
+    "sourceCount": 130,
     "updatedAt": "2026-09-14",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、国内竞品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -786,11 +783,11 @@
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-10-ai-ac61f3f501",
-      "2026-09-09-ai-b2284494a6"
+      "2026-09-10-ai-ac61f3f501"
     ],
-    "sourceCount": 113,
+    "sourceCount": 110,
     "updatedAt": "2026-09-14",
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
@@ -822,9 +819,9 @@
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6"
     ],
-    "sourceCount": 132,
+    "sourceCount": 130,
     "updatedAt": "2026-09-14",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、国内竞品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -850,11 +847,11 @@
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-10-ai-ac61f3f501",
-      "2026-09-09-ai-b2284494a6"
+      "2026-09-10-ai-ac61f3f501"
     ],
-    "sourceCount": 113,
+    "sourceCount": 110,
     "updatedAt": "2026-09-14",
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
@@ -886,9 +883,9 @@
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6"
     ],
-    "sourceCount": 132,
+    "sourceCount": 130,
     "updatedAt": "2026-09-14",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、国内竞品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -914,11 +911,75 @@
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-11-q2-ai-d1fe986b75",
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+      "2026-09-10-ai-ac61f3f501"
+    ],
+    "sourceCount": 110,
+    "updatedAt": "2026-09-14",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+  },
+  {
+    "id": "structured-dialogue",
+    "title": "对话导购要先结构化需求，再给答案",
+    "summary": "好的AI导购不是把商品列表说得更像人，而是把模糊表达拆成预算、场景、偏好、禁忌、履约和风险约束，再组织可比较候选。",
+    "takeaways": [
+      "先问清决策约束再推荐",
+      "把候选差异做成对比证据",
+      "保留用户可修改的决策路径"
+    ],
+    "keywords": [
+      "对话导购",
+      "需求澄清",
+      "结构化决策",
+      "比较",
+      "证据链"
+    ],
+    "relatedArticleIds": [
+      "2026-09-14-q1-q2-477f743269",
+      "2026-09-13-ai-ai-699ba1d926",
+      "2026-09-13-kimi-bai-ai-7dd7e92084",
+      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-10-ai-ac61f3f501",
       "2026-09-09-ai-b2284494a6"
     ],
-    "sourceCount": 113,
+    "sourceCount": 130,
+    "updatedAt": "2026-09-14",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+  },
+  {
+    "id": "data-transaction-moat",
+    "title": "商品数据和履约能力才是AI导购护城河",
+    "summary": "AI导购越接近成交，越依赖实时商品、价格、库存、优惠、物流和售后规则；平台壁垒来自能否把这些交易资产变成可解释证据。",
+    "takeaways": [
+      "把商品事实做成可引用证据",
+      "推荐前先做可买性核验",
+      "用履约和售后能力解释排序"
+    ],
+    "keywords": [
+      "商品库",
+      "履约",
+      "价格库存",
+      "交易闭环",
+      "平台资产"
+    ],
+    "relatedArticleIds": [
+      "2026-09-14-q1-q2-477f743269",
+      "2026-09-13-ai-ai-699ba1d926",
+      "2026-09-13-kimi-bai-ai-7dd7e92084",
+      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-11-ai-ai-6f5abe1327",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-11-q2-ai-d1fe986b75",
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+      "2026-09-10-ai-ac61f3f501"
+    ],
+    "sourceCount": 110,
     "updatedAt": "2026-09-14",
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
@@ -1308,8 +1369,8 @@
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
       "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
       "2026-09-05-ai-9ff3c52d54",
-      "2026-08-17-c4110742de",
-      "2026-02-06-9-1000-ai-46dfb586e1"
+      "2026-02-06-9-1000-ai-46dfb586e1",
+      "2026-09-07-token-ai-kimi-def8e7815c"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-14"
@@ -1888,34 +1949,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-05-ai-9ff3c52d54",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-14"
-  },
-  {
-    "id": "spark-2026-08-17-c4110742de",
-    "title": "把亿邦动力网的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "B端商家工具",
-      "Agentic Commerce",
-      "商家Agent"
-    ],
-    "relatedArticleIds": [
-      "2026-08-17-c4110742de",
       "2026-09-13-ai-ai-699ba1d926",
       "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
@@ -2949,6 +2982,32 @@
     "updatedAt": "2026-09-14"
   },
   {
+    "id": "spark-daily-2026-08-24-365a107d529345",
+    "title": "把TechCrunch的交易动作拆成分级授权",
+    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
+    "takeaways": [
+      "先做提醒/代填等低风险动作",
+      "为支付和下单提供二次确认",
+      "把异常处理写进导购主流程"
+    ],
+    "keywords": [
+      "交易闭环",
+      "授权",
+      "支付",
+      "责任",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "daily-2026-08-24-365a107d529345",
+      "2026-09-13-ai-ai-699ba1d926",
+      "2026-08-10-510496218f",
+      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-14-q1-q2-477f743269"
+    ],
+    "sourceCount": 5,
+    "updatedAt": "2026-09-14"
+  },
+  {
     "id": "spark-2026-07-14-openai-blog-sales-workflows-wit-be71b0a63a",
     "title": "把OpenAI/ChatGPT的供给侧动作转成AI可读资产",
     "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
@@ -3181,32 +3240,6 @@
       "2026-08-10-510496218f",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-14"
-  },
-  {
-    "id": "spark-daily-2026-03-21-d6da35660dc70a",
-    "title": "把淘宝/天猫的搜索入口当成需求澄清入口",
-    "summary": "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
-    "takeaways": [
-      "落地页继承外部AI上下文",
-      "把搜索问题转为预算/场景/禁忌",
-      "用证据和优惠完成临门一脚"
-    ],
-    "keywords": [
-      "AI搜索",
-      "入口",
-      "需求澄清",
-      "承接",
-      "国内竞品"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-03-21-d6da35660dc70a",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-14"

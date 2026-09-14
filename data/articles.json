@@ -5,12 +5,12 @@
     "title": "直击美团业绩会：Q1亏损环比收窄 预期Q2单均利润将改善 “小美”与“元宝”合作将上线",
     "source": "财联社",
     "region": "国内",
-    "url": "https://www.cls.cn/detail/2387638",
+    "url": "https://cls.cn/detail/2387638",
     "excerpt": "直击美团业绩会：Q1亏损环比收窄 预期Q2单均利润将改善 “小美”与“元宝”合作将上线 财联社",
     "corePoint": [
       "美团把AI能力放进C端导购入口链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
       "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
-      "位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行"
+      "这条资料的可用点在于补充C端导购入口链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "国内竞品",
@@ -20,7 +20,7 @@
       "C端导购入口",
       "竞品案例"
     ],
-    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则｜验证题：在C端导购入口里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -48,7 +48,7 @@
       "竞品案例",
       "交易闭环"
     ],
-    "insight": "用户需求：用户希望AI懂自己，但仍要能看见推荐依据。｜产品机会：淘宝/千问类入口最适合把偏好记忆做成可编辑购买规则。｜设计启发：每次推荐都显示调用了哪些历史偏好、排除了哪些不适合商品、还需要用户确认什么。",
+    "insight": "用户需求：用户希望AI懂自己，但仍要能看见推荐依据。｜产品机会：淘宝/千问类入口最适合把偏好记忆做成可编辑购买规则。｜设计启发：每次推荐都显示调用了哪些历史偏好、排除了哪些不适合商品、还需要用户确认什么｜验证题：在国内竞品里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -122,7 +122,7 @@
     "title": "小红书合并AI搜索产品\"问一问\"与\"点点\"，AI战略转向防守搜索入口与真人经验 - 虎嗅网",
     "source": "虎嗅",
     "region": "国内",
-    "url": "https://www.huxiu.com/article/4890551.html",
+    "url": "https://huxiu.com/article/4890551.html",
     "excerpt": "小红书合并AI搜索产品\"问一问\"与\"点点\"，AI战略转向防守搜索入口与真人经验 虎嗅网",
     "corePoint": [
       "小红书把AI能力放进C端导购入口、外部AI入口链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
@@ -201,6 +201,33 @@
       "agentic-funnel"
     ],
     "valueScore": 77
+  },
+  {
+    "id": "2026-09-11-q2-ai-d1fe986b75",
+    "date": "2026-09-11",
+    "title": "美团Q2拐点确认，AI与海外打开长期空间",
+    "source": "新浪财经",
+    "region": "国内",
+    "url": "https://finance.sina.com.cn/roll/2026-09-11/doc-inirmmnc5395350.shtml",
+    "excerpt": "美团Q2拐点确认，AI与海外打开长期空间 新浪财经",
+    "corePoint": [
+      "美团释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
+      "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
+      "位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行"
+    ],
+    "contentType": "竞品",
+    "category": "国内竞品",
+    "tags": [
+      "国内竞品",
+      "竞品案例"
+    ],
+    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+    "relatedInsightIds": [
+      "local-life-agent-loop",
+      "auto-local-certainty",
+      "trust-ladder"
+    ],
+    "valueScore": 72
   },
   {
     "id": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
@@ -296,7 +323,7 @@
     "corePoint": [
       "美团把AI能力放进B端经营工具、商家/供给侧链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
       "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
-      "位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行"
+      "这条资料的可用点在于补充B端经营工具、商家/供给侧链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "商家/生态",
@@ -306,7 +333,7 @@
       "竞品案例",
       "商家Agent"
     ],
-    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则｜验证题：在B端经营工具、商家/供给侧里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -325,14 +352,14 @@
     "corePoint": [
       "淘宝/天猫释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
       "阿里系AI导购的看点在于把搜索、内容、收藏、购物车、订单和商家供给统一编排",
-      "这类动作不只是新增入口，而是在重做用户从模糊需求到可执行购买清单的路径"
+      "这条资料的可用点在于补充国内竞品链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "国内竞品",
     "tags": [
       "国内竞品"
     ],
-    "insight": "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单。",
+    "insight": "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单｜验证题：在国内竞品里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -430,7 +457,7 @@
     "corePoint": [
       "美团释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
       "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
-      "位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行"
+      "这条资料的可用点在于补充国内竞品链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "国内竞品",
@@ -438,7 +465,7 @@
       "国内竞品",
       "竞品案例"
     ],
-    "insight": "用户需求：本地生活决策不是“哪个最好”，而是此刻附近、价格合适、能准时履约。｜产品机会：美团类AI应把位置、营业状态、排队、库存、配送、券和替代方案一次算完。｜设计启发：提供最快/最稳/最省三种方案，并说明每种方案的风险和兜底。",
+    "insight": "用户需求：本地生活决策不是“哪个最好”，而是此刻附近、价格合适、能准时履约。｜产品机会：美团类AI应把位置、营业状态、排队、库存、配送、券和替代方案一次算完。｜设计启发：提供最快/最稳/最省三种方案，并说明每种方案的风险和兜底｜验证题：在国内竞品里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -730,13 +757,13 @@
     ]
   },
   {
-    "id": "2026-08-28-ue-keeta-ai-a686e8011b",
+    "id": "2026-08-28-wallstreetcn-com-ue-keeta-ai-8ef8180284",
     "date": "2026-08-28",
     "title": "美团电话会：三季度外卖UE预计同比明显改善，Keeta盈利加速，AI迈向商家端",
-    "source": "华尔街见闻",
+    "source": "wallstreetcn.com",
     "region": "国内",
     "url": "https://wallstreetcn.com/articles/3780576",
-    "excerpt": "å¨8æ28æ¥ççµè¯ä¼ä¸ï¼ç¾å¢ç®¡çå±è¡¨ç¤ºï¼äºå­£åº¦å ¬å¸å¨ç¨æ·ç»æãè®¢åç»æåè¿è¥æçç­æ¹é¢çé¢å ä¼å¿è¿ä¸æ­¥å¼ºåã å±æä¸å­£åº¦ï¼å¤åä¸å¡UEï¼åä½ç»æµæ¨¡åï¼é¢è®¡åæ¯å°ææ¾æ¹åï¼ä½åå­£èæ§å ç´ å½±åï¼ç¯æ¯æææä¸éï¼ä¸è¿ä»ææä¿ææ­£å¼ã ä¸æ­¤åæ¶ï¼ç¾å¢ä¹å¨æç»­æå±æ¶è´¹ç«¯çAIåºç¨åºæ¯ï¼éè¿æ°åè½æéæ´å¤æå¡åºæ¯ï¼æåè·¨åºæ¯ä½¿ç¨ä½éªãä¸è ¾è®¯çåä½äº¦å¨æç»­æ·±åï¼åæ¹å¢éæ­£å ±åå®åäº§ååæå¡ï¼ä»¥è¿ä¸æ­¥æåæå¡äº¤ä»æçã",
+    "excerpt": "美团电话会：三季度外卖UE预计同比明显改善，Keeta盈利加速，AI迈向商家端 wallstreetcn.com",
     "corePoint": [
       "美团把AI能力放进B端经营工具、商家/供给侧、即时零售/本地生活链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
       "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
@@ -751,7 +778,7 @@
       "即时零售",
       "商家Agent"
     ],
-    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+    "insight": "用户需求：本地生活决策不是“哪个最好”，而是此刻附近、价格合适、能准时履约。｜产品机会：美团类AI应把位置、营业状态、排队、库存、配送、券和替代方案一次算完。｜设计启发：提供最快/最稳/最省三种方案，并说明每种方案的风险和兜底。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -922,7 +949,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "趋势框架",
-    "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+    "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
     "tags": [
       "AI购物"
     ],
@@ -931,7 +958,7 @@
       "AI购物的瓶颈在信任与风险控制",
       "用户需要知道推荐依据、授权边界和出错后的责任归属"
     ],
-    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制。",
+    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制｜验证题：在AI购物助手里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "valueScore": 55,
     "relatedInsightIds": [
       "trust-ladder",
@@ -1024,7 +1051,7 @@
     "corePoint": [
       "美团释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
       "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
-      "位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行"
+      "这条资料的可用点在于补充国内竞品链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "国内竞品",
@@ -1032,7 +1059,7 @@
       "国内竞品",
       "竞品案例"
     ],
-    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则｜验证题：在国内竞品里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -1111,7 +1138,7 @@
       "竞品案例",
       "即时零售"
     ],
-    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制。",
+    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制｜验证题：在即时零售/本地生活里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -1135,7 +1162,7 @@
     "corePoint": [
       "这条资讯聚焦B端经营工具、支付/结算、商家/供给侧，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节",
       "智能体商业不只是更聪明的结算",
-      "这条资料的可用点在于补充B端经营工具、支付/结算链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
+      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
     ],
     "insight": "用户需求：AI导购越强，用户越依赖它过滤供给，商家也越需要知道如何进入候选池。｜产品机会：把商家激励从填关键词转向补证据、补场景、补履约确定性。｜设计启发：推荐结果可标注商家承诺项，让好供给因为证据完整而被优先展示｜验证题：在B端经营工具、支付/结算里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "valueScore": 62,
@@ -1203,62 +1230,6 @@
     "valueScore": 90
   },
   {
-    "id": "2026-08-17-c4110742de",
-    "date": "2026-08-17",
-    "title": "商家开发需求排至明年？支付宝预判智能体商业将迎爆发- 零售",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "趋势框架",
-    "url": "https://www.ebrun.com/20260817/695431.shtml",
-    "tags": [
-      "B端商家工具",
-      "Agentic Commerce",
-      "交易闭环",
-      "商家Agent"
-    ],
-    "corePoint": [
-      "这条资讯聚焦B端经营工具、支付/结算、商家/供给侧，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节",
-      "智能体商业不只是更聪明的结算",
-      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
-    ],
-    "insight": "用户需求：用户要的是可信候选，商家要的是被正确理解和公平呈现。｜产品机会：平台可把商品表达、服务承诺和评价证据变成商家侧的新运营资产。｜设计启发：新增“面向AI的店铺体检”，检查卖点、价格、库存、禁忌、售后规则是否足够清楚。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "auto-merchant-copilot-loop",
-      "merchant-readable-store",
-      "merchant-incentive"
-    ],
-    "contentType": "商家生态"
-  },
-  {
-    "id": "daily-2026-08-14-ee38732a131581",
-    "date": "2026-08-14",
-    "title": "当亚马逊AI购物助手接管流量入口 谁的商品在“消失”？",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://www.ebrun.com/20260814/694245.shtml",
-    "tags": [
-      "C端导购入口",
-      "AI购物",
-      "竞品案例",
-      "商品库"
-    ],
-    "corePoint": [
-      "这条资讯聚焦C端导购入口、AI购物助手、转化/流量，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节",
-      "AI购物的底座是可信、结构化、可度量的商品与供给数据",
-      "没有商品数据层，导购很难稳定完成推荐、比较和成交"
-    ],
-    "insight": "用户需求：用户不关心AI多聪明，只关心少花时间、少买错。｜产品机会：增长实验应验证AI减少了哪一步成本：搜索、比较、决策、下单还是售后。｜设计启发：推荐卡旁展示“节省了什么动作”，帮助团队判断功能价值。",
-    "valueScore": 68,
-    "relatedInsightIds": [
-      "data-transaction-moat",
-      "merchant-readable-store",
-      "ranking-governance"
-    ],
-    "contentType": "竞品"
-  },
-  {
     "id": "2026-08-14-user-guancha-cn-ai-17a2f160ed",
     "date": "2026-08-14",
     "title": "借力说唱热度，淘宝AI试穿赢免单掀起全民穿搭风潮",
@@ -1278,7 +1249,7 @@
       "竞品案例",
       "虚拟试穿"
     ],
-    "insight": "用户需求：淘宝/天猫用户不是缺商品，而是缺一个能读懂历史偏好、预算、场景和禁忌的决策组织者。｜产品机会：把AI导购接进搜索、收藏、购物车、优惠、订单和售后，形成从想法到清单的连续链路。｜设计启发：输出“可买清单”而不是纯聊天答案，标清必买、可替、待确认和风险项。",
+    "insight": "用户需求：淘宝/天猫用户不是缺商品，而是缺一个能读懂历史偏好、预算、场景和禁忌的决策组织者。｜产品机会：把AI导购接进搜索、收藏、购物车、优惠、订单和售后，形成从想法到清单的连续链路。｜设计启发：输出“可买清单”而不是纯聊天答案，标清必买、可替、待确认和风险项｜验证题：在试穿/视觉体验里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -1470,7 +1441,7 @@
       "竞品案例",
       "即时零售"
     ],
-    "insight": "用户需求：点餐、买菜、到店更像任务完成，不像慢慢逛商品。｜产品机会：先从高频低风险的半自动任务建立用户授权习惯，再扩展到复杂服务决策。｜设计启发：AI默认带出可替换规则，例如缺货替品、预算上限、口味禁忌和最晚送达时间。",
+    "insight": "用户需求：点餐、买菜、到店更像任务完成，不像慢慢逛商品。｜产品机会：先从高频低风险的半自动任务建立用户授权习惯，再扩展到复杂服务决策。｜设计启发：AI默认带出可替换规则，例如缺货替品、预算上限、口味禁忌和最晚送达时间｜验证题：在C端导购入口、即时零售/本地生活里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -1484,12 +1455,12 @@
     "title": "美团CatPaw全新上线：让 AI 进入商家真实经营流程",
     "source": "中国经营网",
     "region": "国内",
-    "url": "http://www.cb.com.cn/index/show/gszx/cv/cv135323961336",
+    "url": "http://cb.com.cn/index/show/gszx/cv/cv135323961336",
     "excerpt": "美团CatPaw全新上线：让 AI 进入商家真实经营流程 cb.com.cn",
     "corePoint": [
       "美团把AI能力放进B端经营工具、商家/供给侧链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
       "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
-      "位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行"
+      "这条资料的可用点在于补充B端经营工具、商家/供给侧链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "商家/生态",
@@ -1499,7 +1470,7 @@
       "竞品案例",
       "商家Agent"
     ],
-    "insight": "用户需求：点餐、买菜、到店更像任务完成，不像慢慢逛商品。｜产品机会：先从高频低风险的半自动任务建立用户授权习惯，再扩展到复杂服务决策。｜设计启发：AI默认带出可替换规则，例如缺货替品、预算上限、口味禁忌和最晚送达时间。",
+    "insight": "用户需求：点餐、买菜、到店更像任务完成，不像慢慢逛商品。｜产品机会：先从高频低风险的半自动任务建立用户授权习惯，再扩展到复杂服务决策。｜设计启发：AI默认带出可替换规则，例如缺货替品、预算上限、口味禁忌和最晚送达时间｜验证题：在B端经营工具、商家/供给侧里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -1618,7 +1589,7 @@
     "title": "Square launches agentic commerce integrations with ChatGPT, Claude",
     "source": "Digital Commerce 360",
     "region": "海外",
-    "url": "https://www.digitalcommerce360.com/2026/07/01/square-agentic-commerce-integrations-chatgpt-claude/",
+    "url": "https://digitalcommerce360.com/2026/07/01/square-agentic-commerce-integrations-chatgpt-claude",
     "excerpt": "Square launches agentic commerce integrations with ChatGPT, Claude Digital Commerce 360",
     "corePoint": [
       "OpenAI/ChatGPT、Anthropic/Claude把AI能力放进外部AI入口链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
@@ -1632,7 +1603,7 @@
       "Agentic Commerce",
       "技术架构"
     ],
-    "insight": "用户需求：用户希望AI答案能自然进入购买，而不是停在建议。｜产品机会：站内导购要承接外部AI上下文，继续完成取舍、核价和确认。｜设计启发：在商品页提供“继续刚才的比较”入口，减少从答案页到交易页的断裂。",
+    "insight": "用户需求：用户希望AI答案能自然进入购买，而不是停在建议。｜产品机会：站内导购要承接外部AI上下文，继续完成取舍、核价和确认。｜设计启发：在商品页提供“继续刚才的比较”入口，减少从答案页到交易页的断裂｜验证题：在外部AI入口里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
@@ -1662,31 +1633,6 @@
       "structured-dialogue",
       "decision-os",
       "competitor-function-radar"
-    ],
-    "contentType": "竞品"
-  },
-  {
-    "id": "daily-2026-06-28-f67b661cc7e799",
-    "date": "2026-06-28",
-    "title": "Pinterest连推四项AI应用创新 CEO声称“正利用AI转型为购物平台”",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "平台案例",
-    "url": "https://www.ebrun.com/20260628/684939.shtml",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": [
-      "Pinterest释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
-      "平台正在把AI能力放进购物入口或交易资产",
-      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
-    ],
-    "insight": "用户需求：用户希望AI在AI购物里把模糊需求翻译成可执行选择，并减少自己反复查证的成本。｜产品机会：观察Pinterest调用了哪些资产来完成任务，例如商品库、评价、库存、优惠、订单或履约能力。｜设计启发：把体验拆成入口、意图、证据、动作、兜底五个节点，找出可迁移到自身产品的最小设计。",
-    "valueScore": 56,
-    "relatedInsightIds": [
-      "competitor-function-radar",
-      "decision-os",
-      "closed-loop-first"
     ],
     "contentType": "竞品"
   },
@@ -1727,7 +1673,7 @@
     "corePoint": [
       "Instacart把AI能力放进AI购物助手链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
       "平台正在把AI能力放进购物入口或交易资产",
-      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+      "这条资料的可用点在于补充AI购物助手链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "平台案例",
@@ -1805,7 +1751,7 @@
     "corePoint": [
       "Target释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
       "文章更偏机制拆解或方法论，而不是单纯功能发布",
-      "平台正在把AI能力放进购物入口或交易资产"
+      "这条资料的可用点在于补充平台案例链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "平台案例",
@@ -1839,7 +1785,7 @@
     "tags": [
       "Agentic Commerce"
     ],
-    "insight": "用户需求：用户希望AI在AI购物里把模糊需求翻译成可执行选择，并减少自己反复查证的成本。｜产品机会：观察Google调用了哪些资产来完成任务，例如商品库、评价、库存、优惠、订单或履约能力。｜设计启发：把体验拆成入口、意图、证据、动作、兜底五个节点，找出可迁移到自身产品的最小设计。",
+    "insight": "用户需求：用户希望AI在AI购物里把模糊需求翻译成可执行选择，并减少自己反复查证的成本。｜产品机会：观察Google调用了哪些资产来完成任务，例如商品库、评价、库存、优惠、订单或履约能力。｜设计启发：把体验拆成入口、意图、证据、动作、兜底五个节点，找出可迁移到自身产品的最小设计｜验证题：在趋势框架里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
@@ -2055,7 +2001,7 @@
       "国内竞品",
       "竞品案例"
     ],
-    "insight": "用户需求：用户希望AI懂自己，但仍要能看见推荐依据。｜产品机会：淘宝/千问类入口最适合把偏好记忆做成可编辑购买规则。｜设计启发：每次推荐都显示调用了哪些历史偏好、排除了哪些不适合商品、还需要用户确认什么。",
+    "insight": "用户需求：用户希望AI懂自己，但仍要能看见推荐依据。｜产品机会：淘宝/千问类入口最适合把偏好记忆做成可编辑购买规则。｜设计启发：每次推荐都显示调用了哪些历史偏好、排除了哪些不适合商品、还需要用户确认什么｜验证题：在用户测评/信任里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -2201,7 +2147,7 @@
     "title": "Intelligent agentic shopping experiences with Merchant Cloud",
     "source": "Mastercard",
     "region": "海外",
-    "url": "https://www.mastercard.com/global/en/business/payments/merchant-cloud/insights/agentic-shopping-experiences-merchant-cloud.html",
+    "url": "https://mastercard.com/global/en/business/payments/merchant-cloud/insights/agentic-shopping-experiences-merchant-cloud.html",
     "excerpt": "Intelligent agentic shopping experiences with Merchant Cloud Mastercard",
     "corePoint": [
       "Visa/Mastercard把AI能力放进商家/供给侧链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
@@ -2215,7 +2161,7 @@
       "Agentic Commerce",
       "商家Agent"
     ],
-    "insight": "用户需求：AI导购越强，用户越依赖它过滤供给，商家也越需要知道如何进入候选池。｜产品机会：把商家激励从填关键词转向补证据、补场景、补履约确定性。｜设计启发：推荐结果可标注商家承诺项，让好供给因为证据完整而被优先展示。",
+    "insight": "用户需求：AI导购越强，用户越依赖它过滤供给，商家也越需要知道如何进入候选池。｜产品机会：把商家激励从填关键词转向补证据、补场景、补履约确定性。｜设计启发：推荐结果可标注商家承诺项，让好供给因为证据完整而被优先展示｜验证题：在商家/供给侧里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-merchant-copilot-loop",
       "merchant-readable-store",
@@ -2229,7 +2175,7 @@
     "title": "Walmart credits Sparky AI agent with lifting AOV, unit sales growth",
     "source": "Digital Commerce 360",
     "region": "海外",
-    "url": "https://www.digitalcommerce360.com/2026/05/22/walmart-sparky-agent-ai-sales-supply-chain/",
+    "url": "https://digitalcommerce360.com/2026/05/22/walmart-sparky-agent-ai-sales-supply-chain",
     "excerpt": "Walmart credits Sparky AI agent with lifting AOV, unit sales growth Digital Commerce 360",
     "corePoint": [
       "Walmart把AI能力放进AI购物助手、转化/流量链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
@@ -2241,7 +2187,7 @@
     "tags": [
       "竞品案例"
     ],
-    "insight": "用户需求：用户愿意把重复劳动交给AI，但关键决策仍想自己掌控。｜产品机会：把导购拆成可接管的小任务：查证、比价、凑单、补货、售后提醒。｜设计启发：每个任务都要有暂停点、任务日志和人工确认，而不是直接全自动购买。",
+    "insight": "用户需求：用户愿意把重复劳动交给AI，但关键决策仍想自己掌控。｜产品机会：把导购拆成可接管的小任务：查证、比价、凑单、补货、售后提醒。｜设计启发：每个任务都要有暂停点、任务日志和人工确认，而不是直接全自动购买｜验证题：在AI购物助手、转化/流量里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "competitor-function-radar",
       "decision-os",
@@ -2308,12 +2254,12 @@
     "title": "AI电商浪潮下，谁在教千问们认“好货”？",
     "source": "CBNData-第一财经商业数据中心",
     "region": "国内",
-    "url": "https://www.cbndata.com/information/295314",
+    "url": "https://cbndata.com/information/295314",
     "excerpt": "AI电商浪潮下，谁在教千问们认“好货”？ CBNData-第一财经商业数据中心",
     "corePoint": [
       "淘宝/天猫释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
       "阿里系AI导购的看点在于把搜索、内容、收藏、购物车、订单和商家供给统一编排",
-      "这类动作不只是新增入口，而是在重做用户从模糊需求到可执行购买清单的路径"
+      "这条资料的可用点在于补充国内竞品链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "国内竞品",
@@ -2322,7 +2268,7 @@
       "国内竞品",
       "竞品案例"
     ],
-    "insight": "用户需求：淘宝/天猫用户不是缺商品，而是缺一个能读懂历史偏好、预算、场景和禁忌的决策组织者。｜产品机会：把AI导购接进搜索、收藏、购物车、优惠、订单和售后，形成从想法到清单的连续链路。｜设计启发：输出“可买清单”而不是纯聊天答案，标清必买、可替、待确认和风险项。",
+    "insight": "用户需求：淘宝/天猫用户不是缺商品，而是缺一个能读懂历史偏好、预算、场景和禁忌的决策组织者。｜产品机会：把AI导购接进搜索、收藏、购物车、优惠、订单和售后，形成从想法到清单的连续链路。｜设计启发：输出“可买清单”而不是纯聊天答案，标清必买、可替、待确认和风险项｜验证题：在国内竞品里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -2415,12 +2361,12 @@
     "title": "Amazon says its AI shopping assistant is gaining traction, with Rufus users up 115%",
     "source": "Modern Retail",
     "region": "海外",
-    "url": "https://www.modernretail.co/technology/amazon-says-its-ai-shopping-assistant-is-gaining-traction-with-rufus-users-up-115/",
+    "url": "https://modernretail.co/technology/amazon-says-its-ai-shopping-assistant-is-gaining-traction-with-rufus-users-up-115",
     "excerpt": "Amazon says its AI shopping assistant is gaining traction, with Rufus users up 115% Modern Retail",
     "corePoint": [
       "Amazon把AI能力放进AI购物助手链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
       "平台正在把AI能力放进购物入口或交易资产",
-      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+      "这条资料的可用点在于补充AI购物助手链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "平台案例",
@@ -2633,7 +2579,7 @@
       "GEO",
       "商家Agent"
     ],
-    "insight": "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单。",
+    "insight": "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单｜验证题：在B端经营工具、商家/供给侧里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -2697,29 +2643,6 @@
       "merchant-incentive"
     ],
     "valueScore": 70
-  },
-  {
-    "id": "daily-2026-03-21-d6da35660dc70a",
-    "date": "2026-03-21",
-    "title": "阿里妈妈全新发布“AI万相”：首创多Agent协同工作流- 零售",
-    "source": "亿邦动力网",
-    "region": "国内",
-    "category": "国内竞品",
-    "url": "https://www.ebrun.com/20260321/648501.shtml",
-    "tags": [
-      "国内竞品"
-    ],
-    "corePoint": [
-      "淘宝/天猫释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径"
-    ],
-    "insight": "用户需求：用户愿意把重复劳动交给AI，但关键决策仍想自己掌控。｜产品机会：把导购拆成可接管的小任务：查证、比价、凑单、补货、售后提醒。｜设计启发：每个任务都要有暂停点、任务日志和人工确认，而不是直接全自动购买。",
-    "valueScore": 50,
-    "relatedInsightIds": [
-      "auto-domestic-platform-assets",
-      "data-transaction-moat",
-      "decision-os"
-    ],
-    "contentType": "竞品"
   },
   {
     "id": "2026-03-19-google-shopping-blog-ai-shoppin-989d33e35e",
@@ -2878,7 +2801,7 @@
     "corePoint": [
       "淘宝/天猫把AI能力放进即时零售/本地生活链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
       "阿里系AI导购的看点在于把搜索、内容、收藏、购物车、订单和商家供给统一编排",
-      "这类动作不只是新增入口，而是在重做用户从模糊需求到可执行购买清单的路径"
+      "这条资料的可用点在于补充即时零售/本地生活链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "国内竞品",
@@ -2888,7 +2811,7 @@
       "竞品案例",
       "即时零售"
     ],
-    "insight": "用户需求：用户希望AI懂自己，但仍要能看见推荐依据。｜产品机会：淘宝/千问类入口最适合把偏好记忆做成可编辑购买规则。｜设计启发：每次推荐都显示调用了哪些历史偏好、排除了哪些不适合商品、还需要用户确认什么。",
+    "insight": "用户需求：用户希望AI懂自己，但仍要能看见推荐依据。｜产品机会：淘宝/千问类入口最适合把偏好记忆做成可编辑购买规则。｜设计启发：每次推荐都显示调用了哪些历史偏好、排除了哪些不适合商品、还需要用户确认什么｜验证题：在即时零售/本地生活里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -3125,7 +3048,7 @@
       "竞品案例",
       "即时零售"
     ],
-    "insight": "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单。",
+    "insight": "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单｜验证题：在C端导购入口、即时零售/本地生活里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "auto-domestic-platform-assets",
       "data-transaction-moat",
@@ -3151,7 +3074,7 @@
     "tags": [
       "技术架构"
     ],
-    "insight": "用户需求：用户愿意把重复劳动交给AI，但关键决策仍想自己掌控。｜产品机会：把导购拆成可接管的小任务：查证、比价、凑单、补货、售后提醒。｜设计启发：每个任务都要有暂停点、任务日志和人工确认，而不是直接全自动购买。",
+    "insight": "用户需求：用户愿意把重复劳动交给AI，但关键决策仍想自己掌控。｜产品机会：把导购拆成可接管的小任务：查证、比价、凑单、补货、售后提醒。｜设计启发：每个任务都要有暂停点、任务日志和人工确认，而不是直接全自动购买｜验证题：在技术架构里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
@@ -3192,13 +3115,14 @@
     "source": "财联社",
     "region": "国内",
     "category": "C端AI产品",
-    "url": "https://www.cls.cn/detail/2241925",
+    "url": "https://cls.cn/detail/2241925",
     "tags": [
       "C端AI产品"
     ],
     "corePoint": [
       "这类C端AI产品不一定直接做购物，但会改变用户表达需求、保存偏好和执行任务的方式",
-      "对AI导购的参考价值在于入口、记忆、工具调用和跨场景上下文迁移"
+      "对AI导购的参考价值在于入口、记忆、工具调用和跨场景上下文迁移",
+      "这条资料的可用点在于补充C端AI产品链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "insight": "用户需求：用户希望在购物决策链路里更快形成判断并减少反复确认。｜产品机会：围绕C端AI产品设计一个小实验，验证AI是否降低表达成本、比较成本或交易风险。｜设计启发：记录用户在哪一步追问、放弃或人工接管，把资讯沉淀成可复用假设。",
     "valueScore": 48,
@@ -3215,7 +3139,7 @@
     "title": "Shopee、Lazada布局AI购物助手，残酷价格战是否一触即发？",
     "source": "The Business Times",
     "region": "国内",
-    "url": "https://www.businesstimes.com.sg/zh-hans/startups-tech/startups/shopee-lazada-are-laying-ground-ai-shopping-agents-brutal-price-war-looming",
+    "url": "https://businesstimes.com.sg/zh-hans/startups-tech/startups/shopee-lazada-are-laying-ground-ai-shopping-agents-brutal-price-war-looming",
     "excerpt": "Shopee、Lazada布局AI购物助手，残酷价格战是否一触即发？ The Business Times",
     "corePoint": [
       "Shopee把AI能力放进C端导购入口、AI购物助手链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
@@ -3552,7 +3476,7 @@
     "title": "Pinterest Launches AI Shopping Assistant and Gen AI Controls",
     "source": "PYMNTS.com",
     "region": "海外",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2025/pinterest-launches-ai-shopping-assistant-and-gen-ai-controls/",
+    "url": "https://pymnts.com/news/artificial-intelligence/2025/pinterest-launches-ai-shopping-assistant-and-gen-ai-controls",
     "excerpt": "Pinterest Launches AI Shopping Assistant and Gen AI Controls pymnts.com",
     "corePoint": [
       "Pinterest把AI能力放进AI购物助手链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
@@ -3655,7 +3579,7 @@
     "source": "TechCrunch",
     "region": "海外",
     "category": "C端AI产品",
-    "url": "https://techcrunch.com/2025/10/02/perplexitys-comet-ai-browser-now-free-max-users-get-new-background-assistant/",
+    "url": "https://techcrunch.com/2025/10/02/perplexitys-comet-ai-browser-now-free-max-users-get-new-background-assistant",
     "tags": [
       "C端AI产品",
       "AI搜索"
@@ -3665,7 +3589,7 @@
       "AI搜索和答案引擎正在成为购物上游入口",
       "零售商开始关注如何把外部AI流量接回商品证据、站内体验和结算链路"
     ],
-    "insight": "用户需求：用户真正要的是连续决策流，而不是每个平台各问一遍。｜产品机会：外部AI入口会重分配流量，平台要争夺的是上下文承接和交易完成能力。｜设计启发：把AI答案中的需求条件转成可编辑筛选器，让用户一眼校正。",
+    "insight": "用户需求：用户真正要的是连续决策流，而不是每个平台各问一遍。｜产品机会：外部AI入口会重分配流量，平台要争夺的是上下文承接和交易完成能力。｜设计启发：把AI答案中的需求条件转成可编辑筛选器，让用户一眼校正｜验证题：在AI购物助手、外部AI入口里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "valueScore": 55,
     "relatedInsightIds": [
       "answer-shelf",
