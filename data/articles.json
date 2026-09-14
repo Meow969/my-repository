@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-09-13-kimi-bai-ai-7dd7e92084",
+    "date": "2026-09-13",
+    "title": "Kimi、BAI、自然选择谈智能体新商业：AI支付增量来自硅基生命的支付|蚂蚁集团|时代|流量|信用卡|赵鹏岚_手机新浪网",
+    "source": "新浪财经",
+    "region": "国内",
+    "url": "https://finance.sina.cn/tech/2026-09-13/detail-inirrxsc0611261.d.html?vt=4",
+    "excerpt": "新浪科技讯 9月13日上午消息，近日，在2026 Inclusion·外滩大会“Agentic Commerce的新可能”圆桌上，Kimi增长与商业化技术负责人付强、自然选择创始人Tristan... 新浪科技讯 9月13日上午消息，近日，在2026 Inclusion·外滩大会“Agentic Commerce的新可能”圆桌上，Kimi增长与商业化技术负责人付强、自然选择创始人Tristan、BAI资本高级合伙人赵鹏岚、蚂蚁集团AI支付总监林正茂，从模型、 新浪科技讯 9月13日上午消息，近日，在2026 Inclusion·外滩大会“Agentic Commerce的新可能”圆桌上，Kimi增长与商业化技术负责人付强、自然选择创始人Tristan、BAI资本高级合伙人赵鹏岚、蚂蚁集团AI支付总监林正茂，从模型、创业、投资和支付等不同视角，讨论了同一个问题：当越来越多的商业行为开始由智能体完成，支付在AI时代究竟意味着什么？它的价值是否被低估和忽视？ 林正茂认为，AI时代的支付逻辑已经不同。“人只要表达一个意图或者目标，并且给予Agent相应的授权，后面所有涉及到商品的找寻、下单支付，Agent就可以代为完成。” Kimi增长与商业化技术负责人付强举了一个例子。在Kimi会员订阅场景下，“直接通过本地模型或者其他方式说几句话就能够持续使用我们的服务，不断档”。 BAI资本高级合伙人赵鹏岚对未来的想象更进一步：“我希望未来支付不需要我告诉它，它就会自动帮我把iPhone 18 Pro抢了”。 赵鹏岚认为，更值得关注的，是智能体自己执行任务时产生的支付。他把这种支付称为“硅基生命的支付”。 “你试试用人的信用卡一分钟做500次支付，第二天信用卡就被封了。” 在赵鹏岚看来，这种高频、低金额、甚至毫秒级的微支付，是AI时代出现的新支付场景。 赵鹏岚认为，支付一直是一个具有很强网络效应的生意。在智能体时代，如果一个人拥有10个甚至100个智能体，那么未来可能出现“1000亿到5000亿”的智能体，这里面会产生新的商业价值。",
+    "corePoint": [
+      "新浪科技讯 9月13日上午消息，近日，在2026 Inclusion·外滩大会“Agentic Commerce的新可能”圆桌上，Kimi增长与商业化技术负责人付强、自然选择创始人Tristan",
+      "BAI资本高级合伙人赵鹏岚对未来的想象更进一步：“我希望未来支付不需要我告诉它，它就会自动帮我把iPhone 18 Pro抢了”",
+      "这条资讯聚焦支付/结算、转化/流量、用户测评/信任，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节"
+    ],
+    "contentType": "C端产品",
+    "category": "C端AI产品",
+    "tags": [
+      "C端AI产品",
+      "Agentic Commerce",
+      "交易闭环",
+      "商品库"
+    ],
+    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制。",
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "trust-ladder",
+      "agentic-funnel"
+    ],
+    "valueScore": 89
+  },
+  {
     "id": "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
     "date": "2026-09-11",
     "title": "Walmart Opens Checkout as Amazon Builds Its AI Advantage",
@@ -19,7 +48,7 @@
       "Agentic Commerce",
       "交易闭环"
     ],
-    "insight": "用户需求：用户想省掉结算操作，但不愿把购买决定完全交出去。｜产品机会：把交易权限拆成建议、代填、锁价、代付、代买五级，让用户逐步授权。｜设计启发：支付确认页要同时展示预算、库存、优惠、到达时间和售后责任，形成可追责凭证。",
+    "insight": "用户需求：用户想省掉结算操作，但不愿把购买决定完全交出去。｜产品机会：把交易权限拆成建议、代填、锁价、代付、代买五级，让用户逐步授权。｜设计启发：支付确认页要同时展示预算、库存、优惠、到达时间和售后责任，形成可追责凭证｜验证题：在支付/结算里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
@@ -2692,33 +2721,6 @@
       "habit-before-intelligence"
     ],
     "valueScore": 68
-  },
-  {
-    "id": "2026-01-12-digital-commerce-360-jd-sports--7a47bb29a0",
-    "date": "2026-01-12",
-    "title": "JD Sports tests agentic commerce by linking AI shopping to checkout",
-    "source": "Digital Commerce 360",
-    "region": "海外",
-    "category": "趋势框架",
-    "url": "https://digitalcommerce360.com/2026/01/12/jd-sports-agentic-commerce-ai-shopping-checkout",
-    "tags": [
-      "AI购物",
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "corePoint": [
-      "这条资讯聚焦支付/结算，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节",
-      "智能体商业不只是更聪明的结算",
-      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
-    ],
-    "insight": "用户需求：用户想省掉结算操作，但不愿把购买决定完全交出去。｜产品机会：把交易权限拆成建议、代填、锁价、代付、代买五级，让用户逐步授权。｜设计启发：支付确认页要同时展示预算、库存、优惠、到达时间和售后责任，形成可追责凭证｜验证题：在支付/结算里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
-    "valueScore": 75,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "agentic-funnel"
-    ],
-    "contentType": "行业新闻"
   },
   {
     "id": "2026-01-12-ucp-ai-6492de8e79",
