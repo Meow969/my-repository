@@ -29,6 +29,33 @@
     "valueScore": 90
   },
   {
+    "id": "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+    "date": "2026-09-14",
+    "title": "Instacart, Shipt launch AI-powered shopping assistants",
+    "source": "Retail Dive",
+    "region": "海外",
+    "url": "https://retaildive.com/news/instacart-shipt-launch-ai-powered-shopping-assistants/830092",
+    "excerpt": "The companies’ new marketplace tools can build grocery carts based on a conversation with a customer or an uploaded photo. Let Retail Dive's free newsletter keep you informed, straight from your inbox. Instacart and Shipt each highlighted in their announcements how their marketplace AI assistants aim to ease the mental burden of grocery shopping while factoring in a customer’s budget. “Every night, millions of families ask the same question: ‘What’s for dinner?’ Not knowing the answer, let alone what to shop for, is one of the most universal human experiences, and a problem Instacart is built to solve,” Instacart CEO Chris Rogers said in the announcement. Rogers noted that Instacart’s tool learns from users’ preferences and what they’ve already shopped for on the company’s platform. The tool also bases its product selections on inventory levels at the customer’s chosen store. Along with",
+    "corePoint": [
+      "Let Retail Dive's free newsletter keep you informed, straight from your inbox",
+      "Instacart把AI能力放进商家/供给侧、即时零售/本地生活链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "商家面临渠道迁移和用户关系被AI入口截流的压力"
+    ],
+    "contentType": "竞品",
+    "category": "平台案例",
+    "tags": [
+      "对话导购",
+      "竞品案例"
+    ],
+    "insight": "用户需求：AI导购越强，用户越依赖它过滤供给，商家也越需要知道如何进入候选池。｜产品机会：把商家激励从填关键词转向补证据、补场景、补履约确定性。｜设计启发：推荐结果可标注商家承诺项，让好供给因为证据完整而被优先展示。",
+    "relatedInsightIds": [
+      "local-life-agent-loop",
+      "auto-local-certainty",
+      "habit-before-intelligence"
+    ],
+    "valueScore": 73
+  },
+  {
     "id": "2026-09-13-ai-ai-699ba1d926",
     "date": "2026-09-13",
     "title": "AI正重写电商？京东、淘天加速AI业务闭环，货架与智能体购物模式或长期并存",
@@ -213,7 +240,7 @@
     "corePoint": [
       "美团释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
       "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
-      "位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行"
+      "这条资料的可用点在于补充国内竞品链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "contentType": "竞品",
     "category": "国内竞品",
@@ -221,7 +248,7 @@
       "国内竞品",
       "竞品案例"
     ],
-    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则｜验证题：在国内竞品里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -778,7 +805,7 @@
       "即时零售",
       "商家Agent"
     ],
-    "insight": "用户需求：本地生活决策不是“哪个最好”，而是此刻附近、价格合适、能准时履约。｜产品机会：美团类AI应把位置、营业状态、排队、库存、配送、券和替代方案一次算完。｜设计启发：提供最快/最稳/最省三种方案，并说明每种方案的风险和兜底。",
+    "insight": "用户需求：本地生活决策不是“哪个最好”，而是此刻附近、价格合适、能准时履约。｜产品机会：美团类AI应把位置、营业状态、排队、库存、配送、券和替代方案一次算完。｜设计启发：提供最快/最稳/最省三种方案，并说明每种方案的风险和兜底｜验证题：在B端经营工具、商家/供给侧里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -1039,33 +1066,6 @@
       "decision-os"
     ],
     "contentType": "竞品"
-  },
-  {
-    "id": "2026-08-20-21-ai-291aadcc9e",
-    "date": "2026-08-20",
-    "title": "美团核心业务掌舵人自曝：千万 AI 投入难见效，全员跟风多是无用功",
-    "source": "21财经",
-    "region": "国内",
-    "url": "https://m.21jingji.com/article/20260820/herald/1da16adbbd8ac26045e9203969d44fa5.html",
-    "excerpt": "美团核心业务掌舵人自曝：千万 AI 投入难见效，全员跟风多是无用功 21财经",
-    "corePoint": [
-      "美团释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
-      "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
-      "这条资料的可用点在于补充国内竞品链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
-    ],
-    "contentType": "竞品",
-    "category": "国内竞品",
-    "tags": [
-      "国内竞品",
-      "竞品案例"
-    ],
-    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则｜验证题：在国内竞品里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
-    "relatedInsightIds": [
-      "local-life-agent-loop",
-      "auto-local-certainty",
-      "trust-ladder"
-    ],
-    "valueScore": 63
   },
   {
     "id": "daily-2026-08-20-84c99b15d913fa",
