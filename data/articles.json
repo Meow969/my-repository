@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
+    "date": "2026-09-16",
+    "title": "Agentic commerce and AI shopping: How trust will shape the future of retail",
+    "source": "Mastercard",
+    "region": "海外",
+    "url": "https://mastercard.com/us/en/news-and-trends/stories/2026/agentic-commerce-mastercard-pymnts.html",
+    "excerpt": "As AI shopping agents gain ground, Mastercard and PYMNTS convened commerce leaders to explore how trust, control and consumer confidence will define agentic commerce. What are you looking for? Whether you're seeking the right partner or ready to become one, our network helps you connect, grow and scale faster. Read The state of open finance 2026 report. Read the Mastercard-commissioned report from Datos Insights.",
+    "corePoint": [
+      "Visa/Mastercard把AI能力放进用户测评/信任链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "信任、授权和责任边界成为AI代购能否继续推进的关键问题",
+      "文章更偏机制拆解或方法论，而不是单纯功能发布"
+    ],
+    "contentType": "研究数据",
+    "category": "趋势框架",
+    "tags": [
+      "AI购物",
+      "Agentic Commerce"
+    ],
+    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制。",
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "trust-ladder",
+      "agentic-funnel"
+    ],
+    "valueScore": 75
+  },
+  {
     "id": "2026-09-14-q1-q2-477f743269",
     "date": "2026-09-14",
     "title": "直击美团业绩会：Q1亏损环比收窄 预期Q2单均利润将改善 “小美”与“元宝”合作将上线",
@@ -47,7 +74,7 @@
       "对话导购",
       "竞品案例"
     ],
-    "insight": "用户需求：AI导购越强，用户越依赖它过滤供给，商家也越需要知道如何进入候选池。｜产品机会：把商家激励从填关键词转向补证据、补场景、补履约确定性。｜设计启发：推荐结果可标注商家承诺项，让好供给因为证据完整而被优先展示。",
+    "insight": "用户需求：AI导购越强，用户越依赖它过滤供给，商家也越需要知道如何进入候选池。｜产品机会：把商家激励从填关键词转向补证据、补场景、补履约确定性。｜设计启发：推荐结果可标注商家承诺项，让好供给因为证据完整而被优先展示｜验证题：在商家/供给侧、即时零售/本地生活里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -782,6 +809,34 @@
       "trust-ladder",
       "agentic-funnel"
     ]
+  },
+  {
+    "id": "2026-08-30-ai-2c366dd10b",
+    "date": "2026-08-30",
+    "title": "外卖不亏了的美团，要把AI做进物理世界里",
+    "source": "东方财富",
+    "region": "国内",
+    "url": "https://wap.eastmoney.com/a/202608303859493341.html",
+    "excerpt": "手机东方财富网是东方财富网的手机门户网站，为亿万用户打造一个手机联通世界的超级平台，提供7*24小时全面及时的财经中文资讯，内容覆盖国内外突发事件、股市资讯、全球新闻、产业资讯、实用信息等。手机东方财富网触屏版 - eastmoney.com",
+    "corePoint": [
+      "美团把AI能力放进即时零售/本地生活链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "美团系AI能力的关键变量是本地履约确定性，而不是单纯推荐准确率",
+      "位置、营业时间、排队、配送、缺货替代和优惠会共同决定AI建议是否可执行"
+    ],
+    "contentType": "竞品",
+    "category": "国内竞品",
+    "tags": [
+      "国内竞品",
+      "竞品案例",
+      "即时零售"
+    ],
+    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+    "relatedInsightIds": [
+      "local-life-agent-loop",
+      "auto-local-certainty",
+      "trust-ladder"
+    ],
+    "valueScore": 63
   },
   {
     "id": "2026-08-28-wallstreetcn-com-ue-keeta-ai-8ef8180284",
