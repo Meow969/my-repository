@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-09-17-30-59d7af9e7e",
+    "date": "2026-09-17",
+    "title": "二代豆包手机，给“微信美团淘宝们”留了30天冷静期",
+    "source": "潮起网",
+    "region": "国内",
+    "url": "https://ichaoqi.com/guandian/2026/0917/87350.html",
+    "excerpt": "文 | 娱乐资本论，作者 | 苏涵 去年底，一台还没真正量产的手机，被一度炒到了3万多元。 去年底，一台还没真正量产的手机，被一度炒到了3万多元。 它不是苹果，也不是华为，而是一台原本只面向开发者和科技爱好者的工程样机——努比亚M153，第一代“豆包手机”。 在当时流传最广的演示视频里，用户只需要说一句话，豆包就可以自己打开App、识别屏幕、点击按钮，甚至跨越多个应用完成任务。 过去十几年，人们已经习惯了想打车就打开滴滴、想点外卖就打开美团、想买东西就打开淘宝；豆包手机第一次把另一种可能摆到了普通消费者面前： 如果手机自己会操作这些App呢？但这个故事很快撞上了现实。 微信、淘宝、支付宝以及部分银行应用陆续出现风险提示或访问限制。那个看起来什么App都能操作的豆包手机，也不得不收缩自己的能力边界。",
+    "corePoint": [
+      "微信、淘宝、支付宝以及部分银行应用陆续出现风险提示或访问限制。那个看起来什么App都能操作的豆包手机，也不得不收缩自己的能力边界",
+      "淘宝/天猫、美团把AI能力放进支付/结算、用户测评/信任、即时零售/本地生活链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "阿里系AI导购的看点在于把搜索、内容、收藏、购物车、订单和商家供给统一编排"
+    ],
+    "contentType": "竞品",
+    "category": "国内竞品",
+    "tags": [
+      "C端AI产品",
+      "国内竞品",
+      "竞品案例",
+      "交易闭环",
+      "即时零售"
+    ],
+    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制。",
+    "relatedInsightIds": [
+      "auto-domestic-platform-assets",
+      "data-transaction-moat",
+      "decision-os"
+    ],
+    "valueScore": 90
+  },
+  {
+    "id": "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
+    "date": "2026-09-17",
+    "title": "Big-Box Briefing: Target-owned delivery app Shipt makes AI push, mirroring Instacart",
+    "source": "Modern Retail",
+    "region": "海外",
+    "url": "https://modernretail.co/technology/big-box-briefing-target-owned-delivery-app-shipt-makes-ai-push-mirroring-instacart",
+    "excerpt": "Shipt announced an AI assistant last week on the same day as one of its biggest competitors, aimed at helping customers build carts. 7 spots left: Join us Sept. 24 in NYC for AI Marketing Strategies Shipt, the delivery app owned by Target that powers the retailer’s same-day delivery service, announced an AI assistant last week on the same day as one of its biggest competitors. On Wednesday, Shipt said it launched “Ask Shipt,” an AI assistant on Shipt’s app and website where customers can describe what they’re looking for to build a list of items they can directly add to their cart, or upload a photo of a food item to identify which items they would need to make it. Instacart separately announced that it had launched its own AI assistant , “Clementine,” with similar functionality, and that it would also make a white-label shopping assistant available to other retailers to implement on the",
+    "corePoint": [
+      "Instacart、Target把AI能力放进AI购物助手、商家/供给侧链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "平台正在把AI能力放进购物入口或交易资产",
+      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
+    ],
+    "contentType": "竞品",
+    "category": "平台案例",
+    "tags": [
+      "竞品案例"
+    ],
+    "insight": "用户需求：用户希望AI替自己筛掉不靠谱供给，商家则担心被AI入口重新分配流量。｜产品机会：为Instacart、Target建设AI可读商品页、卖点证据、履约承诺和归因工具。｜设计启发：商家后台不只生成素材，还要提示“为什么没被推荐、缺什么证据、该补什么承诺”。",
+    "relatedInsightIds": [
+      "competitor-function-radar",
+      "decision-os",
+      "closed-loop-first"
+    ],
+    "valueScore": 74
+  },
+  {
     "id": "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
     "date": "2026-09-17",
     "title": "Walmart Expands Conversational AI Capabilities Across Scintilla Platform",
@@ -196,35 +252,6 @@
       "decision-os"
     ],
     "valueScore": 96
-  },
-  {
-    "id": "2026-09-13-kimi-bai-ai-7dd7e92084",
-    "date": "2026-09-13",
-    "title": "Kimi、BAI、自然选择谈智能体新商业：AI支付增量来自硅基生命的支付|蚂蚁集团|时代|流量|信用卡|赵鹏岚_手机新浪网",
-    "source": "新浪财经",
-    "region": "国内",
-    "url": "https://finance.sina.cn/tech/2026-09-13/detail-inirrxsc0611261.d.html?vt=4",
-    "excerpt": "新浪科技讯 9月13日上午消息，近日，在2026 Inclusion·外滩大会“Agentic Commerce的新可能”圆桌上，Kimi增长与商业化技术负责人付强、自然选择创始人Tristan... 新浪科技讯 9月13日上午消息，近日，在2026 Inclusion·外滩大会“Agentic Commerce的新可能”圆桌上，Kimi增长与商业化技术负责人付强、自然选择创始人Tristan、BAI资本高级合伙人赵鹏岚、蚂蚁集团AI支付总监林正茂，从模型、 新浪科技讯 9月13日上午消息，近日，在2026 Inclusion·外滩大会“Agentic Commerce的新可能”圆桌上，Kimi增长与商业化技术负责人付强、自然选择创始人Tristan、BAI资本高级合伙人赵鹏岚、蚂蚁集团AI支付总监林正茂，从模型、创业、投资和支付等不同视角，讨论了同一个问题：当越来越多的商业行为开始由智能体完成，支付在AI时代究竟意味着什么？它的价值是否被低估和忽视？ 林正茂认为，AI时代的支付逻辑已经不同。“人只要表达一个意图或者目标，并且给予Agent相应的授权，后面所有涉及到商品的找寻、下单支付，Agent就可以代为完成。” Kimi增长与商业化技术负责人付强举了一个例子。在Kimi会员订阅场景下，“直接通过本地模型或者其他方式说几句话就能够持续使用我们的服务，不断档”。 BAI资本高级合伙人赵鹏岚对未来的想象更进一步：“我希望未来支付不需要我告诉它，它就会自动帮我把iPhone 18 Pro抢了”。 赵鹏岚认为，更值得关注的，是智能体自己执行任务时产生的支付。他把这种支付称为“硅基生命的支付”。 “你试试用人的信用卡一分钟做500次支付，第二天信用卡就被封了。” 在赵鹏岚看来，这种高频、低金额、甚至毫秒级的微支付，是AI时代出现的新支付场景。 赵鹏岚认为，支付一直是一个具有很强网络效应的生意。在智能体时代，如果一个人拥有10个甚至100个智能体，那么未来可能出现“1000亿到5000亿”的智能体，这里面会产生新的商业价值。",
-    "corePoint": [
-      "新浪科技讯 9月13日上午消息，近日，在2026 Inclusion·外滩大会“Agentic Commerce的新可能”圆桌上，Kimi增长与商业化技术负责人付强、自然选择创始人Tristan",
-      "BAI资本高级合伙人赵鹏岚对未来的想象更进一步：“我希望未来支付不需要我告诉它，它就会自动帮我把iPhone 18 Pro抢了”",
-      "这条资讯聚焦支付/结算、转化/流量、用户测评/信任，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节"
-    ],
-    "contentType": "C端产品",
-    "category": "C端AI产品",
-    "tags": [
-      "C端AI产品",
-      "Agentic Commerce",
-      "交易闭环",
-      "商品库"
-    ],
-    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制。",
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "agentic-funnel"
-    ],
-    "valueScore": 89
   },
   {
     "id": "2026-09-11-cbndata-ai-5926ac2e97",
