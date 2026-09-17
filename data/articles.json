@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
+    "date": "2026-09-17",
+    "title": "Walmart Expands Conversational AI Capabilities Across Scintilla Platform",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "url": "https://pymnts.com/walmart/2026/walmart-expands-conversational-ai-capabilities-across-scintilla-platform",
+    "excerpt": "Walmart Data Ventures is adding new artificial intelligence-powered features to its commerce intelligence platform, Scintilla. Walmart Data Ventures is adding new artificial intelligence-powered features to its commerce intelligence platform, Scintilla, the company said in a Complete the form to unlock this article and enjoy unlimited free access to all PYMNTS content — no additional logins required.",
+    "corePoint": [
+      "Walmart释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
+      "平台正在把AI能力放进购物入口或交易资产",
+      "这条资料的可用点在于补充平台案例链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
+    ],
+    "contentType": "竞品",
+    "category": "平台案例",
+    "tags": [
+      "对话导购",
+      "竞品案例"
+    ],
+    "insight": "用户需求：用户希望AI在AI购物里把模糊需求翻译成可执行选择，并减少自己反复查证的成本。｜产品机会：观察Walmart调用了哪些资产来完成任务，例如商品库、评价、库存、优惠、订单或履约能力。｜设计启发：把体验拆成入口、意图、证据、动作、兜底五个节点，找出可迁移到自身产品的最小设计｜验证题：在平台案例里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
+    "relatedInsightIds": [
+      "competitor-function-radar",
+      "decision-os",
+      "closed-loop-first"
+    ],
+    "valueScore": 72
+  },
+  {
     "id": "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
     "date": "2026-09-16",
     "title": "Agentic commerce and AI shopping: How trust will shape the future of retail",
@@ -18,13 +45,39 @@
       "AI购物",
       "Agentic Commerce"
     ],
-    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制。",
+    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制｜验证题：在用户测评/信任里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
       "agentic-funnel"
     ],
     "valueScore": 75
+  },
+  {
+    "id": "2026-09-16-google-shopping-blog-boost-your-84507acf05",
+    "date": "2026-09-16",
+    "title": "Boost your holiday sales with these agentic commerce updates",
+    "source": "Google Shopping Blog",
+    "region": "海外",
+    "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping",
+    "excerpt": "Help boost holiday sales with agentic commerce updates and product feed best practices from Google. Skip to main content Boost your holiday sales with these agentic commerce updates",
+    "corePoint": [
+      "Help boost holiday sales with agentic commerce updates and product feed best practices from Google",
+      "Google把AI能力放进转化/流量链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "资讯把AI能力与转化、客单或流量变化直接关联"
+    ],
+    "contentType": "行业新闻",
+    "category": "趋势框架",
+    "tags": [
+      "Agentic Commerce"
+    ],
+    "insight": "用户需求：用户希望推荐结果更接近自己的真实意图。｜产品机会：把转化增长拆成可解释归因，区分短期流量、推荐质量和交易闭环贡献。｜设计启发：建立漏斗看板，分别追踪AI改写、证据点击、加入购物车和确认支付。",
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "trust-ladder",
+      "agentic-funnel"
+    ],
+    "valueScore": 72
   },
   {
     "id": "2026-09-14-q1-q2-477f743269",
@@ -830,7 +883,7 @@
       "竞品案例",
       "即时零售"
     ],
-    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则。",
+    "insight": "用户需求：用户不想在临时消费里反复筛店、比价、看配送。｜产品机会：美团/问小团的启发是把搜索改造成即时决策引擎。｜设计启发：结果页少讲概念，多展示当前可执行性：距离、排队、时效、评价风险和补偿规则｜验证题：在即时零售/本地生活里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
     "relatedInsightIds": [
       "local-life-agent-loop",
       "auto-local-certainty",
@@ -1899,31 +1952,6 @@
       "agentic-funnel"
     ],
     "contentType": "C端产品"
-  },
-  {
-    "id": "daily-2026-06-11-3d1f660fc96b5a",
-    "date": "2026-06-11",
-    "title": "Permission, Not Payments, Will Shape the Agentic Commerce Revolution",
-    "source": "PYMNTS.com",
-    "region": "海外",
-    "category": "趋势框架",
-    "url": "https://pymnts.com/news/artificial-intelligence/2026/permission-not-payments-will-shape-agentic-commerce-revolution",
-    "tags": [
-      "Agentic Commerce"
-    ],
-    "corePoint": [
-      "这条资讯聚焦用户测评/信任，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节",
-      "信任、授权和责任边界成为AI代购能否继续推进的关键问题",
-      "这条资料的可用点在于补充用户测评/信任链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
-    ],
-    "insight": "用户需求：AI越主动，用户越需要可解释、可暂停、可纠错。｜产品机会：信任不是合规补丁，而是推动交易闭环的核心产品能力。｜设计启发：关键节点主动暴露风险，例如价格变化、评价争议、配送不确定和售后限制｜验证题：在用户测评/信任里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。",
-    "valueScore": 57,
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "agentic-funnel"
-    ],
-    "contentType": "行业新闻"
   },
   {
     "id": "2026-06-10-openai-blog-prc-linked-influenc-6c33d57edf",
@@ -3471,31 +3499,6 @@
       "answer-shelf",
       "merchant-readable-store",
       "agentic-funnel"
-    ],
-    "contentType": "竞品"
-  },
-  {
-    "id": "daily-2025-11-03-ecde15087570ad",
-    "date": "2025-11-03",
-    "title": "Walmart introduces AI tools for in-store and online holiday shopping",
-    "source": "Customer Experience Dive",
-    "region": "海外",
-    "category": "平台案例",
-    "url": "https://customerexperiencedive.com/news/walmart-ai-tools-in-store-online-holiday/804541",
-    "tags": [
-      "竞品案例"
-    ],
-    "corePoint": [
-      "Walmart释放了新的AI购物相关动作，需要看它借用了哪些平台资产来改变用户路径",
-      "平台正在把AI能力放进购物入口或交易资产",
-      "判断重点不是聊天外壳，而是是否改变搜索、选品、比较和下单流程"
-    ],
-    "insight": "用户需求：用户希望AI在AI购物里把模糊需求翻译成可执行选择，并减少自己反复查证的成本。｜产品机会：观察Walmart调用了哪些资产来完成任务，例如商品库、评价、库存、优惠、订单或履约能力。｜设计启发：把体验拆成入口、意图、证据、动作、兜底五个节点，找出可迁移到自身产品的最小设计。",
-    "valueScore": 48,
-    "relatedInsightIds": [
-      "competitor-function-radar",
-      "decision-os",
-      "closed-loop-first"
     ],
     "contentType": "竞品"
   },
