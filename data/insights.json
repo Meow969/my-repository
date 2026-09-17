@@ -15,20 +15,20 @@
       "可执行决策",
       "决策链"
     ],
-    "sourceCount": 53,
+    "sourceCount": 29,
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
       "2026-09-13-ai-ai-699ba1d926",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-09-ai-9181eea09e",
-      "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
       "daily-2026-09-01-1531069370f45e",
-      "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427"
+      "daily-2026-08-22-d0935ce5172bc8",
+      "2026-08-17-c7318a84f1",
+      "2026-08-13-ai-ce1bf371dd"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17"
   },
   {
@@ -47,18 +47,12 @@
       "用户画像",
       "可编辑记忆"
     ],
-    "sourceCount": 10,
+    "sourceCount": 4,
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-09-07-token-ai-kimi-def8e7815c",
-      "2026-08-10-510496218f",
-      "2026-06-02-36-618-ai-36kr-com-fc5ed51dff",
       "daily-2026-05-13-3c134761dade73",
-      "2026-02-06-9-1000-ai-46dfb586e1",
       "2026-02-03-ai-5b2966b229",
-      "daily-2025-12-27-9e481776f4fdf4",
-      "daily-2025-11-20-fffc13c7303b8b",
-      "competitor-2025-09-17-ai-86111b0c72"
+      "daily-2025-12-27-9e481776f4fdf4"
     ],
     "trendNote": "来源提示：相关资料继续指向国内竞品、竞品案例、交易闭环，记忆能力要从聊天上下文升级为可编辑的购买约束，否则很难支撑长期授权。",
     "updatedAt": "2026-09-17"
@@ -79,20 +73,20 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 65,
+    "sourceCount": 22,
     "relatedArticleIds": [
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-10-ai-ac61f3f501"
+      "2026-09-10-ai-ac61f3f501",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2"
     ],
-    "trendNote": "来源提示：Agentic Commerce、竞品案例、国内竞品信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
+    "trendNote": "来源提示：Agentic Commerce、竞品案例、C端AI产品信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-17"
   },
   {
@@ -111,10 +105,9 @@
       "售后确定性",
       "交易闭环"
     ],
-    "sourceCount": 79,
+    "sourceCount": 38,
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
@@ -122,7 +115,8 @@
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098"
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2"
     ],
     "trendNote": "来源提示：Agentic Commerce、竞品案例、交易闭环信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。",
     "updatedAt": "2026-09-17"
@@ -143,18 +137,15 @@
       "推荐位稀缺",
       "AI可见性"
     ],
-    "sourceCount": 13,
+    "sourceCount": 7,
     "relatedArticleIds": [
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-08-13-ai-ce1bf371dd",
-      "daily-2026-08-07-805eb37e0578fe",
-      "daily-2026-07-06-9ff3847b4f7534",
       "daily-2026-06-27-ca12d684099abd",
       "2026-05-27-ai-ai-2db7e4d908",
-      "daily-2026-04-16-8c3ab90fcd05d0",
       "daily-2026-04-03-d41339b299519c",
-      "daily-2026-02-20-30a9ac4c22a9f9",
-      "daily-2026-01-25-27679e673e9934"
+      "daily-2026-01-25-27679e673e9934",
+      "daily-2025-10-27-506d4c177e5782"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在C端AI产品、国内竞品、C端导购入口，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17"
@@ -176,9 +167,8 @@
       "解释可信度",
       "转化漏斗"
     ],
-    "sourceCount": 51,
+    "sourceCount": 23,
     "relatedArticleIds": [
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-ai-ai-6f5abe1327",
@@ -186,8 +176,9 @@
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098",
-      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9"
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
     "trendNote": "来源提示：Agentic Commerce、竞品案例、交易闭环显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。",
     "updatedAt": "2026-09-17"
@@ -208,20 +199,20 @@
       "商家Agent",
       "GEO"
     ],
-    "sourceCount": 25,
+    "sourceCount": 11,
     "relatedArticleIds": [
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-09-ai-b2284494a6",
-      "2026-09-05-ai-9ff3c52d54",
-      "2026-08-28-wallstreetcn-com-ue-keeta-ai-8ef8180284",
-      "daily-2026-08-21-efe214be6e9775",
-      "2026-08-19-6-08a28b00bd",
-      "daily-2026-08-07-805eb37e0578fe",
-      "2026-07-27-catpaw-ai-cc271884ec",
-      "daily-2026-07-11-32836af59aacfb"
+      "daily-2026-06-27-ca12d684099abd",
+      "2026-05-27-ai-ai-2db7e4d908",
+      "daily-2026-04-11-370069836d49a1",
+      "2026-04-09-ai-agent-ec8119d854",
+      "daily-2026-04-03-d41339b299519c",
+      "2026-03-24-openai-blog-powering-product-di-10b56e1b13",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2025-12-26-the-business-times-shopee-lazad-1aa0c55c73"
     ],
-    "trendNote": "来源提示：国内竞品、B端商家工具、商家Agent正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "trendNote": "来源提示：国内竞品、竞品案例、B端商家工具正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-17"
   },
   {
@@ -261,14 +252,11 @@
       "日常授权",
       "习惯养成"
     ],
-    "sourceCount": 7,
+    "sourceCount": 4,
     "relatedArticleIds": [
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-07-27-ai-ai-5458596ecb",
-      "2026-07-27-catpaw-ai-cc271884ec",
       "daily-2026-06-19-10e5b92e51f050",
       "daily-2026-06-16-30f36e4cb45b27",
-      "daily-2026-04-24-b7bfc0643bbe0a",
       "competitor-2026-01-22-app-ai-2130600ec1"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在对话导购、竞品案例，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
@@ -290,20 +278,16 @@
       "履约确定",
       "品类策略"
     ],
-    "sourceCount": 20,
+    "sourceCount": 6,
     "relatedArticleIds": [
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-ai-ac61f3f501",
-      "2026-09-09-ai-b2284494a6",
-      "2026-09-07-21-ai-181bc203b2",
-      "2026-09-05-ai-9ff3c52d54",
-      "2026-08-30-ai-2c366dd10b",
-      "2026-08-28-wallstreetcn-com-ue-keeta-ai-8ef8180284",
-      "2026-08-28-21-ai-token-c573010600"
+      "daily-2026-08-22-d0935ce5172bc8",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、B端商家工具，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、C端AI产品、国内竞品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17"
   },
   {
@@ -322,17 +306,13 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 7,
+    "sourceCount": 3,
     "relatedArticleIds": [
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "daily-2026-08-24-365a107d529345",
       "daily-2026-08-22-d0935ce5172bc8",
-      "2026-08-18-pymnts-com-visa-and-mastercard--5ba11f7326",
-      "daily-2026-04-20-68a876852717bf",
-      "competitor-2025-12-11-google-studio-quality-digital-try-on",
-      "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b"
+      "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17"
   },
   {
@@ -351,20 +331,16 @@
       "测评引用",
       "可追溯"
     ],
-    "sourceCount": 11,
+    "sourceCount": 6,
     "relatedArticleIds": [
-      "2026-09-09-techcrunch-meta-debuts-its-muse-8cfb09c098",
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
-      "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427",
       "daily-2026-08-22-d0935ce5172bc8",
       "2026-08-17-c7318a84f1",
       "2026-08-13-ai-ce1bf371dd",
-      "daily-2026-07-08-7faa93e3004991",
-      "daily-2026-07-06-9ff3847b4f7534",
-      "daily-2026-05-20-8afe23caa75775",
-      "daily-2026-01-25-27679e673e9934"
+      "daily-2026-01-25-27679e673e9934",
+      "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在C端AI产品、AI购物、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在AI购物、Agentic Commerce、商品库，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17"
   },
   {
@@ -430,17 +406,10 @@
       "分级授权",
       "一次性授权"
     ],
-    "sourceCount": 12,
+    "sourceCount": 3,
     "relatedArticleIds": [
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "daily-2026-08-24-365a107d529345",
-      "2026-07-27-ai-ai-5458596ecb",
-      "2026-07-27-catpaw-ai-cc271884ec",
-      "daily-2026-05-29-ad1b2b76719977",
-      "daily-2026-04-20-68a876852717bf",
-      "daily-2026-02-20-30a9ac4c22a9f9",
       "competitor-2026-01-22-app-ai-2130600ec1",
-      "daily-2026-01-20-325e5c30718d8e",
       "daily-2026-01-16-69707bc3df56d5"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
@@ -483,18 +452,13 @@
       "广告标识",
       "运营成本"
     ],
-    "sourceCount": 8,
+    "sourceCount": 3,
     "relatedArticleIds": [
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-08-19-6-08a28b00bd",
-      "daily-2026-07-11-32836af59aacfb",
-      "daily-2026-06-09-7a19d15be76fd1",
-      "2026-05-26-mastercard-intelligent-agentic--4d5209a8e1",
-      "daily-2026-04-24-b7bfc0643bbe0a",
       "daily-2026-04-11-370069836d49a1",
       "2026-03-24-openai-blog-powering-product-di-10b56e1b13"
     ],
-    "trendNote": "来源提示：对话导购、竞品案例、B端商家工具正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
+    "trendNote": "来源提示：对话导购、竞品案例正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。",
     "updatedAt": "2026-09-17"
   },
   {
@@ -538,15 +502,12 @@
       "预算表达",
       "价格歧视"
     ],
-    "sourceCount": 5,
+    "sourceCount": 2,
     "relatedArticleIds": [
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "daily-2026-09-02-0860bf13512c29",
-      "daily-2026-08-21-efe214be6e9775",
-      "daily-2026-07-11-32836af59aacfb",
       "daily-2025-09-28-6b0d69f713ce98"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、交易闭环、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17"
   },
   {
@@ -598,12 +559,12 @@
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、交易闭环，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17",
-    "sourceCount": 82
+    "sourceCount": 41
   },
   {
     "id": "visual-try-on-as-proof",
@@ -624,13 +585,11 @@
     ],
     "relatedArticleIds": [
       "daily-2026-08-22-d0935ce5172bc8",
-      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
-      "competitor-2026-05-10-ai-ai-b15ffc150d",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
     "trendNote": "来源提示：近一批高价值信息集中在虚拟试穿，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17",
-    "sourceCount": 4
+    "sourceCount": 2
   },
   {
     "id": "local-life-agent-loop",
@@ -653,17 +612,17 @@
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-q2-ai-d1fe986b75",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-ai-ac61f3f501",
-      "2026-09-09-ai-b2284494a6",
-      "2026-09-07-21-ai-181bc203b2",
-      "2026-09-05-ai-9ff3c52d54",
-      "2026-08-30-ai-2c366dd10b"
+      "daily-2026-06-19-10e5b92e51f050",
+      "daily-2026-06-16-30f36e4cb45b27",
+      "2026-04-09-ai-agent-ec8119d854",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "daily-2026-01-16-69707bc3df56d5"
     ],
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、即时零售，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。",
     "updatedAt": "2026-09-17",
-    "sourceCount": 29
+    "sourceCount": 10
   },
   {
     "id": "structured-dialogue",
@@ -683,19 +642,19 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "sourceCount": 133,
+    "sourceCount": 41,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -715,7 +674,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -723,11 +681,12 @@
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
-    "sourceCount": 112,
+    "sourceCount": 52,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "structured-dialogue",
@@ -747,19 +706,19 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "sourceCount": 133,
+    "sourceCount": 41,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -779,7 +738,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -787,11 +745,12 @@
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
-    "sourceCount": 112,
+    "sourceCount": 52,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "structured-dialogue",
@@ -811,19 +770,19 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "sourceCount": 133,
+    "sourceCount": 41,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -843,7 +802,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -851,11 +809,12 @@
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
-    "sourceCount": 112,
+    "sourceCount": 52,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "structured-dialogue",
@@ -875,19 +834,19 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "sourceCount": 133,
+    "sourceCount": 41,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -907,7 +866,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -915,11 +873,12 @@
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
-    "sourceCount": 112,
+    "sourceCount": 52,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "structured-dialogue",
@@ -939,19 +898,19 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "sourceCount": 133,
+    "sourceCount": 41,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -971,7 +930,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -979,11 +937,12 @@
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
-    "sourceCount": 112,
+    "sourceCount": 52,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "structured-dialogue",
@@ -1003,19 +962,19 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "sourceCount": 133,
+    "sourceCount": 41,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -1035,7 +994,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -1043,11 +1001,12 @@
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
-    "sourceCount": 112,
+    "sourceCount": 52,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "structured-dialogue",
@@ -1067,19 +1026,19 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "sourceCount": 133,
+    "sourceCount": 41,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -1099,7 +1058,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -1107,11 +1065,12 @@
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
-    "sourceCount": 112,
+    "sourceCount": 52,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "structured-dialogue",
@@ -1131,19 +1090,19 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-11-q2-ai-d1fe986b75"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "sourceCount": 133,
+    "sourceCount": 41,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "data-transaction-moat",
@@ -1163,7 +1122,6 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
       "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -1171,11 +1129,76 @@
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
-    "sourceCount": 112,
+    "sourceCount": 52,
     "updatedAt": "2026-09-17",
-    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、国内竞品、Agentic Commerce，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+  },
+  {
+    "id": "structured-dialogue",
+    "title": "对话导购要先结构化需求，再给答案",
+    "summary": "好的AI导购不是把商品列表说得更像人，而是把模糊表达拆成预算、场景、偏好、禁忌、履约和风险约束，再组织可比较候选。",
+    "takeaways": [
+      "先问清决策约束再推荐",
+      "把候选差异做成对比证据",
+      "保留用户可修改的决策路径"
+    ],
+    "keywords": [
+      "对话导购",
+      "需求澄清",
+      "结构化决策",
+      "比较",
+      "证据链"
+    ],
+    "relatedArticleIds": [
+      "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-09-13-kimi-bai-ai-7dd7e92084",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
+    ],
+    "sourceCount": 41,
+    "updatedAt": "2026-09-17",
+    "trendNote": "来源提示：近一批高价值信息集中在Agentic Commerce、竞品案例、AI购物，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+  },
+  {
+    "id": "data-transaction-moat",
+    "title": "商品数据和履约能力才是AI导购护城河",
+    "summary": "AI导购越接近成交，越依赖实时商品、价格、库存、优惠、物流和售后规则；平台壁垒来自能否把这些交易资产变成可解释证据。",
+    "takeaways": [
+      "把商品事实做成可引用证据",
+      "推荐前先做可买性核验",
+      "用履约和售后能力解释排序"
+    ],
+    "keywords": [
+      "商品库",
+      "履约",
+      "价格库存",
+      "交易闭环",
+      "平台资产"
+    ],
+    "relatedArticleIds": [
+      "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
+      "2026-09-16-google-shopping-blog-boost-your-84507acf05",
+      "2026-09-14-q1-q2-477f743269",
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-09-13-ai-ai-699ba1d926",
+      "2026-09-13-kimi-bai-ai-7dd7e92084",
+      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-11-ai-ai-6f5abe1327",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
+    ],
+    "sourceCount": 52,
+    "updatedAt": "2026-09-17",
+    "trendNote": "来源提示：近一批高价值信息集中在竞品案例、Agentic Commerce、C端AI产品，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
   },
   {
     "id": "structured-dialogue",
@@ -1195,17 +1218,17 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2026-09-10-ai-ac61f3f501",
+      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1228,17 +1251,17 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+      "competitor-2026-01-22-app-ai-2130600ec1"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1261,17 +1284,17 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2026-09-10-ai-ac61f3f501"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1293,18 +1316,18 @@
       "评价"
     ],
     "relatedArticleIds": [
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-10-ai-ac61f3f501",
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-04-09-ai-agent-ec8119d854"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1327,19 +1350,16 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-06-04-app-ai-be4d9cf7b1",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
-      "2026-02-06-9-1000-ai-46dfb586e1",
-      "2026-09-07-token-ai-kimi-def8e7815c",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
-      "2026-06-02-36-618-ai-36kr-com-fc5ed51dff",
-      "2026-09-01-36-ai-ai-36kr-com-bd2f2d6427"
+      "2026-02-03-ai-5b2966b229",
+      "daily-2026-05-13-3c134761dade73",
+      "daily-2025-12-27-9e481776f4fdf4",
+      "daily-2026-06-16-30f36e4cb45b27",
+      "daily-2026-02-05-378a1bbb379006"
     ],
-    "sourceCount": 12,
+    "sourceCount": 9,
     "updatedAt": "2026-09-17"
   },
   {
@@ -1361,16 +1381,16 @@
     "relatedArticleIds": [
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "competitor-2026-01-22-app-ai-2130600ec1"
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707",
+      "2026-04-09-ai-agent-ec8119d854"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1393,17 +1413,17 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1425,15 +1445,12 @@
       "风险前置"
     ],
     "relatedArticleIds": [
-      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
       "daily-2026-07-29-fcd1c0b0824ead",
-      "competitor-2026-05-10-ai-ai-b15ffc150d",
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
       "daily-2026-08-22-d0935ce5172bc8",
-      "daily-2026-08-23-9ac5af530d0367",
       "daily-2025-09-12-a18826d18731c1"
     ],
-    "sourceCount": 7,
+    "sourceCount": 4,
     "updatedAt": "2026-09-17"
   },
   {
@@ -1454,17 +1471,17 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-09-ai-b2284494a6"
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2026-09-10-ai-ac61f3f501",
+      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1486,20 +1503,18 @@
       "小美"
     ],
     "relatedArticleIds": [
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
-      "2026-09-09-ai-b2284494a6",
-      "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-09-10-ai-ac61f3f501",
-      "2026-07-27-ai-ai-5458596ecb",
-      "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b"
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-04-09-ai-agent-ec8119d854",
+      "daily-2026-06-19-10e5b92e51f050",
+      "daily-2026-06-16-30f36e4cb45b27"
     ],
-    "sourceCount": 12,
+    "sourceCount": 10,
     "updatedAt": "2026-09-17"
   },
   {
@@ -1521,17 +1536,17 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-09-ai-b2284494a6",
-      "competitor-2026-01-22-app-ai-2130600ec1"
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-09-10-ai-ac61f3f501",
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-04-09-ai-agent-ec8119d854"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1557,14 +1572,14 @@
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-08-17-c7318a84f1",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-09-ai-b2284494a6",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
-      "2026-09-05-ai-9ff3c52d54",
-      "2026-02-06-9-1000-ai-46dfb586e1",
-      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302"
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-04-09-ai-agent-ec8119d854",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
+      "2026-03-24-openai-blog-powering-product-di-10b56e1b13",
+      "daily-2026-09-01-1531069370f45e"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1587,17 +1602,17 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-08-17-c7318a84f1",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+      "competitor-2026-01-22-app-ai-2130600ec1",
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1623,14 +1638,14 @@
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-08-17-c7318a84f1",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-09-ai-b2284494a6",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "competitor-2025-11-08-11ai-ai-5000-bc702b8368",
-      "2026-09-05-ai-9ff3c52d54"
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-04-09-ai-agent-ec8119d854",
+      "2026-05-27-ai-ai-2db7e4d908",
+      "2026-05-21-google-shopping-blog-how-we-re--242e31b910"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1655,15 +1670,15 @@
       "2026-09-13-ai-ai-699ba1d926",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
-      "2026-09-09-ai-b2284494a6",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
-      "2026-09-10-ai-ac61f3f501"
+      "2026-09-10-ai-ac61f3f501",
+      "2026-04-09-ai-agent-ec8119d854",
+      "2026-09-16-google-shopping-blog-boost-your-84507acf05",
+      "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1687,16 +1702,16 @@
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-06-04-app-ai-be4d9cf7b1",
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "daily-2026-01-16-69707bc3df56d5",
-      "competitor-2025-09-17-ai-86111b0c72",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
+      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
+      "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707",
+      "2026-04-09-ai-agent-ec8119d854",
+      "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c"
     ],
     "sourceCount": 12,
     "updatedAt": "2026-09-17"
@@ -1721,16 +1736,16 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
       "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1"
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
   },
   {
-    "id": "spark-2026-08-10-510496218f",
+    "id": "spark-2026-09-11-cbndata-ai-5926ac2e97",
     "title": "把淘宝/天猫的个性化能力做成可编辑购买规则",
     "summary": "这条信号启发的是：用户愿意让AI记住的不是隐形画像，而是能被检查和修改的购买规则；记忆越透明，越适合承接长期导购。",
     "takeaways": [
@@ -1743,17 +1758,17 @@
       "偏好",
       "购买规则",
       "复购",
-      "C端AI产品",
       "国内竞品",
-      "AI搜索",
-      "竞品案例"
+      "B端商家工具",
+      "竞品案例",
+      "商品库"
     ],
     "relatedArticleIds": [
-      "2026-08-10-510496218f",
-      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-13-ai-ai-699ba1d926",
       "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1"
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -1780,9 +1795,9 @@
     "relatedArticleIds": [
       "2026-09-14-q1-q2-477f743269",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-08-17-c7318a84f1"
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -1809,9 +1824,9 @@
     "relatedArticleIds": [
       "2026-08-17-c7318a84f1",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -1837,38 +1852,9 @@
     "relatedArticleIds": [
       "2026-09-13-kimi-bai-ai-7dd7e92084",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-competitor-2025-09-17-ai-86111b0c72",
-    "title": "把淘宝/天猫、美团的个性化能力做成可编辑购买规则",
-    "summary": "这条信号启发的是：用户愿意让AI记住的不是隐形画像，而是能被检查和修改的购买规则；记忆越透明，越适合承接长期导购。",
-    "takeaways": [
-      "展示本次推荐调用了哪些记忆",
-      "允许用户冻结/删除单条偏好",
-      "把复购周期和品牌禁忌沉淀为规则"
-    ],
-    "keywords": [
-      "记忆",
-      "偏好",
-      "购买规则",
-      "复购",
-      "国内竞品",
-      "C端导购入口",
-      "对话导购",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "competitor-2025-09-17-ai-86111b0c72",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -1895,9 +1881,9 @@
     "relatedArticleIds": [
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -1923,9 +1909,9 @@
     "relatedArticleIds": [
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -1951,37 +1937,9 @@
     "relatedArticleIds": [
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
-    "title": "把OpenAI/ChatGPT的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "C端AI产品",
-      "Agentic Commerce",
-      "技术架构"
-    ],
-    "relatedArticleIds": [
-      "2025-09-29-openai-blog-buy-it-in-chatgpt-i-b92027314d",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2006,9 +1964,9 @@
     "relatedArticleIds": [
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2033,9 +1991,9 @@
     "relatedArticleIds": [
       "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2059,9 +2017,9 @@
     "relatedArticleIds": [
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2087,93 +2045,9 @@
     "relatedArticleIds": [
       "2026-09-10-ai-ac61f3f501",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
-    "title": "把OpenAI/ChatGPT、Instacart的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "C端AI产品",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "2025-12-08-openai-blog-instacart-and-opena-6aad012d8b",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-    "title": "把Visa/Mastercard的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "AI购物",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "2026-09-16-mastercard-agentic-commerce-and-64e8fabcd6",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-09-05-ai-9ff3c52d54",
-    "title": "把美团的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "国内竞品",
-      "B端商家工具",
-      "竞品案例",
-      "即时零售"
-    ],
-    "relatedArticleIds": [
-      "2026-09-05-ai-9ff3c52d54",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2199,9 +2073,9 @@
     "relatedArticleIds": [
       "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2226,42 +2100,42 @@
     "relatedArticleIds": [
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
   },
   {
     "id": "spark-2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-    "title": "把Walmart的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
+    "title": "把Walmart的交易动作拆成分级授权",
+    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
     "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
+      "先做提醒/代填等低风险动作",
+      "为支付和下单提供二次确认",
+      "把异常处理写进导购主流程"
     ],
     "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
+      "交易闭环",
+      "授权",
+      "支付",
+      "责任",
       "对话导购",
       "竞品案例"
     ],
     "relatedArticleIds": [
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
   },
   {
-    "id": "spark-2026-05-21-google-shopping-blog-how-we-re--242e31b910",
+    "id": "spark-2026-09-16-google-shopping-blog-boost-your-84507acf05",
     "title": "把Google的交易动作拆成分级授权",
     "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
     "takeaways": [
@@ -2274,16 +2148,14 @@
       "授权",
       "支付",
       "责任",
-      "AI购物",
-      "Agentic Commerce",
-      "技术架构"
+      "Agentic Commerce"
     ],
     "relatedArticleIds": [
-      "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
+      "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2308,16 +2180,16 @@
     "relatedArticleIds": [
       "2025-11-19-openai-blog-openai-and-target-t-d76d093067",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
   },
   {
-    "id": "spark-2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
-    "title": "把36氪的交易动作拆成分级授权",
+    "id": "spark-2026-03-24-openai-blog-powering-product-di-10b56e1b13",
+    "title": "把OpenAI/ChatGPT的交易动作拆成分级授权",
     "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
     "takeaways": [
       "先做提醒/代填等低风险动作",
@@ -2329,14 +2201,17 @@
       "授权",
       "支付",
       "责任",
-      "Agentic Commerce"
+      "C端AI产品",
+      "Agentic Commerce",
+      "商家Agent",
+      "技术架构"
     ],
     "relatedArticleIds": [
-      "2026-08-19-eu-36kr-com-eu-36kr-com-7853dd6c5b",
+      "2026-03-24-openai-blog-powering-product-di-10b56e1b13",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2362,9 +2237,9 @@
     "relatedArticleIds": [
       "2026-02-03-ai-5b2966b229",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2390,9 +2265,9 @@
     "relatedArticleIds": [
       "2026-08-13-ai-ce1bf371dd",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2416,64 +2291,9 @@
     "relatedArticleIds": [
       "daily-2026-02-11-7fae5bd7de6a54",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2025-11-06-7aa8ef6760da3c",
-    "title": "把Amazon、Perplexity的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "C端AI产品",
-      "AI搜索",
-      "AI购物",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-06-7aa8ef6760da3c",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-08-26-stripe-wolf-badger-makes-shoppi-f381faf542",
-    "title": "把Stripe的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "2026-08-26-stripe-wolf-badger-makes-shoppi-f381faf542",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2498,9 +2318,9 @@
     "relatedArticleIds": [
       "2026-06-10-openai-blog-prc-linked-influenc-6c33d57edf",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2526,16 +2346,16 @@
     "relatedArticleIds": [
       "2026-06-01-36-6-36kr-com-a54dba9717",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
   },
   {
-    "id": "spark-2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086",
-    "title": "把Digital Commerce 360的交易动作拆成分级授权",
+    "id": "spark-daily-2026-04-03-d41339b299519c",
+    "title": "把Amazon、Perplexity的交易动作拆成分级授权",
     "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
     "takeaways": [
       "先做提醒/代填等低风险动作",
@@ -2547,14 +2367,17 @@
       "授权",
       "支付",
       "责任",
-      "Agentic Commerce"
+      "C端AI产品",
+      "AI搜索",
+      "AI购物",
+      "竞品案例"
     ],
     "relatedArticleIds": [
-      "2026-08-27-digital-commerce-360-ai-spotlig-1e312c9086",
+      "daily-2026-04-03-d41339b299519c",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2579,117 +2402,35 @@
     "relatedArticleIds": [
       "2026-06-18-target-corporation-how-target-i-6a7b85b16f",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
   },
   {
     "id": "spark-2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
-    "title": "把Walmart的搜索入口当成需求澄清入口",
-    "summary": "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
+    "title": "把Walmart的AI能力拆成可验证产品假设",
+    "summary": "这条信号启发的是：不要只记录谁上线了AI，而要拆出它改变了购物链路的哪一步，以及能否用小实验验证入口、证据、授权或履约效果。",
     "takeaways": [
-      "落地页继承外部AI上下文",
-      "把搜索问题转为预算/场景/禁忌",
-      "用证据和优惠完成临门一脚"
+      "标注它影响的购物节点",
+      "提出一个可验证指标",
+      "把相关来源挂到同一灵感下持续复盘"
     ],
     "keywords": [
-      "AI搜索",
-      "入口",
-      "需求澄清",
-      "承接",
+      "产品假设",
+      "竞品拆解",
+      "实验设计",
+      "决策链路",
       "竞品案例"
     ],
     "relatedArticleIds": [
       "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-08-25-15-ai-677-9de0015868",
-    "title": "把奇崛数字传媒科技的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "C端AI产品"
-    ],
-    "relatedArticleIds": [
-      "2026-08-25-15-ai-677-9de0015868",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-08-21-efe214be6e9775",
-    "title": "把淘宝/天猫的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
-    "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
-    ],
-    "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
-      "国内竞品",
-      "B端商家工具",
-      "商家Agent"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-21-efe214be6e9775",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-08-14-user-guancha-cn-ai-17a2f160ed",
-    "title": "把淘宝/天猫的视觉能力拆成“适配证据”",
-    "summary": "这条信号启发的是：视觉导购不要只做生成效果图，而要把尺码、风格、场景和退货风险变成可比较、可追责的推荐证据。",
-    "takeaways": [
-      "把视觉结果接入推荐排序",
-      "在对比卡里展示适配/不适配证据",
-      "用失败样例训练用户预期"
-    ],
-    "keywords": [
-      "视觉导购",
-      "适配证据",
-      "试穿",
-      "非标品",
-      "国内竞品",
-      "竞品案例",
-      "虚拟试穿"
-    ],
-    "relatedArticleIds": [
-      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2714,37 +2455,9 @@
     "relatedArticleIds": [
       "daily-2026-07-29-fcd1c0b0824ead",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-04-24-b7bfc0643bbe0a",
-    "title": "把Instacart、Anthropic/Claude的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
-    "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
-    ],
-    "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
-      "C端AI产品",
-      "竞品案例",
-      "技术架构"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-24-b7bfc0643bbe0a",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2770,9 +2483,9 @@
     "relatedArticleIds": [
       "2025-12-26-the-business-times-shopee-lazad-1aa0c55c73",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2797,9 +2510,9 @@
     "relatedArticleIds": [
       "2026-04-30-modern-retail-amazon-says-its-a-217f179fed",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2824,36 +2537,9 @@
     "relatedArticleIds": [
       "daily-2026-01-12-402b4760d23e51",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-08-19-6-08a28b00bd",
-    "title": "把上观新闻的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "B端商家工具",
-      "商家Agent"
-    ],
-    "relatedArticleIds": [
-      "2026-08-19-6-08a28b00bd",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2876,11 +2562,9 @@
     ],
     "relatedArticleIds": [
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
-      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
-      "competitor-2026-05-10-ai-ai-b15ffc150d",
       "daily-2026-08-22-d0935ce5172bc8"
     ],
-    "sourceCount": 4,
+    "sourceCount": 2,
     "updatedAt": "2026-09-17"
   },
   {
@@ -2903,9 +2587,9 @@
     "relatedArticleIds": [
       "2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -2929,88 +2613,9 @@
     "relatedArticleIds": [
       "daily-2026-05-13-3c134761dade73",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2025-09-18-2a6ebeb2b19979",
-    "title": "把Google、PayPal的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "竞品案例",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-09-18-2a6ebeb2b19979",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2025-10-17-3757ba40d36a1e",
-    "title": "把McKinsey & Company的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-17-3757ba40d36a1e",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
-    "title": "把Walmart的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "2026-08-25-yahoo-finance-walmart-says-its--2adbfb08ca",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3036,9 +2641,9 @@
     "relatedArticleIds": [
       "daily-2025-09-28-6b0d69f713ce98",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3061,142 +2666,9 @@
     ],
     "relatedArticleIds": [
       "daily-2026-08-22-d0935ce5172bc8",
-      "2026-08-14-user-guancha-cn-ai-17a2f160ed",
-      "competitor-2026-05-10-ai-ai-b15ffc150d",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "sourceCount": 4,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-07-28-0cfa5b4dab8be8",
-    "title": "把Business Wire的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "AI购物",
-      "Agentic Commerce",
-      "商品库"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-28-0cfa5b4dab8be8",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-08-07-805eb37e0578fe",
-    "title": "把PYMNTS.com的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-07-805eb37e0578fe",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-08-24-365a107d529345",
-    "title": "把TechCrunch的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-08-24-365a107d529345",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-07-14-openai-blog-sales-workflows-wit-be71b0a63a",
-    "title": "把OpenAI/ChatGPT的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
-    "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
-    ],
-    "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
-      "C端AI产品"
-    ],
-    "relatedArticleIds": [
-      "2026-07-14-openai-blog-sales-workflows-wit-be71b0a63a",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-2026-04-10-openai-blog-learn-chatgpt-workf-90856af4eb",
-    "title": "把OpenAI/ChatGPT的搜索入口当成需求澄清入口",
-    "summary": "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
-    "takeaways": [
-      "落地页继承外部AI上下文",
-      "把搜索问题转为预算/场景/禁忌",
-      "用证据和优惠完成临门一脚"
-    ],
-    "keywords": [
-      "AI搜索",
-      "入口",
-      "需求澄清",
-      "承接",
-      "C端AI产品"
-    ],
-    "relatedArticleIds": [
-      "2026-04-10-openai-blog-learn-chatgpt-workf-90856af4eb",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1"
-    ],
-    "sourceCount": 5,
+    "sourceCount": 2,
     "updatedAt": "2026-09-17"
   },
   {
@@ -3218,87 +2690,9 @@
     "relatedArticleIds": [
       "daily-2026-01-25-27679e673e9934",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2025-10-02-8de59c36e9f190",
-    "title": "把Perplexity的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "C端AI产品",
-      "AI搜索"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-10-02-8de59c36e9f190",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-07-08-7faa93e3004991",
-    "title": "把research.web3caff.com的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-07-08-7faa93e3004991",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-01-19-7b74e13a0f8193",
-    "title": "把FinTech Global的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-01-19-7b74e13a0f8193",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-08-17-c7318a84f1",
+      "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3322,10 +2716,10 @@
     ],
     "relatedArticleIds": [
       "daily-2026-06-15-999b5b1b29c57a",
-      "2026-08-10-510496218f",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
-      "2026-09-13-kimi-bai-ai-7dd7e92084"
+      "2026-09-13-kimi-bai-ai-7dd7e92084",
+      "daily-2026-01-16-69707bc3df56d5"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3350,34 +2744,7 @@
     "relatedArticleIds": [
       "daily-2026-05-15-fefecaf4ebc5f4",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-02-20-30a9ac4c22a9f9",
-    "title": "把Perplexity的搜索入口当成需求澄清入口",
-    "summary": "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
-    "takeaways": [
-      "落地页继承外部AI上下文",
-      "把搜索问题转为预算/场景/禁忌",
-      "用证据和优惠完成临门一脚"
-    ],
-    "keywords": [
-      "AI搜索",
-      "入口",
-      "需求澄清",
-      "承接",
-      "C端AI产品",
-      "技术架构"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-02-20-30a9ac4c22a9f9",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1"
     ],
@@ -3403,35 +2770,9 @@
     "relatedArticleIds": [
       "daily-2026-03-16-ddd8e6d4a154d5",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-08-17-c7318a84f1"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2025-11-20-fffc13c7303b8b",
-    "title": "把The Verge的个性化能力做成可编辑购买规则",
-    "summary": "这条信号启发的是：用户愿意让AI记住的不是隐形画像，而是能被检查和修改的购买规则；记忆越透明，越适合承接长期导购。",
-    "takeaways": [
-      "展示本次推荐调用了哪些记忆",
-      "允许用户冻结/删除单条偏好",
-      "把复购周期和品牌禁忌沉淀为规则"
-    ],
-    "keywords": [
-      "记忆",
-      "偏好",
-      "购买规则",
-      "复购",
-      "C端AI产品"
-    ],
-    "relatedArticleIds": [
-      "daily-2025-11-20-fffc13c7303b8b",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3455,35 +2796,9 @@
     "relatedArticleIds": [
       "competitor-2026-06-22-shopee-ai-f87b7022fc",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-amazon-agent-permission-2026-03-12",
-    "title": "把周见大势的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
-    "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
-    ],
-    "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
-      "竞品案例"
-    ],
-    "relatedArticleIds": [
-      "amazon-agent-permission-2026-03-12",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3507,33 +2822,7 @@
     "relatedArticleIds": [
       "daily-2026-02-19-3a11c9d339093b",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-mckinsey-shopping-agent-retail-2026-02-04",
-    "title": "把管理咨询网平台资讯的搜索入口当成需求澄清入口",
-    "summary": "这条信号启发的是：AI搜索带来的不是一个新流量位，而是更完整的意图包；站内应承接约束、候选和疑问，继续推进比较与确认。",
-    "takeaways": [
-      "落地页继承外部AI上下文",
-      "把搜索问题转为预算/场景/禁忌",
-      "用证据和优惠完成临门一脚"
-    ],
-    "keywords": [
-      "AI搜索",
-      "入口",
-      "需求澄清",
-      "承接",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "mckinsey-shopping-agent-retail-2026-02-04",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1"
     ],
@@ -3559,9 +2848,9 @@
     "relatedArticleIds": [
       "daily-2025-12-27-9e481776f4fdf4",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3585,9 +2874,9 @@
     "relatedArticleIds": [
       "daily-2026-06-27-ca12d684099abd",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-08-17-c7318a84f1"
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3612,9 +2901,9 @@
     "relatedArticleIds": [
       "daily-2026-06-16-30f36e4cb45b27",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-08-17-c7318a84f1"
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3639,113 +2928,9 @@
     "relatedArticleIds": [
       "daily-2025-09-09-93901c9caada54",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-05-31-a01f641a94bd17",
-    "title": "把Business Chief的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
-    "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
-    ],
-    "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-05-31-a01f641a94bd17",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-04-26-7e02c947827d17",
-    "title": "把Anthropic/Claude的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
-    "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
-    ],
-    "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-26-7e02c947827d17",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-08-17-c7318a84f1"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-04-20-68a876852717bf",
-    "title": "把The National Law Review的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-20-68a876852717bf",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "updatedAt": "2026-09-17"
-  },
-  {
-    "id": "spark-daily-2026-04-16-8c3ab90fcd05d0",
-    "title": "把Adobe for Business的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "AI搜索"
-    ],
-    "relatedArticleIds": [
-      "daily-2026-04-16-8c3ab90fcd05d0",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
-      "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3769,9 +2954,9 @@
     "relatedArticleIds": [
       "daily-2026-04-11-370069836d49a1",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-08-17-c7318a84f1"
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3795,9 +2980,35 @@
     "relatedArticleIds": [
       "daily-2026-02-05-378a1bbb379006",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-06-04-app-ai-be4d9cf7b1"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
+    ],
+    "sourceCount": 5,
+    "updatedAt": "2026-09-17"
+  },
+  {
+    "id": "spark-daily-2025-12-07-c2d8cbc4137af7",
+    "title": "把淘宝/天猫的供给侧动作转成AI可读资产",
+    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
+    "takeaways": [
+      "建立商品证据完整度评分",
+      "给商家反馈AI看不懂的字段",
+      "让推荐理由回链到结构化事实"
+    ],
+    "keywords": [
+      "商家",
+      "商品库",
+      "机器可读",
+      "供给侧",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "daily-2025-12-07-c2d8cbc4137af7",
+      "2026-09-13-ai-ai-699ba1d926",
+      "2026-09-11-cbndata-ai-5926ac2e97",
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3820,10 +3031,10 @@
     ],
     "relatedArticleIds": [
       "daily-2025-11-07-95e2581f3feabd",
-      "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3846,9 +3057,9 @@
     "relatedArticleIds": [
       "daily-2025-10-27-506d4c177e5782",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-08-10-510496218f",
       "2026-09-11-cbndata-ai-5926ac2e97",
-      "2026-08-17-c7318a84f1"
+      "2026-08-17-c7318a84f1",
+      "2026-09-13-kimi-bai-ai-7dd7e92084"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"
@@ -3872,9 +3083,9 @@
     "relatedArticleIds": [
       "daily-2025-09-12-a18826d18731c1",
       "2026-09-13-ai-ai-699ba1d926",
-      "2026-06-04-app-ai-be4d9cf7b1",
-      "competitor-2025-09-17-ai-86111b0c72",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c"
     ],
     "sourceCount": 5,
     "updatedAt": "2026-09-17"

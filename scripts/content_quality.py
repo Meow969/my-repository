@@ -263,6 +263,11 @@ def event_signature(item: dict[str, Any]) -> str:
         return f"{date}:jd-ai-shopping"
     if ("京东" in text or "京麦" in text or "采销" in text) and any(term in text for term in ["商家", "卖家", "经营", "运营", "ai", "智能"]):
         return f"{date}:jd-merchant-ai-tools"
+    if ("美团" in text or "小美" in text or "问小团" in text) and any(term in text for term in [
+        "业绩会", "王兴", "服贸会", "消费决策", "外卖用上ai", "ai应用", "真实生意",
+        "物理世界ai", "q2", "长期空间", "商家经营", "ai投入", "去兴哥化",
+    ]):
+        return f"{date}:meituan-ai-business-strategy"
     if ("美团" in text or "小美" in text or "问小团" in text) and any(term in text for term in ["元宝", "腾讯元宝", "接入", "合作", "点外卖"]):
         return f"{date}:meituan-xiaomei-yuanbao"
     if ("美团" in text or "小美" in text or "问小团" in text) and any(term in text for term in ["服贸会", "消费决策", "外卖用上ai", "ai应用"]):
@@ -281,6 +286,10 @@ def event_signature(item: dict[str, Any]) -> str:
         return f"{date}:taobao-ai-try-on"
     if ("淘宝" in text or "天猫" in text) and any(term in text for term in ["ai万能搜", "6款ai导购", "六款ai导购", "双11ai导购"]):
         return f"{date}:tmall-1111-ai-shopping-apps"
+    if ("淘宝闪购" in text or "淘天" in text or "天猫" in text) and any(term in text for term in [
+        "ai合伙人", "连锁餐饮", "ai点单", "商家端ai", "即时零售", "骑士ai助手", "语音搜索",
+    ]):
+        return f"{date}:taobao-instant-retail-ai"
     if ("淘宝" in text or "淘天" in text or "天猫" in text) and any(term in text for term in ["服贸会", "五项ai应用", "ai应用", "ai购物"]):
         return f"{date}:taotian-ai-shopping-apps"
     if ("amazon" in text or "亚马逊" in text) and any(term in text for term in ["rufus", "alexa", "ai购物助手", "ai shopping assistant"]):

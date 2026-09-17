@@ -1329,21 +1329,7 @@ def disambiguate_duplicate_core_points(articles: list[dict[str, Any]]) -> list[d
 
 
 def disambiguate_duplicate_insights(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    counts: dict[str, int] = {}
-    for item in articles:
-        sig = analysis_signature(item.get("insight", ""))
-        counts[sig] = counts.get(sig, 0) + 1
-    updated = []
-    for item in articles:
-        item = dict(item)
-        sig = analysis_signature(item.get("insight", ""))
-        if counts.get(sig, 0) > 1:
-            scenario = "、".join(detected_labels(article_context({**item, "tags": []}), SCENARIO_RULES, 2)) or item.get("category", "AI购物")
-            item["insight"] = clean_text(
-                f"{item.get('insight', '').rstrip('。')}｜验证题：在{scenario}里，用户是否因此少一次搜索、少一次比较、少一次人工确认或少一次交易风险。"
-            )
-        updated.append(item)
-    return updated
+    return articles
 
 
 def prune_redundant_analysis(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
