@@ -113,6 +113,15 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .insight-card ul { margin: 0 0 14px; padding-left: 18px; color: #34313a; line-height: 1.7; }
 .related { display: grid; gap: 8px; }
 .related a { color: var(--accent); font-size: 13px; font-weight: 800; }
+.card-thought { margin-top: 14px; padding-top: 12px; border-top: 1px dashed rgba(107,78,255,0.18); }
+.pinned-thought { margin-bottom: 10px; padding: 12px 14px; border-radius: 16px; background: linear-gradient(145deg, #fff4d7, rgba(255,255,255,0.78)); border: 1px solid rgba(255,122,69,0.22); }
+.pinned-thought strong { display: block; margin-bottom: 4px; color: #9b3d1e; font-size: 12px; letter-spacing: 0.08em; }
+.pinned-thought p { margin: 0; color: #3a2c13; white-space: pre-wrap; }
+.thought-entry summary { width: fit-content; color: var(--accent-2); font-size: 13px; font-weight: 900; cursor: pointer; }
+.thought-entry textarea { width: 100%; margin-top: 10px; padding: 12px; border: 1px solid rgba(255,122,69,0.24); border-radius: 14px; resize: vertical; background: rgba(255,255,255,0.82); color: var(--ink); }
+.thought-actions { display: flex; gap: 8px; margin-top: 8px; }
+.thought-actions button { border: 1px solid rgba(255,122,69,0.28); border-radius: 999px; padding: 7px 12px; background: white; color: #9b3d1e; font-size: 12px; font-weight: 900; cursor: pointer; }
+.thought-actions button:first-child { color: white; background: var(--accent-2); border-color: var(--accent-2); }
 .system-badge, .user-badge { display: inline-flex; border-radius: 999px; padding: 5px 9px; font-size: 12px; font-weight: 900; }
 .system-badge { background: #eeeaff; color: var(--accent); }
 .user-badge { background: #2b1a00; color: #ffd36e; }

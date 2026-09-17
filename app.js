@@ -4,6 +4,7 @@ const state = {
   reports: [],
   meta: {},
   userInsights: [],
+  cardThoughts: {},
   query: '',
   region: 'all',
   contentType: 'all',
@@ -16,9 +17,10 @@ const state = {
 };
 
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
+const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-11-note-lab-v2';
+const DATA_VERSION = '2026-09-17-card-thoughts-v1';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -68,6 +70,7 @@ async function loadData() {
   state.meta = meta;
   state.month = unique(state.articles.map(article => article.date.slice(0, 7))).sort().reverse()[0] || '';
   state.userInsights = loadUserInsights();
+  state.cardThoughts = loadCardThoughts();
   renderFilters();
   bindTabs();
   bindCollapsibleHeader();
@@ -379,7 +382,7 @@ function renderWordCloud() {
 }
 
 function insightMatchesKeyword(insight) {
-  const haystack = [insight.title, insight.summary, insight.trendNote, ...(insight.takeaways || []), ...(insight.keywords || [])].join(' ').toLowerCase();
+  const haystack = [insight.title, insight.summary, insight.trendNote, getCardThoughtText(insight.id), ...(insight.takeaways || []), ...(insight.keywords || [])].join(' ').toLowerCase();
   if (state.query && semanticScore(haystack, state.query) <= 0) return false;
   if (state.activeKeyword === 'all') return true;
   const keyword = state.activeKeyword.toLowerCase();
@@ -387,36 +390,94 @@ function insightMatchesKeyword(insight) {
 }
 
 function noteMatchesKeyword(note) {
-  const haystack = [note.title, note.summary, note.body, note.generatedInsight, ...(note.keywords || [])].join(' ').toLowerCase();
+  const haystack = [note.title, note.summary, note.body, note.generatedInsight, getCardThoughtText(note.id), ...(note.keywords || [])].join(' ').toLowerCase();
   if (state.query && semanticScore(haystack, state.query) <= 0) return false;
   if (state.activeKeyword === 'all') return true;
   const keyword = state.activeKeyword.toLowerCase();
   return haystack.includes(keyword);
 }
 
+function loadCardThoughts() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(CARD_THOUGHTS_KEY) || '{}');
+    return Object.fromEntries(Object.entries(raw).map(([cardId, value]) => [cardId, typeof value === 'string' ? { body: value } : value]));
+  }
+  catch { return {}; }
+}
+
+function saveCardThoughts() {
+  localStorage.setItem(CARD_THOUGHTS_KEY, JSON.stringify(state.cardThoughts));
+}
+
+function getCardThoughtText(cardId) {
+  return String(state.cardThoughts?.[cardId]?.body || '').trim();
+}
+
+function renderCardThought(cardId) {
+  const safeId = escapeHtml(cardId);
+  const thought = state.cardThoughts?.[cardId] || {};
+  const body = String(thought.body || '').trim();
+  return `
+    <section class="card-thought" data-thought-card-id="${safeId}">
+      ${body ? `<div class="pinned-thought"><strong>我的思考</strong><p>${escapeHtml(body)}</p></div>` : ''}
+      <details class="thought-entry" ${body ? '' : ''}>
+        <summary>${body ? '修改这张卡的思考' : '写下我对这张卡的思考'}</summary>
+        <textarea class="card-thought-input" rows="3" placeholder="写下你的判断、问题、产品机会或后续动作…">${escapeHtml(body)}</textarea>
+        <div class="thought-actions">
+          <button class="save-thought-btn" data-card-id="${safeId}" type="button">贴到卡片</button>
+          ${body ? `<button class="clear-thought-btn" data-card-id="${safeId}" type="button">清空</button>` : ''}
+        </div>
+      </details>
+    </section>`;
+}
+
+function bindCardThoughts(root = document) {
+  root.querySelectorAll('.save-thought-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const cardId = button.dataset.cardId;
+      const box = button.closest('.card-thought');
+      const body = box?.querySelector('.card-thought-input')?.value.trim() || '';
+      if (!cardId) return;
+      if (body) state.cardThoughts[cardId] = { body, updatedAt: new Date().toISOString() };
+      else delete state.cardThoughts[cardId];
+      saveCardThoughts();
+      renderUserInsights();
+      renderInsights();
+      showToast(body ? '已贴到当前卡片。' : '已清空这张卡的思考。');
+    });
+  });
+  root.querySelectorAll('.clear-thought-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const cardId = button.dataset.cardId;
+      if (!cardId) return;
+      delete state.cardThoughts[cardId];
+      saveCardThoughts();
+      renderUserInsights();
+      renderInsights();
+      showToast('已清空这张卡的思考。');
+    });
+  });
+}
+
 function renderInsights() {
   const visibleInsights = state.insights.filter(insightMatchesKeyword);
   const html = visibleInsights.map(insight => {
-    const articleMap = Object.fromEntries(state.articles.map(article => [article.id, article]));
-    const explicit = (insight.relatedArticleIds || []).map(id => articleMap[id]).filter(Boolean);
-    const inferred = state.articles.filter(article => (article.relatedInsightIds || []).includes(insight.id));
-    const related = uniqueLinks([...explicit, ...inferred])
-      .sort((a, b) => b.valueScore - a.valueScore || b.date.localeCompare(a.date));
-    const visibleRelated = related.slice(0, 8);
     const isSpark = String(insight.id || '').startsWith('spark-');
     const badge = isSpark ? '资讯触发的产品灵感' : '产品原则灵感';
     return `
       <article class="insight-card ${isSpark ? 'spark-insight-card' : ''}">
-        <span class="system-badge">${badge} · ${related.length}条来源${insight.updatedAt ? ` · ${insight.updatedAt.slice(5, 10)}` : ''}</span>
+        <span class="system-badge">${badge}${insight.updatedAt ? ` · ${insight.updatedAt.slice(5, 10)}` : ''}</span>
         <h3>${insight.title}</h3>
         <p>${insight.summary}</p>
         ${insight.trendNote ? `<p class="trend-note">${insight.trendNote}</p>` : ''}
         <ul>${(insight.takeaways || []).map(item => `<li>${item}</li>`).join('')}</ul>
         <div class="meta">${(insight.keywords || []).map(word => `<span class="pill">${word}</span>`).join('')}</div>
-        <div class="related">${visibleRelated.map(article => `<a href="${article.url}" target="_blank" rel="noreferrer">关联：${article.title}</a>`).join('')}</div>
+        ${renderCardThought(insight.id)}
       </article>`;
   }).join('');
-  document.getElementById('insightGrid').innerHTML = html || `<p class="empty">没有匹配“${escapeHtml(state.activeKeyword)}”的系统灵感。</p>`;
+  const grid = document.getElementById('insightGrid');
+  grid.innerHTML = html || `<p class="empty">没有匹配“${escapeHtml(state.activeKeyword)}”的系统灵感。</p>`;
+  bindCardThoughts(grid);
 }
 
 function loadUserInsights() {
@@ -649,14 +710,7 @@ function curatedWebFallback(note, local) {
 
 function buildSupportInsight(note, external, local) {
   const angle = noteAngle(note);
-  const sources = unique([
-    ...external.map(item => item.source || getHost(item.url)).filter(Boolean),
-    ...local.map(item => item.source).filter(Boolean)
-  ]).slice(0, 4);
-  const sourceLine = sources.length
-    ? `支撑信号：优先用 ${sources.join('、')} 的案例核对入口、授权、证据、交易和兜底是否真的成立。`
-    : '支撑信号：当前资料不足时，优先补竞品实测、官方发布和用户反馈，不急着沉淀成产品结论。';
-  return [angle.need, angle.opportunity, angle.method, sourceLine].join('\n');
+  return [angle.need, angle.opportunity, angle.method].join('\n');
 }
 
 function decodeBingRedirect(url) {
@@ -918,16 +972,18 @@ function deleteUserInsight(noteId) {
   const ok = window.confirm(`确定删除这条笔记吗？\n\n${note.title}`);
   if (!ok) return;
   state.userInsights = state.userInsights.filter(item => item.id !== noteId);
+  delete state.cardThoughts[noteId];
   saveUserInsights();
+  saveCardThoughts();
   renderUserInsights();
   renderGlobalStats();
 }
 
 function renderUserInsights() {
-  const articlesById = Object.fromEntries(state.articles.map(article => [article.id, article]));
   const visibleNotes = state.userInsights.filter(noteMatchesKeyword);
-  document.getElementById('userInsightGrid').innerHTML = visibleNotes.map(note => {
-    const locals = (note.localIds || []).map(id => articlesById[id]).filter(Boolean);
+  const grid = document.getElementById('userInsightGrid');
+  grid.innerHTML = visibleNotes.map(note => {
+    const insightLines = (note.generatedInsight || '').split('\n').filter(line => line && !line.startsWith('支撑信号：'));
     return `
       <article class="insight-card user-note-card ${state.justSavedNoteId === note.id ? 'just-saved' : ''}" data-card-id="${escapeHtml(note.id)}">
         <div class="user-note-head">
@@ -937,17 +993,15 @@ function renderUserInsights() {
         <h3>${escapeHtml(note.title)}</h3>
         ${note.summary ? `<p class="note-summary">${escapeHtml(note.summary)}</p>` : ''}
         <div class="original-note"><strong>原始笔记</strong><p>${escapeHtml(note.body)}</p></div>
-        ${note.generatedInsight ? `<ul class="derived-insight">${note.generatedInsight.split('\n').filter(Boolean).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>` : ''}
+        ${insightLines.length ? `<ul class="derived-insight">${insightLines.map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>` : ''}
         <div class="meta">${(note.keywords || []).map(word => `<span class="pill">${escapeHtml(word)}</span>`).join('')}</div>
-        <div class="related">
-          ${locals.map(article => `<a href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">站内支撑：${escapeHtml(article.title)}</a>`).join('')}
-          ${(note.external || []).map(link => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.title)}</a>`).join('')}
-        </div>
+        ${renderCardThought(note.id)}
       </article>`;
   }).join('');
   document.querySelectorAll('.delete-note-btn').forEach(button => {
     button.addEventListener('click', () => deleteUserInsight(button.dataset.noteId));
   });
+  bindCardThoughts(grid);
 }
 
 function renderFeed() {
