@@ -1806,7 +1806,8 @@ def related_articles_by_terms(articles: list[dict[str, Any]], terms: list[str], 
     return matched[:limit]
 
 
-def build_auto_insights(articles: list[dict[str, Any]], now: str) -> list[dict[str, Any]]:
+def build_auto_insights(articles: list[dict[str, Any]], now: str, generated_by_id: dict[str, str] | None = None) -> list[dict[str, Any]]:
+    generated_by_id = generated_by_id or {}
     insights = []
     for blueprint in PRODUCT_IDEA_BLUEPRINTS:
         related = related_articles_by_terms(articles, blueprint["terms"], 12)
@@ -1820,6 +1821,7 @@ def build_auto_insights(articles: list[dict[str, Any]], now: str) -> list[dict[s
             "keywords": blueprint["keywords"],
             "relatedArticleIds": [item["id"] for item in related],
             "sourceCount": len(related),
+            "generatedAt": generated_by_id.get(blueprint["id"], now),
             "updatedAt": now,
         })
     return insights
@@ -1886,7 +1888,8 @@ def spark_angle(item: dict[str, Any]) -> tuple[str, str, list[str], list[str]]:
     )
 
 
-def build_spark_insights(articles: list[dict[str, Any]], now: str, limit: int = 140) -> list[dict[str, Any]]:
+def build_spark_insights(articles: list[dict[str, Any]], now: str, limit: int = 140, generated_by_id: dict[str, str] | None = None) -> list[dict[str, Any]]:
+    generated_by_id = generated_by_id or {}
     ranked = sorted(articles, key=lambda item: (item.get("valueScore", 0), item.get("date", "")), reverse=True)
     sparks = []
     seen_titles: set[str] = set()
@@ -1906,14 +1909,16 @@ def build_spark_insights(articles: list[dict[str, Any]], now: str, limit: int = 
                 related.append(candidate)
             if len(related) >= 5:
                 break
+        insight_id = f"{SPARK_INSIGHT_PREFIX}{item['id']}"
         sparks.append({
-            "id": f"{SPARK_INSIGHT_PREFIX}{item['id']}",
+            "id": insight_id,
             "title": title,
             "summary": summary,
             "takeaways": takeaways,
             "keywords": list(dict.fromkeys(keywords + (item.get("tags") or [])))[:8],
             "relatedArticleIds": [article["id"] for article in related],
             "sourceCount": len(related),
+            "generatedAt": generated_by_id.get(insight_id, now),
             "updatedAt": now,
         })
         seen_titles.add(title_sig)
@@ -2002,6 +2007,11 @@ def build_daily_reflections(articles: list[dict[str, Any]], now: str) -> list[di
 def refresh_insights(articles: list[dict[str, Any]]) -> int:
     now = dt.datetime.now(TZ).date().isoformat()
     existing = load_json(INSIGHTS_PATH, [])
+    generated_by_id = {
+        str(item.get("id")): str(item.get("generatedAt") or item.get("createdAt") or item.get("updatedAt") or now)
+        for item in existing
+        if item.get("id")
+    }
     base = [
         item for item in existing
         if not str(item.get("id", "")).startswith(AUTO_INSIGHT_PREFIX)
@@ -2018,10 +2028,11 @@ def refresh_insights(articles: list[dict[str, Any]]) -> int:
         updated["sourceCount"] = len(related)
         updated["relatedArticleIds"] = [item["id"] for item in related[:10]]
         updated["trendNote"] = trend_note_for(insight, related, recent)
+        updated["generatedAt"] = generated_by_id.get(str(insight.get("id")), now)
         updated["updatedAt"] = now
         reviewed.append(updated)
-    auto = build_auto_insights(articles, now)
-    sparks = build_spark_insights(articles, now)
+    auto = build_auto_insights(articles, now, generated_by_id)
+    sparks = build_spark_insights(articles, now, generated_by_id=generated_by_id)
     write_json(INSIGHTS_PATH, reviewed + auto + sparks)
     return len(reviewed) + len(auto) + len(sparks)
 

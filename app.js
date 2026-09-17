@@ -20,7 +20,7 @@ const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-17-card-thoughts-v1';
+const DATA_VERSION = '2026-09-17-generated-at-v2';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -382,7 +382,7 @@ function renderWordCloud() {
 }
 
 function insightMatchesKeyword(insight) {
-  const haystack = [insight.title, insight.summary, insight.trendNote, getCardThoughtText(insight.id), ...(insight.takeaways || []), ...(insight.keywords || [])].join(' ').toLowerCase();
+  const haystack = [insight.title, insight.summary, getCardThoughtText(insight.id), ...(insight.takeaways || []), ...(insight.keywords || [])].join(' ').toLowerCase();
   if (state.query && semanticScore(haystack, state.query) <= 0) return false;
   if (state.activeKeyword === 'all') return true;
   const keyword = state.activeKeyword.toLowerCase();
@@ -464,12 +464,12 @@ function renderInsights() {
   const html = visibleInsights.map(insight => {
     const isSpark = String(insight.id || '').startsWith('spark-');
     const badge = isSpark ? '资讯触发的产品灵感' : '产品原则灵感';
+    const generatedDate = insight.generatedAt || insight.createdAt || '';
     return `
       <article class="insight-card ${isSpark ? 'spark-insight-card' : ''}">
-        <span class="system-badge">${badge}${insight.updatedAt ? ` · ${insight.updatedAt.slice(5, 10)}` : ''}</span>
+        <span class="system-badge">${badge}${generatedDate ? ` · ${generatedDate.slice(5, 10)}` : ''}</span>
         <h3>${insight.title}</h3>
         <p>${insight.summary}</p>
-        ${insight.trendNote ? `<p class="trend-note">${insight.trendNote}</p>` : ''}
         <ul>${(insight.takeaways || []).map(item => `<li>${item}</li>`).join('')}</ul>
         <div class="meta">${(insight.keywords || []).map(word => `<span class="pill">${word}</span>`).join('')}</div>
         ${renderCardThought(insight.id)}
