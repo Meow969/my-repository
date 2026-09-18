@@ -6,7 +6,7 @@
   <meta http-equiv="Cache-Control" content="no-store" />
   <meta http-equiv="Pragma" content="no-cache" />
   <title>Meow的AI购物雷达响了</title>
-  <link rel="stylesheet" href="./styles.css?v=2026-09-18-source-links-v1" />
+  <link rel="stylesheet" href="./styles.css?v=2026-09-18-echo-v1" />
 </head>
 <body>
   <header class="hero compact-hero">
@@ -16,6 +16,7 @@
     <div class="nav-links tab-switcher primary-tabs" role="tablist" aria-label="主导航">
       <button class="top-tab active" data-tab="feed" role="tab">有事没事来看看<span class="update-dot" data-dot="feed" aria-label="有更新"></span></button>
       <button class="top-tab" data-tab="inspiration" role="tab">灵感集<span class="update-dot" data-dot="inspiration" aria-label="有更新"></span></button>
+      <button class="top-tab" data-tab="echo" role="tab">回声</button>
     </div>
     <section class="toolbar global-toolbar" aria-label="全局搜索和筛选工具">
       <input id="searchInput" type="search" placeholder="搜索资讯和灵感：记忆 / 信任 / 闭环…" />
@@ -52,6 +53,39 @@
         <div id="insightGrid" class="insight-grid"></div>
       </section>
     </section>
+
+    <section id="echoTab" class="tab-panel">
+      <section class="section echo-section" aria-label="回声">
+        <div class="echo-shell">
+          <p class="eyebrow">Echo</p>
+          <h2>回声</h2>
+          <p class="section-note">丢进一句观点，我会回你一组更深的产品启发。输入和回声会自动保存在本机历史里。</p>
+          <form id="echoForm" class="echo-form">
+            <textarea id="echoInput" maxlength="1600" placeholder="例如：AI导购不应该只帮用户找商品，而应该帮用户确认为什么现在可以买、哪里还有风险。"></textarea>
+            <div class="echo-actions">
+              <button id="echoSendBtn" class="primary" type="submit">发送</button>
+            </div>
+          </form>
+          <details class="echo-settings" id="echoSettings">
+            <summary>模型设置</summary>
+            <p>如果部署在 Vercel / Netlify，可用服务端环境变量；GitHub Pages 也可以填 OpenAI 兼容接口和 Key，只保存在本机浏览器。</p>
+            <div class="echo-settings-grid">
+              <input id="echoEndpointInput" type="url" placeholder="接口地址，可留空使用站点服务" />
+              <input id="echoModelInput" type="text" placeholder="模型，例如 gpt-4.1-mini" />
+              <input id="echoApiKeyInput" type="password" placeholder="API Key（可选，只存在本机）" />
+              <button id="echoSaveSettingsBtn" type="button">保存设置</button>
+            </div>
+          </details>
+          <div id="echoStatus" class="echo-status" aria-live="polite"></div>
+          <div id="echoResult" class="echo-result"></div>
+          <div class="echo-history-head">
+            <h3>历史</h3>
+            <button id="echoClearBtn" type="button">清空历史</button>
+          </div>
+          <div id="echoHistory" class="echo-history"></div>
+        </div>
+      </section>
+    </section>
   </main>
 
   <button id="floatingNoteBtn" class="floating-note-btn" aria-label="记笔记">＋<span>记笔记</span></button>
@@ -72,6 +106,6 @@
   </section>
 
   <footer>Built for AI shopping product research. Public-deploy ready via GitHub Pages / Netlify / Vercel.</footer>
-  <script src="./app.js?v=2026-09-18-source-links-v1"></script>
+  <script src="./app.js?v=2026-09-18-echo-v1"></script>
 </body>
 </html>

@@ -13,14 +13,19 @@ const state = {
   activeTab: 'feed',
   activeKeyword: 'all',
   noteSupport: null,
-  justSavedNoteId: ''
+  justSavedNoteId: '',
+  echoHistory: [],
+  echoCurrent: null,
+  echoBusy: false
 };
 
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
+const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
+const ECHO_SETTINGS_KEY = 'meow-ai-shopping-echo-settings';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-18-source-links-v1';
+const DATA_VERSION = '2026-09-18-echo-v1';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -71,11 +76,13 @@ async function loadData() {
   state.month = unique(state.articles.map(article => article.date.slice(0, 7))).sort().reverse()[0] || '';
   state.userInsights = loadUserInsights();
   state.cardThoughts = loadCardThoughts();
+  state.echoHistory = loadEchoHistory();
   renderFilters();
   bindTabs();
   bindCollapsibleHeader();
   bindNotePanel();
   bindNotes();
+  bindEcho();
   render();
 }
 
@@ -134,9 +141,11 @@ function bindTabs() {
 
 function setActiveTab(tab) {
   state.activeTab = tab;
+  document.body.classList.toggle('echo-active', tab === 'echo');
   document.querySelectorAll('.top-tab').forEach(button => button.classList.toggle('active', button.dataset.tab === tab));
   document.getElementById('feedTab').classList.toggle('active', tab === 'feed');
   document.getElementById('inspirationTab').classList.toggle('active', tab === 'inspiration');
+  document.getElementById('echoTab')?.classList.toggle('active', tab === 'echo');
   markTabSeen(tab);
 }
 
@@ -184,6 +193,12 @@ function renderGlobalStats() {
   const insightCount = activeInsights().length;
   const totalInsights = state.insights.length + state.userInsights.length;
   const compact = window.matchMedia('(max-width: 560px)').matches;
+  if (state.activeTab === 'echo') {
+    const stats = document.getElementById('globalStats');
+    stats.textContent = compact ? `${state.echoHistory.length}回声` : `回声历史 ${state.echoHistory.length} 条`;
+    stats.title = '你在本机保存的回声历史';
+    return;
+  }
   const label = state.query
     ? (compact ? `${feedCount}讯 · ${insightCount}感` : `资讯 ${feedCount} · 灵感 ${insightCount}`)
     : (compact ? `${currentMonthCount}讯 · ${totalInsights}感` : `${state.month.slice(5)}月 ${currentMonthCount}条 · 灵感 ${totalInsights}`);
@@ -1033,6 +1048,265 @@ function renderUserInsights() {
   bindCardThoughts(grid);
 }
 
+function loadEchoHistory() {
+  try {
+    const records = JSON.parse(localStorage.getItem(ECHO_HISTORY_KEY) || '[]');
+    return Array.isArray(records) ? records.filter(record => record && record.text && Array.isArray(record.echoes)).slice(0, 80) : [];
+  }
+  catch { return []; }
+}
+
+function saveEchoHistory() {
+  localStorage.setItem(ECHO_HISTORY_KEY, JSON.stringify(state.echoHistory.slice(0, 80)));
+}
+
+function loadEchoSettings() {
+  try { return JSON.parse(localStorage.getItem(ECHO_SETTINGS_KEY) || '{}') || {}; }
+  catch { return {}; }
+}
+
+function saveEchoSettings(settings) {
+  localStorage.setItem(ECHO_SETTINGS_KEY, JSON.stringify(settings));
+}
+
+function setEchoBusy(busy, label = '正在呼应…') {
+  state.echoBusy = busy;
+  const button = document.getElementById('echoSendBtn');
+  const input = document.getElementById('echoInput');
+  if (button) {
+    button.disabled = busy;
+    button.classList.toggle('is-loading', busy);
+    button.textContent = busy ? label : '发送';
+  }
+  if (input) input.disabled = busy;
+}
+
+function setEchoStatus(message = '') {
+  const status = document.getElementById('echoStatus');
+  if (status) status.textContent = message;
+}
+
+function formatEchoDate(value) {
+  try {
+    return new Date(value).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+  }
+  catch { return ''; }
+}
+
+function buildEchoContext() {
+  const latestArticles = state.articles.slice(0, 12).map(article => ({
+    title: article.title,
+    category: article.category,
+    insight: article.insight,
+    tags: article.tags || []
+  }));
+  const productIdeas = state.insights.slice(0, 12).map(insight => ({
+    title: insight.title,
+    summary: insight.summary,
+    keywords: insight.keywords || []
+  }));
+  return { latestArticles, productIdeas };
+}
+
+function echoSystemPrompt() {
+  return `你是AI购物/AI导购产品经理的深度思考伙伴。用户会给一句观点，你要给“回声”：不是总结原话，而是回应、补充、反问、拆机会、提方法。
+要求：
+1. 输出10条以内，建议6-8条。
+2. 每条必须对产品设计、用户需求、产品价值、机会点、方法论、创新点或验证方式有启发。
+3. 避免空话、套话、重复句式；不要说“值得关注”“持续观察”这种无信息量表达。
+4. 尽量贴近AI购物、导购、交易闭环、信任、商家供给、履约、用户决策。
+5. 只输出JSON，格式：{"echoes":[{"angle":"用户需求","text":"..."}]}`;
+}
+
+function echoUserPrompt(text) {
+  return `用户观点：${text}\n\n站内近期上下文：${JSON.stringify(buildEchoContext()).slice(0, 4200)}\n\n请生成10个以内高质量回声。`;
+}
+
+function extractJsonObject(text = '') {
+  const clean = String(text).replace(/```json|```/g, '').trim();
+  const start = clean.indexOf('{');
+  const end = clean.lastIndexOf('}');
+  if (start < 0 || end < start) return null;
+  try { return JSON.parse(clean.slice(start, end + 1)); }
+  catch { return null; }
+}
+
+function normalizeEchoes(payload) {
+  const source = payload?.echoes || payload?.data?.echoes || extractJsonObject(payload?.output_text)?.echoes;
+  const chatContent = payload?.choices?.[0]?.message?.content;
+  const candidates = Array.isArray(source) ? source : (extractJsonObject(chatContent)?.echoes || []);
+  return candidates.map((item, index) => {
+    if (typeof item === 'string') return { angle: `回声 ${index + 1}`, text: item.trim() };
+    return { angle: String(item.angle || item.title || `回声 ${index + 1}`).trim(), text: String(item.text || item.body || item.content || '').trim() };
+  }).filter(item => item.text).slice(0, 10);
+}
+
+async function requestSiteEcho(text) {
+  const endpoints = ['/api/echo', '/.netlify/functions/echo'];
+  for (const endpoint of endpoints) {
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ text, context: buildEchoContext() })
+      });
+      if (!response.ok) continue;
+      const echoes = normalizeEchoes(await response.json());
+      if (echoes.length) return { echoes, mode: 'ai' };
+    } catch (error) {
+      console.warn('echo endpoint failed', endpoint, error);
+    }
+  }
+  return null;
+}
+
+async function requestConfiguredEcho(text) {
+  const settings = loadEchoSettings();
+  if (!settings.endpoint) return null;
+  const headers = { 'content-type': 'application/json' };
+  if (settings.apiKey) headers.authorization = `Bearer ${settings.apiKey}`;
+  const model = settings.model || 'gpt-4.1-mini';
+  const body = settings.endpoint.includes('/responses')
+    ? { model, input: [{ role: 'system', content: echoSystemPrompt() }, { role: 'user', content: echoUserPrompt(text) }], temperature: 0.72 }
+    : { model, messages: [{ role: 'system', content: echoSystemPrompt() }, { role: 'user', content: echoUserPrompt(text) }], temperature: 0.72, response_format: { type: 'json_object' } };
+  const response = await fetch(settings.endpoint, { method: 'POST', headers, body: JSON.stringify(body) });
+  if (!response.ok) throw new Error(`模型接口返回 ${response.status}`);
+  const echoes = normalizeEchoes(await response.json());
+  return echoes.length ? { echoes, mode: 'ai' } : null;
+}
+
+function localEchoes(text) {
+  const lower = text.toLowerCase();
+  const isTrust = /信任|风险|授权|自动|代买|确认|隐私|permission|trust/.test(lower);
+  const isDeal = /支付|下单|结算|履约|售后|购物车|闭环|checkout|order/.test(lower);
+  const isMerchant = /商家|品牌|商品库|库存|卖家|供给|merchant|seller|catalog/.test(lower);
+  const isMemory = /记忆|偏好|个性化|复购|懂我|画像|personal|memory/.test(lower);
+  const isSearch = /搜索|入口|答案|流量|外部|内容|种草|search|answer/.test(lower);
+  const isVisual = /试穿|图片|视觉|尺码|风格|穿搭|visual|try-on|fashion/.test(lower);
+  const focus = isTrust ? '信任边界' : isDeal ? '交易责任' : isMerchant ? '供给资产' : isMemory ? '可编辑偏好' : isSearch ? '意图承接' : isVisual ? '适配证据' : '购物决策';
+  const echoes = [
+    { angle: '用户需求', text: `这句话背后的需求不是“让AI更聪明”，而是让用户少承担一次${focus}里的不确定：不知道怎么选、不知道能不能买、不知道错了谁负责。` },
+    { angle: '产品价值', text: `如果要把它做成产品主张，可以从“替用户给答案”改成“替用户保存判断过程”：约束、证据、取舍和下一步动作都可回看。` },
+    { angle: '机会点', text: isDeal ? '交易闭环里最容易被低估的是异常处理。缺货、涨价、超时、售后失败时，AI如果能主动给替代方案，价值会比推荐本身更明显。' : `可以找一个高频但低风险的小场景先落地，让用户感受到${focus}被减轻，再逐步扩大到更高客单或更强授权。` },
+    { angle: '设计点', text: `界面上不要只展示“AI建议”。更有启发的设计是同时展示：它用了哪些证据、排除了哪些选项、还缺哪条信息、用户可以改哪里。` },
+    { angle: '方法论', text: `把这个观点拆成四层验证：入口是否自然、信息是否足够、用户是否愿意授权、结果失败时是否能兜底。任何一层断掉，AI体验都会退回普通搜索。` },
+    { angle: '反向提醒', text: `不要把它包装成万能助手。越接近交易，AI越应该克制：能建议就不代办，能代填就不代付，需要确认时明确停下来。` },
+    { angle: '指标启发', text: `可以少看“对话轮次”和“点击率”，多看约束补全率、候选采纳率、二次确认通过率、异常接管率和用户是否愿意下次继续授权。` },
+    { angle: '下一步', text: `把原观点变成一句实验题：在一个具体品类/场景里，AI是否能让用户少一次比较、少一次人工核对，且不增加误买和售后风险。` }
+  ];
+  if (isMerchant) echoes.splice(3, 0, { angle: '供给侧', text: 'C端导购体验的上限可能在B端：商品卖点、适用人群、禁忌、库存和履约承诺如果不可读，AI只能生成漂亮但不可靠的话术。' });
+  if (isMemory) echoes.splice(3, 0, { angle: '记忆设计', text: '记忆应该是一张“我的购买规则”，而不是后台画像。用户能看见、能修改、能暂停，才会愿意把长期偏好交给AI。' });
+  if (isVisual) echoes.splice(3, 0, { angle: '创新点', text: '视觉能力的价值不是生成更好看的图，而是把“不适合我”的风险提前暴露：尺码冲突、风格不搭、场景不符都应该进入推荐理由。' });
+  return echoes.slice(0, 10);
+}
+
+async function generateEcho(text) {
+  const siteResult = await requestSiteEcho(text);
+  if (siteResult) return siteResult;
+  try {
+    const configuredResult = await requestConfiguredEcho(text);
+    if (configuredResult) return configuredResult;
+  } catch (error) {
+    console.warn('configured echo endpoint failed', error);
+  }
+  return { echoes: localEchoes(text), mode: 'local' };
+}
+
+function renderEchoRecord(record, options = {}) {
+  const currentClass = options.current ? ' current' : '';
+  const modeLabel = record.mode === 'ai' ? 'AI回声' : '本地启发';
+  return `<article class="echo-card${currentClass}" data-echo-id="${escapeHtml(record.id)}">
+    <div class="echo-card-head">
+      <span>${modeLabel} · ${escapeHtml(formatEchoDate(record.createdAt))}</span>
+      ${options.current ? '' : `<button class="echo-delete-btn" data-echo-id="${escapeHtml(record.id)}" type="button">删除</button>`}
+    </div>
+    <blockquote>${escapeHtml(record.text)}</blockquote>
+    <ol class="echo-list">
+      ${(record.echoes || []).map(item => `<li><strong>${escapeHtml(item.angle)}</strong><span>${escapeHtml(item.text)}</span></li>`).join('')}
+    </ol>
+  </article>`;
+}
+
+function renderEchoCurrent() {
+  const target = document.getElementById('echoResult');
+  if (!target) return;
+  target.innerHTML = state.echoCurrent ? renderEchoRecord(state.echoCurrent, { current: true }) : '';
+}
+
+function renderEchoHistory() {
+  const target = document.getElementById('echoHistory');
+  if (!target) return;
+  target.innerHTML = state.echoHistory.length
+    ? state.echoHistory.map(record => renderEchoRecord(record)).join('')
+    : '<p class="empty echo-empty">还没有回声历史。先输入一句观点试试。</p>';
+  target.querySelectorAll('.echo-delete-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      state.echoHistory = state.echoHistory.filter(record => record.id !== button.dataset.echoId);
+      saveEchoHistory();
+      renderEchoHistory();
+      renderGlobalStats();
+    });
+  });
+}
+
+function bindEcho() {
+  const form = document.getElementById('echoForm');
+  const input = document.getElementById('echoInput');
+  const clearBtn = document.getElementById('echoClearBtn');
+  const settings = loadEchoSettings();
+  const endpointInput = document.getElementById('echoEndpointInput');
+  const modelInput = document.getElementById('echoModelInput');
+  const apiKeyInput = document.getElementById('echoApiKeyInput');
+  if (endpointInput) endpointInput.value = settings.endpoint || '';
+  if (modelInput) modelInput.value = settings.model || 'gpt-4.1-mini';
+  if (apiKeyInput) apiKeyInput.value = settings.apiKey || '';
+  document.getElementById('echoSaveSettingsBtn')?.addEventListener('click', () => {
+    saveEchoSettings({
+      endpoint: endpointInput?.value.trim() || '',
+      model: modelInput?.value.trim() || 'gpt-4.1-mini',
+      apiKey: apiKeyInput?.value.trim() || ''
+    });
+    showToast('模型设置已保存在本机。');
+  });
+  form?.addEventListener('submit', async event => {
+    event.preventDefault();
+    const text = input?.value.trim() || '';
+    if (!text) return showToast('先输入一句观点，我再给你回声。');
+    setEchoBusy(true);
+    setEchoStatus('正在让观点产生回声…');
+    try {
+      const result = await generateEcho(text);
+      const record = { id: `echo-${Date.now()}`, text, echoes: result.echoes, mode: result.mode, createdAt: new Date().toISOString() };
+      state.echoCurrent = record;
+      state.echoHistory.unshift(record);
+      state.echoHistory = state.echoHistory.slice(0, 80);
+      saveEchoHistory();
+      renderEchoCurrent();
+      renderEchoHistory();
+      renderGlobalStats();
+      if (input) input.value = '';
+      setEchoStatus(result.mode === 'ai' ? '已生成并保存到历史。' : '站点模型暂未连通，已先生成本地启发版并保存到历史。');
+    } catch (error) {
+      console.warn(error);
+      setEchoStatus('模型调用失败，可以稍后重试，或在模型设置里填可用接口。');
+      showToast('回声生成失败，请稍后再试。');
+    } finally {
+      setEchoBusy(false);
+    }
+  });
+  clearBtn?.addEventListener('click', () => {
+    if (!state.echoHistory.length) return;
+    if (!window.confirm('确定清空全部回声历史吗？')) return;
+    state.echoHistory = [];
+    state.echoCurrent = null;
+    saveEchoHistory();
+    renderEchoCurrent();
+    renderEchoHistory();
+    renderGlobalStats();
+    showToast('回声历史已清空。');
+  });
+}
+
 function renderFeed() {
   renderMonthTabs();
   renderActiveMonthlyReport();
@@ -1044,6 +1318,8 @@ function render() {
   renderWordCloud();
   renderUserInsights();
   renderInsights();
+  renderEchoCurrent();
+  renderEchoHistory();
   renderGlobalStats();
   renderUpdateBadges();
 }

@@ -27,6 +27,7 @@ cd /Users/yangmengyao.20/my_project/ai-shopping-radar
 - 按月时间线切换过去一年历史信息。
 - 每月自动生成/维护 Top 关注信息入口。
 - 灵感集词云只展示产品洞察关键词，不展示泛标签。
+- “回声”Tab：输入一句观点，调用模型生成 10 个以内的产品启发回声，并把输入与回声保存在本机历史。
 
 ## 手动更新
 
@@ -53,7 +54,7 @@ cd /Users/yangmengyao.20/my_project/ai-shopping-radar
 
 ## 公开部署与定时更新
 
-推荐部署到 Vercel 或 Netlify，这样“记笔记”的联网搜索可以正常返回结果。GitHub Pages 可做静态兜底。仓库根目录的 `.github/workflows/ai-shopping-radar-pages.yml` 会在每天北京时间 11:00 自动更新并发布到 GitHub Pages。
+推荐部署到 Vercel 或 Netlify，这样“记笔记”的联网搜索和“回声”的服务端模型接口可以正常返回结果。GitHub Pages 可做静态兜底；回声页也支持在页面里填写 OpenAI 兼容接口和 API Key（只保存在本机浏览器）。仓库根目录的 `.github/workflows/ai-shopping-radar-pages.yml` 会在每天北京时间 11:00 自动更新并发布到 GitHub Pages。
 
 公开访问部署说明见：`DEPLOY.md`。
 
