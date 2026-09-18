@@ -123,13 +123,9 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .echo-form { display: grid; gap: 12px; margin-top: 18px; }
 .echo-form textarea { min-height: 132px; border-radius: 26px; padding: 18px 20px; font-size: 18px; background: rgba(255,255,255,0.9); box-shadow: inset 0 1px 0 rgba(255,255,255,0.72); }
 .echo-actions { display: flex; justify-content: flex-end; gap: 10px; }
-.echo-actions .primary, .echo-settings button { width: auto; border: 0; border-radius: 999px; padding: 12px 20px; background: linear-gradient(135deg, var(--ink), #4b36d9); color: white; font-weight: 950; cursor: pointer; }
+.echo-actions .primary { width: auto; border: 0; border-radius: 999px; padding: 12px 20px; background: linear-gradient(135deg, var(--ink), #4b36d9); color: white; font-weight: 950; cursor: pointer; }
 .echo-status { min-height: 24px; margin: 12px 2px; color: var(--muted); font-size: 13px; font-weight: 800; }
 .echo-result { margin-top: 8px; }
-.echo-settings { margin: 12px 0 4px; color: var(--muted); }
-.echo-settings summary { width: fit-content; cursor: pointer; font-size: 13px; font-weight: 900; color: var(--accent); }
-.echo-settings p { margin: 10px 0; font-size: 13px; line-height: 1.6; }
-.echo-settings-grid { display: grid; grid-template-columns: 1.2fr 0.7fr 1fr auto; gap: 8px; align-items: center; }
 .echo-card { margin-top: 14px; padding: 18px; border: 1px solid var(--line); border-radius: 26px; background: rgba(255,255,255,0.78); }
 .echo-card.current { border-color: rgba(107,78,255,0.24); background: linear-gradient(145deg, #fff, rgba(241,237,255,0.88)); }
 .echo-card-head, .echo-history-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
@@ -186,7 +182,6 @@ footer { padding: 32px clamp(20px, 5vw, 72px); color: var(--muted); border-top: 
   .score { width: fit-content; }
   .floating-note-btn { right: 16px; bottom: 16px; padding: 14px 16px; }
   .floating-note-panel { right: 12px; bottom: 82px; width: calc(100vw - 24px); max-height: calc(100vh - 108px); }
-  .echo-settings-grid { grid-template-columns: 1fr; }
   .echo-card-head, .echo-history-head { align-items: flex-start; flex-direction: column; }
 }
 @media (max-width: 560px) {

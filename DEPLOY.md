@@ -8,7 +8,6 @@
 4. Vercel 会读取项目内 `vercel.json`。
 5. 如需“回声”直接调用模型，在 Environment Variables 里配置：
    - `OPENAI_API_KEY`：模型 API Key。
-   - `OPENAI_MODEL`：可选，默认 `gpt-4.1-mini`。
    - `OPENAI_BASE_URL`：可选，默认 `https://api.openai.com/v1`。
 6. 部署完成后会得到公开链接，所有设备都能访问。
 
@@ -20,11 +19,11 @@
    - Build command: `python3 scripts/update_content.py --days 45 --limit 15 --skip-wechat --max-google-queries 45`
    - Publish directory: `.`
 3. 部署完成后会得到公开链接。
-4. 如需“回声”直接调用模型，在 Environment variables 里配置同名变量：`OPENAI_API_KEY`、可选 `OPENAI_MODEL`、可选 `OPENAI_BASE_URL`。
+4. 如需“回声”直接调用模型，在 Environment variables 里配置同名变量：`OPENAI_API_KEY`、可选 `OPENAI_BASE_URL`。
 
 ## GitHub Pages（静态兜底）
 
-GitHub Pages 可以公开访问静态页面，但不支持站内服务端函数。使用 GitHub Pages 时，“记笔记”会保留站内匹配和外部搜索链接兜底；“回声”会优先尝试页面里的模型设置，没有配置时返回本地启发版。若要稳定调用模型，建议用 Vercel 或 Netlify 并配置 `OPENAI_API_KEY`。
+GitHub Pages 可以公开访问静态页面，但不支持站内服务端函数。使用 GitHub Pages 时，“记笔记”会保留站内匹配和外部搜索链接兜底；“回声”没有服务端密钥时会返回本地启发版。若要稳定调用默认的 gpt-5.5，建议用 Vercel 或 Netlify 并配置 `OPENAI_API_KEY`。
 
 已配置 GitHub Pages 工作流：`/Users/yangmengyao.20/my_project/.github/workflows/ai-shopping-radar-pages.yml`，每天北京时间 11:00 自动更新并发布。
 

@@ -22,10 +22,9 @@ const state = {
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
-const ECHO_SETTINGS_KEY = 'meow-ai-shopping-echo-settings';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-18-echo-v1';
+const DATA_VERSION = '2026-09-18-echo-v2';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -1060,15 +1059,6 @@ function saveEchoHistory() {
   localStorage.setItem(ECHO_HISTORY_KEY, JSON.stringify(state.echoHistory.slice(0, 80)));
 }
 
-function loadEchoSettings() {
-  try { return JSON.parse(localStorage.getItem(ECHO_SETTINGS_KEY) || '{}') || {}; }
-  catch { return {}; }
-}
-
-function saveEchoSettings(settings) {
-  localStorage.setItem(ECHO_SETTINGS_KEY, JSON.stringify(settings));
-}
-
 function setEchoBusy(busy, label = '正在呼应…') {
   state.echoBusy = busy;
   const button = document.getElementById('echoSendBtn');
@@ -1160,21 +1150,6 @@ async function requestSiteEcho(text) {
   return null;
 }
 
-async function requestConfiguredEcho(text) {
-  const settings = loadEchoSettings();
-  if (!settings.endpoint) return null;
-  const headers = { 'content-type': 'application/json' };
-  if (settings.apiKey) headers.authorization = `Bearer ${settings.apiKey}`;
-  const model = settings.model || 'gpt-4.1-mini';
-  const body = settings.endpoint.includes('/responses')
-    ? { model, input: [{ role: 'system', content: echoSystemPrompt() }, { role: 'user', content: echoUserPrompt(text) }], temperature: 0.72 }
-    : { model, messages: [{ role: 'system', content: echoSystemPrompt() }, { role: 'user', content: echoUserPrompt(text) }], temperature: 0.72, response_format: { type: 'json_object' } };
-  const response = await fetch(settings.endpoint, { method: 'POST', headers, body: JSON.stringify(body) });
-  if (!response.ok) throw new Error(`模型接口返回 ${response.status}`);
-  const echoes = normalizeEchoes(await response.json());
-  return echoes.length ? { echoes, mode: 'ai' } : null;
-}
-
 function localEchoes(text) {
   const lower = text.toLowerCase();
   const isTrust = /信任|风险|授权|自动|代买|确认|隐私|permission|trust/.test(lower);
@@ -1203,12 +1178,6 @@ function localEchoes(text) {
 async function generateEcho(text) {
   const siteResult = await requestSiteEcho(text);
   if (siteResult) return siteResult;
-  try {
-    const configuredResult = await requestConfiguredEcho(text);
-    if (configuredResult) return configuredResult;
-  } catch (error) {
-    console.warn('configured echo endpoint failed', error);
-  }
   return { echoes: localEchoes(text), mode: 'local' };
 }
 
@@ -1253,21 +1222,6 @@ function bindEcho() {
   const form = document.getElementById('echoForm');
   const input = document.getElementById('echoInput');
   const clearBtn = document.getElementById('echoClearBtn');
-  const settings = loadEchoSettings();
-  const endpointInput = document.getElementById('echoEndpointInput');
-  const modelInput = document.getElementById('echoModelInput');
-  const apiKeyInput = document.getElementById('echoApiKeyInput');
-  if (endpointInput) endpointInput.value = settings.endpoint || '';
-  if (modelInput) modelInput.value = settings.model || 'gpt-4.1-mini';
-  if (apiKeyInput) apiKeyInput.value = settings.apiKey || '';
-  document.getElementById('echoSaveSettingsBtn')?.addEventListener('click', () => {
-    saveEchoSettings({
-      endpoint: endpointInput?.value.trim() || '',
-      model: modelInput?.value.trim() || 'gpt-4.1-mini',
-      apiKey: apiKeyInput?.value.trim() || ''
-    });
-    showToast('模型设置已保存在本机。');
-  });
   form?.addEventListener('submit', async event => {
     event.preventDefault();
     const text = input?.value.trim() || '';
@@ -1288,7 +1242,7 @@ function bindEcho() {
       setEchoStatus(result.mode === 'ai' ? '已生成并保存到历史。' : '站点模型暂未连通，已先生成本地启发版并保存到历史。');
     } catch (error) {
       console.warn(error);
-      setEchoStatus('模型调用失败，可以稍后重试，或在模型设置里填可用接口。');
+      setEchoStatus('模型调用失败，可以稍后重试。');
       showToast('回声生成失败，请稍后再试。');
     } finally {
       setEchoBusy(false);
