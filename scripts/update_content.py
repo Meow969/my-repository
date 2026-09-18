@@ -1633,6 +1633,12 @@ def article_matches_insight(article: dict[str, Any], insight: dict[str, Any]) ->
         ])
     if insight.get("id") == "local-life-agent-loop":
         return any(term in text for term in ["美团", "小美", "问小团", "本地生活", "外卖", "买菜", "到店", "即时零售", "grocery"])
+    if insight.get("id") == "multi-agent-market":
+        return any(term in text for term in ["agentic commerce", "agent", "智能体", "买方", "卖方", "商家", "seller", "merchant", "协议", "支付"])
+    if insight.get("id") == "post-purchase-agent":
+        return any(term in text for term in ["售后", "退换货", "保价", "物流", "复购", "履约", "客服", "post-purchase", "return", "delivery"])
+    if insight.get("id") == "social-proof-rebuild":
+        return any(term in text for term in ["评价", "评论", "口碑", "测评", "种草", "小红书", "达人", "review", "social", "trust"])
     if insight.get("id") in article.get("relatedInsightIds", []):
         return True
     return any(str(word).lower() in text for word in insight.get("keywords", []) if len(str(word)) > 1)
@@ -1646,22 +1652,108 @@ def tag_counts(articles: list[dict[str, Any]]) -> list[tuple[str, int]]:
     return sorted(counts.items(), key=lambda pair: pair[1], reverse=True)
 
 
-def trend_note_for(insight: dict[str, Any], related: list[dict[str, Any]], recent: list[dict[str, Any]]) -> str:
+def insight_generation_date(item: dict[str, Any], fallback: str) -> str:
+    return str(item.get("generatedAt") or item.get("createdAt") or item.get("updatedAt") or fallback)
+
+
+def earliest_date(left: str, right: str) -> str:
+    if not left:
+        return right
+    if not right:
+        return left
+    return min(left, right)
+
+
+def iteration_note_for(insight: dict[str, Any], related: list[dict[str, Any]], recent: list[dict[str, Any]]) -> str:
     if not related:
-        return "来源提示：这个方向暂时缺少足够信息源，适合作为观察项，不宜过早变成主功能投入。"
-    recent_related = [item for item in recent if item in related] or related[:5]
+        return ""
+    recent_related = [item for item in recent if item in related]
+    if not recent_related:
+        return ""
+    recent_related.sort(key=lambda item: (item.get("date", ""), item.get("valueScore", 0)), reverse=True)
     tags = [tag for tag, _ in tag_counts(recent_related)[:3]]
     focus = "、".join(tags) or "AI购物"
+    insight_id = str(insight.get("id", ""))
     title = insight.get("title", "")
-    if "记忆" in title:
-        return f"来源提示：相关资料继续指向{focus}，记忆能力要从聊天上下文升级为可编辑的购买约束，否则很难支撑长期授权。"
-    if "信任" in title or "风险" in title:
-        return f"来源提示：{focus}信号变强，说明用户不是不接受AI代劳，而是需要看到证据、边界和出错后的责任归属。"
+    actions = {
+        "decision-os": "把需求澄清、候选比较、证据引用、授权动作和购后反馈串成一个可回看的决策工作台。",
+        "competitor-function-radar": "把每个竞品动作标到购物节点上：入口、承接意图、调用资产、推进深度和失败回退，避免只记功能名。",
+        "auto-domestic-platform-assets": "拆清国内平台各自可调用的交易资产：内容、商品、履约、支付、售后，判断AI能力为什么能在本平台成立。",
+        "structured-dialogue": "把追问设计成结构化表单的另一种表达：预算、场景、禁忌、时效和可替代项都应能被用户修改。",
+        "auto-constraint-collector": "让搜索框先收集约束而不是先吐结果，并把缺失约束转成一两个低打扰追问。",
+        "data-transaction-moat": "把实时价格、库存、优惠、履约和售后做成推荐前置核验，只有可买、可送、可退才进入候选。",
+        "closed-loop-first": "把推荐后的确认、下单、履约跟踪和售后兜底纳入同一链路，减少用户在多个页面之间补确认。",
+        "agentic-funnel": "用新漏斗看AI：意图理解率、候选采纳率、授权完成率、异常接管率，比单看点击更接近真实价值。",
+        "auto-agentic-checkout-contract": "把建议、代填、代下单、代支付分成不同授权等级，每级都给用户明确的暂停和撤回入口。",
+        "trust-ladder": "先让AI承担低风险动作，再逐步开放高风险动作；每一级都要有证据、确认和人工接管。",
+        "risk-first-design": "把失败场景前置成体验设计：缺货、涨价、不适配、配送失败时，AI应主动解释并给替代方案。",
+        "privacy-permission": "把授权做成场景化开关：预算、地址、偏好、支付、历史订单分别控制，别让用户一次性全量托付。",
+        "evidence-led-recommendation": "推荐理由要回链到商品事实、评价片段和履约承诺；没有证据的结论应降权或提示不确定。",
+        "answer-shelf": "把商品从传统货架迁到答案里时，要设计候选资格、赞助标识和反向比较，避免答案变成黑箱广告位。",
+        "ranking-governance": "把排序治理产品化：赞助、平台利益、用户约束和风险提示需要同屏可解释。",
+        "social-proof-rebuild": "把评价拆成适用人群、场景、反例和风险点，让AI引用口碑时能说明“这条评价为什么和我有关”。",
+        "merchant-readable-store": "给商家一个AI视角的店铺体检：哪些卖点可读、哪些字段缺失、哪些承诺会影响推荐。",
+        "merchant-incentive": "把AI推荐带来的曝光、解释引用和订单归因反馈给商家，形成愿意补资料、提履约的激励。",
+        "auto-product-evidence-layer": "把详情页抽象成证据层：规格、卖点、评价、风险和售后承诺都能被AI引用和追溯。",
+        "auto-merchant-copilot-loop": "让B端助手不只生成文案，而是指出会阻碍AI推荐的资料缺口，并推动商家补齐。",
+        "auto-merchant-training-console": "把商家后台做成训练台：商家能教AI如何卖、哪些人不该推荐、哪些承诺不能夸大。",
+        "memory-as-asset": "把偏好记忆做成用户资产：可查看、可编辑、可冻结，并能解释本次推荐调用了哪条规则。",
+        "auto-memory-rules-panel": "把“记住我”拆成可管理规则，例如品牌禁忌、尺码偏好、补货周期、预算上限和家庭成员差异。",
+        "habit-before-intelligence": "优先选择补货、凑单、常买清单等低风险任务建立习惯，再逐步扩大到高客单决策。",
+        "auto-low-risk-permission": "从提醒、代填、候选替换等低风险授权开始，让用户在可撤回体验里逐步建立信任。",
+        "local-life-agent-loop": "即时场景的答案要围绕现在能不能履约：位置、库存、时效、替代、补偿比长解释更重要。",
+        "auto-local-certainty": "把附近可得性和履约稳定性作为主排序，并在缺货或超时时主动抛出替代方案。",
+        "visual-try-on-as-proof": "把视觉结果转成适配证据：哪里适合、哪里可能不适合、和用户历史尺码/风格有什么冲突。",
+        "auto-visual-proof": "试穿图之后要给可执行判断：尺码建议、搭配场景、相似款、退货风险和不推荐理由。",
+        "category-wedge": "用AI导购切品类时，先选信息结构化、履约确定、决策成本高但试错风险可控的楔子。",
+        "intent-cart": "把购物车升级为未完成意图容器，保存预算、候选、顾虑和等待条件，而不只是保存SKU。",
+        "auto-intent-cart": "让购物车支持继续对话：降价提醒、凑单替代、库存变化和场景变化都能触发新的建议。",
+        "contextual-entry": "从内容、图片、聊天、订单和售后触点捕捉意图，但进入导购后必须继承上下文，别让用户重讲一遍。",
+        "auto-external-ai-handoff": "外部AI带来的流量要接住原始问题、候选和约束，落地页直接进入比较或确认，而不是回到搜索首页。",
+        "post-purchase-agent": "把购后做成下一次导购的入口：物流异常、保价、退换货和复购反馈都能沉淀为新规则。",
+        "auto-post-purchase-retention": "用售后和复购低成本建立长期关系，让AI在用户真正需要时主动出现，而不是只在搜索时出现。",
+        "from-comparison-to-negotiation": "当AI能理解预算和偏好后，下一步机会是替用户争取价格、赠品、时效或服务承诺。",
+        "multi-agent-market": "提前思考买方Agent和卖方Agent如何交换条件：报价、库存、服务承诺和责任边界都需要协议化。",
+    }
+    if insight_id in actions:
+        return f"迭代思考：新增{focus}资料后，这张卡可以继续深化为：{actions[insight_id]}"
     if "商家" in title or "机器" in title:
-        return f"来源提示：{focus}正在把竞争前移到供给侧，谁能把商品、库存、评价和履约做成机器可读资料，谁更容易被AI选中。"
+        return f"迭代思考：新增{focus}资料继续指向供给侧。商家不仅要补字段，还需要知道AI误读了什么、漏看了什么，并能把修正反馈回推荐资产。"
+    if "记忆" in title:
+        return f"迭代思考：新增{focus}资料提醒，记忆不是越多越好，而是要可解释、可暂停、可撤回；用户愿意授权的是明确场景里的购买规则。"
     if "闭环" in title or "购物车" in title or "漏斗" in title:
-        return f"来源提示：{focus}显示导购正在逼近交易基础设施，产品重点要从推荐准确率转到确认、支付、履约和售后的连续可靠性。"
-    return f"来源提示：近一批高价值信息集中在{focus}，更值得关注它如何改变用户决策步骤，而不只是把原搜索结果改写成聊天答案。"
+        return f"迭代思考：新增{focus}信号把问题推到交易责任。值得继续拆的是：哪些动作只需建议，哪些动作需要二次确认，哪些必须留下可追责记录。"
+    if "信任" in title or "风险" in title:
+        return f"迭代思考：新增{focus}信号说明信任要前置。与其事后解释AI为什么错，不如在推荐时同步暴露证据、排除理由、授权边界和异常回退。"
+    if "搜索" in title or "答案" in title or "货架" in title:
+        return f"迭代思考：新增{focus}信号让搜索更像意图交接。机会不只是抢入口，而是把外部问题翻译成站内可继续比较、收藏、询价和下单的任务。"
+    if "本地" in title or "即时" in title or "高频" in title:
+        return f"迭代思考：新增{focus}信号强化了即时场景的判断标准。AI要少给选择、多给确定性，把附近、库存、时效、替代和补偿讲清楚。"
+    return f"迭代思考：新增{focus}资料让这个方向更可落地。下一步不是再总结新闻，而是拆出一个具体链路节点，观察它能否降低用户判断成本。"
+
+
+def daily_iteration_note_for(articles: list[dict[str, Any]], idea_note: str) -> str:
+    if not articles:
+        return idea_note
+    lead = articles[0]
+    source = lead.get("source", "这条资料")
+    title = clean_display_title(lead.get("title", ""), source)
+    title = re.sub(r"\s+", " ", title).strip()
+    title_part = f"《{title[:34]}》" if title else "当天头部资料"
+    text = article_context(lead, include_existing_analysis=True).lower()
+    if contains_any(text, ["try-on", "virtual try", "试穿", "试衣", "试鞋", "visual", "视觉", "图片", "多模态"]):
+        return f"灵感切口：从{title_part}看，视觉能力应服务于“适不适合我”的判断，把尺码、风格、场景和退货风险提前显性化。"
+    if contains_any(text, ["checkout", "payment", "agentic commerce", "visa", "mastercard", "stripe", "paypal", "支付", "结算", "下单", "闭环"]):
+        return f"灵感切口：从{title_part}看，交易型AI的关键不是替用户点按钮，而是把授权、确认、撤回和异常责任拆成清楚的步骤。"
+    if contains_any(text, ["merchant", "seller", "catalog", "product data", "storefront", "商家", "卖家", "商品库", "库存", "履约", "geo", "可见性"]):
+        return f"灵感切口：从{title_part}看，前台导购体验会被后台商品资料限制；商家需要知道哪些信息会影响AI理解和推荐。"
+    if contains_any(text, ["memory", "personalization", "preference", "context", "habit", "记忆", "偏好", "个性化", "复购"]):
+        return f"灵感切口：从{title_part}看，个性化要从隐形画像变成用户可管理的购买规则，让偏好被看见、被纠正、被撤回。"
+    if contains_any(text, ["grocery", "quick-commerce", "instant", "美团", "小美", "问小团", "外卖", "买菜", "即时零售", "本地生活"]):
+        return f"灵感切口：从{title_part}看，即时零售里的AI导购应少做泛推荐，多合并位置、库存、时效和替代方案。"
+    if contains_any(text, ["search", "answer engine", "ai search", "perplexity", "google", "夸克", "AI搜索", "搜索", "答案"]):
+        return f"灵感切口：从{title_part}看，搜索入口正在变成意图交接层；站内要接住用户已表达的约束和候选，而不是重开一轮筛选。"
+    return f"灵感切口：从{title_part}看，先把资讯落到一个购物链路节点，再判断它能不能变成可验证的用户价值。"
 
 
 PRODUCT_IDEA_BLUEPRINTS = [
@@ -1806,7 +1898,7 @@ def related_articles_by_terms(articles: list[dict[str, Any]], terms: list[str], 
     return matched[:limit]
 
 
-def build_auto_insights(articles: list[dict[str, Any]], now: str, generated_by_id: dict[str, str] | None = None) -> list[dict[str, Any]]:
+def build_auto_insights(articles: list[dict[str, Any]], now: str, generated_by_id: dict[str, str] | None = None, recent: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     generated_by_id = generated_by_id or {}
     insights = []
     for blueprint in PRODUCT_IDEA_BLUEPRINTS:
@@ -1821,6 +1913,7 @@ def build_auto_insights(articles: list[dict[str, Any]], now: str, generated_by_i
             "keywords": blueprint["keywords"],
             "relatedArticleIds": [item["id"] for item in related],
             "sourceCount": len(related),
+            "iterationNote": iteration_note_for(blueprint, related, recent or []),
             "generatedAt": generated_by_id.get(blueprint["id"], now),
             "updatedAt": now,
         })
@@ -1888,7 +1981,7 @@ def spark_angle(item: dict[str, Any]) -> tuple[str, str, list[str], list[str]]:
     )
 
 
-def build_spark_insights(articles: list[dict[str, Any]], now: str, limit: int = 140, generated_by_id: dict[str, str] | None = None) -> list[dict[str, Any]]:
+def build_spark_insights(articles: list[dict[str, Any]], now: str, limit: int = 140, generated_by_id: dict[str, str] | None = None, recent: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     generated_by_id = generated_by_id or {}
     ranked = sorted(articles, key=lambda item: (item.get("valueScore", 0), item.get("date", "")), reverse=True)
     sparks = []
@@ -1918,6 +2011,7 @@ def build_spark_insights(articles: list[dict[str, Any]], now: str, limit: int = 
             "keywords": list(dict.fromkeys(keywords + (item.get("tags") or [])))[:8],
             "relatedArticleIds": [article["id"] for article in related],
             "sourceCount": len(related),
+            "iterationNote": "",
             "generatedAt": generated_by_id.get(insight_id, now),
             "updatedAt": now,
         })
@@ -1976,7 +2070,8 @@ def daily_reflection_angle(articles: list[dict[str, Any]]) -> tuple[str, str, st
     )
 
 
-def build_daily_reflections(articles: list[dict[str, Any]], now: str) -> list[dict[str, Any]]:
+def build_daily_reflections(articles: list[dict[str, Any]], now: str, generated_by_id: dict[str, str] | None = None) -> list[dict[str, Any]]:
+    generated_by_id = generated_by_id or {}
     by_date: dict[str, list[dict[str, Any]]] = {}
     for item in articles:
         by_date.setdefault(item["date"], []).append(item)
@@ -1984,13 +2079,14 @@ def build_daily_reflections(articles: list[dict[str, Any]], now: str) -> list[di
     for date in sorted(by_date.keys(), reverse=True):
         day_articles = sorted(by_date[date], key=lambda item: item.get("valueScore", 0), reverse=True)
         top = day_articles[:4]
-        title, summary, trend_note, keywords = daily_reflection_angle(top)
+        title, summary, idea_note, keywords = daily_reflection_angle(top)
+        insight_id = f"{DAILY_INSIGHT_PREFIX}{date}"
         tags = [tag for tag, _ in tag_counts(top)[:5]]
         reflections.append({
-            "id": f"{DAILY_INSIGHT_PREFIX}{date}",
+            "id": insight_id,
             "title": f"{date[5:]} 反思：{title}",
             "summary": summary,
-            "trendNote": trend_note,
+            "iterationNote": daily_iteration_note_for(top, idea_note),
             "takeaways": [
                 "把当天信号改写成一个可验证产品假设",
                 "优先记录它影响的是入口、证据、授权还是交易",
@@ -1999,6 +2095,7 @@ def build_daily_reflections(articles: list[dict[str, Any]], now: str) -> list[di
             "keywords": list(dict.fromkeys(keywords + tags))[:8],
             "relatedArticleIds": [item["id"] for item in top],
             "sourceCount": len(day_articles),
+            "generatedAt": generated_by_id.get(insight_id, date),
             "updatedAt": now,
         })
     return reflections
@@ -2007,17 +2104,25 @@ def build_daily_reflections(articles: list[dict[str, Any]], now: str) -> list[di
 def refresh_insights(articles: list[dict[str, Any]]) -> int:
     now = dt.datetime.now(TZ).date().isoformat()
     existing = load_json(INSIGHTS_PATH, [])
-    generated_by_id = {
-        str(item.get("id")): str(item.get("generatedAt") or item.get("createdAt") or item.get("updatedAt") or now)
-        for item in existing
-        if item.get("id")
-    }
-    base = [
-        item for item in existing
-        if not str(item.get("id", "")).startswith(AUTO_INSIGHT_PREFIX)
-        and not str(item.get("id", "")).startswith(DAILY_INSIGHT_PREFIX)
-        and not str(item.get("id", "")).startswith(SPARK_INSIGHT_PREFIX)
-    ]
+    generated_by_id: dict[str, str] = {}
+    for item in existing:
+        insight_id = str(item.get("id") or "")
+        if not insight_id:
+            continue
+        generated_by_id[insight_id] = earliest_date(generated_by_id.get(insight_id, ""), insight_generation_date(item, now))
+    auto_blueprint_ids = {blueprint["id"] for blueprint in PRODUCT_IDEA_BLUEPRINTS}
+    seen_base_ids: set[str] = set()
+    base = []
+    for item in existing:
+        insight_id = str(item.get("id", ""))
+        if not insight_id or insight_id in seen_base_ids:
+            continue
+        seen_base_ids.add(insight_id)
+        if insight_id in auto_blueprint_ids:
+            continue
+        if insight_id.startswith((AUTO_INSIGHT_PREFIX, DAILY_INSIGHT_PREFIX, SPARK_INSIGHT_PREFIX)):
+            continue
+        base.append(item)
     recent_cutoff = dt.datetime.now(TZ).date() - dt.timedelta(days=30)
     recent = [item for item in articles if dt.date.fromisoformat(item["date"]) >= recent_cutoff]
     reviewed = []
@@ -2027,12 +2132,13 @@ def refresh_insights(articles: list[dict[str, Any]]) -> int:
         updated = dict(insight)
         updated["sourceCount"] = len(related)
         updated["relatedArticleIds"] = [item["id"] for item in related[:10]]
-        updated["trendNote"] = trend_note_for(insight, related, recent)
+        updated.pop("trendNote", None)
+        updated["iterationNote"] = iteration_note_for(insight, related, recent)
         updated["generatedAt"] = generated_by_id.get(str(insight.get("id")), now)
         updated["updatedAt"] = now
         reviewed.append(updated)
-    auto = build_auto_insights(articles, now, generated_by_id)
-    sparks = build_spark_insights(articles, now, generated_by_id=generated_by_id)
+    auto = build_auto_insights(articles, now, generated_by_id, recent)
+    sparks = build_spark_insights(articles, now, generated_by_id=generated_by_id, recent=recent)
     write_json(INSIGHTS_PATH, reviewed + auto + sparks)
     return len(reviewed) + len(auto) + len(sparks)
 

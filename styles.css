@@ -109,10 +109,14 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .daily-reflection-card { background: linear-gradient(145deg, #ffffff, #f7f4ff); border-color: rgba(107,78,255,0.2); }
 .insight-card h3 { margin: 6px 0 10px; font-size: 22px; letter-spacing: -0.04em; }
 .insight-card p { color: var(--muted); line-height: 1.72; margin: 0 0 14px; }
-.trend-note { color: #30284e !important; background: rgba(107,78,255,0.08); border-left: 4px solid var(--accent); padding: 12px 14px; border-radius: 14px; }
+.iteration-note { color: #30284e !important; background: rgba(107,78,255,0.08); border-left: 4px solid var(--accent); padding: 12px 14px; border-radius: 14px; }
 .insight-card ul { margin: 0 0 14px; padding-left: 18px; color: #34313a; line-height: 1.7; }
 .related { display: grid; gap: 8px; }
 .related a { color: var(--accent); font-size: 13px; font-weight: 800; }
+.source-links { display: grid; gap: 8px; margin: 12px 0 4px; padding-top: 12px; border-top: 1px solid rgba(27,27,31,0.08); }
+.source-links strong { color: var(--muted); font-size: 12px; letter-spacing: 0.08em; }
+.source-links a { display: grid; gap: 2px; color: var(--accent); font-size: 13px; font-weight: 800; line-height: 1.45; }
+.source-links a span { color: var(--muted); font-size: 11px; font-weight: 700; }
 .card-thought { margin-top: 14px; padding-top: 12px; border-top: 1px dashed rgba(107,78,255,0.18); }
 .pinned-thought { margin-bottom: 10px; padding: 12px 14px; border-radius: 16px; background: linear-gradient(145deg, #fff4d7, rgba(255,255,255,0.78)); border: 1px solid rgba(255,122,69,0.22); }
 .pinned-thought strong { display: block; margin-bottom: 4px; color: #9b3d1e; font-size: 12px; letter-spacing: 0.08em; }

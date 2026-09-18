@@ -20,7 +20,7 @@ const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
 const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-17-generated-at-v2';
+const DATA_VERSION = '2026-09-18-source-links-v1';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -431,6 +431,32 @@ function renderCardThought(cardId) {
     </section>`;
 }
 
+function renderSourceLinks(links, label = '灵感来源') {
+  const cleanLinks = (links || []).filter(link => link && link.url && link.title).slice(0, 6);
+  if (!cleanLinks.length) return '';
+  return `
+    <div class="source-links">
+      <strong>${escapeHtml(label)}</strong>
+      ${cleanLinks.map(link => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer"><span>${escapeHtml([link.date, link.source].filter(Boolean).join(' · '))}</span>${escapeHtml(link.title)}</a>`).join('')}
+    </div>`;
+}
+
+function renderInsightSourceLinks(insight) {
+  const articleMap = Object.fromEntries(state.articles.map(article => [article.id, article]));
+  const explicit = (insight.relatedArticleIds || []).map(id => articleMap[id]).filter(Boolean);
+  const inferred = state.articles.filter(article => (article.relatedInsightIds || []).includes(insight.id));
+  const related = uniqueLinks([...explicit, ...inferred])
+    .sort((a, b) => b.valueScore - a.valueScore || b.date.localeCompare(a.date));
+  return renderSourceLinks(related, `灵感来源 · ${related.length}条`);
+}
+
+function renderUserNoteSourceLinks(note) {
+  const articlesById = Object.fromEntries(state.articles.map(article => [article.id, article]));
+  const locals = (note.localIds || []).map(id => articlesById[id]).filter(Boolean);
+  const external = (note.external || []).map(link => ({ ...link, date: '', source: link.source || getHost(link.url) }));
+  return renderSourceLinks([...locals, ...external], '灵感来源');
+}
+
 function bindCardThoughts(root = document) {
   root.querySelectorAll('.save-thought-btn').forEach(button => {
     button.addEventListener('click', () => {
@@ -470,8 +496,10 @@ function renderInsights() {
         <span class="system-badge">${badge}${generatedDate ? ` · ${generatedDate.slice(5, 10)}` : ''}</span>
         <h3>${insight.title}</h3>
         <p>${insight.summary}</p>
+        ${insight.iterationNote ? `<p class="iteration-note">${escapeHtml(insight.iterationNote)}</p>` : ''}
         <ul>${(insight.takeaways || []).map(item => `<li>${item}</li>`).join('')}</ul>
         <div class="meta">${(insight.keywords || []).map(word => `<span class="pill">${word}</span>`).join('')}</div>
+        ${renderInsightSourceLinks(insight)}
         ${renderCardThought(insight.id)}
       </article>`;
   }).join('');
@@ -995,6 +1023,7 @@ function renderUserInsights() {
         <div class="original-note"><strong>原始笔记</strong><p>${escapeHtml(note.body)}</p></div>
         ${insightLines.length ? `<ul class="derived-insight">${insightLines.map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>` : ''}
         <div class="meta">${(note.keywords || []).map(word => `<span class="pill">${escapeHtml(word)}</span>`).join('')}</div>
+        ${renderUserNoteSourceLinks(note)}
         ${renderCardThought(note.id)}
       </article>`;
   }).join('');
