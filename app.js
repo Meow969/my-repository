@@ -24,7 +24,9 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-18-echo-v3';
+const DATA_VERSION = '2026-09-18-echo-v4';
+const FREE_ECHO_ENDPOINT = 'https://text.pollinations.ai/openai';
+const FREE_ECHO_MODEL = 'openai-fast';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -1165,6 +1167,29 @@ async function requestSiteEcho(text) {
   return null;
 }
 
+async function requestFreeEcho(text) {
+  try {
+    const response = await fetch(FREE_ECHO_ENDPOINT, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        model: FREE_ECHO_MODEL,
+        messages: [
+          { role: 'system', content: echoSystemPrompt() },
+          { role: 'user', content: echoUserPrompt(text) }
+        ],
+        temperature: 0.72
+      })
+    });
+    if (!response.ok) throw new Error(`免费AI接口返回 ${response.status}`);
+    const analysis = normalizeEchoResponse(await response.json(), text);
+    return analysis.echoes.length ? { ...analysis, mode: 'free-ai', model: 'gpt-oss-20b' } : null;
+  } catch (error) {
+    console.warn('free echo endpoint failed', error);
+    return null;
+  }
+}
+
 function localEchoAnalysis(text) {
   const lower = text.toLowerCase();
   const isTrust = /信任|风险|授权|自动|代买|确认|隐私|permission|trust/.test(lower);
@@ -1174,13 +1199,15 @@ function localEchoAnalysis(text) {
   const isSearch = /搜索|入口|答案|流量|外部|内容|种草|search|answer/.test(lower);
   const isVisual = /试穿|图片|视觉|尺码|风格|穿搭|visual|try-on|fashion/.test(lower);
   const focus = isTrust ? '信任边界' : isDeal ? '交易责任' : isMerchant ? '供给资产' : isMemory ? '可编辑偏好' : isSearch ? '意图承接' : isVisual ? '适配证据' : '购物决策';
-  const understanding = `我理解你在问的不是一个功能点，而是AI导购如何在${focus}里真正替用户降低决策成本，同时不制造新的不确定和责任风险。`;
+  const quoted = text.length > 54 ? `${text.slice(0, 54)}…` : text;
+  const understanding = `我理解你说的「${quoted}」核心是在追问：AI导购怎样在${focus}里真正替用户降低决策成本，同时不制造新的不确定和责任风险。`;
   const nextInsights = [
     `先把这个观点落到一个具体链路节点：表达需求、比较候选、确认风险、授权动作或购后兜底，避免讨论停在概念层。`,
     `下一步要定义AI“可以做”和“必须停下来问用户”的边界，尤其是涉及价格、库存、支付、履约和售后的动作。`,
     `验证时不要只看生成质量，而要看用户是否少了一次人工核对、是否更愿意继续授权、以及失败时是否更容易接管。`
   ];
   const echoes = [
+    { angle: '原观点重心', text: `先把「${quoted}」当成一个产品命题，而不是一句判断：它要证明AI在哪个购物节点上比用户自己操作更可靠。` },
     { angle: '用户需求', text: `这句话背后的需求不是“让AI更聪明”，而是让用户少承担一次${focus}里的不确定：不知道怎么选、不知道能不能买、不知道错了谁负责。` },
     { angle: '产品价值', text: `如果要把它做成产品主张，可以从“替用户给答案”改成“替用户保存判断过程”：约束、证据、取舍和下一步动作都可回看。` },
     { angle: '机会点', text: isDeal ? '交易闭环里最容易被低估的是异常处理。缺货、涨价、超时、售后失败时，AI如果能主动给替代方案，价值会比推荐本身更明显。' : `可以找一个高频但低风险的小场景先落地，让用户感受到${focus}被减轻，再逐步扩大到更高客单或更强授权。` },
@@ -1199,12 +1226,14 @@ function localEchoAnalysis(text) {
 async function generateEcho(text) {
   const siteResult = await requestSiteEcho(text);
   if (siteResult) return siteResult;
+  const freeResult = await requestFreeEcho(text);
+  if (freeResult) return freeResult;
   return { ...localEchoAnalysis(text), mode: 'local' };
 }
 
 function renderEchoRecord(record, options = {}) {
   const currentClass = options.current ? ' current' : '';
-  const modeLabel = record.mode === 'ai' ? 'AI回声' : '本地启发';
+  const modeLabel = record.mode === 'local' ? '本地启发' : 'AI回声';
   const nextInsights = Array.isArray(record.nextInsights) ? record.nextInsights.filter(Boolean) : [];
   return `<article class="echo-card${currentClass}" data-echo-id="${escapeHtml(record.id)}">
     <div class="echo-card-head">
@@ -1271,7 +1300,7 @@ function bindEcho() {
       renderEchoHistory();
       renderGlobalStats();
       if (input) input.value = '';
-      setEchoStatus(result.mode === 'ai' ? '已生成并保存到历史。' : '站点模型暂未连通，已先生成本地启发版并保存到历史。');
+      setEchoStatus(result.mode === 'local' ? '免费AI暂时不可用，已先生成本地启发版并保存到历史。' : '已通过AI分析并保存到历史。');
     } catch (error) {
       console.warn(error);
       setEchoStatus('模型调用失败，可以稍后重试。');

@@ -1,5 +1,7 @@
 const DEFAULT_MODEL = 'gpt-5.5';
 const DEFAULT_BASE_URL = (process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '');
+const FREE_ECHO_ENDPOINT = 'https://text.pollinations.ai/openai';
+const FREE_ECHO_MODEL = 'openai-fast';
 
 function json(res, status, body) {
   res.setHeader('access-control-allow-origin', '*');
@@ -114,6 +116,24 @@ async function callModel(text, context) {
   return analysis.echoes.length ? analysis : null;
 }
 
+async function callFreeModel(text, context) {
+  const response = await fetch(FREE_ECHO_ENDPOINT, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({
+      model: FREE_ECHO_MODEL,
+      messages: [
+        { role: 'system', content: systemPrompt() },
+        { role: 'user', content: userPrompt(text, context) }
+      ],
+      temperature: 0.72
+    })
+  });
+  if (!response.ok) throw new Error(`Free model request failed: ${response.status}`);
+  const analysis = normalizeEchoResponse(await response.json(), text);
+  return analysis.echoes.length ? analysis : null;
+}
+
 async function handler(req, res) {
   if (req.method === 'OPTIONS') return json(res, 200, {});
   if (req.method && req.method !== 'POST') return json(res, 405, { error: 'Method not allowed' });
@@ -123,6 +143,12 @@ async function handler(req, res) {
   try {
     const analysis = await callModel(trimmed, context);
     if (analysis) return json(res, 200, { ...analysis, mode: 'ai', model: DEFAULT_MODEL });
+  } catch (error) {
+    console.warn(error);
+  }
+  try {
+    const analysis = await callFreeModel(trimmed, context);
+    if (analysis) return json(res, 200, { ...analysis, mode: 'free-ai', model: 'gpt-oss-20b' });
   } catch (error) {
     console.warn(error);
   }
