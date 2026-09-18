@@ -24,7 +24,7 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-18-echo-v2';
+const DATA_VERSION = '2026-09-18-echo-v3';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -1099,17 +1099,19 @@ function buildEchoContext() {
 }
 
 function echoSystemPrompt() {
-  return `你是AI购物/AI导购产品经理的深度思考伙伴。用户会给一句观点，你要给“回声”：不是总结原话，而是回应、补充、反问、拆机会、提方法。
+  return `你是AI购物/AI导购产品经理的深度思考伙伴。用户会给一句观点，你必须先分析理解，再回应补充，最后给下一步洞察。
 要求：
-1. 输出10条以内，建议6-8条。
-2. 每条必须对产品设计、用户需求、产品价值、机会点、方法论、创新点或验证方式有启发。
-3. 避免空话、套话、重复句式；不要说“值得关注”“持续观察”这种无信息量表达。
-4. 尽量贴近AI购物、导购、交易闭环、信任、商家供给、履约、用户决策。
-5. 只输出JSON，格式：{"echoes":[{"angle":"用户需求","text":"..."}]}`;
+1. understanding：用1-2句话说明你理解到的真实问题、隐含假设或用户需求，不要复述原话。
+2. nextInsights：输出2-4条下一步洞察，每条要能推动产品判断或实验设计。
+3. echoes：输出10条以内，建议6-8条；每条是高质量回声呼应，可以是关键词、关键句或短观点。
+4. 每条必须对产品设计、用户需求、产品价值、机会点、方法论、创新点或验证方式有启发。
+5. 避免空话、套话、重复句式；不要说“值得关注”“持续观察”这种无信息量表达。
+6. 尽量贴近AI购物、导购、交易闭环、信任、商家供给、履约、用户决策。
+7. 只输出JSON，格式：{"understanding":"...","nextInsights":["..."],"echoes":[{"angle":"用户需求","text":"..."}]}`;
 }
 
 function echoUserPrompt(text) {
-  return `用户观点：${text}\n\n站内近期上下文：${JSON.stringify(buildEchoContext()).slice(0, 4200)}\n\n请生成10个以内高质量回声。`;
+  return `用户观点：${text}\n\n站内近期上下文：${JSON.stringify(buildEchoContext()).slice(0, 4200)}\n\n请先分析你对这句话的理解，再生成下一步洞察和10个以内高质量回声。`;
 }
 
 function extractJsonObject(text = '') {
@@ -1121,14 +1123,26 @@ function extractJsonObject(text = '') {
   catch { return null; }
 }
 
-function normalizeEchoes(payload) {
-  const source = payload?.echoes || payload?.data?.echoes || extractJsonObject(payload?.output_text)?.echoes;
-  const chatContent = payload?.choices?.[0]?.message?.content;
-  const candidates = Array.isArray(source) ? source : (extractJsonObject(chatContent)?.echoes || []);
-  return candidates.map((item, index) => {
+function normalizeEchoResponse(payload, originalText = '') {
+  const parsed = payload?.echoes || payload?.understanding || payload?.nextInsights
+    ? payload
+    : (payload?.data || extractJsonObject(payload?.output_text) || extractJsonObject(payload?.choices?.[0]?.message?.content) || {});
+  const rawEchoes = parsed.echoes || [];
+  const echoes = (Array.isArray(rawEchoes) ? rawEchoes : []).map((item, index) => {
     if (typeof item === 'string') return { angle: `回声 ${index + 1}`, text: item.trim() };
     return { angle: String(item.angle || item.title || `回声 ${index + 1}`).trim(), text: String(item.text || item.body || item.content || '').trim() };
   }).filter(item => item.text).slice(0, 10);
+  const nextInsights = (Array.isArray(parsed.nextInsights) ? parsed.nextInsights : [])
+    .map(item => typeof item === 'string' ? item.trim() : String(item?.text || item?.body || '').trim())
+    .filter(Boolean)
+    .slice(0, 4);
+  const understanding = String(parsed.understanding || '').trim();
+  const fallback = localEchoAnalysis(originalText);
+  return {
+    understanding: understanding || fallback.understanding,
+    nextInsights: nextInsights.length ? nextInsights : fallback.nextInsights,
+    echoes: echoes.length ? echoes : fallback.echoes
+  };
 }
 
 async function requestSiteEcho(text) {
@@ -1141,8 +1155,9 @@ async function requestSiteEcho(text) {
         body: JSON.stringify({ text, context: buildEchoContext() })
       });
       if (!response.ok) continue;
-      const echoes = normalizeEchoes(await response.json());
-      if (echoes.length) return { echoes, mode: 'ai' };
+      const data = await response.json();
+      const analysis = normalizeEchoResponse(data, text);
+      if (analysis.echoes.length) return { ...analysis, mode: data.mode || 'ai' };
     } catch (error) {
       console.warn('echo endpoint failed', endpoint, error);
     }
@@ -1150,7 +1165,7 @@ async function requestSiteEcho(text) {
   return null;
 }
 
-function localEchoes(text) {
+function localEchoAnalysis(text) {
   const lower = text.toLowerCase();
   const isTrust = /信任|风险|授权|自动|代买|确认|隐私|permission|trust/.test(lower);
   const isDeal = /支付|下单|结算|履约|售后|购物车|闭环|checkout|order/.test(lower);
@@ -1159,6 +1174,12 @@ function localEchoes(text) {
   const isSearch = /搜索|入口|答案|流量|外部|内容|种草|search|answer/.test(lower);
   const isVisual = /试穿|图片|视觉|尺码|风格|穿搭|visual|try-on|fashion/.test(lower);
   const focus = isTrust ? '信任边界' : isDeal ? '交易责任' : isMerchant ? '供给资产' : isMemory ? '可编辑偏好' : isSearch ? '意图承接' : isVisual ? '适配证据' : '购物决策';
+  const understanding = `我理解你在问的不是一个功能点，而是AI导购如何在${focus}里真正替用户降低决策成本，同时不制造新的不确定和责任风险。`;
+  const nextInsights = [
+    `先把这个观点落到一个具体链路节点：表达需求、比较候选、确认风险、授权动作或购后兜底，避免讨论停在概念层。`,
+    `下一步要定义AI“可以做”和“必须停下来问用户”的边界，尤其是涉及价格、库存、支付、履约和售后的动作。`,
+    `验证时不要只看生成质量，而要看用户是否少了一次人工核对、是否更愿意继续授权、以及失败时是否更容易接管。`
+  ];
   const echoes = [
     { angle: '用户需求', text: `这句话背后的需求不是“让AI更聪明”，而是让用户少承担一次${focus}里的不确定：不知道怎么选、不知道能不能买、不知道错了谁负责。` },
     { angle: '产品价值', text: `如果要把它做成产品主张，可以从“替用户给答案”改成“替用户保存判断过程”：约束、证据、取舍和下一步动作都可回看。` },
@@ -1172,24 +1193,27 @@ function localEchoes(text) {
   if (isMerchant) echoes.splice(3, 0, { angle: '供给侧', text: 'C端导购体验的上限可能在B端：商品卖点、适用人群、禁忌、库存和履约承诺如果不可读，AI只能生成漂亮但不可靠的话术。' });
   if (isMemory) echoes.splice(3, 0, { angle: '记忆设计', text: '记忆应该是一张“我的购买规则”，而不是后台画像。用户能看见、能修改、能暂停，才会愿意把长期偏好交给AI。' });
   if (isVisual) echoes.splice(3, 0, { angle: '创新点', text: '视觉能力的价值不是生成更好看的图，而是把“不适合我”的风险提前暴露：尺码冲突、风格不搭、场景不符都应该进入推荐理由。' });
-  return echoes.slice(0, 10);
+  return { understanding, nextInsights, echoes: echoes.slice(0, 10) };
 }
 
 async function generateEcho(text) {
   const siteResult = await requestSiteEcho(text);
   if (siteResult) return siteResult;
-  return { echoes: localEchoes(text), mode: 'local' };
+  return { ...localEchoAnalysis(text), mode: 'local' };
 }
 
 function renderEchoRecord(record, options = {}) {
   const currentClass = options.current ? ' current' : '';
   const modeLabel = record.mode === 'ai' ? 'AI回声' : '本地启发';
+  const nextInsights = Array.isArray(record.nextInsights) ? record.nextInsights.filter(Boolean) : [];
   return `<article class="echo-card${currentClass}" data-echo-id="${escapeHtml(record.id)}">
     <div class="echo-card-head">
       <span>${modeLabel} · ${escapeHtml(formatEchoDate(record.createdAt))}</span>
       ${options.current ? '' : `<button class="echo-delete-btn" data-echo-id="${escapeHtml(record.id)}" type="button">删除</button>`}
     </div>
     <blockquote>${escapeHtml(record.text)}</blockquote>
+    ${record.understanding ? `<section class="echo-analysis"><strong>我理解的是</strong><p>${escapeHtml(record.understanding)}</p></section>` : ''}
+    ${nextInsights.length ? `<section class="echo-analysis"><strong>下一步洞察</strong><ul>${nextInsights.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul></section>` : ''}
     <ol class="echo-list">
       ${(record.echoes || []).map(item => `<li><strong>${escapeHtml(item.angle)}</strong><span>${escapeHtml(item.text)}</span></li>`).join('')}
     </ol>
@@ -1230,7 +1254,15 @@ function bindEcho() {
     setEchoStatus('正在让观点产生回声…');
     try {
       const result = await generateEcho(text);
-      const record = { id: `echo-${Date.now()}`, text, echoes: result.echoes, mode: result.mode, createdAt: new Date().toISOString() };
+      const record = {
+        id: `echo-${Date.now()}`,
+        text,
+        understanding: result.understanding || '',
+        nextInsights: result.nextInsights || [],
+        echoes: result.echoes,
+        mode: result.mode,
+        createdAt: new Date().toISOString()
+      };
       state.echoCurrent = record;
       state.echoHistory.unshift(record);
       state.echoHistory = state.echoHistory.slice(0, 80);

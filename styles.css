@@ -132,6 +132,10 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .echo-card-head span { color: var(--accent); font-size: 12px; font-weight: 950; letter-spacing: 0.08em; }
 .echo-card-head button, .echo-history-head button { border: 1px solid rgba(255,122,69,0.28); border-radius: 999px; padding: 7px 11px; background: rgba(255,255,255,0.74); color: #9b3d1e; font-size: 12px; font-weight: 900; cursor: pointer; }
 .echo-card blockquote { margin: 12px 0 16px; padding: 0 0 0 14px; border-left: 4px solid rgba(255,122,69,0.38); color: #30284e; font-size: 18px; font-weight: 850; line-height: 1.6; }
+.echo-analysis { display: grid; gap: 6px; margin: 12px 0; padding: 12px 14px; border-radius: 18px; background: rgba(107,78,255,0.07); }
+.echo-analysis strong { color: var(--accent); font-size: 12px; letter-spacing: 0.08em; }
+.echo-analysis p { margin: 0; color: #34313a; line-height: 1.68; }
+.echo-analysis ul { display: grid; gap: 6px; margin: 0; padding-left: 18px; color: #34313a; line-height: 1.68; }
 .echo-list { display: grid; gap: 10px; margin: 0; padding-left: 22px; }
 .echo-list li { padding-left: 2px; color: #34313a; line-height: 1.72; }
 .echo-list strong { display: block; color: var(--accent); font-size: 12px; letter-spacing: 0.06em; margin-bottom: 2px; }
