@@ -173,32 +173,6 @@
     "valueScore": 86
   },
   {
-    "id": "2026-09-16-google-shopping-blog-boost-your-84507acf05",
-    "date": "2026-09-16",
-    "title": "Boost your holiday sales with these agentic commerce updates",
-    "source": "Google Shopping Blog",
-    "region": "海外",
-    "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping",
-    "excerpt": "Help boost holiday sales with agentic commerce updates and product feed best practices from Google. Skip to main content Boost your holiday sales with these agentic commerce updates",
-    "corePoint": [
-      "Help boost holiday sales with agentic commerce updates and product feed best practices from Google",
-      "Google把AI能力放进转化/流量链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
-      "资讯把AI能力与转化、客单或流量变化直接关联"
-    ],
-    "contentType": "行业新闻",
-    "category": "趋势框架",
-    "tags": [
-      "Agentic Commerce"
-    ],
-    "insight": "用户需求：用户希望推荐结果更接近自己的真实意图。｜产品机会：把转化增长拆成可解释归因，区分短期流量、推荐质量和交易闭环贡献。｜设计启发：建立漏斗看板，分别追踪AI改写、证据点击、加入购物车和确认支付。",
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "agentic-funnel"
-    ],
-    "valueScore": 72
-  },
-  {
     "id": "2026-09-15-36-kr-2-4f3672a0ae",
     "date": "2026-09-15",
     "title": "刚刚，千问办公悄悄上线2个商家新功能",
@@ -227,6 +201,31 @@
       "decision-os"
     ],
     "valueScore": 78
+  },
+  {
+    "id": "2026-09-15-ai-ai-dd88dd5061",
+    "date": "2026-09-15",
+    "title": "大厂AI导购混战：电商告别流量战，比拼AI帮人挑货能力",
+    "source": "新京报",
+    "region": "国内",
+    "url": "https://m.bjnews.com.cn/detail/1789451955129598.html",
+    "excerpt": "大厂AI导购混战：电商告别流量战，比拼AI帮人挑货能力 新京报",
+    "corePoint": [
+      "这条资讯聚焦C端导购入口、AI购物助手、转化/流量，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节"
+    ],
+    "contentType": "行业新闻",
+    "category": "趋势框架",
+    "tags": [
+      "C端导购入口",
+      "对话导购"
+    ],
+    "insight": "用户需求：用户希望推荐结果更接近自己的真实意图。｜产品机会：把转化增长拆成可解释归因，区分短期流量、推荐质量和交易闭环贡献。｜设计启发：建立漏斗看板，分别追踪AI改写、证据点击、加入购物车和确认支付。",
+    "relatedInsightIds": [
+      "structured-dialogue",
+      "agentic-funnel",
+      "contextual-entry"
+    ],
+    "valueScore": 74
   },
   {
     "id": "2026-09-14-q1-q2-477f743269",

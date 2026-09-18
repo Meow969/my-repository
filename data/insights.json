@@ -74,18 +74,18 @@
       "可撤回",
       "二次确认"
     ],
-    "sourceCount": 23,
+    "sourceCount": 22,
     "relatedArticleIds": [
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-ai-5a3fb0a1ab",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
-      "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836"
+      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
+      "2026-09-10-ai-ac61f3f501"
     ],
     "updatedAt": "2026-09-18",
     "generatedAt": "2026-09-04",
@@ -113,7 +113,7 @@
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
-      "2026-09-16-google-shopping-blog-boost-your-84507acf05",
+      "2026-09-15-ai-ai-dd88dd5061",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
@@ -173,7 +173,7 @@
     ],
     "sourceCount": 22,
     "relatedArticleIds": [
-      "2026-09-16-google-shopping-blog-boost-your-84507acf05",
+      "2026-09-15-ai-ai-dd88dd5061",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
@@ -243,8 +243,8 @@
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
-      "2026-09-16-google-shopping-blog-boost-your-84507acf05",
       "2026-09-15-36-kr-2-4f3672a0ae",
+      "2026-09-15-ai-ai-dd88dd5061",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
@@ -405,14 +405,15 @@
       "多入口",
       "即时意图"
     ],
-    "sourceCount": 2,
+    "sourceCount": 3,
     "relatedArticleIds": [
+      "2026-09-15-ai-ai-dd88dd5061",
       "2026-02-03-ai-5b2966b229",
       "daily-2025-12-27-9e481776f4fdf4"
     ],
     "updatedAt": "2026-09-18",
     "generatedAt": "2026-09-04",
-    "iterationNote": ""
+    "iterationNote": "迭代思考：新增C端导购入口、对话导购资料后，这张卡可以继续深化为：从内容、图片、聊天、订单和售后触点捕捉意图，但进入导购后必须继承上下文，别让用户重讲一遍。"
   },
   {
     "id": "privacy-permission",
@@ -456,18 +457,18 @@
       "保价",
       "复购反馈"
     ],
-    "sourceCount": 52,
+    "sourceCount": 53,
     "relatedArticleIds": [
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
+      "2026-09-15-ai-ai-dd88dd5061",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3"
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
     ],
     "updatedAt": "2026-09-18",
     "generatedAt": "2026-09-04",
@@ -1181,7 +1182,7 @@
       "2026-09-11-pymnts-com-target-turns-app-ai--9ea5e24ae3",
       "2026-09-10-ai-ac61f3f501",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
-      "2026-09-16-google-shopping-blog-boost-your-84507acf05",
+      "2026-09-15-ai-ai-dd88dd5061",
       "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a",
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2"
     ],
@@ -1672,24 +1673,24 @@
     "updatedAt": "2026-09-18"
   },
   {
-    "id": "spark-2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-    "title": "把Instacart的供给侧动作转成AI可读资产",
-    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
+    "id": "spark-2026-09-15-ai-ai-dd88dd5061",
+    "title": "把新京报的交易动作拆成分级授权",
+    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
     "takeaways": [
-      "建立商品证据完整度评分",
-      "给商家反馈AI看不懂的字段",
-      "让推荐理由回链到结构化事实"
+      "先做提醒/代填等低风险动作",
+      "为支付和下单提供二次确认",
+      "把异常处理写进导购主流程"
     ],
     "keywords": [
-      "商家",
-      "商品库",
-      "机器可读",
-      "供给侧",
-      "对话导购",
-      "竞品案例"
+      "交易闭环",
+      "授权",
+      "支付",
+      "责任",
+      "C端导购入口",
+      "对话导购"
     ],
     "relatedArticleIds": [
-      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-09-15-ai-ai-dd88dd5061",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-14-q1-q2-477f743269",
@@ -1697,7 +1698,7 @@
     ],
     "sourceCount": 5,
     "iterationNote": "",
-    "generatedAt": "2026-09-15",
+    "generatedAt": "2026-09-18",
     "updatedAt": "2026-09-18"
   },
   {
@@ -2248,6 +2249,34 @@
     "sourceCount": 2,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
+    "updatedAt": "2026-09-18"
+  },
+  {
+    "id": "spark-daily-2026-06-19-10e5b92e51f050",
+    "title": "把Instacart的供给侧动作转成AI可读资产",
+    "summary": "这条信号启发的是：用户端导购质量会被商家端资料质量限制；卖点、禁忌、库存、履约和评价需要先结构化，AI才有稳定推荐依据。",
+    "takeaways": [
+      "建立商品证据完整度评分",
+      "给商家反馈AI看不懂的字段",
+      "让推荐理由回链到结构化事实"
+    ],
+    "keywords": [
+      "商家",
+      "商品库",
+      "机器可读",
+      "供给侧",
+      "竞品案例"
+    ],
+    "relatedArticleIds": [
+      "daily-2026-06-19-10e5b92e51f050",
+      "2026-09-18-cbndata-ai-0a850a39df",
+      "2026-09-17-30-59d7af9e7e",
+      "2026-09-14-q1-q2-477f743269",
+      "2026-08-17-c7318a84f1"
+    ],
+    "sourceCount": 5,
+    "iterationNote": "",
+    "generatedAt": "2026-09-18",
     "updatedAt": "2026-09-18"
   },
   {
