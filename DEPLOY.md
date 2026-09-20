@@ -23,7 +23,7 @@
 
 ## GitHub Pages（静态兜底）
 
-GitHub Pages 可以公开访问静态页面，但不支持站内服务端函数。使用 GitHub Pages 时，“记笔记”会保留站内匹配和外部搜索链接兜底；“回声”会直接调用免费 gpt-oss-20b 通道，接口不可用时才返回本地启发版。若要稳定调用默认的 gpt-5.5，建议用 Vercel 或 Netlify 并配置 `OPENAI_API_KEY`。
+GitHub Pages 可以公开访问静态页面，但不支持站内服务端函数。使用 GitHub Pages 时，“记笔记”会保留站内匹配和外部搜索链接兜底；“回声”会尝试免费文本通道和浏览器侧 AI 备选，接口不可用或结果跑偏时才返回贴合原句的本地启发。若要稳定调用默认的 gpt-5.5，建议用 Vercel 或 Netlify 并配置 `OPENAI_API_KEY`。
 
 已配置 GitHub Pages 工作流：`/Users/yangmengyao.20/my_project/.github/workflows/ai-shopping-radar-pages.yml`，每天北京时间 11:00 自动更新并发布。
 

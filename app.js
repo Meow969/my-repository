@@ -24,9 +24,12 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-18-echo-v4';
+const DATA_VERSION = '2026-09-20-echo-grounded-v2';
 const FREE_ECHO_ENDPOINT = 'https://text.pollinations.ai/openai';
 const FREE_ECHO_MODEL = 'openai-fast';
+const PUTER_SCRIPT_URL = 'https://js.puter.com/v2/';
+const PUTER_ECHO_MODEL = 'gpt-4o-mini';
+let puterLoadPromise = null;
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -1101,19 +1104,45 @@ function buildEchoContext() {
 }
 
 function echoSystemPrompt() {
-  return `你是AI购物/AI导购产品经理的深度思考伙伴。用户会给一句观点，你必须先分析理解，再回应补充，最后给下一步洞察。
-要求：
-1. understanding：用1-2句话说明你理解到的真实问题、隐含假设或用户需求，不要复述原话。
-2. nextInsights：输出2-4条下一步洞察，每条要能推动产品判断或实验设计。
-3. echoes：输出10条以内，建议6-8条；每条是高质量回声呼应，可以是关键词、关键句或短观点。
-4. 每条必须对产品设计、用户需求、产品价值、机会点、方法论、创新点或验证方式有启发。
-5. 避免空话、套话、重复句式；不要说“值得关注”“持续观察”这种无信息量表达。
-6. 尽量贴近AI购物、导购、交易闭环、信任、商家供给、履约、用户决策。
-7. 只输出JSON，格式：{"understanding":"...","nextInsights":["..."],"echoes":[{"angle":"用户需求","text":"..."}]}`;
+  return `你是一个产品思考伙伴，不是通用聊天助手，也不是固定的AI导购模板。用户会输入一句观点，你必须只围绕这句话做理解、回应和延展。
+硬性要求：
+1. 用户原句是最高优先级；不要把主题强行改写成AI购物、AI导购、信任、交易闭环，除非用户原句真的提到这些。
+2. understanding：用1-2句话说明你理解到的真实问题、隐含假设或用户需求；必须点名用户输入里的具体对象/场景/关键词。
+3. nextInsights：输出2-4条下一步洞察，每条都要从用户原句继续往下推，能转成产品判断、设计动作或验证问题。
+4. echoes：输出10条以内，建议6-8条；每条是高质量回声呼应，可以是关键词、关键句或短观点。
+5. 每条都必须明显回应用户原句，不要泛泛谈AI、导购、增长、体验、信任。
+6. 避免空话、套话、重复句式；不要说“值得关注”“持续观察”“可以进一步探索”。
+7. 输出中至少自然出现2个用户关键词；如果用户原句很短，至少复用1个关键词。
+8. 只输出JSON，格式：{"understanding":"...","nextInsights":["..."],"echoes":[{"angle":"用户需求","text":"..."}]}`;
 }
 
 function echoUserPrompt(text) {
-  return `用户观点：${text}\n\n站内近期上下文：${JSON.stringify(buildEchoContext()).slice(0, 4200)}\n\n请先分析你对这句话的理解，再生成下一步洞察和10个以内高质量回声。`;
+  const keywords = extractEchoKeywords(text).join('、') || '无明显关键词';
+  return `用户原句：${text}\n\n用户关键词：${keywords}\n\n请严格围绕用户原句生成：1）你对这句话的理解；2）下一步洞察；3）10个以内回声。每一部分都要能让用户看出你确实读懂了原句，不要引入和原句无关的主题。`;
+}
+
+function extractEchoKeywords(text = '') {
+  const raw = String(text || '');
+  const lower = raw.toLowerCase();
+  const stopwords = new Set(['这个', '那个', '就是', '应该', '需要', '可以', '不是', '因为', '所以', '如果', '但是', '一个', '一种', '进行', '通过', '对于', '我们', '你们', '他们', '用户', '产品', '没有', '什么', '怎么', '时候', '东西', '整体', '看着', '觉得', '认为']);
+  const knownTerms = ['答非所问', '没关系', '不相关', '跑偏', '很傻', '模板', '套话', '雷同', '重复', '小红书', '美团', '淘宝', '京东', 'Instacart', 'Amazon', 'OpenAI', '回声', '输入', '回应', '模型', '提示词', '页面', 'tab', '历史', '保存', '灵感', '资讯', '卡片', '来源', '搜索', '推荐', '决策', '导购', '购物', '交易', '信任'];
+  const words = [];
+  knownTerms.forEach(term => {
+    const hit = /[A-Za-z]/.test(term) ? lower.includes(term.toLowerCase()) : raw.includes(term);
+    if (hit) words.push(term);
+  });
+  for (const match of raw.matchAll(/[A-Za-z][A-Za-z-]{2,}/g)) {
+    const word = match[0].trim();
+    if (!stopwords.has(word) && word.length >= 2) words.push(word);
+  }
+  const chineseChunks = raw.match(/[\u4e00-\u9fa5]{2,}/g) || [];
+  chineseChunks.forEach(chunk => {
+    chunk.split(/(?:不是|应该|需要|可以|因为|所以|但是|然后|如果|对于|通过|进行|整体|还是|看着|觉得|认为|一个|一种|一些|很多|有点|没有|是否|是不是|什么|怎么|如何|为什么|以及|或者|并且|支持|里面|里的|下面|上面|这个|那个|东西|跟|和|与|在|里|上|下|对|给|把|被|从|到|让|会|能|要|很|的|了|是|都|还|也|只|更|再)/g)
+      .map(part => part.trim())
+      .filter(part => part.length >= 2 && part.length <= 12 && !stopwords.has(part))
+      .forEach(part => words.push(part));
+  });
+  return unique(words).slice(0, 10);
 }
 
 function extractJsonObject(text = '') {
@@ -1123,6 +1152,36 @@ function extractJsonObject(text = '') {
   if (start < 0 || end < start) return null;
   try { return JSON.parse(clean.slice(start, end + 1)); }
   catch { return null; }
+}
+
+function echoAnalysisText(analysis) {
+  return [
+    analysis.understanding || '',
+    ...(analysis.nextInsights || []),
+    ...(analysis.echoes || []).flatMap(item => [item.angle || '', item.text || ''])
+  ].join(' ');
+}
+
+function isEchoGrounded(analysis, originalText = '') {
+  const keywords = extractEchoKeywords(originalText);
+  if (!keywords.length) return true;
+  const body = echoAnalysisText(analysis).toLowerCase();
+  const hits = keywords.filter(keyword => body.includes(keyword.toLowerCase())).length;
+  return hits >= Math.min(2, keywords.length);
+}
+
+function echoQuote(text, max = 58) {
+  const clean = String(text || '').replace(/\s+/g, ' ').trim();
+  return clean.length > max ? `${clean.slice(0, max)}…` : clean;
+}
+
+function echoFocus(text) {
+  const keywords = extractEchoKeywords(text);
+  return {
+    keywords,
+    primary: keywords[0] || '这句话',
+    subject: keywords.slice(0, 3).join(' / ') || '这句话'
+  };
 }
 
 function normalizeEchoResponse(payload, originalText = '') {
@@ -1139,23 +1198,39 @@ function normalizeEchoResponse(payload, originalText = '') {
     .filter(Boolean)
     .slice(0, 4);
   const understanding = String(parsed.understanding || '').trim();
+  if (!echoes.length) return { understanding: '', nextInsights: [], echoes: [] };
   const fallback = localEchoAnalysis(originalText);
-  return {
+  const analysis = {
     understanding: understanding || fallback.understanding,
     nextInsights: nextInsights.length ? nextInsights : fallback.nextInsights,
     echoes: echoes.length ? echoes : fallback.echoes
   };
+  return isEchoGrounded(analysis, originalText) ? analysis : { understanding: '', nextInsights: [], echoes: [] };
+}
+
+function fetchWithTimeout(resource, options = {}, timeoutMs = 12000) {
+  if (typeof AbortController === 'undefined') return fetch(resource, options);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  return fetch(resource, { ...options, signal: controller.signal }).finally(() => clearTimeout(timer));
+}
+
+function withTimeout(promise, timeoutMs = 18000) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => setTimeout(() => reject(new Error('AI请求超时')), timeoutMs))
+  ]);
 }
 
 async function requestSiteEcho(text) {
   const endpoints = ['/api/echo', '/.netlify/functions/echo'];
   for (const endpoint of endpoints) {
     try {
-      const response = await fetch(endpoint, {
+      const response = await fetchWithTimeout(endpoint, {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ text, context: buildEchoContext() })
-      });
+        body: JSON.stringify({ text })
+      }, 8000);
       if (!response.ok) continue;
       const data = await response.json();
       const analysis = normalizeEchoResponse(data, text);
@@ -1169,7 +1244,7 @@ async function requestSiteEcho(text) {
 
 async function requestFreeEcho(text) {
   try {
-    const response = await fetch(FREE_ECHO_ENDPOINT, {
+    const response = await fetchWithTimeout(FREE_ECHO_ENDPOINT, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({
@@ -1178,9 +1253,10 @@ async function requestFreeEcho(text) {
           { role: 'system', content: echoSystemPrompt() },
           { role: 'user', content: echoUserPrompt(text) }
         ],
-        temperature: 0.72
+        temperature: 0.45,
+        response_format: { type: 'json_object' }
       })
-    });
+    }, 12000);
     if (!response.ok) throw new Error(`免费AI接口返回 ${response.status}`);
     const analysis = normalizeEchoResponse(await response.json(), text);
     return analysis.echoes.length ? { ...analysis, mode: 'free-ai', model: 'gpt-oss-20b' } : null;
@@ -1190,50 +1266,136 @@ async function requestFreeEcho(text) {
   }
 }
 
+function loadPuterAi() {
+  if (window.puter?.ai?.chat) return Promise.resolve(window.puter);
+  if (puterLoadPromise) return puterLoadPromise;
+  puterLoadPromise = new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = PUTER_SCRIPT_URL;
+    script.async = true;
+    script.onload = () => resolve(window.puter);
+    script.onerror = () => reject(new Error('浏览器AI脚本加载失败'));
+    document.head.appendChild(script);
+  });
+  return puterLoadPromise;
+}
+
+function normalizePuterContent(result) {
+  if (typeof result === 'string') return result;
+  const content = result?.message?.content || result?.content || result?.text || '';
+  if (Array.isArray(content)) return content.map(part => part?.text || part?.content || '').join('\n');
+  return String(content || '');
+}
+
+async function requestBrowserAiEcho(text) {
+  try {
+    await withTimeout(loadPuterAi(), 9000);
+    if (!window.puter?.ai?.chat) return null;
+    const result = await withTimeout(window.puter.ai.chat(`${echoSystemPrompt()}\n\n${echoUserPrompt(text)}`, { model: PUTER_ECHO_MODEL }), 24000);
+    const content = normalizePuterContent(result);
+    const analysis = normalizeEchoResponse({ choices: [{ message: { content } }] }, text);
+    return analysis.echoes.length ? { ...analysis, mode: 'ai', model: PUTER_ECHO_MODEL } : null;
+  } catch (error) {
+    console.warn('browser ai endpoint failed', error);
+    return null;
+  }
+}
+
+function firstAvailableEcho(attempts) {
+  return new Promise(resolve => {
+    let pending = attempts.length;
+    const finishEmpty = () => {
+      pending -= 1;
+      if (!pending) resolve(null);
+    };
+    attempts.forEach(attempt => {
+      attempt()
+        .then(result => result?.echoes?.length ? resolve(result) : finishEmpty())
+        .catch(finishEmpty);
+    });
+  });
+}
+
 function localEchoAnalysis(text) {
-  const lower = text.toLowerCase();
-  const isTrust = /信任|风险|授权|自动|代买|确认|隐私|permission|trust/.test(lower);
-  const isDeal = /支付|下单|结算|履约|售后|购物车|闭环|checkout|order/.test(lower);
-  const isMerchant = /商家|品牌|商品库|库存|卖家|供给|merchant|seller|catalog/.test(lower);
-  const isMemory = /记忆|偏好|个性化|复购|懂我|画像|personal|memory/.test(lower);
-  const isSearch = /搜索|入口|答案|流量|外部|内容|种草|search|answer/.test(lower);
-  const isVisual = /试穿|图片|视觉|尺码|风格|穿搭|visual|try-on|fashion/.test(lower);
-  const focus = isTrust ? '信任边界' : isDeal ? '交易责任' : isMerchant ? '供给资产' : isMemory ? '可编辑偏好' : isSearch ? '意图承接' : isVisual ? '适配证据' : '购物决策';
-  const quoted = text.length > 54 ? `${text.slice(0, 54)}…` : text;
-  const understanding = `我理解你说的「${quoted}」核心是在追问：AI导购怎样在${focus}里真正替用户降低决策成本，同时不制造新的不确定和责任风险。`;
-  const nextInsights = [
-    `先把这个观点落到一个具体链路节点：表达需求、比较候选、确认风险、授权动作或购后兜底，避免讨论停在概念层。`,
-    `下一步要定义AI“可以做”和“必须停下来问用户”的边界，尤其是涉及价格、库存、支付、履约和售后的动作。`,
-    `验证时不要只看生成质量，而要看用户是否少了一次人工核对、是否更愿意继续授权、以及失败时是否更容易接管。`
-  ];
-  const echoes = [
-    { angle: '原观点重心', text: `先把「${quoted}」当成一个产品命题，而不是一句判断：它要证明AI在哪个购物节点上比用户自己操作更可靠。` },
-    { angle: '用户需求', text: `这句话背后的需求不是“让AI更聪明”，而是让用户少承担一次${focus}里的不确定：不知道怎么选、不知道能不能买、不知道错了谁负责。` },
-    { angle: '产品价值', text: `如果要把它做成产品主张，可以从“替用户给答案”改成“替用户保存判断过程”：约束、证据、取舍和下一步动作都可回看。` },
-    { angle: '机会点', text: isDeal ? '交易闭环里最容易被低估的是异常处理。缺货、涨价、超时、售后失败时，AI如果能主动给替代方案，价值会比推荐本身更明显。' : `可以找一个高频但低风险的小场景先落地，让用户感受到${focus}被减轻，再逐步扩大到更高客单或更强授权。` },
-    { angle: '设计点', text: `界面上不要只展示“AI建议”。更有启发的设计是同时展示：它用了哪些证据、排除了哪些选项、还缺哪条信息、用户可以改哪里。` },
-    { angle: '方法论', text: `把这个观点拆成四层验证：入口是否自然、信息是否足够、用户是否愿意授权、结果失败时是否能兜底。任何一层断掉，AI体验都会退回普通搜索。` },
-    { angle: '反向提醒', text: `不要把它包装成万能助手。越接近交易，AI越应该克制：能建议就不代办，能代填就不代付，需要确认时明确停下来。` },
-    { angle: '指标启发', text: `可以少看“对话轮次”和“点击率”，多看约束补全率、候选采纳率、二次确认通过率、异常接管率和用户是否愿意下次继续授权。` },
-    { angle: '下一步', text: `把原观点变成一句实验题：在一个具体品类/场景里，AI是否能让用户少一次比较、少一次人工核对，且不增加误买和售后风险。` }
-  ];
-  if (isMerchant) echoes.splice(3, 0, { angle: '供给侧', text: 'C端导购体验的上限可能在B端：商品卖点、适用人群、禁忌、库存和履约承诺如果不可读，AI只能生成漂亮但不可靠的话术。' });
-  if (isMemory) echoes.splice(3, 0, { angle: '记忆设计', text: '记忆应该是一张“我的购买规则”，而不是后台画像。用户能看见、能修改、能暂停，才会愿意把长期偏好交给AI。' });
-  if (isVisual) echoes.splice(3, 0, { angle: '创新点', text: '视觉能力的价值不是生成更好看的图，而是把“不适合我”的风险提前暴露：尺码冲突、风格不搭、场景不符都应该进入推荐理由。' });
+  const quoted = echoQuote(text);
+  const { keywords, primary, subject } = echoFocus(text);
+  const keywordText = keywords.length ? keywords.slice(0, 4).join('、') : quoted;
+  const isQualityComplaint = /答非所问|无关|没关系|跑偏|很傻|傻|模板|套话|空泛|不符合|不满意|雷同|重复/.test(text);
+  const isBuildRequest = /页面|tab|输入框|保存|历史|发送|生成|接入|调用|能力|体验|流程|功能|改|做|支持/.test(text);
+  const isSearchDecision = /搜索|推荐|内容|种草|决策|比较|筛选|结果/.test(text);
+  let understanding;
+  let nextInsights;
+  let echoes;
+  if (isQualityComplaint) {
+    understanding = `我理解你说的「${quoted}」是在指出：回声没有真正咬住“${subject}”，而是输出了一段可套到任何场景的内容，所以显得答非所问。`;
+    nextInsights = [
+      `先把“相关性”做成硬标准：结果里必须自然回应「${keywordText}」，否则直接丢弃，不让不相关内容进入历史。`,
+      isBuildRequest
+        ? `把这个需求拆成体验闭环：输入前给出预期，生成时围绕原句，生成后允许保存、复盘和继续追问。`
+        : `把这句话转成一个验证问题：谁在什么场景下遇到什么阻力，什么产品动作能让这个阻力变小。`,
+      `输出结构要先说明“我听懂了什么”，再给洞察；如果第一段都没有点名「${primary}」，后面的启发再多也不可信。`
+    ];
+    echoes = [
+      { angle: '原句锚点', text: `「${quoted}」的重点应该先被保留下来：回声必须围绕“${subject}”继续思考，而不是换成系统预设主题。` },
+      { angle: '用户需求', text: `这句话背后的需求是“被准确理解”：用户不是要更多文字，而是要看到输入里的「${primary}」被接住、被拆解、被推进。` },
+      { angle: '产品价值', text: '回声的价值可以定义为“把一句话变成下一步判断”：补出隐含假设、可能机会、风险边界和一个能马上验证的问题。' },
+      { angle: '设计点', text: `结果区可以固定展示“抓住的关键词：${keywordText}”，让用户一眼知道回应为什么来自自己的输入。` },
+      { angle: '机会点', text: `把「${primary}」做成可编辑锚点：用户可以删掉、补充或强调关键词，下一轮回声就围绕新的锚点继续深化。` },
+      { angle: '质量门槛', text: `如果一条回声没有回应「${quoted}」里的对象、矛盾或情绪，即使文字流畅，也应该判定为失败输出。` },
+      { angle: '验证问题', text: '可以让用户轻点“相关/跑偏”，用这个反馈持续调优：到底是关键词没抓住、场景误判，还是洞察太泛。' },
+      { angle: '下一步', text: '下一版优先做两件事：强制引用原句关键词；对不相关模型结果自动丢弃，改用更贴近原句的回声。' }
+    ];
+  } else if (isSearchDecision) {
+    understanding = `我理解你说的「${quoted}」是在指出“${subject}”之间的错位：内容推荐更擅长激发兴趣，但当用户要完成决策时，需要的是可比较、可解释、可收敛的判断支持。`;
+    nextInsights = [
+      '先区分搜索意图：用户是在随便逛、找灵感、做比较，还是已经接近下结论；不同意图不该共用一套结果页。',
+      `围绕「${primary}」设计“决策视图”：把差异、适合谁、不适合谁、证据和待确认项放到同一屏。`,
+      '验证时不要只看浏览深度，也要看用户是否减少二次搜索、减少收藏后不行动、减少跳到外部平台找答案。'
+    ];
+    echoes = [
+      { angle: '原句张力', text: `「${quoted}」里的矛盾是：推荐让用户看得更多，但决策需要用户更快收敛。` },
+      { angle: '用户需求', text: `当用户在「${primary}」里带着明确问题进入时，他要的不是内容流，而是能帮他判断“选哪个、为什么、有什么坑”的结构化答案。` },
+      { angle: '产品价值', text: '搜索如果只优化停留和点击，会天然偏向内容消费；如果要帮决策，就要优化“少搜一次、少比一次、敢做选择”。' },
+      { angle: '机会点', text: '可以在结果页增加“结论层”：先给少量候选，再解释排序依据、差异点和排除理由，让推荐服务于判断。' },
+      { angle: '设计点', text: '把笔记、评价、达人内容拆成证据卡，而不是瀑布流；每张证据卡回答一个决策问题：适合谁、不适合谁、凭什么。' },
+      { angle: '方法论', text: '把搜索结果分成探索型和决策型两套指标：前者看发现效率，后者看比较完成率、采纳率和反悔率。' },
+      { angle: '反向风险', text: '如果小红书继续用内容推荐逻辑承接强决策意图，用户会在平台内种草、在平台外完成判断和交易。' },
+      { angle: '下一步', text: `可以找一个高频决策场景验证：用户搜索「${primary}」后，是否更快得到可执行结论，而不是继续刷内容。` }
+    ];
+  } else {
+    understanding = `我理解你说的「${quoted}」不是要泛泛扩写，而是希望围绕“${subject}”拆出背后的需求、判断标准和下一步可验证动作。`;
+    nextInsights = [
+      `先把这句话落到具体对象：谁会在什么场景里关心「${primary}」，他现在被什么卡住。`,
+      `把“${subject}”转成产品假设：如果我们改变某个入口、规则或反馈，用户行为会不会更清晰地往前走。`,
+      '验证时看真实行为变化，而不是只看用户口头认可：是否少一步犹豫、少一次返工、少一次解释成本。'
+    ];
+    echoes = [
+      { angle: '原句锚点', text: `「${quoted}」可以先被当作一个未完成的产品假设，而不是一句结论。` },
+      { angle: '用户需求', text: `围绕「${primary}」继续追问：用户真正缺的是信息、判断、信心、操作路径，还是一个更低成本的替代方案。` },
+      { angle: '产品价值', text: `如果“${subject}”成立，产品要提供的不是更多内容，而是让用户更快形成判断、更少反复确认。` },
+      { angle: '机会点', text: '可以把这句话拆成三个入口：用户主动表达时怎么接住，系统识别到时怎么提示，失败时怎么让用户修正。' },
+      { angle: '设计点', text: '界面上可以明确展示“依据、取舍、下一步”，让洞察从一句建议变成用户能继续行动的线索。' },
+      { angle: '风险', text: `不要把「${primary}」扩成过大的命题；越大的概念越难验证，越容易生成漂亮但无用的结论。` },
+      { angle: '验证问题', text: `最小实验可以问：当我们围绕「${keywordText}」提供一个更明确的下一步时，用户是否更愿意继续使用。` }
+    ];
+  }
   return { understanding, nextInsights, echoes: echoes.slice(0, 10) };
 }
 
 async function generateEcho(text) {
   const siteResult = await requestSiteEcho(text);
   if (siteResult) return siteResult;
-  const freeResult = await requestFreeEcho(text);
-  if (freeResult) return freeResult;
+  const externalResult = await firstAvailableEcho([
+    () => requestFreeEcho(text),
+    () => requestBrowserAiEcho(text)
+  ]);
+  if (externalResult) return externalResult;
   return { ...localEchoAnalysis(text), mode: 'local' };
 }
 
 function renderEchoRecord(record, options = {}) {
   const currentClass = options.current ? ' current' : '';
-  const modeLabel = record.mode === 'local' ? '本地启发' : 'AI回声';
+  const modeLabel = '回声';
   const nextInsights = Array.isArray(record.nextInsights) ? record.nextInsights.filter(Boolean) : [];
   return `<article class="echo-card${currentClass}" data-echo-id="${escapeHtml(record.id)}">
     <div class="echo-card-head">
@@ -1300,7 +1462,7 @@ function bindEcho() {
       renderEchoHistory();
       renderGlobalStats();
       if (input) input.value = '';
-      setEchoStatus(result.mode === 'local' ? '免费AI暂时不可用，已先生成本地启发版并保存到历史。' : '已通过AI分析并保存到历史。');
+      setEchoStatus('已围绕你的原句生成回声，并保存到历史。');
     } catch (error) {
       console.warn(error);
       setEchoStatus('模型调用失败，可以稍后重试。');
