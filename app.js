@@ -24,12 +24,7 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-20-echo-grounded-v2';
-const FREE_ECHO_ENDPOINT = 'https://text.pollinations.ai/openai';
-const FREE_ECHO_MODEL = 'openai-fast';
-const PUTER_SCRIPT_URL = 'https://js.puter.com/v2/';
-const PUTER_ECHO_MODEL = 'gpt-4o-mini';
-let puterLoadPromise = null;
+const DATA_VERSION = '2026-09-20-echo-notes-v1';
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -1055,7 +1050,7 @@ function renderUserInsights() {
 function loadEchoHistory() {
   try {
     const records = JSON.parse(localStorage.getItem(ECHO_HISTORY_KEY) || '[]');
-    return Array.isArray(records) ? records.filter(record => record && record.text && Array.isArray(record.echoes)).slice(0, 80) : [];
+    return Array.isArray(records) ? records.filter(record => record && record.text).slice(0, 80) : [];
   }
   catch { return []; }
 }
@@ -1064,14 +1059,14 @@ function saveEchoHistory() {
   localStorage.setItem(ECHO_HISTORY_KEY, JSON.stringify(state.echoHistory.slice(0, 80)));
 }
 
-function setEchoBusy(busy, label = '正在呼应…') {
+function setEchoBusy(busy, label = '正在保存…') {
   state.echoBusy = busy;
   const button = document.getElementById('echoSendBtn');
   const input = document.getElementById('echoInput');
   if (button) {
     button.disabled = busy;
     button.classList.toggle('is-loading', busy);
-    button.textContent = busy ? label : '发送';
+    button.textContent = busy ? label : '保存';
   }
   if (input) input.disabled = busy;
 }
@@ -1383,31 +1378,17 @@ function localEchoAnalysis(text) {
 }
 
 async function generateEcho(text) {
-  const siteResult = await requestSiteEcho(text);
-  if (siteResult) return siteResult;
-  const externalResult = await firstAvailableEcho([
-    () => requestFreeEcho(text),
-    () => requestBrowserAiEcho(text)
-  ]);
-  if (externalResult) return externalResult;
-  return { ...localEchoAnalysis(text), mode: 'local' };
+  return { text, mode: 'note' };
 }
 
 function renderEchoRecord(record, options = {}) {
   const currentClass = options.current ? ' current' : '';
-  const modeLabel = '回声';
-  const nextInsights = Array.isArray(record.nextInsights) ? record.nextInsights.filter(Boolean) : [];
   return `<article class="echo-card${currentClass}" data-echo-id="${escapeHtml(record.id)}">
     <div class="echo-card-head">
-      <span>${modeLabel} · ${escapeHtml(formatEchoDate(record.createdAt))}</span>
+      <span>记录 · ${escapeHtml(formatEchoDate(record.createdAt))}</span>
       ${options.current ? '' : `<button class="echo-delete-btn" data-echo-id="${escapeHtml(record.id)}" type="button">删除</button>`}
     </div>
     <blockquote>${escapeHtml(record.text)}</blockquote>
-    ${record.understanding ? `<section class="echo-analysis"><strong>我理解的是</strong><p>${escapeHtml(record.understanding)}</p></section>` : ''}
-    ${nextInsights.length ? `<section class="echo-analysis"><strong>下一步洞察</strong><ul>${nextInsights.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul></section>` : ''}
-    <ol class="echo-list">
-      ${(record.echoes || []).map(item => `<li><strong>${escapeHtml(item.angle)}</strong><span>${escapeHtml(item.text)}</span></li>`).join('')}
-    </ol>
   </article>`;
 }
 
@@ -1422,7 +1403,7 @@ function renderEchoHistory() {
   if (!target) return;
   target.innerHTML = state.echoHistory.length
     ? state.echoHistory.map(record => renderEchoRecord(record)).join('')
-    : '<p class="empty echo-empty">还没有回声历史。先输入一句观点试试。</p>';
+    : '<p class="empty echo-empty">还没有记录。先写一条试试。</p>';
   target.querySelectorAll('.echo-delete-btn').forEach(button => {
     button.addEventListener('click', () => {
       state.echoHistory = state.echoHistory.filter(record => record.id !== button.dataset.echoId);
@@ -1437,39 +1418,26 @@ function bindEcho() {
   const form = document.getElementById('echoForm');
   const input = document.getElementById('echoInput');
   const clearBtn = document.getElementById('echoClearBtn');
-  form?.addEventListener('submit', async event => {
+  form?.addEventListener('submit', event => {
     event.preventDefault();
     const text = input?.value.trim() || '';
-    if (!text) return showToast('先输入一句观点，我再给你回声。');
+    if (!text) return showToast('先写点内容，再保存。');
     setEchoBusy(true);
-    setEchoStatus('正在让观点产生回声…');
-    try {
-      const result = await generateEcho(text);
-      const record = {
-        id: `echo-${Date.now()}`,
-        text,
-        understanding: result.understanding || '',
-        nextInsights: result.nextInsights || [],
-        echoes: result.echoes,
-        mode: result.mode,
-        createdAt: new Date().toISOString()
-      };
-      state.echoCurrent = record;
-      state.echoHistory.unshift(record);
-      state.echoHistory = state.echoHistory.slice(0, 80);
-      saveEchoHistory();
-      renderEchoCurrent();
-      renderEchoHistory();
-      renderGlobalStats();
-      if (input) input.value = '';
-      setEchoStatus('已围绕你的原句生成回声，并保存到历史。');
-    } catch (error) {
-      console.warn(error);
-      setEchoStatus('模型调用失败，可以稍后重试。');
-      showToast('回声生成失败，请稍后再试。');
-    } finally {
-      setEchoBusy(false);
-    }
+    const record = {
+      id: `echo-${Date.now()}`,
+      text,
+      createdAt: new Date().toISOString()
+    };
+    state.echoCurrent = null;
+    state.echoHistory.unshift(record);
+    state.echoHistory = state.echoHistory.slice(0, 80);
+    saveEchoHistory();
+    renderEchoCurrent();
+    renderEchoHistory();
+    renderGlobalStats();
+    if (input) input.value = '';
+    setEchoStatus('已保存到记录。');
+    setEchoBusy(false);
   });
   clearBtn?.addEventListener('click', () => {
     if (!state.echoHistory.length) return;
