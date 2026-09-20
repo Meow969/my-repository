@@ -16,7 +16,8 @@ const state = {
   justSavedNoteId: '',
   echoHistory: [],
   echoCurrent: null,
-  echoBusy: false
+  echoBusy: false,
+  echoStage: 'all'
 };
 
 const USER_INSIGHTS_KEY = 'meow-ai-shopping-user-insights';
@@ -24,7 +25,33 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-20-echo-notes-v1';
+const DATA_VERSION = '2026-09-20-echo-stage-v1';
+const ECHO_STAGES = [
+  {
+    id: 'need',
+    label: '购前需求激发',
+    hint: '从无明确目标到被场景、内容或推荐激发兴趣',
+    keywords: ['需求', '激发', '种草', '兴趣', '发现', '逛', '灵感', '推荐', '内容', '达人', '直播', '短视频', '场景', '清单', '礼物', '节日', '趋势', '心智', '想买', '不知道买什么', '唤起']
+  },
+  {
+    id: 'search',
+    label: '购前搜索收敛需求',
+    hint: '从模糊需求到搜索、筛选和缩小候选范围',
+    keywords: ['搜索', '搜', '查', '找', '筛选', '收敛', '候选', '结果', '排序', '答案', '意图', '关键词', '条件', '范围', '类目', '品类', '选项', '列表', '问答', '导购']
+  },
+  {
+    id: 'decision',
+    label: '购中决策对比支付',
+    hint: '比较候选、确认风险、下单支付和交易推进',
+    keywords: ['决策', '对比', '比较', '价格', '优惠', '券', '参数', '评价', '口碑', '评论', '风险', '信任', '确认', '支付', '下单', '结算', '购物车', '订单', '库存', '履约', '配送', '售后', '买']
+  },
+  {
+    id: 'retention',
+    label: '购后复购沉淀',
+    hint: '履约后反馈、偏好记忆、复购和长期关系沉淀',
+    keywords: ['购后', '复购', '沉淀', '记忆', '偏好', '画像', '反馈', '评价', '退换', '售后', '物流', '履约', '保价', '提醒', '补货', '订阅', '常买', '再次购买', '留存', '会员', '生命周期']
+  }
+];
 const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
@@ -1050,7 +1077,12 @@ function renderUserInsights() {
 function loadEchoHistory() {
   try {
     const records = JSON.parse(localStorage.getItem(ECHO_HISTORY_KEY) || '[]');
-    return Array.isArray(records) ? records.filter(record => record && record.text).slice(0, 80) : [];
+    return Array.isArray(records)
+      ? records.filter(record => record && record.text).map(record => ({
+        ...record,
+        stage: record.stage || classifyEchoStage(record.text).id
+      })).slice(0, 80)
+      : [];
   }
   catch { return []; }
 }
@@ -1081,6 +1113,27 @@ function formatEchoDate(value) {
     return new Date(value).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
   }
   catch { return ''; }
+}
+
+function echoStageById(id) {
+  return ECHO_STAGES.find(stage => stage.id === id) || ECHO_STAGES[0];
+}
+
+function classifyEchoStage(text = '') {
+  const raw = String(text || '');
+  const lower = raw.toLowerCase();
+  const scores = ECHO_STAGES.map(stage => ({ stage, score: 0 }));
+  scores.forEach(item => {
+    item.stage.keywords.forEach(keyword => {
+      const key = keyword.toLowerCase();
+      if (raw.includes(keyword) || lower.includes(key)) item.score += keyword.length > 1 ? 2 : 1;
+    });
+  });
+  if (/支付|下单|结算|订单|购物车|买单/.test(raw)) scores.find(item => item.stage.id === 'decision').score += 5;
+  if (/复购|再次购买|常买|补货|会员|留存|偏好|记忆|购后/.test(raw)) scores.find(item => item.stage.id === 'retention').score += 5;
+  if (/搜索|搜|筛选|收敛|候选|结果|排序/.test(raw)) scores.find(item => item.stage.id === 'search').score += 4;
+  if (/种草|逛|发现|灵感|兴趣|内容|直播|短视频|场景/.test(raw)) scores.find(item => item.stage.id === 'need').score += 4;
+  return scores.sort((a, b) => b.score - a.score)[0].stage;
 }
 
 function buildEchoContext() {
@@ -1383,11 +1436,13 @@ async function generateEcho(text) {
 
 function renderEchoRecord(record, options = {}) {
   const currentClass = options.current ? ' current' : '';
+  const stage = echoStageById(record.stage || classifyEchoStage(record.text).id);
   return `<article class="echo-card${currentClass}" data-echo-id="${escapeHtml(record.id)}">
     <div class="echo-card-head">
       <span>记录 · ${escapeHtml(formatEchoDate(record.createdAt))}</span>
       ${options.current ? '' : `<button class="echo-delete-btn" data-echo-id="${escapeHtml(record.id)}" type="button">删除</button>`}
     </div>
+    <div class="echo-stage" title="${escapeHtml(stage.hint)}">${escapeHtml(stage.label)}</div>
     <blockquote>${escapeHtml(record.text)}</blockquote>
   </article>`;
 }
@@ -1401,15 +1456,39 @@ function renderEchoCurrent() {
 function renderEchoHistory() {
   const target = document.getElementById('echoHistory');
   if (!target) return;
-  target.innerHTML = state.echoHistory.length
-    ? state.echoHistory.map(record => renderEchoRecord(record)).join('')
-    : '<p class="empty echo-empty">还没有记录。先写一条试试。</p>';
+  const records = state.echoStage === 'all'
+    ? state.echoHistory
+    : state.echoHistory.filter(record => (record.stage || classifyEchoStage(record.text).id) === state.echoStage);
+  target.innerHTML = records.length
+    ? records.map(record => renderEchoRecord(record)).join('')
+    : '<p class="empty echo-empty">这个阶段还没有记录。</p>';
   target.querySelectorAll('.echo-delete-btn').forEach(button => {
     button.addEventListener('click', () => {
       state.echoHistory = state.echoHistory.filter(record => record.id !== button.dataset.echoId);
       saveEchoHistory();
+      renderEchoStageTabs();
       renderEchoHistory();
       renderGlobalStats();
+    });
+  });
+}
+
+function renderEchoStageTabs() {
+  const target = document.getElementById('echoStageTabs');
+  if (!target) return;
+  const options = [{ id: 'all', label: '全部' }, ...ECHO_STAGES];
+  target.innerHTML = options.map(stage => {
+    const count = stage.id === 'all'
+      ? state.echoHistory.length
+      : state.echoHistory.filter(record => (record.stage || classifyEchoStage(record.text).id) === stage.id).length;
+    const active = state.echoStage === stage.id ? ' active' : '';
+    return `<button class="echo-stage-tab${active}" data-echo-stage="${escapeHtml(stage.id)}" type="button">${escapeHtml(stage.label)}<span>${count}</span></button>`;
+  }).join('');
+  target.querySelectorAll('.echo-stage-tab').forEach(button => {
+    button.addEventListener('click', () => {
+      state.echoStage = button.dataset.echoStage || 'all';
+      renderEchoStageTabs();
+      renderEchoHistory();
     });
   });
 }
@@ -1426,6 +1505,7 @@ function bindEcho() {
     const record = {
       id: `echo-${Date.now()}`,
       text,
+      stage: classifyEchoStage(text).id,
       createdAt: new Date().toISOString()
     };
     state.echoCurrent = null;
@@ -1433,10 +1513,11 @@ function bindEcho() {
     state.echoHistory = state.echoHistory.slice(0, 80);
     saveEchoHistory();
     renderEchoCurrent();
+    renderEchoStageTabs();
     renderEchoHistory();
     renderGlobalStats();
     if (input) input.value = '';
-    setEchoStatus('已保存到记录。');
+    setEchoStatus(`已保存到「${classifyEchoStage(text).label}」。`);
     setEchoBusy(false);
   });
   clearBtn?.addEventListener('click', () => {
@@ -1444,8 +1525,10 @@ function bindEcho() {
     if (!window.confirm('确定清空全部回声历史吗？')) return;
     state.echoHistory = [];
     state.echoCurrent = null;
+    state.echoStage = 'all';
     saveEchoHistory();
     renderEchoCurrent();
+    renderEchoStageTabs();
     renderEchoHistory();
     renderGlobalStats();
     showToast('回声历史已清空。');
@@ -1464,6 +1547,7 @@ function render() {
   renderUserInsights();
   renderInsights();
   renderEchoCurrent();
+  renderEchoStageTabs();
   renderEchoHistory();
   renderGlobalStats();
   renderUpdateBadges();

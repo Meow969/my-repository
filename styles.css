@@ -125,12 +125,17 @@ textarea { min-height: 140px; resize: vertical; line-height: 1.65; }
 .echo-actions { display: flex; justify-content: flex-end; gap: 10px; }
 .echo-actions .primary { width: auto; border: 0; border-radius: 999px; padding: 12px 20px; background: linear-gradient(135deg, var(--ink), #4b36d9); color: white; font-weight: 950; cursor: pointer; }
 .echo-status { min-height: 24px; margin: 12px 2px; color: var(--muted); font-size: 13px; font-weight: 800; }
+.echo-stage-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 10px; }
+.echo-stage-tab { border: 1px solid rgba(107,78,255,0.16); border-radius: 999px; padding: 8px 11px; background: rgba(255,255,255,0.72); color: #4c4267; font-size: 12px; font-weight: 900; cursor: pointer; }
+.echo-stage-tab.active { border-color: rgba(107,78,255,0.4); background: rgba(107,78,255,0.12); color: var(--accent); }
+.echo-stage-tab span { margin-left: 5px; color: var(--muted); }
 .echo-result { margin-top: 8px; }
 .echo-card { margin-top: 14px; padding: 18px; border: 1px solid var(--line); border-radius: 26px; background: rgba(255,255,255,0.78); }
 .echo-card.current { border-color: rgba(107,78,255,0.24); background: linear-gradient(145deg, #fff, rgba(241,237,255,0.88)); }
 .echo-card-head, .echo-history-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .echo-card-head span { color: var(--accent); font-size: 12px; font-weight: 950; letter-spacing: 0.08em; }
 .echo-card-head button, .echo-history-head button { border: 1px solid rgba(255,122,69,0.28); border-radius: 999px; padding: 7px 11px; background: rgba(255,255,255,0.74); color: #9b3d1e; font-size: 12px; font-weight: 900; cursor: pointer; }
+.echo-stage { display: inline-flex; width: fit-content; margin-top: 12px; border-radius: 999px; padding: 7px 10px; background: rgba(255,122,69,0.12); color: #9b3d1e; font-size: 12px; font-weight: 950; }
 .echo-card blockquote { margin: 12px 0 16px; padding: 0 0 0 14px; border-left: 4px solid rgba(255,122,69,0.38); color: #30284e; font-size: 18px; font-weight: 850; line-height: 1.6; }
 .echo-analysis { display: grid; gap: 6px; margin: 12px 0; padding: 12px 14px; border-radius: 18px; background: rgba(107,78,255,0.07); }
 .echo-analysis strong { color: var(--accent); font-size: 12px; letter-spacing: 0.08em; }

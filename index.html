@@ -6,7 +6,7 @@
   <meta http-equiv="Cache-Control" content="no-store" />
   <meta http-equiv="Pragma" content="no-cache" />
   <title>Meow的AI购物雷达响了</title>
-  <link rel="stylesheet" href="./styles.css?v=2026-09-20-echo-notes-v1" />
+  <link rel="stylesheet" href="./styles.css?v=2026-09-20-echo-stage-v1" />
 </head>
 <body>
   <header class="hero compact-hero">
@@ -59,7 +59,7 @@
         <div class="echo-shell">
           <p class="eyebrow">Echo</p>
           <h2>回声</h2>
-          <p class="section-note">写下一句想法或笔记，这里只做记录，并保留保存时间。</p>
+          <p class="section-note">写下一句想法或笔记，这里会自动标记它属于哪个购物阶段，并保留保存时间。</p>
           <form id="echoForm" class="echo-form">
             <textarea id="echoInput" maxlength="1600" placeholder="写下一个想法、观察或待验证问题…"></textarea>
             <div class="echo-actions">
@@ -67,6 +67,7 @@
             </div>
           </form>
           <div id="echoStatus" class="echo-status" aria-live="polite"></div>
+          <div id="echoStageTabs" class="echo-stage-tabs" aria-label="回声阶段筛选"></div>
           <div class="echo-history-head">
             <h3>历史</h3>
             <button id="echoClearBtn" type="button">清空历史</button>
@@ -95,6 +96,6 @@
   </section>
 
   <footer>Built for AI shopping product research. Public-deploy ready via GitHub Pages / Netlify / Vercel.</footer>
-  <script src="./app.js?v=2026-09-20-echo-notes-v1"></script>
+  <script src="./app.js?v=2026-09-20-echo-stage-v1"></script>
 </body>
 </html>
