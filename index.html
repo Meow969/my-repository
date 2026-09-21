@@ -6,7 +6,7 @@
   <meta http-equiv="Cache-Control" content="no-store" />
   <meta http-equiv="Pragma" content="no-cache" />
   <title>Meow的AI购物雷达响了</title>
-  <link rel="stylesheet" href="./styles.css?v=2026-09-20-echo-stage-v1" />
+  <link rel="stylesheet" href="./styles.css?v=2026-09-21-echo-rename-v1" />
 </head>
 <body>
   <header class="hero compact-hero">
@@ -15,11 +15,10 @@
     </nav>
     <div class="nav-links tab-switcher primary-tabs" role="tablist" aria-label="主导航">
       <button class="top-tab active" data-tab="feed" role="tab">有事没事来看看<span class="update-dot" data-dot="feed" aria-label="有更新"></span></button>
-      <button class="top-tab" data-tab="inspiration" role="tab">灵感集<span class="update-dot" data-dot="inspiration" aria-label="有更新"></span></button>
-      <button class="top-tab" data-tab="echo" role="tab">回声</button>
+      <button class="top-tab" data-tab="inspiration" role="tab">回声<span class="update-dot" data-dot="inspiration" aria-label="有更新"></span></button>
     </div>
     <section class="toolbar global-toolbar" aria-label="全局搜索和筛选工具">
-      <input id="searchInput" type="search" placeholder="搜索资讯和灵感：记忆 / 信任 / 闭环…" />
+      <input id="searchInput" type="search" placeholder="搜索资讯和回声：记忆 / 信任 / 闭环…" />
       <select id="regionFilter" aria-label="地区筛选"><option value="all">地区</option></select>
       <select id="typeFilter" aria-label="分类筛选"><option value="all">分类</option></select>
       <select id="categoryFilter" aria-label="类型筛选"><option value="all">类型</option></select>
@@ -44,7 +43,7 @@
       <section id="insights" class="section section-soft">
         <div class="section-title">
           <p class="eyebrow">Inspiration Lab</p>
-          <h2>AI导购产品灵感集</h2>
+          <h2>AI导购产品回声</h2>
         </div>
         <p class="section-note">词云只展示能直接启发产品设计的观点关键词。</p>
         <div class="word-cloud" id="wordCloud"></div>
@@ -54,28 +53,6 @@
       </section>
     </section>
 
-    <section id="echoTab" class="tab-panel">
-      <section class="section echo-section" aria-label="回声">
-        <div class="echo-shell">
-          <p class="eyebrow">Echo</p>
-          <h2>回声</h2>
-          <p class="section-note">写下一句想法或笔记，这里会自动标记它属于哪个购物阶段，并保留保存时间。</p>
-          <form id="echoForm" class="echo-form">
-            <textarea id="echoInput" maxlength="1600" placeholder="写下一个想法、观察或待验证问题…"></textarea>
-            <div class="echo-actions">
-              <button id="echoSendBtn" class="primary" type="submit">保存</button>
-            </div>
-          </form>
-          <div id="echoStatus" class="echo-status" aria-live="polite"></div>
-          <div id="echoStageTabs" class="echo-stage-tabs" aria-label="回声阶段筛选"></div>
-          <div class="echo-history-head">
-            <h3>历史</h3>
-            <button id="echoClearBtn" type="button">清空历史</button>
-          </div>
-          <div id="echoHistory" class="echo-history"></div>
-        </div>
-      </section>
-    </section>
   </main>
 
   <button id="floatingNoteBtn" class="floating-note-btn" aria-label="记笔记">＋<span>记笔记</span></button>
@@ -85,17 +62,17 @@
     <div>
       <p class="eyebrow">Note</p>
       <h3>记笔记</h3>
-      <p>写下一个观点或产品想法，会先生成灵感标题和产品洞察，再匹配站内资料与全网支撑链接。提交后保留你的原始笔记，并以“我的笔记”样式加入灵感集。</p>
+      <p>写下一个观点或产品想法，会先生成回声标题和产品洞察，再匹配站内资料与全网支撑链接。提交后保留你的原始笔记，并以“我的笔记”样式加入回声。</p>
     </div>
     <div class="note-form">
       <textarea id="noteInput" placeholder="例如：AI导购能不能先从低风险复购场景建立信任，再迁移到高客单品类？"></textarea>
       <button id="notePreviewBtn">智能搜索支撑</button>
-      <button id="noteSaveBtn" class="primary">加入灵感集</button>
+      <button id="noteSaveBtn" class="primary">加入回声</button>
     </div>
     <div id="notePreview" class="note-preview"></div>
   </section>
 
   <footer>Built for AI shopping product research. Public-deploy ready via GitHub Pages / Netlify / Vercel.</footer>
-  <script src="./app.js?v=2026-09-20-echo-stage-v1"></script>
+  <script src="./app.js?v=2026-09-21-echo-rename-v1"></script>
 </body>
 </html>

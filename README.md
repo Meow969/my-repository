@@ -16,7 +16,7 @@ cd /Users/yangmengyao.20/my_project/ai-shopping-radar
 ## 数据结构
 
 - `data/articles.json`：每日精选信息流。
-- `data/insights.json`：跨文章沉淀后的 AI 导购产品灵感集。
+- `data/insights.json`：跨文章沉淀后的 AI 导购产品回声。
 - `data/monthly_reports.json`：按月沉淀的极简月报和当月 Top 信息。
 - `data/meta.json`：更新时间、站点说明、筛选规则。
 
@@ -26,8 +26,8 @@ cd /Users/yangmengyao.20/my_project/ai-shopping-radar
 
 - 按月时间线切换过去一年历史信息。
 - 每月自动生成/维护 Top 关注信息入口。
-- 灵感集词云只展示产品洞察关键词，不展示泛标签。
-- “回声”Tab：写下一句想法或笔记，自动归类到购前需求激发、购前搜索收敛需求、购中决策对比支付、购后复购沉淀，并保留保存时间。
+- 回声词云只展示产品洞察关键词，不展示泛标签。
+- “回声”Tab：展示跨文章沉淀后的产品洞察卡片；原记录型回声入口已下线。
 
 ## 手动更新
 
@@ -54,7 +54,7 @@ cd /Users/yangmengyao.20/my_project/ai-shopping-radar
 
 ## 公开部署与定时更新
 
-推荐部署到 Vercel 或 Netlify，这样“记笔记”的联网搜索可以正常返回结果。GitHub Pages 下“回声”只做本机记录，不调用模型。仓库根目录的 `.github/workflows/ai-shopping-radar-pages.yml` 会在每天北京时间 11:00 自动更新并发布到 GitHub Pages。
+推荐部署到 Vercel 或 Netlify，这样“记笔记”的联网搜索可以正常返回结果。仓库根目录的 `.github/workflows/ai-shopping-radar-pages.yml` 会在每天北京时间 11:00 自动更新并发布到 GitHub Pages。
 
 公开访问部署说明见：`DEPLOY.md`。
 

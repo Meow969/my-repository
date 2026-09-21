@@ -1,17 +1,17 @@
 # 公开访问部署方式
 
-## 推荐：Vercel（支持“记笔记”的联网搜索和“回声”AI接口）
+## 推荐：Vercel（支持“记笔记”的联网搜索）
 
 1. 新建一个 GitHub 仓库，把 `/Users/yangmengyao.20/my_project` 推到仓库。
 2. 登录 Vercel，选择 `Add New → Project`，导入该仓库。
 3. Root Directory 选择 `ai-shopping-radar`。
 4. Vercel 会读取项目内 `vercel.json`。
-5. 如需“回声”直接调用模型，在 Environment Variables 里配置：
+5. 如需服务端模型能力，在 Environment Variables 里配置：
    - `OPENAI_API_KEY`：模型 API Key。
    - `OPENAI_BASE_URL`：可选，默认 `https://api.openai.com/v1`。
 6. 部署完成后会得到公开链接，所有设备都能访问。
 
-## Netlify（支持“记笔记”的联网搜索和“回声”AI接口）
+## Netlify（支持“记笔记”的联网搜索）
 
 1. 登录 Netlify，选择 `Add new site → Import from Git`。
 2. 选择仓库后，Build settings 使用：
@@ -19,11 +19,11 @@
    - Build command: `python3 scripts/update_content.py --days 45 --limit 15 --skip-wechat --max-google-queries 45`
    - Publish directory: `.`
 3. 部署完成后会得到公开链接。
-4. 如需“回声”直接调用模型，在 Environment variables 里配置同名变量：`OPENAI_API_KEY`、可选 `OPENAI_BASE_URL`。
+4. 如需服务端模型能力，在 Environment variables 里配置同名变量：`OPENAI_API_KEY`、可选 `OPENAI_BASE_URL`。
 
 ## GitHub Pages（静态兜底）
 
-GitHub Pages 可以公开访问静态页面，但不支持站内服务端函数。使用 GitHub Pages 时，“记笔记”会保留站内匹配和外部搜索链接兜底；“回声”只做本机记录，不调用模型。若要稳定使用服务端能力，建议用 Vercel 或 Netlify 并配置对应环境变量。
+GitHub Pages 可以公开访问静态页面，但不支持站内服务端函数。使用 GitHub Pages 时，“记笔记”会保留站内匹配和外部搜索链接兜底。若要稳定使用服务端能力，建议用 Vercel 或 Netlify 并配置对应环境变量。
 
 已配置 GitHub Pages 工作流：`/Users/yangmengyao.20/my_project/.github/workflows/ai-shopping-radar-pages.yml`，每天北京时间 11:00 自动更新并发布。
 

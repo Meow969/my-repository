@@ -25,7 +25,7 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-20-echo-stage-v1';
+const DATA_VERSION = '2026-09-21-echo-rename-v1';
 const ECHO_STAGES = [
   {
     id: 'need',
@@ -102,13 +102,11 @@ async function loadData() {
   state.month = unique(state.articles.map(article => article.date.slice(0, 7))).sort().reverse()[0] || '';
   state.userInsights = loadUserInsights();
   state.cardThoughts = loadCardThoughts();
-  state.echoHistory = loadEchoHistory();
   renderFilters();
   bindTabs();
   bindCollapsibleHeader();
   bindNotePanel();
   bindNotes();
-  bindEcho();
   render();
 }
 
@@ -167,11 +165,9 @@ function bindTabs() {
 
 function setActiveTab(tab) {
   state.activeTab = tab;
-  document.body.classList.toggle('echo-active', tab === 'echo');
   document.querySelectorAll('.top-tab').forEach(button => button.classList.toggle('active', button.dataset.tab === tab));
   document.getElementById('feedTab').classList.toggle('active', tab === 'feed');
   document.getElementById('inspirationTab').classList.toggle('active', tab === 'inspiration');
-  document.getElementById('echoTab')?.classList.toggle('active', tab === 'echo');
   markTabSeen(tab);
 }
 
@@ -219,15 +215,9 @@ function renderGlobalStats() {
   const insightCount = activeInsights().length;
   const totalInsights = state.insights.length + state.userInsights.length;
   const compact = window.matchMedia('(max-width: 560px)').matches;
-  if (state.activeTab === 'echo') {
-    const stats = document.getElementById('globalStats');
-    stats.textContent = compact ? `${state.echoHistory.length}回声` : `回声历史 ${state.echoHistory.length} 条`;
-    stats.title = '你在本机保存的回声历史';
-    return;
-  }
   const label = state.query
-    ? (compact ? `${feedCount}讯 · ${insightCount}感` : `资讯 ${feedCount} · 灵感 ${insightCount}`)
-    : (compact ? `${currentMonthCount}讯 · ${totalInsights}感` : `${state.month.slice(5)}月 ${currentMonthCount}条 · 灵感 ${totalInsights}`);
+    ? (compact ? `${feedCount}讯 · ${insightCount}声` : `资讯 ${feedCount} · 回声 ${insightCount}`)
+    : (compact ? `${currentMonthCount}讯 · ${totalInsights}声` : `${state.month.slice(5)}月 ${currentMonthCount}条 · 回声 ${totalInsights}`);
   const stats = document.getElementById('globalStats');
   stats.textContent = label;
   stats.title = state.query
@@ -890,7 +880,7 @@ function setNoteBusy(busy, label = '处理中…') {
     button.classList.toggle('is-loading', busy);
   });
   if (previewBtn) previewBtn.textContent = busy ? label : '智能搜索支撑';
-  if (saveBtn) saveBtn.textContent = busy ? '正在生成…' : '加入灵感集';
+  if (saveBtn) saveBtn.textContent = busy ? '正在生成…' : '加入回声';
 }
 
 function showToast(message) {
@@ -917,7 +907,7 @@ async function searchSupportLinks(note, onProgress = () => {}) {
   onProgress('联网找支撑');
   await waitFrame();
   const online = await fetchOnlineResults(note);
-  onProgress('生成灵感卡片');
+  onProgress('生成回声卡片');
   await waitFrame();
   const external = uniqueLinks([...(online || []), ...curatedWebFallback(note, local)]).slice(0, 6);
   const keywords = noteKeywords(note, external, local);
@@ -940,7 +930,7 @@ async function renderNotePreview(note) {
     <p class="note-preview-summary">${escapeHtml(result.summary)}</p>
     <div class="meta">${(result.keywords || []).slice(0, 8).map(token => `<span class="pill">${escapeHtml(token)}</span>`).join('') || '<span class="pill">暂无关键词</span>'}</div>
     <ul class="derived-insight">${(result.insight || '').split('\n').filter(Boolean).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>
-    <p class="note-preview-ok">已匹配 ${(result.external || []).length} 条全网支撑、${(result.local || []).length} 条站内关联。点击“加入灵感集”后会保存为你的灵感卡片。</p>
+    <p class="note-preview-ok">已匹配 ${(result.external || []).length} 条全网支撑、${(result.local || []).length} 条站内关联。点击“加入回声”后会保存为你的回声卡片。</p>
     <div class="related note-links">
       ${(result.external || []).slice(0, 6).map(link => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">全网支撑：${escapeHtml(link.title)}${link.snippet ? `<small>${escapeHtml(link.snippet)}</small>` : ''}</a>`).join('')}
       ${(result.local || []).map(article => `<a href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">站内关联：${escapeHtml(article.title)}</a>`).join('')}
@@ -956,10 +946,10 @@ function bindNotes() {
     setNoteBusy(true, '正在搜索…');
     try {
       await renderNotePreview(note);
-      showToast('已生成支撑洞察，可以加入灵感集。');
+      showToast('已生成支撑洞察，可以加入回声。');
     } catch (error) {
       console.warn(error);
-      document.getElementById('notePreview').innerHTML = '<h4>搜索失败</h4><p>网络暂时不稳定，可以稍后再试；也可以先直接加入灵感集。</p>';
+      document.getElementById('notePreview').innerHTML = '<h4>搜索失败</h4><p>网络暂时不稳定，可以稍后再试；也可以先直接加入回声。</p>';
       showToast('搜索支撑失败了，请稍后重试。');
     } finally {
       setNoteBusy(false);
@@ -967,7 +957,7 @@ function bindNotes() {
   });
   document.getElementById('noteSaveBtn').addEventListener('click', async () => {
     const note = input.value.trim();
-    if (!note) return showToast('先写一点想法，再加入灵感集。');
+    if (!note) return showToast('先写一点想法，再加入回声。');
     setNoteBusy(true, '正在保存…');
     try {
       let support = state.noteSupport?.note === note ? state.noteSupport.result : null;
@@ -993,7 +983,7 @@ function bindNotes() {
       renderGlobalStats();
       setActiveTab('inspiration');
       setNotePanelOpen(false);
-      showToast('已加入灵感集，放在最上面了。');
+      showToast('已加入回声，放在最上面了。');
       setTimeout(() => {
         document.querySelector(`[data-card-id="${newNote.id}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
         state.justSavedNoteId = '';
@@ -1023,7 +1013,7 @@ function bindNotes() {
       renderGlobalStats();
       setActiveTab('inspiration');
       setNotePanelOpen(false);
-      showToast('搜索不稳定，但已先加入灵感集。');
+      showToast('搜索不稳定，但已先加入回声。');
       setTimeout(() => {
         document.querySelector(`[data-card-id="${fallbackNote.id}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
         state.justSavedNoteId = '';
@@ -1546,9 +1536,6 @@ function render() {
   renderWordCloud();
   renderUserInsights();
   renderInsights();
-  renderEchoCurrent();
-  renderEchoStageTabs();
-  renderEchoHistory();
   renderGlobalStats();
   renderUpdateBadges();
 }
