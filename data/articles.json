@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+    "date": "2026-10-02",
+    "title": "OpenAI Adds Virtual Try-On Feature to ChatGPT",
+    "source": "PYMNTS.com",
+    "region": "海外",
+    "url": "https://pymnts.com/news/artificial-intelligence/2026/openai-adds-virtual-try-on-feature-chatgpt",
+    "excerpt": "OpenAI added a virtual try-on feature to ChatGPT. Users can also upload a picture of clothing or accessories and ask for a try-on image. OpenAI added a virtual try-on feature to ChatGPT, the company said in a Thursday (Oct. 1) release note. “Virtually try on clothing and accessories: A ‘Try Complete the form to unlock this article and enjoy unlimited free access to all PYMNTS content — no additional logins required.",
+    "corePoint": [
+      "OpenAI/ChatGPT把AI能力放进外部AI入口、试穿/视觉体验链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "交易能力正在嵌入外部AI入口，品牌自有站和平台入口关系被重新分配",
+      "视觉/试穿能力把风格、尺码、上身效果转成可感知证据"
+    ],
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "tags": [
+      "C端AI产品",
+      "虚拟试穿"
+    ],
+    "insight": "用户需求：用户希望AI答案能自然进入购买，而不是停在建议。｜产品机会：站内导购要承接外部AI上下文，继续完成取舍、核价和确认。｜设计启发：在商品页提供“继续刚才的比较”入口，减少从答案页到交易页的断裂。",
+    "relatedInsightIds": [
+      "visual-try-on-as-proof",
+      "evidence-led-recommendation",
+      "category-wedge"
+    ],
+    "valueScore": 78
+  },
+  {
     "id": "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
     "date": "2026-09-29",
     "title": "DeepLumen 正在把 Agentic Commerce 从新的购物入口，推进为商家可以持续经营、衡量并获得销售增长的新商业渠道 - 36kr.com",
@@ -874,34 +901,6 @@
       "closed-loop-first"
     ],
     "contentType": "竞品"
-  },
-  {
-    "id": "2026-07-01-digital-commerce-360-square-lau-8aa7cbc707",
-    "date": "2026-07-01",
-    "title": "Square launches agentic commerce integrations with ChatGPT, Claude",
-    "source": "Digital Commerce 360",
-    "region": "海外",
-    "url": "https://digitalcommerce360.com/2026/07/01/square-agentic-commerce-integrations-chatgpt-claude",
-    "excerpt": "Square launches agentic commerce integrations with ChatGPT, Claude Digital Commerce 360",
-    "corePoint": [
-      "OpenAI/ChatGPT、Anthropic/Claude把AI能力放进外部AI入口链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
-      "智能体商业不只是更聪明的结算",
-      "核心变化是把发现、比较、授权、支付和售后责任连成完整体验"
-    ],
-    "contentType": "C端产品",
-    "category": "C端AI产品",
-    "tags": [
-      "C端AI产品",
-      "Agentic Commerce",
-      "技术架构"
-    ],
-    "insight": "用户需求：用户希望AI答案能自然进入购买，而不是停在建议。｜产品机会：站内导购要承接外部AI上下文，继续完成取舍、核价和确认。｜设计启发：在商品页提供“继续刚才的比较”入口，减少从答案页到交易页的断裂。",
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "agentic-funnel"
-    ],
-    "valueScore": 75
   },
   {
     "id": "daily-2026-06-27-ca12d684099abd",
