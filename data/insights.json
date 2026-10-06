@@ -17,18 +17,18 @@
     ],
     "sourceCount": 31,
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
-      "2026-09-11-ai-fc156aaaa2",
       "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
       "2026-09-04-retail-dive-how-ai-is-powering--d646935a14",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：把需求澄清、候选比较、证据引用、授权动作和购后反馈串成一个可回看的决策工作台。"
   },
@@ -54,7 +54,7 @@
       "daily-2026-05-13-3c134761dade73",
       "daily-2025-12-27-9e481776f4fdf4"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增国内竞品、B端商家工具、竞品案例资料后，这张卡可以继续深化为：把偏好记忆做成用户资产：可查看、可编辑、可冻结，并能解释本次推荐调用了哪条规则。"
   },
@@ -76,6 +76,7 @@
     ],
     "sourceCount": 20,
     "relatedArticleIds": [
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-ai-5a3fb0a1ab",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
@@ -83,13 +84,12 @@
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-10-ai-ac61f3f501",
       "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
-    "iterationNote": "迭代思考：新增竞品案例、C端AI产品、国内竞品资料后，这张卡可以继续深化为：先让AI承担低风险动作，再逐步开放高风险动作；每一级都要有证据、确认和人工接管。"
+    "iterationNote": "迭代思考：新增竞品案例、Agentic Commerce、C端AI产品资料后，这张卡可以继续深化为：先让AI承担低风险动作，再逐步开放高风险动作；每一级都要有证据、确认和人工接管。"
   },
   {
     "id": "closed-loop-first",
@@ -109,6 +109,7 @@
     ],
     "sourceCount": 36,
     "relatedArticleIds": [
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
@@ -117,10 +118,9 @@
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增竞品案例、Agentic Commerce、交易闭环资料后，这张卡可以继续深化为：把推荐后的确认、下单、履约跟踪和售后兜底纳入同一链路，减少用户在多个页面之间补确认。"
   },
@@ -150,7 +150,7 @@
       "daily-2026-01-25-27679e673e9934",
       "daily-2025-10-27-506d4c177e5782"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增C端AI产品、国内竞品、C端导购入口资料后，这张卡可以继续深化为：把商品从传统货架迁到答案里时，要设计候选资格、赞助标识和反向比较，避免答案变成黑箱广告位。"
   },
@@ -173,20 +173,20 @@
     ],
     "sourceCount": 20,
     "relatedArticleIds": [
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-22-ai-finance-sina-com-cn-7a4e163d28",
       "2026-09-15-ai-ai-dd88dd5061",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
-    "iterationNote": "迭代思考：新增Agentic Commerce、竞品案例、C端导购入口资料后，这张卡可以继续深化为：用新漏斗看AI：意图理解率、候选采纳率、授权完成率、异常接管率，比单看点击更接近真实价值。"
+    "iterationNote": "迭代思考：新增Agentic Commerce、竞品案例、交易闭环资料后，这张卡可以继续深化为：用新漏斗看AI：意图理解率、候选采纳率、授权完成率、异常接管率，比单看点击更接近真实价值。"
   },
   {
     "id": "merchant-readable-store",
@@ -217,7 +217,7 @@
       "2026-03-24-openai-blog-powering-product-di-10b56e1b13",
       "competitor-2026-01-22-app-ai-2130600ec1"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增商品库、国内竞品、竞品案例资料后，这张卡可以继续深化为：给商家一个AI视角的店铺体检：哪些卖点可读、哪些字段缺失、哪些承诺会影响推荐。"
   },
@@ -239,6 +239,8 @@
     ],
     "sourceCount": 39,
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-17-30-59d7af9e7e",
@@ -246,13 +248,11 @@
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
       "2026-09-15-ai-ai-dd88dd5061",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-kimi-bai-ai-dd4e2f1b32",
-      "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
-      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c"
+      "2026-09-13-kimi-bai-ai-dd4e2f1b32"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
-    "iterationNote": "迭代思考：新增竞品案例、Agentic Commerce、国内竞品资料后，这张卡可以继续深化为：提前思考买方Agent和卖方Agent如何交换条件：报价、库存、服务承诺和责任边界都需要协议化。"
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、Agentic Commerce资料后，这张卡可以继续深化为：提前思考买方Agent和卖方Agent如何交换条件：报价、库存、服务承诺和责任边界都需要协议化。"
   },
   {
     "id": "habit-before-intelligence",
@@ -277,7 +277,7 @@
       "daily-2026-06-16-30f36e4cb45b27",
       "competitor-2026-01-22-app-ai-2130600ec1"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增对话导购、竞品案例资料后，这张卡可以继续深化为：优先选择补货、凑单、常买清单等低风险任务建立习惯，再逐步扩大到高客单决策。"
   },
@@ -297,8 +297,9 @@
       "履约确定",
       "品类策略"
     ],
-    "sourceCount": 7,
+    "sourceCount": 8,
     "relatedArticleIds": [
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
       "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -307,9 +308,9 @@
       "competitor-2026-01-22-app-ai-2130600ec1",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
-    "iterationNote": "迭代思考：新增C端AI产品、竞品案例、国内竞品资料后，这张卡可以继续深化为：用AI导购切品类时，先选信息结构化、履约确定、决策成本高但试错风险可控的楔子。"
+    "iterationNote": "迭代思考：新增C端AI产品、竞品案例、对话导购资料后，这张卡可以继续深化为：用AI导购切品类时，先选信息结构化、履约确定、决策成本高但试错风险可控的楔子。"
   },
   {
     "id": "risk-first-design",
@@ -327,13 +328,12 @@
       "误购",
       "信任损耗"
     ],
-    "sourceCount": 3,
+    "sourceCount": 2,
     "relatedArticleIds": [
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "daily-2026-08-22-d0935ce5172bc8",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增竞品案例、Agentic Commerce、交易闭环资料后，这张卡可以继续深化为：把失败场景前置成体验设计：缺货、涨价、不适配、配送失败时，AI应主动解释并给替代方案。"
   },
@@ -353,8 +353,9 @@
       "测评引用",
       "可追溯"
     ],
-    "sourceCount": 7,
+    "sourceCount": 8,
     "relatedArticleIds": [
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
       "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
       "daily-2026-08-22-d0935ce5172bc8",
@@ -363,9 +364,9 @@
       "daily-2026-01-25-27679e673e9934",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
-    "iterationNote": "迭代思考：新增C端AI产品、虚拟试穿、AI购物资料后，这张卡可以继续深化为：推荐理由要回链到商品事实、评价片段和履约承诺；没有证据的结论应降权或提示不确定。"
+    "iterationNote": "迭代思考：新增AI购物、虚拟试穿、对话导购资料后，这张卡可以继续深化为：推荐理由要回链到商品事实、评价片段和履约承诺；没有证据的结论应降权或提示不确定。"
   },
   {
     "id": "intent-cart",
@@ -387,7 +388,7 @@
     "relatedArticleIds": [
       "daily-2026-02-05-378a1bbb379006"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": ""
   },
@@ -413,7 +414,7 @@
       "2026-09-15-ai-ai-dd88dd5061",
       "daily-2025-12-27-9e481776f4fdf4"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增C端导购入口、对话导购资料后，这张卡可以继续深化为：从内容、图片、聊天、订单和售后触点捕捉意图，但进入导购后必须继承上下文，别让用户重讲一遍。"
   },
@@ -439,7 +440,7 @@
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "competitor-2026-01-22-app-ai-2130600ec1"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增竞品案例、C端AI产品、国内竞品资料后，这张卡可以继续深化为：把授权做成场景化开关：预算、地址、偏好、支付、历史订单分别控制，别让用户一次性全量托付。"
   },
@@ -459,8 +460,9 @@
       "保价",
       "复购反馈"
     ],
-    "sourceCount": 52,
+    "sourceCount": 53,
     "relatedArticleIds": [
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-22-ai-finance-sina-com-cn-7a4e163d28",
       "2026-09-18-cbndata-ai-0a850a39df",
@@ -469,12 +471,11 @@
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
       "2026-09-15-ai-ai-dd88dd5061",
       "2026-09-14-q1-q2-477f743269",
-      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-13-kimi-bai-ai-dd4e2f1b32"
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
-    "iterationNote": "迭代思考：新增竞品案例、Agentic Commerce、C端导购入口资料后，这张卡可以继续深化为：把购后做成下一次导购的入口：物流异常、保价、退换货和复购反馈都能沉淀为新规则。"
+    "iterationNote": "迭代思考：新增竞品案例、对话导购、Agentic Commerce资料后，这张卡可以继续深化为：把购后做成下一次导购的入口：物流异常、保价、退换货和复购反馈都能沉淀为新规则。"
   },
   {
     "id": "merchant-incentive",
@@ -499,7 +500,7 @@
       "daily-2026-04-11-370069836d49a1",
       "2026-03-24-openai-blog-powering-product-di-10b56e1b13"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增B端商家工具、AI购物、Agentic Commerce资料后，这张卡可以继续深化为：把AI推荐带来的曝光、解释引用和订单归因反馈给商家，形成愿意补资料、提履约的激励。"
   },
@@ -526,7 +527,7 @@
       "2025-12-26-the-business-times-shopee-lazad-1aa0c55c73",
       "daily-2025-10-27-506d4c177e5782"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增国内竞品、竞品案例、商品库资料后，这张卡可以继续深化为：把排序治理产品化：赞助、平台利益、用户约束和风险提示需要同屏可解释。"
   },
@@ -551,7 +552,7 @@
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "daily-2025-09-28-6b0d69f713ce98"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
     "iterationNote": "迭代思考：新增B端商家工具、AI购物、Agentic Commerce资料后，这张卡可以继续深化为：当AI能理解预算和偏好后，下一步机会是替用户争取价格、赠品、时效或服务承诺。"
   },
@@ -573,20 +574,20 @@
     ],
     "sourceCount": 30,
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-22-ai-finance-sina-com-cn-7a4e163d28",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-11-ai-ai-6f5abe1327",
-      "2026-09-11-ai-fc156aaaa2",
       "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "generatedAt": "2026-09-04",
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端导购入口资料后，这张卡可以继续深化为：把评价拆成适用人群、场景、反例和风险点，让AI引用口碑时能说明“这条评价为什么和我有关”。"
+    "iterationNote": "迭代思考：新增竞品案例、C端AI产品、国内竞品资料后，这张卡可以继续深化为：把评价拆成适用人群、场景、反例和风险点，让AI引用口碑时能说明“这条评价为什么和我有关”。"
   },
   {
     "id": "competitor-function-radar",
@@ -608,6 +609,8 @@
       "得物"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-17-ai-5a3fb0a1ab",
@@ -615,11 +618,9 @@
       "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
       "2026-09-14-q1-q2-477f743269",
-      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-      "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
-      "2026-09-11-ai-ai-6f5abe1327"
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302"
     ],
-    "updatedAt": "2026-10-05",
+    "updatedAt": "2026-10-06",
     "sourceCount": 42,
     "generatedAt": "2026-09-08",
     "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：把每个竞品动作标到购物节点上：入口、承接意图、调用资产、推进深度和失败回退，避免只记功能名。"
@@ -642,14 +643,15 @@
       "风格记忆"
     ],
     "relatedArticleIds": [
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
       "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
       "daily-2026-08-22-d0935ce5172bc8",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "updatedAt": "2026-10-05",
-    "sourceCount": 3,
+    "updatedAt": "2026-10-06",
+    "sourceCount": 4,
     "generatedAt": "2026-09-08",
-    "iterationNote": "迭代思考：新增C端AI产品、虚拟试穿资料后，这张卡可以继续深化为：把视觉结果转成适配证据：哪里适合、哪里可能不适合、和用户历史尺码/风格有什么冲突。"
+    "iterationNote": "迭代思考：新增虚拟试穿、AI购物、对话导购资料后，这张卡可以继续深化为：把视觉结果转成适配证据：哪里适合、哪里可能不适合、和用户历史尺码/风格有什么冲突。"
   },
   {
     "id": "local-life-agent-loop",
@@ -674,16 +676,16 @@
       "2026-09-14-q1-q2-477f743269",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
-      "2026-09-11-ai-fc156aaaa2",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
       "2026-09-10-ai-ac61f3f501",
       "daily-2026-06-19-10e5b92e51f050",
-      "daily-2026-06-16-30f36e4cb45b27"
+      "daily-2026-06-16-30f36e4cb45b27",
+      "competitor-2026-01-22-app-ai-2130600ec1"
     ],
-    "updatedAt": "2026-10-05",
-    "sourceCount": 11,
+    "updatedAt": "2026-10-06",
+    "sourceCount": 10,
     "generatedAt": "2026-09-08",
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：即时场景的答案要围绕现在能不能履约：位置、库存、时效、替代、补偿比长解释更重要。"
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：即时场景的答案要围绕现在能不能履约：位置、库存、时效、替代、补偿比长解释更重要。"
   },
   {
     "id": "structured-dialogue",
@@ -702,6 +704,7 @@
       "证据链"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -712,13 +715,12 @@
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-11-ai-fc156aaaa2",
       "competitor-2026-01-22-app-ai-2130600ec1"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：把追问设计成结构化表单的另一种表达：预算、场景、禁忌、时效和可替代项都应能被用户修改。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：把追问设计成结构化表单的另一种表达：预算、场景、禁忌、时效和可替代项都应能被用户修改。",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "data-transaction-moat",
@@ -737,6 +739,7 @@
       "平台资产"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -744,16 +747,15 @@
       "2026-08-17-c7318a84f1",
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：把实时价格、库存、优惠、履约和售后做成推荐前置核验，只有可买、可送、可退才进入候选。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：把实时价格、库存、优惠、履约和售后做成推荐前置核验，只有可买、可送、可退才进入候选。",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-constraint-collector",
@@ -772,6 +774,7 @@
       "可编辑偏好"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -779,16 +782,15 @@
       "2026-08-17-c7318a84f1",
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-11-ai-fc156aaaa2"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：让搜索框先收集约束而不是先吐结果，并把缺失约束转成一两个低打扰追问。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：让搜索框先收集约束而不是先吐结果，并把缺失约束转成一两个低打扰追问。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-reason-not-to-buy",
@@ -807,6 +809,7 @@
       "评价"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -815,7 +818,6 @@
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-11-ai-fc156aaaa2",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
       "2026-09-17-ai-5a3fb0a1ab"
@@ -823,7 +825,7 @@
     "sourceCount": 12,
     "iterationNote": "迭代思考：新增国内竞品、竞品案例、C端AI产品资料让这个方向更可落地。下一步不是再总结新闻，而是拆出一个具体链路节点，观察它能否降低用户判断成本。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-memory-rules-panel",
@@ -855,7 +857,7 @@
     "sourceCount": 9,
     "iterationNote": "迭代思考：新增B端商家工具、竞品案例、AI购物资料后，这张卡可以继续深化为：把“记住我”拆成可管理规则，例如品牌禁忌、尺码偏好、补货周期、预算上限和家庭成员差异。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-low-risk-permission",
@@ -874,23 +876,23 @@
       "代劳"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
       "2026-08-17-c7318a84f1",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-11-ai-fc156aaaa2",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、B端商家工具、Agentic Commerce资料后，这张卡可以继续深化为：从提醒、代填、候选替换等低风险授权开始，让用户在可撤回体验里逐步建立信任。",
+    "iterationNote": "迭代思考：新增竞品案例、C端AI产品、国内竞品资料后，这张卡可以继续深化为：从提醒、代填、候选替换等低风险授权开始，让用户在可撤回体验里逐步建立信任。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-product-evidence-layer",
@@ -909,6 +911,7 @@
       "供给侧"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -919,13 +922,12 @@
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-11-ai-fc156aaaa2"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：把详情页抽象成证据层：规格、卖点、评价、风险和售后承诺都能被AI引用和追溯。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：把详情页抽象成证据层：规格、卖点、评价、风险和售后承诺都能被AI引用和追溯。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-visual-proof",
@@ -944,16 +946,18 @@
       "风险前置"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
       "daily-2026-07-29-fcd1c0b0824ead",
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
       "daily-2026-08-22-d0935ce5172bc8",
       "daily-2025-09-12-a18826d18731c1"
     ],
-    "sourceCount": 5,
-    "iterationNote": "迭代思考：新增C端AI产品、虚拟试穿资料后，这张卡可以继续深化为：试穿图之后要给可执行判断：尺码建议、搭配场景、相似款、退货风险和不推荐理由。",
+    "sourceCount": 7,
+    "iterationNote": "迭代思考：新增AI购物、虚拟试穿、C端AI产品资料后，这张卡可以继续深化为：试穿图之后要给可执行判断：尺码建议、搭配场景、相似款、退货风险和不推荐理由。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-external-ai-handoff",
@@ -972,23 +976,23 @@
       "转化"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-14-q1-q2-477f743269",
       "2026-08-17-c7318a84f1",
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-11-ai-fc156aaaa2",
       "competitor-2026-01-22-app-ai-2130600ec1"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：外部AI带来的流量要接住原始问题、候选和约束，落地页直接进入比较或确认，而不是回到搜索首页。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端导购入口资料后，这张卡可以继续深化为：外部AI带来的流量要接住原始问题、候选和约束，落地页直接进入比较或确认，而不是回到搜索首页。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-local-certainty",
@@ -1007,12 +1011,12 @@
       "小美"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-11-ai-fc156aaaa2",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-09-10-ai-ac61f3f501",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
@@ -1020,9 +1024,9 @@
       "daily-2026-06-16-30f36e4cb45b27"
     ],
     "sourceCount": 11,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：把附近可得性和履约稳定性作为主排序，并在缺货或超时时主动抛出替代方案。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：把附近可得性和履约稳定性作为主排序，并在缺货或超时时主动抛出替代方案。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-domestic-platform-assets",
@@ -1042,6 +1046,7 @@
       "交易链路"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -1051,14 +1056,13 @@
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-ai-fc156aaaa2",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-09-17-ai-5a3fb0a1ab"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：拆清国内平台各自可调用的交易资产：内容、商品、履约、支付、售后，判断AI能力为什么能在本平台成立。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：拆清国内平台各自可调用的交易资产：内容、商品、履约、支付、售后，判断AI能力为什么能在本平台成立。",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-merchant-copilot-loop",
@@ -1077,6 +1081,7 @@
       "供给侧"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -1084,16 +1089,15 @@
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-ai-fc156aaaa2",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
       "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
       "2026-05-21-google-shopping-blog-how-we-re--242e31b910"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、B端商家工具、国内竞品资料后，这张卡可以继续深化为：让B端助手不只生成文案，而是指出会阻碍AI推荐的资料缺口，并推动商家补齐。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：让B端助手不只生成文案，而是指出会阻碍AI推荐的资料缺口，并推动商家补齐。",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-agentic-checkout-contract",
@@ -1117,18 +1121,18 @@
       "2026-09-17-30-59d7af9e7e",
       "2026-08-17-c7318a84f1",
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、Agentic Commerce、国内竞品资料后，这张卡可以继续深化为：把建议、代填、代下单、代支付分成不同授权等级，每级都给用户明确的暂停和撤回入口。",
+    "iterationNote": "迭代思考：新增竞品案例、Agentic Commerce、交易闭环资料后，这张卡可以继续深化为：把建议、代填、代下单、代支付分成不同授权等级，每级都给用户明确的暂停和撤回入口。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-merchant-training-console",
@@ -1147,6 +1151,7 @@
       "归因"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -1155,7 +1160,6 @@
       "2026-09-16-cbndata-ai-cbndata-8e1370588b",
       "2026-09-11-ai-ai-6f5abe1327",
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
-      "2026-09-11-ai-fc156aaaa2",
       "competitor-2026-01-22-app-ai-2130600ec1",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
       "2026-09-14-retail-dive-instacart-shipt-lau-0727672302"
@@ -1163,7 +1167,7 @@
     "sourceCount": 12,
     "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：把商家后台做成训练台：商家能教AI如何卖、哪些人不该推荐、哪些承诺不能夸大。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-intent-cart",
@@ -1182,23 +1186,23 @@
       "决策恢复"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-14-q1-q2-477f743269",
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-11-ai-fc156aaaa2",
       "2026-09-10-ai-ac61f3f501",
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
       "2026-09-15-ai-ai-dd88dd5061",
       "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：让购物车支持继续对话：降价提醒、凑单替代、库存变化和场景变化都能触发新的建议。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、C端AI产品资料后，这张卡可以继续深化为：让购物车支持继续对话：降价提醒、凑单替代、库存变化和场景变化都能触发新的建议。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "auto-post-purchase-retention",
@@ -1217,6 +1221,7 @@
       "留存"
     ],
     "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
@@ -1224,16 +1229,46 @@
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-11-ai-fc156aaaa2",
       "2026-09-17-ai-5a3fb0a1ab",
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
-      "2026-09-22-ai-finance-sina-com-cn-7a4e163d28",
-      "2026-09-17-pymnts-com-walmart-expands-conv-939a04a03c"
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
+      "2026-09-22-ai-finance-sina-com-cn-7a4e163d28"
     ],
     "sourceCount": 12,
-    "iterationNote": "迭代思考：新增竞品案例、国内竞品、B端商家工具资料后，这张卡可以继续深化为：用售后和复购低成本建立长期关系，让AI在用户真正需要时主动出现，而不是只在搜索时出现。",
+    "iterationNote": "迭代思考：新增竞品案例、国内竞品、AI购物资料后，这张卡可以继续深化为：用售后和复购低成本建立长期关系，让AI在用户真正需要时主动出现，而不是只在搜索时出现。",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": "spark-2026-10-05-ai-618-7a0ccba6ae",
+    "title": "把淘宝/天猫、京东的视觉能力拆成“适配证据”",
+    "summary": "这条信号启发的是：视觉导购不要只做生成效果图，而要把尺码、风格、场景和退货风险变成可比较、可追责的推荐证据。",
+    "takeaways": [
+      "把视觉结果接入推荐排序",
+      "在对比卡里展示适配/不适配证据",
+      "用失败样例训练用户预期"
+    ],
+    "keywords": [
+      "视觉导购",
+      "适配证据",
+      "试穿",
+      "非标品",
+      "C端AI产品",
+      "国内竞品",
+      "C端导购入口",
+      "B端商家工具"
+    ],
+    "relatedArticleIds": [
+      "2026-10-05-ai-618-7a0ccba6ae",
+      "2026-09-18-cbndata-ai-0a850a39df",
+      "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+      "2026-09-17-30-59d7af9e7e",
+      "2026-09-14-q1-q2-477f743269"
+    ],
+    "sourceCount": 5,
+    "iterationNote": "",
+    "generatedAt": "2026-10-06",
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-18-cbndata-ai-0a850a39df",
@@ -1256,15 +1291,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-18-cbndata-ai-0a850a39df",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1"
+      "2026-09-14-q1-q2-477f743269"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-18",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
@@ -1287,15 +1322,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-08-17-c7318a84f1",
-      "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
-      "2026-09-16-cbndata-ai-cbndata-8e1370588b"
+      "2026-09-11-cbndata-ai-cbndata-com-990d25ea64"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-30",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-17-30-59d7af9e7e",
@@ -1318,15 +1353,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-30-59d7af9e7e",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1"
+      "2026-09-14-q1-q2-477f743269"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-17",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-14-q1-q2-477f743269",
@@ -1349,15 +1384,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-14-q1-q2-477f743269",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-08-17-c7318a84f1"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-08-17-c7318a84f1",
@@ -1380,15 +1415,15 @@
     ],
     "relatedArticleIds": [
       "2026-08-17-c7318a84f1",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
@@ -1411,15 +1446,44 @@
     ],
     "relatedArticleIds": [
       "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-28",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": "spark-2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
+    "title": "把Stripe、Klarna的交易动作拆成分级授权",
+    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
+    "takeaways": [
+      "先做提醒/代填等低风险动作",
+      "为支付和下单提供二次确认",
+      "把异常处理写进导购主流程"
+    ],
+    "keywords": [
+      "交易闭环",
+      "授权",
+      "支付",
+      "责任",
+      "竞品案例",
+      "Agentic Commerce"
+    ],
+    "relatedArticleIds": [
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
+      "2026-10-05-ai-618-7a0ccba6ae",
+      "2026-09-18-cbndata-ai-0a850a39df",
+      "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+      "2026-09-17-30-59d7af9e7e"
+    ],
+    "sourceCount": 5,
+    "iterationNote": "",
+    "generatedAt": "2026-10-06",
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-11-ai-ai-6f5abe1327",
@@ -1442,15 +1506,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-11-ai-ai-6f5abe1327",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
@@ -1472,15 +1536,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-12",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
@@ -1502,15 +1566,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-10-digital-commerce-360-instacart--6984f0dd64",
@@ -1531,44 +1595,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-10",
-    "updatedAt": "2026-10-05"
-  },
-  {
-    "id": "spark-2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-    "title": "把PayPal的交易动作拆成分级授权",
-    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
-    "takeaways": [
-      "先做提醒/代填等低风险动作",
-      "为支付和下单提供二次确认",
-      "把异常处理写进导购主流程"
-    ],
-    "keywords": [
-      "交易闭环",
-      "授权",
-      "支付",
-      "责任",
-      "竞品案例",
-      "Agentic Commerce"
-    ],
-    "relatedArticleIds": [
-      "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-      "2026-09-18-cbndata-ai-0a850a39df",
-      "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
-    ],
-    "sourceCount": 5,
-    "iterationNote": "",
-    "generatedAt": "2026-09-30",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
@@ -1589,15 +1624,15 @@
     ],
     "relatedArticleIds": [
       "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-17-30-59d7af9e7e",
       "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1",
-      "2026-09-16-cbndata-ai-cbndata-8e1370588b"
+      "2026-08-17-c7318a84f1"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-10-03",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-17-ai-5a3fb0a1ab",
@@ -1618,15 +1653,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-ai-5a3fb0a1ab",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-18",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-13-kimi-bai-ai-dd4e2f1b32",
@@ -1646,15 +1681,15 @@
     ],
     "relatedArticleIds": [
       "2026-09-13-kimi-bai-ai-dd4e2f1b32",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-18",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-10-ai-ac61f3f501",
@@ -1676,15 +1711,45 @@
     ],
     "relatedArticleIds": [
       "2026-09-10-ai-ac61f3f501",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": "spark-2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
+    "title": "把Chain Store Age的视觉能力拆成“适配证据”",
+    "summary": "这条信号启发的是：视觉导购不要只做生成效果图，而要把尺码、风格、场景和退货风险变成可比较、可追责的推荐证据。",
+    "takeaways": [
+      "把视觉结果接入推荐排序",
+      "在对比卡里展示适配/不适配证据",
+      "用失败样例训练用户预期"
+    ],
+    "keywords": [
+      "视觉导购",
+      "适配证据",
+      "试穿",
+      "非标品",
+      "AI购物",
+      "对话导购",
+      "虚拟试穿"
+    ],
+    "relatedArticleIds": [
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
+      "2026-10-05-ai-618-7a0ccba6ae",
+      "2026-09-18-cbndata-ai-0a850a39df",
+      "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+    ],
+    "sourceCount": 5,
+    "iterationNote": "",
+    "generatedAt": "2026-10-06",
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
@@ -1704,15 +1769,44 @@
     ],
     "relatedArticleIds": [
       "2026-09-17-modern-retail-big-box-briefing--2d124c70d8",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-17",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
+  },
+  {
+    "id": "spark-2026-09-15-ai-ai-dd88dd5061",
+    "title": "把新京报的交易动作拆成分级授权",
+    "summary": "这条信号启发的是：AI越接近下单，越需要把建议、代填、代付、代买拆成不同权限，并在每一步提供确认、撤回和责任记录。",
+    "takeaways": [
+      "先做提醒/代填等低风险动作",
+      "为支付和下单提供二次确认",
+      "把异常处理写进导购主流程"
+    ],
+    "keywords": [
+      "交易闭环",
+      "授权",
+      "支付",
+      "责任",
+      "C端导购入口",
+      "对话导购"
+    ],
+    "relatedArticleIds": [
+      "2026-09-15-ai-ai-dd88dd5061",
+      "2026-10-05-ai-618-7a0ccba6ae",
+      "2026-09-18-cbndata-ai-0a850a39df",
+      "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+      "2026-09-17-30-59d7af9e7e"
+    ],
+    "sourceCount": 5,
+    "iterationNote": "",
+    "generatedAt": "2026-10-06",
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-05-21-google-shopping-blog-how-we-re--242e31b910",
@@ -1734,15 +1828,15 @@
     ],
     "relatedArticleIds": [
       "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-03-24-openai-blog-powering-product-di-10b56e1b13",
@@ -1765,15 +1859,15 @@
     ],
     "relatedArticleIds": [
       "2026-03-24-openai-blog-powering-product-di-10b56e1b13",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-17",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-08-13-ai-ce1bf371dd",
@@ -1795,15 +1889,15 @@
     ],
     "relatedArticleIds": [
       "2026-08-13-ai-ce1bf371dd",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-02-11-7fae5bd7de6a54",
@@ -1823,15 +1917,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-02-11-7fae5bd7de6a54",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-06-10-openai-blog-prc-linked-influenc-6c33d57edf",
@@ -1852,15 +1946,15 @@
     ],
     "relatedArticleIds": [
       "2026-06-10-openai-blog-prc-linked-influenc-6c33d57edf",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-06-01-36-6-36kr-com-a54dba9717",
@@ -1882,15 +1976,15 @@
     ],
     "relatedArticleIds": [
       "2026-06-01-36-6-36kr-com-a54dba9717",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-04-03-d41339b299519c",
@@ -1913,15 +2007,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-04-03-d41339b299519c",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-06-18-target-corporation-how-target-i-6a7b85b16f",
@@ -1942,15 +2036,15 @@
     ],
     "relatedArticleIds": [
       "2026-06-18-target-corporation-how-target-i-6a7b85b16f",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
@@ -1970,15 +2064,15 @@
     ],
     "relatedArticleIds": [
       "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-07-29-fcd1c0b0824ead",
@@ -1999,15 +2093,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-07-29-fcd1c0b0824ead",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2025-12-26-the-business-times-shopee-lazad-1aa0c55c73",
@@ -2029,15 +2123,15 @@
     ],
     "relatedArticleIds": [
       "2025-12-26-the-business-times-shopee-lazad-1aa0c55c73",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2026-04-30-modern-retail-amazon-says-its-a-217f179fed",
@@ -2058,15 +2152,15 @@
     ],
     "relatedArticleIds": [
       "2026-04-30-modern-retail-amazon-says-its-a-217f179fed",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-01-12-402b4760d23e51",
@@ -2087,15 +2181,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-01-12-402b4760d23e51",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-competitor-2025-12-11-google-studio-quality-digital-try-on",
@@ -2115,13 +2209,15 @@
     ],
     "relatedArticleIds": [
       "competitor-2025-12-11-google-studio-quality-digital-try-on",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
       "daily-2026-08-22-d0935ce5172bc8"
     ],
-    "sourceCount": 3,
+    "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
@@ -2142,15 +2238,15 @@
     ],
     "relatedArticleIds": [
       "2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-05-13-3c134761dade73",
@@ -2170,15 +2266,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-05-13-3c134761dade73",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2025-09-28-6b0d69f713ce98",
@@ -2200,15 +2296,15 @@
     ],
     "relatedArticleIds": [
       "daily-2025-09-28-6b0d69f713ce98",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-08-22-d0935ce5172bc8",
@@ -2228,13 +2324,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-08-22-d0935ce5172bc8",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+      "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
       "competitor-2025-12-11-google-studio-quality-digital-try-on"
     ],
-    "sourceCount": 3,
+    "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-06-19-10e5b92e51f050",
@@ -2254,15 +2352,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-06-19-10e5b92e51f050",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-28",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-01-25-27679e673e9934",
@@ -2282,15 +2380,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-01-25-27679e673e9934",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1"
+      "2026-09-14-q1-q2-477f743269"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-06-15-999b5b1b29c57a",
@@ -2311,15 +2409,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-06-15-999b5b1b29c57a",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269",
-      "2026-08-17-c7318a84f1"
+      "2026-09-14-q1-q2-477f743269"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-05-15-fefecaf4ebc5f4",
@@ -2340,15 +2438,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-05-15-fefecaf4ebc5f4",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-14",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-03-16-ddd8e6d4a154d5",
@@ -2368,15 +2466,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-03-16-ddd8e6d4a154d5",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-08-17-c7318a84f1"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-competitor-2026-06-22-shopee-ai-f87b7022fc",
@@ -2396,15 +2494,15 @@
     ],
     "relatedArticleIds": [
       "competitor-2026-06-22-shopee-ai-f87b7022fc",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-02-19-3a11c9d339093b",
@@ -2424,15 +2522,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-02-19-3a11c9d339093b",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2025-12-27-9e481776f4fdf4",
@@ -2452,15 +2550,15 @@
     ],
     "relatedArticleIds": [
       "daily-2025-12-27-9e481776f4fdf4",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-06-27-ca12d684099abd",
@@ -2480,15 +2578,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-06-27-ca12d684099abd",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-08-17-c7318a84f1"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-06-16-30f36e4cb45b27",
@@ -2509,15 +2607,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-06-16-30f36e4cb45b27",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-08-17-c7318a84f1"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2025-09-09-93901c9caada54",
@@ -2538,15 +2636,15 @@
     ],
     "relatedArticleIds": [
       "daily-2025-09-09-93901c9caada54",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-09-14-q1-q2-477f743269"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-04-11-370069836d49a1",
@@ -2566,15 +2664,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-04-11-370069836d49a1",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-08-17-c7318a84f1"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2026-02-05-378a1bbb379006",
@@ -2594,15 +2692,15 @@
     ],
     "relatedArticleIds": [
       "daily-2026-02-05-378a1bbb379006",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-11-cbndata-ai-cbndata-com-990d25ea64",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
+      "2026-09-11-cbndata-ai-cbndata-com-990d25ea64"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-09",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2025-12-07-c2d8cbc4137af7",
@@ -2622,15 +2720,15 @@
     ],
     "relatedArticleIds": [
       "daily-2025-12-07-c2d8cbc4137af7",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-08-17-c7318a84f1"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-17",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2025-11-07-95e2581f3feabd",
@@ -2658,7 +2756,7 @@
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2025-10-27-506d4c177e5782",
@@ -2677,15 +2775,15 @@
     ],
     "relatedArticleIds": [
       "daily-2025-10-27-506d4c177e5782",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-17-30-59d7af9e7e",
-      "2026-08-17-c7318a84f1"
+      "2026-09-17-30-59d7af9e7e"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   },
   {
     "id": "spark-daily-2025-09-12-a18826d18731c1",
@@ -2705,14 +2803,14 @@
     ],
     "relatedArticleIds": [
       "daily-2025-09-12-a18826d18731c1",
+      "2026-10-05-ai-618-7a0ccba6ae",
       "2026-09-18-cbndata-ai-0a850a39df",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36"
     ],
     "sourceCount": 5,
     "iterationNote": "",
     "generatedAt": "2026-09-11",
-    "updatedAt": "2026-10-05"
+    "updatedAt": "2026-10-06"
   }
 ]

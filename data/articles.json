@@ -1,5 +1,92 @@
 [
   {
+    "id": "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
+    "date": "2026-10-06",
+    "title": "Gap rolls out new conversational AI shopping, virtual try-on features",
+    "source": "Chain Store Age",
+    "region": "海外",
+    "url": "https://chainstoreage.com/gap-rolls-out-new-conversational-ai-shopping-virtual-try-features",
+    "excerpt": "Gap rolls out new conversational AI shopping, virtual try-on features Chain Store Age",
+    "corePoint": [
+      "这条资讯聚焦试穿/视觉体验，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节",
+      "视觉/试穿能力把风格、尺码、上身效果转成可感知证据",
+      "这条资料的可用点在于补充试穿/视觉体验链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
+    ],
+    "contentType": "竞品",
+    "category": "竞品功能",
+    "tags": [
+      "AI购物",
+      "对话导购",
+      "虚拟试穿"
+    ],
+    "insight": "用户需求：非标品决策难在想象成本和后悔风险。｜产品机会：AI试穿应从营销玩法升级为购买前验证工具。｜设计启发：把上身效果、搭配场景、尺码建议和退货概率并排展示，帮助用户做取舍。",
+    "relatedInsightIds": [
+      "visual-try-on-as-proof",
+      "evidence-led-recommendation",
+      "category-wedge"
+    ],
+    "valueScore": 74
+  },
+  {
+    "id": "2026-10-05-ai-618-7a0ccba6ae",
+    "date": "2026-10-05",
+    "title": "京东阿里抖音都发力了！从台前到幕后，AI全场景赋能618大促",
+    "source": "新浪财经",
+    "region": "国内",
+    "url": "https://finance.sina.cn/stock/jdts/2026-05-19/detail-inhymcpp2337508.d.html?oid=%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E7%9A%84%E7%89%B9%E7%82%B9%E5%8C%85%E6%8B%AC%E4%BB%A5%E4%B8%8B%E5%93%AA%E5%87%A0%E4%B8%AA%E9%83%A8%E5%88%86%EF%BC%88%E9%9C%80%E8%A6%81%E8%81%94%E7%B3%BBTG%3A%40HHCH8%E6%92%9E%E5%BA%93%E6%95%B0%E6%8D%AE%E6%B8%97%E9%80%8F%E6%95%B0%E6%8D%AE%E6%B5%B7%E5%A4%96%E6%94%AF%E4%BB%98%E9%80%9A%E9%81%93%EF%BC%89KWOq&vt=4",
+    "excerpt": "（来源：上观新闻） 一年一度的618大促即将到来，今年最大的特点，是各大平台不约而同聚焦AI赋能。京东618首次全场景、全产业融入AI的一届大促；淘宝宣布“千问AI购物助手”... （来源：上观新闻）一年一度的618大促即将到来，今年最大的特点，是各大平台不约而同聚焦AI赋能。京东618首次全场景、全产业融入AI的一届大促；淘宝宣布“千问AI购物助手”提供AI试穿、AI算优惠等功能；李佳琦直播间首次引入“AI助教”；抖音618政策提及“开 一年一度的618大促即将到来，今年最大的特点，是各大平台不约而同聚焦AI赋能。 京东 618首次全场景、全产业融入AI的一届大促；淘宝宣布“千问AI购物助手”提供AI试穿、AI算优惠等功能；李佳琦直播间首次引入“AI助教”；抖音618政策提及“开放AIGC技术工具”助力商家……从台前到幕后，AI已经成为贯穿消费大促的关键因子。 上海财经大学中国式现代化研究院特聘研究员、电子商务研究中心主任劳帼龄认为，AI 深度融入618大促，将推动大促效果从单纯规模冲量转向高质量、高效率、高体验增长，更重要的是，AI将显著提升供需匹配效率，从被动响应转向主动规划，让生产和备货更精准：“这样的影响效果更加贴合电子商务高质量发展、服务实体经济的政策导向，也让电商成为激活新型消费、畅通经济循环的重要新动能。” 京东昨天官宣，京东618将于5月30日晚8点正式开启。“今年的京东618将是首次全场景、全产业融入AI的一届618。” 京东集团 技术委员会主席、京东云总裁曹鹏用一句话形容618大促的特点，“消费者将感受到AI技术在购物体验的全面进化。” 在体验端，消费者感知最明显的将是AI辅助购物。曹鹏以“京言”为例，这一智能体能帮助消费者实现从短流程轻购物到复杂交互慢购物的各类需求场景。数据显示，一季度，在京东App用“京言”辅助购物的用户近8000万，同比增长超200%。与此同时，数字人直播的一季度开播量同比增长10倍。 此外，京东也已将AI能力融入健康、外卖、家政、家装、金融、养车等各领域。 京东健康 医疗及AI应用平台部负责人袁晓春介绍，今年3月，京医千询",
+    "corePoint": [
+      "（来源：上观新闻） 一年一度的618大促即将到来，今年最大的特点，是各大平台不约而同聚焦AI赋能。京东618首次全场景、全产业融入AI的一届大促",
+      "（来源：上观新闻）一年一度的618大促即将到来，今年最大的特点，是各大平台不约而同聚焦AI赋能。京东618首次全场景、全产业融入AI的一届大促",
+      "淘宝/天猫、京东把AI能力放进C端导购入口、B端经营工具、AI购物助手链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配"
+    ],
+    "contentType": "竞品",
+    "category": "商家/生态",
+    "tags": [
+      "C端AI产品",
+      "国内竞品",
+      "C端导购入口",
+      "B端商家工具",
+      "AI购物",
+      "竞品案例"
+    ],
+    "insight": "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单。",
+    "relatedInsightIds": [
+      "auto-domestic-platform-assets",
+      "data-transaction-moat",
+      "decision-os"
+    ],
+    "valueScore": 93
+  },
+  {
+    "id": "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
+    "date": "2026-10-03",
+    "title": "Beyond checkout: Where agentic commerce actually starts",
+    "source": "Stripe",
+    "region": "海外",
+    "url": "https://stripe.com/de-li/sessions/2026/beyond-checkout-where-agentic?__s=1ngpkifa1w8cdaucpyke&__from__=talkingdev&__h+ssc=200701681.2.1547466725565&__hstc=20629287.c4a577029c49e44b73bd3bee6fa38565.1593216000264.1593216000265.1593216000266.1&__hssc=20629287.1.1593216000267&__hsfp=3202274376",
+    "excerpt": "Klarna will examine what full-journey agentic commerce requires, from structured discovery data and payment credentials to returns and refunds. Besprechen Sie Ihre Geschäftsbedürfnisse mit uns. Jetzt chatten mit Sales Stripe logo Produkte Lösungen Entwickler/innen Ressourcen Preisgestaltung Dashboard Anmelden Anmelden Sales-Team kontaktieren Stripe logo Zurück Produkte Lösungen Entwickler/innen Ressourcen Preisinformationen Dashboard Anmelden Anmelden Alle Produkte anzeigen Entdecken Sie unseren vollständigen Produktkatalog Payments Payments Online-Zahlungen Lösung für eingetragene Händler/innen Vorgefertigte Zahlungs-UIs Zugriff auf mehr als 125",
+    "corePoint": [
+      "Stripe、Klarna把AI能力放进支付/结算、转化/流量链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
+      "讨论重点从单点结算效率，扩大到端到端消费体验",
+      "资讯把AI能力与转化、客单或流量变化直接关联"
+    ],
+    "contentType": "竞品",
+    "category": "平台案例",
+    "tags": [
+      "竞品案例",
+      "Agentic Commerce",
+      "交易闭环"
+    ],
+    "insight": "用户需求：用户接受AI帮忙买东西的前提，是价格变化、缺货、延迟、误购时能及时停下。｜产品机会：交易闭环的差异化不在更快付款，而在异常处理、撤回和责任说明。｜设计启发：给AI代购设置“变更阈值”，超过预算/时效/品牌条件时自动回到用户确认。",
+    "relatedInsightIds": [
+      "closed-loop-first",
+      "trust-ladder",
+      "agentic-funnel"
+    ],
+    "valueScore": 85
+  },
+  {
     "id": "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
     "date": "2026-10-02",
     "title": "OpenAI Adds Virtual Try-On Feature to ChatGPT",
@@ -454,35 +541,6 @@
     "valueScore": 83
   },
   {
-    "id": "2026-09-11-ai-fc156aaaa2",
-    "date": "2026-09-11",
-    "title": "淘宝闪购为连锁餐饮装上AI大脑 让千店运营迈向“数据驱动”",
-    "source": "驱动之家",
-    "region": "国内",
-    "url": "https://news.mydrivers.com/1/1150/1150557.htm",
-    "excerpt": "ä½è ç§å¯æç« ï¼æ æµè§æé å çæéå¶ï¼è¿å¾å å®¹åªæä¾ç»èé¸çº§å«åä»¥ä¸ç¨æ·è®¿é®",
-    "corePoint": [
-      "淘宝/天猫把AI能力放进B端经营工具、即时零售/本地生活链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
-      "阿里系AI导购的看点在于把搜索、内容、收藏、购物车、订单和商家供给统一编排",
-      "这类动作不只是新增入口，而是在重做用户从模糊需求到可执行购买清单的路径"
-    ],
-    "contentType": "竞品",
-    "category": "商家/生态",
-    "tags": [
-      "国内竞品",
-      "B端商家工具",
-      "竞品案例",
-      "即时零售"
-    ],
-    "insight": "用户需求：用户在大促和长尾品类里最痛的是信息过载与规则复杂。｜产品机会：阿里系动作可启发把平台交易资产变成AI的上下文，例如店铺、价格、券、评价和历史订单。｜设计启发：让AI先收敛购物约束，再生成可编辑方案，最后才进入加购/凑单/下单。",
-    "relatedInsightIds": [
-      "auto-domestic-platform-assets",
-      "data-transaction-moat",
-      "decision-os"
-    ],
-    "valueScore": 79
-  },
-  {
     "id": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
     "date": "2026-09-10",
     "title": "Instacart launches AI assistant Clementine, agentic commerce integrations",
@@ -502,34 +560,6 @@
       "Agentic Commerce"
     ],
     "insight": "用户需求：买菜用户往往不是要找单个SKU，而是想把一餐、一周或某个场景的清单快速补齐。｜产品机会：把闲聊意图转成可执行购物篮，同时处理库存、替代品、配送窗口和凑单。｜设计启发：用“清单完成度”呈现AI贡献，标出已满足、需用户确认、缺货替代和预算变化。",
-    "relatedInsightIds": [
-      "closed-loop-first",
-      "trust-ladder",
-      "agentic-funnel"
-    ],
-    "valueScore": 80
-  },
-  {
-    "id": "2026-09-10-infoq-cn-paypal-agentic-commerc-28965b5836",
-    "date": "2026-09-10",
-    "title": "PayPal 谈 Agentic Commerce：AI 智能体将如何进入跨境支付场景？",
-    "source": "InfoQ-CN",
-    "region": "国内",
-    "url": "https://infoq.cn/news/8t2vJHOc5srUyQqSlO9m",
-    "excerpt": "PayPal谈 Agentic Commerce：AI智能体将如何进入跨境支付场景？",
-    "corePoint": [
-      "PayPal把AI能力放进支付/结算链路，重点不只是功能发布，而是用户决策和交易责任如何被重新分配",
-      "交易能力正在嵌入外部AI入口，品牌自有站和平台入口关系被重新分配",
-      "智能体商业不只是更聪明的结算"
-    ],
-    "contentType": "竞品",
-    "category": "平台案例",
-    "tags": [
-      "竞品案例",
-      "Agentic Commerce",
-      "交易闭环"
-    ],
-    "insight": "用户需求：用户接受AI帮忙买东西的前提，是价格变化、缺货、延迟、误购时能及时停下。｜产品机会：交易闭环的差异化不在更快付款，而在异常处理、撤回和责任说明。｜设计启发：给AI代购设置“变更阈值”，超过预算/时效/品牌条件时自动回到用户确认。",
     "relatedInsightIds": [
       "closed-loop-first",
       "trust-ladder",
@@ -806,7 +836,7 @@
     "corePoint": [
       "这条资讯聚焦试穿/视觉体验，适合观察AI如何影响购物决策中的表达、比较、确认或履约环节",
       "视觉/试穿能力把风格、尺码、上身效果转成可感知证据",
-      "它主要解决服饰、美妆、鞋履等非标品的决策不确定性"
+      "这条资料的可用点在于补充试穿/视觉体验链路里的一个观察样本，可继续追踪真实入口、用户反馈和交易推进深度"
     ],
     "insight": "用户需求：买服饰、美妆、鞋履时，用户真正想判断的是“适不适合我”。｜产品机会：视觉体验要进入决策证据链，把尺码、风格、场景和退货风险用于推荐排序。｜设计启发：试穿图旁边给出“合适点/风险点/替代款”，而不是只展示一张好看的图。",
     "valueScore": 58,
