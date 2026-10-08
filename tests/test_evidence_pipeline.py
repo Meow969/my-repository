@@ -85,6 +85,23 @@ class ParsingTests(unittest.TestCase):
         self.assertIn('Gap Inc.',a['excerpt'])
         self.assertNotIn('Short feed teaser',a['excerpt'])
         self.assertIn('Gap Inc.',a['corePoint'][0])
+    def test_monthly_reports_stay_in_month_and_prefer_evidence(self):
+        def article(i,date,level='fulltext',tier='精选'):
+            return dict(id=i,date=date,title='Stripe agentic checkout '+i,url='https://example.com/'+i,source='Stripe',publisher='example.com',valueScore=90,lensId='payments',evidenceLevel=level,readingTier=tier)
+        items=[article('a','2026-01-01'),article('b','2026-02-01'),article('c','2026-01-02','headline','观察')]
+        reports=p.build_reports(items)
+        self.assertEqual(reports[0]['month'],'2026-02')
+        self.assertEqual(reports[1]['topArticleIds'],['a'])
+        self.assertEqual(reports[1]['articleCount'],2)
+        self.assertIn('Stripe',reports[1]['summary'])
+        self.assertIn('授权',reports[1]['summary'])
+        self.assertEqual(reports[1]['summaryArticleIds'],['a'])
+    def test_month_with_only_headlines_does_not_invent_summary(self):
+        item=dict(id='h',title='AI shopping',date='2026-01-01',evidenceLevel='headline',readingTier='观察')
+        report=p.build_reports([item])[0]
+        self.assertEqual(report['topArticleIds'],[])
+        self.assertIn('暂无可核验原文',report['summary'])
+
     def test_source_registry_unique(self):
         self.assertEqual(len(p.SOURCES),len({s['url'] for s in p.SOURCES}))
         self.assertTrue(all(p.public_url(s['url']) for s in p.SOURCES))

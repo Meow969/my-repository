@@ -1,6 +1,6 @@
 const state = {
   articles: [],
-  health: [], digest: {}, quality: '精选', sourceKind: 'all', sort: 'date', savedOnly: false, bookmarks: [], legacyInsights: [], legacyArticles: [], showLegacy: false,
+  quality: 'all', savedOnly: false, bookmarks: [], legacyInsights: [], legacyArticles: [], showLegacy: false,
   insights: [],
   reports: [],
   meta: {},
@@ -26,7 +26,7 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-10-08-evidence-v1';
+const DATA_VERSION = '2026-10-08-tech-timeline-v2';
 const ECHO_STAGES = [
   {
     id: 'need',
@@ -92,79 +92,31 @@ const unique = (arr) => [...new Set(arr)].filter(Boolean);
 const escapeHtml = (text = '') => text.replace(/[&<>"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[char]));
 
 async function loadData() {
-  const [articles, insights, reports, meta, health, digest, legacy, legacyArticles] = await Promise.all([
+  const [articles, insights, reports, meta, legacy, legacyArticles] = await Promise.all([
     fetchJson('./data/articles.json'),
     fetchJson('./data/insights.json'),
     fetchJson('./data/monthly_reports.json'),
     fetchJson('./data/meta.json'),
-    fetchJson('./data/source_health.json'),
-    fetchJson('./data/daily_digest.json'),
     fetchJson('./data/legacy_insights.json').catch(() => []),
     fetchJson('./data/legacy_articles.json').catch(() => [])
   ]);
   state.articles = articles.sort((a, b) => b.date.localeCompare(a.date) || b.valueScore - a.valueScore);
   state.insights = insights;
   state.reports = reports.sort((a, b) => b.month.localeCompare(a.month));
-  state.meta = meta; state.health = health; state.digest = digest; state.legacyInsights = legacy; state.legacyArticles = legacyArticles;
+  state.meta = meta; state.legacyInsights = legacy; state.legacyArticles = legacyArticles;
   try { state.bookmarks = JSON.parse(localStorage.getItem('radar-bookmarks') || '[]'); if (!Array.isArray(state.bookmarks)) state.bookmarks = []; } catch { state.bookmarks = []; }
-  state.month = 'recent';
+  state.month = state.articles[0]?.date.slice(0, 7) || '';
   state.userInsights = loadUserInsights();
   state.cardThoughts = loadCardThoughts();
   renderFilters();
   bindResearchControls();
-  renderResearchOverview();
-  renderSources();
+  renderUpdateStatus();
   bindTabs();
   document.querySelectorAll('.top-tab').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === 'feed')));
   // The research header stays static; no scroll-driven hiding of filters.
   bindNotePanel();
   bindNotes();
   render();
-}
-
-function bindCollapsibleHeader() {
-  const header = document.querySelector('.compact-hero');
-  if (!header) return;
-  let lastScrollY = window.scrollY;
-  let collapsed = false;
-  let downDistance = 0;
-  let upDistance = 0;
-  let lockedUntil = 0;
-  let ticking = false;
-  const setCollapsed = (nextCollapsed) => {
-    if (collapsed === nextCollapsed) return;
-    collapsed = nextCollapsed;
-    header.classList.toggle('header-collapsed', collapsed);
-    downDistance = 0;
-    upDistance = 0;
-    lockedUntil = performance.now() + 320;
-  };
-  const updateHeader = () => {
-    const currentScrollY = Math.max(0, window.scrollY);
-    const delta = currentScrollY - lastScrollY;
-    if (currentScrollY < 72) {
-      setCollapsed(false);
-    } else if (performance.now() > lockedUntil && Math.abs(delta) > 2) {
-      if (delta > 0) {
-        downDistance += delta;
-        upDistance = 0;
-      } else {
-        upDistance += Math.abs(delta);
-        downDistance = 0;
-      }
-      if (!collapsed && currentScrollY > 180 && downDistance > 56) setCollapsed(true);
-      if (collapsed && upDistance > 110) setCollapsed(false);
-    }
-    lastScrollY = currentScrollY;
-    ticking = false;
-  };
-  window.addEventListener('scroll', () => {
-    if (!ticking) {
-      window.requestAnimationFrame(updateHeader);
-      ticking = true;
-    }
-  }, { passive: true });
-  document.getElementById('searchInput')?.addEventListener('focus', () => setCollapsed(false));
 }
 
 function bindTabs() {
@@ -180,9 +132,7 @@ function setActiveTab(tab) {
   document.querySelectorAll('.top-tab').forEach(button => button.classList.toggle('active', button.dataset.tab === tab));
   document.getElementById('feedTab').classList.toggle('active', tab === 'feed');
   document.getElementById('inspirationTab').classList.toggle('active', tab === 'inspiration');
-  document.getElementById('sourcesTab').classList.toggle('active', tab === 'sources');
   document.querySelectorAll('.top-tab').forEach(button => button.setAttribute('aria-selected', String(button.dataset.tab === tab)));
-  document.querySelector('.global-toolbar').hidden = tab === 'sources';
   markTabSeen(tab);
 }
 
@@ -225,7 +175,7 @@ function renderFilters() {
 }
 
 function renderGlobalStats() {
-  document.getElementById('globalStats').textContent = `${filteredArticles().length} 条信息 · ${state.insights.length} 个研究假设`;
+  document.getElementById('globalStats').textContent = `${state.query ? '搜索' : state.month.slice(5)+'月'} ${filteredArticles().length} 条 · 回声 ${state.insights.length}`;
 }
 
 function hasFeedUpdate() {
@@ -250,8 +200,12 @@ function markTabSeen(tab) {
 
 function renderMonthTabs() {
   const months = unique(state.articles.map(article => article.date.slice(0, 7))).sort().reverse();
-  document.getElementById('monthTabs').innerHTML = [{id: 'recent', label: '近30天'}, {id: 'all', label: '全部存档'}, ...months.map(month => ({id: month, label: fmtMonth(month)}))].map(m => `<button class="month-tab ${state.month === m.id ? 'active' : ''}" data-month="${m.id}" aria-pressed="${state.month === m.id}">${m.label}</button>`).join('');
-  document.querySelectorAll('.month-tab').forEach(button => button.addEventListener('click', () => { state.month = button.dataset.month; renderFeed(); renderGlobalStats(); }));
+  document.getElementById('monthTabs').innerHTML = months.map(month => `<button class="month-tab ${state.month === month ? 'active' : ''}" data-month="${month}" aria-pressed="${state.month === month}">${fmtMonth(month)}<span>${monthArticleCount(month)}条</span></button>`).join('');
+  document.querySelectorAll('.month-tab').forEach(button => button.addEventListener('click', () => {
+    state.month = button.dataset.month;
+    renderFeed(); renderGlobalStats();
+    document.querySelector('.month-tab.active')?.scrollIntoView({block:'nearest', inline:'nearest'});
+  }));
 }
 
 function monthArticleCount(month) {
@@ -322,50 +276,52 @@ function semanticScore(text, query) {
 }
 
 function filteredArticles() {
-  const cutoff = new Date(Date.now() - 30 * 86400000).toLocaleDateString('en-CA', {timeZone: 'Asia/Shanghai'});
-  const results = state.articles.map(article => ({ article, score: semanticScore(articleSearchText(article), state.query) })).filter(({ article, score }) => {
-    const matchesMonth = state.query || state.month === 'all' || !state.month || (state.month === 'recent' ? article.date >= cutoff : article.date.startsWith(state.month));
-    return (!state.query || score > 0) && matchesMonth
-      && (state.region === 'all' || article.region === state.region)
-      && (state.contentType === 'all' || (article.contentType || article.category) === state.contentType)
-      && (state.category === 'all' || article.category === state.category)
-      && (state.quality === 'all' || article.readingTier === state.quality)
-      && (state.sourceKind === 'all' || article.sourceKind === state.sourceKind)
-      && (!state.savedOnly || state.bookmarks.includes(article.id));
-  });
-  results.sort((a,b) => state.sort === 'quality' ? b.article.valueScore - a.article.valueScore || b.article.date.localeCompare(a.article.date) : state.query ? b.score - a.score || b.article.date.localeCompare(a.article.date) : b.article.date.localeCompare(a.article.date) || b.article.valueScore - a.article.valueScore);
-  return results.map(item => item.article);
+  return state.articles.filter(article =>
+    (!state.query || semanticScore(articleSearchText(article), state.query) > 0)
+    && (state.query || !state.month || article.date.startsWith(state.month))
+    && (state.region === 'all' || article.region === state.region)
+    && (state.contentType === 'all' || (article.contentType || article.category) === state.contentType)
+    && (state.category === 'all' || article.category === state.category)
+    && (state.quality === 'all' || article.readingTier === state.quality)
+    && (!state.savedOnly || state.bookmarks.includes(article.id))
+  ).sort((a,b) => b.date.localeCompare(a.date) || b.valueScore - a.valueScore);
 }
 
 function renderActiveMonthlyReport() {
+  const container = document.getElementById('activeMonthlyReport');
   const report = state.reports.find(item => item.month === state.month);
-  document.getElementById('activeMonthlyReport').innerHTML = report ? `<details class="monthly-card"><summary>${escapeHtml(fmtMonth(report.month))} 阅读索引 · ${report.articleCount} 条</summary><h3>${escapeHtml(report.title)}</h3><p>${escapeHtml(report.summary)}</p><p>${escapeHtml(report.insight || '')}</p></details>` : '';
+  if (!report || state.query || state.savedOnly) { container.innerHTML = ''; return; }
+  const articles = (report.topArticleIds || []).map(id => state.articles.find(a => a.id === id)).filter(Boolean).slice(0,5);
+  container.innerHTML = `<article class="monthly-card featured-monthly" aria-label="${escapeHtml(fmtMonth(report.month))}总结">
+    <div class="monthly-head"><span>${escapeHtml(fmtMonth(report.month))} · 月度总结</span><strong>${escapeHtml(report.title)}</strong></div>
+    <p class="monthly-summary">${escapeHtml(report.summary)}</p>
+    <h4>这个月最推荐看</h4>
+    <div class="monthly-links">${articles.map((a,index) => `<a href="${safeUrl(a.url)}" target="_blank" rel="noopener noreferrer"><span class="top-index">${String(index+1).padStart(2,'0')}</span><span class="top-copy">${escapeHtml(a.title)}</span><span class="top-source">${escapeHtml(a.source)} ↗</span></a>`).join('') || '<span class="muted">本月暂无符合原文标准的推荐，历史资料见下方。</span>'}</div>
+  </article>`;
 }
 
 function renderArticles(articles) {
   const groups = articles.reduce((acc, article) => { (acc[article.date] ||= []).push(article); return acc; }, {});
-  const html = state.sort === 'quality' ? `<div class="article-list">${articles.map(renderArticle).join('')}</div>` : Object.entries(groups).map(([date, items]) => `<section class="day-group"><h3 class="day-title">${fmtDate(date)}<span>${items.length} 条</span></h3><div class="article-list">${items.map(renderArticle).join('')}</div></section>`).join('');
-  document.getElementById('articleGroups').innerHTML = html || '<div class="empty"><h3>没有符合当前条件的信息</h3><p>宁可留白，不以低质量内容填充。试试全部存档或调整筛选。</p><button id="resetFilters">重置筛选</button></div>';
+  const html = Object.entries(groups).sort(([a],[b]) => b.localeCompare(a)).map(([date, items]) => `<section class="day-group" data-date="${date}"><h3 class="day-title">${fmtDate(date)}<span>${items.length} 条</span></h3><div class="article-list">${items.map(renderArticle).join('')}</div></section>`).join('');
+  document.getElementById('articleGroups').innerHTML = html || '<div class="empty"><p>没有匹配的资讯。</p><button id="resetFilters">清除筛选</button></div>';
   document.getElementById('resetFilters')?.addEventListener('click', resetResearchFilters);
   bindBookmarks();
 }
 
 function renderArticle(article) {
   const analysis = article.analysis || {};
-  const dims = article.quality?.dimensions || {};
-  const scoreDetail = `来源 ${dims.source || 0}/25 · 证据 ${dims.evidence || 0}/30 · 相关 ${dims.relevance || 0}/25 · 具体 ${dims.specificity || 0}/20。不是准确率。`;
   const saved = state.bookmarks.includes(article.id);
+  const points = (Array.isArray(article.corePoint) ? article.corePoint : [article.corePoint]).filter(Boolean);
   return `<article class="article-card" id="article-${escapeHtml(article.id)}">
-    <div class="article-topline"><span class="evidence-badge ${article.evidenceLevel === 'fulltext' ? 'verified' : ''}">${escapeHtml(article.evidenceLabel || '历史线索')}</span><span>${escapeHtml(SOURCE_LABELS[article.sourceKind] || '其他来源')} · ${escapeHtml(article.region)}</span><button class="bookmark-btn ${saved ? 'saved' : ''}" data-bookmark="${escapeHtml(article.id)}" aria-pressed="${saved}">${saved ? '★ 已收藏' : '☆ 收藏'}</button></div>
-    <div class="article-head"><a class="article-title" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a></div>
-    <div class="article-byline">${escapeHtml(article.source)}${article.signalType ? ' · '+escapeHtml(article.signalType) : ''} <span>· ${escapeHtml(article.date)} · ${escapeHtml(article.dateBasis || '历史日期')}</span></div>
-    <div class="fact-section"><h4>原文要点 <span>摘录，不是平台结论</span></h4><ul class="evidence-points">${(Array.isArray(article.corePoint) ? article.corePoint : [article.corePoint]).filter(Boolean).slice(0,2).map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>${article.sourceCaveats?.length ? `<div class="source-caveat"><strong>原文披露的限制</strong>${article.sourceCaveats.map(v => `<p>${escapeHtml(v)}</p>`).join('')}</div>` : ''}</div>
-    <details class="analysis-details"><summary>研究视角 · ${escapeHtml(analysis.question || '待补充证据')}</summary>
-      <div class="hypothesis-label">产品假设 · 与原文事实分开阅读</div><p>${escapeHtml(analysis.implication || '')}</p>
-      <h4>反向解释 / 不能推出什么</h4><p>${escapeHtml(analysis.counterpoint || '')}</p><h4>如何验证</h4><p>${escapeHtml(analysis.experiment || '')}</p><small>${escapeHtml(analysis.basis || '历史分析，待核验')}</small>
+    <div class="article-head"><a class="article-title" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a><button class="bookmark-btn ${saved ? 'saved' : ''}" data-bookmark="${escapeHtml(article.id)}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '收藏'}">${saved ? '★' : '☆'}</button></div>
+    <div class="article-byline"><span>${escapeHtml(article.source)}</span><span>${escapeHtml(article.region)}</span><span>${escapeHtml(article.category || article.contentType)}</span><span class="evidence-badge ${article.evidenceLevel === 'fulltext' ? 'verified' : ''}" title="${escapeHtml(article.evidenceLabel || '历史线索')}">${article.evidenceLevel === 'fulltext' ? '原文' : '待核验'}</span></div>
+    <ul class="core-points">${points.slice(0,2).map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
+    <details class="analysis-details"><summary>产品洞察 <span>· 研究假设</span></summary>
+      <p>${escapeHtml(analysis.implication || '')}</p><h4>反向解释</h4><p>${escapeHtml(analysis.counterpoint || '')}</p><h4>验证思路</h4><p>${escapeHtml(analysis.experiment || '')}</p>
+      ${article.sourceCaveats?.length ? `<h4>原文限制</h4><p>${article.sourceCaveats.map(escapeHtml).join('<br>')}</p>` : ''}
+      <small>规则辅助推演，非原文结论 · ${escapeHtml(article.dateBasis || '历史日期')}${article.checkedAt ? ' · '+escapeHtml(article.checkedAt.slice(0,10))+' 核验' : ''}</small>
     </details>
-    ${article.relatedCoverage?.length ? `<details class="analysis-details"><summary>同一事件的其他报道 · ${article.relatedCoverage.length} 篇</summary>${renderSourceLinks(article.relatedCoverage, '补充来源，不等于独立证实')}</details>` : ''}
-    <div class="article-footer"><a class="open-link" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a><details class="quality-detail"><summary>信息完整度 ${article.valueScore} / 100</summary><p>${escapeHtml(scoreDetail)}</p><p>${article.linkStatus === 'reachable' ? '抓取时原文可访问' : '原文访问未确认'}${article.checkedAt ? ' · '+escapeHtml(article.checkedAt.slice(0,10)) : ''}。官方信息同样可能包含宣传倾向。</p></details></div>
+    ${article.relatedCoverage?.length ? `<details class="coverage-details"><summary>更多报道 · ${article.relatedCoverage.length}</summary>${renderSourceLinks(article.relatedCoverage, '相关报道')}</details>` : ''}
   </article>`;
 }
 
@@ -1497,7 +1453,7 @@ function renderFeed() {
   renderMonthTabs();
   renderActiveMonthlyReport();
   renderArticles(filteredArticles());
-  document.getElementById('filterContext').textContent = `${state.query ? '搜索覆盖全部存档 · ' : ''}${filteredArticles().length} 条结果${state.savedOnly ? ' · 仅收藏' : ''} · 按${state.sort === 'quality' ? '完整度' : '发布日期'}排序`;
+  document.getElementById('filterContext').textContent = `${state.query ? '全站搜索 · ' : fmtMonth(state.month)+' · '}${filteredArticles().length} 条${state.savedOnly ? '收藏' : '资讯'}`;
 }
 
 function render() {
@@ -1510,33 +1466,21 @@ function render() {
 }
 
 
-function renderResearchOverview() {
-  const meta = state.meta, health = meta.sourceHealth || {};
-  const age = Date.now() - new Date(meta.lastUpdated).getTime();
+function renderUpdateStatus() {
+  const age = Date.now() - new Date(state.meta.lastUpdated).getTime();
   const stale = !Number.isFinite(age) || age > 48 * 3600000;
-  document.getElementById('pipelineStatus').innerHTML = `<span class="status-led ${stale ? 'stale' : ''}"></span>${stale ? '更新已超过48小时，请检查任务' : '每日自动更新已启用'}<span>最近成功 ${escapeHtml((meta.lastUpdated || '').replace('T', ' ').slice(0,16))} · 北京时间</span>`;
-  document.getElementById('researchMetrics').innerHTML = [[health.configured || 0,'配置直连来源'],[health.healthy || 0,'本次可用来源'],[meta.qualitySummary?.verified || 0,'已提取原文'],[state.insights.length,'研究假设']].map(([n,label]) => `<div><strong>${n}</strong><span>${label}</span></div>`).join('');
-  const top = (state.digest.articleIds || []).map(id => state.articles.find(a => a.id === id)).filter(Boolean);
-  document.getElementById('dailyBrief').innerHTML = `<div class="brief-heading"><div><p class="eyebrow">READ FIRST</p><h2>今天从这里开始</h2></div><span>${escapeHtml(state.digest.date || '')} · 新增 ${meta.latestAdded || 0} 条</span></div><p class="brief-note">${escapeHtml(state.digest.note || '')}</p><div class="brief-list">${top.map((a,i) => `<button class="brief-item" data-reveal="${escapeHtml(a.id)}"><span class="brief-index">0${i+1}</span><div><strong>${escapeHtml(a.title)}</strong><span>${escapeHtml(a.source)} · ${escapeHtml(a.date)} · ${escapeHtml(a.evidenceLabel)}</span></div><span>↗</span></button>`).join('') || '<p>近14天暂无符合原文标准的精选；可到下方查看存档与观察线索。</p>'}</div>`;
-  document.querySelectorAll('[data-reveal]').forEach(button => button.addEventListener('click', () => {
-    resetResearchFilters();
-    document.getElementById(`article-${button.dataset.reveal}`)?.scrollIntoView({behavior: 'smooth', block: 'start'});
-  }));
-}
-
-function renderSources() {
-  const sources = state.health.filter(s => s.kind !== 'discovery');
-  document.getElementById('sourceGrid').innerHTML = sources.map(s => `<article class="source-card"><div><span class="source-state ${s.status === 'ok' ? 'ok' : ''}">${s.status === 'ok' ? '可连接' : '本次失败'}</span><span>${escapeHtml(SOURCE_LABELS[s.kind] || s.kind)} · ${escapeHtml(s.region)}</span></div><h3><a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)} ↗</a></h3><p>${s.candidateCount || 0} 条候选（不等于收录数）</p>${s.status !== 'ok' ? '<p class="source-warning">本次未取得有效内容，下一轮自动重试。不把失败当作零新闻。</p>' : ''}</article>`).join('');
-  const queries = state.health.filter(s => s.kind === 'discovery');
-  document.getElementById('discoveryStatus').textContent = `另外执行 ${queries.length} 组中英文主题发现，${queries.filter(s => s.status === 'ok').length} 组可用。搜索只用于发现，收录需还原原文；研究资料与官方发布也不等于独立验证。`;
+  const el = document.getElementById('updateStatus');
+  el.classList.toggle('stale', stale);
+  el.textContent = stale ? '更新延迟' : `${String(state.meta.lastUpdated || '').slice(5,10).replace('-','/')} 已更新`;
+  el.title = `最近更新 ${String(state.meta.lastUpdated || '').replace('T',' ').slice(0,16)} · 每日11:00计划更新（北京时间，可能延迟）`;
 }
 
 function resetResearchFilters() {
-  Object.assign(state, {month:'all',query:'',region:'all',category:'all',contentType:'all',quality:'all',sourceKind:'all',savedOnly:false});
+  Object.assign(state, {query:'',region:'all',category:'all',contentType:'all',quality:'all',savedOnly:false});
   document.getElementById('searchInput').value='';
-  ['regionFilter','typeFilter','categoryFilter','qualityFilter','sourceKindFilter'].forEach(id => document.getElementById(id).value='all');
+  ['regionFilter','typeFilter','categoryFilter','qualityFilter'].forEach(id => document.getElementById(id).value='all');
   document.getElementById('savedFilter').setAttribute('aria-pressed','false');
-  renderFeed();renderGlobalStats();
+  renderFeed();renderGlobalStats();renderInsights();renderUserInsights();
 }
 
 function bindBookmarks() {
@@ -1549,7 +1493,8 @@ function bindBookmarks() {
 }
 
 function bindResearchControls() {
-  [['qualityFilter','quality'],['sourceKindFilter','sourceKind'],['sortFilter','sort']].forEach(([id,key]) => document.getElementById(id).addEventListener('change', e => {state[key]=e.target.value;renderFeed();renderGlobalStats();}));
+  document.getElementById('qualityFilter').addEventListener('change', e => {state.quality=e.target.value;renderFeed();renderGlobalStats();});
+  document.getElementById('clearFilters').addEventListener('click', resetResearchFilters);
   document.getElementById('savedFilter').addEventListener('click', e => {state.savedOnly=!state.savedOnly;e.currentTarget.setAttribute('aria-pressed',String(state.savedOnly));renderFeed();renderGlobalStats();});
   document.getElementById('legacyToggle').addEventListener('click', e => {state.showLegacy=!state.showLegacy;e.currentTarget.textContent=state.showLegacy?'返回证据研究':'查看旧版灵感存档';state.activeKeyword='all';renderWordCloud();renderInsights();});
   document.getElementById('exportNotes').addEventListener('click', () => {

@@ -23,7 +23,15 @@ for i in insights:
         a=next(a for a in articles if a['id']==e['articleId'])
         assert e['quote'] in a['corePoint'],i['id']
         assert a['evidenceLevel']=='fulltext',i['id']
-for r in reports:assert set(r['topArticleIds'])<=ids,r['month']
+for r in reports:
+    assert r['title'] and r['summary'],r['month']
+    assert set(r['topArticleIds'])<=ids,r['month']
+    assert set(r.get('summaryArticleIds',[]))<=ids,r['month']
+    assert len(r['topArticleIds'])<=5,r['month']
+    for article_id in r['topArticleIds']+r.get('summaryArticleIds',[]):
+        a=next(a for a in articles if a['id']==article_id)
+        assert a['date'].startswith(r['month']),article_id
+        assert a['evidenceLevel']=='fulltext',article_id
 assert set(digest['articleIds'])<=ids
 assert set(digest['insightIds'])<={i['id'] for i in insights}
 assert meta['articleCount']==len(articles)

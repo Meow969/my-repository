@@ -1,23 +1,44 @@
 [
   {
     "month": "2026-10",
-    "title": "授权边界 / 候选集 / 商品事实层",
-    "summary": "本月存档 54 条，51 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "交易授权 · 导购入口 · 商家接入",
+    "summary": "Stripe、Constructor 等相关资料聚焦智能体结账、支付接入与用户授权；TikTok、Gap 等相关资料聚焦对话搜索、商品发现与候选推荐；商家接入相关资料聚焦商品数据、商家工具与协议接入。重点追踪从推荐到成交时的授权和责任边界。",
     "articleCount": 54,
     "topArticleIds": [
       "radar-90923df83ec2925c",
       "radar-6f670eb9ffa2eb69",
-      "radar-bfa5fe7ff41da0f5",
       "radar-69f57827c201cd76",
-      "radar-3feae84bb92744a4"
+      "radar-3feae84bb92744a4",
+      "radar-ef81ec7a5e54b041"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "radar-3feae84bb92744a4",
+      "radar-90923df83ec2925c",
+      "radar-134ac2bfbdc84ddc",
+      "radar-e3b6ecfc1f1978c7",
+      "radar-69f57827c201cd76",
+      "radar-ef81ec7a5e54b041",
+      "radar-8a108d42cca376cd",
+      "radar-9082a8c36ee9a201",
+      "radar-c23e7379042a07dd",
+      "radar-45d898d62d0cca66",
+      "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
+      "radar-0832a178b9440a6f",
+      "radar-6f670eb9ffa2eb69",
+      "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+      "radar-586b555be0157da2",
+      "radar-c6e457f74d64996f",
+      "radar-dc65fee893e48ad7",
+      "radar-c3c808e105b43ecc",
+      "radar-7d6e904671a221e3"
+    ],
+    "insight": "从推荐到成交时的授权和责任边界",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-09",
-    "title": "候选集 / 授权边界 / 商品事实层",
-    "summary": "本月存档 57 条，53 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口 · 交易授权 · 商家接入",
+    "summary": "Mastercard、Stripe 等相关资料聚焦对话搜索、商品发现与候选推荐；Amazon、Walmart 等相关资料聚焦智能体结账、支付接入与用户授权；商家接入相关资料聚焦商品数据、商家工具与协议接入。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 57,
     "topArticleIds": [
       "radar-1f254fb86d3dabed",
@@ -26,165 +47,210 @@
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "radar-bfcb74183ccc9211",
+      "radar-3a17bc028c2bf6f7",
+      "radar-127e3145c0965d82",
+      "radar-1f254fb86d3dabed",
+      "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+      "radar-045b19b54632a57d",
+      "radar-8dfae19f11de23ec",
+      "radar-7f530c330b71f130",
+      "radar-4e369beaf45c5a7a",
+      "radar-32b85453a28278cd",
+      "radar-11d43da2f13cf463",
+      "radar-23819b27063059a0",
+      "2026-09-18-cbndata-ai-0a850a39df",
+      "radar-a7d939384a73b069",
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "radar-c3fa3b9f11808042",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
+      "2026-09-06-practical-ecommerce-the-race-to-2fcca43533",
+      "2026-09-03-digitalcommerce360-com-anthropi-6a7668af36",
+      "2026-09-01-digital-commerce-360-kohl-s-dig-b0fe47a128",
+      "daily-2026-09-01-1531069370f45e"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-08",
-    "title": "履约确定性 / 商品事实层 / 候选集",
-    "summary": "本月存档 14 条，13 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口",
+    "summary": "导购入口相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 14,
     "topArticleIds": [
-      "radar-95938cdbfb7121b5",
-      "radar-68d3ec0abf1b176e",
-      "radar-46de1c2131da5f72",
-      "radar-781477136ac7a7ad",
-      "radar-df8c7004317df0c6"
+      "radar-95938cdbfb7121b5"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "radar-95938cdbfb7121b5"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-07",
-    "title": "候选集",
-    "summary": "本月存档 2 条，2 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口",
+    "summary": "导购入口相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 2,
     "topArticleIds": [
-      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
-      "daily-2026-07-29-fcd1c0b0824ead"
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-06",
-    "title": "候选集 / 授权边界",
-    "summary": "本月存档 6 条，4 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口",
+    "summary": "Instacart、TikTok 等相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 6,
     "topArticleIds": [
       "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a",
-      "2026-06-01-36-6-36kr-com-a54dba9717",
-      "daily-2026-06-27-ca12d684099abd",
-      "2026-06-18-target-corporation-how-target-i-6a7b85b16f",
-      "daily-2026-06-15-999b5b1b29c57a"
+      "2026-06-01-36-6-36kr-com-a54dba9717"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a",
+      "2026-06-01-36-6-36kr-com-a54dba9717"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-05",
-    "title": "候选集 / 商品事实层",
-    "summary": "本月存档 5 条，4 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口 · 商家接入",
+    "summary": "Walmart、Amazon 等相关资料聚焦对话搜索、商品发现与候选推荐；Google 等相关资料聚焦商品数据、商家工具与协议接入。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 5,
     "topArticleIds": [
       "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
       "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
       "daily-2026-05-27-91a7bfbfddefb5",
-      "daily-2026-05-13-3c134761dade73",
-      "daily-2026-05-15-fefecaf4ebc5f4"
+      "daily-2026-05-13-3c134761dade73"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "daily-2026-05-27-91a7bfbfddefb5",
+      "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
+      "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
+      "daily-2026-05-13-3c134761dade73"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-04",
-    "title": "候选集 / 商品事实层",
-    "summary": "本月存档 4 条，4 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口",
+    "summary": "Amazon、Google 等相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 4,
     "topArticleIds": [
       "2026-04-30-modern-retail-amazon-says-its-a-217f179fed",
       "daily-2026-04-22-3322ca2227bf9c",
-      "daily-2026-04-11-370069836d49a1",
       "daily-2026-04-03-d41339b299519c"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "2026-04-30-modern-retail-amazon-says-its-a-217f179fed",
+      "daily-2026-04-22-3322ca2227bf9c",
+      "daily-2026-04-03-d41339b299519c"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-03",
-    "title": "候选集 / 商品事实层 / 授权边界",
-    "summary": "本月存档 4 条，2 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "商家接入 · 导购入口",
+    "summary": "商家接入相关资料聚焦商品数据、商家工具与协议接入；Shopify 等相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪商家接入能否带来可衡量的新增成交。",
     "articleCount": 4,
     "topArticleIds": [
       "2026-03-19-google-shopping-blog-ai-shoppin-989d33e35e",
-      "daily-2026-03-16-ddd8e6d4a154d5",
-      "2026-03-24-openai-blog-powering-product-di-10b56e1b13",
-      "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4"
+      "daily-2026-03-16-ddd8e6d4a154d5"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "2026-03-19-google-shopping-blog-ai-shoppin-989d33e35e",
+      "daily-2026-03-16-ddd8e6d4a154d5"
+    ],
+    "insight": "商家接入能否带来可衡量的新增成交",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-02",
-    "title": "候选集",
-    "summary": "本月存档 2 条，1 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口",
+    "summary": "导购入口相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 2,
     "topArticleIds": [
-      "daily-2026-02-11-7fae5bd7de6a54",
-      "daily-2026-02-05-378a1bbb379006"
+      "daily-2026-02-11-7fae5bd7de6a54"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "daily-2026-02-11-7fae5bd7de6a54"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2026-01",
-    "title": "候选集",
-    "summary": "本月存档 3 条，3 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口",
+    "summary": "Google、Walmart 等相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 3,
     "topArticleIds": [
-      "daily-2026-01-12-402b4760d23e51",
-      "competitor-2026-01-22-app-ai-2130600ec1",
-      "daily-2026-01-25-27679e673e9934"
+      "daily-2026-01-12-402b4760d23e51"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "daily-2026-01-12-402b4760d23e51"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2025-12",
-    "title": "授权边界",
-    "summary": "本月存档 1 条，0 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "本月资讯回顾",
+    "summary": "本月保留 1 条历史线索，暂无可核验原文；暂不生成趋势总结或推荐。",
     "articleCount": 1,
-    "topArticleIds": [
-      "daily-2025-12-07-c2d8cbc4137af7"
-    ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "topArticleIds": [],
+    "summaryArticleIds": [],
+    "insight": "",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2025-11",
-    "title": "候选集",
-    "summary": "本月存档 1 条，0 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "本月资讯回顾",
+    "summary": "本月保留 1 条历史线索，暂无可核验原文；暂不生成趋势总结或推荐。",
     "articleCount": 1,
-    "topArticleIds": [
-      "daily-2025-11-07-95e2581f3feabd"
-    ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "topArticleIds": [],
+    "summaryArticleIds": [],
+    "insight": "",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2025-10",
-    "title": "候选集",
-    "summary": "本月存档 3 条，3 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口",
+    "summary": "Amazon 等相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 3,
     "topArticleIds": [
       "2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
-      "daily-2025-10-31-1f6916e0d4bf5d",
-      "daily-2025-10-27-506d4c177e5782"
+      "daily-2025-10-31-1f6916e0d4bf5d"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
+      "daily-2025-10-31-1f6916e0d4bf5d"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   },
   {
     "month": "2025-09",
-    "title": "候选集 / 授权边界",
-    "summary": "本月存档 3 条，2 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。",
+    "title": "导购入口",
+    "summary": "导购入口相关资料聚焦对话搜索、商品发现与候选推荐。重点追踪入口变化能否缩短真实购物决策。",
     "articleCount": 3,
     "topArticleIds": [
       "daily-2025-09-09-93901c9caada54",
-      "daily-2025-09-12-a18826d18731c1",
-      "daily-2025-09-28-6b0d69f713ce98"
+      "daily-2025-09-12-a18826d18731c1"
     ],
-    "insight": "原文事实、产品推演与待验证问题分开阅读。",
+    "summaryArticleIds": [
+      "daily-2025-09-12-a18826d18731c1",
+      "daily-2025-09-09-93901c9caada54"
+    ],
+    "insight": "入口变化能否缩短真实购物决策",
     "updatedAt": "2026-10-08"
   }
 ]

@@ -396,13 +396,54 @@ def make_insights(articles,previous):
         output.append(dict(observation=contrast+'。这些证据衡量的对象不同，不能直接比较效果。',id=iid,title=lens['title'],summary=lens['mechanism'],evidence=evidence,counterpoint=lens['boundary'],experiment=lens['experiment'],takeaways=[],keywords=lens['keywords'],relatedArticleIds=[a['id'] for a in group],sourceCount=len(pubs),confidence='待验证假设',iterationNote=f'近45天 {len(group)} 篇原文、{len(pubs)} 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。',generatedAt=prev.get('generatedAt',now().date().isoformat()),updatedAt=prev.get('updatedAt') if prev.get('fingerprint')==fingerprint else now().date().isoformat(),fingerprint=fingerprint,method='规则辅助研究假设'))
     return output
 
+MONTH_ANGLES = {
+    'discovery': ('导购入口', '对话搜索、商品发现与候选推荐', '入口变化能否缩短真实购物决策'),
+    'payments': ('交易授权', '智能体结账、支付接入与用户授权', '从推荐到成交时的授权和责任边界'),
+    'merchant': ('商家接入', '商品数据、商家工具与协议接入', '商家接入能否带来可衡量的新增成交'),
+    'visual': ('视觉试穿', '虚拟试穿、穿搭与尺码判断', '视觉体验是否降低选错和退货'),
+    'memory': ('偏好记忆', '个性化推荐、偏好记忆与复购', '长期偏好是否减少重复决策'),
+    'trust': ('推荐信任', '推荐证据、消费者信任与风险', '用户是否能核验推荐依据'),
+    'local': ('即时购物', '本地生活、即时购物与配送履约', '推荐结果是否能在当下真正履约'),
+}
+MONTH_SUBJECTS = [
+    ('TikTok', r'tiktok|抖音'), ('Gap', r'\bgap\b'), ('Google', r'google|谷歌'),
+    ('OpenAI', r'openai|chatgpt'), ('Stripe', r'stripe'), ('Shopify', r'shopify'),
+    ('Amazon', r'amazon|rufus|亚马逊'), ('Walmart', r'walmart|sparky|沃尔玛'),
+    ('Constructor', r'constructor'), ('Instacart', r'instacart'), ('淘宝', r'淘宝|天猫'),
+    ('京东', r'京东|京言'), ('美团', r'美团|问小团'), ('豆包', r'豆包'),
+    ('Mastercard', r'mastercard'), ('Visa', r'\bvisa\b'), ('Perplexity', r'perplexity'),
+]
+
+
 def build_reports(articles):
     reports=[]
     for month in sorted({a['date'][:7] for a in articles},reverse=True):
-        group=[a for a in articles if a['date'].startswith(month)]; top=diverse(group,5,2)
-        counts=Counter(a.get('lensId','discovery') for a in group)
-        title=' / '.join(next(l['keywords'][0] for l in LENSES if l['id']==key) for key,_ in counts.most_common(3))
-        reports.append(dict(month=month,title=title,summary=f'本月存档 {len(group)} 条，{sum(a.get("evidenceLevel")=="fulltext" for a in group)} 条已提取原文。以下是按来源与主题打散后的阅读入口，不将报道数量解读为行业趋势。',articleCount=len(group),topArticleIds=[a['id'] for a in top],insight='原文事实、产品推演与待验证问题分开阅读。',updatedAt=now().date().isoformat()))
+        group=[a for a in articles if a['date'].startswith(month)]
+        verified=[a for a in group if a.get('evidenceLevel')=='fulltext']
+        preferred=[a for a in verified if a.get('readingTier')=='精选']
+        # Recommendations are limited to available original evidence. No title-only filler.
+        top=diverse(preferred or verified,5,2)
+        summary_pool=preferred or verified
+        counts=Counter(a.get('lensId','discovery') for a in summary_pool)
+        themes=[key for key,_ in counts.most_common(3) if key in MONTH_ANGLES]
+        if themes:
+            title=' · '.join(MONTH_ANGLES[key][0] for key in themes)
+            parts=[]
+            for key in themes:
+                related_items=[a for a in summary_pool if a.get('lensId','discovery')==key]
+                subjects=[]
+                for a in sorted(related_items,key=lambda a:a.get('valueScore',0),reverse=True):
+                    for name,pattern in MONTH_SUBJECTS:
+                        if name not in subjects and re.search(pattern,a['title'],re.I):subjects.append(name)
+                prefix='、'.join(subjects[:2])+' 等相关资料' if subjects else MONTH_ANGLES[key][0]+'相关资料'
+                parts.append(prefix+'聚焦'+MONTH_ANGLES[key][1])
+            summary='；'.join(parts)+'。重点追踪'+MONTH_ANGLES[themes[0]][2]+'。'
+        else:
+            title='本月资讯回顾'
+            summary='本月保留 '+str(len(group))+' 条历史线索，暂无可核验原文；暂不生成趋势总结或推荐。'
+        reports.append(dict(month=month,title=title,summary=summary,articleCount=len(group),
+            topArticleIds=[a['id'] for a in top],summaryArticleIds=[a['id'] for a in summary_pool],
+            insight=MONTH_ANGLES[themes[0]][2] if themes else '',updatedAt=now().date().isoformat()))
     return reports
 
 def run(days=45,limit=24,max_queries=32,recheck=False,dry_run=False):

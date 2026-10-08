@@ -68,5 +68,5 @@ jobs:
       - name: Run summary
         if: always()
         run: |
-          echo 'Daily radar: source health and evidence levels are visible under 来源与方法.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Daily radar: refreshed monthly summaries, recommendations and daily timeline. Source diagnostics remain in data/source_health.json.' >> "$GITHUB_STEP_SUMMARY"
           echo 'If this run failed, the previous Pages deployment remains available. Check failed steps before retrying.' >> "$GITHUB_STEP_SUMMARY"
