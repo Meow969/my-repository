@@ -1,0 +1,290 @@
+[
+  {
+    "region": "国内",
+    "query": "淘宝 千问 AI购物"
+  },
+  {
+    "region": "海外",
+    "query": "agentic commerce checkout"
+  },
+  {
+    "region": "国内",
+    "query": "京东 京言 AI购"
+  },
+  {
+    "region": "海外",
+    "query": "Amazon Rufus shopping"
+  },
+  {
+    "region": "国内",
+    "query": "美团 小美 问小团"
+  },
+  {
+    "region": "海外",
+    "query": "Walmart Sparky shopping"
+  },
+  {
+    "region": "国内",
+    "query": "小红书 AI搜索 购物"
+  },
+  {
+    "region": "海外",
+    "query": "Google AI shopping"
+  },
+  {
+    "region": "国内",
+    "query": "抖音 豆包 AI电商"
+  },
+  {
+    "region": "海外",
+    "query": "ChatGPT shopping merchant"
+  },
+  {
+    "region": "国内",
+    "query": "得物 AI试穿"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping consumer survey conversion"
+  },
+  {
+    "region": "国内",
+    "query": "淘宝 AI试衣 退货"
+  },
+  {
+    "region": "海外",
+    "query": "agentic payments fraud authorization"
+  },
+  {
+    "region": "国内",
+    "query": "AI导购 用户体验 实测"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping assistant failure trust"
+  },
+  {
+    "region": "国内",
+    "query": "阿里 AI商家 经营"
+  },
+  {
+    "region": "海外",
+    "query": "Shopify agentic commerce"
+  },
+  {
+    "region": "国内",
+    "query": "AI购物 研究 转化率"
+  },
+  {
+    "region": "海外",
+    "query": "Visa Mastercard Stripe agent commerce"
+  },
+  {
+    "region": "国内",
+    "query": "拼多多 AI 电商"
+  },
+  {
+    "region": "海外",
+    "query": "Perplexity shopping checkout"
+  },
+  {
+    "region": "国内",
+    "query": "AI导购 隐私 消费者"
+  },
+  {
+    "region": "海外",
+    "query": "AI retail returns personalization"
+  },
+  {
+    "region": "国内",
+    "query": "AI电商 site:alibabagroup.com"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping site:corporate.walmart.com"
+  },
+  {
+    "region": "国内",
+    "query": "京东 AI site:jdcorporateblog.com"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping site:aboutamazon.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI导购 site:meituan.com"
+  },
+  {
+    "region": "海外",
+    "query": "commerce site:stripe.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI购物 site:cbndata.com"
+  },
+  {
+    "region": "海外",
+    "query": "shopping agent benchmark research"
+  },
+  {
+    "region": "国内",
+    "query": "淘宝 问问 AI万能搜 导购"
+  },
+  {
+    "region": "海外",
+    "query": "Amazon Rufus shopping assistant case study"
+  },
+  {
+    "region": "国内",
+    "query": "京东 言犀 京言 AI购 导购 体验"
+  },
+  {
+    "region": "海外",
+    "query": "Walmart Sparky shopping assistant analysis"
+  },
+  {
+    "region": "国内",
+    "query": "美团 小美 问小团 AI 点餐"
+  },
+  {
+    "region": "海外",
+    "query": "Instacart Ask Instacart AI shopping"
+  },
+  {
+    "region": "国内",
+    "query": "抖音 豆包 电商 导购 搜索"
+  },
+  {
+    "region": "海外",
+    "query": "Perplexity Buy with Pro shopping review"
+  },
+  {
+    "region": "国内",
+    "query": "小红书 点点 AI购物 种草"
+  },
+  {
+    "region": "海外",
+    "query": "Pinterest AI shopping visual search"
+  },
+  {
+    "region": "国内",
+    "query": "得物 唯品会 AI试穿 导购"
+  },
+  {
+    "region": "海外",
+    "query": "Zalando AI fashion assistant shopping"
+  },
+  {
+    "region": "国内",
+    "query": "阿里国际 AI Lazada Shopee 导购"
+  },
+  {
+    "region": "海外",
+    "query": "eBay Etsy AI shopping assistant"
+  },
+  {
+    "region": "国内",
+    "query": "AI导购 竞品分析 产品体验"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping assistant user study benchmark"
+  },
+  {
+    "region": "国内",
+    "query": "AI电商 艾瑞 艾媒 研究 报告"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping retail site:mckinsey.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI购物 德勤 普华永道 毕马威 报告"
+  },
+  {
+    "region": "海外",
+    "query": "agentic commerce site:bcg.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI零售 贝恩 埃森哲 咨询"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping site:bain.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI导购 消费者 行为 调研"
+  },
+  {
+    "region": "海外",
+    "query": "AI retail shopping site:deloitte.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI电商 CBNData QuestMobile 研究"
+  },
+  {
+    "region": "海外",
+    "query": "AI commerce site:accenture.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI购物 对话导购 实测 案例"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping site:adobe.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI购物 商家 接入 研究"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping site:salesforce.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI零售 转化率 消费者 信任"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping site:capgemini.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI电商 亿邦 动力 派代 分析"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping site:emarketer.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI购物 苏宁 唯品会 拼多多"
+  },
+  {
+    "region": "海外",
+    "query": "AI shopping site:forrester.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI导购 退货 个性化 试穿"
+  },
+  {
+    "region": "海外",
+    "query": "AI commerce consumer survey site:gartner.com"
+  },
+  {
+    "region": "国内",
+    "query": "AI导购 零售 用户研究"
+  },
+  {
+    "region": "海外",
+    "query": "shopping agents WebShop benchmark arxiv"
+  }
+]

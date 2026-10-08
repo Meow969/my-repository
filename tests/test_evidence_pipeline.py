@@ -102,6 +102,17 @@ class ParsingTests(unittest.TestCase):
         self.assertEqual(report['topArticleIds'],[])
         self.assertIn('暂无可核验原文',report['summary'])
 
+    def test_localized_publisher_urls_do_not_duplicate_articles(self):
+        a=dict(title='AI电商研究报告',url='https://36kr.com/p/123456')
+        b=dict(title='2025全球电商AI行业研究数据',url='https://eu.36kr.com/zh/p/123456')
+        self.assertTrue(p.duplicate(a,b))
+    def test_finance_and_training_are_not_shopping_cases(self):
+        self.assertFalse(p.related('How AI-First Banks Are Rewriting Retail Banking'))
+        self.assertFalse(p.related('Digital marketing with AI ecommerce (Landing Page)'))
+    def test_expanded_research_classification(self):
+        a=dict(title='AI shopping research study',sourceKind='research',url='https://www.bcg.com/publications/study',source='BCG')
+        self.assertIn('咨询洞察',p.content_kinds(a))
+        self.assertIn('研究报告',p.content_kinds(a))
     def test_source_registry_unique(self):
         self.assertEqual(len(p.SOURCES),len({s['url'] for s in p.SOURCES}))
         self.assertTrue(all(p.public_url(s['url']) for s in p.SOURCES))

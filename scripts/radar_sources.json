@@ -1,30 +1,200 @@
 [
-  {"name":"Google Shopping","region":"海外","kind":"official","url":"https://blog.google/products/shopping/rss/"},
-  {"name":"OpenAI","region":"海外","kind":"official","url":"https://openai.com/news/rss.xml"},
-  {"name":"Amazon","region":"海外","kind":"official","url":"https://www.aboutamazon.com/sitemap.xml","format":"sitemap","match":"shopping|rufus|alexa|retail|agentic"},
-  {"name":"Anthropic","region":"海外","kind":"official","url":"https://www.anthropic.com/sitemap.xml","format":"sitemap","match":"/news/.*(commerce|agent|computer-use|mcp)|/engineering/.*agent"},
-  {"name":"Walmart","region":"海外","kind":"official","url":"https://corporate.walmart.com/sitemap.xml","format":"sitemap","match":"sparky|agentic|artificial-intelligence|conversational|shopping"},
-  {"name":"Alizila 阿里巴巴","region":"国内","kind":"official","url":"https://www.alizila.com/feed/"},
-  {"name":"NVIDIA","region":"海外","kind":"official","url":"https://blogs.nvidia.com/feed/"},
-  {"name":"Cloudflare","region":"海外","kind":"official","url":"https://blog.cloudflare.com/rss/"},
-  {"name":"Shopify","region":"海外","kind":"official","url":"https://www.shopify.com/blog.atom"},
-  {"name":"Hugging Face","region":"海外","kind":"research","url":"https://huggingface.co/blog/feed.xml"},
-  {"name":"Microsoft Research","region":"海外","kind":"research","url":"https://www.microsoft.com/en-us/research/feed/"},
-  {"name":"arXiv · 电商智能体","region":"海外","kind":"research","url":"https://export.arxiv.org/api/query?search_query=all:shopping+AND+all:agent&sortBy=submittedDate&sortOrder=descending&max_results=30"},
-  {"name":"TechCrunch","region":"海外","kind":"media","url":"https://techcrunch.com/category/artificial-intelligence/feed/"},
-  {"name":"The Verge","region":"海外","kind":"media","url":"https://www.theverge.com/rss/index.xml"},
-  {"name":"Retail Dive","region":"海外","kind":"industry","url":"https://www.retaildive.com/feeds/news/"},
-  {"name":"Marketing Dive","region":"海外","kind":"industry","url":"https://www.marketingdive.com/feeds/news/"},
-  {"name":"Practical Ecommerce","region":"海外","kind":"industry","url":"https://www.practicalecommerce.com/feed"},
-  {"name":"Digital Commerce 360","region":"海外","kind":"industry","url":"https://www.digitalcommerce360.com/feed/"},
-  {"name":"Modern Retail","region":"海外","kind":"industry","url":"https://www.modernretail.co/feed/"},
-  {"name":"Search Engine Journal","region":"海外","kind":"industry","url":"https://www.searchenginejournal.com/feed/"},
-  {"name":"Search Engine Land","region":"海外","kind":"industry","url":"https://searchengineland.com/feed"},
-  {"name":"PYMNTS","region":"海外","kind":"industry","url":"https://www.pymnts.com/feed/"},
-  {"name":"36氪","region":"国内","kind":"media","url":"https://36kr.com/feed"},
-  {"name":"IT之家","region":"国内","kind":"media","url":"https://www.ithome.com/rss/"},
-  {"name":"人人都是产品经理","region":"国内","kind":"analysis","url":"https://www.woshipm.com/feed"},
-  {"name":"虎嗅","region":"国内","kind":"analysis","url":"https://www.huxiu.com/rss/0.xml"},
-  {"name":"量子位","region":"国内","kind":"media","url":"https://www.qbitai.com/feed"},
-  {"name":"机器之心","region":"国内","kind":"media","url":"https://www.jiqizhixin.com/rss"}
+  {
+    "name": "Google Shopping",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://blog.google/products/shopping/rss/"
+  },
+  {
+    "name": "OpenAI",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://openai.com/news/rss.xml"
+  },
+  {
+    "name": "Amazon",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://www.aboutamazon.com/sitemap.xml",
+    "format": "sitemap",
+    "match": "shopping|rufus|alexa|retail|agentic"
+  },
+  {
+    "name": "Anthropic",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://www.anthropic.com/sitemap.xml",
+    "format": "sitemap",
+    "match": "/news/.*(commerce|agent|computer-use|mcp)|/engineering/.*agent"
+  },
+  {
+    "name": "Walmart",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://corporate.walmart.com/sitemap.xml",
+    "format": "sitemap",
+    "match": "sparky|agentic|artificial-intelligence|conversational|shopping"
+  },
+  {
+    "name": "Alizila 阿里巴巴",
+    "region": "国内",
+    "kind": "official",
+    "url": "https://www.alizila.com/feed/"
+  },
+  {
+    "name": "NVIDIA",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://blogs.nvidia.com/feed/"
+  },
+  {
+    "name": "Cloudflare",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://blog.cloudflare.com/rss/"
+  },
+  {
+    "name": "Shopify",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://www.shopify.com/blog.atom"
+  },
+  {
+    "name": "Hugging Face",
+    "region": "海外",
+    "kind": "research",
+    "url": "https://huggingface.co/blog/feed.xml"
+  },
+  {
+    "name": "Microsoft Research",
+    "region": "海外",
+    "kind": "research",
+    "url": "https://www.microsoft.com/en-us/research/feed/"
+  },
+  {
+    "name": "arXiv · 电商智能体",
+    "region": "海外",
+    "kind": "research",
+    "url": "https://export.arxiv.org/api/query?search_query=all:shopping+AND+all:agent&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  },
+  {
+    "name": "TechCrunch",
+    "region": "海外",
+    "kind": "media",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+  },
+  {
+    "name": "The Verge",
+    "region": "海外",
+    "kind": "media",
+    "url": "https://www.theverge.com/rss/index.xml"
+  },
+  {
+    "name": "Retail Dive",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://www.retaildive.com/feeds/news/"
+  },
+  {
+    "name": "Marketing Dive",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://www.marketingdive.com/feeds/news/"
+  },
+  {
+    "name": "Practical Ecommerce",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://www.practicalecommerce.com/feed"
+  },
+  {
+    "name": "Digital Commerce 360",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://www.digitalcommerce360.com/feed/"
+  },
+  {
+    "name": "Modern Retail",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://www.modernretail.co/feed/"
+  },
+  {
+    "name": "Search Engine Journal",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://www.searchenginejournal.com/feed/"
+  },
+  {
+    "name": "Search Engine Land",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://searchengineland.com/feed"
+  },
+  {
+    "name": "PYMNTS",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://www.pymnts.com/feed/"
+  },
+  {
+    "name": "36氪",
+    "region": "国内",
+    "kind": "media",
+    "url": "https://36kr.com/feed"
+  },
+  {
+    "name": "IT之家",
+    "region": "国内",
+    "kind": "media",
+    "url": "https://www.ithome.com/rss/"
+  },
+  {
+    "name": "人人都是产品经理",
+    "region": "国内",
+    "kind": "analysis",
+    "url": "https://www.woshipm.com/feed"
+  },
+  {
+    "name": "虎嗅",
+    "region": "国内",
+    "kind": "analysis",
+    "url": "https://www.huxiu.com/rss/0.xml"
+  },
+  {
+    "name": "量子位",
+    "region": "国内",
+    "kind": "media",
+    "url": "https://www.qbitai.com/feed"
+  },
+  {
+    "name": "机器之心",
+    "region": "国内",
+    "kind": "media",
+    "url": "https://www.jiqizhixin.com/rss"
+  },
+  {
+    "name": "eBay",
+    "region": "海外",
+    "kind": "official",
+    "url": "https://www.ebayinc.com/stories/news/rss/"
+  },
+  {
+    "name": "Retail Technology Innovation Hub",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://retailtechinnovationhub.com/home?format=rss"
+  },
+  {
+    "name": "MarTech",
+    "region": "海外",
+    "kind": "industry",
+    "url": "https://martech.org/feed/"
+  },
+  {
+    "name": "雷峰网",
+    "region": "国内",
+    "kind": "media",
+    "url": "https://www.leiphone.com/feed"
+  }
 ]

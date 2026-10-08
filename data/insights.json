@@ -1,6 +1,6 @@
 [
   {
-    "observation": "stripe.com提供分析 / 观点线索；Finovate提供合作 / 基础设施线索；PYMNTS提供分析 / 观点线索；Retail Technology Innovation Hub提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "stripe.com提供分析 / 观点线索；PYMNTS提供分析 / 观点线索；Finovate提供合作 / 基础设施线索；Retail Technology Innovation Hub提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-payments",
     "title": "代付之前，先把授权做成产品",
     "summary": "推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
@@ -13,7 +13,19 @@
         "signalType": "分析 / 观点",
         "date": "2026-10-02",
         "quote": "See how unified commerce closes the gap—and how real-time inventory visibility, flexible fulfillment, and AI-powered personalization drive revenue, reduce costs, and prepare operations for what’s ahead.",
+        "quoteZh": "看看统一商业是如何弥合差距的 — — 以及实时库存能见度、灵活实现和人工智能驱动的个人化驱动收入、降低成本和为未来行动做准备。",
         "url": "https://stripe.com/it-hr/sessions/2026/retail-rewired-unified-commerce?__s=1ngpkifa1w8cdaucpyke&__FB_PRIVATE_TRACKING__=%7B%22loggedout_browser_id%22%3A%225ddb7afd21b31d2eb1bc31f95c8487f97b235faa%22%7D&__hstc=20629287.c4a577029c49e44b73bd3bee6fa38565.1592956800255.1592956800256.1592956800257.1&__hssc=20629287.1.1592956800258&__hsfp=1427620936privacyprivacy"
+      },
+      {
+        "articleId": "radar-ce4cdfd726cf92df",
+        "title": "AI Agents Turn Permission Into Payments’ New Control Point",
+        "source": "PYMNTS",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-10-07",
+        "quote": "Agentic commerce is creating a new transaction type before the payments industry has fully created the rules for accepting it.",
+        "quoteZh": "代理商业在支付业完全建立接受交易的规则之前,正在创造一种新的交易类型.",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-turn-permission-into-payments-new-control-point/"
       },
       {
         "articleId": "radar-ef81ec7a5e54b041",
@@ -23,17 +35,8 @@
         "signalType": "合作 / 基础设施",
         "date": "2026-10-06",
         "quote": "Product discovery platform Constructor has partnered with Stripe to launch Agentic Checkout , an agentic commerce tool available to retailers that enables both human and agent shoppers to find and buy products via the Link by Stripe digital wallet or other payment methods all within a single location.",
+        "quoteZh": "商品发现平台 Constructor 与 Stripe 合作推出 Agentic Checkout，让消费者与购物智能体在同一界面内发现并购买商品，支持 Link by Stripe 等支付方式。",
         "url": "https://finovate.com/stripe-to-power-constructors-agentic-checkout/"
-      },
-      {
-        "articleId": "radar-c23e7379042a07dd",
-        "title": "Constructor Teams With Stripe to Debut Agentic Checkout Tool",
-        "source": "PYMNTS",
-        "caveats": [],
-        "signalType": "分析 / 观点",
-        "date": "2026-10-05",
-        "quote": "Product discovery platform Constructor has introduced a new Stripe -integrated agentic commerce offering.",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/constructor-teams-with-stripe-to-debut-agentic-checkout-tool/"
       },
       {
         "articleId": "radar-45d898d62d0cca66",
@@ -43,6 +46,7 @@
         "signalType": "合作 / 基础设施",
         "date": "2026-10-05",
         "quote": "Constructor, which powers search and product discovery for retailers including Sephora, The Very Group, Monica Vinader, White Stuff, and Furniture Village, has launched Agentic Checkout, a move that, the company claims, makes it the first to offer Stripe powered checkout directly within an onsite shopping agent.",
+        "quoteZh": "建筑师授权为包括Sephora、The Very Group、Monica Vinader、White Stuff和家具村在内的零售商进行搜索和产品发现,他推出了Agentic Checkout,该公司声称,这是第一个在现场购物代理内直接提供Frede电源的抽查。",
         "url": "https://retailtechinnovationhub.com/home/2026/10/4/constructor-claims-a-first-as-it-launches-agentic-checkout-solution-powered-by-stripe"
       }
     ],
@@ -56,8 +60,8 @@
     ],
     "relatedArticleIds": [
       "radar-6f670eb9ffa2eb69",
+      "radar-ce4cdfd726cf92df",
       "radar-ef81ec7a5e54b041",
-      "radar-c23e7379042a07dd",
       "radar-45d898d62d0cca66"
     ],
     "sourceCount": 4,
@@ -65,7 +69,7 @@
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "56cdc2824b4ac941",
+    "fingerprint": "1045525735078b42",
     "method": "规则辅助研究假设"
   },
   {
@@ -82,6 +86,7 @@
         "signalType": "功能 / 上线",
         "date": "2026-10-02",
         "quote": "OpenAI added a virtual try-on feature to ChatGPT , the company said in a Thursday (Oct.",
+        "quoteZh": "OpenAI 为 ChatGPT 增加了虚拟试穿功能。",
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-adds-virtual-try-on-feature-chatgpt/"
       }
     ],
@@ -101,7 +106,7 @@
     "iterationNote": "近45天 1 篇原文、1 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "a6ce840751507e8a",
+    "fingerprint": "8d11d1ec92a54d8d",
     "method": "规则辅助研究假设"
   },
   {
@@ -118,6 +123,7 @@
         "signalType": "分析 / 观点",
         "date": "2026-10-06",
         "quote": "Merchants are treating agentic commerce as another sales channel that has to work with their existing checkout infrastructure.",
+        "quoteZh": "商家把智能体电商视为新的销售渠道，但它仍须与现有结账基础设施配合。",
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-bring-shoppers-but-merchants-must-close-the-sale/"
       },
       {
@@ -128,6 +134,7 @@
         "signalType": "合作 / 基础设施",
         "date": "2026-09-26",
         "quote": "A new type of agentic infrastructure is emerging to support them, from protocols such as MCP for tool discovery and UCP for checkout to MPP and x402 for machine payments.",
+        "quoteZh": "正在出现一种新型的代理基础设施来支持它们,从用于工具发现的MCP和用于检测的UCP等协议到MPP和用于机器付款的x402.",
         "url": "https://stripe.com/pt-pt/sessions/2026/machine-payments-and-the?__hsfp=358879226&__hssc=235270366.1.1647907200035&__hstc=20629287.c4a577029c49e44b73bd3bee6fa38565.1593043200274.1593043200275.1593043200276.1&__prclt=GJ5tCTvw&__s=1ngpkifa1w8cdaucpyke"
       },
       {
@@ -138,6 +145,7 @@
         "signalType": "分析 / 观点",
         "date": "2026-09-29",
         "quote": "DeepLumen 是一家专注于智能体电商（Agentic Commerce）的 AI 科技公司，也是 M2AI（Marketing to AI）理念的提出者与先行者。",
+        "quoteZh": "DeepLumen 是一家专注于智能体电商（Agentic Commerce）的 AI 科技公司，也是 M2AI（Marketing to AI）理念的提出者与先行者。",
         "url": "https://36kr.com/p/4004240967258249"
       },
       {
@@ -148,6 +156,7 @@
         "signalType": "分析 / 观点",
         "date": "2026-10-01",
         "quote": "Commerce has released two artificial intelligence tools to help merchants make their product catalogs ready for AI discovery.",
+        "quoteZh": "Commerce 发布了两款 AI 工具，帮助商家整理适合被 AI 发现的商品目录。",
         "url": "https://www.digitalcommerce360.com/2026/09/30/commerce-product-catalogs-ai-discovery-enrichment-tools/"
       }
     ],
@@ -170,7 +179,44 @@
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "d0a98715ed82c316",
+    "fingerprint": "d43ed3b32f0e304a",
+    "method": "规则辅助研究假设"
+  },
+  {
+    "observation": "Mastercard提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "id": "evidence-trust",
+    "title": "把“推荐理由”升级成可检查的证据",
+    "summary": "对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+    "evidence": [
+      {
+        "articleId": "radar-b2da2ac773a5973b",
+        "title": "Trust in agentic commerce",
+        "source": "Mastercard",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-09-30",
+        "quote": "As AI agents begin shopping, paying and making decisions on behalf of people and businesses, the biggest challenge is trust, not technology.",
+        "quoteZh": "随着AI代理商开始为人和企业购物,支付和作出决定,最大的挑战在于信任,而不是技术.",
+        "url": "https://www.mastercard.com/global/en/news-and-trends/Insights/2026/mastercard-agentic-commerce-trust-white-paper.html"
+      }
+    ],
+    "counterpoint": "满意度和使用意愿不代表真实购买表现；需要观察错误推荐、广告识别与投诉，不能只看问卷或单次演示。",
+    "experiment": "比较普通推荐与“理由＋证据日期＋风险提示”；同时测决策耗时、事实核验正确率、广告识别率和购后后悔率，避免只优化点击。",
+    "takeaways": [],
+    "keywords": [
+      "证据引用",
+      "推荐可信度",
+      "反向指标"
+    ],
+    "relatedArticleIds": [
+      "radar-b2da2ac773a5973b"
+    ],
+    "sourceCount": 1,
+    "confidence": "待验证假设",
+    "iterationNote": "近45天 1 篇原文、1 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "generatedAt": "2026-10-08",
+    "updatedAt": "2026-10-08",
+    "fingerprint": "103af4d313aea73d",
     "method": "规则辅助研究假设"
   },
   {
@@ -187,6 +233,7 @@
         "signalType": "合作 / 基础设施",
         "date": "2026-09-09",
         "quote": "Instacart has launched an artificial intelligence assistant, Clementine, for grocery shopping support while adding new partners for its existing enterprise AI tool Cart Assistant.",
+        "quoteZh": "Instacart推出人工智能助理Clementine,负责杂货购物支持,同时为其现有的企业AI工具Cart Assoft添加了新的合作伙伴.",
         "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/"
       }
     ],
@@ -206,7 +253,7 @@
     "iterationNote": "近45天 1 篇原文、1 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "c8f74953bc5c37ad",
+    "fingerprint": "1faf65f4df920758",
     "method": "规则辅助研究假设"
   },
   {
@@ -223,6 +270,7 @@
         "signalType": "合作 / 基础设施",
         "date": "2026-10-07",
         "quote": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout.",
+        "quoteZh": "TikTok 计划增加对话式 AI 助手并简化结账，衔接用户发现商品与完成购买的过程。",
         "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/"
       },
       {
@@ -233,6 +281,7 @@
         "signalType": "分析 / 观点",
         "date": "2026-09-29",
         "quote": "For some, shopping is a competitive sport, with consumers strategizing about loyalty points and spending hours comparing every possible option and price.",
+        "quoteZh": "对有些人来说,购物是一种竞争性运动,消费者对忠诚点和花费时间来比较每一种可能的选项和价格进行策略分析.",
         "url": "https://www.mastercard.com/cn/zh/news-and-trends/stories/2026/agentic-commerce-startups.html"
       },
       {
@@ -240,11 +289,12 @@
         "title": "Gap expands AI shopping with Alta Daily and new discovery tools",
         "source": "Digital Commerce 360",
         "caveats": [
-          "Gap did not specify whether they are available through the brands’ websites, mobile apps or …"
+          "Gap没有具体说明它们是否通过品牌网站,移动应用或."
         ],
         "signalType": "功能 / 上线",
         "date": "2026-10-08",
         "quote": "Gap Inc. is pushing artificial intelligence (AI) deeper into how its shoppers discover and style its products.",
+        "quoteZh": "Gap 正将 AI 更深入地应用于商品发现和穿搭搭配环节。",
         "url": "https://www.digitalcommerce360.com/2026/10/07/gap-expands-ai-shopping-with-alta-daily-and-new-discovery-tools/"
       },
       {
@@ -255,6 +305,7 @@
         "signalType": "分析 / 观点",
         "date": "2026-09-18",
         "quote": "至此，淘宝天猫、抖音、拼多多、京东、快手、美团六家平台全部完成AI购物功能的嵌入，AI导购入口之争全面打响。",
+        "quoteZh": "至此，淘宝天猫、抖音、拼多多、京东、快手、美团六家平台全部完成AI购物功能的嵌入，AI导购入口之争全面打响。",
         "url": "https://www.cbndata.com/information/295789"
       }
     ],
@@ -277,7 +328,7 @@
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "e3d380cda4f017ac",
+    "fingerprint": "20ec2f6e324bb194",
     "method": "规则辅助研究假设"
   }
 ]

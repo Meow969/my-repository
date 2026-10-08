@@ -72,6 +72,13 @@ with sync_playwright() as pw:
         assert page.locator('#notePanel').get_attribute('aria-hidden')=='true'
         page.locator('[data-tab="feed"]').click()
         page.locator('.article-card').first.scroll_into_view_if_needed()
+        assert page.locator('.analysis-details').first.get_attribute('open') is not None
+        assert page.locator('.analysis-details > p').first.is_visible()
+        summaries=page.locator('.core-points').all_inner_texts()
+        import re
+        assert summaries and all(re.search('[\u4e00-\u9fff]',text) for text in summaries)
+        page.locator('.analysis-details summary').first.click()
+        assert page.locator('.analysis-details').first.get_attribute('open') is None
         page.locator('.analysis-details summary').first.click()
         page.screenshot(path=f'/tmp/radar-timeline-{label}-card.png',full_page=False)
         assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'),label

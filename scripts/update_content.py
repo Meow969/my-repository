@@ -2150,10 +2150,10 @@ def main() -> None:
     parser.add_argument("--days", type=int, default=45)
     parser.add_argument("--limit", type=int, default=24)
     parser.add_argument("--skip-wechat", action="store_true")
-    parser.add_argument("--max-google-queries", type=int, default=32)
+    parser.add_argument("--max-google-queries", type=int, default=72)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
-    run(args.days, args.limit, min(args.max_google_queries, 32), dry_run=args.dry_run)
+    run(args.days, args.limit, min(args.max_google_queries, 72), dry_run=args.dry_run)
 
 if __name__ == "__main__":
     main()

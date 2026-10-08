@@ -1,15 +1,15 @@
 {
   "siteTitle": "AI购物雷达",
   "subtitle": "回溯一年、每日更新：只保留对 AI C端产品、购物智能体和对话导购有产品启发的信息。",
-  "lastUpdated": "2026-10-08T18:15:29+08:00",
+  "lastUpdated": "2026-10-08T20:58:51+08:00",
   "updateTime": "每日北京时间 11:00 计划运行（GitHub 可能延迟）",
   "selectionRule": "原文可核验优先；分级而非凑数；事实与推演分离；按来源和主题打散。",
-  "latestAdded": 18,
+  "latestAdded": 453,
   "lastInsightUpdated": "2026-10-08",
-  "latestInsightChanged": 0,
+  "latestInsightChanged": 6,
   "lastQualityReview": "2026-09-04T20:12:45+08:00",
   "duplicatesRemoved": 4,
-  "sourceCount": 99,
+  "sourceCount": 266,
   "placeholderRemoved": 3,
   "linkRepair": "2026-09-14: decoded Google News RSS links to original publishers, repaired historical Google Search fallback links, and disabled future Google Search fallbacks for article cards.",
   "brokenLinksRemoved": 3,
@@ -27,21 +27,74 @@
   "yearBackfillNormalized": 138,
   "coverageDays": 61,
   "historyCoverageDays": 61,
-  "articleCount": 159,
+  "articleCount": 612,
   "pipelineVersion": "evidence-v1",
   "analysisMode": "规则辅助研究：证据摘录＋因果机制＋反向解释＋验证实验",
   "sourceHealth": {
-    "configured": 28,
-    "healthy": 23,
-    "failed": 5,
-    "discoveryQueries": 32
+    "configured": 32,
+    "healthy": 28,
+    "failed": 4,
+    "discoveryQueries": 72
   },
   "qualitySummary": {
-    "verified": 142,
-    "watchlist": 100,
-    "rejected": {
-      "off_topic": 2
+    "verified": 591,
+    "watchlist": 441
+  },
+  "lastRunStatus": "ok",
+  "historyBackfill": {
+    "completedAt": "2026-10-08T20:58:51+08:00",
+    "range": [
+      "2025-09",
+      "2026-10"
+    ],
+    "before": {
+      "2025-09": 3,
+      "2025-10": 3,
+      "2025-11": 1,
+      "2025-12": 1,
+      "2026-01": 3,
+      "2026-02": 2,
+      "2026-03": 4,
+      "2026-04": 4,
+      "2026-05": 5,
+      "2026-06": 6,
+      "2026-07": 2,
+      "2026-08": 14,
+      "2026-09": 57,
+      "2026-10": 54
+    },
+    "after": {
+      "2025-09": 36,
+      "2025-10": 38,
+      "2025-11": 28,
+      "2025-12": 32,
+      "2026-01": 43,
+      "2026-02": 30,
+      "2026-03": 41,
+      "2026-04": 24,
+      "2026-05": 48,
+      "2026-06": 44,
+      "2026-07": 29,
+      "2026-08": 51,
+      "2026-09": 93,
+      "2026-10": 75
+    },
+    "beforeCount": 159,
+    "afterCount": 612,
+    "added": 453,
+    "regions": {
+      "海外": 385,
+      "国内": 227
+    },
+    "contentTypes": {
+      "产品案例": 104,
+      "研究报告": 29,
+      "行业分析": 265,
+      "竞品分析": 8,
+      "竞品动态": 165,
+      "咨询洞察": 41
     }
   },
-  "lastRunStatus": "ok"
+  "summaryLanguage": "zh-CN",
+  "summaryMode": "本地神经翻译，重点案例人工校订"
 }

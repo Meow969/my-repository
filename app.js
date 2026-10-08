@@ -26,7 +26,7 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-10-08-tech-timeline-v2';
+const DATA_VERSION = '2026-10-08-cn-archive-v3';
 const ECHO_STAGES = [
   {
     id: 'need',
@@ -159,7 +159,7 @@ function renderFilters() {
   const typeFilter = document.getElementById('typeFilter');
   const categoryFilter = document.getElementById('categoryFilter');
   unique(state.articles.map(a => a.region)).forEach(region => regionFilter.append(new Option(region, region)));
-  unique(state.articles.map(a => a.contentType || a.category)).forEach(type => typeFilter.append(new Option(type, type)));
+  unique(state.articles.flatMap(a => a.contentKinds || [a.contentType || a.category])).forEach(type => typeFilter.append(new Option(type, type)));
   unique(state.articles.map(a => a.category)).forEach(category => categoryFilter.append(new Option(category, category)));
   document.getElementById('searchInput').addEventListener('input', e => {
     state.query = e.target.value.trim().toLowerCase();
@@ -220,6 +220,7 @@ function articleSearchText(article) {
   const related = state.insights.filter(insight => (article.relatedInsightIds || []).includes(insight.id));
   return [
     article.title,
+    ...(article.summaryZh || []),
     article.source,
     article.region,
     article.contentType,
@@ -280,7 +281,7 @@ function filteredArticles() {
     (!state.query || semanticScore(articleSearchText(article), state.query) > 0)
     && (state.query || !state.month || article.date.startsWith(state.month))
     && (state.region === 'all' || article.region === state.region)
-    && (state.contentType === 'all' || (article.contentType || article.category) === state.contentType)
+    && (state.contentType === 'all' || (article.contentKinds || [article.contentType || article.category]).includes(state.contentType))
     && (state.category === 'all' || article.category === state.category)
     && (state.quality === 'all' || article.readingTier === state.quality)
     && (!state.savedOnly || state.bookmarks.includes(article.id))
@@ -311,14 +312,14 @@ function renderArticles(articles) {
 function renderArticle(article) {
   const analysis = article.analysis || {};
   const saved = state.bookmarks.includes(article.id);
-  const points = (Array.isArray(article.corePoint) ? article.corePoint : [article.corePoint]).filter(Boolean);
+  const points = (article.summaryZh || []).filter(Boolean);
   return `<article class="article-card" id="article-${escapeHtml(article.id)}">
     <div class="article-head"><a class="article-title" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a><button class="bookmark-btn ${saved ? 'saved' : ''}" data-bookmark="${escapeHtml(article.id)}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '收藏'}">${saved ? '★' : '☆'}</button></div>
-    <div class="article-byline"><span>${escapeHtml(article.source)}</span><span>${escapeHtml(article.region)}</span><span>${escapeHtml(article.category || article.contentType)}</span><span class="evidence-badge ${article.evidenceLevel === 'fulltext' ? 'verified' : ''}" title="${escapeHtml(article.evidenceLabel || '历史线索')}">${article.evidenceLevel === 'fulltext' ? '原文' : '待核验'}</span></div>
-    <ul class="core-points">${points.slice(0,2).map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
-    <details class="analysis-details"><summary>产品洞察 <span>· 研究假设</span></summary>
-      <p>${escapeHtml(analysis.implication || '')}</p><h4>反向解释</h4><p>${escapeHtml(analysis.counterpoint || '')}</p><h4>验证思路</h4><p>${escapeHtml(analysis.experiment || '')}</p>
-      ${article.sourceCaveats?.length ? `<h4>原文限制</h4><p>${article.sourceCaveats.map(escapeHtml).join('<br>')}</p>` : ''}
+    <div class="article-byline"><span>${escapeHtml(article.source)}</span><span>${escapeHtml(article.region)}</span><span>${escapeHtml(article.contentType || article.category)}</span><span class="evidence-badge ${article.evidenceLevel === 'fulltext' ? 'verified' : ''}" title="${escapeHtml(article.evidenceLabel || '历史线索')}">${article.evidenceLevel === 'fulltext' ? '原文' : '待核验'}</span></div>
+    <ul class="core-points" lang="zh-CN" title="关键简介 · 原文要点中文转述">${points.slice(0,2).map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
+    <details class="analysis-details" open><summary>产品洞察 <span>· 研究假设</span></summary>
+      <p>${escapeHtml((analysis.implication || '').replace(/^本条以“.*?”为观察对象。/, ''))}</p><h4>反向解释</h4><p>${escapeHtml(analysis.counterpoint || '')}</p><h4>验证思路</h4><p>${escapeHtml(analysis.experiment || '')}</p>
+      ${article.sourceCaveats?.length ? `<h4>原文限制</h4><p>${(article.sourceCaveatsZh || article.sourceCaveats).map(escapeHtml).join('<br>')}</p>` : ''}
       <small>规则辅助推演，非原文结论 · ${escapeHtml(article.dateBasis || '历史日期')}${article.checkedAt ? ' · '+escapeHtml(article.checkedAt.slice(0,10))+' 核验' : ''}</small>
     </details>
     ${article.relatedCoverage?.length ? `<details class="coverage-details"><summary>更多报道 · ${article.relatedCoverage.length}</summary>${renderSourceLinks(article.relatedCoverage, '相关报道')}</details>` : ''}
@@ -455,7 +456,7 @@ function renderInsights() {
   document.getElementById('insightGrid').innerHTML = visibleInsights.map(insight => `<article class="insight-card">
     <span class="system-badge">${state.showLegacy ? '历史灵感 · 旧版未核验' : '研究假设 · 待验证'} · ${escapeHtml(insight.updatedAt || insight.generatedAt || '')}</span>
     <h3>${escapeHtml(insight.title)}</h3><p>${escapeHtml(insight.summary)}</p>${insight.observation ? `<p class="method-note">${escapeHtml(insight.observation)}</p>` : ''}
-    ${insight.evidence ? `<div class="insight-evidence"><h4>从哪些事实出发</h4>${insight.evidence.map(e => `<blockquote><p>${escapeHtml(e.quote)}</p>${e.caveats?.length ? `<p class="source-caveat">原文限制：${escapeHtml(e.caveats[0])}</p>` : ''}<a href="${safeUrl(e.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.source)} · ${escapeHtml(e.date)} · ${escapeHtml(e.signalType || '原文证据')} ↗</a></blockquote>`).join('')}</div>` : ''}
+    ${insight.evidence ? `<div class="insight-evidence"><h4>从哪些事实出发</h4>${insight.evidence.map(e => `<blockquote><p>${escapeHtml(e.quoteZh || e.quote)}</p>${e.caveats?.length ? `<p class="source-caveat">原文限制：${escapeHtml(e.caveats[0])}</p>` : ''}<a href="${safeUrl(e.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.source)} · ${escapeHtml(e.date)} · ${escapeHtml(e.signalType || '原文证据')} ↗</a></blockquote>`).join('')}</div>` : ''}
     ${insight.iterationNote ? `<p class="iteration-note">${escapeHtml(insight.iterationNote)}</p>` : ''}
     ${insight.counterpoint ? `<h4>反向解释</h4><p>${escapeHtml(insight.counterpoint)}</p><h4>下一步实验</h4><p>${escapeHtml(insight.experiment)}</p>` : ''}
     <div class="meta">${(insight.keywords || []).map(word => `<span class="pill">${escapeHtml(word)}</span>`).join('')}</div>

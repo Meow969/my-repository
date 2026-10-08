@@ -18,7 +18,7 @@ concurrency:
 
 jobs:
   update-and-deploy:
-    timeout-minutes: 25
+    timeout-minutes: 40
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -37,10 +37,16 @@ jobs:
         run: |
           python -m unittest discover -s tests -v
           node --check app.js
+      - name: Cache local Chinese translation model
+        if: github.event_name != 'push'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ai-shopping-radar/opus-en-zh-1.9
+          key: opus-en-zh-433e7c4-v1
       - name: Discover, verify and refresh research
         if: github.event_name != 'push'
-        run: python scripts/evidence_pipeline.py --days 45 --limit 24 --max-google-queries 32
-        timeout-minutes: 16
+        run: python scripts/evidence_pipeline.py --days 45 --limit 32 --max-google-queries 72
+        timeout-minutes: 28
       - name: Validate publication data
         run: python scripts/validate_data.py
       - name: Commit verified data updates

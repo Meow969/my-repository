@@ -24,27 +24,11 @@ TZ = dt.timezone(dt.timedelta(hours=8))
 VERSION = 'evidence-v1'
 SOURCES = json.loads((Path(__file__).with_name('radar_sources.json')).read_text())
 KINDS = {'official':'官方一手', 'research':'研究资料', 'industry':'行业媒体', 'media':'综合媒体', 'analysis':'观点分析', 'press_release':'新闻通稿', 'unknown':'待核验来源'}
-QUERIES = [
- ('国内','淘宝 千问 AI购物'), ('海外','agentic commerce checkout'),
- ('国内','京东 京言 AI购'), ('海外','Amazon Rufus shopping'),
- ('国内','美团 小美 问小团'), ('海外','Walmart Sparky shopping'),
- ('国内','小红书 AI搜索 购物'), ('海外','Google AI shopping'),
- ('国内','抖音 豆包 AI电商'), ('海外','ChatGPT shopping merchant'),
- ('国内','得物 AI试穿'), ('海外','AI shopping consumer survey conversion'),
- ('国内','淘宝 AI试衣 退货'), ('海外','agentic payments fraud authorization'),
- ('国内','AI导购 用户体验 实测'), ('海外','AI shopping assistant failure trust'),
- ('国内','阿里 AI商家 经营'), ('海外','Shopify agentic commerce'),
- ('国内','AI购物 研究 转化率'), ('海外','Visa Mastercard Stripe agent commerce'),
- ('国内','拼多多 AI 电商'), ('海外','Perplexity shopping checkout'),
- ('国内','AI导购 隐私 消费者'), ('海外','AI retail returns personalization'),
- ('国内','AI电商 site:alibabagroup.com'), ('海外','AI shopping site:corporate.walmart.com'),
- ('国内','京东 AI site:jdcorporateblog.com'), ('海外','AI shopping site:aboutamazon.com'),
- ('国内','AI导购 site:meituan.com'), ('海外','commerce site:stripe.com'),
- ('国内','AI购物 site:cbndata.com'), ('海外','shopping agent benchmark research'),
-]
+QUERIES = [(x['region'],x['query']) for x in json.loads(Path(__file__).with_name('radar_queries.json').read_text())]
+
 AI = r'(?<![a-z])ai(?![a-z])|artificial intelligence|agentic|chatgpt|rufus|sparky|perplexity|智能体|人工智能|大模型|千问|豆包|京言|小美|问小团'
 COMMERCE = r'shopping|commerce|retail|merchant|checkout|payment|try.on|product discovery|购物|电商|零售|导购|商家|消费者购物|试穿|试衣|外卖|买菜|支付|商品|种草'
-NOISE = r'cookie|subscribe|sign up|privacy policy|all rights reserved|广告合作|下载.*app|免责声明|版权声明|登录后|点击关注'
+NOISE = r'cookie|subscribe|sign up|privacy policy|all rights reserved|广告合作|下载.*app|免责声明|版权声明|登录后|点击关注|Cohead of|GTM Head|Head of AMER|Watch more:|share this article|Wise Software Glitch Leads|Coinbase Looks to Cash|Let us know what you think|[\w.+-]+@[\w.-]+\.[a-z]{2,}|For more information|Follow us|Read more:|Learn more:|Scroll down|Keep scrolling|Shop now|Streaming and digital subscriptions|Telecommunications Leader'
 
 # Each lens has a distinct causal mechanism, counter-case and measurable experiment.
 LENSES = [
@@ -144,7 +128,7 @@ def get(url):
 
 def related(title, excerpt=''):
     # Shopping must be central, not a footer mention or generic 'consumer AI'.
-    if re.search(r'B2B payments|trade shows|media landscape|ARR|股价|美股|市值|shares (?:climb|rise|fall)|stock price|bullish analyst|融资|催收|座舱|OTA|Token|世界模型|new ecommerce tools|copywriter grades',title,re.I):return False
+    if re.search(r'\bB2B\b|SPAC Listing|stock market debut|retail bank|corporate treasury|transaction banks|digital currencies|landing page|digital marketing.*\bDMEAI\b|manage store portfolios|暑期实践|学子.*(?:获|奖)|大赛.*(?:获|奖)|校企合作|trade shows|media landscape|ARR|股价|美股|市值|shares (?:climb|rise|fall)|stock price|bullish analyst|融资|催收|座舱|OTA|Token|世界模型|new ecommerce tools|copywriter grades',title,re.I):return False
     if re.search(AI,title,re.I) and re.search(COMMERCE,title,re.I):return True
     if re.search(COMMERCE,title,re.I) and re.search(AI,excerpt[:1800],re.I):return True
     return bool(re.search(r'Rufus|Sparky|京言|AI购|小美|问小团',title,re.I))
@@ -196,7 +180,8 @@ def publisher_kind(url):
     host=(urllib.parse.urlsplit(url).hostname or '').removeprefix('www.')
     matches=[s for s in SOURCES if host==(urllib.parse.urlsplit(s['url']).hostname or '').removeprefix('www.')]
     if matches:return matches[0]['kind']
-    if any(host==d or host.endswith('.'+d) for d in ['shopify.com','stripe.com','visa.com','mastercard.com','paypal.com','alibabagroup.com','jdcorporateblog.com','meituan.com','instacart.com','perplexity.ai','newsroom.pinterest.com']):return 'official'
+    if any(host==d or host.endswith('.'+d) for d in ['mckinsey.com','bcg.com','bain.com','deloitte.com','accenture.com','pwc.com','kpmg.com','capgemini.com','forrester.com','gartner.com','emarketer.com','iresearch.com.cn','iimedia.cn','questmobile.com.cn','cbndata.com']):return 'research'
+    if any(host==d or host.endswith('.'+d) for d in ['shopify.com','stripe.com','visa.com','mastercard.com','paypal.com','alibabagroup.com','jdcorporateblog.com','meituan.com','instacart.com','perplexity.ai','newsroom.pinterest.com','ebayinc.com','etsy.com','zalando.com','adobe.com','salesforce.com','alibabacloud.com','lazada.com','shopee.com']):return 'official'
     if any(host==d or host.endswith('.'+d) for d in ['prnewswire.com','businesswire.com','globenewswire.com']):return 'press_release'
     if any(host==d or host.endswith('.'+d) for d in ['retail-systems.com','retailtouchpoints.com','chainstoreage.com','retailtechinnovationhub.com','retailtechnology.co.uk','cnbc.com','reuters.com','cbndata.com','cgtn.com','finextra.com','finovate.com','cgtmag.com','pymnts.com']):return 'industry'
     if host.endswith(('arxiv.org','stanford.edu','mit.edu')):return 'research'
@@ -206,10 +191,16 @@ def title_key(s): return re.sub(r'[^\w\u4e00-\u9fff]','',s.lower())
 
 def duplicate(a,b):
     if public_url(a.get('url','')).rstrip('/') == public_url(b.get('url','')).rstrip('/') and a.get('url'):return True
+    left,right=urllib.parse.urlsplit(a.get('url','')),urllib.parse.urlsplit(b.get('url',''))
+    if all((u.hostname or '').endswith('36kr.com') for u in (left,right)):
+        ids=[re.search(r'/p/(\d+)',u.path) for u in (left,right)]
+        if all(ids) and ids[0].group(1)==ids[1].group(1):return True
     x,y=title_key(a.get('title','')),title_key(b.get('title',''))
     if x and x==y:return True
     # No broad 'same platform + same day' or template-insight dedupe.
-    return min(len(x),len(y))>22 and SequenceMatcher(None,x,y).ratio()>.9
+    if min(len(x),len(y))<=22 or 2*min(len(x),len(y))/(len(x)+len(y))<=.9:return False
+    matcher=SequenceMatcher(None,x,y)
+    return matcher.quick_ratio()>.9 and matcher.ratio()>.9
 
 def extract_page(body, url):
     soup=BeautifulSoup(body,'html.parser')
@@ -237,6 +228,8 @@ def extract_page(body, url):
     return dict(published=published,paragraphs=list(dict.fromkeys(paras))[:80],description=text(desc))
 
 def sentences(content):
+    content=re.sub(r'^Get [^.!?]{0,150}? in your Inbox\s*', '', content, flags=re.I)
+    content=re.sub(r'^By [A-Z][^.!?]{0,180}? (?=(?:If|As|When|In|The)\b)', '', content)
     content=re.sub(r'\b(Inc|Corp|Ltd|Mr|Ms|Dr)\.',r'\1∯',content)
     s=re.split(r'(?<=[。！？])\s*|(?<=[.!?][”"])\s+(?=[A-Z0-9“"(])|(?<=[.!?])\s+(?=[A-Z0-9“"(])',content)
     return [v.replace('∯','.').strip() for v in s if 35<=len(v.strip())<=650 and not re.search(NOISE+r'|The post .*appeared first|\[.…*\]',v,re.I)]
@@ -300,9 +293,22 @@ def same_event(a,b):
     sa,sb=sig(a['title']),sig(b['title'])
     return bool(sa and sa==sb)
 
+def content_kinds(a):
+    title=a['title']; categories=[]
+    if a.get('sourceKind')=='research':categories.append('研究报告')
+    if re.search(r'咨询|麦肯锡|贝恩|德勤|普华永道|mckinsey|bcg|bain|deloitte|accenture|pwc|kpmg|capgemini|forrester|gartner',a.get('url','')+' '+a.get('source',''),re.I):categories.insert(0,'咨询洞察')
+    if re.search(r'研究|报告|调研|调查|survey|research|study|report|benchmark',title,re.I):categories.append('研究报告')
+    if re.search(r'竞品|对比|体验|实测|review|comparison|hands.on|versus',title,re.I):categories.append('竞品分析')
+    if re.search(r'淘宝|京东|美团|抖音|豆包|小红书|得物|拼多多|阿里|唯品会|amazon|rufus|walmart|sparky|chatgpt|google|perplexity|shopify|instacart|zalando|pinterest|shopee|lazada|ebay|\bgap\b|constructor|myprotein|realreal',title,re.I):categories.append('竞品动态')
+    if re.search(r'案例|case study|launch|roll|introduc|add|expand|unveil|上线|推出|发布',title,re.I):categories.append('产品案例')
+    if not categories:categories.append('行业分析' if a.get('sourceKind') not in ('official',) else '产品案例')
+    priority=['咨询洞察','研究报告','竞品分析','产品案例','竞品动态','行业分析']
+    return sorted(set(categories),key=lambda label:priority.index(label))
+
 def enrich(raw, verify=True):
     a=dict(raw); a['url']=public_url(a.get('url',''))
     if not a['url']: return None,'unsafe_url'
+    if (urllib.parse.urlsplit(a['url']).hostname or '')=='rise.bcg.com':return None,'training_page'
     if 'news.google.com' in a['url']:
         # Reuse the existing publisher-link decoder, never publish search placeholders.
         from update_content import decode_google_news_url,resolve_direct_url_from_news_search
@@ -368,6 +374,8 @@ def enrich(raw, verify=True):
     if registered:a['source']=registered['name']
     a['title']=re.sub(r'\s+[-–—]\s+(?:'+re.escape(a['source'])+'|'+re.escape(a['publisher'])+r')$','',a['title']).strip()
     if a['source'].startswith('发现 · '):a['source']=a['publisher']
+    a['contentKinds']=content_kinds(a)
+    a['contentType']=a['contentKinds'][0]
     return a,''
 
 def diverse(items,limit,per_source=4):
@@ -389,7 +397,7 @@ def make_insights(articles,previous):
         group=diverse(group,4,2)
         if not group:continue
         iid='evidence-'+lens['id']; pubs={a.get('publisher',a['source']) for a in group}
-        evidence=[dict(articleId=a['id'],title=a['title'],source=a['source'],caveats=a.get('sourceCaveats',[]),signalType=a.get('signalType','产品观察'),date=a['date'],quote=a['corePoint'][0],url=a['url']) for a in group]
+        evidence=[dict(articleId=a['id'],title=a['title'],source=a['source'],caveats=a.get('sourceCaveatsZh') or a.get('sourceCaveats',[]),signalType=a.get('signalType','产品观察'),date=a['date'],quote=a['corePoint'][0],quoteZh=(a.get('summaryZh') or a['corePoint'])[0],url=a['url']) for a in group]
         fingerprint=hashlib.sha256(json.dumps(evidence,sort_keys=True).encode()).hexdigest()[:16]
         prev=old.get(iid,{})
         contrast='；'.join(f"{a['source']}提供{a.get('signalType','产品观察')}线索" for a in group)
@@ -446,7 +454,8 @@ def build_reports(articles):
             insight=MONTH_ANGLES[themes[0]][2] if themes else '',updatedAt=now().date().isoformat()))
     return reports
 
-def run(days=45,limit=24,max_queries=32,recheck=False,dry_run=False):
+def run(days=45,limit=24,max_queries=None,recheck=False,dry_run=False):
+    max_queries=len(QUERIES) if max_queries is None else max_queries
     started=now().isoformat(timespec='seconds'); cutoff=(now().date()-dt.timedelta(days=days)).isoformat()
     existing=load('articles.json',[]); previous=load('insights.json',[])
     sources=list(SOURCES)
@@ -473,9 +482,9 @@ def run(days=45,limit=24,max_queries=32,recheck=False,dry_run=False):
     bucket=Counter();to_fetch=[]
     for a in unique:
         key=a['source'];
-        if bucket[key]>=8:continue
+        if bucket[key]>=6:continue
         bucket[key]+=1;to_fetch.append(a)
-        if len(to_fetch)>=100:break
+        if len(to_fetch)>=160:break
     preserved=[]; refresh=[]
     for a in existing:
         if recheck or a.get('pipelineVersion')!=VERSION:refresh.append(a)
@@ -503,6 +512,13 @@ def run(days=45,limit=24,max_queries=32,recheck=False,dry_run=False):
     merged.sort(key=lambda a:(a['date'],a.get('valueScore',0)),reverse=True)
     if not merged:raise RuntimeError('质量处理后数据为空；拒绝覆盖现有内容')
     selected=[a for a in merged if a['id'] not in old_ids]
+    from localize_summaries import localize_articles
+    translation_candidates={a['id'] for a in merged}
+    merged=localize_articles(merged,strict=False)
+    kept_ids={a['id'] for a in merged}
+    merged.extend(a for a in existing if a['id'] in translation_candidates and a['id'] not in kept_ids and a.get('summaryZh'))
+    merged.sort(key=lambda a:(a['date'],a.get('valueScore',0)),reverse=True)
+    selected=[a for a in merged if a['id'] not in old_ids]
     insights=make_insights(merged,previous);reports=build_reports(merged)
     changed=sum(next((x.get('fingerprint') for x in previous if x['id']==i['id']),None)!=i['fingerprint'] for i in insights)
     digest_top=diverse([a for a in merged if a['date']>=(now().date()-dt.timedelta(days=14)).isoformat() and a.get('readingTier')=='精选'],5,2)
@@ -517,7 +533,7 @@ def run(days=45,limit=24,max_queries=32,recheck=False,dry_run=False):
     return selected
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--days',type=int,default=45);p.add_argument('--limit',type=int,default=24);p.add_argument('--max-google-queries',type=int,default=32);p.add_argument('--recheck',action='store_true');p.add_argument('--dry-run',action='store_true');p.add_argument('--skip-wechat',action='store_true',help='Compatibility: ephemeral WeChat links are never collected')
+    p=argparse.ArgumentParser();p.add_argument('--days',type=int,default=45);p.add_argument('--limit',type=int,default=24);p.add_argument('--max-google-queries',type=int,default=len(QUERIES));p.add_argument('--recheck',action='store_true');p.add_argument('--dry-run',action='store_true');p.add_argument('--skip-wechat',action='store_true',help='Compatibility: ephemeral WeChat links are never collected')
     args=p.parse_args()
     if not 1<=args.days<=366 or not 0<=args.max_google_queries<=len(QUERIES) or not 1<=args.limit<=100:p.error('参数超出安全范围')
     run(args.days,args.limit,args.max_google_queries,args.recheck,args.dry_run)

@@ -1,0 +1,133 @@
+{
+  "838c255aec7a2b1fe8e32c7aa1301f9d9a2da1a90774f549c777f0744281fbc2": {
+    "articleId": "radar-3feae84bb92744a4",
+    "summaryZh": [
+      "Gap 正将 AI 更深入地应用于商品发现和穿搭搭配环节。",
+      "Gap 还宣布与 Alta Daily 合作，推出线上穿搭体验。"
+    ]
+  },
+  "f2adc402fa9229db606268d49891be000b3bc3f25f2ccbd9a0f181e9fbe223db": {
+    "articleId": "radar-90923df83ec2925c",
+    "summaryZh": [
+      "TikTok 计划增加对话式 AI 助手并简化结账，衔接用户发现商品与完成购买的过程。",
+      "平台希望进一步强化商品发现能力，让用户更容易在这一渠道完成购买。"
+    ]
+  },
+  "b29b04424da6acb36bc6e1d5b0f1e1c07e443b6bdfea2f288c342786d8aa9233": {
+    "articleId": "radar-134ac2bfbdc84ddc",
+    "summaryZh": [
+      "The Very Group 在 Very 和 Littlewoods 网站部署了基于智能体 AI 的平台，以提供更个性化的购物体验。",
+      "这项部署与 AI 个性化服务商 Made With Intent 合作完成。"
+    ]
+  },
+  "d8f694377d02d2ed4d75d9dcbe7155fb5f2e9b7f75435a171aaa38cb9ceb760b": {
+    "articleId": "radar-e3b6ecfc1f1978c7",
+    "summaryZh": [
+      "TikTok 推出了应用内结账方案和 AI 购物助手。",
+      "Shopping Assistant 与 Buy Direct 将 AI 辅助带到商品发现和购买环节，用户可以直接在广告场景中提问、获取商品信息。"
+    ]
+  },
+  "c0d1b200da8e4b5f85dc982d5bb6e220dcb016460ed9895510187b56c8090106": {
+    "articleId": "radar-69f57827c201cd76",
+    "summaryZh": [
+      "商家把智能体电商视为新的销售渠道，但它仍须与现有结账基础设施配合。",
+      "Visa 产品负责人表示，这个渠道同样需要处理支付、欺诈防控、会员权益、退货和客户服务。"
+    ]
+  },
+  "5083cf9edf6022d5a08f95cb22f8122cc8ba8ec322b608bb3be8ef608c99933f": {
+    "articleId": "radar-ef81ec7a5e54b041",
+    "summaryZh": [
+      "商品发现平台 Constructor 与 Stripe 合作推出 Agentic Checkout，让消费者与购物智能体在同一界面内发现并购买商品，支持 Link by Stripe 等支付方式。",
+      "现有 Constructor 客户可通过更新其界面组件库接入 Stripe 提供的结账能力。"
+    ]
+  },
+  "fded449fec2dba7032cb4fc5d0528c2dc1e32ac8030271817586d2296181203d": {
+    "articleId": "radar-8a108d42cca376cd",
+    "summaryZh": [
+      "不同零售商正在划定各自允许 AI 智能体访问和操作的边界。",
+      "这种差异具体体现在：购物智能体能在零售商网站上执行到哪一步。"
+    ]
+  },
+  "6305a05e72ba518d7b8c6dac6ee4aa9fe1b1264ccade591f6129e5a6bf471ade": {
+    "articleId": "radar-9082a8c36ee9a201",
+    "summaryZh": [
+      "这份 Stripe 视频资料邀请智能体电商平台分享观点，讨论商品发现、品牌呈现和结账体验如何变化。"
+    ]
+  },
+  "73f7c25075b2efcdcb81b9411a995aea8ffdfb31707f75c0565f609c0151fe2e": {
+    "articleId": "radar-c23e7379042a07dd",
+    "summaryZh": [
+      "Constructor 推出了集成 Stripe 的智能体电商方案。",
+      "据发布方介绍，用户可在零售网站或应用内找商品、提问、获取个性化推荐并调整选择，然后完成结账，无须离开智能体交互流程。"
+    ]
+  },
+  "bfa97fa1d7aba5f03f1b9e205c254c7b1c1c7733d16b9e4a607a536479bdfd58": {
+    "articleId": "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+    "summaryZh": [
+      "OpenAI 为 ChatGPT 增加了虚拟试穿功能。",
+      "用户可以上传服饰或配件图片并请求生成试穿图；参考照片可以保留供后续试穿使用。"
+    ]
+  },
+  "96485339c304be6ef37c2d2184255b63dc624d7bed084b3c19e7e6cd375211dc": {
+    "articleId": "radar-586b555be0157da2",
+    "summaryZh": [
+      "文章认为，智能体电商正在形成多层协议体系，而不只是一场单一标准之争。",
+      "文章列举了 OpenAI 与 Stripe 的 ACP、Visa 的 TAP、Mastercard 的 Agent Pay 等方案，提示商家需要厘清各层协议的职责。"
+    ]
+  },
+  "21c261277d4f519cb61ff38fe609ca9b0bd88c20aaa6ed413545c7be1b1b52ea": {
+    "articleId": "radar-c6e457f74d64996f",
+    "summaryZh": [
+      "Albertsons 正扩大与 OpenAI 的合作，以改善零售购物体验。",
+      "公司数字客户体验负责人将此描述为用 AI 减少购物阻力、让日常采购更便捷的一项实践。"
+    ]
+  },
+  "906ddb98c65743e48f3cadde895a79b9124d4272441f02cc5f70c8f91f7be004": {
+    "articleId": "radar-dc65fee893e48ad7",
+    "summaryZh": [
+      "Stripe 的入门指南将智能体电商转化为 AI 平台可以着手接入的步骤。",
+      "指南按不同平台用例介绍 Stripe 的智能体电商方案。"
+    ]
+  },
+  "2f77e649504eff85874f78af61ef08e3a5f6bb6ba4fe205927e951f6fa4cb811": {
+    "articleId": "radar-c3c808e105b43ecc",
+    "summaryZh": [
+      "早期数据提示，AI 辅助购物有可能减少退货，但这还不是确定结论。",
+      "如果更完整的商品信息能帮助助手推荐更合适的商品，商家可能同时获得成交和较低的退货成本。"
+    ]
+  },
+  "cfc3fa2524f3352bba8006c993e48489519b0c21eb3356c4bb5a16b04c7528d1": {
+    "articleId": "radar-7d6e904671a221e3",
+    "summaryZh": [
+      "Commerce 发布了两款 AI 工具，帮助商家整理适合被 AI 发现的商品目录。",
+      "这些工具的重点是准备商品数据，使其能够用于智能体的商品发现环节。"
+    ]
+  },
+  "ead799ead2cd7bdf81ba632f09ffb50002b5fdcefb1ebacdb6674e7c5f04480b": {
+    "articleId": "radar-f73552d1dde94d3c",
+    "summaryZh": [
+      "Newegg 推出对话式 AI 购物体验，让用户在同一流程内从表达想法走向加入购物车。",
+      "Newegg 将助手定位为有经验的科技产品朋友：帮助梳理选择，并从最初提问开始持续辅助。"
+    ]
+  },
+  "2f862e70f06906d754c44ea49e7217d6467123706d40494b6968cebe75c26d86": {
+    "articleId": "radar-7df3de83eff682da",
+    "summaryZh": [
+      "运动营养品牌 Myprotein 正试点对话式 AI 购物工具。",
+      "据 THG 提供的数据，使用该助手的转化率达到网站平均水平的 8 倍，平均订单金额提高了 20.8%；这是发布方报告的数据。"
+    ]
+  },
+  "767688530ef13ed16cf168bbdde26275ef7405601843bfdd2257cc59d2fbde77": {
+    "articleId": "daily-2026-06-27-ca12d684099abd",
+    "summaryZh": [
+      "Newegg 于 2026 年 6 月 26 日上线完整的对话式 AI 购物助手；装机和电子产品消费者可用自然语言表达需求，并通过持续对话调整候选，无须重新搜索。"
+    ]
+  },
+  "4ae81a98f7ae01a46774a251e2c7b62085ca64528771b4bed0977a0fcbee0f07": {
+    "articleId": "radar-3911df558b17ad9e",
+    "summaryZh": [
+      "Newegg 宣布在其网站推出新的对话式 AI 购物体验。",
+      "该功能已在 newegg.com/ai 上线，旨在让消费者通过对话从购物想法推进到购物车。"
+    ]
+  }
+}
