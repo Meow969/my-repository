@@ -1,15 +1,15 @@
 {
   "siteTitle": "AI购物雷达",
   "subtitle": "回溯一年、每日更新：只保留对 AI C端产品、购物智能体和对话导购有产品启发的信息。",
-  "lastUpdated": "2026-10-08T17:54:31+08:00",
-  "updateTime": "每天 11:00（Asia/Shanghai）",
-  "selectionRule": "只收录能改变产品判断的信息：入口迁移、交易闭环、用户信任、商家接入、协议生态、品类策略。过滤泛AI新闻、重复通稿和营销软文。",
-  "latestAdded": 6,
+  "lastUpdated": "2026-10-08T18:09:35+08:00",
+  "updateTime": "每日北京时间 11:00 计划运行（GitHub 可能延迟）",
+  "selectionRule": "原文可核验优先；分级而非凑数；事实与推演分离；按来源和主题打散。",
+  "latestAdded": 16,
   "lastInsightUpdated": "2026-10-08",
-  "latestInsightChanged": 93,
+  "latestInsightChanged": 5,
   "lastQualityReview": "2026-09-04T20:12:45+08:00",
-  "duplicatesRemoved": 6,
-  "sourceCount": 39,
+  "duplicatesRemoved": 4,
+  "sourceCount": 87,
   "placeholderRemoved": 3,
   "linkRepair": "2026-09-14: decoded Google News RSS links to original publishers, repaired historical Google Search fallback links, and disabled future Google Search fallbacks for article cards.",
   "brokenLinksRemoved": 3,
@@ -27,5 +27,21 @@
   "yearBackfillNormalized": 138,
   "coverageDays": 61,
   "historyCoverageDays": 61,
-  "articleCount": 73
+  "articleCount": 141,
+  "pipelineVersion": "evidence-v1",
+  "analysisMode": "规则辅助研究：证据摘录＋因果机制＋反向解释＋验证实验",
+  "sourceHealth": {
+    "configured": 28,
+    "healthy": 24,
+    "failed": 4,
+    "discoveryQueries": 32
+  },
+  "qualitySummary": {
+    "verified": 124,
+    "watchlist": 84,
+    "rejected": {
+      "off_topic": 2
+    }
+  },
+  "lastRunStatus": "ok"
 }

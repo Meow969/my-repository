@@ -1,74 +1,50 @@
-# AI购物雷达
+# Meow 的 AI 购物雷达 · Evidence edition
 
-一个持续更新的网站，用于沉淀过去一年及每日新增的国内外 AI C 端产品、购物、导购、购物智能体和 Agentic Commerce 高价值信息。
+在线网站：https://meow969.github.io/my-repository/
 
-## 本地查看
+## 每日自动更新
 
-```bash
-cd /Users/yangmengyao.20/my_project/ai-shopping-radar
-./scripts/serve.sh
+GitHub Actions `.github/workflows/daily-update.yml` 每天 **北京时间 11:00** 计划执行：发现 → 提取原文 → 分级筛选 → 主题研究假设 → 校验 → 自动提交 → GitHub Pages 发布。GitHub 的调度可能延迟，不承诺整点完成。无需本机在线，也无需模型密钥。`workflow_dispatch` 可立即手动执行；推送代码只测试和发布，不重复采集。
+
+## 信息质量改进
+
+- 28 个可配置直连源：官方发布、行业媒体、综合媒体、研究资料、观点分析；另有32组中英文发现查询。来源的**实际可用数量**见网站「来源与方法」，不是把配置数当成成功数。
+- RSS/Atom命名空间兼容，保留真正发布日期；sitemap的lastmod不当作发布时间，缺失/未来日期不制造今日新闻。
+- 提取原文句子并保留出处；原文、摘要、仅标题历史线索分级。新收录不接受仅标题。完整度分数不是事实正确概率。
+- URL/标题严格去重，不因“同平台＋同一天”或相同模板洞察删除不同事件。精选按发布域名和主题打散。
+- 每主题一张研究卡：原文证据、机制、反向解释、实验。**目前为规则辅助研究，不是大模型全文精读；假设不是已证实事实。** 官方发布和多篇转载也不是独立验证。
+- 既有灵感保存在 `data/legacy_insights.json`，可从回声打开；迁移前文章也保留。浏览器笔记存储键未更改，支持导出笔记与收藏。
+- 无新增时不编造趋势；全部来源故障时失败退出，不覆盖已发布数据。网站超过48小时未更新会显示提醒。
+
+## 本地运行
+
+```sh
+python3 -m venv .venv
+.venv/bin/pip install -r scripts/requirements.txt
+.venv/bin/python -m http.server 8788
 ```
 
-打开：`http://localhost:8787`
+打开 http://localhost:8788 。GitHub Pages不支持服务端笔记搜索，沿用原有站内匹配/外部搜索兜底。笔记只保存在当前浏览器，请定期导出。
 
-推荐用上面的本地服务；它同时支持“记笔记”的联网搜索接口。
+## 手动更新与检查
 
-## 数据结构
-
-- `data/articles.json`：每日精选信息流。
-- `data/insights.json`：跨文章沉淀后的 AI 导购产品回声。
-- `data/monthly_reports.json`：按月沉淀的极简月报和当月 Top 信息。
-- `data/meta.json`：更新时间、站点说明、筛选规则。
-
-每条信息包含：标题、链接、关键词标签、核心观点、深入洞察、价值分、关联灵感。
-
-页面能力：
-
-- 按月时间线切换过去一年历史信息。
-- 每月自动生成/维护 Top 关注信息入口。
-- 回声词云只展示产品洞察关键词，不展示泛标签。
-- “回声”Tab：展示跨文章沉淀后的产品洞察卡片；原记录型回声入口已下线。
-
-## 手动更新
-
-```bash
-cd /Users/yangmengyao.20/my_project/ai-shopping-radar
-python3 scripts/update_content.py --days 45 --limit 15 --skip-wechat --max-google-queries 45
+```sh
+.venv/bin/python scripts/evidence_pipeline.py --days 45 --limit 24 --max-google-queries 32
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python scripts/validate_data.py
+node --check app.js
 ```
 
-脚本会搜索近 45 天候选，默认跳过容易失效的微信临时链接，并按相关性、来源质量、信息密度、去重强度和产品启发度打分，只追加高价值内容。
+`--recheck` 重新核验全部文章；默认每天最多复核12条超过7天未检查的旧文章。`--dry-run` 不写文件。旧 `update_content.py` 命令兼容并转到新流程。
 
-## 每天 11 点自动更新（本机）
+## 数据
 
-```bash
-cd /Users/yangmengyao.20/my_project/ai-shopping-radar
-./scripts/install_macos_schedule.sh
-```
+- `articles.json` — 信息、原文摘录、证据级别、分数维度、原文访问检查时间。
+- `insights.json` — 带引用的主题研究假设，证据不变不虚增更新次数。
+- `daily_digest.json` — 近14天多来源原文精选与当次新增数。
+- `monthly_reports.json` — 月度阅读索引，不把报道数量当行业趋势。
+- `source_health.json` — 每个来源本次结果、候选数和错误状态。
+- `meta.json` — 最近成功刷新时间、质量统计、来源健康度。
+- `legacy_*.json` — 升级前存档，用于追溯与回滚。
 
-安装后会创建 macOS LaunchAgent：`~/Library/LaunchAgents/com.ai-shopping-radar.update.plist`。
-
-日志位置：
-
-- `logs/update.out.log`
-- `logs/update.err.log`
-
-## 公开部署与定时更新
-
-推荐部署到 Vercel 或 Netlify，这样“记笔记”的联网搜索可以正常返回结果。仓库根目录的 `.github/workflows/ai-shopping-radar-pages.yml` 会在每天北京时间 11:00 自动更新并发布到 GitHub Pages。
-
-公开访问部署说明见：`DEPLOY.md`。
-
-## 筛选原则
-
-优先收录：
-
-- AI 购物、AI 导购、购物智能体、Agentic Commerce。
-- 国内外 C 端 AI 产品的新功能、新入口、新闭环。
-- 对产品设计、商业模式、商家接入、交易履约有启发的信息。
-
-过滤：
-
-- 纯融资新闻。
-- 泛 AI 营销软文。
-- 重复通稿。
-- 没有产品洞察的工具清单。
+限制：付费墙、反爬和动态网页可能使正文不可读；这类内容降为观察线索或不收录。重复判断不是全网语义事件聚类，来源域名不同也不保证独立采访。

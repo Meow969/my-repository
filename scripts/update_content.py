@@ -8,7 +8,7 @@ Default behavior is dependency-light and rule-based:
 - appends only high-value items to data/articles.json;
 - refreshes data/meta.json.
 
-Optional: set OPENAI_API_KEY to enrich summaries with a model in the future.
+The CLI delegates to evidence_pipeline.py. Legacy helpers remain for link decoding and historical imports.
 """
 from __future__ import annotations
 
@@ -2144,18 +2144,16 @@ def refresh_insights(articles: list[dict[str, Any]]) -> int:
 
 
 def main() -> None:
+    # Backwards-compatible CLI for existing local schedules and deployment configs.
+    from evidence_pipeline import run
     parser = argparse.ArgumentParser()
-    parser.add_argument("--days", type=int, default=30)
-    parser.add_argument("--limit", type=int, default=8)
+    parser.add_argument("--days", type=int, default=45)
+    parser.add_argument("--limit", type=int, default=24)
     parser.add_argument("--skip-wechat", action="store_true")
-    parser.add_argument("--max-google-queries", type=int, default=None)
+    parser.add_argument("--max-google-queries", type=int, default=32)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
-    selected = update(args.days, args.limit, args.dry_run, args.skip_wechat, args.max_google_queries)
-    print(f"Selected {len(selected)} new items")
-    for item in selected:
-        print(f"- {item['date']} {item['title']} | {item['source']} | {item['valueScore']}")
-
+    run(args.days, args.limit, min(args.max_google_queries, 32), dry_run=args.dry_run)
 
 if __name__ == "__main__":
     main()

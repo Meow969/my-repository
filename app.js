@@ -1,5 +1,6 @@
 const state = {
   articles: [],
+  health: [], digest: {}, quality: '精选', sourceKind: 'all', sort: 'date', savedOnly: false, bookmarks: [], legacyInsights: [], legacyArticles: [], showLegacy: false,
   insights: [],
   reports: [],
   meta: {},
@@ -25,7 +26,7 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-09-21-echo-rename-v1';
+const DATA_VERSION = '2026-10-08-evidence-v1';
 const ECHO_STAGES = [
   {
     id: 'need',
@@ -52,7 +53,9 @@ const ECHO_STAGES = [
     keywords: ['购后', '复购', '沉淀', '记忆', '偏好', '画像', '反馈', '评价', '退换', '售后', '物流', '履约', '保价', '提醒', '补货', '订阅', '常买', '再次购买', '留存', '会员', '生命周期']
   }
 ];
-const fetchJson = (path) => fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }).then(r => r.json());
+const fetchJson = async (path) => { const r = await fetch(`${path}?v=${DATA_VERSION}`, { cache: 'no-store' }); if (!r.ok) throw new Error(`无法加载 ${path}`); return r.json(); };
+const safeUrl = (value = '') => { try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) ? escapeHtml(u.href) : '#'; } catch { return '#'; } };
+const SOURCE_LABELS = { official: '官方一手', research: '研究资料', industry: '行业媒体', media: '综合媒体', analysis: '观点分析', press_release: '新闻通稿', unknown: '其他来源' };
 const SEARCH_CONCEPTS = {
   '记忆': ['记忆', '偏好', '画像', '复购', '长期约束', 'habit', 'personalization', 'context'],
   '信任': ['信任', '授权', '可撤回', '解释', '证据', '风险', 'trust', 'permission'],
@@ -89,22 +92,31 @@ const unique = (arr) => [...new Set(arr)].filter(Boolean);
 const escapeHtml = (text = '') => text.replace(/[&<>"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[char]));
 
 async function loadData() {
-  const [articles, insights, reports, meta] = await Promise.all([
+  const [articles, insights, reports, meta, health, digest, legacy, legacyArticles] = await Promise.all([
     fetchJson('./data/articles.json'),
     fetchJson('./data/insights.json'),
     fetchJson('./data/monthly_reports.json'),
-    fetchJson('./data/meta.json')
+    fetchJson('./data/meta.json'),
+    fetchJson('./data/source_health.json'),
+    fetchJson('./data/daily_digest.json'),
+    fetchJson('./data/legacy_insights.json').catch(() => []),
+    fetchJson('./data/legacy_articles.json').catch(() => [])
   ]);
   state.articles = articles.sort((a, b) => b.date.localeCompare(a.date) || b.valueScore - a.valueScore);
   state.insights = insights;
   state.reports = reports.sort((a, b) => b.month.localeCompare(a.month));
-  state.meta = meta;
-  state.month = unique(state.articles.map(article => article.date.slice(0, 7))).sort().reverse()[0] || '';
+  state.meta = meta; state.health = health; state.digest = digest; state.legacyInsights = legacy; state.legacyArticles = legacyArticles;
+  try { state.bookmarks = JSON.parse(localStorage.getItem('radar-bookmarks') || '[]'); if (!Array.isArray(state.bookmarks)) state.bookmarks = []; } catch { state.bookmarks = []; }
+  state.month = 'recent';
   state.userInsights = loadUserInsights();
   state.cardThoughts = loadCardThoughts();
   renderFilters();
+  bindResearchControls();
+  renderResearchOverview();
+  renderSources();
   bindTabs();
-  bindCollapsibleHeader();
+  document.querySelectorAll('.top-tab').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === 'feed')));
+  // The research header stays static; no scroll-driven hiding of filters.
   bindNotePanel();
   bindNotes();
   render();
@@ -168,6 +180,9 @@ function setActiveTab(tab) {
   document.querySelectorAll('.top-tab').forEach(button => button.classList.toggle('active', button.dataset.tab === tab));
   document.getElementById('feedTab').classList.toggle('active', tab === 'feed');
   document.getElementById('inspirationTab').classList.toggle('active', tab === 'inspiration');
+  document.getElementById('sourcesTab').classList.toggle('active', tab === 'sources');
+  document.querySelectorAll('.top-tab').forEach(button => button.setAttribute('aria-selected', String(button.dataset.tab === tab)));
+  document.querySelector('.global-toolbar').hidden = tab === 'sources';
   markTabSeen(tab);
 }
 
@@ -210,19 +225,7 @@ function renderFilters() {
 }
 
 function renderGlobalStats() {
-  const feedCount = filteredArticles().length;
-  const currentMonthCount = monthArticleCount(state.month);
-  const insightCount = activeInsights().length;
-  const totalInsights = state.insights.length + state.userInsights.length;
-  const compact = window.matchMedia('(max-width: 560px)').matches;
-  const label = state.query
-    ? (compact ? `${feedCount}讯 · ${insightCount}声` : `资讯 ${feedCount} · 回声 ${insightCount}`)
-    : (compact ? `${currentMonthCount}讯 · ${totalInsights}声` : `${state.month.slice(5)}月 ${currentMonthCount}条 · 回声 ${totalInsights}`);
-  const stats = document.getElementById('globalStats');
-  stats.textContent = label;
-  stats.title = state.query
-    ? `筛选后资讯 ${feedCount} 条，灵感 ${insightCount} 条`
-    : `${state.month.slice(5)}月资讯 ${currentMonthCount} 条，灵感 ${totalInsights} 条`;
+  document.getElementById('globalStats').textContent = `${filteredArticles().length} 条信息 · ${state.insights.length} 个研究假设`;
 }
 
 function hasFeedUpdate() {
@@ -247,14 +250,8 @@ function markTabSeen(tab) {
 
 function renderMonthTabs() {
   const months = unique(state.articles.map(article => article.date.slice(0, 7))).sort().reverse();
-  document.getElementById('monthTabs').innerHTML = months.map(month => `
-    <button class="month-tab ${state.month === month ? 'active' : ''}" data-month="${month}">${fmtMonth(month)}<span>${monthArticleCount(month)}条</span></button>
-  `).join('');
-  document.querySelectorAll('.month-tab').forEach(button => button.addEventListener('click', () => {
-    state.month = button.dataset.month;
-    renderFeed();
-    renderGlobalStats();
-  }));
+  document.getElementById('monthTabs').innerHTML = [{id: 'recent', label: '近30天'}, {id: 'all', label: '全部存档'}, ...months.map(month => ({id: month, label: fmtMonth(month)}))].map(m => `<button class="month-tab ${state.month === m.id ? 'active' : ''}" data-month="${m.id}" aria-pressed="${state.month === m.id}">${m.label}</button>`).join('');
+  document.querySelectorAll('.month-tab').forEach(button => button.addEventListener('click', () => { state.month = button.dataset.month; renderFeed(); renderGlobalStats(); }));
 }
 
 function monthArticleCount(month) {
@@ -325,70 +322,51 @@ function semanticScore(text, query) {
 }
 
 function filteredArticles() {
-  const results = state.articles.map(article => ({ article, score: semanticScore(articleSearchText(article), state.query) }))
-    .filter(({ article, score }) => {
-      const matchesSearch = !state.query || score > 0;
-      const matchesMonth = state.query || !state.month || article.date.startsWith(state.month);
-      return matchesSearch
-        && matchesMonth
-        && (state.region === 'all' || article.region === state.region)
-        && (state.contentType === 'all' || (article.contentType || article.category) === state.contentType)
-        && (state.category === 'all' || article.category === state.category);
-    });
-  if (state.query) results.sort((a, b) => b.score - a.score || b.article.valueScore - a.article.valueScore || b.article.date.localeCompare(a.article.date));
+  const cutoff = new Date(Date.now() - 30 * 86400000).toLocaleDateString('en-CA', {timeZone: 'Asia/Shanghai'});
+  const results = state.articles.map(article => ({ article, score: semanticScore(articleSearchText(article), state.query) })).filter(({ article, score }) => {
+    const matchesMonth = state.query || state.month === 'all' || !state.month || (state.month === 'recent' ? article.date >= cutoff : article.date.startsWith(state.month));
+    return (!state.query || score > 0) && matchesMonth
+      && (state.region === 'all' || article.region === state.region)
+      && (state.contentType === 'all' || (article.contentType || article.category) === state.contentType)
+      && (state.category === 'all' || article.category === state.category)
+      && (state.quality === 'all' || article.readingTier === state.quality)
+      && (state.sourceKind === 'all' || article.sourceKind === state.sourceKind)
+      && (!state.savedOnly || state.bookmarks.includes(article.id));
+  });
+  results.sort((a,b) => state.sort === 'quality' ? b.article.valueScore - a.article.valueScore || b.article.date.localeCompare(a.article.date) : state.query ? b.score - a.score || b.article.date.localeCompare(a.article.date) : b.article.date.localeCompare(a.article.date) || b.article.valueScore - a.article.valueScore);
   return results.map(item => item.article);
 }
 
 function renderActiveMonthlyReport() {
   const report = state.reports.find(item => item.month === state.month);
-  const articlesById = Object.fromEntries(state.articles.map(article => [article.id, article]));
-  const monthCount = monthArticleCount(state.month);
-  if (!report) {
-    document.getElementById('activeMonthlyReport').innerHTML = '';
-    return;
-  }
-  const topArticles = (report.topArticleIds || []).map(id => articlesById[id]).filter(Boolean).slice(0, 5);
-  document.getElementById('activeMonthlyReport').innerHTML = `
-    <article class="monthly-card featured-monthly">
-      <div class="monthly-head"><span>${fmtMonth(report.month)} 月报 · 共${monthCount}条精选</span><strong>${report.title}</strong></div>
-      <p>${report.summary}</p>
-      <h4>当月最值得关注 Top${topArticles.length}</h4>
-      <div class="monthly-links">${topArticles.map((article, index) => `<a href="${article.url}" target="_blank" rel="noreferrer">${index + 1}. ${article.title}</a>`).join('')}</div>
-      <h4>产品启发</h4>
-      <p>${report.productImplication}</p>
-    </article>`;
+  document.getElementById('activeMonthlyReport').innerHTML = report ? `<details class="monthly-card"><summary>${escapeHtml(fmtMonth(report.month))} 阅读索引 · ${report.articleCount} 条</summary><h3>${escapeHtml(report.title)}</h3><p>${escapeHtml(report.summary)}</p><p>${escapeHtml(report.insight || '')}</p></details>` : '';
 }
 
 function renderArticles(articles) {
-  const groups = articles.reduce((acc, article) => {
-    (acc[article.date] ||= []).push(article);
-    return acc;
-  }, {});
-  const html = Object.entries(groups).map(([date, items]) => `
-    <section class="day-group">
-      <h3 class="day-title">${fmtDate(date)}</h3>
-      <div class="article-list">${items.map(renderArticle).join('')}</div>
-    </section>
-  `).join('');
-  document.getElementById('articleGroups').innerHTML = html || '<p class="empty">这个月暂时没有匹配的信息。</p>';
+  const groups = articles.reduce((acc, article) => { (acc[article.date] ||= []).push(article); return acc; }, {});
+  const html = state.sort === 'quality' ? `<div class="article-list">${articles.map(renderArticle).join('')}</div>` : Object.entries(groups).map(([date, items]) => `<section class="day-group"><h3 class="day-title">${fmtDate(date)}<span>${items.length} 条</span></h3><div class="article-list">${items.map(renderArticle).join('')}</div></section>`).join('');
+  document.getElementById('articleGroups').innerHTML = html || '<div class="empty"><h3>没有符合当前条件的信息</h3><p>宁可留白，不以低质量内容填充。试试全部存档或调整筛选。</p><button id="resetFilters">重置筛选</button></div>';
+  document.getElementById('resetFilters')?.addEventListener('click', resetResearchFilters);
+  bindBookmarks();
 }
 
 function renderArticle(article) {
-  const openLabel = article.url.includes('weixin.sogou.com/weixin') ? '检索原文' : '打开原文';
-  return `
-    <article class="article-card">
-      <div class="article-head">
-        <a class="article-title" href="${article.url}" target="_blank" rel="noreferrer">${article.title}</a>
-        <span class="score">价值 ${article.valueScore}</span>
-      </div>
-      <div class="meta">
-        <span class="pill">${article.source}</span><span class="pill">${article.region}</span><span class="pill type-pill">${article.contentType || article.category}</span><span class="pill">${article.category}</span>
-        ${(article.tags || []).map(tag => `<span class="pill">#${tag}</span>`).join('')}
-      </div>
-      <h4>核心观点</h4>${renderCorePoints(article.corePoint)}
-      <h4>产品洞察</h4>${renderProductInsight(article.insight)}
-      <a class="open-link" href="${article.url}" target="_blank" rel="noreferrer">${openLabel} →</a>
-    </article>`;
+  const analysis = article.analysis || {};
+  const dims = article.quality?.dimensions || {};
+  const scoreDetail = `来源 ${dims.source || 0}/25 · 证据 ${dims.evidence || 0}/30 · 相关 ${dims.relevance || 0}/25 · 具体 ${dims.specificity || 0}/20。不是准确率。`;
+  const saved = state.bookmarks.includes(article.id);
+  return `<article class="article-card" id="article-${escapeHtml(article.id)}">
+    <div class="article-topline"><span class="evidence-badge ${article.evidenceLevel === 'fulltext' ? 'verified' : ''}">${escapeHtml(article.evidenceLabel || '历史线索')}</span><span>${escapeHtml(SOURCE_LABELS[article.sourceKind] || '其他来源')} · ${escapeHtml(article.region)}</span><button class="bookmark-btn ${saved ? 'saved' : ''}" data-bookmark="${escapeHtml(article.id)}" aria-pressed="${saved}">${saved ? '★ 已收藏' : '☆ 收藏'}</button></div>
+    <div class="article-head"><a class="article-title" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a></div>
+    <div class="article-byline">${escapeHtml(article.source)}${article.signalType ? ' · '+escapeHtml(article.signalType) : ''} <span>· ${escapeHtml(article.date)} · ${escapeHtml(article.dateBasis || '历史日期')}</span></div>
+    <div class="fact-section"><h4>原文要点 <span>摘录，不是平台结论</span></h4><ul class="evidence-points">${(Array.isArray(article.corePoint) ? article.corePoint : [article.corePoint]).filter(Boolean).slice(0,2).map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>${article.sourceCaveats?.length ? `<div class="source-caveat"><strong>原文披露的限制</strong>${article.sourceCaveats.map(v => `<p>${escapeHtml(v)}</p>`).join('')}</div>` : ''}</div>
+    <details class="analysis-details"><summary>研究视角 · ${escapeHtml(analysis.question || '待补充证据')}</summary>
+      <div class="hypothesis-label">产品假设 · 与原文事实分开阅读</div><p>${escapeHtml(analysis.implication || '')}</p>
+      <h4>反向解释 / 不能推出什么</h4><p>${escapeHtml(analysis.counterpoint || '')}</p><h4>如何验证</h4><p>${escapeHtml(analysis.experiment || '')}</p><small>${escapeHtml(analysis.basis || '历史分析，待核验')}</small>
+    </details>
+    ${article.relatedCoverage?.length ? `<details class="analysis-details"><summary>同一事件的其他报道 · ${article.relatedCoverage.length} 篇</summary>${renderSourceLinks(article.relatedCoverage, '补充来源，不等于独立证实')}</details>` : ''}
+    <div class="article-footer"><a class="open-link" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a><details class="quality-detail"><summary>信息完整度 ${article.valueScore} / 100</summary><p>${escapeHtml(scoreDetail)}</p><p>${article.linkStatus === 'reachable' ? '抓取时原文可访问' : '原文访问未确认'}${article.checkedAt ? ' · '+escapeHtml(article.checkedAt.slice(0,10)) : ''}。官方信息同样可能包含宣传倾向。</p></details></div>
+  </article>`;
 }
 
 function renderWordCloud() {
@@ -468,12 +446,12 @@ function renderSourceLinks(links, label = '灵感来源') {
   return `
     <div class="source-links">
       <strong>${escapeHtml(label)}</strong>
-      ${cleanLinks.map(link => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer"><span>${escapeHtml([link.date, link.source].filter(Boolean).join(' · '))}</span>${escapeHtml(link.title)}</a>`).join('')}
+      ${cleanLinks.map(link => `<a href="${safeUrl(link.url)}" target="_blank" rel="noreferrer"><span>${escapeHtml([link.date, link.source].filter(Boolean).join(' · '))}</span>${escapeHtml(link.title)}</a>`).join('')}
     </div>`;
 }
 
 function renderInsightSourceLinks(insight) {
-  const articleMap = Object.fromEntries(state.articles.map(article => [article.id, article]));
+  const articleMap = Object.fromEntries([...state.legacyArticles, ...state.articles].map(article => [article.id, article]));
   const explicit = (insight.relatedArticleIds || []).map(id => articleMap[id]).filter(Boolean);
   const inferred = state.articles.filter(article => (article.relatedInsightIds || []).includes(insight.id));
   const related = uniqueLinks([...explicit, ...inferred])
@@ -482,7 +460,7 @@ function renderInsightSourceLinks(insight) {
 }
 
 function renderUserNoteSourceLinks(note) {
-  const articlesById = Object.fromEntries(state.articles.map(article => [article.id, article]));
+  const articlesById = Object.fromEntries([...state.legacyArticles, ...state.articles].map(article => [article.id, article]));
   const locals = (note.localIds || []).map(id => articlesById[id]).filter(Boolean);
   const external = (note.external || []).map(link => ({ ...link, date: '', source: link.source || getHost(link.url) }));
   return renderSourceLinks([...locals, ...external], '灵感来源');
@@ -517,26 +495,16 @@ function bindCardThoughts(root = document) {
 }
 
 function renderInsights() {
-  const visibleInsights = state.insights.filter(insightMatchesKeyword);
-  const html = visibleInsights.map(insight => {
-    const isSpark = String(insight.id || '').startsWith('spark-');
-    const badge = isSpark ? '资讯触发的产品灵感' : '产品原则灵感';
-    const generatedDate = insight.generatedAt || insight.createdAt || '';
-    return `
-      <article class="insight-card ${isSpark ? 'spark-insight-card' : ''}">
-        <span class="system-badge">${badge}${generatedDate ? ` · ${generatedDate.slice(5, 10)}` : ''}</span>
-        <h3>${insight.title}</h3>
-        <p>${insight.summary}</p>
-        ${insight.iterationNote ? `<p class="iteration-note">${escapeHtml(insight.iterationNote)}</p>` : ''}
-        <ul>${(insight.takeaways || []).map(item => `<li>${item}</li>`).join('')}</ul>
-        <div class="meta">${(insight.keywords || []).map(word => `<span class="pill">${word}</span>`).join('')}</div>
-        ${renderInsightSourceLinks(insight)}
-        ${renderCardThought(insight.id)}
-      </article>`;
-  }).join('');
-  const grid = document.getElementById('insightGrid');
-  grid.innerHTML = html || `<p class="empty">没有匹配“${escapeHtml(state.activeKeyword)}”的系统灵感。</p>`;
-  bindCardThoughts(grid);
+  const visibleInsights = (state.showLegacy ? state.legacyInsights : state.insights).filter(insightMatchesKeyword);
+  document.getElementById('insightGrid').innerHTML = visibleInsights.map(insight => `<article class="insight-card">
+    <span class="system-badge">${state.showLegacy ? '历史灵感 · 旧版未核验' : '研究假设 · 待验证'} · ${escapeHtml(insight.updatedAt || insight.generatedAt || '')}</span>
+    <h3>${escapeHtml(insight.title)}</h3><p>${escapeHtml(insight.summary)}</p>${insight.observation ? `<p class="method-note">${escapeHtml(insight.observation)}</p>` : ''}
+    ${insight.evidence ? `<div class="insight-evidence"><h4>从哪些事实出发</h4>${insight.evidence.map(e => `<blockquote><p>${escapeHtml(e.quote)}</p>${e.caveats?.length ? `<p class="source-caveat">原文限制：${escapeHtml(e.caveats[0])}</p>` : ''}<a href="${safeUrl(e.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.source)} · ${escapeHtml(e.date)} · ${escapeHtml(e.signalType || '原文证据')} ↗</a></blockquote>`).join('')}</div>` : ''}
+    ${insight.iterationNote ? `<p class="iteration-note">${escapeHtml(insight.iterationNote)}</p>` : ''}
+    ${insight.counterpoint ? `<h4>反向解释</h4><p>${escapeHtml(insight.counterpoint)}</p><h4>下一步实验</h4><p>${escapeHtml(insight.experiment)}</p>` : ''}
+    <div class="meta">${(insight.keywords || []).map(word => `<span class="pill">${escapeHtml(word)}</span>`).join('')}</div>
+    ${renderInsightSourceLinks(insight)}${renderCardThought(insight.id)}</article>`).join('') || '<p class="empty">当前筛选下没有具备原文证据的研究假设。可调整关键词或查看历史灵感。</p>';
+  bindCardThoughts(document.getElementById('insightGrid'));
 }
 
 function loadUserInsights() {
@@ -932,7 +900,7 @@ async function renderNotePreview(note) {
     <ul class="derived-insight">${(result.insight || '').split('\n').filter(Boolean).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>
     <p class="note-preview-ok">已匹配 ${(result.external || []).length} 条全网支撑、${(result.local || []).length} 条站内关联。点击“加入回声”后会保存为你的回声卡片。</p>
     <div class="related note-links">
-      ${(result.external || []).slice(0, 6).map(link => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">全网支撑：${escapeHtml(link.title)}${link.snippet ? `<small>${escapeHtml(link.snippet)}</small>` : ''}</a>`).join('')}
+      ${(result.external || []).slice(0, 6).map(link => `<a href="${safeUrl(link.url)}" target="_blank" rel="noreferrer">全网支撑：${escapeHtml(link.title)}${link.snippet ? `<small>${escapeHtml(link.snippet)}</small>` : ''}</a>`).join('')}
       ${(result.local || []).map(article => `<a href="${escapeHtml(article.url)}" target="_blank" rel="noreferrer">站内关联：${escapeHtml(article.title)}</a>`).join('')}
     </div>`;
   return result;
@@ -1529,6 +1497,7 @@ function renderFeed() {
   renderMonthTabs();
   renderActiveMonthlyReport();
   renderArticles(filteredArticles());
+  document.getElementById('filterContext').textContent = `${state.query ? '搜索覆盖全部存档 · ' : ''}${filteredArticles().length} 条结果${state.savedOnly ? ' · 仅收藏' : ''} · 按${state.sort === 'quality' ? '完整度' : '发布日期'}排序`;
 }
 
 function render() {
@@ -1540,7 +1509,57 @@ function render() {
   renderUpdateBadges();
 }
 
+
+function renderResearchOverview() {
+  const meta = state.meta, health = meta.sourceHealth || {};
+  const age = Date.now() - new Date(meta.lastUpdated).getTime();
+  const stale = !Number.isFinite(age) || age > 48 * 3600000;
+  document.getElementById('pipelineStatus').innerHTML = `<span class="status-led ${stale ? 'stale' : ''}"></span>${stale ? '更新已超过48小时，请检查任务' : '每日自动更新已启用'}<span>最近成功 ${escapeHtml((meta.lastUpdated || '').replace('T', ' ').slice(0,16))} · 北京时间</span>`;
+  document.getElementById('researchMetrics').innerHTML = [[health.configured || 0,'配置直连来源'],[health.healthy || 0,'本次可用来源'],[meta.qualitySummary?.verified || 0,'已提取原文'],[state.insights.length,'研究假设']].map(([n,label]) => `<div><strong>${n}</strong><span>${label}</span></div>`).join('');
+  const top = (state.digest.articleIds || []).map(id => state.articles.find(a => a.id === id)).filter(Boolean);
+  document.getElementById('dailyBrief').innerHTML = `<div class="brief-heading"><div><p class="eyebrow">READ FIRST</p><h2>今天从这里开始</h2></div><span>${escapeHtml(state.digest.date || '')} · 新增 ${meta.latestAdded || 0} 条</span></div><p class="brief-note">${escapeHtml(state.digest.note || '')}</p><div class="brief-list">${top.map((a,i) => `<button class="brief-item" data-reveal="${escapeHtml(a.id)}"><span class="brief-index">0${i+1}</span><div><strong>${escapeHtml(a.title)}</strong><span>${escapeHtml(a.source)} · ${escapeHtml(a.date)} · ${escapeHtml(a.evidenceLabel)}</span></div><span>↗</span></button>`).join('') || '<p>近14天暂无符合原文标准的精选；可到下方查看存档与观察线索。</p>'}</div>`;
+  document.querySelectorAll('[data-reveal]').forEach(button => button.addEventListener('click', () => {
+    resetResearchFilters();
+    document.getElementById(`article-${button.dataset.reveal}`)?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }));
+}
+
+function renderSources() {
+  const sources = state.health.filter(s => s.kind !== 'discovery');
+  document.getElementById('sourceGrid').innerHTML = sources.map(s => `<article class="source-card"><div><span class="source-state ${s.status === 'ok' ? 'ok' : ''}">${s.status === 'ok' ? '可连接' : '本次失败'}</span><span>${escapeHtml(SOURCE_LABELS[s.kind] || s.kind)} · ${escapeHtml(s.region)}</span></div><h3><a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.name)} ↗</a></h3><p>${s.candidateCount || 0} 条候选（不等于收录数）</p>${s.status !== 'ok' ? '<p class="source-warning">本次未取得有效内容，下一轮自动重试。不把失败当作零新闻。</p>' : ''}</article>`).join('');
+  const queries = state.health.filter(s => s.kind === 'discovery');
+  document.getElementById('discoveryStatus').textContent = `另外执行 ${queries.length} 组中英文主题发现，${queries.filter(s => s.status === 'ok').length} 组可用。搜索只用于发现，收录需还原原文；研究资料与官方发布也不等于独立验证。`;
+}
+
+function resetResearchFilters() {
+  Object.assign(state, {month:'all',query:'',region:'all',category:'all',contentType:'all',quality:'all',sourceKind:'all',savedOnly:false});
+  document.getElementById('searchInput').value='';
+  ['regionFilter','typeFilter','categoryFilter','qualityFilter','sourceKindFilter'].forEach(id => document.getElementById(id).value='all');
+  document.getElementById('savedFilter').setAttribute('aria-pressed','false');
+  renderFeed();renderGlobalStats();
+}
+
+function bindBookmarks() {
+  document.querySelectorAll('[data-bookmark]').forEach(button => button.addEventListener('click', () => {
+    const id = button.dataset.bookmark;
+    state.bookmarks = state.bookmarks.includes(id) ? state.bookmarks.filter(x => x !== id) : [...state.bookmarks,id];
+    try { localStorage.setItem('radar-bookmarks', JSON.stringify(state.bookmarks)); } catch { showToast('浏览器未允许保存，请导出笔记备份。'); }
+    renderFeed();renderGlobalStats();
+  }));
+}
+
+function bindResearchControls() {
+  [['qualityFilter','quality'],['sourceKindFilter','sourceKind'],['sortFilter','sort']].forEach(([id,key]) => document.getElementById(id).addEventListener('change', e => {state[key]=e.target.value;renderFeed();renderGlobalStats();}));
+  document.getElementById('savedFilter').addEventListener('click', e => {state.savedOnly=!state.savedOnly;e.currentTarget.setAttribute('aria-pressed',String(state.savedOnly));renderFeed();renderGlobalStats();});
+  document.getElementById('legacyToggle').addEventListener('click', e => {state.showLegacy=!state.showLegacy;e.currentTarget.textContent=state.showLegacy?'返回证据研究':'查看旧版灵感存档';state.activeKeyword='all';renderWordCloud();renderInsights();});
+  document.getElementById('exportNotes').addEventListener('click', () => {
+    const value={exportedAt:new Date().toISOString(),notes:state.userInsights,thoughts:state.cardThoughts,bookmarks:state.bookmarks,echoHistory:loadEchoHistory()};
+    const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));
+    const a=document.createElement('a');a.href=url;a.download='Meow-radar-notes.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  });
+}
+
 loadData().catch(error => {
   console.error(error);
-  document.body.insertAdjacentHTML('afterbegin', '<p style="padding:20px;color:red">数据加载失败，请检查 data 目录。</p>');
+  document.body.insertAdjacentHTML('afterbegin', '<div class="load-error" role="alert">暂时无法加载资料，请检查网络后 <button onclick="location.reload()">重新加载</button>。你的本地笔记仍然保留。</div>');
 });

@@ -5,34 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Cache-Control" content="no-store" />
   <meta http-equiv="Pragma" content="no-cache" />
+  <meta name="description" content="Meow的AI购物研究雷达：多源追踪，原文核验，事实与产品假设分开阅读。每日自动更新。" />
   <title>Meow的AI购物雷达响了</title>
-  <link rel="stylesheet" href="./styles.css?v=2026-09-21-echo-rename-v1" />
+  <link rel="stylesheet" href="./styles.css?v=2026-10-08-evidence-v1" />
 </head>
 <body>
   <header class="hero compact-hero">
     <nav class="nav">
-      <div class="brand">Meow的AI购物雷达响了</div>
+      <div class="brand"><span class="brand-mark">m.</span> Meow的AI购物雷达</div><span class="nav-caption">少一点噪音，多一点判断</span>
     </nav>
     <div class="nav-links tab-switcher primary-tabs" role="tablist" aria-label="主导航">
-      <button class="top-tab active" data-tab="feed" role="tab">有事没事来看看<span class="update-dot" data-dot="feed" aria-label="有更新"></span></button>
-      <button class="top-tab" data-tab="inspiration" role="tab">回声<span class="update-dot" data-dot="inspiration" aria-label="有更新"></span></button>
+      <button class="top-tab active" data-tab="feed" role="tab">信息雷达<span class="update-dot" data-dot="feed" aria-label="有更新"></span></button>
+      <button class="top-tab" data-tab="inspiration" role="tab">回声 · 研究假设<span class="update-dot" data-dot="inspiration" aria-label="有更新"></span></button>
+    <button class="top-tab" data-tab="sources" role="tab" aria-selected="false">来源与方法</button>
     </div>
     <section class="toolbar global-toolbar" aria-label="全局搜索和筛选工具">
-      <input id="searchInput" type="search" placeholder="搜索资讯和回声：记忆 / 信任 / 闭环…" />
+      <input id="searchInput" type="search" aria-label="搜索全部资讯和回声" placeholder="搜索资讯和回声：记忆 / 信任 / 闭环…" />
       <select id="regionFilter" aria-label="地区筛选"><option value="all">地区</option></select>
       <select id="typeFilter" aria-label="分类筛选"><option value="all">分类</option></select>
-      <select id="categoryFilter" aria-label="类型筛选"><option value="all">类型</option></select>
+      <select id="categoryFilter" aria-label="主题筛选"><option value="all">主题</option></select>
       <div id="globalStats" class="global-stats"></div>
     </section>
   </header>
 
   <main>
     <section id="feedTab" class="tab-panel active">
+      <section class="research-intro section"><div id="pipelineStatus" class="pipeline-status" role="status"></div><div class="intro-copy"><div><p class="eyebrow">A PERSONAL RESEARCH DESK</p><h1>不只知道发生了什么，<br><em>更要知道它意味着什么。</em></h1><p>围绕 AI 购物与消费级智能体，追踪产品、交易、商家与用户行为。<br>保留出处，暴露不确定性，把新闻变成可验证的问题。</p></div><div id="researchMetrics" class="research-metrics"></div></div><section id="dailyBrief" class="daily-brief"></section></section>
       <section id="daily" class="section">
         <div class="section-title">
           <p class="eyebrow">Radar Feed</p>
-          <h2>有事没事来看看</h2>
+          <h2>信息流</h2>
         </div>
+        <div class="research-controls"><select id="qualityFilter" aria-label="证据分级"><option value="all">全部证据等级</option><option value="精选" selected>原文精选</option><option value="观察">观察线索</option></select><select id="sourceKindFilter" aria-label="来源性质"><option value="all">全部来源性质</option><option value="official">官方一手</option><option value="industry">行业媒体</option><option value="research">研究资料</option><option value="media">综合媒体</option><option value="analysis">观点分析</option><option value="press_release">新闻通稿</option><option value="unknown">其他来源</option></select><select id="sortFilter" aria-label="排序方式"><option value="date">最新发布</option><option value="quality">信息完整度</option></select><button id="savedFilter" aria-pressed="false">☆ 我的收藏</button><span id="filterContext" aria-live="polite"></span></div>
         <div id="monthTabs" class="month-tabs"></div>
         <div id="activeMonthlyReport" class="active-monthly-report"></div>
         <div id="articleGroups" class="article-groups"></div>
@@ -45,7 +49,8 @@
           <p class="eyebrow">Inspiration Lab</p>
           <h2>AI导购产品回声</h2>
         </div>
-        <p class="section-note">词云只展示能直接启发产品设计的观点关键词。</p>
+        <p class="section-note">每个主题只保留一张研究卡：原文证据、因果机制、反向解释、验证实验。自动推演是研究假设，不是被证实的结论。</p>
+        <div class="research-controls"><button id="legacyToggle">查看旧版灵感存档</button><button id="exportNotes">导出我的笔记与收藏</button><span>笔记仅存于当前浏览器，建议定期导出。</span></div>
         <div class="word-cloud" id="wordCloud"></div>
 
         <div id="userInsightGrid" class="insight-grid user-grid"></div>
@@ -53,6 +58,7 @@
       </section>
     </section>
 
+    <section id="sourcesTab" class="tab-panel"><section class="section"><p class="eyebrow">SOURCES & METHODOLOGY</p><h1>来源，不是越多越好。<br>而是更多独立视角。</h1><p class="section-note">官方发布看能力边界，行业媒体看商业进展，研究资料看效果与限制，观点文章提供讨论线索。失败来源会公开显示并自动重试。</p><p id="discoveryStatus" class="method-note"></p><div class="method-grid"><article><span>01</span><h3>多源发现</h3><p>直连 RSS / Atom / 官方站点索引，与中英文主题发现互补。未获取日期的内容不冒充今日新闻。</p></article><article><span>02</span><h3>分级，不凑数</h3><p>核验原文、来源与相关性。仅标题不进入新收录；摘要线索与全文分开。信息完整度不是可信概率。</p></article><article><span>03</span><h3>事实 ≠ 推演</h3><p>摘录可回到原文检查；规则辅助分析明确机制、边界和实验。没有接入大模型，不冒充 AI 深度精读。</p></article></div><h2>本次来源健康状态</h2><div id="sourceGrid" class="source-grid"></div></section></section>
   </main>
 
   <button id="floatingNoteBtn" class="floating-note-btn" aria-label="记笔记">＋<span>记笔记</span></button>
@@ -72,7 +78,7 @@
     <div id="notePreview" class="note-preview"></div>
   </section>
 
-  <footer>Built for AI shopping product research. Public-deploy ready via GitHub Pages / Netlify / Vercel.</footer>
-  <script src="./app.js?v=2026-09-21-echo-rename-v1"></script>
+  <footer>Meow’s research desk · 每日 11:00（北京时间）计划更新，实际执行可能延迟 · 原文版权归各发布方所有</footer>
+  <script src="./app.js?v=2026-10-08-evidence-v1"></script>
 </body>
 </html>

@@ -1,32 +1,14 @@
-# 公开访问部署方式
+# 发布与恢复
 
-## 推荐：Vercel（支持“记笔记”的联网搜索）
+仓库：`Meow969/my-repository`，线上：https://meow969.github.io/my-repository/
 
-1. 新建一个 GitHub 仓库，把 `/Users/yangmengyao.20/my_project` 推到仓库。
-2. 登录 Vercel，选择 `Add New → Project`，导入该仓库。
-3. Root Directory 选择 `ai-shopping-radar`。
-4. Vercel 会读取项目内 `vercel.json`。
-5. 如需服务端模型能力，在 Environment Variables 里配置：
-   - `OPENAI_API_KEY`：模型 API Key。
-   - `OPENAI_BASE_URL`：可选，默认 `https://api.openai.com/v1`。
-6. 部署完成后会得到公开链接，所有设备都能访问。
+1. 在独立分支修改并运行README中的测试和数据校验。
+2. 推送经过验证的提交到 `main`。GitHub Actions测试后发布到GitHub Pages。
+3. 在Actions中确认 `Update and Publish AI Shopping Radar` 成功；检查线上 `data/meta.json` 与新资源版本。
+4. 每日计划与手动触发会先采集再发布；推送触发只发布已核验的数据。
 
-## Netlify（支持“记笔记”的联网搜索）
+发布物仅包含静态页面、样式、脚本和公开数据，不包含开发脚本、日志、依赖或凭据。失败不会替换上一次成功的Pages站点。部分来源不可用会展示故障；全部不可用直接让任务失败。
 
-1. 登录 Netlify，选择 `Add new site → Import from Git`。
-2. 选择仓库后，Build settings 使用：
-   - Base directory: `ai-shopping-radar`
-   - Build command: `python3 scripts/update_content.py --days 45 --limit 15 --skip-wechat --max-google-queries 45`
-   - Publish directory: `.`
-3. 部署完成后会得到公开链接。
-4. 如需服务端模型能力，在 Environment variables 里配置同名变量：`OPENAI_API_KEY`、可选 `OPENAI_BASE_URL`。
+回滚：对有问题的发布提交执行 `git revert <commit>` 并推送main，不要强推。必要时在GitHub Actions中临时禁用工作流，再修复/恢复。旧版内容已归档，笔记位于用户浏览器，不属于发布数据。
 
-## GitHub Pages（静态兜底）
-
-GitHub Pages 可以公开访问静态页面，但不支持站内服务端函数。使用 GitHub Pages 时，“记笔记”会保留站内匹配和外部搜索链接兜底。若要稳定使用服务端能力，建议用 Vercel 或 Netlify 并配置对应环境变量。
-
-已配置 GitHub Pages 工作流：`/Users/yangmengyao.20/my_project/.github/workflows/ai-shopping-radar-pages.yml`，每天北京时间 11:00 自动更新并发布。
-
-## 注意
-
-当前我无法直接替你生成永久公网 URL，因为这需要你的 GitHub、Vercel 或 Netlify 账号授权。配置已经完成，只差把目录推到你的托管账号。
+定时任务为UTC 03:00（北京时间11:00）；GitHub有排队延迟。超过48小时未更新时网站提示检查任务。建议保持GitHub Actions失败通知开启。

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T18:09:35+08:00",
+  "newCount": 16,
+  "title": "先读这几条，再形成判断",
+  "articleIds": [
+    "radar-90923df83ec2925c",
+    "radar-6f670eb9ffa2eb69",
+    "radar-69f57827c201cd76",
+    "radar-1f254fb86d3dabed",
+    "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970"
+  ],
+  "insightIds": [
+    "evidence-payments",
+    "evidence-visual",
+    "evidence-merchant",
+    "evidence-local",
+    "evidence-discovery"
+  ],
+  "note": "近14天已提取原文的多来源精选；零新增时保留阅读入口，不制造“今日新趋势”。",
+  "analysisMode": "规则辅助研究：证据摘录＋因果机制＋反向解释＋验证实验"
+}

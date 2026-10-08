@@ -3,6 +3,11 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 PLIST="$HOME/Library/LaunchAgents/com.ai-shopping-radar.update.plist"
 LOG_DIR="$ROOT_DIR/logs"
+PYTHON="$ROOT_DIR/.venv/bin/python"
+if [[ ! -x "$PYTHON" ]]; then
+  echo "Please create .venv and install scripts/requirements.txt first."
+  exit 1
+fi
 mkdir -p "$LOG_DIR" "$HOME/Library/LaunchAgents"
 cat > "$PLIST" <<PLIST
 <?xml version="1.0" encoding="UTF-8"?>
@@ -13,8 +18,8 @@ cat > "$PLIST" <<PLIST
   <string>com.ai-shopping-radar.update</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/usr/bin/python3</string>
-    <string>$ROOT_DIR/scripts/update_content.py</string>
+    <string>$PYTHON</string>
+    <string>$ROOT_DIR/scripts/evidence_pipeline.py</string>
     <string>--days</string>
     <string>30</string>
     <string>--limit</string>
