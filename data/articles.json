@@ -58,6 +58,61 @@
     ]
   },
   {
+    "title": "PayPal’s AI Checkout Push and Agentic Commerce Vision Might Change The Case For Investing In PYPL",
+    "url": "https://au.finance.yahoo.com/news/paypal-ai-checkout-push-agentic-071037715.html",
+    "date": "2026-10-08",
+    "dateBasis": "原文发布日期",
+    "source": "Yahoo Finance Australia",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:55+08:00",
+    "sourceCaveats": [],
+    "excerpt": "In recent months, PayPal Holdings reported that its long-sluggish core checkout business has begun to stabilize, while it cuts costs, upgrades its technology stack, and channels resources into Venmo, Braintree, financial services and new AI-driven capabilities. To own PayPal, you need to believe its modernization push can keep core checkout relevant while newer flows like Venmo, Braintree, and AI-driven products …",
+    "corePoint": [
+      "In recent months, PayPal Holdings reported that its long-sluggish core checkout business has begun to stabilize, while it cuts costs, upgrades its technology stack, and channels resources into Venmo, Braintree, financial services and new AI-driven capabilities.",
+      "To own PayPal, you need to believe its modernization push can keep core checkout relevant while newer flows like Venmo, Braintree, and AI-driven products …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-6598a611c9b8af32",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“PayPal’s AI Checkout Push and Agentic Commerce Vision Might Change The Case For Investing In PYPL”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "In recent months, PayPal Holdings reported that its long-sluggish core checkout business has begun to stabilize, while it cuts costs, upgrades its technology stack, and channels resources into Venmo, Braintree, financial services and new AI-driven capabilities."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“PayPal’s AI Checkout Push and Agentic Commerce Vision Might Change The Case For Investing In PYPL”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "au.finance.yahoo.com"
+  },
+  {
     "title": "TikTok to add AI-powered discovery and one-click checkout",
     "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
     "date": "2026-10-07",
@@ -130,6 +185,11 @@
         "title": "TikTok推出人工智能购物助手与一键支付用户可在应用内下单| Mezha",
         "url": "https://mezha.net/ch/news/9e0f3f13_tiktok_adds_an/",
         "source": "Межа. Новини України."
+      },
+      {
+        "title": "TikTok adds an AI shopping assistant and one-click checkout to its app",
+        "url": "https://thenextweb.com/news/tiktok-ai-shopping-assistant-buy-direct-checkout",
+        "source": "The Next Web"
       }
     ],
     "sourceCaveats": []
@@ -299,6 +359,175 @@
     "publisher": "opusresearch.net",
     "signalType": "分析 / 观点",
     "sourceCaveats": []
+  },
+  {
+    "title": "Shopify stock trades at USD 163.04 as AI commerce push grows",
+    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/shopify-stock-trades-at-usd-163-04-as-ai-commerce-push-grows/70256963",
+    "date": "2026-10-07",
+    "dateBasis": "原文发布日期",
+    "source": "AD HOC NEWS",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:16:01+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Shopify (ISIN CA82509L1076) was trading at USD 163.04 on NASDAQ on October 7, 2026 at 10:39 a.m. JPMorgan raised its Shopify price target to USD 200 from USD 185 and kept an Overweight rating in a note dated October 6, 2026, as reported by MarketBeat . At USD 163.04 on October 7, 2026, Shopify was 10.5 percent below its 52-week …",
+    "corePoint": [
+      "Shopify (ISIN CA82509L1076) was trading at USD 163.04 on NASDAQ on October 7, 2026 at 10:39 a.m.",
+      "JPMorgan raised its Shopify price target to USD 200 from USD 185 and kept an Overweight rating in a note dated October 6, 2026, as reported by MarketBeat .",
+      "At USD 163.04 on October 7, 2026, Shopify was 10.5 percent below its 52-week …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-c8e9af8a54821177",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Shopify stock trades at USD 163.04 as AI commerce push grows”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Shopify (ISIN CA82509L1076) was trading at USD 163.04 on NASDAQ on October 7, 2026 at 10:39 a.m."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Shopify stock trades at USD 163.04 as AI commerce push grows”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "ad-hoc-news.de"
+  },
+  {
+    "title": "Australians to spend more this BFCM as AI shopping grows",
+    "url": "https://itbrief.com.au/story/australians-to-spend-more-this-bfcm-as-ai-shopping-grows",
+    "date": "2026-10-07",
+    "dateBasis": "原文发布日期",
+    "source": "IT Brief Australia",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:57+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Australian shoppers plan to spend more over the Black Friday Cyber Monday period, according to Shopify research. Shopify's 2026 Holiday Retail Report found Australians plan to spend an average of AUD $346 over the Black Friday Cyber Monday weekend, up from AUD $324 a year earlier. Some 62% of Australians expect to use AI for at least one holiday shopping …",
+    "corePoint": [
+      "Australian shoppers plan to spend more over the Black Friday Cyber Monday period, according to Shopify research.",
+      "Shopify's 2026 Holiday Retail Report found Australians plan to spend an average of AUD $346 over the Black Friday Cyber Monday weekend, up from AUD $324 a year earlier.",
+      "Some 62% of Australians expect to use AI for at least one holiday shopping …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-7dffa9a252810ebc",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“Australians to spend more this BFCM as AI shopping grows”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Australian shoppers plan to spend more over the Black Friday Cyber Monday period, according to Shopify research."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Australians to spend more this BFCM as AI shopping grows”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "itbrief.com.au"
+  },
+  {
+    "title": "Q3 2026 Retail Technology: AI Moves Deeper Into Retail Decisions",
+    "url": "https://retail-insider.com/reports/2026/10/q3-2026-retail-technology-ai-moves-deeper-into-retail-decisions/",
+    "date": "2026-10-07",
+    "dateBasis": "原文发布日期",
+    "source": "Retail Insider",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:57+08:00",
+    "sourceCaveats": [
+      "The company has not disclosed a separate sales contribution attributable to MOSaiC."
+    ],
+    "excerpt": "As part of Retail Insider Reports, this Q3 2026 Retail Technology Report analyzes Q3 2026 developments in Canadian retail technology and payments. Canadian retailers moved artificial intelligence and other digital technologies deeper into operating decisions during the third quarter of 2026, with applications extending from …",
+    "corePoint": [
+      "As part of Retail Insider Reports, this Q3 2026 Retail Technology Report analyzes Q3 2026 developments in Canadian retail technology and payments.",
+      "Canadian retailers moved artificial intelligence and other digital technologies deeper into operating decisions during the third quarter of 2026, with applications extending from …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-217e5d53d6cd1bb6",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Q3 2026 Retail Technology: AI Moves Deeper Into Retail Decisions”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "As part of Retail Insider Reports, this Q3 2026 Retail Technology Report analyzes Q3 2026 developments in Canadian retail technology and payments."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Q3 2026 Retail Technology: AI Moves Deeper Into Retail Decisions”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "retail-insider.com"
   },
   {
     "title": "Agentic Commerce: What Happens When Your Next Customer Is an AI Agent",
@@ -695,6 +924,62 @@
     "sourceCaveats": []
   },
   {
+    "title": "AI agents have no checkout path at 97 of America's 100 largest retailers",
+    "url": "https://www.stocktitan.net/news/RZLV/rezolve-ai-showcases-agentic-commerce-platform-at-nasdaq-investor-fjw7g0ou0gpz.html",
+    "date": "2026-10-06",
+    "dateBasis": "原文发布日期",
+    "source": "Stock Titan",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:57+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Management will discuss its commercial model, growth drivers, customer adoption and operating priorities, including its path toward long-term profitable growth. The study finds that 97 of America’s 100 largest retailers publish no way for an AI agent to complete checkout. AI assistants name companies most often while consumers browse, yet 97 of America’s 100 largest retailers publish no way for …",
+    "corePoint": [
+      "Management will discuss its commercial model, growth drivers, customer adoption and operating priorities, including its path toward long-term profitable growth.",
+      "The study finds that 97 of America’s 100 largest retailers publish no way for an AI agent to complete checkout.",
+      "AI assistants name companies most often while consumers browse, yet 97 of America’s 100 largest retailers publish no way for …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-15342ad5b3dc3b12",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“AI agents have no checkout path at 97 of America's 100 largest retailers”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Management will discuss its commercial model, growth drivers, customer adoption and operating priorities, including its path toward long-term profitable growth."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“AI agents have no checkout path at 97 of America's 100 largest retailers”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "stocktitan.net"
+  },
+  {
     "title": "The Agentic Commerce Liability Gap: Who Pays When the Agent Buys Wrong?",
     "url": "https://forkast.news/the-agentic-commerce-liability-gap-who-pays-when-the-agent-buys-wrong/",
     "date": "2026-10-06",
@@ -861,6 +1146,61 @@
     "publisher": "trendhunter.com",
     "signalType": "分析 / 观点",
     "sourceCaveats": []
+  },
+  {
+    "title": "PayPal's Sam Parsons: AI Agent Checkout Is Already Here — and the Two Big Protocols Are Nearly Identical",
+    "url": "https://finance.biggo.com/news/755316ace0180f17",
+    "date": "2026-10-06",
+    "dateBasis": "原文发布日期",
+    "source": "BigGo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:58+08:00",
+    "sourceCaveats": [],
+    "excerpt": "AI agents are about to start buying things on your behalf — not browsing, not comparing, but actually completing transactions with real money. Speaking on the AI Engineer podcast, Parsons laid out three concrete ways merchants can already accept payments initiated by AI agents, and the details reveal a race between two tech giants whose competing protocols are, on close …",
+    "corePoint": [
+      "AI agents are about to start buying things on your behalf — not browsing, not comparing, but actually completing transactions with real money.",
+      "Speaking on the AI Engineer podcast, Parsons laid out three concrete ways merchants can already accept payments initiated by AI agents, and the details reveal a race between two tech giants whose competing protocols are, on close …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-609a7c88d37ff0d0",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "接入之后是否真正可用 · 商品事实层",
+      "implication": "本条以“PayPal's Sam Parsons: AI Agent Checkout Is Already Here — and the Two Big Protocols Are Nearly Identical”为观察对象。智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
+      "counterpoint": "合作或协议发布不证明上线覆盖与消费者可用性，商家接入也可能只是试点。 发布接口、接入商家数和合作名单都不是成交效果；还需要区分自然流量迁移与真正新增订单。",
+      "experiment": "从公开可用路径核对地区、商家和失败兜底，再观察真实任务漏斗。 选一个库存变化快的品类，对比基础商品页与结构化实时信息；记录引用准确率、库存失配率、有效导流和增量订单，单独标记赞助推荐。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "AI agents are about to start buying things on your behalf — not browsing, not comparing, but actually completing transactions with real money."
+    },
+    "signalType": "合作 / 基础设施",
+    "insight": "本条以“PayPal's Sam Parsons: AI Agent Checkout Is Already Here — and the Two Big Protocols Are Nearly Identical”为观察对象。智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
+    "relatedInsightIds": [
+      "evidence-merchant"
+    ],
+    "publisher": "finance.biggo.com"
   },
   {
     "id": "2026-10-06-chain-store-age-gap-rolls-out-n-b895471472",
@@ -1384,6 +1724,61 @@
     "sourceCaveats": []
   },
   {
+    "title": "PayPal's Nixon Dinh: The Hidden Cost of AI Shopping Is Your Messy Product Catalog",
+    "url": "https://finance.biggo.com/news/15ffe865510c5778",
+    "date": "2026-10-05",
+    "dateBasis": "原文发布日期",
+    "source": "BigGo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:59+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Nixon Dinh, PayPal's director of product for agentic commerce, has a stark message for merchants watching the AI wave build: the traffic surge is real, but the infrastructure designed to catch it is broken. A small merchant with a meticulously structured product catalog, complete with genuine reviews and clear attributes, can outrank a household name whose listing is thin and …",
+    "corePoint": [
+      "Nixon Dinh, PayPal's director of product for agentic commerce, has a stark message for merchants watching the AI wave build: the traffic surge is real, but the infrastructure designed to catch it is broken.",
+      "A small merchant with a meticulously structured product catalog, complete with genuine reviews and clear attributes, can outrank a household name whose listing is thin and …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-01d8933bd13f3176",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 商品事实层",
+      "implication": "本条以“PayPal's Nixon Dinh: The Hidden Cost of AI Shopping Is Your Messy Product Catalog”为观察对象。智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 发布接口、接入商家数和合作名单都不是成交效果；还需要区分自然流量迁移与真正新增订单。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 选一个库存变化快的品类，对比基础商品页与结构化实时信息；记录引用准确率、库存失配率、有效导流和增量订单，单独标记赞助推荐。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Nixon Dinh, PayPal's director of product for agentic commerce, has a stark message for merchants watching the AI wave build: the traffic surge is real, but the infrastructure designed to catch it is broken."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“PayPal's Nixon Dinh: The Hidden Cost of AI Shopping Is Your Messy Product Catalog”为观察对象。智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
+    "relatedInsightIds": [
+      "evidence-merchant"
+    ],
+    "publisher": "finance.biggo.com"
+  },
+  {
     "title": "TikTok expands AI push with shopping, search and ad automation",
     "url": "https://www.performancemarketingworld.com/article/1971645/tiktok-expands-ai-push-shopping-search-ad-automation",
     "date": "2026-10-05",
@@ -1610,6 +2005,63 @@
     "sourceCaveats": []
   },
   {
+    "title": "Albertsons Expands OpenAI Partnership, Brings Safeway Grocery Shopping to ChatGPT",
+    "url": "https://www.citybiz.co/article/913426/albertsons-expands-openai-partnership-brings-safeway-grocery-shopping-to-chatgpt/",
+    "date": "2026-10-03",
+    "dateBasis": "原文发布日期",
+    "source": "citybiz",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:16:00+08:00",
+    "sourceCaveats": [
+      "The announcement did not disclose financial terms, quantified productivity gains or a timetable for expanding …"
+    ],
+    "excerpt": "Albertsons Companies is expanding its partnership with OpenAI , introducing a Safeway shopping experience in ChatGPT while broadening its use of artificial intelligence across merchandising, retail technology and employee workflows. The retailer plans to extend the ChatGPT experience to additional grocery brands, including Albertsons, Vons, …",
+    "corePoint": [
+      "Albertsons Companies is expanding its partnership with OpenAI , introducing a Safeway shopping experience in ChatGPT while broadening its use of artificial intelligence across merchandising, retail technology and employee workflows.",
+      "The retailer plans to extend the ChatGPT experience to additional grocery brands, including Albertsons, Vons, …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-7fe15930aaf8a19b",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "接入之后是否真正可用 · 履约确定性",
+      "implication": "本条以“Albertsons Expands OpenAI Partnership, Brings Safeway Grocery Shopping to ChatGPT”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "合作或协议发布不证明上线覆盖与消费者可用性，商家接入也可能只是试点。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "从公开可用路径核对地区、商家和失败兜底，再观察真实任务漏斗。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Albertsons Companies is expanding its partnership with OpenAI , introducing a Safeway shopping experience in ChatGPT while broadening its use of artificial intelligence across merchandising, retail technology and employee workflows."
+    },
+    "signalType": "合作 / 基础设施",
+    "insight": "本条以“Albertsons Expands OpenAI Partnership, Brings Safeway Grocery Shopping to ChatGPT”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "citybiz.co"
+  },
+  {
     "title": "Retail rewired: Unified commerce for the age of AI and instant gratification - Stripe",
     "url": "https://stripe.com/it-hr/sessions/2026/retail-rewired-unified-commerce?__s=1ngpkifa1w8cdaucpyke&__FB_PRIVATE_TRACKING__=%7B%22loggedout_browser_id%22%3A%225ddb7afd21b31d2eb1bc31f95c8487f97b235faa%22%7D&__hstc=20629287.c4a577029c49e44b73bd3bee6fa38565.1592956800255.1592956800256.1592956800257.1&__hssc=20629287.1.1592956800258&__hsfp=1427620936privacyprivacy",
     "date": "2026-10-02",
@@ -1786,6 +2238,62 @@
     "publisher": "pymnts.com",
     "signalType": "合作 / 基础设施",
     "sourceCaveats": []
+  },
+  {
+    "title": "How Albertsons Companies is reimagining retail from the inside out",
+    "url": "https://openai.com/index/albertsons-reimagining-retail/",
+    "date": "2026-10-02",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "OpenAI",
+    "region": "海外",
+    "sourceKind": "official",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:54+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Albertsons Cos. is expanding its work with OpenAI to improve the retail experience for millions of customers. “This is another practical way we are using AI to reduce friction and make everyday shopping easier,” said Jill Pavlovich, SVP, Digital Customer Experience at Albertsons Companies. At Albertsons Cos., these decisions play out across more than 2,200 stores, including Albertsons ® , …",
+    "corePoint": [
+      "Albertsons Cos. is expanding its work with OpenAI to improve the retail experience for millions of customers.",
+      "“This is another practical way we are using AI to reduce friction and make everyday shopping easier,” said Jill Pavlovich, SVP, Digital Customer Experience at Albertsons Companies.",
+      "At Albertsons Cos., these decisions play out across more than 2,200 stores, including Albertsons ® , …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-c6e457f74d64996f",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "产品功能",
+    "quality": {
+      "dimensions": {
+        "source": 25,
+        "evidence": 30,
+        "relevance": 15,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 90,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“How Albertsons Companies is reimagining retail from the inside out”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Albertsons Cos. is expanding its work with OpenAI to improve the retail experience for millions of customers."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“How Albertsons Companies is reimagining retail from the inside out”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "openai.com"
   },
   {
     "title": "Lightspeed Commerce CEO: our study analyzed half a million AI shopping responses and revealed who gets to compete",
@@ -2013,6 +2521,117 @@
     ],
     "signalType": "分析 / 观点",
     "sourceCaveats": []
+  },
+  {
+    "title": "Mastercard Expands Agentic Commerce With New Trust Services",
+    "url": "https://finance.yahoo.com/technology/ai/articles/mastercard-expands-agentic-commerce-trust-121500843.html",
+    "date": "2026-10-02",
+    "dateBasis": "原文发布日期",
+    "source": "Yahoo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:16:01+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Mastercard Incorporated MA is expanding Agent Pay with new trust and intelligence services designed to help banks and merchants assess AI-led transactions more accurately. PayPal is taking a more merchant-focused approach, offering agentic-commerce services that allow AI agents to discover products, manage shopping carts and complete purchases across online stores. As AI agents become another way to make purchases, demand …",
+    "corePoint": [
+      "Mastercard Incorporated MA is expanding Agent Pay with new trust and intelligence services designed to help banks and merchants assess AI-led transactions more accurately.",
+      "PayPal is taking a more merchant-focused approach, offering agentic-commerce services that allow AI agents to discover products, manage shopping carts and complete purchases across online stores.",
+      "As AI agents become another way to make purchases, demand …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-69a6ff8380bf1609",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "trust",
+    "tags": [
+      "证据引用",
+      "推荐可信度",
+      "反向指标"
+    ],
+    "category": "证据引用",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "发布能力能否转成持续使用 · 证据引用",
+      "implication": "本条以“Mastercard Expands Agentic Commerce With New Trust Services”为观察对象。对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+      "counterpoint": "产品公告说明能力或范围变化，不能据此推断用户采用和留存。 满意度和使用意愿不代表真实购买表现；需要观察错误推荐、广告识别与投诉，不能只看问卷或单次演示。",
+      "experiment": "先记录入口、开放地区、使用门槛与操作步骤；两周后检查重复使用和任务成功率。 比较普通推荐与“理由＋证据日期＋风险提示”；同时测决策耗时、事实核验正确率、广告识别率和购后后悔率，避免只优化点击。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Mastercard Incorporated MA is expanding Agent Pay with new trust and intelligence services designed to help banks and merchants assess AI-led transactions more accurately."
+    },
+    "signalType": "功能 / 上线",
+    "insight": "本条以“Mastercard Expands Agentic Commerce With New Trust Services”为观察对象。对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+    "relatedInsightIds": [
+      "evidence-trust"
+    ],
+    "publisher": "finance.yahoo.com"
+  },
+  {
+    "title": "ChatGPT Challenges Google Shopping: AI Will Let You Virtually Try On Clothes",
+    "url": "https://root-nation.com/en/news-en/it-news-en/en-chatgpt-virtually-try-on-clothes/",
+    "date": "2026-10-02",
+    "dateBasis": "原文发布日期",
+    "source": "Root-Nation.com",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:16:01+08:00",
+    "sourceCaveats": [],
+    "excerpt": "In it, ChatGPT does more than simply offer users several product links: it asks follow-up questions about their requirements and budget, checks products online, and prepares a personalized guide comparing trade-offs and including links. Users can virtually try on clothes and accessories – more precisely, see them on a photo of themselves.",
+    "corePoint": [
+      "In it, ChatGPT does more than simply offer users several product links: it asks follow-up questions about their requirements and budget, checks products online, and prepares a personalized guide comparing trade-offs and including links.",
+      "Users can virtually try on clothes and accessories – more precisely, see them on a photo of themselves."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-337ad3fe63f72741",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "visual",
+    "tags": [
+      "视觉导购",
+      "适配证据",
+      "退货率"
+    ],
+    "category": "视觉导购",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 视觉导购",
+      "implication": "本条以“ChatGPT Challenges Google Shopping: AI Will Let You Virtually Try On Clothes”为观察对象。生成图降低风格想象成本，但未必解决尺码与材质判断；点击或停留上涨可能只是新奇效应，而非更好的购买决策。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 效果演示不是适配证据；缺少真实尺码、不同体型覆盖及退货原因数据时，不应承诺“合身”。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照展示“仅生成图”与“生成图＋尺码依据＋不适配提示”；跟踪加购到支付转化、尺码相关退货率，并分体型和品类复盘。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "In it, ChatGPT does more than simply offer users several product links: it asks follow-up questions about their requirements and budget, checks products online, and prepares a personalized guide comparing trade-offs and including links."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“ChatGPT Challenges Google Shopping: AI Will Let You Virtually Try On Clothes”为观察对象。生成图降低风格想象成本，但未必解决尺码与材质判断；点击或停留上涨可能只是新奇效应，而非更好的购买决策。",
+    "relatedInsightIds": [
+      "evidence-visual"
+    ],
+    "publisher": "root-nation.com"
   },
   {
     "title": "Agentic Commerce: A Getting Started Guide - Stripe",
@@ -2458,6 +3077,62 @@
     "publisher": "tradingview.com",
     "signalType": "分析 / 观点",
     "sourceCaveats": []
+  },
+  {
+    "title": "Fed’s Waller Says AI Shopping Changes What Banks Need to Authenticate",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/federal-reserve-waller-says-ai-shopping-changes-what-banks-must-authenticate/",
+    "date": "2026-09-30",
+    "dateBasis": "原文发布日期",
+    "source": "PYMNTS",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:16:02+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Artificial intelligence is forcing banks and payments networks to add another layer. Christopher Waller said Tuesday (Sept. 29) that agentic commerce changes the authentication problem because an AI system may be acting for a consumer or business rather than merely assisting one.",
+    "corePoint": [
+      "Artificial intelligence is forcing banks and payments networks to add another layer.",
+      "Christopher Waller said Tuesday (Sept.",
+      "29) that agentic commerce changes the authentication problem because an AI system may be acting for a consumer or business rather than merely assisting one."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-bfcb74183ccc9211",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 96,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“Fed’s Waller Says AI Shopping Changes What Banks Need to Authenticate”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Artificial intelligence is forcing banks and payments networks to add another layer."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Fed’s Waller Says AI Shopping Changes What Banks Need to Authenticate”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "pymnts.com"
   },
   {
     "title": "How AI Agents Are Changing the Future of Payments",
@@ -4135,6 +4810,62 @@
     "sourceCaveats": []
   },
   {
+    "title": "As AI agents enter festive shopping, banks warn of fraud and payments risks",
+    "url": "https://www.business-standard.com/technology/tech-news/as-ai-agents-enter-festive-shopping-banks-warn-of-fraud-and-payments-risks-126092400774_1.html",
+    "date": "2026-09-24",
+    "dateBasis": "原文发布日期",
+    "source": "Business Standard",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:16:04+08:00",
+    "sourceCaveats": [],
+    "excerpt": "AI shopping agents could reshape festive shopping while raising fraud and data privacy concerns. (Image: AI-generated) Don't miss the most important news and views of the day. Get them on our Telegram channel First Published: Sep 24 2026 | 3:55 PM IST",
+    "corePoint": [
+      "AI shopping agents could reshape festive shopping while raising fraud and data privacy concerns.",
+      "(Image: AI-generated) Don't miss the most important news and views of the day.",
+      "Get them on our Telegram channel First Published: Sep 24 2026 | 3:55 PM IST"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-4913e2b2e42637ce",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "trust",
+    "tags": [
+      "证据引用",
+      "推荐可信度",
+      "反向指标"
+    ],
+    "category": "证据引用",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 证据引用",
+      "implication": "本条以“As AI agents enter festive shopping, banks warn of fraud and payments risks”为观察对象。对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 满意度和使用意愿不代表真实购买表现；需要观察错误推荐、广告识别与投诉，不能只看问卷或单次演示。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 比较普通推荐与“理由＋证据日期＋风险提示”；同时测决策耗时、事实核验正确率、广告识别率和购后后悔率，避免只优化点击。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "AI shopping agents could reshape festive shopping while raising fraud and data privacy concerns."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“As AI agents enter festive shopping, banks warn of fraud and payments risks”为观察对象。对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+    "relatedInsightIds": [
+      "evidence-trust"
+    ],
+    "publisher": "business-standard.com"
+  },
+  {
     "title": "Can Global Payments Gain From Growing Consumer Trust in AI Commerce?",
     "url": "https://es.tradingview.com/news/zacks:7750d9213094b:0-can-global-payments-gain-from-growing-consumer-trust-in-ai-commerce/",
     "date": "2026-09-24",
@@ -4526,6 +5257,60 @@
     "sourceCaveats": []
   },
   {
+    "title": "“豆包手机”正式发售，暂不支持淘宝闪购、京东等外部电商",
+    "url": "https://timeline.sohu.com/news/ODp2sggI4v",
+    "date": "2026-09-16",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "搜狐网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:55+08:00",
+    "sourceCaveats": [],
+    "excerpt": "9月16日，搭载豆包AI手机助手的努比亚NaviX Ultra正式发售，该手机依托新推出的屏幕自动化操作声明协议（SAEP）30天规则公示机制。",
+    "corePoint": [
+      "9月16日，搭载豆包AI手机助手的努比亚NaviX Ultra正式发售，该手机依托新推出的屏幕自动化操作声明协议（SAEP）30天规则公示机制。"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-567f5056a41b426d",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 商品事实层",
+      "implication": "本条以““豆包手机”正式发售，暂不支持淘宝闪购、京东等外部电商”为观察对象。智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 发布接口、接入商家数和合作名单都不是成交效果；还需要区分自然流量迁移与真正新增订单。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 选一个库存变化快的品类，对比基础商品页与结构化实时信息；记录引用准确率、库存失配率、有效导流和增量订单，单独标记赞助推荐。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "9月16日，搭载豆包AI手机助手的努比亚NaviX Ultra正式发售，该手机依托新推出的屏幕自动化操作声明协议（SAEP）30天规则公示机制。"
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以““豆包手机”正式发售，暂不支持淘宝闪购、京东等外部电商”为观察对象。智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
+    "relatedInsightIds": [
+      "evidence-merchant"
+    ],
+    "publisher": "timeline.sohu.com"
+  },
+  {
     "id": "2026-09-15-ai-ai-dd88dd5061",
     "date": "2026-09-15",
     "title": "大厂AI导购混战：电商告别流量战，比拼AI帮人挑货能力",
@@ -4687,6 +5472,60 @@
     "publisher": "finance.sina.com.cn",
     "signalType": "分析 / 观点",
     "sourceCaveats": []
+  },
+  {
+    "title": "AI正重写电商？京东、淘天加速AI业务闭环，货架与智能体购物模式或长期并存",
+    "url": "https://www.time-weekly.com/post/332831",
+    "date": "2026-09-12",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "时代在线",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:58+08:00",
+    "sourceCaveats": [],
+    "excerpt": "主流电商平台已全面布局AI，京东（09618.HK；JD.NASDAQ）、阿里巴巴(09988.HK；BABA.NYSE）、抖音电商、美团（03690.HK）等均将大模型深度植入供应链、营销、客服与本地生活场景。",
+    "corePoint": [
+      "主流电商平台已全面布局AI，京东（09618.HK；JD.NASDAQ）、阿里巴巴(09988.HK；BABA.NYSE）、抖音电商、美团（03690.HK）等均将大模型深度植入供应链、营销、客服与本地生活场景。"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-07b0f6c528e8bb42",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“AI正重写电商？京东、淘天加速AI业务闭环，货架与智能体购物模式或长期并存”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "主流电商平台已全面布局AI，京东（09618.HK；JD.NASDAQ）、阿里巴巴(09988.HK；BABA.NYSE）、抖音电商、美团（03690.HK）等均将大模型深度植入供应链、营销、客服与本地生活场景。"
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“AI正重写电商？京东、淘天加速AI业务闭环，货架与智能体购物模式或长期并存”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "time-weekly.com"
   },
   {
     "id": "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
@@ -5469,6 +6308,61 @@
     "publisher": "hea.china.com"
   },
   {
+    "title": "AI赋能电商，如何从“用上”到“用好”？",
+    "url": "https://sichuan.scol.com.cn/ggxw/202608/83313131.html",
+    "date": "2026-08-29",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "四川新闻",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:16:00+08:00",
+    "sourceCaveats": [],
+    "excerpt": "从智能选品到智能客服，从精准营销到即时零售，各个环节都在被AI重新定义。 《中国新电商发展报告（2026）》提出，AI技术将成为驱动新电商下 …",
+    "corePoint": [
+      "从智能选品到智能客服，从精准营销到即时零售，各个环节都在被AI重新定义。",
+      "《中国新电商发展报告（2026）》提出，AI技术将成为驱动新电商下 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-074c9d8fe2d248d1",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 履约确定性",
+      "implication": "本条以“AI赋能电商，如何从“用上”到“用好”？”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "从智能选品到智能客服，从精准营销到即时零售，各个环节都在被AI重新定义。"
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“AI赋能电商，如何从“用上”到“用好”？”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "sichuan.scol.com.cn"
+  },
+  {
     "title": "美团电话会：三季度外卖UE预计同比明显改善，Keeta盈利加速，AI迈向商家端",
     "url": "https://wallstreetcn.com/articles/3780576",
     "date": "2026-08-28",
@@ -5575,6 +6469,116 @@
       "evidence-local"
     ],
     "publisher": "m.thepaper.cn"
+  },
+  {
+    "title": "不打AI与即时零售的仗，拼多多是清醒，还是保守？",
+    "url": "https://timeline.sohu.com/news/o4cWQe5qRl",
+    "date": "2026-08-26",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "搜狐网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:57+08:00",
+    "sourceCaveats": [],
+    "excerpt": "“在这个阶段，我们还是选择把精力和资源集中投入到自身更有积累，也更加能够创造独特价值的地方。 拼多多在3C类消费品上的价格优 …",
+    "corePoint": [
+      "“在这个阶段，我们还是选择把精力和资源集中投入到自身更有积累，也更加能够创造独特价值的地方。",
+      "拼多多在3C类消费品上的价格优 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-d436c2cb9acedcfc",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 履约确定性",
+      "implication": "本条以“不打AI与即时零售的仗，拼多多是清醒，还是保守？”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "“在这个阶段，我们还是选择把精力和资源集中投入到自身更有积累，也更加能够创造独特价值的地方。"
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“不打AI与即时零售的仗，拼多多是清醒，还是保守？”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "timeline.sohu.com"
+  },
+  {
+    "title": "多看多花……Criteo调查显示，44%的韩国美妆消费者使用AI购物",
+    "url": "https://www.venturesquare.net/zh/1108445/",
+    "date": "2026-08-25",
+    "dateBasis": "原文发布日期",
+    "source": "벤처스퀘어",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:58+08:00",
+    "sourceCaveats": [],
+    "excerpt": "韩国美妆消费者浏览的产品种类更多，购买频率也更高，但他们对每次交易的金额和购买决策却更加谨慎。 随着人工智能逐渐成为一种新 …",
+    "corePoint": [
+      "韩国美妆消费者浏览的产品种类更多，购买频率也更高，但他们对每次交易的金额和购买决策却更加谨慎。",
+      "随着人工智能逐渐成为一种新 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-9dd78bedfd6dceaf",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业观察",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "样本和分母是否可比 · 候选集",
+      "implication": "本条以“多看多花……Criteo调查显示，44%的韩国美妆消费者使用AI购物”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "首先核对样本范围、时间窗与问题定义；意愿、自报行为、实际订单不是同一指标。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "先建立指标口径表，要求样本量、对照组与统计周期，缺项时不搬用增长数字。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "韩国美妆消费者浏览的产品种类更多，购买频率也更高，但他们对每次交易的金额和购买决策却更加谨慎。"
+    },
+    "signalType": "研究 / 数据",
+    "insight": "本条以“多看多花……Criteo调查显示，44%的韩国美妆消费者使用AI购物”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "venturesquare.net"
   },
   {
     "id": "daily-2026-08-22-d0935ce5172bc8",
