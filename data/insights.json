@@ -1,6 +1,6 @@
 [
   {
-    "observation": "stripe.com提供分析 / 观点线索；PYMNTS提供分析 / 观点线索；Finovate提供合作 / 基础设施线索；Retail Technology Innovation Hub提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "stripe.com提供分析 / 观点线索；PYMNTS提供分析 / 观点线索；Accenture提供分析 / 观点线索；Finovate提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-payments",
     "title": "代付之前，先把授权做成产品",
     "summary": "推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
@@ -28,6 +28,17 @@
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-turn-permission-into-payments-new-control-point/"
       },
       {
+        "articleId": "radar-80746a8593316dbb",
+        "title": "Product Data & Agentic Commerce Senior Manager",
+        "source": "Accenture",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-10-06",
+        "quote": "Accenture Song accelerates growth and value for our clients by combining creativity, technology, and data-driven intelligence.",
+        "quoteZh": "Accenture Song通过结合创造力,技术和数据驱动的智能,加快了我们的客户的增长和价值.",
+        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00356749_en"
+      },
+      {
         "articleId": "radar-ef81ec7a5e54b041",
         "title": "Stripe to Power Constructor’s Agentic Checkout",
         "source": "Finovate",
@@ -37,17 +48,6 @@
         "quote": "Product discovery platform Constructor has partnered with Stripe to launch Agentic Checkout , an agentic commerce tool available to retailers that enables both human and agent shoppers to find and buy products via the Link by Stripe digital wallet or other payment methods all within a single location.",
         "quoteZh": "商品发现平台 Constructor 与 Stripe 合作推出 Agentic Checkout，让消费者与购物智能体在同一界面内发现并购买商品，支持 Link by Stripe 等支付方式。",
         "url": "https://finovate.com/stripe-to-power-constructors-agentic-checkout/"
-      },
-      {
-        "articleId": "radar-45d898d62d0cca66",
-        "title": "Constructor claims a first as it launches Agentic Checkout solution powered by Stripe payments",
-        "source": "Retail Technology Innovation Hub",
-        "caveats": [],
-        "signalType": "合作 / 基础设施",
-        "date": "2026-10-05",
-        "quote": "Constructor, which powers search and product discovery for retailers including Sephora, The Very Group, Monica Vinader, White Stuff, and Furniture Village, has launched Agentic Checkout, a move that, the company claims, makes it the first to offer Stripe powered checkout directly within an onsite shopping agent.",
-        "quoteZh": "建筑师授权为包括Sephora、The Very Group、Monica Vinader、White Stuff和家具村在内的零售商进行搜索和产品发现,他推出了Agentic Checkout,该公司声称,这是第一个在现场购物代理内直接提供Frede电源的抽查。",
-        "url": "https://retailtechinnovationhub.com/home/2026/10/4/constructor-claims-a-first-as-it-launches-agentic-checkout-solution-powered-by-stripe"
       }
     ],
     "counterpoint": "宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
@@ -61,15 +61,15 @@
     "relatedArticleIds": [
       "radar-6f670eb9ffa2eb69",
       "radar-ce4cdfd726cf92df",
-      "radar-ef81ec7a5e54b041",
-      "radar-45d898d62d0cca66"
+      "radar-80746a8593316dbb",
+      "radar-ef81ec7a5e54b041"
     ],
     "sourceCount": 4,
     "confidence": "待验证假设",
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "1045525735078b42",
+    "fingerprint": "3afd8bad224076a1",
     "method": "规则辅助研究假设"
   },
   {
@@ -110,7 +110,7 @@
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "PYMNTS提供分析 / 观点线索；Stripe提供合作 / 基础设施线索；36氪提供分析 / 观点线索；Digital Commerce 360提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "PYMNTS提供分析 / 观点线索；Stripe提供合作 / 基础设施线索；36氪提供分析 / 观点线索；Forrester提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-merchant",
     "title": "商家接入的瓶颈从文案转向商品事实",
     "summary": "智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
@@ -149,15 +149,15 @@
         "url": "https://36kr.com/p/4004240967258249"
       },
       {
-        "articleId": "radar-7d6e904671a221e3",
-        "title": "Commerce releases tools to optimize product catalogs for AI discovery",
-        "source": "Digital Commerce 360",
+        "articleId": "radar-5e3f4bfe58b9acdf",
+        "title": "Agentic Commerce Exposes The Missing Dimension In Product Data",
+        "source": "Forrester",
         "caveats": [],
         "signalType": "分析 / 观点",
-        "date": "2026-10-01",
-        "quote": "Commerce has released two artificial intelligence tools to help merchants make their product catalogs ready for AI discovery.",
-        "quoteZh": "Commerce 发布了两款 AI 工具，帮助商家整理适合被 AI 发现的商品目录。",
-        "url": "https://www.digitalcommerce360.com/2026/09/30/commerce-product-catalogs-ai-discovery-enrichment-tools/"
+        "date": "2026-10-06",
+        "quote": "But beyond dimensions and facts, homebuyers want to know, “Can my kids safely walk to school from here?” or “Can I work from home comfortably in this space?”",
+        "quoteZh": "但除了维度和事实之外,购房者还想知道,“我的孩子们能安全地从这里走进学校吗?” 或“我能从家里舒适地在这个空间工作吗?”",
+        "url": "https://www.forrester.com/blogs/agentic-commerce-exposes-the-missing-dimension-in-product-data/"
       }
     ],
     "counterpoint": "发布接口、接入商家数和合作名单都不是成交效果；还需要区分自然流量迁移与真正新增订单。",
@@ -172,22 +172,33 @@
       "radar-69f57827c201cd76",
       "radar-4e369beaf45c5a7a",
       "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
-      "radar-7d6e904671a221e3"
+      "radar-5e3f4bfe58b9acdf"
     ],
     "sourceCount": 4,
     "confidence": "待验证假设",
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "d43ed3b32f0e304a",
+    "fingerprint": "e3bc66cd9638dd3b",
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Mastercard提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Technology Innovation Hub提供分析 / 观点线索；Mastercard提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-trust",
     "title": "把“推荐理由”升级成可检查的证据",
     "summary": "对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
     "evidence": [
+      {
+        "articleId": "radar-0378d3ccd74205bc",
+        "title": "FT Live Future of Retail Summit review: B&Q, Sweaty Betty, The Works bosses debate volatility, crime and AI",
+        "source": "Retail Technology Innovation Hub",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-10-07",
+        "quote": "“We know we’re going to get inflation so we’ve got to be atop of costs,” said Graham Bell, CEO at B&Q at the FT Live 2026 Future of Retail event in the City of London yesterday, when debating trade and tariff volatility, a renewed cost-of-living crisis, shrinkage and AI with fellow CEOs from Sweaty Betty and The Works.",
+        "quoteZh": "“我们知道我们会得到通胀, 所以我们必须承担成本, ” 伦敦市FT Live 2026零售业未来活动的BQ首席执行官Graham Bell昨天在与来自Sweaty Betty和The Works的同行CEO讨论贸易和关税波动、新的生活费危机、萎缩和AI时表示,",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/6/ft-live-future-of-retail-summit-bq-sweaty-betty-and-the-works-bosses-debate-volatility-crime-and-ai"
+      },
       {
         "articleId": "radar-b2da2ac773a5973b",
         "title": "Trust in agentic commerce",
@@ -209,22 +220,45 @@
       "反向指标"
     ],
     "relatedArticleIds": [
+      "radar-0378d3ccd74205bc",
       "radar-b2da2ac773a5973b"
     ],
-    "sourceCount": 1,
+    "sourceCount": 2,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 1 篇原文、1 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 2 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "103af4d313aea73d",
+    "fingerprint": "1d583de30897db78",
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Digital Commerce 360提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Accenture提供分析 / 观点线索；Digital Commerce 360提供合作 / 基础设施线索；Retail Technology Innovation Hub提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-local",
     "title": "即时购物要先满足可履约，再讨论聪明",
     "summary": "即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
     "evidence": [
+      {
+        "articleId": "radar-9425c6ded44c4863",
+        "title": "Grocery firm Asda and Rokt partner to bring AI tech powered relevant offers to customers at checkout",
+        "source": "Retail Technology Innovation Hub",
+        "caveats": [],
+        "signalType": "合作 / 基础设施",
+        "date": "2026-10-08",
+        "quote": "Asda has partnered with Rokt to deliver relevant offers to the UK grocery retailer’s customers at checkout across its online grocery business and George, its clothing and home brand.",
+        "quoteZh": "Asda与Rokt合作, 向英国杂货零售商的客户提供相关报价,",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/7/asda-and-rokt-partner-to-bring-ai-tech-powered-relevant-offers-to-customers-at-checkout"
+      },
+      {
+        "articleId": "radar-f88c494c5661cc6d",
+        "title": "Agentic Commerce Senior Manager | Life Sciences",
+        "source": "Accenture",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-10-08",
+        "quote": "With strong client relationships and deep industry expertise, we help our clients operate at the speed of life through the unlimited potential of imagination, technology and intelligence.",
+        "quoteZh": "凭借强大的客户关系和深厚的行业专业知识,我们通过无限的想象力,技术和智能潜力,帮助我们的客户以生命的速度运行.",
+        "url": "https://www.accenture.com/at-de/careers/jobdetails?id=R00345498_en"
+      },
       {
         "articleId": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
         "title": "Instacart launches AI assistant Clementine, agentic commerce integrations",
@@ -235,6 +269,17 @@
         "quote": "Instacart has launched an artificial intelligence assistant, Clementine, for grocery shopping support while adding new partners for its existing enterprise AI tool Cart Assistant.",
         "quoteZh": "Instacart推出人工智能助理Clementine,负责杂货购物支持,同时为其现有的企业AI工具Cart Assoft添加了新的合作伙伴.",
         "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/"
+      },
+      {
+        "articleId": "radar-13167e4db08f2991",
+        "title": "Grocery retailer Panda teams with Spike and GoWit to power e-commerce media push in Saudi Arabia",
+        "source": "Retail Technology Innovation Hub",
+        "caveats": [],
+        "signalType": "合作 / 基础设施",
+        "date": "2026-10-08",
+        "quote": "Panda Retail, a grocery retailer in Saudi Arabia, has partnered with Spike Media Saudi, GoWit’s partner in the region, operating locally as GoSpike, to accelerate its digital media transformation push in the Kingdom.",
+        "quoteZh": "Panda Retail是沙特阿拉伯的一家杂货零售商,与GoWit在该区域的合作伙伴Spike Media Saudi合作,在当地作为GoSpike开展业务,以加速其在沙特王国的数字媒体转型。",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/7/grocery-retailer-panda-teams-with-spike-and-gowit-to-power-e-commerce-media-push-in-saudi-arabia"
       }
     ],
     "counterpoint": "演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
@@ -246,18 +291,21 @@
       "高频任务"
     ],
     "relatedArticleIds": [
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
+      "radar-9425c6ded44c4863",
+      "radar-f88c494c5661cc6d",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "radar-13167e4db08f2991"
     ],
-    "sourceCount": 1,
+    "sourceCount": 3,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 1 篇原文、1 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 4 篇原文、3 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "1faf65f4df920758",
+    "fingerprint": "d62106513cb96652",
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Dive提供合作 / 基础设施线索；www.mastercard.com提供分析 / 观点线索；Digital Commerce 360提供功能 / 上线线索；CBNData-第一财经商业数据中心提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Dive提供合作 / 基础设施线索；Salesforce提供合作 / 基础设施线索；www.mastercard.com提供分析 / 观点线索；CBNData-第一财经商业数据中心提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-discovery",
     "title": "入口变化之后，谁拥有最终候选集？",
     "summary": "当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
@@ -274,6 +322,17 @@
         "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/"
       },
       {
+        "articleId": "radar-e56e589b7efd8225",
+        "title": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership",
+        "source": "Salesforce",
+        "caveats": [],
+        "signalType": "合作 / 基础设施",
+        "date": "2026-10-06",
+        "quote": "This is led by 48% of Gen Z consumers and 37% of Millennial consumers, according to Salesforce Shopping Index data.",
+        "quoteZh": "根据销售力购物指数数据,这由48%的Gen Z消费者和37%的千年消费者领导。",
+        "url": "https://www.salesforce.com/blog/commerce-cloud-tiktok-integration/?bc=OTH"
+      },
+      {
         "articleId": "radar-1f254fb86d3dabed",
         "title": "What will make consumers trust AI shopping agents? Startup founders explain - Mastercard",
         "source": "www.mastercard.com",
@@ -283,19 +342,6 @@
         "quote": "For some, shopping is a competitive sport, with consumers strategizing about loyalty points and spending hours comparing every possible option and price.",
         "quoteZh": "对有些人来说,购物是一种竞争性运动,消费者对忠诚点和花费时间来比较每一种可能的选项和价格进行策略分析.",
         "url": "https://www.mastercard.com/cn/zh/news-and-trends/stories/2026/agentic-commerce-startups.html"
-      },
-      {
-        "articleId": "radar-3feae84bb92744a4",
-        "title": "Gap expands AI shopping with Alta Daily and new discovery tools",
-        "source": "Digital Commerce 360",
-        "caveats": [
-          "Gap没有具体说明它们是否通过品牌网站,移动应用或."
-        ],
-        "signalType": "功能 / 上线",
-        "date": "2026-10-08",
-        "quote": "Gap Inc. is pushing artificial intelligence (AI) deeper into how its shoppers discover and style its products.",
-        "quoteZh": "Gap 正将 AI 更深入地应用于商品发现和穿搭搭配环节。",
-        "url": "https://www.digitalcommerce360.com/2026/10/07/gap-expands-ai-shopping-with-alta-daily-and-new-discovery-tools/"
       },
       {
         "articleId": "2026-09-18-cbndata-ai-0a850a39df",
@@ -319,8 +365,8 @@
     ],
     "relatedArticleIds": [
       "radar-90923df83ec2925c",
+      "radar-e56e589b7efd8225",
       "radar-1f254fb86d3dabed",
-      "radar-3feae84bb92744a4",
       "2026-09-18-cbndata-ai-0a850a39df"
     ],
     "sourceCount": 4,
@@ -328,7 +374,7 @@
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-08",
-    "fingerprint": "20ec2f6e324bb194",
+    "fingerprint": "7626a69707862616",
     "method": "规则辅助研究假设"
   }
 ]

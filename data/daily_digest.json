@@ -1,14 +1,14 @@
 {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T20:58:51+08:00",
-  "newCount": 453,
+  "generatedAt": "2026-10-08T21:03:36+08:00",
+  "newCount": 22,
   "title": "先读这几条，再形成判断",
   "articleIds": [
+    "radar-9425c6ded44c4863",
     "radar-90923df83ec2925c",
     "radar-6f670eb9ffa2eb69",
-    "radar-69f57827c201cd76",
-    "radar-3feae84bb92744a4",
-    "radar-ef81ec7a5e54b041"
+    "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+    "radar-e56e589b7efd8225"
   ],
   "insightIds": [
     "evidence-payments",
