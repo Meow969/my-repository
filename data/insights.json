@@ -1,6 +1,6 @@
 [
   {
-    "observation": "stripe.com提供分析 / 观点线索；PYMNTS提供分析 / 观点线索；Accenture提供分析 / 观点线索；Finovate提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "stripe.com提供分析 / 观点线索；PYMNTS提供分析 / 观点线索；Mastercard提供分析 / 观点线索；Retail Dive提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-payments",
     "title": "代付之前，先把授权做成产品",
     "summary": "推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
@@ -28,26 +28,26 @@
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-turn-permission-into-payments-new-control-point/"
       },
       {
-        "articleId": "radar-80746a8593316dbb",
-        "title": "Product Data & Agentic Commerce Senior Manager",
-        "source": "Accenture",
+        "articleId": "radar-7f99543b6cbdb838",
+        "title": "Who’s behind the AI agent? Solving the identity challenge in agentic commerce",
+        "source": "Mastercard",
         "caveats": [],
         "signalType": "分析 / 观点",
-        "date": "2026-10-06",
-        "quote": "Accenture Song accelerates growth and value for our clients by combining creativity, technology, and data-driven intelligence.",
-        "quoteZh": "Accenture Song通过结合创造力,技术和数据驱动的智能,加快了我们的客户的增长和价值.",
-        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00356749_en"
+        "date": "2026-10-08",
+        "quote": "Autonomous agents are offering to take the grind out of shopping by scouring the web to find the best deals, making purchases and organizing deliveries without bothering users for their login details and payment authorization.",
+        "quoteZh": "自主代理商主动提出通过浏览网络寻找最佳交易,进行采购和组织交付,而不因用户登录细节和支付授权而烦扰用户,从而摆脱购物的磨难.",
+        "url": "https://www.mastercard.com/global/en/news-and-trends/stories/2026/agentic-commerce-identity-know-your-agent.html"
       },
       {
-        "articleId": "radar-ef81ec7a5e54b041",
-        "title": "Stripe to Power Constructor’s Agentic Checkout",
-        "source": "Finovate",
+        "articleId": "radar-222885df0703747a",
+        "title": "AI is ‘reshaping’ Walmart and Sparky is leading the charge",
+        "source": "Retail Dive",
         "caveats": [],
-        "signalType": "合作 / 基础设施",
-        "date": "2026-10-06",
-        "quote": "Product discovery platform Constructor has partnered with Stripe to launch Agentic Checkout , an agentic commerce tool available to retailers that enables both human and agent shoppers to find and buy products via the Link by Stripe digital wallet or other payment methods all within a single location.",
-        "quoteZh": "商品发现平台 Constructor 与 Stripe 合作推出 Agentic Checkout，让消费者与购物智能体在同一界面内发现并购买商品，支持 Link by Stripe 等支付方式。",
-        "url": "https://finovate.com/stripe-to-power-constructors-agentic-checkout/"
+        "signalType": "分析 / 观点",
+        "date": "2026-10-08",
+        "quote": "Advancements in AI are helping Walmart save money, which it is, in turn, reinvesting in customer experience improvements, according to U.S.",
+        "quoteZh": "据美国称,AI的进步正在帮助沃尔玛省钱,这反过来又在重新投资客户经验的改善。",
+        "url": "https://www.retaildive.com/news/ai-walmart-sparky-CX-investment/832327/"
       }
     ],
     "counterpoint": "宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
@@ -61,15 +61,15 @@
     "relatedArticleIds": [
       "radar-6f670eb9ffa2eb69",
       "radar-ce4cdfd726cf92df",
-      "radar-80746a8593316dbb",
-      "radar-ef81ec7a5e54b041"
+      "radar-7f99543b6cbdb838",
+      "radar-222885df0703747a"
     ],
     "sourceCount": 4,
     "confidence": "待验证假设",
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-08",
-    "fingerprint": "3afd8bad224076a1",
+    "updatedAt": "2026-10-09",
+    "fingerprint": "fac29368a13aceea",
     "method": "规则辅助研究假设"
   },
   {
@@ -183,7 +183,7 @@
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Technology Innovation Hub提供分析 / 观点线索；Mastercard提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Technology Innovation Hub提供分析 / 观点线索；Mastercard提供分析 / 观点线索；Retail Technology Innovation Hub提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-trust",
     "title": "把“推荐理由”升级成可检查的证据",
     "summary": "对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
@@ -209,6 +209,17 @@
         "quote": "As AI agents begin shopping, paying and making decisions on behalf of people and businesses, the biggest challenge is trust, not technology.",
         "quoteZh": "随着AI代理商开始为人和企业购物,支付和作出决定,最大的挑战在于信任,而不是技术.",
         "url": "https://www.mastercard.com/global/en/news-and-trends/Insights/2026/mastercard-agentic-commerce-trust-white-paper.html"
+      },
+      {
+        "articleId": "radar-1bdcb86d253baaf1",
+        "title": "FT Live Future of Retail Summit review: store experiences still count says JD Group CEO Régis Schultz",
+        "source": "Retail Technology Innovation Hub",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-10-09",
+        "quote": "The physical store is still important because “it’s where we connect with consumers”, said Régis Schultz, CEO at JD Group, in a keynote address at the FT Live 2026 Future of Retail event in London this week.",
+        "quoteZh": "JD集团首席执行官雷吉斯·舒尔茨(Régis Schultz)在本周伦敦FT Live 2026 Future of Retail 活动的主题演讲中表示,",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/8/ft-live-future-of-retail-summit-review-store-experiences-still-count-says-jd-group-ceo-regis-schultz"
       }
     ],
     "counterpoint": "满意度和使用意愿不代表真实购买表现；需要观察错误推荐、广告识别与投诉，不能只看问卷或单次演示。",
@@ -221,18 +232,19 @@
     ],
     "relatedArticleIds": [
       "radar-0378d3ccd74205bc",
-      "radar-b2da2ac773a5973b"
+      "radar-b2da2ac773a5973b",
+      "radar-1bdcb86d253baaf1"
     ],
     "sourceCount": 2,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 2 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 3 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-08",
-    "fingerprint": "1d583de30897db78",
+    "updatedAt": "2026-10-09",
+    "fingerprint": "97bee68f6ea096ae",
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Accenture提供分析 / 观点线索；Digital Commerce 360提供合作 / 基础设施线索；Retail Technology Innovation Hub提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Accenture提供分析 / 观点线索；Digital Commerce 360提供合作 / 基础设施线索；IT之家提供功能 / 上线线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-local",
     "title": "即时购物要先满足可履约，再讨论聪明",
     "summary": "即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
@@ -249,15 +261,15 @@
         "url": "https://retailtechinnovationhub.com/home/2026/10/7/asda-and-rokt-partner-to-bring-ai-tech-powered-relevant-offers-to-customers-at-checkout"
       },
       {
-        "articleId": "radar-f88c494c5661cc6d",
-        "title": "Agentic Commerce Senior Manager | Life Sciences",
+        "articleId": "radar-c13fca28b8662566",
+        "title": "Agentic Commerce Senior Manager | Industrial",
         "source": "Accenture",
         "caveats": [],
         "signalType": "分析 / 观点",
-        "date": "2026-10-08",
-        "quote": "With strong client relationships and deep industry expertise, we help our clients operate at the speed of life through the unlimited potential of imagination, technology and intelligence.",
-        "quoteZh": "凭借强大的客户关系和深厚的行业专业知识,我们通过无限的想象力,技术和智能潜力,帮助我们的客户以生命的速度运行.",
-        "url": "https://www.accenture.com/at-de/careers/jobdetails?id=R00345498_en"
+        "date": "2026-10-06",
+        "quote": "Visit us at: www.accenture.com/song We are seeking a Senior Manager to lead the design and delivery of agentic commerce transformation programs for industrial clients.",
+        "quoteZh": "访问我们:www.accenture.com/song 我们正在寻找一位高级管理人员,领导为工业客户设计和提供代理商业转型方案。",
+        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00350744_en"
       },
       {
         "articleId": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
@@ -271,15 +283,15 @@
         "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/"
       },
       {
-        "articleId": "radar-13167e4db08f2991",
-        "title": "Grocery retailer Panda teams with Spike and GoWit to power e-commerce media push in Saudi Arabia",
-        "source": "Retail Technology Innovation Hub",
+        "articleId": "radar-ebe76b6a5288953c",
+        "title": "后厨制作过程能扫码回看，中国电信推出“外卖云监管-食安封签”解决方案",
+        "source": "IT之家",
         "caveats": [],
-        "signalType": "合作 / 基础设施",
-        "date": "2026-10-08",
-        "quote": "Panda Retail, a grocery retailer in Saudi Arabia, has partnered with Spike Media Saudi, GoWit’s partner in the region, operating locally as GoSpike, to accelerate its digital media transformation push in the Kingdom.",
-        "quoteZh": "Panda Retail是沙特阿拉伯的一家杂货零售商,与GoWit在该区域的合作伙伴Spike Media Saudi合作,在当地作为GoSpike开展业务,以加速其在沙特王国的数字媒体转型。",
-        "url": "https://retailtechinnovationhub.com/home/2026/10/7/grocery-retailer-panda-teams-with-spike-and-gowit-to-power-e-commerce-media-push-in-saudi-arabia"
+        "signalType": "功能 / 上线",
+        "date": "2026-10-09",
+        "quote": "IT之家 10 月 9 日消息，中国电信今日宣布，继“明厨亮灶”将后厨从“幕后”拉到“台前”之后，“明厨亮灶”又将守护延伸至外卖配送环 …",
+        "quoteZh": "IT之家 10 月 9 日消息，中国电信今日宣布，继“明厨亮灶”将后厨从“幕后”拉到“台前”之后，“明厨亮灶”又将守护延伸至外卖配送环 …",
+        "url": "https://www.ithome.com/1/011/047.htm"
       }
     ],
     "counterpoint": "演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
@@ -292,24 +304,35 @@
     ],
     "relatedArticleIds": [
       "radar-9425c6ded44c4863",
-      "radar-f88c494c5661cc6d",
+      "radar-c13fca28b8662566",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "radar-13167e4db08f2991"
+      "radar-ebe76b6a5288953c"
     ],
-    "sourceCount": 3,
+    "sourceCount": 4,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 4 篇原文、3 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-08",
-    "fingerprint": "d62106513cb96652",
+    "updatedAt": "2026-10-09",
+    "fingerprint": "047ba64b4d3ce004",
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Dive提供合作 / 基础设施线索；Salesforce提供合作 / 基础设施线索；www.mastercard.com提供分析 / 观点线索；CBNData-第一财经商业数据中心提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "kpmg.com提供分析 / 观点线索；Retail Dive提供合作 / 基础设施线索；Salesforce提供合作 / 基础设施线索；CBNData-第一财经商业数据中心提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-discovery",
     "title": "入口变化之后，谁拥有最终候选集？",
     "summary": "当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
     "evidence": [
+      {
+        "articleId": "radar-47a2914f9b3b5c69",
+        "title": "When AI does our shopping for us",
+        "source": "kpmg.com",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-10-08",
+        "quote": "Agentic Commerce – the use of AI agents in online shopping – is expected to develop gradually from the consumers’ perspective.",
+        "quoteZh": "Agentic Commerce - 在线购物中使用AI代理 - 预计将从消费者的角度逐步发展.",
+        "url": "https://kpmg.com/de/en/media/press-releases/2026/10/consumer-snapshot-when-ai-does-our-shopping-for-us.html"
+      },
       {
         "articleId": "radar-90923df83ec2925c",
         "title": "TikTok to add AI-powered discovery and one-click checkout",
@@ -333,17 +356,6 @@
         "url": "https://www.salesforce.com/blog/commerce-cloud-tiktok-integration/?bc=OTH"
       },
       {
-        "articleId": "radar-1f254fb86d3dabed",
-        "title": "What will make consumers trust AI shopping agents? Startup founders explain - Mastercard",
-        "source": "www.mastercard.com",
-        "caveats": [],
-        "signalType": "分析 / 观点",
-        "date": "2026-09-29",
-        "quote": "For some, shopping is a competitive sport, with consumers strategizing about loyalty points and spending hours comparing every possible option and price.",
-        "quoteZh": "对有些人来说,购物是一种竞争性运动,消费者对忠诚点和花费时间来比较每一种可能的选项和价格进行策略分析.",
-        "url": "https://www.mastercard.com/cn/zh/news-and-trends/stories/2026/agentic-commerce-startups.html"
-      },
-      {
         "articleId": "2026-09-18-cbndata-ai-0a850a39df",
         "title": "电商六巨头会战“AI导购”，开启第三次入口革命",
         "source": "CBNData-第一财经商业数据中心",
@@ -364,17 +376,17 @@
       "入口迁移"
     ],
     "relatedArticleIds": [
+      "radar-47a2914f9b3b5c69",
       "radar-90923df83ec2925c",
       "radar-e56e589b7efd8225",
-      "radar-1f254fb86d3dabed",
       "2026-09-18-cbndata-ai-0a850a39df"
     ],
     "sourceCount": 4,
     "confidence": "待验证假设",
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-08",
-    "fingerprint": "7626a69707862616",
+    "updatedAt": "2026-10-09",
+    "fingerprint": "f1dc7cafd8e7fb43",
     "method": "规则辅助研究假设"
   }
 ]
