@@ -27,7 +27,7 @@ with sync_playwright() as pw:
             assert page.locator('#monthTabs').bounding_box()['y']<page.locator('#activeMonthlyReport').bounding_box()['y']<page.locator('#articleGroups').bounding_box()['y']
         check_days(months[0])
         assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'),label
-        page.screenshot(path=f'/tmp/radar-timeline-{label}-home.png',full_page=False)
+        page.screenshot(path=f'/tmp/radar-brief-{label}-home.png',full_page=False)
         page.locator('.month-tab').nth(1).click()
         check_days(months[1])
         assert page.locator('.monthly-links a').evaluate_all('(els)=>els.map(e=>e.href)')!=first_monthly_links
@@ -72,15 +72,24 @@ with sync_playwright() as pw:
         assert page.locator('#notePanel').get_attribute('aria-hidden')=='true'
         page.locator('[data-tab="feed"]').click()
         page.locator('.article-card').first.scroll_into_view_if_needed()
-        assert page.locator('.analysis-details').first.get_attribute('open') is not None
-        assert page.locator('.analysis-details > p').first.is_visible()
-        summaries=page.locator('.core-points').all_inner_texts()
+        assert page.locator('.article-research').first.is_visible()
+        assert page.locator('.research-insight').first.is_visible()
+        assert page.locator('.deep-thinking').first.is_visible()
+        assert page.locator('.article-title-zh').first.is_visible()
+        assert page.locator('.article-title-original').count()>0
+        assert page.locator('.article-keywords').first.inner_text()
+        assert page.locator('.article-original-link').first.get_attribute('href').startswith('http')
+        assert page.locator('.article-original-link').first.get_attribute('target')=='_blank'
+        summaries=page.locator('.summary-copy').all_inner_texts()
         import re
         assert summaries and all(re.search('[\u4e00-\u9fff]',text) for text in summaries)
-        page.locator('.analysis-details summary').first.click()
-        assert page.locator('.analysis-details').first.get_attribute('open') is None
-        page.locator('.analysis-details summary').first.click()
-        page.screenshot(path=f'/tmp/radar-timeline-{label}-card.png',full_page=False)
+        first=page.locator('.article-card').first
+        assert first.locator('.brief-card-header').bounding_box()['y']<first.locator('.article-summary').bounding_box()['y']<first.locator('.article-research').bounding_box()['y']
+        assert not first.locator('.article-evidence').get_attribute('open')
+        first.locator('.article-evidence summary').click()
+        assert first.locator('.article-evidence').get_attribute('open') is not None
+        first.locator('.article-evidence summary').click()
+        page.screenshot(path=f'/tmp/radar-brief-{label}-card.png',full_page=False)
         assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'),label
         assert not errors,errors
         print(label,'PASS: two tabs, monthly summaries & recommendations, daily timeline, search, quality, bookmarks, notes, export, no overflow or errors')

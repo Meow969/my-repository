@@ -26,7 +26,7 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-10-08-cn-archive-v3';
+const DATA_VERSION = '2026-10-10-bilingual-brief-v4';
 const ECHO_STAGES = [
   {
     id: 'need',
@@ -220,6 +220,11 @@ function articleSearchText(article) {
   const related = state.insights.filter(insight => (article.relatedInsightIds || []).includes(insight.id));
   return [
     article.title,
+    article.titleZh,
+    ...(article.brief?.keywords || []),
+    ...(article.brief?.summary || []),
+    article.brief?.research?.insight,
+    article.brief?.research?.deepThought,
     ...(article.summaryZh || []),
     article.source,
     article.region,
@@ -297,7 +302,7 @@ function renderActiveMonthlyReport() {
     <div class="monthly-head"><span>${escapeHtml(fmtMonth(report.month))} · 月度总结</span><strong>${escapeHtml(report.title)}</strong></div>
     <p class="monthly-summary">${escapeHtml(report.summary)}</p>
     <h4>这个月最推荐看</h4>
-    <div class="monthly-links">${articles.map((a,index) => `<a href="${safeUrl(a.url)}" target="_blank" rel="noopener noreferrer"><span class="top-index">${String(index+1).padStart(2,'0')}</span><span class="top-copy">${escapeHtml(a.title)}</span><span class="top-source">${escapeHtml(a.source)} ↗</span></a>`).join('') || '<span class="muted">本月暂无符合原文标准的推荐，历史资料见下方。</span>'}</div>
+    <div class="monthly-links">${articles.map((a,index) => `<a href="${safeUrl(a.url)}" target="_blank" rel="noopener noreferrer"><span class="top-index">${String(index+1).padStart(2,'0')}</span><span class="top-copy">${escapeHtml(a.titleZh || a.title)}</span><span class="top-source">${escapeHtml(a.source)} ↗</span></a>`).join('') || '<span class="muted">本月暂无符合原文标准的推荐，历史资料见下方。</span>'}</div>
   </article>`;
 }
 
@@ -310,19 +315,23 @@ function renderArticles(articles) {
 }
 
 function renderArticle(article) {
-  const analysis = article.analysis || {};
+  const brief = article.brief || {};
+  const research = brief.research || {};
+  const titleZh = article.titleZh || article.title;
+  const bilingual = titleZh !== article.title;
   const saved = state.bookmarks.includes(article.id);
-  const points = (article.summaryZh || []).filter(Boolean);
-  return `<article class="article-card" id="article-${escapeHtml(article.id)}">
-    <div class="article-head"><a class="article-title" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a><button class="bookmark-btn ${saved ? 'saved' : ''}" data-bookmark="${escapeHtml(article.id)}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '收藏'}">${saved ? '★' : '☆'}</button></div>
-    <div class="article-byline"><span>${escapeHtml(article.source)}</span><span>${escapeHtml(article.region)}</span><span>${escapeHtml(article.contentType || article.category)}</span><span class="evidence-badge ${article.evidenceLevel === 'fulltext' ? 'verified' : ''}" title="${escapeHtml(article.evidenceLabel || '历史线索')}">${article.evidenceLevel === 'fulltext' ? '原文' : '待核验'}</span></div>
-    <ul class="core-points" lang="zh-CN" title="关键简介 · 原文要点中文转述">${points.slice(0,2).map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
-    <details class="analysis-details" open><summary>产品洞察 <span>· 研究假设</span></summary>
-      <p>${escapeHtml((analysis.implication || '').replace(/^本条以“.*?”为观察对象。/, ''))}</p><h4>反向解释</h4><p>${escapeHtml(analysis.counterpoint || '')}</p><h4>验证思路</h4><p>${escapeHtml(analysis.experiment || '')}</p>
-      ${article.sourceCaveats?.length ? `<h4>原文限制</h4><p>${(article.sourceCaveatsZh || article.sourceCaveats).map(escapeHtml).join('<br>')}</p>` : ''}
-      <small>规则辅助推演，非原文结论 · ${escapeHtml(article.dateBasis || '历史日期')}${article.checkedAt ? ' · '+escapeHtml(article.checkedAt.slice(0,10))+' 核验' : ''}</small>
-    </details>
-    ${article.relatedCoverage?.length ? `<details class="coverage-details"><summary>更多报道 · ${article.relatedCoverage.length}</summary>${renderSourceLinks(article.relatedCoverage, '相关报道')}</details>` : ''}
+  const keywords = brief.keywords || article.tags || [];
+  const facts = brief.summary || article.summaryZh || [];
+  return `<article class="article-card brief-card" id="article-${escapeHtml(article.id)}" aria-labelledby="title-${escapeHtml(article.id)}">
+    <header class="brief-card-header">
+      <div class="article-source-row"><div class="article-byline"><span>${escapeHtml(article.source)}</span><time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time><span>${escapeHtml(article.contentType || article.category)}</span><span class="evidence-badge ${article.evidenceLevel === 'fulltext' ? 'verified' : ''}" title="${escapeHtml(article.evidenceLabel || '历史线索')}">${article.evidenceLevel === 'fulltext' ? '原文' : '待核验'}</span></div><button class="bookmark-btn ${saved ? 'saved' : ''}" data-bookmark="${escapeHtml(article.id)}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '收藏'}">${saved ? '★' : '☆'}</button></div>
+      <h3 class="article-title-zh" id="title-${escapeHtml(article.id)}"><a class="article-title" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(titleZh)}</a></h3>
+      ${bilingual ? `<p class="article-title-original" lang="en">${escapeHtml(article.title)}</p>` : ''}
+      <div class="article-keyword-row"><div class="article-keywords" aria-label="关键词">${keywords.map(tag=>`<span class="article-keyword">${escapeHtml(tag)}</span>`).join('')}</div><a class="article-original-link" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div>
+    </header>
+    <section class="article-summary" aria-label="核心信息与产品动作"><h4>核心信息${brief.summaryLabel && brief.summaryLabel !== '核心信息' ? `<span>${escapeHtml(brief.summaryLabel)}</span>` : ''}</h4><div class="summary-copy" lang="zh-CN">${facts.map(text=>`<p>${escapeHtml(text)}</p>`).join('')}</div></section>
+    <section class="article-research" aria-label="AI导购产品洞察与深入思考"><div class="research-heading"><h4>AI 导购 · 产品洞察</h4><span>研究假设</span></div><p class="research-thesis">${escapeHtml(research.heading || '')}</p><p class="research-insight">${escapeHtml(research.insight || '')}</p><div class="deep-thinking"><h5>深入思考</h5><p>${escapeHtml(research.deepThought || '')}</p></div><div class="validation-cut"><h5>验证切口</h5><p>${escapeHtml(research.validation || '')}</p></div></section>
+    <details class="article-evidence"><summary>原文依据与判断边界${article.relatedCoverage?.length ? ` · ${article.relatedCoverage.length} 篇相关报道` : ''}</summary><p class="evidence-limit">${escapeHtml(research.evidenceLimit || '')}</p>${article.sourceCaveatsZh?.length ? `<p>${article.sourceCaveatsZh.map(escapeHtml).join('<br>')}</p>` : ''}<blockquote>${(article.corePoint || []).slice(0,2).map(text=>`<p>${escapeHtml(text)}</p>`).join('')}</blockquote>${article.relatedCoverage?.length ? renderSourceLinks(article.relatedCoverage,'相关报道') : ''}<small>${escapeHtml(article.dateBasis || '历史日期')} · ${escapeHtml(article.titleTranslationMethod || '')}${article.checkedAt ? ' · '+escapeHtml(article.checkedAt.slice(0,10))+' 核验' : ''}；原文为准，推演不等于已验证结论。</small></details>
   </article>`;
 }
 

@@ -165,6 +165,59 @@ def localize_articles(articles,translator=None,strict=True):
     return retained
 
 
+TITLE_VERSION='bilingual-title-v1'
+
+
+def needs_title_translation(title):
+    # Chinese-origin stories keep their supplied title; never invent an English original.
+    han=len(re.findall(r'[\u4e00-\u9fff]',title))
+    return bool(re.search(r'[A-Za-z]{3,}',title)) and han<4
+
+
+def localize_titles(articles,translator=None,strict=True):
+    path=MODEL_DIR/(TITLE_VERSION+'-cache.json')
+    persist=translator is None
+    cache=json.loads(path.read_text()) if persist and path.exists() else {}
+    edits_path=Path(__file__).with_name('editorial_titles.json')
+    edits=json.loads(edits_path.read_text()) if edits_path.exists() else {}
+    pending=[]
+    for a in articles:
+        title=a['title'];key=fingerprint([title])
+        if not needs_title_translation(title):cache[title]=title;continue
+        if key in edits:cache[title]=edits[key]['titleZh']
+        elif a.get('titleSourceHash')==key and a.get('titleZh') and is_chinese(a['titleZh']):cache[title]=a['titleZh']
+        if title not in cache:pending.append(title)
+    pending=list(dict.fromkeys(pending))
+    if pending:
+        translator=translator or Translator()
+        for start in range(0,len(pending),16):
+            chunk=pending[start:start+16]
+            try:values=translator.translate(chunk)
+            except ValueError:
+                values=[]
+                for title in chunk:
+                    try:values.append(translator.translate([title])[0])
+                    except ValueError:
+                        if strict:raise
+                        values.append(None)
+            if len(values)!=len(chunk):raise ValueError('Incomplete title translations')
+            for title,value in zip(chunk,values):
+                if value and is_chinese(value):cache[title]=normalize_terms(title,value).strip(' .。')
+                elif strict:raise ValueError('Missing Chinese title: '+title)
+            if persist:
+                path.parent.mkdir(parents=True,exist_ok=True)
+                tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(cache,ensure_ascii=False));tmp.replace(path)
+            print(f'Bilingual titles: {min(start+16,len(pending))}/{len(pending)}',flush=True)
+    kept=[]
+    for a in articles:
+        title=a['title']
+        if title not in cache:
+            print('Defer article without translated title: '+a['id'],flush=True);continue
+        a['titleZh']=cache[title];a['titleSourceHash']=fingerprint([title]);a['titleVersion']=TITLE_VERSION
+        a['titleTranslationMethod']='人工校订' if fingerprint([title]) in edits else 'OPUS-MT机器翻译' if needs_title_translation(title) else '原文标题'
+        kept.append(a)
+    return kept
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--prepare-model',action='store_true');parser.add_argument('--input',default=str(ROOT/'data/articles.json'));parser.add_argument('--output')
     args=parser.parse_args()

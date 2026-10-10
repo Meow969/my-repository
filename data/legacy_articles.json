@@ -1930,5 +1930,1172 @@
       "structured-dialogue"
     ],
     "contentType": "行业新闻"
+  },
+  {
+    "title": "FT Live Future of Retail Summit review: store experiences still count says JD Group CEO Régis Schultz",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/8/ft-live-future-of-retail-summit-review-store-experiences-still-count-says-jd-group-ceo-regis-schultz",
+    "date": "2026-10-09",
+    "dateBasis": "原文发布日期",
+    "source": "Retail Technology Innovation Hub",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-09T17:54:08+08:00",
+    "sourceCaveats": [],
+    "excerpt": "The physical store is still important because “it’s where we connect with consumers”, said Régis Schultz, CEO at JD Group, in a keynote address at the FT Live 2026 Future of Retail event in London this week. “We’re going for bigger stores with a view to giving customers’ experiences,” explained Schultz, while discussing his company’s in-store cafes, barbers, till checkout …",
+    "corePoint": [
+      "The physical store is still important because “it’s where we connect with consumers”, said Régis Schultz, CEO at JD Group, in a keynote address at the FT Live 2026 Future of Retail event in London this week.",
+      "“We’re going for bigger stores with a view to giving customers’ experiences,” explained Schultz, while discussing his company’s in-store cafes, barbers, till checkout …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-1bdcb86d253baaf1",
+    "firstSeenAt": "2026-10-09",
+    "lensId": "trust",
+    "tags": [
+      "证据引用",
+      "推荐可信度",
+      "反向指标"
+    ],
+    "category": "证据引用",
+    "contentType": "竞品分析",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 15,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 证据引用",
+      "implication": "本条以“FT Live Future of Retail Summit review: store experiences still count says JD Group CEO Régis Schultz”为观察对象。对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 满意度和使用意愿不代表真实购买表现；需要观察错误推荐、广告识别与投诉，不能只看问卷或单次演示。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 比较普通推荐与“理由＋证据日期＋风险提示”；同时测决策耗时、事实核验正确率、广告识别率和购后后悔率，避免只优化点击。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "The physical store is still important because “it’s where we connect with consumers”, said Régis Schultz, CEO at JD Group, in a keynote address at the FT Live 2026 Future of Retail event in London this week."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“FT Live Future of Retail Summit review: store experiences still count says JD Group CEO Régis Schultz”为观察对象。对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+    "relatedInsightIds": [
+      "evidence-trust"
+    ],
+    "publisher": "retailtechinnovationhub.com",
+    "contentKinds": [
+      "竞品分析"
+    ],
+    "summaryZh": [
+      "JD集团首席执行官雷吉斯·舒尔茨(Régis Schultz)在本周伦敦FT Live 2026 Future of Retail 活动的主题演讲中表示,",
+      "“我们打算购买更大的商店, 以便让顾客体验经验, ”Schultz解释道,"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "99e81a2d2266dd10a0a9eb19d716c88373a64d67d72756c382f1cf014b19c814",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "后厨制作过程能扫码回看，中国电信推出“外卖云监管-食安封签”解决方案",
+    "url": "https://www.ithome.com/1/011/047.htm",
+    "date": "2026-10-09",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "IT之家",
+    "region": "国内",
+    "sourceKind": "media",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-09T17:54:08+08:00",
+    "sourceCaveats": [],
+    "excerpt": "IT之家 10 月 9 日消息，中国电信今日宣布，继“明厨亮灶”将后厨从“幕后”拉到“台前”之后，“明厨亮灶”又将守护延伸至外卖配送环 …",
+    "corePoint": [
+      "IT之家 10 月 9 日消息，中国电信今日宣布，继“明厨亮灶”将后厨从“幕后”拉到“台前”之后，“明厨亮灶”又将守护延伸至外卖配送环 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-ebe76b6a5288953c",
+    "firstSeenAt": "2026-10-09",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 16,
+        "evidence": 30,
+        "relevance": 15,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 75,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "发布能力能否转成持续使用 · 履约确定性",
+      "implication": "本条以“后厨制作过程能扫码回看，中国电信推出“外卖云监管-食安封签”解决方案”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "产品公告说明能力或范围变化，不能据此推断用户采用和留存。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "先记录入口、开放地区、使用门槛与操作步骤；两周后检查重复使用和任务成功率。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "IT之家 10 月 9 日消息，中国电信今日宣布，继“明厨亮灶”将后厨从“幕后”拉到“台前”之后，“明厨亮灶”又将守护延伸至外卖配送环 …"
+    },
+    "signalType": "功能 / 上线",
+    "insight": "本条以“后厨制作过程能扫码回看，中国电信推出“外卖云监管-食安封签”解决方案”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "ithome.com",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "IT之家 10 月 9 日消息，中国电信今日宣布，继“明厨亮灶”将后厨从“幕后”拉到“台前”之后，“明厨亮灶”又将守护延伸至外卖配送环 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "c4dedc246941c83af8c5adc5838ff87575b9b19f2df4e908af606a5b95c3a046",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Agentic Commerce Senior Manager | Life Sciences",
+    "url": "https://www.accenture.com/at-de/careers/jobdetails?id=R00345498_en",
+    "date": "2026-10-08",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "Accenture",
+    "region": "海外",
+    "sourceKind": "research",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T21:03:51+08:00",
+    "sourceCaveats": [],
+    "excerpt": "With strong client relationships and deep industry expertise, we help our clients operate at the speed of life through the unlimited potential of imagination, technology and intelligence. Visit us at: www.accenture.com/song We are seeking a Senior Manager to help lead the delivery of agentic commerce and digital ecosystem transformation programs for Life Sciences clients.",
+    "corePoint": [
+      "With strong client relationships and deep industry expertise, we help our clients operate at the speed of life through the unlimited potential of imagination, technology and intelligence.",
+      "Visit us at: www.accenture.com/song We are seeking a Senior Manager to help lead the delivery of agentic commerce and digital ecosystem transformation programs for Life Sciences clients."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-f88c494c5661cc6d",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "咨询洞察",
+    "quality": {
+      "dimensions": {
+        "source": 23,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 89,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 履约确定性",
+      "implication": "本条以“Agentic Commerce Senior Manager | Life Sciences”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "With strong client relationships and deep industry expertise, we help our clients operate at the speed of life through the unlimited potential of imagination, technology and intelligence."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Agentic Commerce Senior Manager | Life Sciences”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "accenture.com",
+    "contentKinds": [
+      "咨询洞察",
+      "研究报告"
+    ],
+    "summaryZh": [
+      "凭借强大的客户关系和深厚的行业专业知识,我们通过无限的想象力,技术和智能潜力,帮助我们的客户以生命的速度运行.",
+      "访问我们:www.accenture.com/song 我们正在寻找一名高级管理人员,帮助领导为生命科学客户提供代理商业和数字生态系统转化方案。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "e944698e38f48829db9979c2db8560e33f77d6987a97c344966b8fb7f6ac6f6f",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Agentic Commerce Architect",
+    "url": "https://www.accenture.com/sg-en/careers/jobdetails?id=R00350451_en&title=Agentic+Commerce+Architect",
+    "date": "2026-10-08",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "Accenture",
+    "region": "海外",
+    "sourceKind": "research",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-09T17:54:17+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems - embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising, and intelligent customer engagement at scale. You are an experienced technical architect with hands-on delivery experience across enterprise commerce platforms and a growing, demonstrable specialism in Generative AI …",
+    "corePoint": [
+      "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems - embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising, and intelligent customer engagement at scale.",
+      "You are an experienced technical architect with hands-on delivery experience across enterprise commerce platforms and a growing, demonstrable specialism in Generative AI …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-be3b7c3d7a8e4050",
+    "firstSeenAt": "2026-10-09",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "咨询洞察",
+    "quality": {
+      "dimensions": {
+        "source": 23,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 89,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 履约确定性",
+      "implication": "本条以“Agentic Commerce Architect”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems - embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising, and intelligent customer engagement at scale."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Agentic Commerce Architect”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "accenture.com",
+    "contentKinds": [
+      "咨询洞察",
+      "研究报告"
+    ],
+    "summaryZh": [
+      "在宋语中,我们的商务和人工智能实践帮助组织设计、构建和扩展现代数字商务生态系统——将基因人工智能和代理人工智能嵌入商业,以便实现实时个性化、自主交易和智能客户大规模参与。",
+      "你是一位经验丰富的技术建筑师,拥有跨企业商业平台的亲身操作交付经验,在Generative AI中呈现出日益明显的特长. ."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "778e547096a407d4b4f4363116ed8cf942cbe40b7094ffeab3dbd16d2f550735",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "PayPal’s AI Checkout Push and Agentic Commerce Vision Might Change The Case For Investing In PYPL",
+    "url": "https://au.finance.yahoo.com/news/paypal-ai-checkout-push-agentic-071037715.html",
+    "date": "2026-10-08",
+    "dateBasis": "原文发布日期",
+    "source": "Yahoo Finance Australia",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:15:55+08:00",
+    "sourceCaveats": [],
+    "excerpt": "In recent months, PayPal Holdings reported that its long-sluggish core checkout business has begun to stabilize, while it cuts costs, upgrades its technology stack, and channels resources into Venmo, Braintree, financial services and new AI-driven capabilities. To own PayPal, you need to believe its modernization push can keep core checkout relevant while newer flows like Venmo, Braintree, and AI-driven products …",
+    "corePoint": [
+      "In recent months, PayPal Holdings reported that its long-sluggish core checkout business has begun to stabilize, while it cuts costs, upgrades its technology stack, and channels resources into Venmo, Braintree, financial services and new AI-driven capabilities.",
+      "To own PayPal, you need to believe its modernization push can keep core checkout relevant while newer flows like Venmo, Braintree, and AI-driven products …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-6598a611c9b8af32",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“PayPal’s AI Checkout Push and Agentic Commerce Vision Might Change The Case For Investing In PYPL”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "In recent months, PayPal Holdings reported that its long-sluggish core checkout business has begun to stabilize, while it cuts costs, upgrades its technology stack, and channels resources into Venmo, Braintree, financial services and new AI-driven capabilities."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“PayPal’s AI Checkout Push and Agentic Commerce Vision Might Change The Case For Investing In PYPL”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "au.finance.yahoo.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "近几个月来,PayPal Holdings报告说,其长期沉闷的核心结账业务开始稳定下来,同时削减成本,升级技术堆,并将资源输送到Venmo,Braintree,金融服务和新的AI驱动能力.",
+      "要拥有PayPal,你需要相信它的现代化推力可以保持核心检查的相关性,同时更新流如Venmo,Braintree,以及AI驱动的产品."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "57f06dfd0613aba098ad4cc91cf263163567a11e2b5efb4dfe3d2e6c6b1481f8",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "FT Live Future of Retail Summit review: B&Q, Sweaty Betty, The Works bosses debate volatility, crime and AI",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/6/ft-live-future-of-retail-summit-bq-sweaty-betty-and-the-works-bosses-debate-volatility-crime-and-ai",
+    "date": "2026-10-07",
+    "dateBasis": "原文发布日期",
+    "source": "Retail Technology Innovation Hub",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T21:03:48+08:00",
+    "sourceCaveats": [],
+    "excerpt": "“We know we’re going to get inflation so we’ve got to be atop of costs,” said Graham Bell, CEO at B&Q at the FT Live 2026 Future of Retail event in the City of London yesterday, when debating trade and tariff volatility, a renewed cost-of-living crisis, shrinkage and AI with fellow CEOs from Sweaty Betty and The Works.",
+    "corePoint": [
+      "“We know we’re going to get inflation so we’ve got to be atop of costs,” said Graham Bell, CEO at B&Q at the FT Live 2026 Future of Retail event in the City of London yesterday, when debating trade and tariff volatility, a renewed cost-of-living crisis, shrinkage and AI with fellow CEOs from Sweaty Betty and The Works."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-0378d3ccd74205bc",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "trust",
+    "tags": [
+      "证据引用",
+      "推荐可信度",
+      "反向指标"
+    ],
+    "category": "证据引用",
+    "contentType": "竞品分析",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 90,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 证据引用",
+      "implication": "本条以“FT Live Future of Retail Summit review: B&Q, Sweaty Betty, The Works bosses debate volatility, crime and AI”为观察对象。对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 满意度和使用意愿不代表真实购买表现；需要观察错误推荐、广告识别与投诉，不能只看问卷或单次演示。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 比较普通推荐与“理由＋证据日期＋风险提示”；同时测决策耗时、事实核验正确率、广告识别率和购后后悔率，避免只优化点击。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "“We know we’re going to get inflation so we’ve got to be atop of costs,” said Graham Bell, CEO at B&Q at the FT Live 2026 Future of Retail event in the City of London yesterday, when debating trade and tariff volatility, a renewed cost-of-living crisis, shrinkage and AI with fellow CEOs from Sweaty Betty and The Works."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“FT Live Future of Retail Summit review: B&Q, Sweaty Betty, The Works bosses debate volatility, crime and AI”为观察对象。对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
+    "relatedInsightIds": [
+      "evidence-trust"
+    ],
+    "publisher": "retailtechinnovationhub.com",
+    "contentKinds": [
+      "竞品分析"
+    ],
+    "summaryZh": [
+      "“我们知道我们会得到通胀, 所以我们必须承担成本, ” 伦敦市FT Live 2026零售业未来活动的BQ首席执行官Graham Bell昨天在与来自Sweaty Betty和The Works的同行CEO讨论贸易和关税波动、新的生活费危机、萎缩和AI时表示,"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "b9b82aad38721e29ff97c6fa36910a8aa241afba591986218ab5aeab8e3e3bea",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Shopify stock trades at USD 163.04 as AI commerce push grows",
+    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/shopify-stock-trades-at-usd-163-04-as-ai-commerce-push-grows/70256963",
+    "date": "2026-10-07",
+    "dateBasis": "原文发布日期",
+    "source": "AD HOC NEWS",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:16:01+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Shopify (ISIN CA82509L1076) was trading at USD 163.04 on NASDAQ on October 7, 2026 at 10:39 a.m. JPMorgan raised its Shopify price target to USD 200 from USD 185 and kept an Overweight rating in a note dated October 6, 2026, as reported by MarketBeat . At USD 163.04 on October 7, 2026, Shopify was 10.5 percent below its 52-week …",
+    "corePoint": [
+      "Shopify (ISIN CA82509L1076) was trading at USD 163.04 on NASDAQ on October 7, 2026 at 10:39 a.m.",
+      "JPMorgan raised its Shopify price target to USD 200 from USD 185 and kept an Overweight rating in a note dated October 6, 2026, as reported by MarketBeat .",
+      "At USD 163.04 on October 7, 2026, Shopify was 10.5 percent below its 52-week …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-c8e9af8a54821177",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Shopify stock trades at USD 163.04 as AI commerce push grows”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Shopify (ISIN CA82509L1076) was trading at USD 163.04 on NASDAQ on October 7, 2026 at 10:39 a.m."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Shopify stock trades at USD 163.04 as AI commerce push grows”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "ad-hoc-news.de",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Shopify(ISIN CA82509L1076)于2026年10月7日上午10时39分在纳斯达克以163.04美元的价格进行交易。",
+      "据MarketBeat报告,JPMorgan将Shoppify的价格目标从185美元提高到200美元,并在2026年10月6日的一份说明中保持了超重的评级。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "28e694948c63c236a52112a9028ee8d7787d40fdadc1c906e842edf6b7952391",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Product Data & Agentic Commerce Senior Manager",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00356749_en",
+    "date": "2026-10-06",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "Accenture",
+    "region": "海外",
+    "sourceKind": "research",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T21:03:53+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Accenture Song accelerates growth and value for our clients by combining creativity, technology, and data-driven intelligence. As a Product Data & Agentic Commerce Senior Manager, you will help define and execute the product data capability within Accenture Song's Agentic Commerce practice. We help brands transform their product data foundations — from fragmented master data and legacy PIM systems to AI-ready, …",
+    "corePoint": [
+      "Accenture Song accelerates growth and value for our clients by combining creativity, technology, and data-driven intelligence.",
+      "As a Product Data & Agentic Commerce Senior Manager, you will help define and execute the product data capability within Accenture Song's Agentic Commerce practice.",
+      "We help brands transform their product data foundations — from fragmented master data and legacy PIM systems to AI-ready, …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-80746a8593316dbb",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "咨询洞察",
+    "quality": {
+      "dimensions": {
+        "source": 23,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 92,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Product Data & Agentic Commerce Senior Manager”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Accenture Song accelerates growth and value for our clients by combining creativity, technology, and data-driven intelligence."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Product Data & Agentic Commerce Senior Manager”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "accenture.com",
+    "contentKinds": [
+      "咨询洞察",
+      "研究报告"
+    ],
+    "summaryZh": [
+      "Accenture Song通过结合创造力,技术和数据驱动的智能,加快了我们的客户的增长和价值.",
+      "作为产品数据与代理商务高级经理,您将在Accenture Song的代理商务实践中帮助定义并执行产品数据能力."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "953bee0da9f8db4df3452049b600a44a2dffa5658fd0d8e3cc85e4c0bb3a64c2",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Agentic Commerce Senior Manager | Industrial",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00350744_en",
+    "date": "2026-10-06",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "Accenture",
+    "region": "海外",
+    "sourceKind": "research",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-09T17:54:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Visit us at: www.accenture.com/song We are seeking a Senior Manager to lead the design and delivery of agentic commerce transformation programs for industrial clients. This Senior Manager will translate strategic vision into actionable programs, commercial value cases, and implementation roadmaps that modernize how industrial companies compete in agent-mediated buying journeys. Agentic Commerce Strategy & Transformation Leadership Lead major workstreams that …",
+    "corePoint": [
+      "Visit us at: www.accenture.com/song We are seeking a Senior Manager to lead the design and delivery of agentic commerce transformation programs for industrial clients.",
+      "This Senior Manager will translate strategic vision into actionable programs, commercial value cases, and implementation roadmaps that modernize how industrial companies compete in agent-mediated buying journeys.",
+      "Agentic Commerce Strategy & Transformation Leadership Lead major workstreams that …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-c13fca28b8662566",
+    "firstSeenAt": "2026-10-09",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "咨询洞察",
+    "quality": {
+      "dimensions": {
+        "source": 23,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 92,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 履约确定性",
+      "implication": "本条以“Agentic Commerce Senior Manager | Industrial”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Visit us at: www.accenture.com/song We are seeking a Senior Manager to lead the design and delivery of agentic commerce transformation programs for industrial clients."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Agentic Commerce Senior Manager | Industrial”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "accenture.com",
+    "contentKinds": [
+      "咨询洞察",
+      "研究报告"
+    ],
+    "summaryZh": [
+      "访问我们:www.accenture.com/song 我们正在寻找一位高级管理人员,领导为工业客户设计和提供代理商业转型方案。",
+      "这名高级管理人员将把战略愿景转化为可操作的方案、商业价值案例和执行路线图,使工业公司在代理采购过程中的竞争现代化。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "c3555db6acaa184cfc4010feee5f20c11cb205c8db15c9daf6bd3417c6331b0d",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Morgan Stanley Bullish on Shopify Stock as Agentic AI Shopping Trend Gains Momentum",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-bullish-shopify-stock-121632529.html",
+    "date": "2026-09-30",
+    "dateBasis": "原文发布日期",
+    "source": "Yahoo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:10:14+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Price change for Shopify stock in the last 6 months: 25% Shopify (NASDAQ: SHOP:NASDAQ ) shares rose almost 3% after Morgan Stanley analyst Adam Wood reiterated his positive view on the company on September 29 . The move in Shopify stock suggests investors like this argument, and the early data backs it up.",
+    "corePoint": [
+      "Price change for Shopify stock in the last 6 months: 25% Shopify (NASDAQ: SHOP:NASDAQ ) shares rose almost 3% after Morgan Stanley analyst Adam Wood reiterated his positive view on the company on September 29 .",
+      "The move in Shopify stock suggests investors like this argument, and the early data backs it up."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-415e33fb06039a85",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“Morgan Stanley Bullish on Shopify Stock as Agentic AI Shopping Trend Gains Momentum”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Price change for Shopify stock in the last 6 months: 25% Shopify (NASDAQ: SHOP:NASDAQ ) shares rose almost 3% after Morgan Stanley analyst Adam Wood reiterated his positive view on the company on September 29 ."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Morgan Stanley Bullish on Shopify Stock as Agentic AI Shopping Trend Gains Momentum”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "finance.yahoo.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "在摩根斯坦利分析师亚当·伍德(Adam Wood)于9月29日重申对公司的正面看法后, Shopify(纳斯达克:SHOP:NASDAQ)的股价变动近3%上升。",
+      "肖菲兹股票的移动暗示了投资者喜欢这个论点,早期的数据支持了这个论点."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "6ed7056d4611deca86f9229e4550b77d37f26019f4a981aa26e9460a42ef9d4a",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Vinasoy Cuts Out-of-Stock Rates by 20% in Two Months Using Generative AI-Powered Retail Monitoring - About Amazon",
+    "url": "https://press.aboutamazon.com/aws/2026/9/vinasoy-cuts-out-of-stock-rates-by-20-in-two-months-using-generative-ai-powered-retail-monitoring",
+    "date": "2026-09-29",
+    "dateBasis": "原文发布日期",
+    "source": "press.aboutamazon.com",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:10:29+08:00",
+    "excerpt": "HANOI, VIETNAM, SEPTEMBER 29, 2026 - Vinasoy, the No.1 chosen packaged soy milk manufacturer in Vietnam, today announced the successful deployment of a generative artificial intelligence (Gen AI) solution built on Amazon Web Services (AWS). The solution automates retail display monitoring across Vinasoy’s nationwide distribution network, reducing out-of-stock rates by 20% within two months of deployment.",
+    "corePoint": [
+      "HANOI, VIETNAM, SEPTEMBER 29, 2026 - Vinasoy, the No.1 chosen packaged soy milk manufacturer in Vietnam, today announced the successful deployment of a generative artificial intelligence (Gen AI) solution built on Amazon Web Services (AWS).",
+      "The solution automates retail display monitoring across Vinasoy’s nationwide distribution network, reducing out-of-stock rates by 20% within two months of deployment."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-11093ab38a4cdea1",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "样本和分母是否可比 · 授权边界",
+      "implication": "本条以“Vinasoy Cuts Out-of-Stock Rates by 20% in Two Months Using Generative AI-Powered Retail Monitoring - About Amazon”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "首先核对样本范围、时间窗与问题定义；意愿、自报行为、实际订单不是同一指标。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "先建立指标口径表，要求样本量、对照组与统计周期，缺项时不搬用增长数字。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "HANOI, VIETNAM, SEPTEMBER 29, 2026 - Vinasoy, the No.1 chosen packaged soy milk manufacturer in Vietnam, today announced the successful deployment of a generative artificial intelligence (Gen AI) solution built on Amazon Web Services (AWS)."
+    },
+    "insight": "本条以“Vinasoy Cuts Out-of-Stock Rates by 20% in Two Months Using Generative AI-Powered Retail Monitoring - About Amazon”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "press.aboutamazon.com",
+    "signalType": "研究 / 数据",
+    "sourceCaveats": [],
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "HANOI,VIETNAM, September 29, 2026 - Vinasoy,越南第1号被选中的包装豆奶制造商,今天宣布成功部署在亚马逊网络服务(AWS)上构建的基因人工智能(Gen AI)解决方案.",
+      "解决方案将零售业自动化,在Vinasoy的全国性分销网络上进行监控,在部署后两个月内将库存外价格降低20%。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "a9cc60ffb75c84a5236b3f2499b2f28401fee322567f3a061b993ba970d578dc",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Walmart Stock Drops 2.64% as Sparky Gets a Hard Pricing Boundary",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-drops-2-64-185000938.html",
+    "date": "2026-09-29",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "Yahoo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T20:29:03+08:00",
+    "dateCandidates": [
+      "2026-09-29",
+      "2026-09-30"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "Walmart, the retail giant ( NASDAQ:WMT ), ruled out using AI to charge shoppers different prices based on who they are or when they buy. If Walmart keeps personalized pricing off the table, can better search, recommendations and inventory decisions generate enough value from AI to justify the spending? Walmart also says its shopping tools will not bury cheaper options, …",
+    "corePoint": [
+      "Walmart, the retail giant ( NASDAQ:WMT ), ruled out using AI to charge shoppers different prices based on who they are or when they buy.",
+      "If Walmart keeps personalized pricing off the table, can better search, recommendations and inventory decisions generate enough value from AI to justify the spending?",
+      "Walmart also says its shopping tools will not bury cheaper options, …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-1fa07ab6ddb76e5e",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "样本和分母是否可比 · 候选集",
+      "implication": "本条以“Walmart Stock Drops 2.64% as Sparky Gets a Hard Pricing Boundary”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "首先核对样本范围、时间窗与问题定义；意愿、自报行为、实际订单不是同一指标。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "先建立指标口径表，要求样本量、对照组与统计周期，缺项时不搬用增长数字。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Walmart, the retail giant ( NASDAQ:WMT ), ruled out using AI to charge shoppers different prices based on who they are or when they buy."
+    },
+    "signalType": "研究 / 数据",
+    "insight": "本条以“Walmart Stock Drops 2.64% as Sparky Gets a Hard Pricing Boundary”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "finance.yahoo.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "historyBackfill": true,
+    "summaryZh": [
+      "沃尔玛(Walmart),零售巨头(NASDAQ:WMT),排除了利用AI向购物者收取不同价格,基于他们是谁或何时购买.",
+      "如果沃尔玛把个性化的定价放在桌面上,那么从AI那里可以更好地搜索,建议和库存决定产生足够的价值来证明支出的合理性吗?"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "0af38de470aaa85781ef6d27253975aa2ab45095c64ec466d71b2491cd626f78",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Shopify Stock Is Up 51% From Its 52-Week Low. Can Agentic Commerce Keep It Climbing?",
+    "url": "https://www.tikr.com/blog/shopify-stock-is-up-51-from-its-52-week-low-can-agentic-commerce-keep-it-climbing",
+    "date": "2026-09-27",
+    "dateBasis": "原文发布日期",
+    "source": "TIKR.com",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T18:10:16+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Break down Shopify’s GMV and payments growth with 5 years of analyst estimates on TIK (It’s free) >>> Shopify ( SHOP ) gained about 3% over the past week, but the ride was anything but smooth. Determine whether Shopify’s $5 billion buyback can amplify its 34% growth >>> Q3 results, expected around November 3, are the next checkpoint.",
+    "corePoint": [
+      "Break down Shopify’s GMV and payments growth with 5 years of analyst estimates on TIK (It’s free) >>> Shopify ( SHOP ) gained about 3% over the past week, but the ride was anything but smooth.",
+      "Determine whether Shopify’s $5 billion buyback can amplify its 34% growth >>> Q3 results, expected around November 3, are the next checkpoint."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-ad376f9e03dabdab",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "样本和分母是否可比 · 授权边界",
+      "implication": "本条以“Shopify Stock Is Up 51% From Its 52-Week Low. Can Agentic Commerce Keep It Climbing?”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "首先核对样本范围、时间窗与问题定义；意愿、自报行为、实际订单不是同一指标。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "先建立指标口径表，要求样本量、对照组与统计周期，缺项时不搬用增长数字。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Break down Shopify’s GMV and payments growth with 5 years of analyst estimates on TIK (It’s free) >>> Shopify ( SHOP ) gained about 3% over the past week, but the ride was anything but smooth."
+    },
+    "signalType": "研究 / 数据",
+    "insight": "本条以“Shopify Stock Is Up 51% From Its 52-Week Low. Can Agentic Commerce Keep It Climbing?”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "tikr.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "以5年分析师估计的TIK(免费) QQ Shopify(SHOP)在上个星期获得了大约3%的利润,",
+      "确定Shopify的50亿美元回购能否扩大34%的增长,"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "97ef2bd4ed8bd21a4f7a0fd1c66fccfeacbd4a79114eb5ba5200dd3dad4733c9",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Amazon Stock Forecast: Evercore Says AI Agents Like Alexa Drive Incremental Shopping, Can the Stock Hit a New High?",
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262139270-amazon-amzn-alexa-ai-shopping-evercore-57-percent-355-tradingkey",
+    "date": "2026-08-28",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "TradingKey",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T20:28:40+08:00",
+    "dateCandidates": [
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "On August 28 US Eastern Time, Amazon shares surged over 4%, led by Evercore ISI's survey revealing that agentic AI tools like Alexa AI drive incremental retail demand, with 57% of users purchasing previously unknown items and 36% increasing shopping volume. On an optimistic note, if the stock price can hold firmly above $263.88 for consecutive sessions and make a …",
+    "corePoint": [
+      "On August 28 US Eastern Time, Amazon shares surged over 4%, led by Evercore ISI's survey revealing that agentic AI tools like Alexa AI drive incremental retail demand, with 57% of users purchasing previously unknown items and 36% increasing shopping volume.",
+      "On an optimistic note, if the stock price can hold firmly above $263.88 for consecutive sessions and make a …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-f47d837e12af671b",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“Amazon Stock Forecast: Evercore Says AI Agents Like Alexa Drive Incremental Shopping, Can the Stock Hit a New High?”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "On August 28 US Eastern Time, Amazon shares surged over 4%, led by Evercore ISI's survey revealing that agentic AI tools like Alexa AI drive incremental retail demand, with 57% of users purchasing previously unknown items and 36% increasing shopping volume."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Amazon Stock Forecast: Evercore Says AI Agents Like Alexa Drive Incremental Shopping, Can the Stock Hit a New High?”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "tradingkey.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "historyBackfill": true,
+    "summaryZh": [
+      "美国东方时间8月28日,亚马逊的股权猛增超过4%,由Evercore ISI的调查带领,揭示了Alexa AI等代理AI工具驱动增量零售需求,57%的用户购买了之前未知的物品,购物量增加36%.",
+      "乐观地说,如果股票价格能够稳定地维持在263.88美元以上的连续会议,并作出......"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "bb053c8abc9a96af9025122b92ea29c9bc18a7f7aabedb0186d7bc217d2772fc",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Shopify, IBD Stock Of The Day, Nears Buy Point As AI Shopping Strategy Clicks",
+    "url": "https://www.investors.com/research/ibd-stock-of-the-day/shopify-stock-new-buy-point-artificial-intelligence-winner/",
+    "date": "2026-08-26",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "Investor's Business Daily",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T20:28:45+08:00",
+    "dateCandidates": [
+      "2026-08-26",
+      "2026-08-27"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "Shopify Shopify SHOP $ 150.29 $3.59 2.33% 41% IBD Stock Analysis Stock eyeing 158.87 buy point SHOP gains on strong fundamentals IBD Composite Rating 99/99 Industry Group Ranking 9/197 Emerging Pattern Cup with Handle Cup with Handle A positive chart pattern named such because it resembles the outline of a coffee cup with a handle.",
+    "corePoint": [
+      "Shopify Shopify SHOP $ 150.29 $3.59 2.33% 41% IBD Stock Analysis Stock eyeing 158.87 buy point SHOP gains on strong fundamentals IBD Composite Rating 99/99 Industry Group Ranking 9/197 Emerging Pattern Cup with Handle Cup with Handle A positive chart pattern named such because it resembles the outline of a coffee cup with a handle."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-a7386290d4591725",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“Shopify, IBD Stock Of The Day, Nears Buy Point As AI Shopping Strategy Clicks”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Shopify Shopify SHOP $ 150.29 $3.59 2.33% 41% IBD Stock Analysis Stock eyeing 158.87 buy point SHOP gains on strong fundamentals IBD Composite Rating 99/99 Industry Group Ranking 9/197 Emerging Pattern Cup with Handle Cup with Handle A positive chart pattern named such because it resembles the outline of a coffee cup with a handle."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Shopify, IBD Stock Of The Day, Nears Buy Point As AI Shopping Strategy Clicks”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "investors.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "historyBackfill": true,
+    "summaryZh": [
+      "Hishify Shopify SHOP 150.29 3.59 2.33% 41% IBD 股票分析眼球 158.87 购买强基数 IBD综合评分99/99 工业集团排名 9/197 新兴模式杯 Handle Cup 与 Handle 命名的正图图案类似带有握柄的咖啡杯的图案,因此SHOP得分."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "c679cf701416cf74fdef823d1bc3419fbd7de785a1e2e13e41a02dd8985a2c41",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "AMZN Stock Is Rising Today — Could Its New AI Shopping Push Be The Reason?",
+    "url": "https://www.tradingview.com/news/stocktwits:176fcf78f094b:0-amzn-stock-is-rising-today-could-its-new-ai-shopping-push-be-the-reason/",
+    "date": "2026-05-27",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "TradingView",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T20:27:49+08:00",
+    "dateCandidates": [
+      "2026-05-27",
+      "2026-05-28"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "Shares of Amazon.com Inc (AMZN) gained on Wednesday after the company unveiled a new artificial intelligence push that could expand its influence beyond its own online marketplace. The AMZN stock was over 2% higher following the announcement. AMZN Brings Alexa Shopping Tech To Retailers Amazon renamed its e-commerce chatbot Rufus to Alexa for Shopping Earlier this month, and made it …",
+    "corePoint": [
+      "Shares of Amazon.com Inc (AMZN) gained on Wednesday after the company unveiled a new artificial intelligence push that could expand its influence beyond its own online marketplace.",
+      "The AMZN stock was over 2% higher following the announcement.",
+      "AMZN Brings Alexa Shopping Tech To Retailers Amazon renamed its e-commerce chatbot Rufus to Alexa for Shopping Earlier this month, and made it …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-f31c98495efac9db",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“AMZN Stock Is Rising Today — Could Its New AI Shopping Push Be The Reason?”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Shares of Amazon.com Inc (AMZN) gained on Wednesday after the company unveiled a new artificial intelligence push that could expand its influence beyond its own online marketplace."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“AMZN Stock Is Rising Today — Could Its New AI Shopping Push Be The Reason?”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "tradingview.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "historyBackfill": true,
+    "summaryZh": [
+      "Amazon.com股份有限公司(AMZN)星期三在公司揭幕后获得了新的人工智能推力,这种推力可以将其影响力扩展到自己的在线市场之外.",
+      "AMZN的股票在公布后上涨了2%以上."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "9307478ab182326008a6516afc53286b9dc6aac4412e02c94ad65a0719d03653",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
+  },
+  {
+    "title": "Inside Shopify “Agentic Commerce” Masterplan: Here’s Where the Stock Could Go in 2026",
+    "url": "https://www.tikr.com/blog/inside-shopify-agentic-commerce-masterplan-heres-where-the-stock-could-go-in-2026",
+    "date": "2026-03-27",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "TIKR.com",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-08T20:27:09+08:00",
+    "dateCandidates": [
+      "2026-03-27",
+      "2026-03-28"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> The way consumers buy things on the internet is fracturing, and Shopify ( SHOP ) intends to own the pieces. Through the newly launched Agentic Plan, the strategy has already attracted global brands like Estée Lauder, Birkenstock, and Starbucks to the …",
+    "corePoint": [
+      "Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> The way consumers buy things on the internet is fracturing, and Shopify ( SHOP ) intends to own the pieces.",
+      "Through the newly launched Agentic Plan, the strategy has already attracted global brands like Estée Lauder, Birkenstock, and Starbucks to the …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-3ca3ad3eb54bb364",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Inside Shopify “Agentic Commerce” Masterplan: Here’s Where the Stock Could Go in 2026”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> The way consumers buy things on the internet is fracturing, and Shopify ( SHOP ) intends to own the pieces."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Inside Shopify “Agentic Commerce” Masterplan: Here’s Where the Stock Could Go in 2026”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "tikr.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "historyBackfill": true,
+    "summaryZh": [
+      "Now Live:发现你最喜欢的股票可以用TIKR的新估值模式(免费)来翻转多少。",
+      "通过新推出的Agentic Plan,该战略已经吸引了Estée Lauder,Birkenstock,星巴克等全球品牌到......"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "84d9525958a10436eb6d9b741378facd998f7ca635b3c3d72cab7c0f494f852d",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1"
   }
 ]

@@ -37,6 +37,11 @@ class LocalizationTests(unittest.TestCase):
         bad=dict(id='bad',title='Shopping',corePoint=['Bad English excerpt that cannot be translated.'])
         result=l.localize_articles([good,bad],Failing(),strict=False)
         self.assertEqual([a['id'] for a in result],['good'])
+    def test_missing_translated_title_defers_new_article(self):
+        class Failing:
+            def translate(self,values):raise ValueError('bad title')
+        result=l.localize_titles([dict(id='new',title='Untranslatable fresh shopping case')],Failing(),strict=False)
+        self.assertEqual(result,[])
     def test_short_translation_cardinality(self):
         self.assertNotEqual(l.fingerprint(['A','B']),l.fingerprint(['AB']))
         self.assertFalse(l.is_chinese(''))

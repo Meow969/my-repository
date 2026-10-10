@@ -334,3 +334,50 @@ footer { font-size:11px; color:var(--muted); text-align:center; padding:25px 16p
   .section-soft { padding:18px; }
 }
 @media(prefers-reduced-motion:reduce) { * { transition:none!important; animation:none!important; scroll-behavior:auto!important; } }
+
+/* Three-level article brief: identity → source facts → product research. */
+.brief-card { padding:26px 28px; overflow:hidden; }
+.article-source-row { display:flex; align-items:center; gap:12px; margin-bottom:7px; }
+.article-source-row .article-byline { flex:1; margin:0; font-size:11px; line-height:1.8; }
+.article-title-zh { margin:0; font-size:inherit; }
+.article-title-zh .article-title { font-size:23px; line-height:1.5; font-weight:760; letter-spacing:-.03em; }
+.article-card .article-title-original { margin:7px 0 0; font-size:13px; line-height:1.65; font-weight:450; color:#837b91; overflow-wrap:anywhere; }
+.article-keyword-row { display:flex; align-items:center; justify-content:space-between; gap:14px; margin-top:15px; }
+.article-keywords { display:flex; flex-wrap:wrap; gap:6px; }
+.article-keyword { font-size:11px; line-height:1.5; padding:4px 8px; border-radius:6px; color:#7865b1; background:#f2effb; border:1px solid #8064cb10; }
+.article-original-link { white-space:nowrap; color:var(--accent); font-weight:700; font-size:12px; }
+.article-original-link:hover { text-decoration:underline; text-underline-offset:3px; }
+.article-summary { padding:19px 0 20px; margin-top:18px; border-top:1px solid #7363a91b; }
+.article-card .article-summary h4 { display:flex; align-items:center; gap:10px; font-size:12px; color:#40384f; margin:0 0 9px; letter-spacing:.02em; }
+.article-summary h4 span { font-size:10px; font-weight:400; color:#9a91a8; }
+.article-card .summary-copy p { font-size:14px; color:#3d354a; line-height:1.9; margin:4px 0; }
+.article-research { border:1px solid #8872d024; border-left:3px solid #7954ef; border-radius:0 13px 13px 0; background:linear-gradient(120deg,#f7f4ff,#fcfbff); padding:18px 20px; }
+.research-heading { display:flex; align-items:center; gap:12px; }
+.article-card .research-heading h4 { margin:0; font-size:11px; font-weight:750; letter-spacing:.025em; color:var(--accent); }
+.research-heading>span { font-size:10px; color:#a398b5; }
+.article-card .research-thesis { margin:10px 0 7px; font-size:16px; color:#352746; font-weight:700; line-height:1.6; }
+.article-card .research-insight,.article-card .deep-thinking p { font-size:13px; color:#635a70; line-height:1.9; margin:0; }
+.deep-thinking { margin-top:14px; }
+.article-card .deep-thinking h5,.article-card .validation-cut h5 { margin:0 0 5px; font-size:11px; color:#6f539e; font-weight:700; }
+.validation-cut { border-top:1px dashed #9480bb38; margin-top:15px; padding-top:12px; }
+.article-card .validation-cut p { font-size:12px; color:#7d7289; line-height:1.8; margin:0; }
+.article-evidence { margin-top:13px; font-size:11px; color:#92899d; }
+.article-evidence summary { cursor:pointer; width:fit-content; }
+.article-card .article-evidence p { font-size:12px; line-height:1.8; margin:8px 0; color:#827789; }
+.article-evidence blockquote { border-left:2px solid #c6bed4; margin:12px 0; padding-left:12px; }
+.article-evidence small { display:block; font-size:10px; line-height:1.8; }
+@media(max-width:560px) {
+ .brief-card { padding:19px 17px; }
+ .article-source-row .article-byline { font-size:10px; gap:7px; }
+ .article-title-zh .article-title { font-size:19px; line-height:1.55; }
+ .article-card .article-title-original { font-size:11px; line-height:1.7; margin-top:6px; }
+ .article-keyword-row { flex-wrap:wrap; gap:9px; margin-top:12px; }
+ .article-keyword { font-size:10px; padding:3px 6px; }
+ .article-original-link { margin-left:auto; font-size:11px; }
+ .article-summary { padding:15px 0 17px; margin-top:14px; }
+ .article-card .summary-copy p { font-size:13px; line-height:1.85; }
+ .article-research { padding:14px 13px; }
+ .article-card .research-thesis { font-size:15px; }
+ .article-card .research-insight,.article-card .deep-thinking p { font-size:12px; line-height:1.9; }
+ .article-card .validation-cut p { font-size:11px; }
+}

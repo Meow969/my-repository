@@ -183,22 +183,11 @@
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Technology Innovation Hub提供分析 / 观点线索；Mastercard提供分析 / 观点线索；Retail Technology Innovation Hub提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Mastercard提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-trust",
     "title": "把“推荐理由”升级成可检查的证据",
     "summary": "对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
     "evidence": [
-      {
-        "articleId": "radar-0378d3ccd74205bc",
-        "title": "FT Live Future of Retail Summit review: B&Q, Sweaty Betty, The Works bosses debate volatility, crime and AI",
-        "source": "Retail Technology Innovation Hub",
-        "caveats": [],
-        "signalType": "分析 / 观点",
-        "date": "2026-10-07",
-        "quote": "“We know we’re going to get inflation so we’ve got to be atop of costs,” said Graham Bell, CEO at B&Q at the FT Live 2026 Future of Retail event in the City of London yesterday, when debating trade and tariff volatility, a renewed cost-of-living crisis, shrinkage and AI with fellow CEOs from Sweaty Betty and The Works.",
-        "quoteZh": "“我们知道我们会得到通胀, 所以我们必须承担成本, ” 伦敦市FT Live 2026零售业未来活动的BQ首席执行官Graham Bell昨天在与来自Sweaty Betty和The Works的同行CEO讨论贸易和关税波动、新的生活费危机、萎缩和AI时表示,",
-        "url": "https://retailtechinnovationhub.com/home/2026/10/6/ft-live-future-of-retail-summit-bq-sweaty-betty-and-the-works-bosses-debate-volatility-crime-and-ai"
-      },
       {
         "articleId": "radar-b2da2ac773a5973b",
         "title": "Trust in agentic commerce",
@@ -209,17 +198,6 @@
         "quote": "As AI agents begin shopping, paying and making decisions on behalf of people and businesses, the biggest challenge is trust, not technology.",
         "quoteZh": "随着AI代理商开始为人和企业购物,支付和作出决定,最大的挑战在于信任,而不是技术.",
         "url": "https://www.mastercard.com/global/en/news-and-trends/Insights/2026/mastercard-agentic-commerce-trust-white-paper.html"
-      },
-      {
-        "articleId": "radar-1bdcb86d253baaf1",
-        "title": "FT Live Future of Retail Summit review: store experiences still count says JD Group CEO Régis Schultz",
-        "source": "Retail Technology Innovation Hub",
-        "caveats": [],
-        "signalType": "分析 / 观点",
-        "date": "2026-10-09",
-        "quote": "The physical store is still important because “it’s where we connect with consumers”, said Régis Schultz, CEO at JD Group, in a keynote address at the FT Live 2026 Future of Retail event in London this week.",
-        "quoteZh": "JD集团首席执行官雷吉斯·舒尔茨(Régis Schultz)在本周伦敦FT Live 2026 Future of Retail 活动的主题演讲中表示,",
-        "url": "https://retailtechinnovationhub.com/home/2026/10/8/ft-live-future-of-retail-summit-review-store-experiences-still-count-says-jd-group-ceo-regis-schultz"
       }
     ],
     "counterpoint": "满意度和使用意愿不代表真实购买表现；需要观察错误推荐、广告识别与投诉，不能只看问卷或单次演示。",
@@ -231,20 +209,18 @@
       "反向指标"
     ],
     "relatedArticleIds": [
-      "radar-0378d3ccd74205bc",
-      "radar-b2da2ac773a5973b",
-      "radar-1bdcb86d253baaf1"
+      "radar-b2da2ac773a5973b"
     ],
-    "sourceCount": 2,
+    "sourceCount": 1,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 3 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 1 篇原文、1 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-09",
-    "fingerprint": "97bee68f6ea096ae",
+    "updatedAt": "2026-10-10",
+    "fingerprint": "103af4d313aea73d",
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Accenture提供分析 / 观点线索；Digital Commerce 360提供合作 / 基础设施线索；IT之家提供功能 / 上线线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Digital Commerce 360提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-local",
     "title": "即时购物要先满足可履约，再讨论聪明",
     "summary": "即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
@@ -261,17 +237,6 @@
         "url": "https://retailtechinnovationhub.com/home/2026/10/7/asda-and-rokt-partner-to-bring-ai-tech-powered-relevant-offers-to-customers-at-checkout"
       },
       {
-        "articleId": "radar-c13fca28b8662566",
-        "title": "Agentic Commerce Senior Manager | Industrial",
-        "source": "Accenture",
-        "caveats": [],
-        "signalType": "分析 / 观点",
-        "date": "2026-10-06",
-        "quote": "Visit us at: www.accenture.com/song We are seeking a Senior Manager to lead the design and delivery of agentic commerce transformation programs for industrial clients.",
-        "quoteZh": "访问我们:www.accenture.com/song 我们正在寻找一位高级管理人员,领导为工业客户设计和提供代理商业转型方案。",
-        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00350744_en"
-      },
-      {
         "articleId": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
         "title": "Instacart launches AI assistant Clementine, agentic commerce integrations",
         "source": "Digital Commerce 360",
@@ -281,17 +246,6 @@
         "quote": "Instacart has launched an artificial intelligence assistant, Clementine, for grocery shopping support while adding new partners for its existing enterprise AI tool Cart Assistant.",
         "quoteZh": "Instacart推出人工智能助理Clementine,负责杂货购物支持,同时为其现有的企业AI工具Cart Assoft添加了新的合作伙伴.",
         "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/"
-      },
-      {
-        "articleId": "radar-ebe76b6a5288953c",
-        "title": "后厨制作过程能扫码回看，中国电信推出“外卖云监管-食安封签”解决方案",
-        "source": "IT之家",
-        "caveats": [],
-        "signalType": "功能 / 上线",
-        "date": "2026-10-09",
-        "quote": "IT之家 10 月 9 日消息，中国电信今日宣布，继“明厨亮灶”将后厨从“幕后”拉到“台前”之后，“明厨亮灶”又将守护延伸至外卖配送环 …",
-        "quoteZh": "IT之家 10 月 9 日消息，中国电信今日宣布，继“明厨亮灶”将后厨从“幕后”拉到“台前”之后，“明厨亮灶”又将守护延伸至外卖配送环 …",
-        "url": "https://www.ithome.com/1/011/047.htm"
       }
     ],
     "counterpoint": "演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
@@ -304,16 +258,14 @@
     ],
     "relatedArticleIds": [
       "radar-9425c6ded44c4863",
-      "radar-c13fca28b8662566",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "radar-ebe76b6a5288953c"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
     ],
-    "sourceCount": 4,
+    "sourceCount": 2,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 2 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-09",
-    "fingerprint": "047ba64b4d3ce004",
+    "updatedAt": "2026-10-10",
+    "fingerprint": "e1769792355e64c8",
     "method": "规则辅助研究假设"
   },
   {

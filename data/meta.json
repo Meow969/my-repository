@@ -9,7 +9,7 @@
   "latestInsightChanged": 4,
   "lastQualityReview": "2026-09-04T20:12:45+08:00",
   "duplicatesRemoved": 4,
-  "sourceCount": 279,
+  "sourceCount": 274,
   "placeholderRemoved": 3,
   "linkRepair": "2026-09-14: decoded Google News RSS links to original publishers, repaired historical Google Search fallback links, and disabled future Google Search fallbacks for article cards.",
   "brokenLinksRemoved": 3,
@@ -27,7 +27,7 @@
   "yearBackfillNormalized": 138,
   "coverageDays": 61,
   "historyCoverageDays": 61,
-  "articleCount": 655,
+  "articleCount": 639,
   "pipelineVersion": "evidence-v1",
   "analysisMode": "规则辅助研究：证据摘录＋因果机制＋反向解释＋验证实验",
   "sourceHealth": {
@@ -37,8 +37,8 @@
     "discoveryQueries": 72
   },
   "qualitySummary": {
-    "verified": 634,
-    "watchlist": 469,
+    "verified": 618,
+    "watchlist": 460,
     "rejected": {
       "off_topic": 3,
       "unresolved_link": 1
@@ -100,5 +100,7 @@
     }
   },
   "summaryLanguage": "zh-CN",
-  "summaryMode": "本地神经翻译，重点案例人工校订"
+  "summaryMode": "本地神经翻译，重点案例人工校订",
+  "cardFormat": "bilingual-facts-product-research-v1",
+  "lastCardReview": "2026-10-10T16:48:23+08:00"
 }

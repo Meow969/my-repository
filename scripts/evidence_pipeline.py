@@ -128,7 +128,7 @@ def get(url):
 
 def related(title, excerpt=''):
     # Shopping must be central, not a footer mention or generic 'consumer AI'.
-    if re.search(r'\bB2B\b|SPAC Listing|stock market debut|retail bank|corporate treasury|transaction banks|digital currencies|landing page|digital marketing.*\bDMEAI\b|manage store portfolios|暑期实践|学子.*(?:获|奖)|大赛.*(?:获|奖)|校企合作|trade shows|media landscape|ARR|股价|美股|市值|shares (?:climb|rise|fall)|stock price|bullish analyst|融资|催收|座舱|OTA|Token|世界模型|new ecommerce tools|copywriter grades',title,re.I):return False
+    if re.search(r'\bB2B\b|Senior Manager|Commerce Architect|(?<![-\w])stock(?![-\w])|stock trades|For Investing|summit review|外卖云监管|食安封签|SPAC Listing|stock market debut|retail bank|corporate treasury|transaction banks|digital currencies|landing page|digital marketing.*\bDMEAI\b|manage store portfolios|暑期实践|学子.*(?:获|奖)|大赛.*(?:获|奖)|校企合作|trade shows|media landscape|ARR|股价|美股|市值|shares (?:climb|rise|fall)|stock price|bullish analyst|融资|催收|座舱|OTA|Token|世界模型|new ecommerce tools|copywriter grades',title,re.I):return False
     if re.search(AI,title,re.I) and re.search(COMMERCE,title,re.I):return True
     if re.search(COMMERCE,title,re.I) and re.search(AI,excerpt[:1800],re.I):return True
     return bool(re.search(r'Rufus|Sparky|京言|AI购|小美|问小团',title,re.I))
@@ -309,6 +309,7 @@ def enrich(raw, verify=True):
     a=dict(raw); a['url']=public_url(a.get('url',''))
     if not a['url']: return None,'unsafe_url'
     if (urllib.parse.urlsplit(a['url']).hostname or '')=='rise.bcg.com':return None,'training_page'
+    if re.search(r'/careers?/|/jobdetails',a['url'],re.I):return None,'recruitment_page'
     if 'news.google.com' in a['url']:
         # Reuse the existing publisher-link decoder, never publish search placeholders.
         from update_content import decode_google_news_url,resolve_direct_url_from_news_search
@@ -512,13 +513,16 @@ def run(days=45,limit=24,max_queries=None,recheck=False,dry_run=False):
     merged.sort(key=lambda a:(a['date'],a.get('valueScore',0)),reverse=True)
     if not merged:raise RuntimeError('质量处理后数据为空；拒绝覆盖现有内容')
     selected=[a for a in merged if a['id'] not in old_ids]
-    from localize_summaries import localize_articles
+    from localize_summaries import localize_articles, localize_titles
     translation_candidates={a['id'] for a in merged}
     merged=localize_articles(merged,strict=False)
+    merged=localize_titles(merged,strict=False)
     kept_ids={a['id'] for a in merged}
     merged.extend(a for a in existing if a['id'] in translation_candidates and a['id'] not in kept_ids and a.get('summaryZh'))
     merged.sort(key=lambda a:(a['date'],a.get('valueScore',0)),reverse=True)
     selected=[a for a in merged if a['id'] not in old_ids]
+    from article_brief import refresh_briefs
+    refresh_briefs(merged)
     insights=make_insights(merged,previous);reports=build_reports(merged)
     changed=sum(next((x.get('fingerprint') for x in previous if x['id']==i['id']),None)!=i['fingerprint'] for i in insights)
     digest_top=diverse([a for a in merged if a['date']>=(now().date()-dt.timedelta(days=14)).isoformat() and a.get('readingTier')=='精选'],5,2)
