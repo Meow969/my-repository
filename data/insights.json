@@ -244,7 +244,7 @@
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Digital Commerce 360提供合作 / 基础设施线索；Retail Technology Innovation Hub提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Digital Commerce 360提供合作 / 基础设施线索；TechCrunch提供功能 / 上线线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-local",
     "title": "即时购物要先满足可履约，再讨论聪明",
     "summary": "即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
@@ -272,15 +272,15 @@
         "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/"
       },
       {
-        "articleId": "radar-13167e4db08f2991",
-        "title": "Grocery retailer Panda teams with Spike and GoWit to power e-commerce media push in Saudi Arabia",
-        "source": "Retail Technology Innovation Hub",
+        "articleId": "radar-209e9ecb3c6a604f",
+        "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+        "source": "TechCrunch",
         "caveats": [],
-        "signalType": "合作 / 基础设施",
-        "date": "2026-10-08",
-        "quote": "Panda Retail, a grocery retailer in Saudi Arabia, has partnered with Spike Media Saudi, GoWit’s partner in the region, operating locally as GoSpike, to accelerate its digital media transformation push in the Kingdom.",
-        "quoteZh": "Panda Retail是沙特阿拉伯的一家杂货零售商,与GoWit在该区域的合作伙伴Spike Media Saudi合作,在当地作为GoSpike开展业务,以加速其在沙特王国的数字媒体转型。",
-        "url": "https://retailtechinnovationhub.com/home/2026/10/7/grocery-retailer-panda-teams-with-spike-and-gowit-to-power-e-commerce-media-push-in-saudi-arabia"
+        "signalType": "功能 / 上线",
+        "date": "2026-09-09",
+        "quote": "Instacart is the latest app to bake a conversational AI assistant into its platform.",
+        "quoteZh": "Instacart是将对话AI助手烤入其平台的最新应用.",
+        "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/"
       }
     ],
     "counterpoint": "演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
@@ -294,14 +294,14 @@
     "relatedArticleIds": [
       "radar-9425c6ded44c4863",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "radar-13167e4db08f2991"
+      "radar-209e9ecb3c6a604f"
     ],
-    "sourceCount": 2,
+    "sourceCount": 3,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 3 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 3 篇原文、3 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-10",
-    "fingerprint": "219dcca9d5f2f68e",
+    "fingerprint": "8b1699e9b12e1416",
     "method": "规则辅助研究假设"
   },
   {

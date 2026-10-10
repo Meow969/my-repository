@@ -158,9 +158,9 @@
     ],
     "relatedCoverage": [
       {
-        "title": "ChatGPT Shopping 虚拟试穿上线！AI 试衣 + 商品收藏，重塑跨境网购体验 - 全球定制网",
+        "title": "ChatGPT Shopping 虚拟试穿上线！AI 试衣 + 商品收藏，重塑跨境网购体验",
         "url": "https://www.globalpod.cn/article/4978",
-        "source": "www.globalpod.cn"
+        "source": "全球定制网"
       }
     ],
     "summaryZh": [
@@ -774,6 +774,195 @@
     }
   },
   {
+    "title": "The Fragmenting Gate: Who Controls Agentic Commerce Is Splitting Across Every Layer",
+    "url": "https://forkast.news/the-fragmenting-gate-who-controls-agentic-commerce-is-splitting-across-every-layer/",
+    "date": "2026-10-09",
+    "dateBasis": "原文发布日期",
+    "source": "Forkast News",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:15+08:00",
+    "sourceCaveats": [],
+    "excerpt": "While 89% of merchants are actively preparing for agentic commerce , only 3% of transactions currently involve autonomous agents, according to the Checkout.com 2026 report . As the industry attempts to scale, the control points of digital commerce are fragmenting across infrastructure layers, with the fundamental question of who controls the gate splitting rather than consolidating.",
+    "corePoint": [
+      "While 89% of merchants are actively preparing for agentic commerce , only 3% of transactions currently involve autonomous agents, according to the Checkout.com 2026 report .",
+      "As the industry attempts to scale, the control points of digital commerce are fragmenting across infrastructure layers, with the fundamental question of who controls the gate splitting rather than consolidating."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-b24c4bd106633ad7",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“The Fragmenting Gate: Who Controls Agentic Commerce Is Splitting Across Every Layer”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "While 89% of merchants are actively preparing for agentic commerce , only 3% of transactions currently involve autonomous agents, according to the Checkout.com 2026 report ."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“The Fragmenting Gate: Who Controls Agentic Commerce Is Splitting Across Every Layer”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "forkast.news",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "虽然89%的商人正在积极准备代理商业,但根据Checkout.com 2026报告,目前只有3%的交易涉及自主代理。",
+      "随着该行业试图扩大规模,数字商业的控制点正在各基础设施层分出来,根本的问题是,谁控制大门的分出,而不是合并。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "b2b727ee6340a437b6c2658d78615840e6ae53394bea9300b5f6c3b4eb99758e",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "分崩离析的大门:谁控制代理商业分道扬镳",
+    "titleSourceHash": "32ded54810e818c08166671a722640512a00a14486874fbcab49d7f69bc2029c",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "19314526899d9607cd350803c1c9910595bb8e1e7ff0c91cf93f3c53394c8dd6",
+      "keywords": [
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "虽然89%的商人正在积极准备代理商业,但根据Checkout.com 2026报告,目前只有3%的交易涉及自主代理。",
+        "随着该行业试图扩大规模,数字商业的控制点正在各基础设施层分出来,根本的问题是,谁控制大门的分出,而不是合并。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "discovery",
+        "heading": "把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-b24c4bd106633ad7",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Retail technology innovation of the week: Zalando shapes future of fashion e-commerce logistics",
+    "url": "https://retailtechinnovationhub.com/home/retail-technology-innovation-of-the-week-zalando-shapes-future-of-fashion-e-commerce-logistics",
+    "date": "2026-10-09",
+    "dateBasis": "原文发布日期",
+    "source": "Retail Technology Innovation Hub",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:14+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Retail Technology Innovation of the Week is a series brought to you by RTIH, highlighting stand out deployments, launches, and initiatives by retailers and tech suppliers. And this week we’re focusing on Sereact, Zalando and CEVA Logistics who have announced the launch of AI powered automated returns processing across key fulfillment facilities in Germany (Greven) and Poland (Świebodzin).",
+    "corePoint": [
+      "Retail Technology Innovation of the Week is a series brought to you by RTIH, highlighting stand out deployments, launches, and initiatives by retailers and tech suppliers.",
+      "And this week we’re focusing on Sereact, Zalando and CEVA Logistics who have announced the launch of AI powered automated returns processing across key fulfillment facilities in Germany (Greven) and Poland (Świebodzin)."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-62d1e7a263c8a124",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 15,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Retail technology innovation of the week: Zalando shapes future of fashion e-commerce logistics”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Retail Technology Innovation of the Week is a series brought to you by RTIH, highlighting stand out deployments, launches, and initiatives by retailers and tech suppliers."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Retail technology innovation of the week: Zalando shapes future of fashion e-commerce logistics”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "retailtechinnovationhub.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "零售技术创新周是由RTIH带给你的系列节目,强调零售商和技术供应商的突出部署、推出和举措。",
+      "这个星期我们专注于Sereact、Zalando和CEVA物流公司, 他们宣布在德国(格雷文)和波兰(奇维博德津)的关键实现设施启动人工智能自动返回处理。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "2a33963d258af71735efbbd3911f1181f4a7d1c5f2cd4a132abcb5cfaac01a0c",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "本周零售技术创新:扎兰多塑造时尚电子商务物流未来",
+    "titleSourceHash": "32595abffa6a4dd370056bdbd50c632a47ade6520f8f70ffd4f66847ca1559d2",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "746856a43075ac58f66a1c7b55bd3db92000344014bcec5ac84ae501960a5df0",
+      "keywords": [
+        "Zalando",
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "零售技术创新周是由RTIH带给你的系列节目,强调零售商和技术供应商的突出部署、推出和举措。",
+        "这个星期我们专注于Sereact、Zalando和CEVA物流公司，他们宣布在德国(格雷文)和波兰(奇维博德津)的关键实现设施启动人工智能自动返回处理。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "discovery",
+        "heading": "Zalando：把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-62d1e7a263c8a124",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
     "title": "Amazon's Block on Outside AI Shopping Agents Could Backfire, Y Combinator's Paul Graham Says",
     "url": "https://finance.biggo.com/news/e6bf665d-d495-41ee-a4a9-1ac9865b67be",
     "date": "2026-10-09",
@@ -1366,6 +1555,101 @@
     }
   },
   {
+    "title": "Agentic Commerce Manager",
+    "url": "https://www.accenture.com/gb-en/careers/jobdetails?id=R00361839_en",
+    "date": "2026-10-08",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "Accenture",
+    "region": "海外",
+    "sourceKind": "research",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems, embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising and intelligent customer engagement at scale. As a Manager, you will combine deep commerce expertise with emerging AI and agentic commerce knowledge to help shape client strategies, lead transformation …",
+    "corePoint": [
+      "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems, embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising and intelligent customer engagement at scale.",
+      "As a Manager, you will combine deep commerce expertise with emerging AI and agentic commerce knowledge to help shape client strategies, lead transformation …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-e5635317a44de143",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "咨询洞察",
+    "quality": {
+      "dimensions": {
+        "source": 23,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 89,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Agentic Commerce Manager”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems, embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising and intelligent customer engagement at scale."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Agentic Commerce Manager”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "accenture.com",
+    "contentKinds": [
+      "咨询洞察",
+      "研究报告"
+    ],
+    "summaryZh": [
+      "在宋语中,我们的通商和人工智能实践帮助组织设计、建设和扩展现代数字商业生态系统,将Generative AI和Agentic AI嵌入通商中,以便实现实时个性化,自主通商并大规模智能化的客户参与.",
+      "作为一名经理,你将把深层商业专业知识与新兴的AI和代理商业知识结合起来,以帮助塑造客户战略,引导转型."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "1ac06a2fcf44d497889c800d5b22ebe541ac71123bb55fad6bb4e07e6fc91fc4",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "代理商务经理",
+    "titleSourceHash": "1e966d4fb82b88af4d17915f88818ceb82cef0c7e99db62992c94a1439d2b914",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "e607df701ed9dd9ff089ad9e11058aeb6dce7df8a1f12740898f2b5d551691d8",
+      "keywords": [
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "在宋语中,我们的通商和人工智能实践帮助组织设计、建设和扩展现代数字商业生态系统,将Generative AI和Agentic AI嵌入通商中,以便实现实时个性化,自主通商并大规模智能化的客户参与。",
+        "作为一名经理,你将把深层商业专业知识与新兴的AI和代理商业知识结合起来,以帮助塑造客户战略,引导转型。"
+      ],
+      "summaryLabel": "研究发现",
+      "research": {
+        "topic": "discovery",
+        "heading": "把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "本条属于研究或调查线索；需核对样本、时间窗和指标定义，使用意愿、实际采用与增量成交不能互相替代。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-e5635317a44de143",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
     "title": "The RealReal Expands Ask TRR AI Shopping Agent With Google Cloud's Gemini Enterprise",
     "url": "https://www.prnewswire.com/news-releases/the-realreal-expands-ask-trr-ai-shopping-agent-with-google-clouds-gemini-enterprise-302901904.html",
     "date": "2026-10-08",
@@ -1845,100 +2129,6 @@
         "evidenceLimit": "本条属于研究或调查线索；需核对样本、时间窗和指标定义，使用意愿、实际采用与增量成交不能互相替代。",
         "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
         "basisArticleId": "radar-7a80ae755d939cfa",
-        "method": "规则辅助研究假设"
-      }
-    }
-  },
-  {
-    "title": "Grocery retailer Panda teams with Spike and GoWit to power e-commerce media push in Saudi Arabia",
-    "url": "https://retailtechinnovationhub.com/home/2026/10/7/grocery-retailer-panda-teams-with-spike-and-gowit-to-power-e-commerce-media-push-in-saudi-arabia",
-    "date": "2026-10-08",
-    "dateBasis": "原文发布日期",
-    "source": "Retail Technology Innovation Hub",
-    "region": "海外",
-    "sourceKind": "industry",
-    "linkStatus": "reachable",
-    "checkedAt": "2026-10-10T16:51:21+08:00",
-    "sourceCaveats": [],
-    "excerpt": "Panda Retail, a grocery retailer in Saudi Arabia, has partnered with Spike Media Saudi, GoWit’s partner in the region, operating locally as GoSpike, to accelerate its digital media transformation push in the Kingdom. “Panda represents the scale and ambition shaping the next phase of retail media in Saudi Arabia,” says Emrah Adsan, CEO at GoWit.",
-    "corePoint": [
-      "Panda Retail, a grocery retailer in Saudi Arabia, has partnered with Spike Media Saudi, GoWit’s partner in the region, operating locally as GoSpike, to accelerate its digital media transformation push in the Kingdom.",
-      "“Panda represents the scale and ambition shaping the next phase of retail media in Saudi Arabia,” says Emrah Adsan, CEO at GoWit."
-    ],
-    "evidenceLevel": "fulltext",
-    "evidenceLabel": "原文已提取",
-    "pipelineVersion": "evidence-v1",
-    "id": "radar-13167e4db08f2991",
-    "firstSeenAt": "2026-10-10",
-    "lensId": "local",
-    "tags": [
-      "履约确定性",
-      "缺货替代",
-      "高频任务"
-    ],
-    "category": "履约确定性",
-    "contentType": "行业分析",
-    "quality": {
-      "dimensions": {
-        "source": 21,
-        "evidence": 30,
-        "relevance": 15,
-        "specificity": 11
-      },
-      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
-    },
-    "valueScore": 77,
-    "readingTier": "精选",
-    "analysis": {
-      "question": "接入之后是否真正可用 · 履约确定性",
-      "implication": "本条以“Grocery retailer Panda teams with Spike and GoWit to power e-commerce media push in Saudi Arabia”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
-      "counterpoint": "合作或协议发布不证明上线覆盖与消费者可用性，商家接入也可能只是试点。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
-      "experiment": "从公开可用路径核对地区、商家和失败兜底，再观察真实任务漏斗。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
-      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
-      "anchor": "Panda Retail, a grocery retailer in Saudi Arabia, has partnered with Spike Media Saudi, GoWit’s partner in the region, operating locally as GoSpike, to accelerate its digital media transformation push in the Kingdom."
-    },
-    "signalType": "合作 / 基础设施",
-    "insight": "本条以“Grocery retailer Panda teams with Spike and GoWit to power e-commerce media push in Saudi Arabia”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
-    "relatedInsightIds": [
-      "evidence-local"
-    ],
-    "publisher": "retailtechinnovationhub.com",
-    "contentKinds": [
-      "行业分析"
-    ],
-    "summaryZh": [
-      "Panda Retail是沙特阿拉伯的一家杂货零售商,与GoWit在该区域的合作伙伴Spike Media Saudi合作,在当地作为GoSpike开展业务,以加速其在沙特王国的数字媒体转型。",
-      "GoWit的首席执行官Emrah Adsan说:“熊猫代表着沙特阿拉伯下一阶段零售媒体的规模和雄心。"
-    ],
-    "sourceCaveatsZh": [],
-    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "summarySourceHash": "9ace37618e8fa6b74709ab275672cb8fbc1b170700a7d44a7ef2898eb198699b",
-    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
-    "summaryVersion": "opus-en-zh-1.9-domain-v1",
-    "titleZh": "与斯派克和高维特合作的Panda团队推动沙特阿拉伯的电子商务媒体推力",
-    "titleSourceHash": "0bcf6106cbc73362abf4ec1e57a0a1b354802e84247f6a8647b351c64a99dcd5",
-    "titleVersion": "bilingual-title-v1",
-    "titleTranslationMethod": "OPUS-MT机器翻译",
-    "brief": {
-      "version": "article-brief-v1",
-      "inputHash": "29fc9a2fdafd395f33b507fed1c046b89192f003ff524c31439f3763d753a321",
-      "keywords": [
-        "即时需求",
-        "履约约束"
-      ],
-      "summary": [
-        "Panda Retail是沙特阿拉伯的一家杂货零售商,与GoWit在该区域的合作伙伴Spike Media Saudi合作,在当地作为GoSpike开展业务,以加速其在沙特王国的数字媒体转型。",
-        "GoWit的首席执行官Emrah Adsan说:“熊猫代表着沙特阿拉伯下一阶段零售媒体的规模和雄心。"
-      ],
-      "summaryLabel": "核心信息",
-      "research": {
-        "topic": "local",
-        "heading": "先限定此时此地可履约的候选，再优化推荐",
-        "insight": "先确定位置、送达时间、预算和替代接受范围，再生成可购买方案。即时购物的正确答案同时依赖实时库存与配送能力，不能只根据文本匹配给出理想商品。",
-        "deepThought": "低客单高频场景容易验证效率，却不能直接迁移到所有购物任务。缺货替代可能满足商品相似性，但不满足用户的过敏、品牌或时间约束。",
-        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
-        "validation": "选择常购清单试点，高峰与非高峰分开测完成时间、缺货替代接受率、履约达成率和取消率，再决定是否扩大自动执行。",
-        "basisArticleId": "radar-13167e4db08f2991",
         "method": "规则辅助研究假设"
       }
     }
@@ -2520,6 +2710,101 @@
     }
   },
   {
+    "title": "TikTok Brings an AI Shopping Assistant and Direct Buying to the Feed",
+    "url": "https://almcorp.com/news/tiktok-brings-ai-shopping-assistant-buy-direct-feed/",
+    "date": "2026-10-08",
+    "dateBasis": "原文发布日期",
+    "source": "ALM Corp",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:17+08:00",
+    "sourceCaveats": [],
+    "excerpt": "TikTok announced the launch of an AI shopping assistant and a new in-app checkout feature that enables users to purchase directly from a brand. By combining an assistant with direct payments, TikTok is transforming its discovery feed into a place where people can ask a question about a product and buy it immediately.",
+    "corePoint": [
+      "TikTok announced the launch of an AI shopping assistant and a new in-app checkout feature that enables users to purchase directly from a brand.",
+      "By combining an assistant with direct payments, TikTok is transforming its discovery feed into a place where people can ask a question about a product and buy it immediately."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-b63b15949c2d9837",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“TikTok Brings an AI Shopping Assistant and Direct Buying to the Feed”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "TikTok announced the launch of an AI shopping assistant and a new in-app checkout feature that enables users to purchase directly from a brand."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“TikTok Brings an AI Shopping Assistant and Direct Buying to the Feed”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "almcorp.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "TikTok宣布推出AI购物助理,并推出新的应用程序内取出功能,使用户能够从一个品牌直接购买.",
+      "通过将一个助手与直接支付结合起来,TikTok正在将其发现的饲料转变成一个人们可以询问一个产品的问题并立即购买的产品的地方."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "3d5e071a5481ecc446d451bfbdb12d681ad9e3901f0486c2e1a7ea8a1d6d4599",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "TikTok 带一个AI购物助理和直接购买给饲料",
+    "titleSourceHash": "28b15f876ddb2f9bd6d2b9bf44f8f27761bf7b3d0192727f167a3ead02ef9031",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "421bdf64dc4b27d878174602237e82d5f1cc006443a1e37ab0b512901d99dbb1",
+      "keywords": [
+        "TikTok",
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "TikTok宣布推出AI购物助理,并推出新的应用程序内取出功能,使用户能够从一个品牌直接购买。",
+        "通过将一个助手与直接支付结合起来,TikTok正在将其发现的饲料转变成一个人们可以询问一个产品的问题并立即购买的产品的地方。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "discovery",
+        "heading": "TikTok：把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-b63b15949c2d9837",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
     "title": "Meta向中小企业开放Muse AI代理已接入Shopify等工具|Meta Muse|Facebook|数据分析|商家|消费者",
     "url": "https://finance.sina.cn/tech/2026-10-08/detail-iniupafc4398552.d.html?oid=WA+0859+3970+0884+Rincian+Pembangunan+Rumah+Kayu+Minimalis+4x6+Berpengalaman++Solo&vt=4",
     "date": "2026-10-08",
@@ -3043,6 +3328,101 @@
         "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
         "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
         "basisArticleId": "radar-134ac2bfbdc84ddc",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Agentic Commerce Consultant",
+    "url": "https://www.accenture.com/gb-en/careers/jobdetails?id=R00361848_en",
+    "date": "2026-10-07",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "Accenture",
+    "region": "海外",
+    "sourceKind": "research",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems — embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising, and intelligent customer engagement at scale. We are entering an exciting era of agentic commerce — where new AI channels, AI agents and enhanced customer experiences are reshaping …",
+    "corePoint": [
+      "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems — embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising, and intelligent customer engagement at scale.",
+      "We are entering an exciting era of agentic commerce — where new AI channels, AI agents and enhanced customer experiences are reshaping …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-f84993e1d58131ff",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "咨询洞察",
+    "quality": {
+      "dimensions": {
+        "source": 23,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 89,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Agentic Commerce Consultant”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems — embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising, and intelligent customer engagement at scale."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Agentic Commerce Consultant”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "accenture.com",
+    "contentKinds": [
+      "咨询洞察",
+      "研究报告"
+    ],
+    "summaryZh": [
+      "在宋语中,我们的商务和人工智能实践帮助组织设计、构建和扩展现代数字商务生态系统——将基因人工智能和代理人工智能嵌入商业,以便实现实时个性化、自主交易和智能客户大规模参与。",
+      "我们正进入一个激动人心的代理商时代——新的AI频道,AI代理商和增强的客户体验正在重塑."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "36b34676ef7c35c3bb0b3858bcd22b04f5fae3109126d709aa3e4a19825dbe03",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "代理商务顾问",
+    "titleSourceHash": "ab03ffd6c07595fbf056320b8d35c555a23392767c637c33b2c52d288dc7825c",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "599f279b92aa368cf95d0cd22b8661f7ec4611c3b315b706a3315c514d8abfa7",
+      "keywords": [
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "在宋语中,我们的商务和人工智能实践帮助组织设计、构建和扩展现代数字商务生态系统——将基因人工智能和代理人工智能嵌入商业,以便实现实时个性化、自主交易和智能客户大规模参与。",
+        "我们正进入一个激动人心的代理商时代——新的AI频道,AI代理商和增强的客户体验正在重塑。"
+      ],
+      "summaryLabel": "研究发现",
+      "research": {
+        "topic": "discovery",
+        "heading": "把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "本条属于研究或调查线索；需核对样本、时间窗和指标定义，使用意愿、实际采用与增量成交不能互相替代。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-f84993e1d58131ff",
         "method": "规则辅助研究假设"
       }
     }
@@ -7947,6 +8327,101 @@
         "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
         "validation": "比较单纯试穿图与“图＋搭配依据＋不适配提醒”，分尺码、体型和品类看采纳率、支付转化及适配相关退货。",
         "basisArticleId": "radar-5123785a52259c83",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Reddit AI Shopping: Reddit Wants the Conversation and the Conversion",
+    "url": "https://cxtoday.com/reddit-ai-shopping-reddit-wants-the-conversation-and-the-conversion",
+    "date": "2026-10-03",
+    "dateBasis": "原文发布日期",
+    "source": "CX Today",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Reddit AI shopping is pulling product discovery, community opinion, and conversion closer together. Reddit AI shopping gives public customer conversation a much more direct route into product discovery and conversion. Reddit has built its value on the parts of customer conversation brands can’t script: complaints, oddball use cases, buyers arguing over whether a product is worth the money, and owners …",
+    "corePoint": [
+      "Reddit AI shopping is pulling product discovery, community opinion, and conversion closer together.",
+      "Reddit AI shopping gives public customer conversation a much more direct route into product discovery and conversion.",
+      "Reddit has built its value on the parts of customer conversation brands can’t script: complaints, oddball use cases, buyers arguing over whether a product is worth the money, and owners …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-4c8f95a7c5d740da",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“Reddit AI Shopping: Reddit Wants the Conversation and the Conversion”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Reddit AI shopping is pulling product discovery, community opinion, and conversion closer together."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Reddit AI Shopping: Reddit Wants the Conversation and the Conversion”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "cxtoday.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "Reddit AI购物正在拉动产品发现, 社区意见, 和转换更紧密地在一起。",
+      "Reddit AI购物让公众客户对话更直接地进入产品发现和转换的路径."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "1c394da35178029eb1b97f3088a748938cee43c2cd2ab6a4e7df720709053e06",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Reddit AI 购物:Reddit想要对话和转换",
+    "titleSourceHash": "aa3895d696a9f3e4980e5421706849e559956fd7c35cc54fe4b8198b3d14eb21",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "542aed2a4c6ede74cb4ea81fe7799ff888738836c5464f2bf5a178eb59d83987",
+      "keywords": [
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "Reddit AI购物正在拉动产品发现，社区意见，和转换更紧密地在一起。",
+        "Reddit AI购物让公众客户对话更直接地进入产品发现和转换的路径。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "discovery",
+        "heading": "把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-4c8f95a7c5d740da",
         "method": "规则辅助研究假设"
       }
     }
@@ -14604,6 +15079,101 @@
     }
   },
   {
+    "title": "Smart search, virtual try-on: How AI assistants drive Millennials vs Gen Z shopping style this festive season",
+    "url": "https://www.livemint.com/ai/artificial-intelligence/smart-search-virtual-try-on-how-ai-assistants-drive-millennials-vs-genz-shopping-style-this-festive-season-11790317312370.html",
+    "date": "2026-09-25",
+    "dateBasis": "原文发布日期",
+    "source": "Livemint",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:21+08:00",
+    "sourceCaveats": [],
+    "excerpt": "According to InMobi Advertising's The Marketer's Guide To India’s Festive Season 2026, four in five of those surveyed want an AI shopping assistant for the festive season. “ Millennials show more interest (82%) than Gen Z (71%) in AI-based recommendations,” the InMobi advertising report revealed. Most(89%) of AI features shoppers are most likely to try are “Smart search suggestions”; 81% …",
+    "corePoint": [
+      "According to InMobi Advertising's The Marketer's Guide To India’s Festive Season 2026, four in five of those surveyed want an AI shopping assistant for the festive season.",
+      "“ Millennials show more interest (82%) than Gen Z (71%) in AI-based recommendations,” the InMobi advertising report revealed.",
+      "Most(89%) of AI features shoppers are most likely to try are “Smart search suggestions”; 81% …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-7a9005998d8a3387",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“Smart search, virtual try-on: How AI assistants drive Millennials vs Gen Z shopping style this festive season”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "According to InMobi Advertising's The Marketer's Guide To India’s Festive Season 2026, four in five of those surveyed want an AI shopping assistant for the festive season."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Smart search, virtual try-on: How AI assistants drive Millennials vs Gen Z shopping style this festive season”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "livemint.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "根据InMobi广告\"The Market's Guide to India's Festive Season 2026\",被调查者中有五分之四的人想为节日赛季提供AI购物助理.",
+      "“千年人比Gen Z(71%)对基于AI的建议表现出更多的兴趣(82%),”InMobi广告报告披露了这一点。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "83725a4700d194a6979a46d4daadae708d385695183dcff021cf88bdf17bbf32",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "智能搜索,虚拟试播:AI助手如何驾驶千年之旅与Gen Z的购物风格 这个庆典季",
+    "titleSourceHash": "426859af91e9574c441dca45acf89f5b38453b3a74aadd80ccbab2c03d6e86e0",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "f4eccb11e2d3f219cc1f30875087738dfdd13466bfe770f63611bf64ff0401fc",
+      "keywords": [
+        "视觉导购",
+        "适配判断"
+      ],
+      "summary": [
+        "根据InMobi广告\"The Market's Guide to India's Festive Season 2026\",被调查者中有五分之四的人想为节日赛季提供AI购物助理。",
+        "“千年人比Gen Z(71%)对基于AI的建议表现出更多的兴趣(82%),”InMobi广告报告披露了这一点。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "visual",
+        "heading": "从“生成一张图”推进到“解释为什么适合”",
+        "insight": "把图像体验接到明确的决策问题：这件衣服如何搭配已有衣橱、尺码依据是什么、哪些场景不适合。图片可以触发兴趣，但商品事实和适配约束决定是否值得购买。",
+        "deepThought": "视觉效果越逼真，用户越可能把展示效果误认为实物保证。应分开标明风格模拟与尺寸判断的边界，而不是把生成质量当成退货风险降低的证据。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "比较单纯试穿图与“图＋搭配依据＋不适配提醒”，分尺码、体型和品类看采纳率、支付转化及适配相关退货。",
+        "basisArticleId": "radar-7a9005998d8a3387",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
     "title": "Shopify’s Tailwind Acquisition Feeds the Agentic Commerce Story, But the Market Is Already Nervous About the Bill",
     "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-tailwind-acquisition-feeds-agentic-204056035.html",
     "date": "2026-09-25",
@@ -15075,6 +15645,201 @@
         "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
         "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
         "basisArticleId": "radar-4913e2b2e42637ce",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Meta's Muse Just Added $100 Billion. Here's Why Rory O'Driscoll Says the Real Fight Is Agentic Commerce",
+    "url": "https://finance.biggo.com/news/39cce803db057edd",
+    "date": "2026-09-24",
+    "dateBasis": "原文发布日期",
+    "source": "BigGo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:22+08:00",
+    "sourceCaveats": [],
+    "excerpt": "That is why a single product launch just minted $100 billion for Meta. They made $100 billion in market cap this week because of that product,\" noted Rory O'Driscoll, speaking on the 20VC podcast. When Muse launched its agentic commerce capabilities, Amazon blocked it.",
+    "corePoint": [
+      "That is why a single product launch just minted $100 billion for Meta.",
+      "They made $100 billion in market cap this week because of that product,\" noted Rory O'Driscoll, speaking on the 20VC podcast.",
+      "When Muse launched its agentic commerce capabilities, Amazon blocked it."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-5fb293309b60fe53",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "发布能力能否转成持续使用 · 授权边界",
+      "implication": "本条以“Meta's Muse Just Added $100 Billion. Here's Why Rory O'Driscoll Says the Real Fight Is Agentic Commerce”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "产品公告说明能力或范围变化，不能据此推断用户采用和留存。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "先记录入口、开放地区、使用门槛与操作步骤；两周后检查重复使用和任务成功率。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "That is why a single product launch just minted $100 billion for Meta."
+    },
+    "signalType": "功能 / 上线",
+    "insight": "本条以“Meta's Muse Just Added $100 Billion. Here's Why Rory O'Driscoll Says the Real Fight Is Agentic Commerce”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "finance.biggo.com",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "这就是为什么一个单一产品推出刚刚为Meta铸造了1000亿美元。",
+      "他们本周赚了1000亿美元 因为那个产品,“Rory O'Driscoll,在20VC播客上讲话。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "99f2b835cf083d2441064a5c4ed717a77a2b6276773a86fd5579895881c23b18",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Meta's Muse Just add $ 100,000 million. 这就是为什么Rory O'Driscoll说真正的战斗是代理商",
+    "titleSourceHash": "98f383fcc006a24e61d78bdb8f4dd3b563cfc77133466eef39e4095fbcbb76fe",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "9dbc2aba921f8d082c8f0656ce6a32274ed04354ca982f336e3fd351b6ffcef9",
+      "keywords": [
+        "Meta",
+        "Muse",
+        "需求澄清",
+        "商品发现",
+        "Amazon"
+      ],
+      "summary": [
+        "这就是为什么一个单一产品推出刚刚为Meta铸造了1000亿美元。",
+        "他们本周赚了1000亿美元因为那个产品,“Rory O'Driscoll,在20VC播客上讲话。"
+      ],
+      "summaryLabel": "产品动作",
+      "research": {
+        "topic": "discovery",
+        "heading": "Meta / Muse：把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-5fb293309b60fe53",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "The Invisible Marketplace: What Amazon’s Perplexity Setback Means for the Future of E-Commerce",
+    "url": "https://www.euromonitor.com/article/the-invisible-marketplace-what-amazons-perplexity-setback-means-for-the-future-of-e-commerce",
+    "date": "2026-09-24",
+    "dateBasis": "原文发布日期",
+    "source": "Euromonitor",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:22+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Consumers searched, browsed and transacted inside retailer websites, marketplaces and apps. GenAI challenges that model, illustrated by Amazon’s legal battle with Perplexity. On 4 August 2026, the US Court of Appeals for the Ninth Circuit vacated a preliminary injunction that had prevented Perplexity from using its AI shopping tools on Amazon.",
+    "corePoint": [
+      "Consumers searched, browsed and transacted inside retailer websites, marketplaces and apps.",
+      "GenAI challenges that model, illustrated by Amazon’s legal battle with Perplexity.",
+      "On 4 August 2026, the US Court of Appeals for the Ninth Circuit vacated a preliminary injunction that had prevented Perplexity from using its AI shopping tools on Amazon."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-db65ff34eaf65225",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“The Invisible Marketplace: What Amazon’s Perplexity Setback Means for the Future of E-Commerce”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Consumers searched, browsed and transacted inside retailer websites, marketplaces and apps."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“The Invisible Marketplace: What Amazon’s Perplexity Setback Means for the Future of E-Commerce”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "euromonitor.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "消费者在零售商网站、市场和应用程序内搜索、浏览和交易。",
+      "GenAI质疑这个模式,"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "6dfcf9f0c39968c71205e7df46c7395675271f680c2153cce4b612b26746cd08",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "隐形市场:亚马逊的迷惑性对电子商务未来意味着什么",
+    "titleSourceHash": "91f6b02e7a2913a8179aeac4c01da8cbb0352ba9ba828f695938359a1e86c7fb",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "23a976706ea27630ce0892b87df332e30c07a5ad878b9a5e9f32c05fdb03fd45",
+      "keywords": [
+        "Amazon",
+        "Perplexity",
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "消费者在零售商网站、市场和应用程序内搜索、浏览和交易。",
+        "GenAI质疑这个模式。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "discovery",
+        "heading": "Amazon / Perplexity：把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-db65ff34eaf65225",
         "method": "规则辅助研究假设"
       }
     }
@@ -15745,6 +16510,101 @@
     }
   },
   {
+    "title": "Thea Care brings dermatologist-developed AI skin analysis to skincare e-commerce",
+    "url": "https://cosmeticsbusiness.com/thea-care-brings-dermatologist-developed-ai-skin-analysis",
+    "date": "2026-09-23",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "Cosmetics Business",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:22+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Thea Care ( www.theacare.de ), a Berlin-based AI company building dermatologist-developed skin analysis technology, focuses on the wider skincare and beauty industry. Thea Care is already in rollout with roughly 25 brands across skincare, dermocosmetics, and beauty e-commerce. Thea Care's AI skin analysis launches as a standalone flow styled to match the brand's own look and language, so shoppers experience …",
+    "corePoint": [
+      "Thea Care ( www.theacare.de ), a Berlin-based AI company building dermatologist-developed skin analysis technology, focuses on the wider skincare and beauty industry.",
+      "Thea Care is already in rollout with roughly 25 brands across skincare, dermocosmetics, and beauty e-commerce.",
+      "Thea Care's AI skin analysis launches as a standalone flow styled to match the brand's own look and language, so shoppers experience …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-1bd0ecae1c72e78e",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Thea Care brings dermatologist-developed AI skin analysis to skincare e-commerce”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Thea Care ( www.theacare.de ), a Berlin-based AI company building dermatologist-developed skin analysis technology, focuses on the wider skincare and beauty industry."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Thea Care brings dermatologist-developed AI skin analysis to skincare e-commerce”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "cosmeticsbusiness.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "Thea Care(www.theacare.de),是一家位于柏林的AI公司,建筑皮肤学家所开发的皮肤分析技术,专注于更广泛的皮肤护理和美容行业.",
+      "Thea Care已经推出,在皮肤护理、皮肤化妆和美容电子商务方面约有25个品牌。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "bc28dcccafb9971d78160ee859caaff7dc4db9430cffbd4b3419ef6983ef1665",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Thea Care将皮肤科医生开发的人工智能皮肤分析带到了皮肤护理电子商务中",
+    "titleSourceHash": "c189dded0b25ae1719396893259613b43541d1f0ecb5db388ac4a4b873de6d5c",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "3ac2dce104d3ad553adf4bc3081f9b47d1dff45dcfc9d92d8349e3df42aacd0b",
+      "keywords": [
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "Thea Care(www.theacare.de),是一家位于柏林的AI公司,建筑皮肤学家所开发的皮肤分析技术,专注于更广泛的皮肤护理和美容行业。",
+        "Thea Care已经推出,在皮肤护理、皮肤化妆和美容电子商务方面约有25个品牌。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "discovery",
+        "heading": "把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-1bd0ecae1c72e78e",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
     "id": "2026-09-22-ai-finance-sina-com-cn-7a4e163d28",
     "date": "2026-09-22",
     "title": "AI导购“百团大战”开打：电商十年逻辑正在被改写",
@@ -15835,6 +16695,198 @@
         "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
         "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
         "basisArticleId": "2026-09-22-ai-finance-sina-com-cn-7a4e163d28",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Cardano Joins Solana, XRP in AI Payments Race as ADA Surges 8%",
+    "url": "https://www.tradingview.com/news/benzinga:40df2a294094b:0-cardano-joins-solana-xrp-in-ai-payments-race-as-ada-surges-8/",
+    "date": "2026-09-22",
+    "dateBasis": "原文发布日期",
+    "source": "TradingView",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:23+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Cardano ADAUSD surges 8% over the past 24 hours, joining the official x402 software kit that gives AI agents a direct rail to pay for services in ADA. Meanwhile, Solana SOLUSD and the XRP XRPUSD Ledger already support the standard, alongside several Ethereum-compatible networks. Here’s where things stand: Cardano Foundation posted on X Monday that any app or AI agent …",
+    "corePoint": [
+      "Cardano ADAUSD surges 8% over the past 24 hours, joining the official x402 software kit that gives AI agents a direct rail to pay for services in ADA.",
+      "Meanwhile, Solana SOLUSD and the XRP XRPUSD Ledger already support the standard, alongside several Ethereum-compatible networks.",
+      "Here’s where things stand: Cardano Foundation posted on X Monday that any app or AI agent …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-8f9143eeda723b0e",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "样本和分母是否可比 · 授权边界",
+      "implication": "本条以“Cardano Joins Solana, XRP in AI Payments Race as ADA Surges 8%”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "首先核对样本范围、时间窗与问题定义；意愿、自报行为、实际订单不是同一指标。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "先建立指标口径表，要求样本量、对照组与统计周期，缺项时不搬用增长数字。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Cardano ADAUSD surges 8% over the past 24 hours, joining the official x402 software kit that gives AI agents a direct rail to pay for services in ADA."
+    },
+    "signalType": "研究 / 数据",
+    "insight": "本条以“Cardano Joins Solana, XRP in AI Payments Race as ADA Surges 8%”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "tradingview.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "Cardano ADAUSD在过去24小时里激增了8%,加入了官方的x402软件包,让AI代理直接支付ADA的服务费用.",
+      "与此同时,Solana SOLUSD和XRP XRPUSD Ledger已经支持这一标准,同时支持几个Ethereum兼容网络。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "7e19da06d34e47e336e6882125c43291ba415400426b5056e05bb403f5732a77",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Cardano加入索拉纳,XRP加入AI 支付赛,作为ADA Surges 8%",
+    "titleSourceHash": "ccb8cdbc95e29402c6bedf6ee0ccc23f3804a0fe8661f74d5821034a0424e6af",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "a51655609afdd14455863861a2213217e6ecb8cccfeb0d6b4093256542029584",
+      "keywords": [
+        "商家接入",
+        "交易协议"
+      ],
+      "summary": [
+        "Cardano ADAUSD在过去24小时里激增了8%,加入了官方的x402软件包,让AI代理直接支付ADA的服务费用。",
+        "与此同时,Solana SOLUSD和XRP XRPUSD Ledger已经支持这一标准,同时支持几个Ethereum兼容网络。"
+      ],
+      "summaryLabel": "研究发现",
+      "research": {
+        "topic": "protocol",
+        "heading": "协议减少接入成本，不自动解决交易责任",
+        "insight": "把接入拆成商品发现、报价、授权、订单和售后五个能力模块。优先接入覆盖当前任务的最小集合，保持替换支付和商家服务的能力，避免协议绑定整个产品架构。",
+        "deepThought": "接口统一能缩短开发周期，但失败重试、重复扣款、跨平台退货仍需明确责任。可调用的接口数量不是用户可完成的购物任务数量。",
+        "evidenceLimit": "本条属于研究或调查线索；需核对样本、时间窗和指标定义，使用意愿、实际采用与增量成交不能互相替代。",
+        "validation": "用一条真实购物任务验收全链路，覆盖报价过期、缺货、支付失败与撤单；记录端到端完成率、重复执行风险和接入维护成本。",
+        "basisArticleId": "radar-8f9143eeda723b0e",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Amazon blocks Meta’s Muse in dispute over AI shopping access",
+    "url": "https://www.therundown.ai/news/amazon-blocks-meta-muse-shopping-agent",
+    "date": "2026-09-22",
+    "dateBasis": "原文发布日期",
+    "source": "The Rundown AI",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:23+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Amazon began blocking Meta’s Muse from its retail site on September 20, just 12 days after the agent launched. In its September 8 launch announcement , Meta said Muse runs on a dedicated cloud computer and requires user approval for purchases. As The Rundown reported , users trying to shop on Amazon with Muse are seeing a notice that the …",
+    "corePoint": [
+      "Amazon began blocking Meta’s Muse from its retail site on September 20, just 12 days after the agent launched.",
+      "In its September 8 launch announcement , Meta said Muse runs on a dedicated cloud computer and requires user approval for purchases.",
+      "As The Rundown reported , users trying to shop on Amazon with Muse are seeing a notice that the …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-91f8270775a69971",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 候选集",
+      "implication": "本条以“Amazon blocks Meta’s Muse in dispute over AI shopping access”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Amazon began blocking Meta’s Muse from its retail site on September 20, just 12 days after the agent launched."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Amazon blocks Meta’s Muse in dispute over AI shopping access”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "therundown.ai",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Amazon于9月20日开始封锁Meta的Muse的零售网站,",
+      "Meta在9月8日的发布公告中表示, Muse 运行在一台专用云计算机上,"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "d28c1c9c1087ac77ef68688bf28b71c1c7c15f8bd7354b53fab3e3490781b5b8",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Amazon 屏蔽 Meta 的 Muse 对AI 购物权限的争议",
+    "titleSourceHash": "df8ec42c0deccbd3411f7343d8e591c5d0bb25c198a2586c35f6425316c15643",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "f6034c04787584a22c4f3c7a170216bf5306d059502ff3ee144fac23f429ba7c",
+      "keywords": [
+        "Amazon",
+        "Meta",
+        "平台开放",
+        "跨平台购物"
+      ],
+      "summary": [
+        "Amazon于9月20日开始封锁Meta的Muse的零售网站。",
+        "Meta在9月8日的发布公告中表示，Muse 运行在一台专用云计算机上。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "access",
+        "heading": "Amazon / Meta：先验证“买得到”，再追求“推荐得好”",
+        "insight": "把商家允许的访问与交易范围作为候选筛选条件，而不是等用户选定商品后才发现无法执行。跨平台导购应区分可代购、仅可跳转和暂不可用三类路径。",
+        "deepThought": "平台封锁不是模型理解力问题：平台要保留客户关系、支付与售后控制权，导购却希望降低跨平台摩擦。靠页面自动化绕开接口，会把功能可用性变成随时可能失效的依赖。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "同一购买任务并行测试官方接入与跳转确认，记录可执行商品覆盖率、权限失败率、任务完成率；不要只比较推荐相关性。",
+        "basisArticleId": "radar-91f8270775a69971",
         "method": "规则辅助研究假设"
       }
     }
@@ -16782,6 +17834,102 @@
         "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
         "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
         "basisArticleId": "2026-09-18-cbndata-ai-0a850a39df",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Ripple Just Connected XRP to Stripe's AI Agent Payments. Why the Sessions Run on XRP, Not RLUSD",
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/09/18/ripple-just-connected-xrp-to-stripes-ai-agent-payments-why-the-sessions-run-on-xrp-not-rlusd/",
+    "date": "2026-09-18",
+    "dateBasis": "原文发布日期",
+    "source": "24/7 Wall St.",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:24+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Ripple just wired XRP into Stripe's agent payment system, where software buys services from other software without a human touching a keyboard. Developers must choose XRP Ledger wallets for MPP, merchants on Stripe must accept payment sessions, and Ripple must implement the upgrade that allows RLUSD to handle streaming transactions. On September 17, 2026, Ripple integrated the XRP Ledger into …",
+    "corePoint": [
+      "Ripple just wired XRP into Stripe's agent payment system, where software buys services from other software without a human touching a keyboard.",
+      "Developers must choose XRP Ledger wallets for MPP, merchants on Stripe must accept payment sessions, and Ripple must implement the upgrade that allows RLUSD to handle streaming transactions.",
+      "On September 17, 2026, Ripple integrated the XRP Ledger into …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-57f6803c9ebb40c8",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Ripple Just Connected XRP to Stripe's AI Agent Payments. Why the Sessions Run on XRP, Not RLUSD”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Ripple just wired XRP into Stripe's agent payment system, where software buys services from other software without a human touching a keyboard."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Ripple Just Connected XRP to Stripe's AI Agent Payments. Why the Sessions Run on XRP, Not RLUSD”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "247wallst.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "Ripple只是将XRP线接入了Strede的代理支付系统,软件从其他软件购买服务时没有人碰键盘.",
+      "开发者必须为 MPP 选择 XRP Ledger 钱包, Strede 上的商家必须接受支付会话,而Ripple 则必须实施升级,允许 RLUSD 处理流转交易."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "0368c830ae619772ce83dacbf1da0c510f22e6c04be29136f77d3b9b8dd2f58f",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Ripple 刚刚将 XRP 连接到 Frede 的 AI 代理支付。 为什么会话运行在 XRP, 不是 RLUSD 上",
+    "titleSourceHash": "0d6179eca8038e00bf771e9acdb184d7a0220eaddecd9ea054e1e4c09aff303f",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "2e443ea0fd258953575fd0639e414fcd90f88d95fbdeed0880bd050120514e77",
+      "keywords": [
+        "Stripe",
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "Ripple只是将XRP线接入了Strede的代理支付系统,软件从其他软件购买服务时没有人碰键盘。",
+        "开发者必须为 MPP 选择 XRP Ledger 钱包，Strede 上的商家必须接受支付会话,而Ripple 则必须实施升级,允许 RLUSD 处理流转交易。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "discovery",
+        "heading": "Stripe：把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-57f6803c9ebb40c8",
         "method": "规则辅助研究假设"
       }
     }
@@ -19640,6 +20788,103 @@
     }
   },
   {
+    "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+    "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+    "date": "2026-09-09",
+    "dateBasis": "原文发布日期",
+    "source": "TechCrunch",
+    "region": "海外",
+    "sourceKind": "media",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:29+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Instacart is the latest app to bake a conversational AI assistant into its platform. The company announced on Wednesday that it’s launching a new AI-powered grocery shopping assistant called Clementine that can turn a conversation, grocery list, or recipe into a ready-to-buy cart. Instacart says Clementine can generate personalized recipes or surface ones from trusted publishers.",
+    "corePoint": [
+      "Instacart is the latest app to bake a conversational AI assistant into its platform.",
+      "The company announced on Wednesday that it’s launching a new AI-powered grocery shopping assistant called Clementine that can turn a conversation, grocery list, or recipe into a ready-to-buy cart.",
+      "Instacart says Clementine can generate personalized recipes or surface ones from trusted publishers."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-209e9ecb3c6a604f",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 16,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 85,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "发布能力能否转成持续使用 · 履约确定性",
+      "implication": "本条以“Instacart launches an AI grocery shopping assistant called Clementine”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "产品公告说明能力或范围变化，不能据此推断用户采用和留存。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "先记录入口、开放地区、使用门槛与操作步骤；两周后检查重复使用和任务成功率。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Instacart is the latest app to bake a conversational AI assistant into its platform."
+    },
+    "signalType": "功能 / 上线",
+    "insight": "本条以“Instacart launches an AI grocery shopping assistant called Clementine”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "techcrunch.com",
+    "contentKinds": [
+      "产品案例",
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Instacart是将对话AI助手烤入其平台的最新应用.",
+      "公司星期三宣布, 将推出一个新的AI动力杂货店助理, 名叫Clementine,"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "59e741bb8452a208717eac545267a95eedd04f6c11cab7fb04a682751ca2a3c3",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Instacart 推出一个名为 Clementine 的 AI 杂货购物助理",
+    "titleSourceHash": "dbe7f98958095f3d87aed3d6a827d557c400425f1489e2f5980ff927257fdf83",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "4c0571e250de7efcf4bebcd523952230eb905e680e3db1302b71da4de64a7cad",
+      "keywords": [
+        "Instacart",
+        "即时需求",
+        "履约约束"
+      ],
+      "summary": [
+        "Instacart是将对话AI助手烤入其平台的最新应用。",
+        "公司星期三宣布，将推出一个新的AI动力杂货店助理，名叫Clementine。"
+      ],
+      "summaryLabel": "产品动作",
+      "research": {
+        "topic": "local",
+        "heading": "Instacart：先限定此时此地可履约的候选，再优化推荐",
+        "insight": "先确定位置、送达时间、预算和替代接受范围，再生成可购买方案。即时购物的正确答案同时依赖实时库存与配送能力，不能只根据文本匹配给出理想商品。",
+        "deepThought": "低客单高频场景容易验证效率，却不能直接迁移到所有购物任务。缺货替代可能满足商品相似性，但不满足用户的过敏、品牌或时间约束。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "选择常购清单试点，高峰与非高峰分开测完成时间、缺货替代接受率、履约达成率和取消率，再决定是否扩大自动执行。",
+        "basisArticleId": "radar-209e9ecb3c6a604f",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
     "title": "美团多项AI应用亮相服贸会，覆盖商家经营与消费决策",
     "url": "http://www.news.cn/tech/20260909/79161147f2414bc79664a28d32802f8e/c.html",
     "date": "2026-09-09",
@@ -20105,6 +21350,103 @@
     }
   },
   {
+    "title": "41% of Millennials Use ChatGPT for Product Discovery",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/41percent-millennials-use-chatgpt-product-discovery/",
+    "date": "2026-09-08",
+    "dateBasis": "原文发布日期",
+    "source": "PYMNTS",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:30+08:00",
+    "sourceCaveats": [],
+    "excerpt": "The PYMNTS Intelligence report “ The Millennial Shopping Map: How AI, Search and Stores Compete Before Checkout ” found in July that Google remains the most widely used product-discovery tool among millennials, at 57%. Millennials are showing that discovery can become AI-driven faster than purchasing becomes digital-only. That puts product discovery outside the merchant’s own storefront earlier in the buying …",
+    "corePoint": [
+      "The PYMNTS Intelligence report “ The Millennial Shopping Map: How AI, Search and Stores Compete Before Checkout ” found in July that Google remains the most widely used product-discovery tool among millennials, at 57%.",
+      "Millennials are showing that discovery can become AI-driven faster than purchasing becomes digital-only.",
+      "That puts product discovery outside the merchant’s own storefront earlier in the buying …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-5ad4020d016c76de",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 96,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "样本和分母是否可比 · 候选集",
+      "implication": "本条以“41% of Millennials Use ChatGPT for Product Discovery”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+      "counterpoint": "首先核对样本范围、时间窗与问题定义；意愿、自报行为、实际订单不是同一指标。 上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
+      "experiment": "先建立指标口径表，要求样本量、对照组与统计周期，缺项时不搬用增长数字。 对照传统搜索与可编辑约束的对话导购；测候选修改次数、决策耗时、任务成功率和品类覆盖，区分新客与老客、探索与明确购买任务。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "The PYMNTS Intelligence report “ The Millennial Shopping Map: How AI, Search and Stores Compete Before Checkout ” found in July that Google remains the most widely used product-discovery tool among millennials, at 57%."
+    },
+    "signalType": "研究 / 数据",
+    "insight": "本条以“41% of Millennials Use ChatGPT for Product Discovery”为观察对象。当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
+    "relatedInsightIds": [
+      "evidence-discovery"
+    ],
+    "publisher": "pymnts.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "PYMNTS Intelligence报告“千年购物地图:如何使用AI、搜索和存储Contractete在7月份发现,Google仍然是千年人中最广泛使用的产品发现工具,占57%。",
+      "千年正在显示,发现可以成为AI驱动的快于购买成为数字化的."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "2253be3d8af8023130df6f9b09aeb919411c23fe210e90ca1ed168c55b48580e",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "41%的千年人使用ChatGPT进行产品发现",
+    "titleSourceHash": "aac1a2ffc02954112e8fcb872b92d0b449f25fece9550272c4944e8ba1d368fa",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "88b6e8d2a8c98f2256b8088f9f736a4050d16bdc7ebe34207f793b9f4a632bdf",
+      "keywords": [
+        "ChatGPT",
+        "需求澄清",
+        "商品发现",
+        "Google"
+      ],
+      "summary": [
+        "PYMNTS Intelligence报告“千年购物地图:如何使用AI、搜索和存储Contractete在7月份发现,Google仍然是千年人中最广泛使用的产品发现工具,占57%。",
+        "千年正在显示,发现可以成为AI驱动的快于购买成为数字化的。"
+      ],
+      "summaryLabel": "研究发现",
+      "research": {
+        "topic": "discovery",
+        "heading": "ChatGPT：把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "本条属于研究或调查线索；需核对样本、时间窗和指标定义，使用意愿、实际采用与增量成交不能互相替代。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-5ad4020d016c76de",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
     "title": "从阿里妈妈12个金瞳奖金奖案例里，洞见AI电商时代的增长新风向",
     "url": "https://timeline.sohu.com/news/RPWWSMMzDR",
     "date": "2026-09-08",
@@ -20195,6 +21537,199 @@
         "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
         "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
         "basisArticleId": "radar-f15c2aea0f9075a0",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "AI shopping carts could drive up your grocery bill",
+    "url": "https://www.foxnews.com/tech/ai-shopping-carts-drive-up-grocery-bill",
+    "date": "2026-09-08",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "Fox News",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:31+08:00",
+    "dateCandidates": [
+      "2026-09-08",
+      "2026-09-09"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "Artificial intelligence is making its way into the grocery aisle, and it could have an unexpected effect on how much you spend. Here's how the study worked, where these smart carts are already showing up in the U.S. and how to use one without letting it push your grocery bill higher.",
+    "corePoint": [
+      "Artificial intelligence is making its way into the grocery aisle, and it could have an unexpected effect on how much you spend.",
+      "Here's how the study worked, where these smart carts are already showing up in the U.S. and how to use one without letting it push your grocery bill higher."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-599bfdc808de4099",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 履约确定性",
+      "implication": "本条以“AI shopping carts could drive up your grocery bill”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 从常购低风险任务试点；同时跟踪从意图到有效订单的耗时、缺货替代接受率、履约达成率及取消率，高峰和非高峰分开分析。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Artificial intelligence is making its way into the grocery aisle, and it could have an unexpected effect on how much you spend."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“AI shopping carts could drive up your grocery bill”为观察对象。即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
+    "relatedInsightIds": [
+      "evidence-local"
+    ],
+    "publisher": "foxnews.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "人工智能正在进入杂货道可能会对你花费多少产生出乎意料的影响",
+      "研究是这样运作的, 这些聪明的手推车已经出现在美国, 以及如何使用它而不让它推高你的杂货账单。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "0419b2b04663510d61f938f899f0eb16f5ec4c57e02ef498e9f67a4f493ceec5",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "AI购物车可以驱动你的杂货账单",
+    "titleSourceHash": "2411f9f1a59bae003839c495f174393d61249a80dffca2d9e8be6d7e57a3bb7a",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "303e737ff6966bb249c1319ab35933fde0121b36d30a7a78c125192c5de80f04",
+      "keywords": [
+        "即时需求",
+        "履约约束"
+      ],
+      "summary": [
+        "人工智能正在进入杂货道可能会对你花费多少产生出乎意料的影响。",
+        "研究是这样运作的，这些聪明的手推车已经出现在美国，以及如何使用它而不让它推高你的杂货账单。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "local",
+        "heading": "先限定此时此地可履约的候选，再优化推荐",
+        "insight": "先确定位置、送达时间、预算和替代接受范围，再生成可购买方案。即时购物的正确答案同时依赖实时库存与配送能力，不能只根据文本匹配给出理想商品。",
+        "deepThought": "低客单高频场景容易验证效率，却不能直接迁移到所有购物任务。缺货替代可能满足商品相似性，但不满足用户的过敏、品牌或时间约束。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "选择常购清单试点，高峰与非高峰分开测完成时间、缺货替代接受率、履约达成率和取消率，再决定是否扩大自动执行。",
+        "basisArticleId": "radar-599bfdc808de4099",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Databricks Mosaic AI for Retail: Use Cases, Benefits & Implementation Guide",
+    "url": "https://quintdaily.com/2026/09/databricks-mosaic-ai-for-retail-use-cases-benefits-implementation-guide/",
+    "date": "2026-09-07",
+    "dateBasis": "原文发布日期",
+    "source": "- QuintDaily",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:30+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Here is a number that should stop any retail leader mid-scroll: 35% of e-commerce revenue now comes from personalized recommendations. Databricks Mosaic AI Agents for Retail Operations. That is the specific problem Databricks Mosaic AI for Retail was built to close.",
+    "corePoint": [
+      "Here is a number that should stop any retail leader mid-scroll: 35% of e-commerce revenue now comes from personalized recommendations.",
+      "Databricks Mosaic AI Agents for Retail Operations.",
+      "That is the specific problem Databricks Mosaic AI for Retail was built to close."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-b8688e5f7afe6b58",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "memory",
+    "tags": [
+      "偏好记忆",
+      "纠错成本",
+      "长期留存"
+    ],
+    "category": "偏好记忆",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 偏好记忆",
+      "implication": "本条以“Databricks Mosaic AI for Retail: Use Cases, Benefits & Implementation Guide”为观察对象。长期偏好可以减少重复澄清，但把一次性任务当作稳定偏好会让推荐越用越窄；记忆价值取决于时效、可纠正性和跨场景边界。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 个性化功能发布不等于长期留存提升；必须排除价格优惠与用户自选择影响，检查错误记忆的修正成本。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 对照无记忆与可编辑偏好卡；统计澄清轮次、推荐采纳率、记忆纠错率和四周复购，临时送礼需求默认不沉淀为长期个人偏好。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Here is a number that should stop any retail leader mid-scroll: 35% of e-commerce revenue now comes from personalized recommendations."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Databricks Mosaic AI for Retail: Use Cases, Benefits & Implementation Guide”为观察对象。长期偏好可以减少重复澄清，但把一次性任务当作稳定偏好会让推荐越用越窄；记忆价值取决于时效、可纠正性和跨场景边界。",
+    "relatedInsightIds": [
+      "evidence-memory"
+    ],
+    "publisher": "quintdaily.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "以下数字应该阻止任何零售业领先者:现在,35%的电子商务收入来自个性化建议。",
+      "Databricks Mosaic AI 代理零售业务."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "ccb3fc2a2a821edaff10c5749e7333ff0f2104abc104e329ca0685959ebde482",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Databricks Mosaic 零售:使用案例、效益和执行指南",
+    "titleSourceHash": "b77fd09bb8432f5a77be1ceb9ad8c9534fb4a80e292953999998ceb9462ea51d",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "07fa35d5664443ee33cd568af735baebd9df08cbe3a390b827d56d842b3b786f",
+      "keywords": [
+        "偏好记忆",
+        "可控推荐"
+      ],
+      "summary": [
+        "以下数字应该阻止任何零售业领先者:现在,35%的电子商务收入来自个性化建议。",
+        "Databricks Mosaic AI 代理零售业务。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "memory",
+        "heading": "区分长期偏好与本次任务的临时条件",
+        "insight": "把预算、用途、收货时效等临时约束与长期偏好分别存储。让用户知道推荐使用了哪些记忆，并能在本次任务里覆写，而不是把历史行为永久固化成画像。",
+        "deepThought": "个性化越强，错误记忆的影响也越大。更高的点击率可能来自缩窄候选而非更懂用户，需要保留探索机会，避免赠礼和代买污染本人偏好。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "比较无记忆、不可见记忆与可编辑记忆，观察澄清轮次、推荐采纳率、纠错成本和跨品类复用，单独检查送礼任务。",
+        "basisArticleId": "radar-b8688e5f7afe6b58",
         "method": "规则辅助研究假设"
       }
     }
@@ -20381,6 +21916,196 @@
         "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
         "validation": "选库存变动频繁的品类，对照基础商品页和结构化数据，跟踪事实错误率、过期价格率、商家覆盖及有效订单，而非仅看引用量。",
         "basisArticleId": "2026-09-06-eweek-agentic-commerce-starts-w-cc4fb157d2",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Getting Your Product Into ChatGPT Isn’t The Hard Part, Getting It Through Checkout Is",
+    "url": "https://www.searchenginejournal.com/getting-your-product-into-chatgpt-isnt-the-hard-part-getting-it-through-checkout-is/587470/",
+    "date": "2026-09-04",
+    "dateBasis": "原文发布日期",
+    "source": "Search Engine Journal",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:30+08:00",
+    "sourceCaveats": [],
+    "excerpt": "But we didn’t talk about what determines whether a sale happens: Once an AI agent, not a person, is the one completing the transaction, does the checkout underneath still work? His answer to the visibility question was getting a product surfaced in an AI platform’s results is the easy half, but most of the current friction sits downstream, in the …",
+    "corePoint": [
+      "But we didn’t talk about what determines whether a sale happens: Once an AI agent, not a person, is the one completing the transaction, does the checkout underneath still work?",
+      "His answer to the visibility question was getting a product surfaced in an AI platform’s results is the easy half, but most of the current friction sits downstream, in the …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-c9fb3625c8a184fe",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 87,
+    "readingTier": "精选",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 授权边界",
+      "implication": "本条以“Getting Your Product Into ChatGPT Isn’t The Hard Part, Getting It Through Checkout Is”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 在同一品类比较“生成购物车后确认”与“限额授权代下单”；同时记录任务完成率、改价拦截率、撤销率和退款率。只有效率提升且损失不增加才扩大授权。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "But we didn’t talk about what determines whether a sale happens: Once an AI agent, not a person, is the one completing the transaction, does the checkout underneath still work?"
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Getting Your Product Into ChatGPT Isn’t The Hard Part, Getting It Through Checkout Is”为观察对象。推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
+    "relatedInsightIds": [
+      "evidence-payments"
+    ],
+    "publisher": "searchenginejournal.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "但我们没有谈论什么决定销售是否发生:一旦一个AI代理而不是一个人完成交易,下面的检查是否仍然有效?",
+      "他对能见度问题的回答是,一个产品在AI平台的结果中浮出水面是容易的一半,但目前的摩擦大部分都坐落在下游,在."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "19e92067f55a35ba9a5b9e53c5ba2a1ac39cc2a859f6b879fc6f86efd6e44d3d",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "获取您的产品进入 ChatGPT 并不是困难的部分, 通过检查获得它就是",
+    "titleSourceHash": "0f5b01021c8991a12a4826dc4b2cc45bb7dd1646719df23733cdb36954257ff4",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "50f97db9bf68339ada906af08e684c2ce5204ca8a91e8549e6de940d7240c1b2",
+      "keywords": [
+        "ChatGPT",
+        "交易闭环",
+        "任务连续性"
+      ],
+      "summary": [
+        "但我们没有谈论什么决定销售是否发生:一旦一个AI代理而不是一个人完成交易,下面的检查是否仍然有效?。",
+        "他对能见度问题的回答是,一个产品在AI平台的结果中浮出水面是容易的一半,但目前的摩擦大部分都坐落在下游,在。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "checkout",
+        "heading": "ChatGPT：缩短跳转路径，还要保留可确认、可恢复的交易状态",
+        "insight": "把需求、候选与交易状态串成连续任务，减少用户在对话、商品页和结账页间重复输入。结账前仍要明确最终价格、商品、地址和履约承诺，而不是用“无缝”隐藏确认。",
+        "deepThought": "单界面更顺畅，不代表所有品类都适合一步成交。首次购买、高客单或兼容性复杂的商品需要可回看证据；支付后还能查单、修改与退款，才形成真正闭环。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "对照现有跳转流程，测任务完成时间、结账成功率和中途信息丢失；把误购、撤销与售后自助完成率一起作为上线门槛。",
+        "basisArticleId": "radar-c9fb3625c8a184fe",
+        "method": "规则辅助研究假设"
+      }
+    }
+  },
+  {
+    "title": "Will agentic commerce push more merchants into marketplaces?",
+    "url": "https://www.techradar.com/pro/will-agentic-commerce-push-more-merchants-into-marketplaces",
+    "date": "2026-09-04",
+    "dateBasis": "原文发布日期",
+    "source": "TechRadar",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-10T17:18:31+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Agentic commerce has cleared its first hurdle, that of consumer demand. Large marketplaces can provide these in abundance by providing a single source that can satisfy the widest range of queries with the strongest supporting evidence. According to Similarweb, marketplaces already receive more AI-referred traffic than any other retail category, some 47m visits in the year to May 2026, and …",
+    "corePoint": [
+      "Agentic commerce has cleared its first hurdle, that of consumer demand.",
+      "Large marketplaces can provide these in abundance by providing a single source that can satisfy the widest range of queries with the strongest supporting evidence.",
+      "According to Similarweb, marketplaces already receive more AI-referred traffic than any other retail category, some 47m visits in the year to May 2026, and …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-f83422917618ec57",
+    "firstSeenAt": "2026-10-10",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "analysis": {
+      "question": "这个解释有哪些反例 · 商品事实层",
+      "implication": "本条以“Will agentic commerce push more merchants into marketplaces?”为观察对象。智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
+      "counterpoint": "解释性文章提出的是机制或预测，不应当作已发生的用户行为。 发布接口、接入商家数和合作名单都不是成交效果；还需要区分自然流量迁移与真正新增订单。",
+      "experiment": "把观点改写为可被推翻的假设，寻找相反案例与最小对照实验。 选一个库存变化快的品类，对比基础商品页与结构化实时信息；记录引用准确率、库存失配率、有效导流和增量订单，单独标记赞助推荐。",
+      "basis": "基于证据的规则辅助推演，非原文结论；未使用大模型生成",
+      "anchor": "Agentic commerce has cleared its first hurdle, that of consumer demand."
+    },
+    "signalType": "分析 / 观点",
+    "insight": "本条以“Will agentic commerce push more merchants into marketplaces?”为观察对象。智能体能否推荐商品，受价格、库存、规格、履约信息的可读取性和新鲜度限制。新增协议入口不会自动补齐数据，也不意味着商家获得增量。",
+    "relatedInsightIds": [
+      "evidence-merchant"
+    ],
+    "publisher": "techradar.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "代理商业已经清除了第一个障碍,即消费者需求。",
+      "大型市场可以提供一种单一来源,以最有力的佐证满足最广泛的询问,从而提供丰富的信息。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "41d1c88e94dba240a0cb3fe5ecb6959ce4e7785c2d2cb4d84deca1644f77b2cb",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "代理商会把更多的商人推入市场吗?",
+    "titleSourceHash": "ed218b3f64695a1d9843ce2f9575baab86eab45cbe995f6076d85e0d432ceaae",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-brief-v1",
+      "inputHash": "c72e3fd3a5a01745191b413748be8ea785aa2bf2384dd0e7acfe779f069756a1",
+      "keywords": [
+        "需求澄清",
+        "商品发现"
+      ],
+      "summary": [
+        "代理商业已经清除了第一个障碍,即消费者需求。",
+        "大型市场可以提供一种单一来源,以最有力的佐证满足最广泛的询问,从而提供丰富的信息。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "topic": "discovery",
+        "heading": "把模糊需求变成可修改的候选条件",
+        "insight": "导购应先澄清预算、用途与必须满足的条件，再给少量可比较的候选。每个推荐都要解释满足了哪些条件、牺牲了什么，并允许用户修改而不必重新开始对话。",
+        "deepThought": "更快给出答案也可能过早收敛，把探索性购物变成系统替用户决定。明确购买任务需要效率，逛购任务需要发现空间，两类任务不宜共用一个转化指标。",
+        "evidenceLimit": "这条报道提供观察线索，具体开放范围与效果仍应以可验证的产品路径及数据为准。",
+        "validation": "区分明确购买与探索任务，对照传统搜索，分别看候选修改次数、决策时间、任务成功率和商品覆盖，避免只追聊天轮次。",
+        "basisArticleId": "radar-f83422917618ec57",
         "method": "规则辅助研究假设"
       }
     }
