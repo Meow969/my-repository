@@ -73,11 +73,22 @@
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "PYMNTS提供功能 / 上线线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Dive提供功能 / 上线线索；PYMNTS提供功能 / 上线线索；TechCrunch提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-visual",
     "title": "试穿的目标不是好看，而是少买错",
     "summary": "生成图降低风格想象成本，但未必解决尺码与材质判断；点击或停留上涨可能只是新奇效应，而非更好的购买决策。",
     "evidence": [
+      {
+        "articleId": "radar-7edd7e26871e4183",
+        "title": "Virtual try on launches on ChatGPT",
+        "source": "Retail Dive",
+        "caveats": [],
+        "signalType": "功能 / 上线",
+        "date": "2026-10-09",
+        "quote": "As OpenAI introduces more shopping features to ChatGPT, more retailers are experimenting with the platform.",
+        "quoteZh": "由于OpenAI向ChatGPT引入了更多的购物功能,更多的零售商正在试验该平台.",
+        "url": "https://www.retaildive.com/news/virtual-try-on-launch-chatgpt/832244/"
+      },
       {
         "articleId": "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
         "title": "OpenAI Adds Virtual Try-On Feature to ChatGPT",
@@ -88,6 +99,17 @@
         "quote": "OpenAI added a virtual try-on feature to ChatGPT , the company said in a Thursday (Oct.",
         "quoteZh": "OpenAI 为 ChatGPT 增加了虚拟试穿功能。",
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-adds-virtual-try-on-feature-chatgpt/"
+      },
+      {
+        "articleId": "radar-bc70948c064d091d",
+        "title": "ChatGPT can now virtually try on clothes for you",
+        "source": "TechCrunch",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-10-01",
+        "quote": "OpenAI is again experimenting with how its conversational AI assistant, ChatGPT, can help users as they shop online.",
+        "quoteZh": "OpenAI再次尝试其对话AI助手ChatGPT如何在用户在线购物时帮助用户.",
+        "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
       }
     ],
     "counterpoint": "效果演示不是适配证据；缺少真实尺码、不同体型覆盖及退货原因数据时，不应承诺“合身”。",
@@ -99,14 +121,16 @@
       "退货率"
     ],
     "relatedArticleIds": [
-      "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe"
+      "radar-7edd7e26871e4183",
+      "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+      "radar-bc70948c064d091d"
     ],
-    "sourceCount": 1,
+    "sourceCount": 3,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 1 篇原文、1 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 3 篇原文、3 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-08",
-    "fingerprint": "8d11d1ec92a54d8d",
+    "updatedAt": "2026-10-10",
+    "fingerprint": "a1252d7dfe623004",
     "method": "规则辅助研究假设"
   },
   {
@@ -220,7 +244,7 @@
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Digital Commerce 360提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Digital Commerce 360提供合作 / 基础设施线索；Retail Technology Innovation Hub提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-local",
     "title": "即时购物要先满足可履约，再讨论聪明",
     "summary": "即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
@@ -246,6 +270,17 @@
         "quote": "Instacart has launched an artificial intelligence assistant, Clementine, for grocery shopping support while adding new partners for its existing enterprise AI tool Cart Assistant.",
         "quoteZh": "Instacart推出人工智能助理Clementine,负责杂货购物支持,同时为其现有的企业AI工具Cart Assoft添加了新的合作伙伴.",
         "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/"
+      },
+      {
+        "articleId": "radar-13167e4db08f2991",
+        "title": "Grocery retailer Panda teams with Spike and GoWit to power e-commerce media push in Saudi Arabia",
+        "source": "Retail Technology Innovation Hub",
+        "caveats": [],
+        "signalType": "合作 / 基础设施",
+        "date": "2026-10-08",
+        "quote": "Panda Retail, a grocery retailer in Saudi Arabia, has partnered with Spike Media Saudi, GoWit’s partner in the region, operating locally as GoSpike, to accelerate its digital media transformation push in the Kingdom.",
+        "quoteZh": "Panda Retail是沙特阿拉伯的一家杂货零售商,与GoWit在该区域的合作伙伴Spike Media Saudi合作,在当地作为GoSpike开展业务,以加速其在沙特王国的数字媒体转型。",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/7/grocery-retailer-panda-teams-with-spike-and-gowit-to-power-e-commerce-media-push-in-saudi-arabia"
       }
     ],
     "counterpoint": "演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
@@ -258,14 +293,15 @@
     ],
     "relatedArticleIds": [
       "radar-9425c6ded44c4863",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64"
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "radar-13167e4db08f2991"
     ],
     "sourceCount": 2,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 2 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 3 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
     "updatedAt": "2026-10-10",
-    "fingerprint": "e1769792355e64c8",
+    "fingerprint": "219dcca9d5f2f68e",
     "method": "规则辅助研究假设"
   },
   {

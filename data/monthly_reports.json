@@ -3,24 +3,28 @@
     "month": "2026-10",
     "title": "交易授权 · 导购入口 · 商家接入",
     "summary": "Stripe、Walmart 等相关资料聚焦智能体结账、支付接入与用户授权；TikTok、Gap 等相关资料聚焦对话搜索、商品发现与候选推荐；商家接入相关资料聚焦商品数据、商家工具与协议接入。重点追踪从推荐到成交时的授权和责任边界。",
-    "articleCount": 89,
+    "articleCount": 104,
     "topArticleIds": [
       "radar-47a2914f9b3b5c69",
+      "radar-7edd7e26871e4183",
       "radar-9425c6ded44c4863",
       "radar-6f670eb9ffa2eb69",
-      "radar-90923df83ec2925c",
-      "radar-69f57827c201cd76"
+      "radar-e56e589b7efd8225"
     ],
     "summaryArticleIds": [
+      "radar-7edd7e26871e4183",
       "radar-47a2914f9b3b5c69",
       "radar-9425c6ded44c4863",
       "radar-7f99543b6cbdb838",
       "radar-3feae84bb92744a4",
       "radar-222885df0703747a",
+      "radar-13167e4db08f2991",
       "radar-90923df83ec2925c",
       "radar-ce4cdfd726cf92df",
+      "radar-a4de7dc2c92dbec5",
       "radar-134ac2bfbdc84ddc",
       "radar-e56e589b7efd8225",
+      "radar-09def13b0fe9a9ed",
       "radar-e3b6ecfc1f1978c7",
       "radar-69f57827c201cd76",
       "radar-ef81ec7a5e54b041",
@@ -37,7 +41,8 @@
       "radar-c6e457f74d64996f",
       "radar-dc65fee893e48ad7",
       "radar-c3c808e105b43ecc",
-      "radar-7d6e904671a221e3"
+      "radar-7d6e904671a221e3",
+      "radar-bc70948c064d091d"
     ],
     "insight": "从推荐到成交时的授权和责任边界",
     "updatedAt": "2026-10-10"
@@ -46,7 +51,7 @@
     "month": "2026-09",
     "title": "导购入口 · 交易授权 · 商家接入",
     "summary": "Mastercard、Stripe 等相关资料聚焦对话搜索、商品发现与候选推荐；Mastercard、Amazon 等相关资料聚焦智能体结账、支付接入与用户授权；商家接入相关资料聚焦商品数据、商家工具与协议接入。重点追踪入口变化能否缩短真实购物决策。",
-    "articleCount": 108,
+    "articleCount": 113,
     "topArticleIds": [
       "radar-1f254fb86d3dabed",
       "radar-d88f4ca5c9c2f027",
