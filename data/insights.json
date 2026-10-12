@@ -1,10 +1,21 @@
 [
   {
-    "observation": "stripe.com提供分析 / 观点线索；PYMNTS提供分析 / 观点线索；Mastercard提供分析 / 观点线索；Retail Dive提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Dive提供分析 / 观点线索；stripe.com提供分析 / 观点线索；PYMNTS提供分析 / 观点线索；Retail Technology Innovation Hub提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-payments",
     "title": "代付之前，先把授权做成产品",
     "summary": "推荐正确不等于执行正确：金额、商家和时间约束必须在执行层再次校验。少一次确认可能提高完成率，也可能放大误购和争议成本。",
     "evidence": [
+      {
+        "articleId": "radar-11cc8c14dfdb6d30",
+        "title": "The next era of retail tech — with AI at the core",
+        "source": "Retail Dive",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-10-12",
+        "quote": "Retail is entering its most transformative chapter since the dawn of e-commerce.",
+        "quoteZh": "零售业正在进入自电子商务起最具变革性的一页。",
+        "url": "https://www.retaildive.com/spons/the-next-era-of-retail-tech-with-ai-at-the-core/832339/"
+      },
       {
         "articleId": "radar-6f670eb9ffa2eb69",
         "title": "Retail rewired: Unified commerce for the age of AI and instant gratification - Stripe",
@@ -28,26 +39,15 @@
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-turn-permission-into-payments-new-control-point/"
       },
       {
-        "articleId": "radar-7f99543b6cbdb838",
-        "title": "Who’s behind the AI agent? Solving the identity challenge in agentic commerce",
-        "source": "Mastercard",
+        "articleId": "radar-9843a07076d0e18a",
+        "title": "Defying retail technology convention, AI looks to slow down the updates and new releases for a while",
+        "source": "Retail Technology Innovation Hub",
         "caveats": [],
         "signalType": "分析 / 观点",
-        "date": "2026-10-08",
-        "quote": "Autonomous agents are offering to take the grind out of shopping by scouring the web to find the best deals, making purchases and organizing deliveries without bothering users for their login details and payment authorization.",
-        "quoteZh": "自主代理商主动提出通过浏览网络寻找最佳交易,进行采购和组织交付,而不因用户登录细节和支付授权而烦扰用户,从而摆脱购物的磨难.",
-        "url": "https://www.mastercard.com/global/en/news-and-trends/stories/2026/agentic-commerce-identity-know-your-agent.html"
-      },
-      {
-        "articleId": "radar-222885df0703747a",
-        "title": "AI is ‘reshaping’ Walmart and Sparky is leading the charge",
-        "source": "Retail Dive",
-        "caveats": [],
-        "signalType": "分析 / 观点",
-        "date": "2026-10-08",
-        "quote": "Advancements in AI are helping Walmart save money, which it is, in turn, reinvesting in customer experience improvements, according to U.S.",
-        "quoteZh": "据美国称,AI的进步正在帮助沃尔玛省钱,这反过来又在重新投资客户经验的改善。",
-        "url": "https://www.retaildive.com/news/ai-walmart-sparky-CX-investment/832327/"
+        "date": "2026-10-12",
+        "quote": "Not wanting to wait for public opinion or regulators, the mantra essentially gave a pass to tech companies to develop and release products with impunity, only maybe worrying about the consequences years down the line.",
+        "quoteZh": "漫画基本上给了科技公司开发并释放产品而不受惩罚的许可, 可能只是担心未来的后果。",
+        "url": "https://retailtechinnovationhub.com/home/2026/9/22/defying-retail-tech-convention-ai-looks-to-slow-down-the-updates-and-new-releases-for-a-while"
       }
     ],
     "counterpoint": "宣布接入支付或支持下单，只能证明能力存在；没有完成率、退款率和授权撤回数据，不能证明用户愿意放权。",
@@ -59,17 +59,17 @@
       "误购成本"
     ],
     "relatedArticleIds": [
+      "radar-11cc8c14dfdb6d30",
       "radar-6f670eb9ffa2eb69",
       "radar-ce4cdfd726cf92df",
-      "radar-7f99543b6cbdb838",
-      "radar-222885df0703747a"
+      "radar-9843a07076d0e18a"
     ],
     "sourceCount": 4,
     "confidence": "待验证假设",
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-09",
-    "fingerprint": "fac29368a13aceea",
+    "updatedAt": "2026-10-12",
+    "fingerprint": "9194b41211fbaf4f",
     "method": "规则辅助研究假设"
   },
   {
@@ -207,7 +207,7 @@
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Mastercard提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Mastercard提供分析 / 观点线索；Stripe提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-trust",
     "title": "把“推荐理由”升级成可检查的证据",
     "summary": "对话语气越确定，用户越可能忽略证据缺口。来源、适用条件与不推荐理由可降低误信，但增加信息量也可能提高决策负担。",
@@ -222,6 +222,17 @@
         "quote": "As AI agents begin shopping, paying and making decisions on behalf of people and businesses, the biggest challenge is trust, not technology.",
         "quoteZh": "随着AI代理商开始为人和企业购物,支付和作出决定,最大的挑战在于信任,而不是技术.",
         "url": "https://www.mastercard.com/global/en/news-and-trends/Insights/2026/mastercard-agentic-commerce-trust-white-paper.html"
+      },
+      {
+        "articleId": "radar-5e03035fe0af05c6",
+        "title": "Retail Discoverability in AI",
+        "source": "Stripe",
+        "caveats": [],
+        "signalType": "分析 / 观点",
+        "date": "2026-09-27",
+        "quote": "AI is changing how shoppers discover products, but traditional retail measurement still gives full credit for the purchase to the last click before checkout.",
+        "quoteZh": "AI正在改变购物者发现产品的方式,但传统的零售计量仍然在退货前将购买的功劳完全归功于最后一击.",
+        "url": "https://stripe.com/in/guides/retail-discoverability-aeo"
       }
     ],
     "counterpoint": "满意度和使用意愿不代表真实购买表现；需要观察错误推荐、广告识别与投诉，不能只看问卷或单次演示。",
@@ -233,18 +244,19 @@
       "反向指标"
     ],
     "relatedArticleIds": [
-      "radar-b2da2ac773a5973b"
+      "radar-b2da2ac773a5973b",
+      "radar-5e03035fe0af05c6"
     ],
-    "sourceCount": 1,
+    "sourceCount": 2,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 1 篇原文、1 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 2 篇原文、2 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-10",
-    "fingerprint": "103af4d313aea73d",
+    "updatedAt": "2026-10-12",
+    "fingerprint": "3d4e9d1bc82c118b",
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Digital Commerce 360提供合作 / 基础设施线索；TechCrunch提供功能 / 上线线索；Retail Technology Innovation Hub提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "Retail Technology Innovation Hub提供合作 / 基础设施线索；Digital Commerce 360提供合作 / 基础设施线索；TechCrunch提供功能 / 上线线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-local",
     "title": "即时购物要先满足可履约，再讨论聪明",
     "summary": "即时场景的可选集合同时受位置、时间、库存和配送能力约束；语义理解提升如果不能同步到履约系统，会更快地产生不可执行答案。",
@@ -281,17 +293,6 @@
         "quote": "Instacart is the latest app to bake a conversational AI assistant into its platform.",
         "quoteZh": "Instacart是将对话AI助手烤入其平台的最新应用.",
         "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/"
-      },
-      {
-        "articleId": "radar-13167e4db08f2991",
-        "title": "Grocery retailer Panda teams with Spike and GoWit to power e-commerce media push in Saudi Arabia",
-        "source": "Retail Technology Innovation Hub",
-        "caveats": [],
-        "signalType": "合作 / 基础设施",
-        "date": "2026-10-08",
-        "quote": "Panda Retail, a grocery retailer in Saudi Arabia, has partnered with Spike Media Saudi, GoWit’s partner in the region, operating locally as GoSpike, to accelerate its digital media transformation push in the Kingdom.",
-        "quoteZh": "Panda Retail是沙特阿拉伯的一家杂货零售商,与GoWit在该区域的合作伙伴Spike Media Saudi合作,在当地作为GoSpike开展业务,以加速其在沙特王国的数字媒体转型。",
-        "url": "https://retailtechinnovationhub.com/home/2026/10/7/grocery-retailer-panda-teams-with-spike-and-gowit-to-power-e-commerce-media-push-in-saudi-arabia"
       }
     ],
     "counterpoint": "演示一次点单无法说明高峰期可用性；商家覆盖、缺货替代与配送延迟都可能抵消交互效率收益。",
@@ -305,19 +306,18 @@
     "relatedArticleIds": [
       "radar-9425c6ded44c4863",
       "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "radar-209e9ecb3c6a604f",
-      "radar-13167e4db08f2991"
+      "radar-209e9ecb3c6a604f"
     ],
     "sourceCount": 3,
     "confidence": "待验证假设",
-    "iterationNote": "近45天 4 篇原文、3 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
+    "iterationNote": "近45天 3 篇原文、3 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-11",
-    "fingerprint": "097ee67d230221fd",
+    "updatedAt": "2026-10-12",
+    "fingerprint": "8b1699e9b12e1416",
     "method": "规则辅助研究假设"
   },
   {
-    "observation": "kpmg.com提供分析 / 观点线索；Retail Dive提供合作 / 基础设施线索；Salesforce提供合作 / 基础设施线索；CBNData-第一财经商业数据中心提供分析 / 观点线索。这些证据衡量的对象不同，不能直接比较效果。",
+    "observation": "kpmg.com提供分析 / 观点线索；Retail Dive提供合作 / 基础设施线索；IT之家提供功能 / 上线线索；Salesforce提供合作 / 基础设施线索。这些证据衡量的对象不同，不能直接比较效果。",
     "id": "evidence-discovery",
     "title": "入口变化之后，谁拥有最终候选集？",
     "summary": "当用户先向助手表达需求，竞争从搜索排序前移到“哪些商品进入候选集”。但更短的答案也可能隐藏取舍，减少用户探索和商家的可见性。",
@@ -345,6 +345,17 @@
         "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/"
       },
       {
+        "articleId": "radar-08cfa49ebf13a829",
+        "title": "唯品会自研 AI 助手“AI 小唯”低调上线，灰度试水商品 AI 对比功能",
+        "source": "IT之家",
+        "caveats": [],
+        "signalType": "功能 / 上线",
+        "date": "2026-10-12",
+        "quote": "10 月 12 日下午消息，据知情人士向新浪科技独家透露，唯品会近期上线了自研 AI 助手“ AI 小唯 ”，由唯品会大模型团队开发，支持文字与语 …",
+        "quoteZh": "10 月 12 日下午消息，据知情人士向新浪科技独家透露，唯品会近期上线了自研 AI 助手“ AI 小唯 ”，由唯品会大模型团队开发，支持文字与语 …",
+        "url": "https://www.ithome.com/1/011/927.htm"
+      },
+      {
         "articleId": "radar-e56e589b7efd8225",
         "title": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership",
         "source": "Salesforce",
@@ -354,17 +365,6 @@
         "quote": "This is led by 48% of Gen Z consumers and 37% of Millennial consumers, according to Salesforce Shopping Index data.",
         "quoteZh": "根据销售力购物指数数据,这由48%的Gen Z消费者和37%的千年消费者领导。",
         "url": "https://www.salesforce.com/blog/commerce-cloud-tiktok-integration/?bc=OTH"
-      },
-      {
-        "articleId": "2026-09-18-cbndata-ai-0a850a39df",
-        "title": "电商六巨头会战“AI导购”，开启第三次入口革命",
-        "source": "CBNData-第一财经商业数据中心",
-        "caveats": [],
-        "signalType": "分析 / 观点",
-        "date": "2026-09-18",
-        "quote": "至此，淘宝天猫、抖音、拼多多、京东、快手、美团六家平台全部完成AI购物功能的嵌入，AI导购入口之争全面打响。",
-        "quoteZh": "至此，淘宝天猫、抖音、拼多多、京东、快手、美团六家平台全部完成AI购物功能的嵌入，AI导购入口之争全面打响。",
-        "url": "https://www.cbndata.com/information/295789"
       }
     ],
     "counterpoint": "上线入口或公布使用人数并不证明决策质量提升；渗透率、重复使用、候选覆盖和增量转化需要分别验证。",
@@ -378,15 +378,15 @@
     "relatedArticleIds": [
       "radar-47a2914f9b3b5c69",
       "radar-90923df83ec2925c",
-      "radar-e56e589b7efd8225",
-      "2026-09-18-cbndata-ai-0a850a39df"
+      "radar-08cfa49ebf13a829",
+      "radar-e56e589b7efd8225"
     ],
     "sourceCount": 4,
     "confidence": "待验证假设",
     "iterationNote": "近45天 4 篇原文、4 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。",
     "generatedAt": "2026-10-08",
-    "updatedAt": "2026-10-09",
-    "fingerprint": "f1dc7cafd8e7fb43",
+    "updatedAt": "2026-10-12",
+    "fingerprint": "5357a6c5e7321d3e",
     "method": "规则辅助研究假设"
   }
 ]
