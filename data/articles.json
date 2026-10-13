@@ -1,5 +1,603 @@
 [
   {
+    "title": "FT Live 2026: Future of Retail review: unlocking the next phase of agentic commerce for online stores",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/12/ft-live-2026-future-of-retail-review-unlocking-the-next-phase-of-agentic-commerce-for-online-stores",
+    "date": "2026-10-13",
+    "dateBasis": "原文发布日期",
+    "source": "Retail Technology Innovation Hub",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "“Your product page is your new home page,” when it comes to discovery in the agentic AI era, said Philip Hall, MD, Europe at Rithum, during FT Live 2026: Future of Retail in London last week. The skill of structuring and tailoring online content so that AI large language models (LLMs), such as ChatGPT and Gemini, can find and recommend …",
+    "corePoint": [
+      "“Your product page is your new home page,” when it comes to discovery in the agentic AI era, said Philip Hall, MD, Europe at Rithum, during FT Live 2026: Future of Retail in London last week.",
+      "The skill of structuring and tailoring online content so that AI large language models (LLMs), such as ChatGPT and Gemini, can find and recommend …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-add787224281a5db",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "trust",
+    "tags": [
+      "证据引用",
+      "推荐可信度",
+      "反向指标"
+    ],
+    "category": "证据引用",
+    "contentType": "竞品分析",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 93,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "retailtechinnovationhub.com",
+    "contentKinds": [
+      "竞品分析"
+    ],
+    "summaryZh": [
+      "“你的产品页是你的新主页, ”在代理AI时代的发现时,",
+      "在线内容的构建和裁剪技巧,使得AI大语言模型(LLM),如ChatGPT和双子座,能够找到并推荐."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "cce8dc894455133641ff3ead6e012bbdc8c6e66767b9a615c61ed7db9eb86fae",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "FT Live 2026:未来零售评论:为网络商店解锁代理商的下一阶段",
+    "titleSourceHash": "4fe500e391d1709c3e9d77eb2c4e4ebb90e9893ab38731d4a333475bd200a26e",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "4deb478f94b400ce32934c42341eba6e8e08acc78dc7ff5f2d322fecfe994432",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "“你的产品页是你的新主页，”在代理AI时代的发现时。",
+        "在线内容的构建和裁剪技巧,使得AI大语言模型(LLM),如ChatGPT和双子座,能够找到并推荐。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Paymentology Says AI Agents Must Earn the Right to Move Money",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/paymentology-ai-agents-must-earn-the-right-to-move-money/",
+    "date": "2026-10-13",
+    "dateBasis": "原文发布日期",
+    "source": "PYMNTS",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:17+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Artificial intelligence agents introduce another question. Treasury’s Next Big Challenge Is Connecting the Systems It Already Has Paymentology Says AI Agents Must Earn the Right to Move Money Entrust Says Millions of AI Agents Will Test the Limits of Enterprise Controls Digital Assets: The Changing Talent Picture “The technology is moving faster than the liability frameworks,” Paymentology Chief Technology Officer …",
+    "corePoint": [
+      "Artificial intelligence agents introduce another question.",
+      "Treasury’s Next Big Challenge Is Connecting the Systems It Already Has Paymentology Says AI Agents Must Earn the Right to Move Money Entrust Says Millions of AI Agents Will Test the Limits of Enterprise Controls Digital Assets: The Changing Talent Picture",
+      "“The technology is moving faster than the liability frameworks,” Paymentology Chief Technology Officer …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-6aae5344d31d634f",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 90,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "pymnts.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "人工智能特工介绍另一个问题.",
+      "财政部的下一个大挑战就是连接它已经拥有的系统 AI代理商必须获得移动钱财的权利 AI代理行说数百万AI代理商将测试企业控制数字资产的限制:不断变化的人才图片"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "2b11b58df054bb18382bacf2c166a61117e7728d9b9793f6c6fe88d360e66d1a",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "支付学说,AI代理商必须获得移动钱财的权利",
+    "titleSourceHash": "9ccb2ee4d9e525046da18a70d1b01a0d7c66fd348e089d31fbcfbceb3e46aa89",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "a52c0e6d9f7ead05b47920aaea3354ba467c096879b523af074b3a91f7c95345",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "人工智能特工介绍另一个问题。",
+        "财政部的下一个大挑战就是连接它已经拥有的系统 AI代理商必须获得移动钱财的权利 AI代理行说数百万AI代理商将测试企业控制数字资产的限制:不断变化的人才图片。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "1688全面接入AI电商工作台Accio",
+    "url": "https://www.leiphone.com/category/industrynews/geJK2UpprDrFwEMI.html",
+    "date": "2026-10-13",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "雷峰网",
+    "region": "国内",
+    "sourceKind": "media",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "10月13日，阿里旗下数字供应链平台1688宣布，即日起，平台逾1亿年度活跃买家和超100万源头厂商，均可直接开通全球电商AI工作台Accio。",
+    "corePoint": [
+      "10月13日，阿里旗下数字供应链平台1688宣布，即日起，平台逾1亿年度活跃买家和超100万源头厂商，均可直接开通全球电商AI工作台Accio。"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-a14c97f19ce9a8d3",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 16,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 85,
+    "readingTier": "精选",
+    "signalType": "合作 / 基础设施",
+    "relatedInsightIds": [],
+    "publisher": "leiphone.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "10月13日，阿里旗下数字供应链平台1688宣布，即日起，平台逾1亿年度活跃买家和超100万源头厂商，均可直接开通全球电商AI工作台Accio。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "3ff54af2c822e1deb12dac98a8b43a4d9d037d2377812ebe9821c6f4e3fd803b",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "1688全面接入AI电商工作台Accio",
+    "titleSourceHash": "321b99b857616fc816f030760f9f7a7114b3a8539645b703df901804fdf6de15",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "470767da6a81a69d6fe01aed5457289275a9ceec5a3ca624c6f72fdeffac818c",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "10月13日，阿里旗下数字供应链平台1688宣布，即日起，平台逾1亿年度活跃买家和超100万源头厂商，均可直接开通全球电商AI工作台Accio。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Tech for Retail 2026 preview: retail leaders and technology innovators set to meet in Paris",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/12/tech-for-retail-2026-preview-retail-leaders-and-technology-innovators-set-to-meet-in-paris",
+    "date": "2026-10-13",
+    "dateBasis": "原文发布日期",
+    "source": "Retail Technology Innovation Hub",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Tech for Retail will return to Paris on 30th November and 1st December, bringing together more than 420 exhibitors, 15,000 retail decision-makers and over 200 conferences at Paris Expo Porte de Versailles. With senior retail executives, technology providers and international speakers gathered under one roof, Tech for Retail 2026 will offer a European view of how technology is moving from …",
+    "corePoint": [
+      "Tech for Retail will return to Paris on 30th November and 1st December, bringing together more than 420 exhibitors, 15,000 retail decision-makers and over 200 conferences at Paris Expo Porte de Versailles.",
+      "With senior retail executives, technology providers and international speakers gathered under one roof, Tech for Retail 2026 will offer a European view of how technology is moving from …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-a0bced0e43ca192f",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "trust",
+    "tags": [
+      "证据引用",
+      "推荐可信度",
+      "反向指标"
+    ],
+    "category": "证据引用",
+    "contentType": "竞品分析",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 15,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "retailtechinnovationhub.com",
+    "contentKinds": [
+      "竞品分析"
+    ],
+    "summaryZh": [
+      "零售技术公司将于11月30日和12月1日返回巴黎,聚集了420多个参展商,15,000名零售决策者,以及巴黎博览会Porte de Versailles的200多个会议.",
+      "随着高级零售高管,技术提供者和国际演讲者聚集在一个屋顶下,Tech for Retail 2026将提供一个欧洲观点,说明技术如何从."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "dd75166850d640c5f68059a7f2c35a57303b6a781739659e464df76255042570",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Tech for Retail 2026预览:零售领袖和技术创新者设定在巴黎见面",
+    "titleSourceHash": "19725c60c08736355335dc4916344d0e23a736b3cda29226c5b6a3f26b3ed5a4",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "b821b909d418b5b00a317810cca7e94f9607283df1d115c97c3bf2b27bbf5cc6",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "零售技术公司将于11月30日和12月1日返回巴黎,聚集了420多个参展商,15,000名零售决策者,以及巴黎博览会Porte de Versailles的200多个会议。",
+        "随着高级零售高管,技术提供者和国际演讲者聚集在一个屋顶下,Tech for Retail 2026将提供一个欧洲观点,说明技术如何从。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Newegg adds Google UCP checkout integration",
+    "url": "https://www.digitalcommerce360.com/2026/10/12/newegg-adds-google-ucp-checkout-integration/",
+    "date": "2026-10-13",
+    "dateBasis": "原文发布日期",
+    "source": "Digital Commerce 360",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:17+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Newegg Commerce Inc. expanded its participation in agentic commerce channels, announcing that it has integrated Google’s Universal Commerce Protocol (UCP) for online checkout. By integrating UCP, which Google co-developed with retailers and commerce platforms including Etsy, Shopify, Target, Walmart and Wayfair, Newegg remains the merchant of record while providing Google with product catalog data used in AI-powered shopping experiences.",
+    "corePoint": [
+      "Newegg Commerce Inc. expanded its participation in agentic commerce channels, announcing that it has integrated Google’s Universal Commerce Protocol (UCP) for online checkout.",
+      "By integrating UCP, which Google co-developed with retailers and commerce platforms including Etsy, Shopify, Target, Walmart and Wayfair, Newegg remains the merchant of record while providing Google with product catalog data used in AI-powered shopping experiences."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-f923619a23dcda71",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 15,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "精选",
+    "signalType": "合作 / 基础设施",
+    "relatedInsightIds": [],
+    "publisher": "digitalcommerce360.com",
+    "contentKinds": [
+      "产品案例",
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Newegg Commerce Inc.扩展了对代理商渠道的参与,宣布已经整合了Google的\"世界商务协议\"(UCP)进行在线通关.",
+      "通过整合谷歌与零售商和商业平台(包括Etsy, Shopify, Goal, Walmart and Wayfair)共同开发的UCP,Newegg仍然是记录商,同时为谷歌提供AI动力购物体验中使用的产品目录数据."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "0791ecc45fa3dde9e44a693d3b93fab653f5b20a843b112b237347730ad73ec1",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Newegg 添加 Google UCP 检出集成",
+    "titleSourceHash": "02e88c25caba18aecf2b8cc24e2d699501f3d6b6c8dee485619dbbb0e84b90d7",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "f025d8af6700759c509032d2807cf74dc386d5e37c31e31519ef3778f7ddb6f4",
+      "keywords": [
+        "Newegg",
+        "Google",
+        "商品数据",
+        "交易协议",
+        "AI购物"
+      ],
+      "summary": [
+        "Newegg Commerce Inc.扩展了对代理商渠道的参与,宣布已经整合了Google的\"世界商务协议\"(UCP)进行在线通关。",
+        "通过整合谷歌与零售商和商业平台(包括Etsy，Shopify，Goal，Walmart and Wayfair)共同开发的UCP,Newegg仍然是记录商,同时为谷歌提供AI动力购物体验中使用的产品目录数据。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "天猫双11在即，AI店小蜜推出8大新权益为商家经营护航",
+    "url": "https://m.sohu.com/a/1087112260_104421?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "date": "2026-10-13",
+    "dateBasis": "原文发布日期",
+    "source": "搜狐",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "日前，阿里旗下AI客服产品AI店小蜜推出一组双11限时权益包，8项权益涵盖风险防控、售前转化、售后处理、订单流失洞察等电商运营全 …",
+    "corePoint": [
+      "日前，阿里旗下AI客服产品AI店小蜜推出一组双11限时权益包，8项权益涵盖风险防控、售前转化、售后处理、订单流失洞察等电商运营全 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-bb044d997d152eed",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "m.sohu.com",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "日前，阿里旗下AI客服产品AI店小蜜推出一组双11限时权益包，8项权益涵盖风险防控、售前转化、售后处理、订单流失洞察等电商运营全 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "938201ca62df6c86c95b56906f016a626386addc5659a7c7b7cbe9d2bb0428fa",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "天猫双11在即，AI店小蜜推出8大新权益为商家经营护航",
+    "titleSourceHash": "81755682bd78a9bec96e100384c6bedd2ae071669d8bfdcf89a4190f79196972",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "f48399375149d43c9d77200d26b239eb90ed008ee1b2409b5e52a1e370d7c1b6",
+      "keywords": [
+        "天猫",
+        "履约售后",
+        "AI购物"
+      ],
+      "summary": [
+        "日前，阿里旗下AI客服产品AI店小蜜推出一组双11限时权益包，8项权益涵盖风险防控、售前转化、售后处理、订单流失洞察等电商运营全 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Revolut Converts Payment Network Into AI-Agent Rail Ahead of Protocol Shakeout",
+    "url": "https://www.techtimes.com/articles/328876/20261013/revolut-converts-payment-network-ai-agent-rail-ahead-protocol-shakeout.htm",
+    "date": "2026-10-13",
+    "dateBasis": "原文发布日期",
+    "source": "Tech Times",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:20+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Revolut has made the most significant structural move yet in European fintech's race to own agentic commerce infrastructure, positioning Revolut Pay as the payment layer through which AI agents can autonomously complete purchases on behalf of consumers across the UK and European Economic Area. Since then, Revolut has layered in additional agentic capabilities: AIR (AI by Revolut), its in-app AI …",
+    "corePoint": [
+      "Revolut has made the most significant structural move yet in European fintech's race to own agentic commerce infrastructure, positioning Revolut Pay as the payment layer through which AI agents can autonomously complete purchases on behalf of consumers across the UK and European Economic Area.",
+      "Since then, Revolut has layered in additional agentic capabilities: AIR (AI by Revolut), its in-app AI …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-73f141984d591efb",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "signalType": "合作 / 基础设施",
+    "relatedInsightIds": [],
+    "publisher": "techtimes.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "Revolut是欧洲Fintech竞相拥有代理商业基础设施的最重大结构动作, 将Revolut Pay定位为支付层,",
+      "此后,Revolut又以额外的代理能力层层化:AIR(AI by Revolut),其内应用的AI. ."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "1c6eb2a408e26768b587e5ea6055a144126c3ae3e21d1a20d2a6374064cc3fc9",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Revolutions Transforms 支付网络 Into AI-Agent Rail Ahead of Protocol Shakeout 互联网档案馆的存檔,存档日期2013-12-02",
+    "titleSourceHash": "6876b6925158efe361de1d95849210eb61a4523aa9dfa70221c207134cc5eff3",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "47d769d312680944ed06f3a9bc4add0121bd270176ade1ecee61e7a9e344b059",
+      "keywords": [
+        "交易协议"
+      ],
+      "summary": [
+        "Revolut是欧洲Fintech竞相拥有代理商业基础设施的最重大结构动作，将Revolut Pay定位为支付层。",
+        "此后,Revolut又以额外的代理能力层层化:AIR(AI by Revolut),其内应用的AI.。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "How AI is reshaping holiday shopping in 2026: From discovery to delivery",
+    "url": "https://www.capgemini.com/insights/expert-perspectives/how-ai-is-reshaping-holiday-shopping-in-2026/",
+    "date": "2026-10-12",
+    "dateBasis": "原文发布日期",
+    "source": "Capgemini",
+    "region": "海外",
+    "sourceKind": "research",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:20+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Most retailers follow a familiar holiday playbook. New research reveals that 65% of consumers plan to use AI for at least one part of their holiday shopping in 2026, but only 8% of retailers say they’re ready to deliver. In 2026, with AI playing a meaningful role on both sides of the shopping equation for the first time, they may …",
+    "corePoint": [
+      "Most retailers follow a familiar holiday playbook.",
+      "New research reveals that 65% of consumers plan to use AI for at least one part of their holiday shopping in 2026, but only 8% of retailers say they’re ready to deliver.",
+      "In 2026, with AI playing a meaningful role on both sides of the shopping equation for the first time, they may …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-3e7a6c62fe036525",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "咨询洞察",
+    "quality": {
+      "dimensions": {
+        "source": 23,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 98,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "capgemini.com",
+    "contentKinds": [
+      "咨询洞察",
+      "研究报告"
+    ],
+    "summaryZh": [
+      "大多数零售商都跟随熟悉的节日游玩手册.",
+      "新研究显示,65%的消费者计划在2026年将AI至少用于一部分节假日购物,但只有8%的零售商表示他们已经准备好交付了."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "b425e6236860e3d82f5bcded1a21d22a0eb453ebcee8b799254d24d88292e81b",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "AI如何在2026年重塑假日购物:从发现到交付",
+    "titleSourceHash": "d007aeb692612dcaaa24e591ef387dda2ef1e66c9dc962753dd7b57f866a595d",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "72bf07c83bf5223123a33a1a9dacf6f5010b86f6edaa8f67b69e8cb30a487c99",
+      "keywords": [
+        "履约售后",
+        "用户研究",
+        "AI购物"
+      ],
+      "summary": [
+        "大多数零售商都跟随熟悉的节日游玩手册。",
+        "新研究显示,65%的消费者计划在2026年将AI至少用于一部分节假日购物,但只有8%的零售商表示他们已经准备好交付了。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "title": "The next era of retail tech — with AI at the core",
     "url": "https://www.retaildive.com/spons/the-next-era-of-retail-tech-with-ai-at-the-core/832339/",
     "date": "2026-10-12",
@@ -336,6 +934,81 @@
     }
   },
   {
+    "title": "Shopify (SHOP): Building the Underlying Rails for the Era of Agentic Commerce",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-shop-building-underlying-rails-141052574.html",
+    "date": "2026-10-12",
+    "dateBasis": "原文发布日期",
+    "source": "Yahoo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:21+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Baillie Gifford & Co , an independent investment management firm, released its third-quarter 2026 investor letter for \"US Equity Growth Strategy\". Shopify Inc. (NASDAQ:SHOP) is a Canadian e-commerce technology company that provides a cloud-based platform for individuals and companies to create and manage their operations. In its Q3 2026 investor letter, Baillie Gifford US Equity Growth Strategy highlighted Shopify Inc. …",
+    "corePoint": [
+      "Baillie Gifford & Co , an independent investment management firm, released its third-quarter 2026 investor letter for \"US Equity Growth Strategy\".",
+      "Shopify Inc. (NASDAQ:SHOP) is a Canadian e-commerce technology company that provides a cloud-based platform for individuals and companies to create and manage their operations.",
+      "In its Q3 2026 investor letter, Baillie Gifford US Equity Growth Strategy highlighted Shopify Inc. …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-0ee15d7815fe8a47",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "finance.yahoo.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "独立投资管理公司Baillie Gifford & Co为\"美国股权增长战略\"发布了其2026年第三季度的投资人信件.",
+      "Shopify Inc.(NASDAQ:SHOP)是一家加拿大电子商务技术公司,为个人和公司创建和管理其业务提供基于云的平台."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "d15129ab871606ae779f8fa7e87b1bf248388c60f5b83b985cc12abdcd8ab842",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Shopify(SHOP):为代理商时代建造地下铁路",
+    "titleSourceHash": "f224bc87ce9d34f8f7f90d0e194f5b9b6c21e368f80370801c251d8a5ede890f",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "46e7b70c689973c20757b3c4742e988b9c00e09096c16d750d868a2e37e2e5ac",
+      "keywords": [
+        "Shopify"
+      ],
+      "summary": [
+        "独立投资管理公司Baillie Gifford & Co为\"美国股权增长战略\"发布了其2026年第三季度的投资人信件。",
+        "Shopify Inc.(NASDAQ:SHOP)是一家加拿大电子商务技术公司,为个人和公司创建和管理其业务提供基于云的平台。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "title": "豆包开始“抢活”，支付宝和微信慌不慌？",
     "url": "https://www.yemacaijing.com/Index/view/id/97009.html",
     "date": "2026-10-12",
@@ -652,6 +1325,152 @@
       "summary": [
         "这个星期联邦反托拉斯投诉落到麦当劳的门前，指控连锁店依靠AI驱动的\"定价引擎\"。",
         "BOE的经济学家警告说,个性化定价\"使消费者体验更加分散\",因此家庭可能会看到日益不同的通货膨胀率。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "安踏×火山引擎：下单缩至10分钟、月均建单1000+，Agent跑进全球电商业务",
+    "url": "https://www.leiphone.com/category/industrynews/LYPLgiUOHfVfcFBv.html",
+    "date": "2026-10-12",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "雷峰网",
+    "region": "国内",
+    "sourceKind": "media",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:18+08:00",
+    "sourceCaveats": [],
+    "excerpt": "作为全球前三的体育用品集团，安踏集团多品牌、跨市场经营的背后，是大量商品、内容、订单和售后流程。 通过火山杯 Agent 创新大赛，业 …",
+    "corePoint": [
+      "作为全球前三的体育用品集团，安踏集团多品牌、跨市场经营的背后，是大量商品、内容、订单和售后流程。",
+      "通过火山杯 Agent 创新大赛，业 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-4a4c5b3cf17ee3e3",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 16,
+        "evidence": 30,
+        "relevance": 15,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 72,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "leiphone.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "作为全球前三的体育用品集团，安踏集团多品牌、跨市场经营的背后，是大量商品、内容、订单和售后流程。",
+      "通过火山杯 Agent 创新大赛，业 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "40dd1b14427cb1ca67614f072cde06b4c2acbb3f02c5b6c5ef8589950e7e12a0",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "安踏×火山引擎：下单缩至10分钟、月均建单1000+，Agent跑进全球电商业务",
+    "titleSourceHash": "3523de1cbaca0babaeb1a42dfcd44eb244798aa18e66a9a23800c7ed7897e7c7",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "f5badfc42a2746308e0cf26ebfcd20c5c1709260da84698572d8fabf398f2a3f",
+      "keywords": [
+        "履约售后",
+        "AI购物"
+      ],
+      "summary": [
+        "作为全球前三的体育用品集团，安踏集团多品牌、跨市场经营的背后，是大量商品、内容、订单和售后流程。",
+        "通过火山杯 Agent 创新大赛，业 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "13 best AI tools for ecommerce to build, market, and manage your store",
+    "url": "https://www.hostinger.com/au/tutorials/best-ai-tools-for-ecommerce/",
+    "date": "2026-10-12",
+    "dateBasis": "原文发布日期",
+    "source": "Hostinger",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:20+08:00",
+    "sourceCaveats": [],
+    "excerpt": "The best AI tools for ecommerce include Hostinger AI Builder for creating an AI-powered online store, Shopify Sidekick and Shopify Magic for automating day-to-day Shopify tasks, Nosto for personalizing what shoppers see on your store, Klaviyo for personalized email marketing, Gorgias for customer support, and Triple Whale for understanding which products and marketing channels drive sales.",
+    "corePoint": [
+      "The best AI tools for ecommerce include Hostinger AI Builder for creating an AI-powered online store, Shopify Sidekick and Shopify Magic for automating day-to-day Shopify tasks, Nosto for personalizing what shoppers see on your store, Klaviyo for personalized email marketing, Gorgias for customer support, and Triple Whale for understanding which products and marketing channels drive sales."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-21801b8d3002f68b",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "memory",
+    "tags": [
+      "偏好记忆",
+      "纠错成本",
+      "长期留存"
+    ],
+    "category": "偏好记忆",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 8
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 71,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "hostinger.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "用于电子商务的最佳AI工具包括创建AI动力在线商店的Hostinger AI Builder,用于将日常商店任务自动化的Shopify Sidekick和Shopfy Magic,用于个性化商店购物者的Nosto,用于个人化的电子邮件营销的Klaviyo,用于客户支持的Gorgias,以及用于了解哪些产品和营销渠道驱动销售的Triple Whale。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "012a458e05eece6d989c217d62fc24bc489456bd77646600e0d40c06dbfe812a",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "13个最好的 AI 工具电子商务建造、 营销和管理您的商店",
+    "titleSourceHash": "de17b145fee62b74338463a8114beb307968e7d23235441f61d61969f80d3cae",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "1b9dfcfee013fbc1c0e1e6f7f59c3a7fc3de8acea07b2d0901f8e55f61395ea8",
+      "keywords": [
+        "个性化"
+      ],
+      "summary": [
+        "用于电子商务的最佳AI工具包括创建AI动力在线商店的Hostinger AI Builder,用于将日常商店任务自动化的Shopify Sidekick和Shopfy Magic,用于个性化商店购物者的Nosto,用于个人化的电子邮件营销的Klaviyo,用于客户支持的Gorgias,以及用于了解哪些产品和营销渠道驱动销售的Triple Whale。"
       ],
       "summaryLabel": "核心信息",
       "research": null,
@@ -2875,6 +3694,85 @@
       "summary": [
         "近日，Shopify发布《2026全球假日零售报告》，围绕今年海外假日购物季的消费变化进行了分析。",
         "Shopify调研显示，近期经济形势已经影响到54%消费者的购 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Artificial AI in retail: Enhancing personalization and marketing effectiveness.",
+    "url": "https://www.vietnam.vn/en/agentic-ai-trong-ban-le-nang-cao-ca-nhan-hoa-va-hieu-qua-tiep-thi",
+    "date": "2026-10-08",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "Vietnam.vn",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:22+08:00",
+    "dateCandidates": [
+      "2026-10-08",
+      "2026-10-09"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "The Growth Hacks Series 2026, co-organized by Insider One and Zalo on October 21, 2026, will be a sharing session by DAFC, FPT Retail, Zalo, and Insider One on how they have implemented the Agentic AI model in retail in practice. Agentic AI in retail is a model where AI agents analyze customer data, decide on the next course of …",
+    "corePoint": [
+      "The Growth Hacks Series 2026, co-organized by Insider One and Zalo on October 21, 2026, will be a sharing session by DAFC, FPT Retail, Zalo, and Insider One on how they have implemented the Agentic AI model in retail in practice.",
+      "Agentic AI in retail is a model where AI agents analyze customer data, decide on the next course of …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-4dac54b635137e65",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "memory",
+    "tags": [
+      "偏好记忆",
+      "纠错成本",
+      "长期留存"
+    ],
+    "category": "偏好记忆",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "vietnam.vn",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "由Inser One和Zalo于2026年10月21日共同组织的Growth Hacks系列2026将是DAFC,FPT Retail,Zalo,以及Insher One的分享会,讲述他们在实践中如何在零售中实施Agentic AI模式.",
+      "零售中的代理AI是AI代理分析客户数据,决定下一条路线的模型."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "dca6c85933bf595af7b425c944f8a07019228ab0d3610ebffd1840267da9373a",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "零售中人工智能:增强个性化和营销有效性",
+    "titleSourceHash": "800539301dd8bbf32645609a01e4fa928b0f77f64993da2fb61d98f6cf30f505",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "7cefd32485b1eed819fdd515651b5df4a4373628e360f79b79bc7d77165ce509",
+      "keywords": [
+        "个性化",
+        "AI购物"
+      ],
+      "summary": [
+        "由Inser One和Zalo于2026年10月21日共同组织的Growth Hacks系列2026将是DAFC,FPT Retail,Zalo,以及Insher One的分享会,讲述他们在实践中如何在零售中实施Agentic AI模式。",
+        "零售中的代理AI是AI代理分析客户数据,决定下一条路线的模型。"
       ],
       "summaryLabel": "核心信息",
       "research": null,
@@ -11783,6 +12681,80 @@
     }
   },
   {
+    "title": "大促底层逻辑剧变：AI话语权超广告，重塑双11商家竞争格局|抖音|快手|京东|AI文本生成|电商",
+    "url": "https://news.sina.cn/2026-09-29/detail-initnwnc2817477.d.html?oid=%E8%AF%95%E7%8E%A9%E6%B8%B8%E6%88%8Fapp%E8%B5%9A%E9%92%B1%E5%B9%B3%E5%8F%B01%E5%85%83%E5%8F%AF%E6%8F%90%E7%8E%B0%E3%80%90%E9%97%AE%EF%BC%9ABet0009.NET%E3%80%91.hvyn&vt=4",
+    "date": "2026-09-29",
+    "dateBasis": "原文发布日期",
+    "source": "新浪新闻",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:22+08:00",
+    "sourceCaveats": [],
+    "excerpt": "告别往年单纯的流量补贴、价格竞争，今年各大头部电商平台统一切换赛道，将人工智能确立为大促核心增长引擎。",
+    "corePoint": [
+      "告别往年单纯的流量补贴、价格竞争，今年各大头部电商平台统一切换赛道，将人工智能确立为大促核心增长引擎。"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-e3434032002dd700",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 8
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 71,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "news.sina.cn",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "告别往年单纯的流量补贴、价格竞争，今年各大头部电商平台统一切换赛道，将人工智能确立为大促核心增长引擎。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "2c011ab5a39a391e6ba9b21ff79d2b26c3f2462e1c877c3cae232c645344b5b7",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "大促底层逻辑剧变：AI话语权超广告，重塑双11商家竞争格局|抖音|快手|京东|AI文本生成|电商",
+    "titleSourceHash": "9f783ea628b177e4db35abf6f34cc8413d196ba6f2eddeb6ed0b0ba545a36c3b",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "edb80071935b574b623589f59de9e791d6ccbd0af87b3258f608cf8f941230f6",
+      "keywords": [
+        "抖音",
+        "京东",
+        "广告推荐",
+        "AI购物"
+      ],
+      "summary": [
+        "告别往年单纯的流量补贴、价格竞争，今年各大头部电商平台统一切换赛道，将人工智能确立为大促核心增长引擎。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "title": "AI agents are fighting over your shopping cart: Meta’s Muse blocked by Amazon and Walmart",
     "url": "https://www.nbcnews.com/tech/tech-news/ai-agent-muse-shop-e-commerce-amazon-wal-mart-wayfair-buy-rcna599069",
     "date": "2026-09-29",
@@ -14133,6 +15105,80 @@
     }
   },
   {
+    "title": "Festive shopping set to become more AI-led, last-minute as consumer budgets rise: Report",
+    "url": "https://www.aninews.in/news/business/festive-shopping-set-to-become-more-ai-led-last-minute-as-consumer-budgets-rise-report20260924135632/",
+    "date": "2026-09-24",
+    "dateBasis": "原文发布日期",
+    "source": "ANI News",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:26+08:00",
+    "sourceCaveats": [],
+    "excerpt": "New Delhi [India], September 24 (ANI): India’s festive shopping season is expected to see brands adapt to increasingly AI-led discovery and a shorter purchase window, as consumers show higher spending intent while relying more on digital reviews, search and personalised recommendations, according to a report by InMobi. The report noted that 62 per cent of festive shoppers begin their shopping …",
+    "corePoint": [
+      "New Delhi [India], September 24 (ANI): India’s festive shopping season is expected to see brands adapt to increasingly AI-led discovery and a shorter purchase window, as consumers show higher spending intent while relying more on digital reviews, search and personalised recommendations, according to a report by InMobi.",
+      "The report noted that 62 per cent of festive shoppers begin their shopping …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-ece72b83c9086cc3",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "研究报告",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "研究 / 数据",
+    "relatedInsightIds": [],
+    "publisher": "aninews.in",
+    "contentKinds": [
+      "研究报告"
+    ],
+    "summaryZh": [
+      "新德里[印度],9月24日(ANI):根据InMobi的一份报告,印度的节日购物季节预计将看到品牌适应AI主导的越来越短的发现和较短的购买窗口,因为消费者在更多依赖数字评论、搜索和个性化建议的同时显示出更高的支出意图。",
+      "报告指出,62%的节日购物者开始购物."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "70a5c1dc7b0f999b1b86ca8613bd117a188980a419b9c55e30761acbaaa0fa40",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "随着消费者预算的上升,购物节日将变得更加由AI主导,最后一分钟:报告",
+    "titleSourceHash": "405b4e53fdd5d87af23f2b637dce60f4d91acebc4459e86a02ec080e9df147e1",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "172cab691bc6027118628ff926f883757e5ddddf2b2cc45491fb9d08eb753b3b",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "新德里[印度],9月24日(ANI):根据InMobi的一份报告,印度的节日购物季节预计将看到品牌适应AI主导的越来越短的发现和较短的购买窗口,因为消费者在更多依赖数字评论、搜索和个性化建议的同时显示出更高的支出意图。",
+        "报告指出,62%的节日购物者开始购物。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "title": "Can Global Payments Gain From Growing Consumer Trust in AI Commerce?",
     "url": "https://es.tradingview.com/news/zacks:7750d9213094b:0-can-global-payments-gain-from-growing-consumer-trust-in-ai-commerce/",
     "date": "2026-09-24",
@@ -14735,6 +15781,82 @@
     }
   },
   {
+    "title": "Shopify Integrates Shop Pay With Meta Muse For AI-Powered Checkout",
+    "url": "https://pulse2.com/shopify-integrates-shop-pay-with-meta-muse-for-ai-powered-checkout/",
+    "date": "2026-09-23",
+    "dateBasis": "原文发布日期",
+    "source": "Pulse 2.0",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:26+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Shopify will integrate its Shop Pay system with Meta’s Muse personal AI agent, allowing users to complete purchases from participating merchants without leaving the AI conversation, according to The Wall Street Journal . The partnership gives Muse access to Shopify’s product information and checkout infrastructure. Meta launched Muse as a personal agent capable of completing tasks across external applications, including …",
+    "corePoint": [
+      "Shopify will integrate its Shop Pay system with Meta’s Muse personal AI agent, allowing users to complete purchases from participating merchants without leaving the AI conversation, according to The Wall Street Journal .",
+      "The partnership gives Muse access to Shopify’s product information and checkout infrastructure.",
+      "Meta launched Muse as a personal agent capable of completing tasks across external applications, including …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-9a410b1b05233fce",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "合作 / 基础设施",
+    "relatedInsightIds": [],
+    "publisher": "pulse2.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "根据《华尔街日报》, Shopify将将其Shopp Pay系统与Meta的Muse个人AI代理整合,",
+      "合作伙伴让Muse获得Shoppify的产品信息和离职基础设施。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "308ef33fce551b32614f90b4e6c90a7b726050296114da7c83cfdfbd2caf3115",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Shopify 整合商店付费与 Meta Muse 用于 AI- Powered 退出",
+    "titleSourceHash": "623244c195316b51c8b2694dcfa4d22524698140ef4cd19e2a31e918830fb48c",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "9ef73515ae59e99f3196d20af29bfdedb24f54180d721bc9dadb52942a6134e9",
+      "keywords": [
+        "Shopify",
+        "Meta"
+      ],
+      "summary": [
+        "根据《华尔街日报》，Shopify将将其Shopp Pay系统与Meta的Muse个人AI代理整合。",
+        "合作伙伴让Muse获得Shoppify的产品信息和离职基础设施。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "id": "2026-09-22-ai-finance-sina-com-cn-7a4e163d28",
     "date": "2026-09-22",
     "title": "AI导购“百团大战”开打：电商十年逻辑正在被改写",
@@ -15104,6 +16226,77 @@
       "summary": [
         "一些银行以隐私和数据风险为由,警告使用AI代理进行在线购物的风险。",
         "PARIS - 利用AI代理在线购物可能增加骗局、欺诈和数据漏洞的风险,包括NatWest和美国银行在内的银行在9月22日警告说,它们制定了开发技术的原则。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Cardano joins Solana, XRP Ledger in race to power AI agent payments",
+    "url": "https://www.coindesk.com/tech/2026/09/21/cardano-joins-solana-xrp-ledger-in-race-to-power-ai-agent-payments",
+    "date": "2026-09-22",
+    "dateBasis": "原文发布日期",
+    "source": "CoinDesk",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:28+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Cardano has been added to the official x402 software kit , giving developers the code needed to let an app or AI agent pay for an online service using ADA or tokens issued on the network. x402 turns the web’s largely unused “402 Payment Required” response into a checkout built directly into an internet request.",
+    "corePoint": [
+      "Cardano has been added to the official x402 software kit , giving developers the code needed to let an app or AI agent pay for an online service using ADA or tokens issued on the network. x402 turns the web’s largely unused “402 Payment Required” response into a checkout built directly into an internet request."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-d0c80474f3c45dd2",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "合作 / 基础设施",
+    "relatedInsightIds": [],
+    "publisher": "coindesk.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "卡达诺被添加到官方的x402软件包中, 给开发者一个需要的代码, 让一个应用或AI代理支付使用ADA或网络上发行的符号的在线服务费用。 x402将网络基本未使用的“402 付款要求”回复变成了直接构建成互联网请求的退出。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "9765f6b34558a8cf89ea6e24218c8c4680be7a316959fa64d5257317925840b3",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "卡达诺加盟索拉纳,XRP莱德格竞技获得AI代理支付权",
+    "titleSourceHash": "fb91c3e79dcfa01bc560e8f4c40a34322f04872bd1a028de057f6f256bdab641",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "4c05dfe0456376d2ff198db1931ffda4a439f6f45830be2ff8016968471b650e",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "卡达诺被添加到官方的x402软件包中，给开发者一个需要的代码，让一个应用或AI代理支付使用ADA或网络上发行的符号的在线服务费用。 x402将网络基本未使用的“402 付款要求”回复变成了直接构建成互联网请求的退出。"
       ],
       "summaryLabel": "核心信息",
       "research": null,
@@ -16083,6 +17276,81 @@
     }
   },
   {
+    "title": "Agentic Commerce Isn’t an AI Problem for Banks. It’s an Authorization Problem",
+    "url": "https://thefinancialbrand.com/news/payments-trends/agentic-commerce-isnt-an-ai-problem-for-banks-its-an-authorization-problem-199630",
+    "date": "2026-09-17",
+    "dateBasis": "原文发布日期",
+    "source": "The Financial Brand",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:29+08:00",
+    "sourceCaveats": [],
+    "excerpt": "The debate around agentic commerce has largely centered on whether AI agents are reliable enough to shop, negotiate and make purchases on behalf of consumers. Reliability matters, but that isn’t the question banks should be asking. Key insight: Banks don’t have an AI problem.",
+    "corePoint": [
+      "The debate around agentic commerce has largely centered on whether AI agents are reliable enough to shop, negotiate and make purchases on behalf of consumers.",
+      "Reliability matters, but that isn’t the question banks should be asking.",
+      "Key insight: Banks don’t have an AI problem."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-b98660dad04c525c",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "thefinancialbrand.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "围绕代理商的争论主要集中于AI代理商是否足以可靠地代表消费者购物,谈判和购买.",
+      "但这不是银行应该问的问题。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "6aee85607c47fd3cd6b619f7599630d9a762cb0b64d308c874e718591544399f",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "代理商务不是银行的AI问题。 这是一个授权问题",
+    "titleSourceHash": "0a4b06b030a0dd89286b3793e0d2015f50d02fbb71500b7d94eb602f36b341e7",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "2990e9aa174f41f6c305aca033a1f19d235db9062815e0bf908009dfac80ecf6",
+      "keywords": [
+        "支付授权"
+      ],
+      "summary": [
+        "围绕代理商的争论主要集中于AI代理商是否足以可靠地代表消费者购物,谈判和购买。",
+        "但这不是银行应该问的问题。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "title": "Boost your holiday sales with these agentic commerce updates",
     "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
     "date": "2026-09-16",
@@ -16746,6 +18014,156 @@
     }
   },
   {
+    "title": "Amazon Great Indian Festival 2026: Check Date, iPhone Prices, Rufus AI Offers Leaked, Early Access, Up to 90% Discounts, Bank Offers and More",
+    "url": "https://sundayguardianlive.com/tech-news/amazon-great-indian-festival-2026-check-date-iphone-prices-rufus-ai-offers-leaked-early-access-up-to-90-discounts-bank-offers-and-more-284859/",
+    "date": "2026-09-15",
+    "dateBasis": "原文发布日期",
+    "source": "The Sunday Guardian",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:32+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Amazon Great Indian Festival 2026: Amazon’s Great Indian Festival 2026 is already creating a buzz among shoppers who are hunting for festive season discounts. Originally, Rufus stated that the Great Indian Festival could take place between October 1 and October 23, where the Prime members would be able to access it starting from October 1.",
+    "corePoint": [
+      "Amazon Great Indian Festival 2026: Amazon’s Great Indian Festival 2026 is already creating a buzz among shoppers who are hunting for festive season discounts.",
+      "Originally, Rufus stated that the Great Indian Festival could take place between October 1 and October 23, where the Prime members would be able to access it starting from October 1."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-f4636715d7e1687a",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "研究 / 数据",
+    "relatedInsightIds": [],
+    "publisher": "sundayguardianlive.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Amazon Great Indian Festival 2026:亚马逊的Great India Festistration 2026已经为那些正在寻找节日折扣的购物者制造热潮。",
+      "最初Rufus表示,大印度节可以在10月1日至10月23日期间举行,从10月1日开始,总理成员可以进入."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "c2506d02ae8bd9078294031ae026b8de39b72959d8454b6514fff6edfd61cd82",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Amazon Great India Festival 2026: 请检查date=中的日期值 (帮助) iPhone Prices, Rufus AI Proposed Leaked, 早期访问, 高达90%的折扣, 银行提供及更多",
+    "titleSourceHash": "38f3f21bae828aeb79eddd045271fe762cdda5b6e3c3a251cde6b3298b8d7c41",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "180d9b6e49a4a4a998b9ed66cf96a3cfd2756e50e1d8fead354a5e227a27bccf",
+      "keywords": [
+        "Amazon",
+        "Rufus"
+      ],
+      "summary": [
+        "Amazon Great Indian Festival 2026:亚马逊的Great India Festistration 2026已经为那些正在寻找节日折扣的购物者制造热潮。",
+        "最初Rufus表示,大印度节可以在10月1日至10月23日期间举行,从10月1日开始,总理成员可以进入。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Amazon Great Indian Festival 2026 Sale Dates Revealed by Rufus AI: What to Expect",
+    "url": "https://in.mashable.com/tech/113951/amazon-great-indian-festival-2026-sale-dates-revealed-by-rufus-ai-what-to-expect",
+    "date": "2026-09-15",
+    "dateBasis": "原文发布日期",
+    "source": "Mashable India",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:30+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Amazon’s Great Indian Festival 2026 may kick off as early as September 27 and continue until October 23, according to details reportedly surfaced by Amazon ’s AI assistant Rufus. Happy Flipkart BBD & Amazon Great Indian Festival sales, guys! 🥳 Perfect time to grab that iPhone you’ve been waiting for… …because Apple decided to run its own “Great Indian Price …",
+    "corePoint": [
+      "Amazon’s Great Indian Festival 2026 may kick off as early as September 27 and continue until October 23, according to details reportedly surfaced by Amazon ’s AI assistant Rufus.",
+      "Happy Flipkart BBD & Amazon Great Indian Festival sales, guys! 🥳 Perfect time to grab that iPhone you’ve been waiting for… …because Apple decided to run its own “Great Indian Price …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-49e68528d9e9795e",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "in.mashable.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Amazon的2026年印度盛典可能早在9月27日就开始, 持续到10月23日,",
+      "......因为苹果公司决定经营自己的“印度大价钱”。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "0330a0833d94afd51d464a9e292cf3770004e87702fdaef7f383e15b601762eb",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Amazon Great Indian Festival 2026 销售日期由Rufus AI披露:该期待什么",
+    "titleSourceHash": "fbf1bb24ecbb0187fe961b7628513129ea572b709bcffc3dfceaa121e520dded",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "5fb21e1196728632103899849417732de662d8df0c9b66f5bba2191ab9d793d8",
+      "keywords": [
+        "Amazon",
+        "Rufus"
+      ],
+      "summary": [
+        "Amazon的2026年印度盛典可能早在9月27日就开始，持续到10月23日。",
+        "......因为苹果公司决定经营自己的“印度大价钱”。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "id": "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
     "date": "2026-09-14",
     "title": "Instacart, Shipt launch AI-powered shopping assistants",
@@ -17051,6 +18469,82 @@
       "summary": [
         "尽管最近努力防止AI工具渗入青少年生活中,但年轻人似乎越来越依赖它,即使涉及到通常被认为属于他们的领域。",
         "事实上,三分之一的青少年(31%)表示,他们会相信AI的产品推荐,而不是朋友的推荐,而其中一人是..."
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Amazon Great Indian Festival 2026 sale dates and deals revealed by Amazon's Rufus AI: Here’s what to...",
+    "url": "https://www.moneycontrol.com/technology/amazon-great-indian-festival-2026-sale-dates-and-deals-revealed-by-amazon-s-rufus-ai-here-s-what-to-expect-article-14029361.html",
+    "date": "2026-09-14",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "Moneycontrol.com",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:32+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Amazon’s Great Indian Festival is one of the biggest shopping events of the year in India, and shoppers are already looking ahead to the 2026 edition. In its initial response, Rufus said the Amazon Great Indian Festival (AGIF) Sale 2026 could run from October 1 to October 23, with Prime members potentially getting early access from October 1.",
+    "corePoint": [
+      "Amazon’s Great Indian Festival is one of the biggest shopping events of the year in India, and shoppers are already looking ahead to the 2026 edition.",
+      "In its initial response, Rufus said the Amazon Great Indian Festival (AGIF) Sale 2026 could run from October 1 to October 23, with Prime members potentially getting early access from October 1."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-dfe84e8b2a5c0e2c",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "moneycontrol.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "亚马逊大印度节是印度当年最大的购物活动之一,",
+      "Rufus在最初的回复中表示,亚马逊大印度节(AGIF)2026年销售期可以从10月1日至10月23日,首相成员有可能从10月1日起提前获得访问权."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "5b2c10439b535f00314ffb6c9c43ea451c98c9b3e92ffe15af1e2094a3f8a558",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Amazon Great India Festival 2026 销售日期和交易由Amazon的Rufus AI披露:这是要",
+    "titleSourceHash": "96668e9238a86b92856cc5c978ed8a89091ceefeafa71475aa457abbe8f79f79",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "0f2eeb4e045e91cbdefb4c74ed4bc246c3afe6ed8b212c3b05d270e0a89e4285",
+      "keywords": [
+        "Amazon",
+        "Rufus",
+        "AI购物"
+      ],
+      "summary": [
+        "亚马逊大印度节是印度当年最大的购物活动之一。",
+        "Rufus在最初的回复中表示,亚马逊大印度节(AGIF)2026年销售期可以从10月1日至10月23日,首相成员有可能从10月1日起提前获得访问权。"
       ],
       "summaryLabel": "核心信息",
       "research": null,
@@ -18337,6 +19831,83 @@
     }
   },
   {
+    "title": "Instacart launches custom AI assistants for retailers, and its own",
+    "url": "https://www.modernretail.co/technology/instacart-launches-custom-ai-assistants-for-retailers-and-its-own/",
+    "date": "2026-09-09",
+    "dateBasis": "原文发布日期",
+    "source": "Modern Retail",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:34+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Retail giants like Walmart, Kroger and Amazon have launched AI assistants allowing consumers to ask for recommendations or curated shopping lists. On Wednesday, Instacart announced the launch of Cart Assistant, a white-label assistant that retailers can implement on their own websites and apps. Now, Instacart has made it easier for other retailers, such as regional grocers, to follow in their …",
+    "corePoint": [
+      "Retail giants like Walmart, Kroger and Amazon have launched AI assistants allowing consumers to ask for recommendations or curated shopping lists.",
+      "On Wednesday, Instacart announced the launch of Cart Assistant, a white-label assistant that retailers can implement on their own websites and apps.",
+      "Now, Instacart has made it easier for other retailers, such as regional grocers, to follow in their …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-4f8511045d7222c2",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 90,
+    "readingTier": "精选",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "modernretail.co",
+    "contentKinds": [
+      "产品案例",
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Walmart,Kroger和Amazon等零售巨头推出了AI助手,允许消费者要求推荐或整理购物清单.",
+      "星期三,Instacart宣布推出Cart Assistory,这是一位白色标签助理,零售商可以在自己的网站和app上执行."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "53c65d5ff08e643c2efe7aa25eef35ebeed497e11bda04647d2dd0a434034847",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Instacart 为零售商推出定制AI助手, 以及自己的",
+    "titleSourceHash": "e8256d5a1e9404d832861fcc987361c69edd860377309a82a9711c622fc05484",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "6d6418618a3e2f6cdafd7c494270a62338dc4e62ddd5c852749067ce8e242989",
+      "keywords": [
+        "Instacart",
+        "AI购物"
+      ],
+      "summary": [
+        "Walmart,Kroger和Amazon等零售巨头推出了AI助手,允许消费者要求推荐或整理购物清单。",
+        "星期三,Instacart宣布推出Cart Assistory,这是一位白色标签助理,零售商可以在自己的网站和app上执行。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "title": "Instacart launches an AI grocery shopping assistant called Clementine",
     "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
     "date": "2026-09-09",
@@ -18632,6 +20203,88 @@
     }
   },
   {
+    "title": "Instacart launches Clementine AI shopping assistant",
+    "url": "https://massmarketretailers.com/instacart-launches-clementine-ai-shopping-assistant/",
+    "date": "2026-09-09",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "Mass Market Retailers",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:34+08:00",
+    "dateCandidates": [
+      "2026-09-09",
+      "2026-09-10"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "SAN FRANCISCO — Instacart has launched Clementine, an AI-powered shopping assistant that turns meal ideas, recipes, and grocery lists into personalized, ready-to-buy carts. Clementine is now available to most Instacart customers in the United States and Canada via the company’s marketplace. Instacart said Clementine draws on its grocery data and inventory intelligence, including more than 1.6 billion lifetime orders, a …",
+    "corePoint": [
+      "SAN FRANCISCO — Instacart has launched Clementine, an AI-powered shopping assistant that turns meal ideas, recipes, and grocery lists into personalized, ready-to-buy carts.",
+      "Clementine is now available to most Instacart customers in the United States and Canada via the company’s marketplace.",
+      "Instacart said Clementine draws on its grocery data and inventory intelligence, including more than 1.6 billion lifetime orders, a …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-965fc9477a3e6fa9",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "massmarketretailers.com",
+    "contentKinds": [
+      "产品案例",
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "SAN FRANCISCO - Instacart推出Clementine, 由AI驱动的购物助理, 将餐点、食谱和杂货单变成个性化的、随时可以购买的推车。",
+      "现在,Clementine通过该公司的市场提供给美国和加拿大的大多数Instacart客户。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "47607a51db44f227b0d53d3dcc7a37d2d682e0569edc227d4302ecb5cf54ab20",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Clementine AI 购物助理",
+    "titleSourceHash": "c8911cf83b1ee25fa73b7cea426a34f5341315db5c4d5ff1b06b01fd595c2f94",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "82a05a9f8b0aa08256caef32441094f81ffbea9fdec4a08e5138c8a77c813fc9",
+      "keywords": [
+        "Instacart",
+        "个性化",
+        "AI购物"
+      ],
+      "summary": [
+        "SAN FRANCISCO - Instacart推出Clementine，由AI驱动的购物助理，将餐点、食谱和杂货单变成个性化的、随时可以购买的推车。",
+        "现在,Clementine通过该公司的市场提供给美国和加拿大的大多数Instacart客户。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
     "title": "银行：在AI选择支付工具的时候，你发的信用卡会被选中么？",
     "url": "https://timeline.sohu.com/news/ztbbEzTax7",
     "date": "2026-09-09",
@@ -18696,6 +20349,81 @@
       ],
       "summary": [
         "他讲了一条60年没改的规则，讲了一封改变Affirm命运的睡衣邮件，讲了\"真零利率\"与\"假零利率\"的区别，最后给出了一个很多人没料到 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": null,
+      "researchStatus": "unreviewed"
+    }
+  },
+  {
+    "title": "Shipt 推出 Ask Shipt，一款能够生成购物车的 AI 购物助手",
+    "url": "https://www.unite.ai/zh-cn/shipt-launches-ask-shipt-an-ai-shopping-assistant-that-builds-carts/",
+    "date": "2026-09-09",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "Unite.AI",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-13T18:01:21+08:00",
+    "dateCandidates": [
+      "2026-09-09",
+      "2026-09-10"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "Shipt 在 2026 年 9 月 9 日 宣布推出 Ask Shipt ，这是一款 AI 购物助手，现已在 Shipt 应用和 Shipt.com 上提供，可将文字提示、上传的食谱和照片转换为定制购物车 …",
+    "corePoint": [
+      "Shipt 在 2026 年 9 月 9 日 宣布推出 Ask Shipt ，这是一款 AI 购物助手，现已在 Shipt 应用和 Shipt.com 上提供，可将文字提示、上传的食谱和照片转换为定制购物车 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-b1588aa49dcc3da9",
+    "firstSeenAt": "2026-10-13",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "unite.ai",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "Shipt 在 2026 年 9 月 9 日 宣布推出 Ask Shipt ，这是一款 AI 购物助手，现已在 Shipt 应用和 Shipt.com 上提供，可将文字提示、上传的食谱和照片转换为定制购物车 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "d1f785e19322c4a7503afa332b5232782962f76dfb0118ab0952c66015e9fcf4",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Shipt 推出 Ask Shipt，一款能够生成购物车的 AI 购物助手",
+    "titleSourceHash": "5ba3704a0204850fba5d87bb3e6210a09c04bf5769e119db66fa2559233aac40",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-reviewed-v2",
+      "inputHash": "d32fabddafb85f8d34724614d633a35312f13eebab29f6ff2e45960da1f5ffd3",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "Shipt 在 2026 年 9 月 9 日宣布推出 Ask Shipt ，这是一款 AI 购物助手，现已在 Shipt 应用和 Shipt.com 上提供，可将文字提示、上传的食谱和照片转换为定制购物车 …"
       ],
       "summaryLabel": "核心信息",
       "research": null,

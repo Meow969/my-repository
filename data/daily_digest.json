@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T18:05:39+08:00",
-  "newCount": 21,
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T18:00:57+08:00",
+  "newCount": 23,
   "title": "先读这几条，再形成判断",
   "articleIds": [
-    "radar-47a2914f9b3b5c69",
+    "radar-3e7a6c62fe036525",
+    "radar-add787224281a5db",
     "radar-7edd7e26871e4183",
-    "radar-9425c6ded44c4863",
-    "radar-6f670eb9ffa2eb69",
-    "radar-08cfa49ebf13a829"
+    "radar-a14c97f19ce9a8d3",
+    "radar-47a2914f9b3b5c69"
   ],
   "insightIds": [
     "case-radar-44b1c270d7734a65",
@@ -29,5 +29,5 @@
     "case-radar-ec70d4c7f4056926"
   ],
   "note": "近14天已提取原文的多来源精选；零新增时保留阅读入口，不制造“今日新趋势”。",
-  "analysisMode": "规则辅助研究：证据摘录＋因果机制＋反向解释＋验证实验"
+  "analysisMode": "仅发布逐篇核对并绑定原文版本的产品分析；待审核不生成洞察"
 }
