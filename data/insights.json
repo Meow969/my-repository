@@ -1,42 +1,2142 @@
 [
   {
-    "id": "case-radar-44b1c270d7734a65",
-    "title": "THG 把广告接进答案后，排序约束也必须跟着用户改口",
-    "summary": "这次迭代不是新增广告位，而是让用户在同一个回答里比较付费与自然商品。对导购而言，预算、材质或品牌排除条件一旦在下一轮变化，赞助候选也必须重新过筛；否则广告会保留旧条件，回答却声称“已按你要求调整”。",
-    "counterpoint": "原文称赞助商品点击率超过平均值五倍、转化率超过两倍，但没给出可比对照组。高购买意图人群本来就更易转化，不能把这组数直接解释为广告改善了导购体验。真正的风险是付费候选借用了助手“为我挑选”的可信度。",
-    "experiment": "选有明确预算的对话，把中途降预算、排除品牌作为测试；同时检查广告是否退出、用户是否认出赞助标识，以及自然候选是否被挤掉，再测增量收益。",
-    "keywords": [
-      "广告推荐",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "radar-44b1c270d7734a65"
-    ],
+    "id": "echo-survey-to-behavior",
+    "category": "用户与增长",
+    "question": "AI购物使用意愿、购买前研究与真实授权代付差多少？哪种用户应先服务？",
+    "title": "先服务购前研究用户，购物意愿不等于授权代付",
+    "summary": "优先服务已有AI购前研究习惯的用户，保留本人确认。65%是购物使用计划，58%是越南城市用户研究使用比例，11%是低风险品类决策委托意愿上限，均非代付实绩。",
+    "counterpoint": "三项调查的人群、地域与购物阶段不同，不能相减为转化损失。即使用户愿意委托，Amazon封锁Muse也表明平台准入可能阻断执行，不能全归因于用户不信任。",
+    "experiment": "推演：在支持代购的渠道，对同一批研究用户测试“建议后自购”与“逐单授权代付”，记录授权及成功支付率、失败原因，区分用户不愿委托与平台执行受阻两个假设。",
+    "limits": "摘录没有同一人群的阶段转化、授权记录或支付数据，不能估算真实代付率，也不能断言某年龄或收入群体更适合。",
     "evidence": [
       {
-        "articleId": "radar-44b1c270d7734a65",
-        "title": "First for THG Commerce as it brings Criteo Sponsored Products to AI Shopping Assistant solution",
-        "source": "Retail Technology Innovation Hub",
-        "date": "2026-10-12",
-        "quote": "The integration places sponsored and organic product recommendations side by side within the same conversation.",
-        "quoteZh": "THG 将 Criteo 赞助商品与自然推荐放在同一段对话里；原文还说明广告只有满足相关性门槛时才出现，并明确标识。",
-        "url": "https://retailtechinnovationhub.com/home/2026/10/11/first-for-thg-commerce-as-it-brings-criteo-sponsored-products-to-ai-shopping-assistant-solution"
+        "articleId": "radar-6ce657ebd314d618",
+        "title": "65% 的消费者表示将用 AI 辅助假日购物",
+        "date": "2026-08-26",
+        "source": "CPA Practice Advisor",
+        "url": "https://www.cpapracticeadvisor.com/2026/08/26/65-of-consumers-say-they-will-use-ai-for-holiday-shopping/189016/",
+        "quote": "The report finds that 65% of consumers plan to use AI for at least one part of their holiday shopping this year, yet only 8% of retailers describe themselves as …",
+        "role": "支持将节日购物使用计划与代付行为分开",
+        "sourceHash": "a09bdc2534396b70dc5f33b8f7e4ab6fd7b67e193a0689850cbab5c66a76b2af"
+      },
+      {
+        "articleId": "radar-2f2d584c9b2fa417",
+        "title": "基因人工智能成为58%越南城市消费者的购物顾问",
+        "date": "2026-10-09",
+        "source": "Theinvestor",
+        "url": "https://theinvestor.vn/generative-ai-becomes-shopping-adviser-for-58-of-urban-vietnamese-consumers-d20187.html",
+        "quote": "Generative artificial intelligence is rapidly becoming part of the shopping journey in Vietnam, with 58% of urban users turning to tools such as ChatGPT and Gemini to research products and services before buying, according to a survey by market research firm Q&Me.",
+        "role": "支持优先服务已有购前研究习惯的用户",
+        "sourceHash": "adbf6ffce80b7452baa29e1e6102fd5de7d1ba2f7047f9be42f3bbf2611bf1ee"
+      },
+      {
+        "articleId": "radar-193edc91ed3e673d",
+        "title": "Gartner 研究：消费者希望 AI 协助购物，但不愿交出购买决策",
+        "date": "2026-05-27",
+        "source": "Chain Drug Review",
+        "url": "https://chaindrugreview.com/gartner-study-reveals-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions/",
+        "quote": "STAMFORD, Conn. — As brands race to invest in agentic commerce, consumer willingness to let AI make purchase decisions topped out at 11% across lower-stakes categories, such as personal care and household supplies, according to Gartner, Inc., a business and technology insights company.",
+        "role": "支持决策委托意愿有限且不等于实际代付",
+        "sourceHash": "4f0dd1b2a36d7b05c1709a997202f092a71c497d084b7b5ba2353fe21608437d"
+      },
+      {
+        "articleId": "radar-a64a4654487cfdb3",
+        "title": "Amazon 禁止 Meta 的 Muse AI 智能体在其网站购物",
+        "date": "2026-10-09",
+        "source": "PPC Land",
+        "url": "https://ppc.land/amazon-blocks-metas-muse-ai-agent-from-shopping-on-its-site/",
+        "quote": "Amazon said on September 20, 2026 that it has cut Meta's new Muse personal agent off from buying on Amazon.com for customers, after an unsuccessful request that Meta leave the store out of the product, according to GeekWire.",
+        "role": "挑战将代购受阻完全归因于用户意愿",
+        "sourceHash": "ea62d7287d490ec593c2e9ba6c5359fd6b6e5a0a8c1e9862afef6cf1f63c884d"
       }
     ],
-    "sourceCount": 1,
+    "keywords": [
+      "购前研究",
+      "决策委托",
+      "逐单授权",
+      "实际支付率",
+      "平台准入"
+    ],
+    "relatedArticleIds": [
+      "radar-6ce657ebd314d618",
+      "radar-2f2d584c9b2fa417",
+      "radar-193edc91ed3e673d",
+      "radar-a64a4654487cfdb3"
+    ],
+    "sourceCount": 4,
+    "fingerprint": "897e8cbf5f5ca112090b84f560f590b3240bb4c13999bed8e9a31cf30491cf70",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "38bdbc7b3279082891900444d4f1767f7f3770aa4eb35f566ddc88441a77291a",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
     "takeaways": []
   },
   {
-    "id": "case-radar-08cfa49ebf13a829",
-    "title": "AI 小唯的关键变化是“对比入口搬家”，不只是新增助手",
-    "summary": "原来用户在看单品时就被展示对比，现在至少一条路径要求主动进入助手并选择商品。这可能减少无意图弹出，却也增加一次跳转。产品决策应比较“详情页轻量对比”与“助手承接复杂对比”，而不是把入口迁入聊天一概看成升级。",
-    "counterpoint": "这两个入口承担不同任务：前者帮尚未建立候选集的人认识差异，后者服务已有两三件候选的人。若只看使用对比后的转化率，新入口更强的自选择就会制造“效果变好”的假象。",
-    "experiment": "沿用相同商品类目，按原本有无多个候选分组，记录从详情页到完成对比的流失、主动换品率和最后购买；保留详情页把当前商品带入对比的捷径做对照。",
+    "id": "echo-conversion-selection",
+    "category": "用户与增长",
+    "question": "AI助手用户高转化/高客单，是产品增量还是高意向用户自选择？怎样做能区分？",
+    "title": "AI助手高转化高客单尚非增量证据，先排除用户自选择",
+    "summary": "现有摘录无法区分产品增量与高意向用户自选择。应优先检验随机开放助手后的整体收益，而非使用者表现；高客单或高转化只能作为待验证信号。",
+    "counterpoint": "沃尔玛比较使用者与非使用者客单，Myprotein则比较助手转化与全站均值，基线并不一致；旅行零售中发现影响未转成机场销售，也提示导购影响不等于成交。",
+    "experiment": "建议按实验前购买意向分层，随机开放助手，按分组而非实际使用统计转化率、每访客收入及客单价，区分“助手创造增量”与“高意向者自选择”；实验需有足够检验力。",
+    "limits": "摘录未披露随机分组、样本量及显著性，不能把组间差距当作因果提升，也不能据此判定助手无效或比较品牌效果。",
+    "evidence": [
+      {
+        "articleId": "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
+        "title": "Walmart 将客单价与销量增长归功于 Sparky AI 智能体",
+        "date": "2026-05-22",
+        "source": "Digital Commerce 360",
+        "url": "https://www.digitalcommerce360.com/2026/05/22/walmart-sparky-agent-ai-sales-supply-chain/",
+        "quote": "Furner also said Walmart customers using the Sparky AI agent have an average order value (AOV) that’s about 35% higher than that of non-users.",
+        "role": "使用者客单高约35%，但未排除用户自选择",
+        "sourceHash": "238f985e9f55733b2862efee0b6c9a1facdb08f82334e2c992a10fc15828b4f8"
+      },
+      {
+        "articleId": "radar-7df3de83eff682da",
+        "title": "Myprotein 试点 AI 购物助手",
+        "date": "2026-06-29",
+        "source": "Consumer Goods Technology",
+        "url": "https://consumergoods.com/myprotein-pilots-ai-shopping-assistant",
+        "quote": "The shopping assistant has driven an 8x higher conversion rate (CRV) compared to Myprotein's site average, and an average order value increase of 20.8% (AOV), according to data from THG.",
+        "role": "八倍转化以全站为基线，不能直接识别增量",
+        "sourceHash": "38f19ba058882a6f619c76757ed1ceeaa5962f144103404fc3c1c3aae043e6bc"
+      },
+      {
+        "articleId": "radar-77fff594ac52c000",
+        "title": "Kearney 研究：AI 改变旅游零售的商品发现，但转化缺口仍在",
+        "date": "2026-10-01",
+        "source": "Moodie Davitt Report",
+        "url": "https://moodiedavittreport.com/kearney-research-ai-shapes-travel-retail-discovery-but-conversion-gap-persists/",
+        "quote": "Artificial intelligence and social media are playing an increasingly important role in travel shopping discovery but that influence is not yet translating into airport sales, according to new Kearney research commissioned by Tax Free World Association (TFWA).",
+        "role": "发现影响未转为机场销售，挑战影响即成交",
+        "sourceHash": "de70cd3f17c2f21d4c823d2c09656f8b5cc05a53387a8cd89e8fcd3710f9bccc"
+      }
+    ],
+    "keywords": [
+      "用户自选择",
+      "随机开放实验",
+      "购买意向分层",
+      "每访客收入",
+      "客单价"
+    ],
+    "relatedArticleIds": [
+      "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
+      "radar-7df3de83eff682da",
+      "radar-77fff594ac52c000"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "d4f20deac5fd76676177b8086300d711684f3a8bb848094ecce02fd3c86db8fb",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-attribute-before-model",
+    "category": "商品与数据",
+    "question": "商品属性缺失时加强语言模型能否补救？资料丰富与生成事实的边界是什么？",
+    "title": "商品属性缺失先补可溯源资料，模型增强不能替代事实",
+    "summary": "优先补齐有来源的属性，再验证模型理解能力。模型增强或能改善已有信息的表达与匹配，但不能据此认定它能补出缺失事实；资料丰富须区分可核验补录与推断。",
+    "counterpoint": "目录丰富与需求可答并非同义：尺寸等事实未必足以判断居住舒适度。补充场景描述可能提高匹配，也可能把主观推断包装成商品承诺。",
+    "experiment": "推演方案：交叉测试原始／补齐目录与原模型／强模型，比较可核验回答率及无依据断言，区分理解不足与源数据缺失；补录绑定来源，推断单列。",
+    "limits": "摘录主要是企业主张与分析观点，没有模型对照或补录准确率，不能量化两种投入的收益，也不能证明自动丰富可靠。",
+    "evidence": [
+      {
+        "articleId": "radar-34fc3c247aaaf766",
+        "title": "Algolia 收购 Velou，加强 AI 购物所需的商品理解能力",
+        "date": "2026-10-07",
+        "source": "Unite.AI",
+        "url": "https://www.unite.ai/algolia-acquires-velou-ai-shopping-product-intelligence/",
+        "quote": "A retailer can have the right product in stock and still lose the sale because its catalog does not describe what the shopper wants.",
+        "role": "支持先排查商品描述能否覆盖购物需求",
+        "sourceHash": "4ed6af1e7e7b033fd23c2e137c25ecd0021c9144835edf19bee2273dd9bc9bde"
+      },
+      {
+        "articleId": "radar-7d6e904671a221e3",
+        "title": "Commerce 推出商品目录优化工具，提高 AI 商品发现能力",
+        "date": "2026-10-01",
+        "source": "Digital Commerce 360",
+        "url": "https://www.digitalcommerce360.com/2026/09/30/commerce-product-catalogs-ai-discovery-enrichment-tools/",
+        "quote": "“AI agents can only answer questions about your products as well as your data allows,” said Sharon Gee, …",
+        "role": "支持商品问答能力受源数据条件约束",
+        "sourceHash": "33c6e3c0ae16e84c2cba03bbffb8ff4b83278ba711cadfdde948a15291b7fda1"
+      },
+      {
+        "articleId": "radar-5e3f4bfe58b9acdf",
+        "title": "智能体电商揭示商品数据中缺失的维度",
+        "date": "2026-10-06",
+        "source": "Forrester",
+        "url": "https://www.forrester.com/blogs/agentic-commerce-exposes-the-missing-dimension-in-product-data/",
+        "quote": "But beyond dimensions and facts, homebuyers want to know, “Can my kids safely walk to school from here?” or “Can I work from home comfortably in this space?”",
+        "role": "挑战补齐尺寸等事实即可回答场景需求",
+        "sourceHash": "67c7268b80f1d0a407f8d19fbbe38bd3640c6d136a89ef47eecb373d489be356"
+      }
+    ],
+    "keywords": [
+      "属性缺失",
+      "目录丰富",
+      "来源追溯",
+      "场景推断",
+      "模型对照"
+    ],
+    "relatedArticleIds": [
+      "radar-34fc3c247aaaf766",
+      "radar-7d6e904671a221e3",
+      "radar-5e3f4bfe58b9acdf"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "c7db84de9b200e2c4fb7ed8aefdfdf5d3a44a904364665e63418b940474c163d",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-visual-trust",
+    "category": "入口与交互",
+    "question": "虚拟试穿的视觉说服力与尺码可靠性应怎样分开？怎样避免用户把生成图理解成合身保障？",
+    "title": "虚拟试穿应展示外观，尺码承诺须另有可核验依据",
+    "summary": "应先把外观预览与尺码判断拆开：生成图只回答“可能呈现什么样子”，不承担合身承诺。建议尺码区单列依据与适用条件；缺少验证时明确标注无法判断合身。",
+    "counterpoint": "ChatGPT材料描述照片生成预览，Google报道强调转化与发现；True Fit则另设合身智能层。视觉说服与合身判断的依据不同，但分设能力层也不等于尺码已经可靠。",
+    "experiment": "建议对照测试普通预览与“生成外观、不保证合身”加独立尺码依据区；同时测购买意愿和合身判断，区分视觉吸引与误认尺码保障两种解释。",
+    "limits": "摘录没有尺码准确率、实穿对照或用户误读数据，不能断言试穿图改善合身率，也不能确认提示语能消除误解。",
+    "evidence": [
+      {
+        "articleId": "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+        "title": "OpenAI 为 ChatGPT 增加虚拟试穿功能",
+        "date": "2026-10-02",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-adds-virtual-try-on-feature-chatgpt/",
+        "quote": "Your reference photo is saved for future try-ons.” ChatGPT users can also upload a picture of clothing or accessories in a conversation and ask the AI assistant to generate a virtual try-on image , according to OpenAI’s updated article about shopping with ChatGPT.",
+        "role": "支持将照片生成试穿定位为外观预览",
+        "sourceHash": "607e396649de0126887fc95311bfeb371f1eb7438f27be6008f9597aeb7d2ec3"
+      },
+      {
+        "articleId": "radar-6c1fe9a24066c316",
+        "title": "Google AI 试穿现已支持自拍照",
+        "date": "2025-12-20",
+        "source": "ContentGrip",
+        "url": "https://www.contentgrip.com/google-ai-tryon-selfie-update/",
+        "quote": "With this launch, Google is doubling down on AI to improve ecommerce conversion and discovery.",
+        "role": "支持区分转化导向与尺码可靠性目标",
+        "sourceHash": "f86df38209e6bbd98a44cf026534882ab49ccb5bf380799b859977449ee4c684"
+      },
+      {
+        "articleId": "radar-464b3c6e6201816d",
+        "title": "True Fit 为智能体电商引入尺码适配智能层",
+        "date": "2026-08-18",
+        "source": "WWD",
+        "url": "https://wwd.com/business-news/business-features/true-fit-fit-intelligence-layer-ai-sizing-commerce-1239125155/",
+        "quote": "While many companies are racing to introduce AI agents into the shopping journey, True Fit is bringing the fit intelligence layer that those agents can depend on.",
+        "role": "支持另设合身判断能力，但未验证准确率",
+        "sourceHash": "5918f8b0251b155dca537d0a680a545679585ed2157c4659e07e5815b1ed4361"
+      }
+    ],
+    "keywords": [
+      "生成式试穿",
+      "尺码依据",
+      "合身误认",
+      "对照测试"
+    ],
+    "relatedArticleIds": [
+      "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+      "radar-6c1fe9a24066c316",
+      "radar-464b3c6e6201816d"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "5b3cf1afe3578d2400acbba07e0e71340f222589ae684e26635a40a85f607706",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-ads-inside-answer",
+    "category": "商业与平台",
+    "question": "赞助商品与自然推荐出现在同一句AI回答时，排序、用户信任与收入有什么冲突？",
+    "title": "赞助与自然推荐同句混排，应先守相关性再争广告收入",
+    "summary": "应优先按需求匹配排序，再让合格赞助商品进入回答并明确标注。广告接入提供变现入口，但若付费改变推荐依据，用户可能把商业排序误认成中立判断。",
+    "counterpoint": "广告工具化与对话内接入，让推荐环节成为变现入口；但决策层转移也可能让零售商保住成交却流失广告收益。冲突不仅是收入与信任取舍，还涉及推荐权和收益归属。",
+    "experiment": "推演方案：固定排序改赞助标识、固定标识改付费权重，测试广告辨识率、推荐信任评分与每会话收入，区分“未识别赞助”和“排序偏离需求”两种信任损耗假设。",
+    "limits": "摘录未展示同句混排、具体排序规则或用户实验，不能断言信任已经下降，也不能推算广告接入的收入增幅。",
+    "evidence": [
+      {
+        "articleId": "radar-44b1c270d7734a65",
+        "title": "THG 商务的首选,因为它将 Criteo 赞助产品带到 AI 购物助理解决方案中",
+        "date": "2026-10-12",
+        "source": "Retail Technology Innovation Hub",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/11/first-for-thg-commerce-as-it-brings-criteo-sponsored-products-to-ai-shopping-assistant-solution",
+        "quote": "THG Commerce, part of THG Ingenuity, has integrated Criteo Sponsored Products into its AI Shopping Assistant, built using Google Cloud’s Gemini Enterprise.",
+        "role": "证实赞助商品已接入购物助手，但未披露排序",
+        "sourceHash": "54263b09d564c875dbe89d9d2b85f82fa816c9e9506101edf6870f0b9ccaf651"
+      },
+      {
+        "articleId": "radar-509ede7122377653",
+        "title": "零售媒体遇上智能体电商：MCP 原生广告",
+        "date": "2026-04-30",
+        "source": "Mirakl",
+        "url": "https://www.mirakl.com/blogs/retail-media/retail-media-agentic-commerce-mcp-native-ad-serving-mirakl-ads/",
+        "quote": "We are thrilled to announce that Mirakl Ads’ ad server is now available as a native Model Context Protocol (MCP) tool.",
+        "role": "支持广告供给工具化，不证明推荐质量改善",
+        "sourceHash": "2a8f29e003ff5382bdda3cfb68d641488ee6e61d6d5dd5dfccadf2b602579b41"
+      },
+      {
+        "articleId": "radar-f5f6f70c2130b11b",
+        "title": "AI 可能先冲击 Amazon 的广告飞轮，再影响电商业务",
+        "date": "2026-10-01",
+        "source": "TradingView",
+        "url": "https://www.tradingview.com/news/benzinga:dc24f9b7a094b:0-ai-could-threaten-amazon-s-advertising-flywheel-before-e-commerce/",
+        "quote": "If AI agents capture that decision-making layer, Amazon could find itself defending an advertising business that has become too important to lose — even when the packages keep arriving at the door.",
+        "role": "提示决策层转移可能使成交与广告收益分离",
+        "sourceHash": "94db746c19bd89a65c55838e68ef1cb79a3c27795ff4f17c7945c92484229ee4"
+      }
+    ],
+    "keywords": [
+      "赞助标识",
+      "付费排序权重",
+      "需求相关性",
+      "推荐信任",
+      "广告收益归属"
+    ],
+    "relatedArticleIds": [
+      "radar-44b1c270d7734a65",
+      "radar-509ede7122377653",
+      "radar-f5f6f70c2130b11b"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "82c4adf4b9fa2c862fbf6c8551c57204090f682e387c35585dc445567d5ab2d5",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-real-time-truth",
+    "category": "商品与数据",
+    "question": "从推荐到支付之间价格库存变化时，导购应该在哪一步刷新承诺？",
+    "title": "导购应在支付确认前重验价格库存，推荐仅作条件承诺",
+    "summary": "据材料推演，推荐阶段应标明价格库存待确认，生成购物车时刷新，支付确认前再核验。若发生变化，应先展示差异并取得用户确认，而非沿用推荐时的承诺扣款。",
+    "counterpoint": "目录库存接入与生成可购买购物车，分别解决数据可达和选择落地，却不等于锁价锁货。材料另提出履约能否承接需求的疑问；频繁刷新也可能打断已经形成的购买决定。",
+    "experiment": "建议对比仅推荐时刷新与支付确认前追加核验，记录价差、缺货、确认后取消及放弃率，区分“末端核验减少承诺失配”和“额外确认主要增加交易阻力”两个假设。",
+    "limits": "摘录未提供价格更新频率、锁库存机制或支付校验结果，不能证明某刷新节点最优，也不能把库存接入视为履约保证。",
+    "evidence": [
+      {
+        "articleId": "radar-0ad591f45a3ab51c",
+        "title": "BigCommerce 扩大与 PayPal 的合作，押注智能体电商",
+        "date": "2026-04-29",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/retail/2026/bigcommerce-bets-on-agentic-commerce-with-expanded-paypal-pact/",
+        "quote": "The new integration, announced Wednesday (April 29), is designed to let BigCommerce merchants connect their product catalogs, inventory and order management to “AI surfaces.”",
+        "role": "支持数据接入可行，但未证明交易时点一致",
+        "sourceHash": "dbe818307c77f5efa6556ebeb05aabbd1de307fd2ee8577a2d8a1dddf729cbdc"
+      },
+      {
+        "articleId": "radar-965fc9477a3e6fa9",
+        "title": "Clementine AI 购物助理",
+        "date": "2026-09-09",
+        "source": "Mass Market Retailers",
+        "url": "https://massmarketretailers.com/instacart-launches-clementine-ai-shopping-assistant/",
+        "quote": "SAN FRANCISCO — Instacart has launched Clementine, an AI-powered shopping assistant that turns meal ideas, recipes, and grocery lists into personalized, ready-to-buy carts.",
+        "role": "支持购物车是推荐转向交易的可见节点",
+        "sourceHash": "eccc5a232c368df76508c3f25a70cc4e9dfa4b049057b6ec3cb230497f4a073e"
+      },
+      {
+        "articleId": "radar-7d7dedacdf2d2673",
+        "title": "假日购物者转向 AI，零售商能接住需求吗？",
+        "date": "2026-10-01",
+        "source": "Halston Media Group",
+        "url": "https://news.halstonmedia.com/hudson-valley-living/premium/stacker/stories/holiday-shoppers-are-turning-to-ai-can-retailers-deliver,97681",
+        "quote": "If shoppers arrive through new routes, with decisions already partly settled, can inventory and fulfillment operations respond to the demand that follows?",
+        "role": "提出决策已形成后库存履约承接的疑问",
+        "sourceHash": "4f96d4868b0db53a3abe7c5b8d1c350b0685883f8f0af23324a5b6b7247b41ba"
+      }
+    ],
+    "keywords": [
+      "支付前核验",
+      "价格库存",
+      "条件承诺",
+      "差异确认"
+    ],
+    "relatedArticleIds": [
+      "radar-0ad591f45a3ab51c",
+      "radar-965fc9477a3e6fa9",
+      "radar-7d7dedacdf2d2673"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "8da7a62abd443b48e87448cb10b3877945c8733d7701923628a22423d345646e",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-price-personalization",
+    "category": "商业与平台",
+    "question": "个性化推荐和个性化定价该如何划界？用户愿意披露偏好但不愿为偏好被加价怎么办？",
+    "title": "偏好只用于选品匹配，不应成为同品加价的依据",
+    "summary": "建议优先划清数据用途：偏好可用于选品与排序，不得用于抬高同等交易条件下的到手价。披露偏好不等于同意按支付意愿定价，推荐授权应与定价用途隔离。",
+    "counterpoint": "兴趣匹配提供发现价值，但推荐也可能让用户错过低价商家；沃尔玛不使用个人信息定价的声明，不等于对推荐结果最划算的保证。商品匹配与价格利益未必一致。",
+    "experiment": "推演方案：固定商品、商家、时点与交易条件，切换偏好档案核验到手价，并展示跨商家报价与优惠；区分“确有偏好加价”和“缺少可核验信息而不信任”两种假设。",
+    "limits": "摘录不能证明企业实际遵守声明，也不能确认用户披露意愿、推荐导致的价格损失或个性化加价的普遍性。",
+    "evidence": [
+      {
+        "articleId": "daily-2026-02-11-7fae5bd7de6a54",
+        "title": "如何用 Alexa for Shopping 比商品、查历史价格并按目标价自动购买",
+        "date": "2026-02-11",
+        "source": "Amazon",
+        "url": "https://www.aboutamazon.com/news/retail/how-to-use-amazon-shopping-ai-assistant",
+        "quote": "AI feature works on your behalf to constantly watch out for new products in Amazon’s store that match your interests.",
+        "role": "支持将兴趣数据用于商品发现而非定价的用途区分",
+        "sourceHash": "14d87ffdf1c59cc190eb5193dc16612dcb314dbc773ddde37f4f733a5bc8e9d1"
+      },
+      {
+        "articleId": "radar-6e287214ffc8663a",
+        "title": "Walmart 表示，其平台与 AI 购物助手不会利用个人信息定价",
+        "date": "2026-09-28",
+        "source": "Fortune",
+        "url": "https://fortune.com/2026/09/27/walmart-ceo-ai-shopping-assistant-personal-information-prices-digital-labels/",
+        "quote": "In a statement posted on the company’s website, Walmart Inc.’s CEO John Furner vowed that the Bentonville, Arkansas-based retailer isn’t using personal information like income, shopping history or a customer’s willingness to pay to set prices, and it …",
+        "role": "提供不以个人信息及支付意愿定价的企业声明",
+        "sourceHash": "44e0c0f00f8e23c9d9ce22debe07331528242dbd428e8ab233ae8e4f255690b1"
+      },
+      {
+        "articleId": "radar-3cd4eb6c43229d9f",
+        "title": "PayPal Honey 将接入 ChatGPT 等 AI，提供购物辅助",
+        "date": "2025-09-30",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2025/09/30/paypals-honey-to-integrate-with-chatgpt-and-other-ais-for-shopping-assistance/",
+        "quote": "When users ask their preferred AI chatbot a shopping-related question, PayPal Honey’s extension will display links to the products the AI chatbot recommends, along with real-time pricing, merchant options, and offers, PayPal says.",
+        "role": "为推荐旁展示商家报价与优惠的核验设计提供参照",
+        "sourceHash": "64664e3b50c7d70cb308f41bdff7c0f4ef5c2b2bed1eaab07e8fcc429e96832f"
+      }
+    ],
+    "keywords": [
+      "偏好授权",
+      "支付意愿",
+      "同条件到手价",
+      "跨商家比价"
+    ],
+    "relatedArticleIds": [
+      "daily-2026-02-11-7fae5bd7de6a54",
+      "radar-6e287214ffc8663a",
+      "radar-3cd4eb6c43229d9f"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "bcabc6323930edcbdeab38be662feb0437565af4bfdc804b2660abed8c4918df",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-authorization-scope",
+    "category": "交易与信任",
+    "question": "聊天里的购买意愿、用户确认与可执行付款权限，分别属于什么状态？",
+    "title": "聊天购买意愿、用户确认与付款权限须分层判定",
+    "summary": "购买意愿是偏好或行动意图；用户确认是对特定事项的同意，不能默认等于付款授权；可执行付款权限则须有可核验的授权依据，且本次操作未越过授权边界。",
+    "counterpoint": "企业方案强调意图到执行的检查点，EMVCo拟议服务则覆盖交易前后的授权意图管理。差别不只是多一次确认，还涉及授权依据如何被支付参与方读取和追溯。",
+    "experiment": "推演方案：分别标记“有意愿、已确认、获付款授权”。固定聊天确认内容，改变授权范围，检验“确认即可放行”与“有效授权才放行”两个假设，并记录拦截原因。",
+    "limits": "摘录未给出统一状态规范，也不能判定某句确认是否构成有效授权；获付款授权更不代表交易已经成功。",
+    "evidence": [
+      {
+        "articleId": "radar-a7d361858fd5ee9f",
+        "title": "Authvia 第六项专利聚焦 AI 意图与支付授权之间的缺口",
+        "date": "2026-10-09",
+        "source": "Startup Fortune",
+        "url": "https://startupfortune.com/authvias-sixth-patent-targets-the-gap-between-ai-intent-and-authorized-payment/",
+        "quote": "\"AI can create intent, make recommendations and initiate action, but intent is not authorization.\"",
+        "role": "支持购买意图不能直接等同付款授权",
+        "sourceHash": "bed82f427c407580ac76ff157f96f4a4502968331b83989051f43a50be659447"
+      },
+      {
+        "articleId": "radar-a7d361858fd5ee9f",
+        "title": "Authvia 第六项专利聚焦 AI 意图与支付授权之间的缺口",
+        "date": "2026-10-09",
+        "source": "Startup Fortune",
+        "url": "https://startupfortune.com/authvias-sixth-patent-targets-the-gap-between-ai-intent-and-authorized-payment/",
+        "quote": "Authvia describes its role as the checkpoint between intent and execution, bringing together identity, conversational context, tokenized payment credentials, authorization, policy controls, payment orchestration and auditable transaction records.",
+        "role": "支持执行检查点需结合身份、凭证与授权",
+        "sourceHash": "bed82f427c407580ac76ff157f96f4a4502968331b83989051f43a50be659447"
+      },
+      {
+        "articleId": "radar-35df9c2d9e29ac37",
+        "title": "智能体电商真正的难题不是自主性，而是授权",
+        "date": "2026-07-31",
+        "source": "TechRadar",
+        "url": "https://www.techradar.com/pro/the-real-fight-in-agentic-commerce-isnt-autonomy-its-authorization",
+        "quote": "What has been missing is the infrastructure that allows businesses and consumers to trust those transactions: confirming an agent had permission to act, ensuring it stayed within agreed boundaries, and …",
+        "role": "支持代理须有行动许可且遵守约定边界",
+        "sourceHash": "143d4fcb3e70e8b2712d2525e774504471af509efeecabd7c6f8278638c9177a"
+      },
+      {
+        "articleId": "radar-0832a178b9440a6f",
+        "title": "EMVCo 着手解决 AI 支付的授权证明问题",
+        "date": "2026-10-03",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/emvco-framework-targets-consumer-intent-agentic-payments/",
+        "quote": "EMVCo’s proposed Intent Services would let payment participants register, reference, retrieve and manage consumer-authorized intent before, during and after a transaction.",
+        "role": "支持授权意图仍需跨交易阶段管理",
+        "sourceHash": "9095d62664203a40dbdf78f6bfebc187824e5c212df9fad82d66ab7af9af79fa"
+      }
+    ],
+    "keywords": [
+      "购买意愿",
+      "用户确认",
+      "付款授权",
+      "授权边界",
+      "授权意图"
+    ],
+    "relatedArticleIds": [
+      "radar-a7d361858fd5ee9f",
+      "radar-a7d361858fd5ee9f",
+      "radar-35df9c2d9e29ac37",
+      "radar-0832a178b9440a6f"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "84baee5d7631f29076d4997f833a036939f3d174dbeee83476f25364b6a2ed8a",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-upstream-fraud",
+    "category": "交易与信任",
+    "question": "金额合法的支付为什么仍可能来自被操纵的选品？风控日志应该从哪个阶段开始？",
+    "title": "支付未超限不等于选品可信，日志应前移至决策起点",
+    "summary": "金额未超限只说明支付符合额度约束，不说明选品未被操纵。据此推演，风控日志应从用户意图与授权记录开始，覆盖随后检索和选品，而非只记录结账。",
+    "counterpoint": "身份令牌验证代理是谁、代表谁，却不能据此证明选品忠于用户意图。补记决策过程有助于追查偏移，但银行的隐私警告也提示：日志扩张会增加敏感数据留存代价。",
+    "experiment": "建议最小化记录授权、候选来源及排序变化；固定身份和预算，分别测试正常与受操纵的选品输入，区分“风险来自越权支付”与“权限内决策被诱导”两个假设。",
+    "limits": "摘录未披露操纵手法、发生率或实际损失，也不能证明身份验证无效，或上述日志方案已被验证。",
+    "evidence": [
+      {
+        "articleId": "radar-d442c2c1f990d3a1",
+        "title": "智能体支付暴露欺诈防控中的盲区",
+        "date": "2026-10-07",
+        "source": "FinTech Global",
+        "url": "https://fintech.global/2026/10/07/agentic-payments-expose-blind-spots-in-fraud-controls/",
+        "quote": "According to Vivox AI , a transaction can sit comfortably within every spending limit and still stem from a manipulated decision made long before checkout.",
+        "role": "支持额度合规仍可能掩盖结账前决策操纵",
+        "sourceHash": "e51c77956e9fec22aaf9287d950f8bb9aa32fb62832689ce2138bc2426a8549a"
+      },
+      {
+        "articleId": "radar-7f99543b6cbdb838",
+        "title": "AI 智能体背后是谁？破解智能体电商的身份验证难题",
+        "date": "2026-10-08",
+        "source": "Mastercard",
+        "url": "https://www.mastercard.com/global/en/news-and-trends/stories/2026/agentic-commerce-identity-know-your-agent.html",
+        "quote": "Skyfire works behind the scenes to create a KYA token that verifies who the agent is and who it is acting for, and can pair …",
+        "role": "限定身份令牌验证代理及其代表对象的作用",
+        "sourceHash": "7650a0129fa8a32f495b10249d044875e0ac1b751bd9bc137cc837e283f32e81"
+      },
+      {
+        "articleId": "radar-113eb8095567725c",
+        "title": "银行警告：AI 购物机器人增加诈骗、欺诈和隐私风险",
+        "date": "2026-09-22",
+        "source": "The Straits Times",
+        "url": "https://www.straitstimes.com/business/ai-shopping-bots-raise-scam-fraud-and-data-privacy-risks-banks-warn",
+        "quote": "PARIS – Using AI agents for online shopping could increase the risk of scams, fraud and data-privacy breaches, banks including NatWest and Bank of America warned on Sept 22, as they set out principles for developing the technology.",
+        "role": "提示扩展决策日志时需权衡隐私风险",
+        "sourceHash": "74c978afc6795e15b89c347dbf78f24abe7eb108e5b9b184436cb7e3e7a216f5"
+      }
+    ],
+    "keywords": [
+      "选品操纵",
+      "额度约束",
+      "代理身份",
+      "决策日志",
+      "数据最小化"
+    ],
+    "relatedArticleIds": [
+      "radar-d442c2c1f990d3a1",
+      "radar-7f99543b6cbdb838",
+      "radar-113eb8095567725c"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "1d54d8354f713b7d7d081f9807125df0a55ec77d60f64ad4468dc4856cb7f436",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-agent-vs-merchant-permission",
+    "category": "交易与信任",
+    "question": "用户同意代理并不代表商家同意代理访问，两份授权之间产品如何降级而不死循环？",
+    "title": "代理购物遇商家拒绝应停止重试，转交用户自主完成",
+    "summary": "用户批准购买不能替代商家准入。产品应先区分拒绝访问与临时故障；明确拒绝时停止代理执行，保留购物意图转交用户到原站处理，不再循环请求用户授权。",
+    "counterpoint": "支付管道即使就绪，也不等于商家开放；材料对生态对齐的判断与明确封禁形成对照。转交用户可能保留购物机会，却把操作负担退回用户，不能算代理已完成任务。",
+    "experiment": "建议将明确拒绝设为终止态，临时故障限次重试；注入两类错误信号，验证系统能否区分“缺少商家准入”与“短暂技术故障”，检查是否仍重复授权或自动重启任务。",
+    "limits": "两篇封禁报道属于同一事件，不能视为独立验证；摘录未披露授权协议、重试逻辑或转交完成率，无法证明降级有效。",
+    "evidence": [
+      {
+        "articleId": "radar-91f8270775a69971",
+        "title": "Amazon 屏蔽 Meta 的 Muse 对AI 购物权限的争议",
+        "date": "2026-09-22",
+        "source": "The Rundown AI",
+        "url": "https://www.therundown.ai/news/amazon-blocks-meta-muse-shopping-agent",
+        "quote": "In its September 8 launch announcement , Meta said Muse runs on a dedicated cloud computer and requires user approval for purchases.",
+        "role": "支持购买需用户批准这一授权边界",
+        "sourceHash": "6abcd36420cff1fe12076284336736c6a5a0a73164afaf3f65ba5bca4a32b81c"
+      },
+      {
+        "articleId": "radar-a64a4654487cfdb3",
+        "title": "Amazon 禁止 Meta 的 Muse AI 智能体在其网站购物",
+        "date": "2026-10-09",
+        "source": "PPC Land",
+        "url": "https://ppc.land/amazon-blocks-metas-muse-ai-agent-from-shopping-on-its-site/",
+        "quote": "For now, people who try shopping on Amazon through Muse see a message saying the agent is not allowed, and Amazon says …",
+        "role": "支持商家拒绝应与用户授权不足分开处理",
+        "sourceHash": "ea62d7287d490ec593c2e9ba6c5359fd6b6e5a0a8c1e9862afef6cf1f63c884d"
+      },
+      {
+        "articleId": "radar-6b2e610ef5a2e923",
+        "title": "商家要为智能体电商准备什么？",
+        "date": "2026-03-31",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/payments-innovation/2026/what-it-takes-to-be-merchant-ready-for-agentic-commerce/",
+        "quote": "If the payment pipes are ready for agentic, then it follows that the pace of adoption may depend less on core technology and more on how quickly the broader ecosystem, and particularly merchants, can align with it.",
+        "role": "挑战支付能力就绪即可推动代理采用的假设",
+        "sourceHash": "3f7793296726001a74be8a2bd8630e92299d17740f3c65350ab1e21773e281d8"
+      }
+    ],
+    "keywords": [
+      "商家准入",
+      "用户授权",
+      "拒绝终止态",
+      "限次重试",
+      "原站转交"
+    ],
+    "relatedArticleIds": [
+      "radar-91f8270775a69971",
+      "radar-a64a4654487cfdb3",
+      "radar-6b2e610ef5a2e923"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "0ec66f7ec94e6653b1f94c85a6af7da7a743c52c89509da1cf74274350e03626",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-after-payment-outcome",
+    "category": "交易与信任",
+    "question": "扣款成功不代表服务完成，智能体代购如何保存约定、验收交付与处理争议？",
+    "title": "智能体代购应保存约定并以交付验收而非扣款结单",
+    "summary": "设计上建议将扣款与履约分开：代购前保存用户授权、商品与服务约定，交付后按约验收；争议时先还原偏差发生在哪一步，再转交预设受理方，不能以支付回执代替完成证明。",
+    "counterpoint": "卡组织强调既有消费者保护与争议权，评论却指出智能体选错商品可能让商家担损；行动留痕能解释过程，却不能自动决定谁裁决退款、谁承担损失。",
+    "experiment": "推演验证：用“错选规格”和“交付不符”模拟争议，分别提供仅支付回执、完整约定与行动记录，测试能否定位偏差；区分“缺记录难判责”与“有记录但责任未约定”两种假设。",
+    "limits": "摘录未提供交付验收标准、实际退款结果或责任合同，不能证明留痕能减少争议，也不能认定卡支付已覆盖智能体误购。",
+    "evidence": [
+      {
+        "articleId": "radar-5f4ad9a1de82190a",
+        "title": "AI 购物智能体需要交易凭证",
+        "date": "2026-09-30",
+        "source": "Payments Dive",
+        "url": "https://www.paymentsdive.com/news/ai-shopping-agents-need-receipts/831716/",
+        "quote": "Audit trails tracking artificial intelligence agents’ actions on behalf of human consumers will be critical for agentic commerce to function and grow, financial technology executives said at a recent panel on agentic AI risks.",
+        "role": "支持保存智能体行动记录作为争议追溯基础",
+        "sourceHash": "50a0ac02d04817596107aee9ec1c13dffd56dd86003accd9f58a12dc93dab929"
+      },
+      {
+        "articleId": "radar-b4bcfbcb2c370aaa",
+        "title": "智能体电商的责任缺口：AI 买错了，谁来承担损失？",
+        "date": "2026-10-06",
+        "source": "Forkast News",
+        "url": "https://forkast.news/the-agentic-commerce-liability-gap-who-pays-when-the-agent-buys-wrong/",
+        "quote": "When an agent misinterprets a prompt or selects the wrong SKU, the merchant is the party left holding the bill.",
+        "role": "指出误解指令或选错商品存在商家担损问题",
+        "sourceHash": "009701cf1d1f4dcf4d71e15635e5c4b5ab2a67b07061ae2e21386a88bc1fd54c"
+      },
+      {
+        "articleId": "radar-b5ace08b570caff8",
+        "title": "Mastercard：银行卡将成为智能体电商的支付基础",
+        "date": "2026-07-30",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/earnings/2026/mastercard-says-cards-will-power-prompt-economy/",
+        "quote": "Mastercard said AI agents will rely on cards because payment credentials still need identity verification, tokenization, consumer protections and dispute rights.",
+        "role": "提供卡支付强调消费者保护与争议权的口径",
+        "sourceHash": "bfec7605ba0e3baa699de32800688ab0681b107fb0e167fc461ff9ec33ee1fad"
+      },
+      {
+        "articleId": "radar-8d3d887daddec643",
+        "title": "AI的付款会扩大,但退款和责任辩论却在增加",
+        "date": "2026-10-12",
+        "source": "디지털투데이",
+        "url": "https://www.digitaltoday.co.kr/en/view/113397/ai-payments-spread-refunds-liability-debate",
+        "quote": "AI agents have started paying directly for products and services online, but it remains unclear who will decide on refunds and disputes and who will be held responsible after a transaction.",
+        "role": "指出付款后退款裁决与责任主体仍不明确",
+        "sourceHash": "167ddba5254e3c09c8056669ee945cb07f21d967f4c751e47531ef8a0e03eaa0"
+      }
+    ],
+    "keywords": [
+      "约定快照",
+      "行动留痕",
+      "交付验收",
+      "退款裁决",
+      "误购责任"
+    ],
+    "relatedArticleIds": [
+      "radar-5f4ad9a1de82190a",
+      "radar-b4bcfbcb2c370aaa",
+      "radar-b5ace08b570caff8",
+      "radar-8d3d887daddec643"
+    ],
+    "sourceCount": 4,
+    "fingerprint": "e061fdb14577dbb2644bbea6abb6e107f0e7c6b7574c6c2b0de2e07fc2d5e0ed",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-protocol-boundaries",
+    "category": "模型与评测",
+    "question": "ACP/AP2/TAP/MCP等协议是在竞争还是不同层？产品团队怎样确定最小可用接入？",
+    "title": "协议更像分层组合，最小接入应按目标交易任务裁剪",
+    "summary": "现有摘录更支持分层组合，而非单一标准之争，但不排除层内竞争。MCP工具发现、结账与机器支付已有分工线索；最小接入应先满足目标渠道的交易任务，而非集齐协议。",
+    "counterpoint": "MCP既可用于工具发现，也被用于广告服务，接入它不等于具备成交能力；Google的UCP购物功能展示了渠道内落地，却不能证明跨渠道可移植，统一接口也未必消除适配成本。",
+    "experiment": "推演建议：固定一个渠道和一种订单，列出发现、结账、支付的必需能力，先接缺口再逐项增接协议；比较成交率与失败点，区分“必要层已足够”和“额外协议不可替代”。",
+    "limits": "摘录不足以界定ACP、AP2、TAP的职责边界，也不能证明协议互通、接入成本或哪套组合覆盖率最高。",
+    "evidence": [
+      {
+        "articleId": "radar-586b555be0157da2",
+        "title": "智能体标准术语指南：商家与支付服务商需要了解什么？",
+        "date": "2026-10-02",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/the-alphabet-soup-of-agentic-standards-a-vocab-playbook-for-merchants-and-psps/",
+        "quote": "Agentic commerce isn’t facing one standards war; it’s building a protocol stack.",
+        "role": "支持协议栈解释，而非单一标准竞争",
+        "sourceHash": "c678e66aeaad2d1e51bbf5b10db1b5152cd9d974a14db1bad65b184ec7451f87"
+      },
+      {
+        "articleId": "radar-4e369beaf45c5a7a",
+        "title": "机器支付与智能体电商背后的协议",
+        "date": "2026-09-26",
+        "source": "Stripe",
+        "url": "https://stripe.com/pt-pt/sessions/2026/machine-payments-and-the?__hsfp=358879226&__hssc=235270366.1.1647907200035&__hstc=20629287.c4a577029c49e44b73bd3bee6fa38565.1593043200274.1593043200275.1593043200276.1&__prclt=GJ5tCTvw&__s=1ngpkifa1w8cdaucpyke",
+        "quote": "A new type of agentic infrastructure is emerging to support them, from protocols such as MCP for tool discovery and UCP for checkout to MPP and x402 for machine payments.",
+        "role": "支持工具发现、结账与机器支付分层",
+        "sourceHash": "ba130741b0c9ee46096138f53d2fbf3c92b705d2cd5e86117854fd6477899661"
+      },
+      {
+        "articleId": "radar-509ede7122377653",
+        "title": "零售媒体遇上智能体电商：MCP 原生广告",
+        "date": "2026-04-30",
+        "source": "Mirakl",
+        "url": "https://www.mirakl.com/blogs/retail-media/retail-media-agentic-commerce-mcp-native-ad-serving-mirakl-ads/",
+        "quote": "We are thrilled to announce that Mirakl Ads’ ad server is now available as a native Model Context Protocol (MCP) tool.",
+        "role": "说明MCP接入也可服务广告而非成交",
+        "sourceHash": "2a8f29e003ff5382bdda3cfb68d641488ee6e61d6d5dd5dfccadf2b602579b41"
+      },
+      {
+        "articleId": "2026-05-21-google-shopping-blog-how-we-re--242e31b910",
+        "title": "Google 通过 UCP 新功能与 AI 工具帮助零售商增长",
+        "date": "2026-05-20",
+        "source": "Google Shopping",
+        "url": "https://blog.google/products-and-platforms/products/shopping/shopping-updates-google-marketing-live/",
+        "quote": "You can now use the Universal Cart to check out quickly with Google Pay at major retailers, while new tools in Merchant Center …",
+        "role": "支持按具体渠道的结账能力确定接入",
+        "sourceHash": "a1c32117d54e2c3f2f0562fe49b963a671810a4dfdcb2b976ce1638d5327abf1"
+      }
+    ],
+    "keywords": [
+      "协议分层",
+      "MCP工具发现",
+      "UCP结账",
+      "机器支付",
+      "最小接入"
+    ],
+    "relatedArticleIds": [
+      "radar-586b555be0157da2",
+      "radar-4e369beaf45c5a7a",
+      "radar-509ede7122377653",
+      "2026-05-21-google-shopping-blog-how-we-re--242e31b910"
+    ],
+    "sourceCount": 4,
+    "fingerprint": "df52a6e3a5e0498c6d08df13332404a0e8c51e8cd15bdead02f3815e57392da1",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-offsite-attribution",
+    "category": "用户与增长",
+    "question": "聊天内成交但网站埋点不触发时，怎样区分流量下降与交易迁移？",
+    "title": "聊天成交绕过网站时，先核对全渠道订单再判流失",
+    "summary": "先把到站访问与全渠道成交分开：访问减少可能真实发生，但不等于需求流失。优先核对订单及支付记录；站外成交增加并抵补站内减少，才支持交易迁移解释。",
+    "counterpoint": "聊天内结账可绕过商家页面，浏览器代理却仍在网站购买，同属AI渠道但埋点缺失含义不同。Newegg仍是交易主体，也不意味着现有报表能自动识别渠道来源。",
+    "experiment": "建议按订单号去重，关联支付状态与结账渠道，单列来源未知订单；对比同期网站访问、站内及聊天成交、总成交，区分“总成交流失”与“渠道迁移”两个假设。",
+    "limits": "摘录没有实际访问、订单或埋点数据，不能确认迁移已发生；渠道增减对冲也不能证明同一批用户转移，或排除埋点故障。",
+    "evidence": [
+      {
+        "articleId": "radar-9a410b1b05233fce",
+        "title": "Shopify 整合商店付费与 Meta Muse 用于 AI- Powered 退出",
+        "date": "2026-09-23",
+        "source": "Pulse 2.0",
+        "url": "https://pulse2.com/shopify-integrates-shop-pay-with-meta-muse-for-ai-powered-checkout/",
+        "quote": "Shopify will integrate its Shop Pay system with Meta’s Muse personal AI agent, allowing users to complete purchases from participating merchants without leaving the AI conversation, according to The Wall Street Journal .",
+        "role": "支持聊天内结账可能脱离网站访问口径",
+        "sourceHash": "0a1237a50b8cbb1f23080ffc97b7a14b873fa92104930ea39520582fcbebf102"
+      },
+      {
+        "articleId": "radar-8dfae19f11de23ec",
+        "title": "Shopify 向基于浏览器的 AI 智能体开放结账",
+        "date": "2026-09-28",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+        "quote": "On Monday, the company announced that browser-based AI agents can now complete purchases on Shopify merchants’ sites, extending their capabilities beyond just searching for products and adding items …",
+        "role": "挑战将所有代理成交都视为站外交易",
+        "sourceHash": "76d76a0bcc473c4b75e39f891e1fffcdffd7c6fef0590db41b9044a3aba6d911"
+      },
+      {
+        "articleId": "radar-f923619a23dcda71",
+        "title": "Newegg 添加 Google UCP 检出集成",
+        "date": "2026-10-13",
+        "source": "Digital Commerce 360",
+        "url": "https://www.digitalcommerce360.com/2026/10/12/newegg-adds-google-ucp-checkout-integration/",
+        "quote": "By integrating UCP, which Google co-developed with retailers and commerce platforms including Etsy, Shopify, Target, Walmart and Wayfair, Newegg remains the merchant of record while providing Google with product catalog data used in AI-powered shopping experiences.",
+        "role": "支持外部购物渠道下商家仍可为交易主体",
+        "sourceHash": "7a73caa0288e053389e702a4c6499a4bf9a3a1a0e206ab59817cf163ee54e63b"
+      }
+    ],
+    "keywords": [
+      "全渠道订单",
+      "结账渠道",
+      "网站埋点",
+      "订单去重",
+      "交易迁移"
+    ],
+    "relatedArticleIds": [
+      "radar-9a410b1b05233fce",
+      "radar-8dfae19f11de23ec",
+      "radar-f923619a23dcda71"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "bc21f37c92496dcfcffb266ae218273b6c314ec926194344532201bcb14ce4d8",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-feed-visibility",
+    "category": "商品与数据",
+    "question": "AI推荐从网页转向商品feed，品牌可见性下降究竟该改内容还是改数据接入？",
+    "title": "商品推荐转向商家数据流，应先查接入再改网页内容",
+    "summary": "若目标是ChatGPT商品推荐，应优先核查商品feed接入，再改善其中的商品内容，而非先重写网页。摘录支持推荐来源转移，但接入不能等同于获得展示。",
+    "counterpoint": "可见性下降也可能来自展示位收缩：Google样本中商品列表减少约95%，并非证明商家数据变差。目录增强工具则提示，改内容与改接入并不互斥，内容也存在于数据流内。",
+    "experiment": "建议推演四组测试：仅改网页、仅接入或修复feed、两者都改、均不改。固定商品与查询，分别记录接入状态和推荐出现率，区分“来源切换”与“网页内容不足”两种假设。",
+    "limits": "摘录未提供feed占比明细或品牌级实验；Google结果不能直接外推至ChatGPT，厂商的目录增强公告也不能证明曝光提升。",
+    "evidence": [
+      {
+        "articleId": "radar-d9ad558e0da2efc7",
+        "title": "ChatGPT 购物推荐目前更多依赖商家商品数据源",
+        "date": "2026-10-08",
+        "source": "ALM Corp",
+        "url": "https://almcorp.com/news/chatgpt-shopping-pulls-product-picks-merchant-feeds/",
+        "quote": "ChatGPT Shopping is growing more reliant on merchant feeds than the open web to power its product recommendations.",
+        "role": "支持优先核查商家数据流而非只改网页",
+        "sourceHash": "e21587a7faa4bedb62a44ff8f8dcf1499f748660440dc36c0696329635d8619b"
+      },
+      {
+        "articleId": "radar-dbb4f7de02476ee6",
+        "title": "Productrise：AI Mode 使 Google Shopping 展示的商品条目减少 95%",
+        "date": "2026-07-29",
+        "source": "PPC Land",
+        "url": "https://ppc.land/ai-mode-cuts-google-shopping-listings-95-productrise-finds/",
+        "quote": "Google's AI Mode surfaced roughly 95 percent fewer product listings than standard search on identical shopping queries tracked over three weeks in July 2026, according to a data study published today by Productrise , a platform that monitors organic product visibility in Google Shopping.",
+        "role": "提示展示位收缩是可见性下降的另一解释",
+        "sourceHash": "413d32153c6a1899963f555a3767f9994449762c9a2ff714561f389be6551b86"
+      },
+      {
+        "articleId": "radar-36684ba34307c694",
+        "title": "Commerce 为 BigCommerce 和 Feedonomics 增加数据丰富能力，支持智能体电商",
+        "date": "2026-09-29",
+        "source": "GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/09/29/3370746/0/en/commerce-introduces-data-enrichment-for-bigcommerce-and-feedonomics-to-power-agentic-commerce.html",
+        "quote": "Learn more about Feedonomics Enrichment and request a demo: https://feedonomics.com/product/agentic-commerce/ai-data-enrichment/ BigCommerce Catalog Enrichment is designed to give merchants a native, self-serve way to enhance product content directly within the BigCommerce control panel.",
+        "role": "支持把目录内容增强与网页改写分开讨论",
+        "sourceHash": "3a8aee7c96d279bb20dc58f4064fb5f5a03e309ed85e27096142bbf2680d774a"
+      }
+    ],
+    "keywords": [
+      "商品feed",
+      "数据接入",
+      "目录内容",
+      "展示位收缩",
+      "推荐出现率"
+    ],
+    "relatedArticleIds": [
+      "radar-d9ad558e0da2efc7",
+      "radar-dbb4f7de02476ee6",
+      "radar-36684ba34307c694"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "c35ec4d0e7dceee3b57984f2aeead89efd1db6c7b4981e813b0fe69935786367",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-grocery-fulfillment",
+    "category": "入口与交互",
+    "question": "即时零售比开放电商更适合先做代办吗？地理、时效和替代品约束改变了什么？",
+    "title": "即时零售可先试组篮代办，尚不能判定胜过开放电商",
+    "summary": "推演上，若能锁定配送区域、到达时限和替代授权，可优先试即时零售组篮代办：约束有望缩小选品范围，但不等于适合直接自动下单。",
+    "counterpoint": "组篮报道强调待购买购物车，跨平台报道强调预算与决策减负；货架可用性虽被纳入，却未证明替换和送达可靠，约束也可能把选品难题转成履约难题。",
+    "experiment": "建议用同类任务对照开放选品与区域、时限、替代规则限定组篮，记录确认次数、缺货返工和到达偏差，区分“约束降低决策成本”与“履约波动增加代办成本”。",
+    "limits": "材料缺少与开放电商的对照、配送时效及替代执行结果；同一产品的多篇报道不能独立验证代办优势。",
+    "evidence": [
+      {
+        "articleId": "radar-209e9ecb3c6a604f",
+        "title": "Instacart 推出一个名为 Clementine 的 AI 杂货购物助理",
+        "date": "2026-09-09",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+        "quote": "The company announced on Wednesday that it’s launching a new AI-powered grocery shopping assistant called Clementine that can turn a conversation, grocery list, or recipe into a ready-to-buy cart.",
+        "role": "支持已展示能力是生成待购买购物车",
+        "sourceHash": "34d10d1c279f0164434fa0a5225e91f0acbd6799cc37cd8aaa9eed348b65f4be"
+      },
+      {
+        "articleId": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+        "title": "Instacart 推出 Clementine AI 助手及智能体电商集成",
+        "date": "2026-09-09",
+        "source": "Digital Commerce 360",
+        "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/",
+        "quote": "It added that it based the Clementine experience on “what’s actually available on shelves in real …",
+        "role": "补充同一产品采用货架可用性的口径",
+        "sourceHash": "44f463cf23df6c38483e52f3f48ace21177fdc2ad3ec2acb1bed38fb4258d22c"
+      },
+      {
+        "articleId": "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
+        "title": "Instacart 与 Shipt 推出 AI 购物助手",
+        "date": "2026-09-14",
+        "source": "Retail Dive",
+        "url": "https://www.retaildive.com/news/instacart-shipt-launch-ai-powered-shopping-assistants/830092/",
+        "quote": "Instacart and Shipt each highlighted in their announcements how their marketplace AI assistants aim to ease the mental burden of grocery shopping while factoring in a customer’s budget.",
+        "role": "支持两平台目标偏向预算与决策减负",
+        "sourceHash": "6fcc5582dfcc1769d457b32822cd85c4e30b292c8c45283950545c0c06c25f53"
+      }
+    ],
+    "keywords": [
+      "组篮代办",
+      "配送区域",
+      "到达时限",
+      "替代授权",
+      "货架可用性"
+    ],
+    "relatedArticleIds": [
+      "radar-209e9ecb3c6a604f",
+      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "cef9d408ca1293d958c05d8abc4edb59ef39bd6a1eca22f8c458c6be8cc753be",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-adopt-vs-build",
+    "category": "商业与平台",
+    "question": "零售商买现成AI助手还是自建？差异化应放在模型、商品知识还是履约关系？",
+    "title": "零售AI宜先买底座，差异化优先放在商品知识与连接",
+    "summary": "建议优先采购底座，把自建投入放在商品知识与业务连接，而非先训练模型；现成助手若能适配目录与流程，可先白标上线。履约关系的差异化价值仍缺证据。",
+    "counterpoint": "品牌可定制，不代表知识层由零售商掌握：Instacart连杂货数据与工作流理解也打包提供。另有分析认为亚马逊意在从站外商业获利，采购还涉及价值分配。",
+    "experiment": "推演：固定模型与界面，对比标准目录接入和补充零售商专有商品知识两组，测推荐匹配率与下单完成率，区分通用能力已够用、专有知识才带来增益两种假设。",
+    "limits": "摘录多为厂商介绍，不能证明采购比自建总成本低，也不能排序模型、商品知识与履约关系的长期壁垒强弱。",
+    "evidence": [
+      {
+        "articleId": "radar-4f66a874da0dacc2",
+        "title": "Amazon 开始向其他零售商出售 AI 购物技术",
+        "date": "2026-05-27",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/27/amazon-ai-shopping-alexa-kate-spade.html",
+        "quote": "The new service allows retailers to launch their own AI shopping tools tailored to their storefront, catalog and branding \"in as little as 60 days,\" Amazon said.",
+        "role": "支持采购后适配目录与品牌，上线时效属厂商口径",
+        "sourceHash": "521710c3a0a85d1b3575132dd1cbecde325686f339b976640712f58c25c5e648"
+      },
+      {
+        "articleId": "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a",
+        "title": "Instacart Cart Assistant：零售商可打造自有品牌的 AI 购物助手",
+        "date": "2026-06-23",
+        "source": "Instacart",
+        "url": "https://company.instacart.com/enterprise-blog/cart-assistant-from-instacart",
+        "quote": "Cart Assistant is powered by Instacart intelligence, the AI layer that can bring together Instacart’s extensive understanding of how grocery data, workflows, and consumers operate with foundational models, vision, physical, and agentic AI technology to deliver unmatched outcomes …",
+        "role": "挑战知识层天然归零售商，供应商也打包行业理解",
+        "sourceHash": "064c1f60d5eb754db1b9996f7f522cb863aa36ae943845993a001c6d7fd4b941"
+      },
+      {
+        "articleId": "radar-4fbea4d5142dcda7",
+        "title": "The RealReal 借助 Google Cloud 的 Gemini Enterprise 扩展 Ask TRR 购物智能体",
+        "date": "2026-10-08",
+        "source": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/the-realreal-expands-ask-trr-ai-shopping-agent-with-google-clouds-gemini-enterprise-302901904.html",
+        "quote": "8, 2026 /PRNewswire/ -- The RealReal (NASDAQ: REAL ) today announced it is expanding Ask TRR, the online retailer's AI shopping agent built with Google Cloud's Gemini Enterprise.",
+        "role": "支持第三方底座与自有购物助手并非二选一",
+        "sourceHash": "0dd8089bae598d6aca6a79f13a4d6d968bd185b194fd12ad4a8b4555398dff95"
+      },
+      {
+        "articleId": "radar-91fae49201000f1d",
+        "title": "平台观察：Amazon 为什么向其他零售商出售 AI 购物工具",
+        "date": "2026-05-28",
+        "source": "Modern Retail",
+        "url": "https://www.modernretail.co/technology/marketplace-briefing-why-amazon-is-selling-its-ai-powered-shopping-tools-to-other-retailers/",
+        "quote": "Sky Canaves, principal retail and e-commerce analyst at eMarketer, said the move fits into Amazon’s broader strategy of supporting more commerce that happens outside its own marketplace while still finding ways to profit from it.",
+        "role": "提示平台借站外商业获利的动机，属于分析师解释",
+        "sourceHash": "2f353d314d3671be80b98040a09573eccddf30f8c7569636058443ce9866d546"
+      }
+    ],
+    "keywords": [
+      "白标助手",
+      "商品知识",
+      "业务连接",
+      "价值分配",
+      "自建与采购"
+    ],
+    "relatedArticleIds": [
+      "radar-4f66a874da0dacc2",
+      "2026-06-23-instacart-cart-assistant-from-i-53c13f6e7a",
+      "radar-4fbea4d5142dcda7",
+      "radar-91fae49201000f1d"
+    ],
+    "sourceCount": 4,
+    "fingerprint": "f4925f75e65a295c8573aea72feda7844317c49a94b6e6590e059efbae45f449",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-source-trust",
+    "category": "交易与信任",
+    "question": "AI回答引用商家自述与独立评价的可信度不同，如何让推荐理由可核查而不信息过载？",
+    "title": "推荐理由先标来源与冲突，完整证据按需展开核查",
+    "summary": "建议优先展示关键推荐理由，逐条标明商家自述或独立评价，并链接原文；来源冲突直接提示，完整摘录按需展开，避免把不同来源混成同一可信结论。",
+    "counterpoint": "澳大利亚调查中，对AI建议的信任相对店员较高；另一材料却指出用户仍去网站验证。相对信任不等于免核查，研究提速也可能伴随验证步骤增加。",
+    "experiment": "可试验“默认全量摘录”与“来源标签加按需展开”两版，比较来源辨认正确率、核查耗时和站外查证率，区分用户主要缺证据还是受信息负担阻碍。",
+    "limits": "摘录未直接比较商家自述与独立评价的可信度，也未验证分层展示效果；不同地区与口径不能合并推算。",
+    "evidence": [
+      {
+        "articleId": "radar-98220dcc541f883e",
+        "title": "消费者仍到网站核验，AI 购物的信任存在边界",
+        "date": "2025-10-28",
+        "source": "Search Engine Journal",
+        "url": "https://www.searchenginejournal.com/trust-in-ai-shopping-is-limited-as-shoppers-verify-on-websites/559497/",
+        "quote": "If your product data, comparison content, and reviews are inconsistent with retailer listings, shoppers will notice when they verify elsewhere.",
+        "role": "支持优先暴露推荐依据与零售页面的冲突",
+        "sourceHash": "6d6e4e444cb8118df634930de4306bfc1407ac59da6e8d9e1cc9466f61538812"
+      },
+      {
+        "articleId": "radar-98220dcc541f883e",
+        "title": "消费者仍到网站核验，AI 购物的信任存在边界",
+        "date": "2025-10-28",
+        "source": "Search Engine Journal",
+        "url": "https://www.searchenginejournal.com/trust-in-ai-shopping-is-limited-as-shoppers-verify-on-websites/559497/",
+        "quote": "AI speeds up research and makes it more focused, especially for comparing options, but it increases the number of steps as shoppers validate details elsewhere.",
+        "role": "支持将核查步骤负担纳入展示设计",
+        "sourceHash": "6d6e4e444cb8118df634930de4306bfc1407ac59da6e8d9e1cc9466f61538812"
+      },
+      {
+        "articleId": "radar-896bdd6b29291757",
+        "title": "研究：澳大利亚消费者对 AI 购物建议的信任超过店员",
+        "date": "2026-08-28",
+        "source": "Retail Asia",
+        "url": "https://retailasia.com/technology/in-focus/australians-trust-ai-shopping-advice-over-retail-staff-study-finds",
+        "quote": "In total, 76% trust AI recommendations as much as or more than advice from retail staff.",
+        "role": "限定信任口径是相对店员而非事实核验",
+        "sourceHash": "199c15c4db96503ed24072b72bd208007ced2bee4473a789ad576d65a1e32c6b"
+      }
+    ],
+    "keywords": [
+      "来源标签",
+      "商家自述",
+      "独立评价",
+      "按需展开",
+      "站外核查"
+    ],
+    "relatedArticleIds": [
+      "radar-98220dcc541f883e",
+      "radar-98220dcc541f883e",
+      "radar-896bdd6b29291757"
+    ],
+    "sourceCount": 2,
+    "fingerprint": "49059666e5becc6df53e10971bbf261f5a42bce18560bd4c72e6a4ee2a7d2ef6",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-voice-to-action",
+    "category": "入口与交互",
+    "question": "语音/多模态输入降低表达成本后，确认信息和交易控制是否应该切回可视界面？",
+    "title": "语音购物宜在关键确认时提供可视核对而非全程切屏",
+    "summary": "建议按风险而非输入方式切换：表达需求可用语音，涉及规格、总价与下单授权时优先提供可视核对；不宜把每轮确认都强制转屏。这是设计推演，非材料已证实的最优路径。",
+    "counterpoint": "二月材料强调语音、触控或混用，五月报道强调覆盖应用、网页与Echo设备；前者是交互选择，后者是入口范围。多入口不等于统一切屏，切换也可能抵消语音节省的操作。",
+    "experiment": "可试验两组流程：语音复述后授权，与展示订单摘要后授权。固定商品和任务，比较错单率、确认耗时及放弃率，区分“可视核对减少遗漏”和“增加步骤仅拖慢交易”两个假设。",
+    "limits": "材料均围绕亚马逊，不能视为独立验证；未提供确认界面、错单率或授权机制，不能推出切屏必然更安全。",
+    "evidence": [
+      {
+        "articleId": "daily-2026-02-11-7fae5bd7de6a54",
+        "title": "如何用 Alexa for Shopping 比商品、查历史价格并按目标价自动购买",
+        "date": "2026-02-11",
+        "source": "Amazon",
+        "url": "https://www.aboutamazon.com/news/retail/how-to-use-amazon-shopping-ai-assistant",
+        "quote": "Alexa+ brings the full Amazon shopping experience to Echo Show, letting you browse, compare, and buy by voice, touch, or both.",
+        "role": "支持语音与触控混用，而非必然切屏",
+        "sourceHash": "14d87ffdf1c59cc190eb5193dc16612dcb314dbc773ddde37f4f733a5bc8e9d1"
+      },
+      {
+        "articleId": "radar-c0358e51553a62c7",
+        "title": "亚马逊重大迭代：Rufus正式退役，Alexa全面接管AI购物流量",
+        "date": "2026-05-23",
+        "source": "雨果跨境",
+        "url": "https://www.cifnews.com/article/186181",
+        "quote": "2026年5月13日，亚马逊官宣最新战略调整： 原有独立AI购物助手Rufus正式退役，Alexa for Shopping全面上位 ，全面覆盖亚马逊APP、网页及Echo设备，面向全美 …",
+        "role": "补充多入口覆盖，但未证明确认方式统一",
+        "sourceHash": "dde0e213dbbce8d154d80df77bce7be966301050d9a1db343fdcbe06d6692b3a"
+      }
+    ],
+    "keywords": [
+      "语音购物",
+      "可视核对",
+      "下单授权",
+      "跨入口交互"
+    ],
+    "relatedArticleIds": [
+      "daily-2026-02-11-7fae5bd7de6a54",
+      "radar-c0358e51553a62c7"
+    ],
+    "sourceCount": 2,
+    "fingerprint": "aa5ff15d25ec23faec22fe3e6f46fb69eb81902a5b0cbd4619906fc93e326df8",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-adoption-vs-delivery",
+    "category": "用户与增长",
+    "question": "宣布AI覆盖数百万会员与真实可用、复用之间差什么？怎样判断发布规模而不是宣传规模？",
+    "title": "百万会员覆盖不等于有效使用，须看任务可用与复用",
+    "summary": "判断发布规模，应优先看实际可访问人数、任务完成率及同批用户复用率，而非会员总量。消费者使用意愿与零售商准备度存在落差，宣布覆盖只能作为待核实的入口口径。",
+    "counterpoint": "Sparky使用量环比翻倍，比覆盖声明更接近实际采用，但缺少基数和复用口径。用户消费高约35%，也可能源于高消费人群自选使用，不能直接解释为助手带来的增量。",
+    "experiment": "建议按地区和账号抽测入口，记录可访问、首次任务完成及30日复用漏斗；再随机开放助手比较消费变化，区分“助手提升消费”与“高消费用户更愿使用”两个假设。",
+    "limits": "百万可用摘录指Amazon Now，并非助手；Ask TRR标题对应医疗试验摘录，无法据此核实会员覆盖，更不能推出复用规模。",
+    "evidence": [
+      {
+        "articleId": "radar-3e7a6c62fe036525",
+        "title": "AI如何在2026年重塑假日购物:从发现到交付",
+        "date": "2026-10-12",
+        "source": "Capgemini",
+        "url": "https://www.capgemini.com/insights/expert-perspectives/how-ai-is-reshaping-holiday-shopping-in-2026/",
+        "quote": "New research reveals that 65% of consumers plan to use AI for at least one part of their holiday shopping in 2026, but only 8% of retailers say they’re ready to deliver.",
+        "role": "支持使用意愿不等于零售端交付准备度",
+        "sourceHash": "74b869c088af7474d7d091171449b380a5f7a5b961beddc9d1a8b7aaa5394d5a"
+      },
+      {
+        "articleId": "radar-76a04bbdc0eb5fab",
+        "title": "Walmart 在墨西哥推出 AI 购物助手 Sparky",
+        "date": "2026-09-29",
+        "source": "www.esmmagazine.com",
+        "url": "https://www.esmmagazine.com/technology/walmart-rolls-out-ai-powered-shopping-assistant-sparky-in-mexico-322477",
+        "quote": "In the US, where Walmart previously launched Sparky, its use has doubled quarter over quarter, and users spend approximately 35% more money than those who do not use it.",
+        "role": "提供采用增长信号，但未证明复用与消费因果",
+        "sourceHash": "1755c8336a21ff933040f53b3a5e3108be1ed8a3d8328d3314aa49e73de20a18"
+      },
+      {
+        "articleId": "daily-2026-05-13-3c134761dade73",
+        "title": "认识 Amazon 的 Alexa for Shopping：个性化智能体购物助手",
+        "date": "2026-05-13",
+        "source": "Amazon",
+        "url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant",
+        "quote": "Amazon Now is available to millions of customers today, with plans to reach tens of millions globally this year.",
+        "role": "限定百万可用口径，不能移作助手覆盖证据",
+        "sourceHash": "088fdfa00b6f4d2db7b0d4a74c012356e4c344f494317fe01de21b0a70120656"
+      },
+      {
+        "articleId": "radar-d3f9cf29ab488998",
+        "title": "The RealReal 向全部 4500 万会员开放 Ask TRR，提供个性化二手奢侈品发现",
+        "date": "2026-10-08",
+        "source": "Pluang",
+        "url": "https://pluang.com/en/news-feed/therealreal-perluas-ask-trr-ai-shopping-agent-dengan-google-cloud-gemini",
+        "quote": "Aclarion, Inc. has updated the enrollment criteria for its CLARITY clinical trial to better reflect real-world chronic low back pain patients and accelerate patient recruitment.",
+        "role": "正文摘录与标题错配，不能支持会员覆盖",
+        "sourceHash": "58f4cbfeaecf74e86dce4d3283ee08de420b7595704a22fe3b22660dbf4c8742"
+      }
+    ],
+    "keywords": [
+      "覆盖口径",
+      "任务完成率",
+      "同批用户复用",
+      "选择偏差",
+      "随机开放测试"
+    ],
+    "relatedArticleIds": [
+      "radar-3e7a6c62fe036525",
+      "radar-76a04bbdc0eb5fab",
+      "daily-2026-05-13-3c134761dade73",
+      "radar-d3f9cf29ab488998"
+    ],
+    "sourceCount": 4,
+    "fingerprint": "5977a61074c70353e2c5cf64c43a2964076e451df82abceeab9e43091d97429f",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-returns-recommendation",
+    "category": "商品与数据",
+    "question": "把退货原因反哺推荐如何区别购买阻力与真实匹配改善？",
+    "title": "退货原因反哺推荐，先排除少买造成的退货下降",
+    "summary": "应优先验证匹配类退货是否减少，而非只看总退货率；反哺后若购买转化未受损、每名曝光用户的未退货成交增加，才更支持真实匹配改善。",
+    "counterpoint": "收藏与当前浏览刻画兴趣，合身信息针对适配，两者不等价；低退货也可能来自劝退高风险购买。若把所有退货原因都当偏好负例，可能无端缩窄选择。",
+    "experiment": "建议随机分组比较原因反哺与原推荐；固定退货观察窗，联合看转化率、匹配类原因退货率和每名曝光用户的未退货成交，区分“阻碍购买”与“改善匹配”两种假设。",
+    "limits": "摘录未展示退货原因反哺实验、原因分类或完整退货周期，不能证明现有助手降低了匹配错误，也不能估计效果大小。",
+    "evidence": [
+      {
+        "articleId": "radar-c3c808e105b43ecc",
+        "title": "AI 购物可能减少商品退货",
+        "date": "2026-10-01",
+        "source": "Practical Ecommerce",
+        "url": "https://www.practicalecommerce.com/ai-shopping-could-mean-fewer-returns",
+        "quote": "If better product information helps an assistant recommend the right product to the right shopper, merchants could gain both a sale and fewer returns.",
+        "role": "提出商品信息改善匹配并减少退货的条件性机制",
+        "sourceHash": "fbb8f9390b46e0d793386ffb6ffa8d5ff942e53a983f4bccdc8ebc89ce9c51d8"
+      },
+      {
+        "articleId": "radar-013e638d4feb1ce9",
+        "title": "Pinterest 的新 AI 购物助手帮助用户挑选穿搭",
+        "date": "2025-10-30",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/809326/pinterest-ai-shopping-assistant-ceo-ready",
+        "quote": "The Pinterest Assistant will come back with personalized recommendations based on the user’s saved collections and whatever pins are currently up on their screen, and briefly narrate the results.",
+        "role": "显示推荐依据兴趣信号，未证明购买后匹配改善",
+        "sourceHash": "c38afe5365b8a7219a32b8721572459fb2f9d4d21f0cb157ebddadcf4f3ae220"
+      },
+      {
+        "articleId": "radar-464b3c6e6201816d",
+        "title": "True Fit 为智能体电商引入尺码适配智能层",
+        "date": "2026-08-18",
+        "source": "WWD",
+        "url": "https://wwd.com/business-news/business-features/true-fit-fit-intelligence-layer-ai-sizing-commerce-1239125155/",
+        "quote": "While many companies are racing to introduce AI agents into the shopping journey, True Fit is bringing the fit intelligence layer that those agents can depend on.",
+        "role": "呈现合身信息层路线，但未提供退货效果验证",
+        "sourceHash": "5918f8b0251b155dca537d0a680a545679585ed2157c4659e07e5815b1ed4361"
+      }
+    ],
+    "keywords": [
+      "退货原因",
+      "购买转化率",
+      "未退货成交",
+      "随机分组",
+      "合身信息"
+    ],
+    "relatedArticleIds": [
+      "radar-c3c808e105b43ecc",
+      "radar-013e638d4feb1ce9",
+      "radar-464b3c6e6201816d"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "d1778af13e129c933b59f7aa1cfc581beea333ff10bb142341e40e5f4636420b",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-checkout-reversal",
+    "category": "交易与信任",
+    "question": "ChatGPT 从即时结账回到商品发现，何时不值得把交易留在助手内？",
+    "title": "即时结账缺乏增量且适配受限时，助手应优先商品发现",
+    "summary": "若助手内结账不能带来增量销售，又限制商家交易流程的灵活性，就不值得优先保留。助手应优先承接发现、比较与筛选，让交易进入商家环境，而非坚持自有结账。",
+    "counterpoint": "销售未起量与灵活性不足是不同解释，不能直接等同于用户拒绝助手内购买。TikTok反而计划把发现与简化结账相连，但计划本身也不证明缩短路径就能增收。",
+    "experiment": "推演建议：将同类商品流量随机分配至助手内结账和商家环境，记录购买意图、各步流失、全链路成交与适配成本，区分“购买需求不足”和“结账路径受限”两种假设。",
+    "limits": "同次转向的报道不构成独立验证；摘录缺少成交分母、成本和分组数据，不能判定所有助手内交易都无效。",
+    "evidence": [
+      {
+        "articleId": "radar-268c3bd04ef2e190",
+        "title": "ChatGPT Instant Checkout 出了什么问题？",
+        "date": "2026-03-27",
+        "source": "Modern Retail",
+        "url": "https://www.modernretail.co/technology/what-went-wrong-with-chatgpts-instant-checkout/",
+        "quote": "Several people involved with Instant Checkout told Modern Retail and other outlets that the program didn’t drive sales, and that merchants have decided to let ChatGPT handle the discovery process and own the …",
+        "role": "支持以销售贡献审视内置结账的优先级",
+        "sourceHash": "5f14822539671f4934a80aeadf64ffac5117d5b4b5e56d3fa727f52b965bc5e3"
+      },
+      {
+        "articleId": "radar-a1a4b8557a5497e4",
+        "title": "OpenAI 重新思考即时结账，Walmart 将 Sparky 带入 ChatGPT",
+        "date": "2026-03-25",
+        "source": "Retail Dive",
+        "url": "https://www.retaildive.com/news/walmart-sparky-chatgpt-instant-checkout/815647/",
+        "quote": "OpenAI is pivoting away from handling purchases after its initial efforts failed to provide enough flexibility.",
+        "role": "提出灵活性不足这一不同于需求不足的解释",
+        "sourceHash": "95a45b814c789175f485f94ec08bba72b8c8015a159487bf04c59df186c152e2"
+      },
+      {
+        "articleId": "radar-078f46a58c796612",
+        "title": "OpenAI 将 ChatGPT 购物重心重新转向商品发现",
+        "date": "2026-03-30",
+        "source": "TechInformed",
+        "url": "https://techinformed.com/openai-refocuses-chatgpt-shopping-on-discovery/",
+        "quote": "OpenAI has recast shopping in ChatGPT around product discovery , expanding the Agentic Commerce Protocol, or ACP, to support merchant-fed catalogs and rolling out richer product browsing, side-by-side comparisons, conversational filtering and image-based lookalike search to Free, Go, Plus and Pro users.",
+        "role": "支持发现侧仍可深化目录、比较与筛选能力",
+        "sourceHash": "18d9b46b5840952c108576a0b71991d76e03f854698400e69427912c5ff5fc25"
+      },
+      {
+        "articleId": "radar-90923df83ec2925c",
+        "title": "TikTok 将增加 AI 商品发现与一键结账功能",
+        "date": "2026-10-07",
+        "source": "Retail Dive",
+        "url": "https://www.retaildive.com/news/tiktok-ai-powered-discovery-one-click-checkout/832326/",
+        "quote": "The social media platform is hoping to capitalize on its role as a product discovery engine by adding a conversational AI agent and simpler checkout.",
+        "role": "提供相反方向的产品计划，但不代表成交验证",
+        "sourceHash": "4b9a733709cd323a6e3495e61152acdd813de0e1630654f9aa23df2f116c22b2"
+      }
+    ],
+    "keywords": [
+      "即时结账",
+      "商品发现",
+      "增量成交",
+      "交易灵活性",
+      "商家环境"
+    ],
+    "relatedArticleIds": [
+      "radar-268c3bd04ef2e190",
+      "radar-a1a4b8557a5497e4",
+      "radar-078f46a58c796612",
+      "radar-90923df83ec2925c"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "2135869ef0b761dfeb122392ff619e4bd90bb4a14eb7582ac0f7d4181c4ee622",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-merchant-tools-vs-consumer",
+    "category": "商业与平台",
+    "question": "商家AI工作台、客服和运营智能体哪些能力可迁移到消费者导购，哪些不能直接当竞品？",
+    "title": "商家AI可借数据与流程能力，竞品归类须看选购任务",
+    "summary": "优先验证数据整合、工作流嵌入及售前售后衔接的迁移价值；Accio等商家工具不能仅凭电商定位列为直接竞品，还须确认是否替消费者完成同类选购任务。",
+    "counterpoint": "店小蜜权益侧重转化与订单流失，DeepLumen定位商家面向智能体的营销。这些供给侧能力可能补足导购信息，也可能强化成交导向，并不天然服务于消费者的选择质量。",
+    "experiment": "推演：用同一组选购题，对比接入商家资料与不接入两版导购，记录信息覆盖率、事实错误和约束匹配率，区分“只是信息更全”与“确实选择更合适”两个假设。",
+    "limits": "摘录未展示消费者端选购流程或对照结果，不能证明能力可直接复用，也不能据商家采用情况推断导购效果。",
+    "evidence": [
+      {
+        "articleId": "radar-993be4662f36dfcc",
+        "title": "跨境圈爆火的 AI，潜入了淘宝商家的后台",
+        "date": "2026-08-19",
+        "source": "新浪财经",
+        "url": "https://finance.sina.cn/stock/jdts/2026-08-19/detail-ininwiep9319771.d.html?vt=4",
+        "quote": "Accio 最早是阿里国际站面向外贸 B2B 商家 …",
+        "role": "说明Accio起点是外贸商家而非消费者",
+        "sourceHash": "d7d9304804d83af5ef83bc4b1276bb3d4000dcb364d1dc0464db203354531862"
+      },
+      {
+        "articleId": "radar-bb044d997d152eed",
+        "title": "天猫双11在即，AI店小蜜推出8大新权益为商家经营护航",
+        "date": "2026-10-13",
+        "source": "搜狐",
+        "url": "https://m.sohu.com/a/1087112260_104421?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "quote": "日前，阿里旗下AI客服产品AI店小蜜推出一组双11限时权益包，8项权益涵盖风险防控、售前转化、售后处理、订单流失洞察等电商运营全 …",
+        "role": "支持借鉴售前售后衔接并警惕转化目标差异",
+        "sourceHash": "f5784842ee81978b26a9ae39ed20b6900b33f07c9fe098e09d82529181945de8"
+      },
+      {
+        "articleId": "radar-c782fb72338da043",
+        "title": "AI 零售商家助手",
+        "date": "2025-09-05",
+        "source": "Bain",
+        "url": "https://www.bain.com/industry-expertise/retail/ai-retail-merchant-assistant/",
+        "quote": "Our AI Retail Merchant Assistant delivers this by embedding AI into existing workflows and combining proprietary data, third-party sources, and our proven best practices.",
+        "role": "支持将多源数据整合与流程嵌入列为迁移候选",
+        "sourceHash": "fd224b8b99a221810af3d869409940d94ccd22d3c7bb1291bbdef38ebe4500e5"
+      },
+      {
+        "articleId": "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+        "title": "DeepLumen 正在把 Agentic Commerce 从新的购物入口，推进为商家可以持续经营、衡量并获得销售增长的新商业渠道",
+        "date": "2026-09-29",
+        "source": "36氪",
+        "url": "https://36kr.com/p/4004240967258249",
+        "quote": "DeepLumen 是一家专注于智能体电商（Agentic Commerce）的 AI 科技公司，也是 M2AI（Marketing to AI）理念的提出者与先行者。",
+        "role": "提示面向智能体营销不等于消费者导购",
+        "sourceHash": "8ac1a73b20b234c967116259eb7056c262c40be5086f8986e3d6ed7e8a05ab88"
+      }
+    ],
+    "keywords": [
+      "商家工作台",
+      "售前售后衔接",
+      "多源数据整合",
+      "选购任务",
+      "智能体营销"
+    ],
+    "relatedArticleIds": [
+      "radar-993be4662f36dfcc",
+      "radar-bb044d997d152eed",
+      "radar-c782fb72338da043",
+      "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970"
+    ],
+    "sourceCount": 4,
+    "fingerprint": "6e939343c0595ed63f0ad24f18c84ad0cc8c3faf4c524fdb79f4522d8786cbf5",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-deep-research-handoff",
+    "category": "入口与交互",
+    "question": "长任务购物研究的结果怎样交给短路径购买，而不让用户重复输入和核验？",
+    "title": "长任务购物研究应交接决策状态，而非只跳转结账",
+    "summary": "建议优先把研究中的约束、已选商品与选择依据交给购买环节，而非只提供结账入口；系统承接核验，仅让用户确认价格、库存或方案变化，避免重述需求和全量复查。",
+    "counterpoint": "站内对话承诺不重启搜索，跨渠道结账则明确商家身份与目录供给；两者并不等于研究状态已随订单传递，省步骤也可能把核验负担留给用户。",
+    "experiment": "可试验两种同等步数的购买入口：仅带商品，或附带约束、选择依据及变化提示。比较重复输入、返回研究页和人工复查次数，区分路径缩短与决策状态承接两种假设。",
+    "limits": "摘录未证明研究上下文已接入跨渠道结账，也未提供重复核验或购买效率数据；同一上线事件的报道不能算独立验证。",
+    "evidence": [
+      {
+        "articleId": "daily-2026-06-27-ca12d684099abd",
+        "title": "Newegg 上线 AI 购物助手：实时商品目录支持装机建议",
+        "date": "2026-06-27",
+        "source": "Tech Times",
+        "url": "https://www.techtimes.com/articles/319212/20260627/ai-shopping-assistant-launches-newegg-real-time-catalog-powers-pc-build-advice.htm",
+        "quote": "Newegg launched a full conversational AI shopping assistant on June 26, 2026, letting PC builders and electronics buyers describe what they want in plain language and refine their picks through back-and-forth dialogue — without ever restarting the search.",
+        "role": "支持站内多轮研究无需重新启动搜索",
+        "sourceHash": "b219d8dd2e26601bdb3ff2e0820ccc59063ddbb85bcd5e4e38d44f85aa839003"
+      },
+      {
+        "articleId": "radar-f73552d1dde94d3c",
+        "title": "像经验丰富的科技朋友：Newegg 发布对话式 AI 网购体验",
+        "date": "2026-06-29",
+        "source": "Retail Technology Innovation Hub",
+        "url": "https://retailtechinnovationhub.com/home/2026/6/28/experienced-technology-friend-newegg-takes-wraps-off-conversational-ai-online-shopping-experience",
+        "quote": "Newegg, a specialist in computer and technology products, has unveiled a conversational AI shopping experience that lets people move from idea to cart in one place.",
+        "role": "支持从想法到购物车可在同处完成",
+        "sourceHash": "f2a3664bab59db7ca42fa4b523100740863ff6c8d18a9dcfb9215292a9852e1b"
+      },
+      {
+        "articleId": "radar-f923619a23dcda71",
+        "title": "Newegg 添加 Google UCP 检出集成",
+        "date": "2026-10-13",
+        "source": "Digital Commerce 360",
+        "url": "https://www.digitalcommerce360.com/2026/10/12/newegg-adds-google-ucp-checkout-integration/",
+        "quote": "By integrating UCP, which Google co-developed with retailers and commerce platforms including Etsy, Shopify, Target, Walmart and Wayfair, Newegg remains the merchant of record while providing Google with product catalog data used in AI-powered shopping experiences.",
+        "role": "仅证实目录供给与商家身份，未证实上下文传递",
+        "sourceHash": "7a73caa0288e053389e702a4c6499a4bf9a3a1a0e206ab59817cf163ee54e63b"
+      }
+    ],
+    "keywords": [
+      "决策状态交接",
+      "约束继承",
+      "差异核验",
+      "跨渠道结账"
+    ],
+    "relatedArticleIds": [
+      "daily-2026-06-27-ca12d684099abd",
+      "radar-f73552d1dde94d3c",
+      "radar-f923619a23dcda71"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "78efee503c7446a9006470e246400c7985696f421c567d3f1971981bc4ee102d",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-constraint-evaluation",
+    "category": "模型与评测",
+    "question": "语义相关但违反一票否决条件的商品如何评价？平均相关性指标会掩盖什么？",
+    "title": "语义相关不等于可买，否决条件应先于平均相关性评价",
+    "summary": "评价上应先检查明确的一票否决条件，再比较语义相关性。违反硬条件的商品应判为不合格，而非用其他相关项补分；平均相关性可能掩盖少量但致命的违规推荐。",
+    "counterpoint": "材料中的电商优化口径强调让商品被发现、理解和推荐，但曝光资格不等于满足购买约束；排序材料还要求裁判正反顺序选择一致，提示偏好判定本身也可能不稳定。",
+    "experiment": "建议构造语义相近、仅硬条件合规性不同的商品对，分别报告违规入选率与合规商品相关性；交换展示顺序并记录弃权，以区分约束识别失败与位置偏差两个假设。",
+    "limits": "摘录未给出具体否决条件、测试结果或指标分布，不能认定现有模型普遍失效，也不能量化平均指标的掩盖程度。",
+    "evidence": [
+      {
+        "articleId": "radar-ec70d4c7f4056926",
+        "title": "ZooWork-ShopRanker：当AI学会像真正的导购员一样思考",
+        "date": "2026-10-07",
+        "source": "科技行者",
+        "url": "https://www.techwalker.com/2026/1007/3201154.shtml",
+        "quote": "只有当一个裁判在正反两个顺序下都选了同一个商品，才算它真的\"表态\"了，否则就算它弃权。",
+        "role": "支持用正反顺序一致性检查裁判稳定性",
+        "sourceHash": "76b155c20cc3efbe2744cac4fe5e8c7483fbd8875db7a69bd88a217bcea4c502"
+      },
+      {
+        "articleId": "radar-aa44671f083815fc",
+        "title": "电商 AI SEO：如何为大模型优化线上店铺",
+        "date": "2026-06-30",
+        "source": "Semrush",
+        "url": "https://www.semrush.com/blog/ecommerce-ai-seo/",
+        "quote": "Ecommerce AI SEO is the practice of optimizing your online store so that AI systems can find, understand, and recommend your products.",
+        "role": "提供商品可发现与可推荐的优化口径作对照",
+        "sourceHash": "9f1d612b50f17748b0f3761e71200e72c68b266dda1325ddb330a057425edcaa"
+      }
+    ],
+    "keywords": [
+      "一票否决条件",
+      "平均相关性",
+      "违规入选率",
+      "顺序偏差"
+    ],
+    "relatedArticleIds": [
+      "radar-ec70d4c7f4056926",
+      "radar-aa44671f083815fc"
+    ],
+    "sourceCount": 2,
+    "fingerprint": "cb4a6737bbb94c8b200cb9bed14ab65702a18cd681573ad981dd1c8f61e95b3f",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-comparison-entry",
+    "category": "入口与交互",
+    "question": "详情页直接对比与进入聊天后对比分别适合什么任务？为什么使用后转化率会误导？",
+    "title": "详情页宜快比、聊天宜澄清，转化须排除用户自选择",
+    "summary": "作为设计推演，候选商品和比较维度已明确时，优先详情页直接对比；预算、用途或取舍尚不清楚时，进入聊天澄清需求后再比，避免简单任务多走一步。",
+    "counterpoint": "对比支持受到认可，不等于聊天入口更优。使用后转化率高，可能只是高购买意愿者更愿意使用；入口增加摩擦、筛掉犹豫者，也可能抬高该指标。",
+    "experiment": "建议对同类流量随机分配直显与聊天入口，按需求明确度分层，比较全体分流用户的转化和耗时，区分“对比真正促成购买”与“入口筛选高意愿者”两种假设。",
+    "limits": "摘录仅确认唯品会内嵌入口下线，未说明原因或聊天承接效果；也没有转化数据，不能认定任一路径更优。",
+    "evidence": [
+      {
+        "articleId": "radar-08cfa49ebf13a829",
+        "title": "唯品会自研 AI 助手“AI 小唯”低调上线，灰度试水商品 AI 对比功能",
+        "date": "2026-10-12",
+        "source": "IT之家",
+        "url": "https://www.ithome.com/1/011/927.htm",
+        "quote": "该前端直显链路近期完成改版，原商品页内嵌的 AI 对比入口已下线。",
+        "role": "确认内嵌入口下线，不支持改版效果判断",
+        "sourceHash": "0c01a5f7ee54ebb248d630fde0635ab48c953a6a263b8206833766a09f7b40d4"
+      },
+      {
+        "articleId": "radar-47a2914f9b3b5c69",
+        "title": "当 AI 开始替我们购物",
+        "date": "2026-10-08",
+        "source": "kpmg.com",
+        "url": "https://kpmg.com/de/en/media/press-releases/2026/10/consumer-snapshot-when-ai-does-our-shopping-for-us.html",
+        "quote": "Support with research, product comparisons and the evaluation of alternatives is particularly well accepted.",
+        "role": "支持研究与对比需求，不证明聊天入口更优",
+        "sourceHash": "57f24d7c68083315ce492fcb1f1a912573a72d3bbfd721bdeacd7e68fcab41f4"
+      }
+    ],
+    "keywords": [
+      "详情页对比",
+      "聊天澄清",
+      "用户自选择",
+      "全流量转化",
+      "随机分流"
+    ],
+    "relatedArticleIds": [
+      "radar-08cfa49ebf13a829",
+      "radar-47a2914f9b3b5c69"
+    ],
+    "sourceCount": 2,
+    "fingerprint": "64d5854c78cfe65a456f7bfc3afb44d68710224b1fa9f92b583ec4debaaf6bd1",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-closet-gap",
+    "category": "用户与增长",
+    "question": "已有衣橱等用户存量资产如何改变推荐目标？不买也合理时导购如何商业化？",
+    "title": "已有衣橱让导购先判断是否还缺一件，商业化应测试服务收费",
+    "summary": "已有衣橱应把推荐目标从挑选商品改为补足穿搭需求：先判断旧衣能否满足，再推荐新增购买。若不买也能获得价值，可推演按搭配服务收费，而非只依赖成交。",
+    "counterpoint": "Alta允许数字化已有衣物，同时引入Gap商品；Ask Ralph则突出品牌风格。存量资产既可能减少购买，也可能成为品牌加购入口，接入衣橱不等于改变销售目标。",
+    "experiment": "建议对同一穿搭任务并列展示旧衣方案与补购方案，测试付费搭配和免费导购两种版本，记录方案采用、付费及成交，区分用户愿为复用建议付费与服务只能靠购买补贴两个假设。",
+    "limits": "摘录仅确认衣橱录入与品牌导购方向，未披露推荐排序、收费或效果，不能证明减少购买能形成可持续收入。",
+    "evidence": [
+      {
+        "articleId": "radar-3feae84bb92744a4",
+        "title": "Gap 通过 Alta Daily 和新的商品发现工具拓展 AI 购物",
+        "date": "2026-10-08",
+        "source": "Digital Commerce 360",
+        "url": "https://www.digitalcommerce360.com/2026/10/07/gap-expands-ai-shopping-with-alta-daily-and-new-discovery-tools/",
+        "quote": "Alta users can also digitize clothes they already own.",
+        "role": "支持把已有衣物纳入推荐约束的设计推演",
+        "sourceHash": "677866123f9a51017058d006e45fe2aaedd12a7a4787c102fdb4b01cf7e8ba26"
+      },
+      {
+        "articleId": "radar-3feae84bb92744a4",
+        "title": "Gap 通过 Alta Daily 和新的商品发现工具拓展 AI 购物",
+        "date": "2026-10-08",
+        "source": "Digital Commerce 360",
+        "url": "https://www.digitalcommerce360.com/2026/10/07/gap-expands-ai-shopping-with-alta-daily-and-new-discovery-tools/",
+        "quote": "As part of that push, Gap is bringing its products into Alta Daily, the AI-powered digital …",
+        "role": "提示衣橱平台也可同时承接品牌商品供给",
+        "sourceHash": "677866123f9a51017058d006e45fe2aaedd12a7a4787c102fdb4b01cf7e8ba26"
+      },
+      {
+        "articleId": "daily-2025-09-09-93901c9caada54",
+        "title": "Ralph Lauren 推出 Ask Ralph，打造全新对话式 AI 购物体验",
+        "date": "2025-09-09",
+        "source": "Ralph Lauren Corporation",
+        "url": "https://corporate.ralphlauren.com/pr_250909_AskRalph.html",
+        "quote": "Powered by Microsoft Azure OpenAI, new Ralph Lauren App feature puts brand’s iconic take on style in consumers’ hands NEW YORK — September 9, 2025 — Ralph Lauren (NYSE:RL) today introduced Ask Ralph , a new AI-powered conversational shopping experience that invites consumers to engage with, and be inspired by, Ralph Lauren’s unique and iconic take on style.",
+        "role": "提供以品牌风格为核心的导购目标对照",
+        "sourceHash": "f4b1cd5dfcd35776a8bdf18c1484940aa89fd69b42eb0eafb59f43e2503c8ba4"
+      }
+    ],
+    "keywords": [
+      "数字衣橱",
+      "旧衣复用",
+      "补购判断",
+      "搭配服务收费"
+    ],
+    "relatedArticleIds": [
+      "radar-3feae84bb92744a4",
+      "radar-3feae84bb92744a4",
+      "daily-2025-09-09-93901c9caada54"
+    ],
+    "sourceCount": 2,
+    "fingerprint": "d8e824e015afd3793b869b9aa05f4502043f9e712d5568dc5d182cddc4f78eb3",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-unique-stock",
+    "category": "商品与数据",
+    "question": "一物一库存的二手/奢侈品场景如何处理保存对话后的售罄与替代？",
+    "title": "一物一库存的对话恢复应先验库存，再按偏好找替代",
+    "summary": "建议将保存对话视为偏好记录，而非商品承诺。恢复时先核验原商品库存；已售则保留原选择及售罄标记，经用户确认替代条件后再推荐在售商品。",
+    "counterpoint": "Ask Ralph强调风格启发，TRR则明确每件孤品售出即消失且每日上新。保存风格意图不等于保存可购对象；自动换成相似款可能维持流畅，却掩盖用户对特定单品的执念。",
+    "experiment": "可试验售罄后的两条路径：按原偏好展示在售替代，或先询问品牌、尺码、成色等不可妥协项。比较替代接受率与退出率，区分用户追求风格延续还是锁定具体单品。",
+    "limits": "摘录未说明保存对话、库存核验或替代功能是否存在，也不能证明风格相似足以促成二手奢侈品购买。",
+    "evidence": [
+      {
+        "articleId": "radar-4fbea4d5142dcda7",
+        "title": "The RealReal 借助 Google Cloud 的 Gemini Enterprise 扩展 Ask TRR 购物智能体",
+        "date": "2026-10-08",
+        "source": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/the-realreal-expands-ask-trr-ai-shopping-agent-with-google-clouds-gemini-enterprise-302901904.html",
+        "quote": "At The RealReal, every item is one-of-one: once a piece sells, it's gone for good, and new inventory arrives every day.",
+        "role": "支持孤品售罄不可恢复、替代池随上新变化",
+        "sourceHash": "0dd8089bae598d6aca6a79f13a4d6d968bd185b194fd12ad4a8b4555398dff95"
+      },
+      {
+        "articleId": "daily-2025-09-09-93901c9caada54",
+        "title": "Ralph Lauren 推出 Ask Ralph，打造全新对话式 AI 购物体验",
+        "date": "2025-09-09",
+        "source": "Ralph Lauren Corporation",
+        "url": "https://corporate.ralphlauren.com/pr_250909_AskRalph.html",
+        "quote": "Powered by Microsoft Azure OpenAI, new Ralph Lauren App feature puts brand’s iconic take on style in consumers’ hands NEW YORK — September 9, 2025 — Ralph Lauren (NYSE:RL) today introduced Ask Ralph , a new AI-powered conversational shopping experience that invites consumers to engage with, and be inspired by, Ralph Lauren’s unique and iconic take on style.",
+        "role": "提供风格启发口径，与孤品可购性形成对照",
+        "sourceHash": "f4b1cd5dfcd35776a8bdf18c1484940aa89fd69b42eb0eafb59f43e2503c8ba4"
+      }
+    ],
+    "keywords": [
+      "一物一库存",
+      "对话恢复",
+      "售罄标记",
+      "替代约束"
+    ],
+    "relatedArticleIds": [
+      "radar-4fbea4d5142dcda7",
+      "daily-2025-09-09-93901c9caada54"
+    ],
+    "sourceCount": 2,
+    "fingerprint": "a6a2ffb34ecb1912e4d712cbb67f338a98b03ba0e1ad5aaeabfe4d02d6751da5",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-merchant-defaults",
+    "category": "商业与平台",
+    "question": "默认给商家开通AI渠道能拉高供给，但商家对费用、归因、退出的控制应如何设计？",
+    "title": "默认开通应限于商品发现，收费与交易授权另行确认",
+    "summary": "建议将默认开通限于商品发现，不连带收费或交易授权；先让商家确认费率与归因口径，再开放交易，并提供分渠道退出。这是基于材料的设计推演，而非已验证结论。",
+    "counterpoint": "商品源依赖增强意味着接入可能影响可见性，但结构化目录仍是发现门槛；进入交易后还需承担支付、退货与客服要求。默认接入扩大覆盖，不等于商家获得净增收益。",
+    "experiment": "可试验免费发现层与另行确认的交易层：展示归因窗口、去重订单及费用明细，设置一键停用和存量订单处理说明；用随机留出组区分新增成交与原渠道订单迁移。",
+    "limits": "摘录没有默认开通、费率、归因或退出的实际方案，也无增量收益数据，不能据此确定收费水平或证明默认开通有效。",
+    "evidence": [
+      {
+        "articleId": "radar-d9ad558e0da2efc7",
+        "title": "ChatGPT 购物推荐目前更多依赖商家商品数据源",
+        "date": "2026-10-08",
+        "source": "ALM Corp",
+        "url": "https://almcorp.com/news/chatgpt-shopping-pulls-product-picks-merchant-feeds/",
+        "quote": "ChatGPT Shopping is growing more reliant on merchant feeds than the open web to power its product recommendations.",
+        "role": "支持商品源接入可能影响推荐可见性的判断",
+        "sourceHash": "e21587a7faa4bedb62a44ff8f8dcf1499f748660440dc36c0696329635d8619b"
+      },
+      {
+        "articleId": "radar-7d6e904671a221e3",
+        "title": "Commerce 推出商品目录优化工具，提高 AI 商品发现能力",
+        "date": "2026-10-01",
+        "source": "Digital Commerce 360",
+        "url": "https://www.digitalcommerce360.com/2026/09/30/commerce-product-catalogs-ai-discovery-enrichment-tools/",
+        "quote": "“AI agents can only answer questions about your products as well as your data allows,” said Sharon Gee, …",
+        "role": "挑战仅靠默认接入就能获得有效供给的假设",
+        "sourceHash": "33c6e3c0ae16e84c2cba03bbffb8ff4b83278ba711cadfdde948a15291b7fda1"
+      },
+      {
+        "articleId": "radar-69f57827c201cd76",
+        "title": "AI 智能体带来顾客，但商家仍需促成最终成交",
+        "date": "2026-10-06",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-bring-shoppers-but-merchants-must-close-the-sale/",
+        "quote": "Pavan HS , senior director of product, agentic commerce at Visa , told PYMNTS that merchants are approaching AI agents as another route to a sale, with the same requirements surrounding payments, fraud, loyalty, returns and customer service that apply elsewhere.",
+        "role": "支持交易授权需考虑支付及售后责任的判断",
+        "sourceHash": "576d31f4ac699b9cc470bc5d8cfd4b5e14b685df6528730e49b282cd60c6d660"
+      }
+    ],
+    "keywords": [
+      "分层授权",
+      "归因窗口",
+      "渠道退出",
+      "增量成交"
+    ],
+    "relatedArticleIds": [
+      "radar-d9ad558e0da2efc7",
+      "radar-7d6e904671a221e3",
+      "radar-69f57827c201cd76"
+    ],
+    "sourceCount": 3,
+    "fingerprint": "5038585ccdd26a5b92d4a823fac248a8159266b9d362b33f2dadafe24a8735b1",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "echo-channel-ownership",
+    "category": "商业与平台",
+    "question": "平台开放代理会失去广告和客户关系，但封锁会不会丢需求入口？不同平台策略如何比较？",
+    "title": "开放代理应分层比较，守住成交不等于守住广告价值",
+    "summary": "封锁可能错失代理带来的需求，但材料未证实入口已流失。应优先比较推荐决策权与成交权限：Shopify放开代理成交，亚马逊即使保住订单，也可能承受广告价值外移。",
+    "counterpoint": "沃尔玛开放的是支付方式，并非代理权限，其押注是仍能保留身份与忠诚关系；亚马逊向零售商输出自有AI工具，也不等于接纳外部代理。开放程度不能只按能否结账排序。",
+    "experiment": "建议推演：小流量对比允许与阻止外部代理成交，同时记录增量订单、广告收入和账户绑定率，区分“开放承接新增需求”与“开放仅迁移原有订单并稀释收益”两个假设。",
+    "limits": "短摘录没有封锁前后的流量、利润或客户留存数据，不能断言开放必然增收，也不能把支付开放等同于代理开放。",
+    "evidence": [
+      {
+        "articleId": "radar-8dfae19f11de23ec",
+        "title": "Shopify 向基于浏览器的 AI 智能体开放结账",
+        "date": "2026-09-28",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+        "quote": "While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users’ behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
+        "role": "支持比较代理成交开放与封锁两种路径",
+        "sourceHash": "76d76a0bcc473c4b75e39f891e1fffcdffd7c6fef0590db41b9044a3aba6d911"
+      },
+      {
+        "articleId": "radar-f5f6f70c2130b11b",
+        "title": "AI 可能先冲击 Amazon 的广告飞轮，再影响电商业务",
+        "date": "2026-10-01",
+        "source": "TradingView",
+        "url": "https://www.tradingview.com/news/benzinga:dc24f9b7a094b:0-ai-could-threaten-amazon-s-advertising-flywheel-before-e-commerce/",
+        "quote": "If AI agents capture that decision-making layer, Amazon could find itself defending an advertising business that has become too important to lose — even when the packages keep arriving at the door.",
+        "role": "支持订单保留仍可能伴随广告价值外移",
+        "sourceHash": "94db746c19bd89a65c55838e68ef1cb79a3c27795ff4f17c7945c92484229ee4"
+      },
+      {
+        "articleId": "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+        "title": "Walmart 开放结账，Amazon 构建 AI 优势",
+        "date": "2026-09-11",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/retail/2026/walmart-expands-tap-to-pay-as-amazon-builds-its-ai-capacity/",
+        "quote": "Walmart is loosening control at checkout to strengthen the broader customer relationship, betting that payments can become more open as long as identity, loyalty, data and engagement stay inside its ecosystem.",
+        "role": "支持将支付开放与客户关系保留分层讨论",
+        "sourceHash": "03334923a9966aaac4869b80e0cbaf006c81a5416a805cc6616bf9a8694be253"
+      },
+      {
+        "articleId": "radar-4f66a874da0dacc2",
+        "title": "Amazon 开始向其他零售商出售 AI 购物技术",
+        "date": "2026-05-27",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/27/amazon-ai-shopping-alexa-kate-spade.html",
+        "quote": "The new service allows retailers to launch their own AI shopping tools tailored to their storefront, catalog and branding \"in as little as 60 days,\" Amazon said.",
+        "role": "支持区分自有工具输出与外部代理接入",
+        "sourceHash": "521710c3a0a85d1b3575132dd1cbecde325686f339b976640712f58c25c5e648"
+      }
+    ],
+    "keywords": [
+      "代理成交权限",
+      "推荐决策权",
+      "广告价值外移",
+      "客户身份",
+      "增量订单"
+    ],
+    "relatedArticleIds": [
+      "radar-8dfae19f11de23ec",
+      "radar-f5f6f70c2130b11b",
+      "2026-09-11-pymnts-com-walmart-opens-checko-382681457c",
+      "radar-4f66a874da0dacc2"
+    ],
+    "sourceCount": 4,
+    "fingerprint": "cd28c8835741ef5959bf1174e87498d3d7f6d3e072351e5cee18922c39ceb3a7",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "多材料对照的产品研究推演",
+    "kind": "synthesis",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-add787224281a5db",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "商品页若成为发现入口应减少对首页叙事的依赖",
+    "summary": "如果“商品页成为新主页”的判断成立，导购内容投入应优先补足单页可引用的适用范围、限制与差异依据，而非要求代理先读懂品牌首页。代价是商品页维护负担增加，品牌故事在推荐比较中的权重也可能下降。",
+    "counterpoint": "这是演讲者对发现入口的判断，并非流量迁移证据；代理也可能依赖平台目录或第三方评价，改造商品页未必改变推荐。",
+    "experiment": "让同一导购任务分别仅访问商品页和访问完整站点，比较推荐依据缺失与错误引用。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-add787224281a5db"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-add787224281a5db",
+        "title": "FT Live 2026:未来零售评论:为网络商店解锁代理商的下一阶段",
+        "source": "Retail Technology Innovation Hub",
+        "date": "2026-10-13",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/12/ft-live-2026-future-of-retail-review-unlocking-the-next-phase-of-agentic-commerce-for-online-stores",
+        "quote": "“Your product page is your new home page,” when it comes to discovery in the agentic AI era, said Philip Hall, MD, Europe at Rithum, during FT Live 2026: Future of Retail in London last week.",
+        "role": "该材料的直接依据",
+        "sourceHash": "1660554c7d51a7ecccca7a645543eb33a8d247d0e072e0cc2202a57eb5b57417"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "1d19c0bee4571dcce2d9f3d8f7b408a0b0a843694409a62f9a188312f4537b61",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-6aae5344d31d634f",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "责任框架落后线索支持导购与付款权限分层",
+    "summary": "如果技术快于责任框架的描述成立，将支付代理迁移到导购时，应把推荐权限与动用资金权限分开，付款升级以授权和争议责任可说明为前提。这样牺牲无停顿购买流程，但避免把接受推荐误当成接受扣款。",
+    "counterpoint": "摘录只有高管判断，没有具体责任缺口；问题可能是机构间赔付安排，而不是消费者授权不足，重复确认未必解决争议。",
+    "experiment": "用一笔代理误购情景，要求参与方分别说明授权凭据与赔付责任，判断缺口究竟在哪一层。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "电商观察"
+    ],
+    "relatedArticleIds": [
+      "radar-6aae5344d31d634f"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-6aae5344d31d634f",
+        "title": "支付学说,AI代理商必须获得移动钱财的权利",
+        "source": "PYMNTS",
+        "date": "2026-10-13",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/paymentology-ai-agents-must-earn-the-right-to-move-money/",
+        "quote": "“The technology is moving faster than the liability frameworks,” Paymentology Chief Technology Officer …",
+        "role": "该材料的直接依据",
+        "sourceHash": "b6bc7aad9c4645de3765902d1087db70f205c67c49d7c8d35ea4193014b982c4"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "19fc9ffa17b67414d2c5763bb8256494a9622ccec0916e3b19bd66db4aecfac3",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-a14c97f19ce9a8d3",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "直接开通扩大入口却不等于供给可被导购调用",
+    "summary": "1688宣布买家和源头厂商可直接开通Accio，明确的是账户入口扩展。导购若借此拓展选品，应先纳入能验证商品资料和采购条件可获取的供给，而非按可开通规模扩充候选池；代价是初期覆盖面小于公告规模。",
+    "counterpoint": "可开通不代表已经使用，也不证明开通后商品自动进入推荐范围；“全球电商工作台”名称不能单独证明交易地区或履约覆盖。",
+    "experiment": "沿买家与厂商各自的开通路径核验，是否无需另行对接便能检索商品并取得有效采购条件。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-a14c97f19ce9a8d3"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-a14c97f19ce9a8d3",
+        "title": "1688全面接入AI电商工作台Accio",
+        "source": "雷峰网",
+        "date": "2026-10-13",
+        "url": "https://www.leiphone.com/category/industrynews/geJK2UpprDrFwEMI.html",
+        "quote": "10月13日，阿里旗下数字供应链平台1688宣布，即日起，平台逾1亿年度活跃买家和超100万源头厂商，均可直接开通全球电商AI工作台Accio。",
+        "role": "该材料的直接依据",
+        "sourceHash": "a3aecec546e083923d2d31afb19879ed90eceecdd1b6565bf289506e935f6618"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "0cf19edc41a73de9c04073131314f781fe5ca9cefe8375b0920ba52dcfcb9f48",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-a0bced0e43ca192f",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "零售展会规模只能扩充候选不能证明导购成熟",
+    "summary": "如果预告中的展商聚集成立，它适合扩充技术采购候选，而不足以决定导购路线。迁移到导购选型的必要条件，是供应商能用可核验商品数据完成同一推荐任务；应据此筛选而非按展位声量排序，代价是评估更慢。",
+    "counterpoint": "展商、决策者和会议数量是活动规模口径，不能说明导购供应商占比或部署成熟度；现场演示还可能只覆盖预设商品。",
+    "experiment": "向候选展商提交同一份含缺失字段的商品资料，观察其能否标出信息缺口而非补造推荐理由。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-a0bced0e43ca192f"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-a0bced0e43ca192f",
+        "title": "Tech for Retail 2026预览:零售领袖和技术创新者设定在巴黎见面",
+        "source": "Retail Technology Innovation Hub",
+        "date": "2026-10-13",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/12/tech-for-retail-2026-preview-retail-leaders-and-technology-innovators-set-to-meet-in-paris",
+        "quote": "Tech for Retail will return to Paris on 30th November and 1st December, bringing together more than 420 exhibitors, 15,000 retail decision-makers and over 200 conferences at Paris Expo Porte de Versailles.",
+        "role": "该材料的直接依据",
+        "sourceHash": "e09e0fc1dcd0bc0f91f3fe2228dcf2bc0ca483afd8b532e1f80d9951b7ee40cd"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "1fea6a620be1d7ccb38f1363c6abd400c3d3de4a17945f99c9a9586e0661425a",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-f923619a23dcda71",
+    "kind": "spark",
+    "category": "商品与数据",
+    "title": "目录进入谷歌导购不应遮蔽新蛋交易主体身份",
+    "summary": "新蛋提供目录数据用于谷歌AI购物，同时保留交易商户身份，意味着推荐入口与交易主体可以分离。导购应在交接结账时突出商户身份并核对交易条件，而非沿用推荐时的摘要；代价是增加核验步骤与等待。",
+    "counterpoint": "保留交易商户身份不等于资料已说明售后入口、目录更新频率或价格锁定机制；协议接入也不能证明跨界面的条件始终一致。",
+    "experiment": "对照同一商品在AI推荐与结账交接时的商户、价格及退货条件，检查差异是否明确提示。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "Newegg",
+      "Google",
+      "商品数据",
+      "交易协议",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-f923619a23dcda71"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-f923619a23dcda71",
+        "title": "Newegg 添加 Google UCP 检出集成",
+        "source": "Digital Commerce 360",
+        "date": "2026-10-13",
+        "url": "https://www.digitalcommerce360.com/2026/10/12/newegg-adds-google-ucp-checkout-integration/",
+        "quote": "By integrating UCP, which Google co-developed with retailers and commerce platforms including Etsy, Shopify, Target, Walmart and Wayfair, Newegg remains the merchant of record while providing Google with product catalog data used in AI-powered shopping experiences.",
+        "role": "该材料的直接依据",
+        "sourceHash": "7a73caa0288e053389e702a4c6499a4bf9a3a1a0e206ab59817cf163ee54e63b"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "d33ffe5605cb2d80d6bc1f2f28c6f45a787e7ed61618c257c112fb25f885c3ad",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-bb044d997d152eed",
+    "kind": "spark",
+    "category": "商品与数据",
+    "title": "双十一客服权益扩展不宜直接作为导购承诺",
+    "summary": "如果摘录所述权益覆盖成立，客服向导购迁移的价值线索是售前与风险、售后信息能否关联。产品应先用可追溯的售后规则约束促购话术，再追求转化；代价是部分成交催促被抑制，且限时权益需要到期降级安排。",
+    "counterpoint": "权益包可能只是分开的服务或额度，并不证明功能间数据互通；订单流失洞察也未必能解释流失原因，更不能直接指导促购。",
+    "experiment": "选取涉及退货限制的售前咨询，核验回答能否引用有效规则，并检查权益到期后是否仍会作同样承诺。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "天猫",
+      "履约售后",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-bb044d997d152eed"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-bb044d997d152eed",
+        "title": "天猫双11在即，AI店小蜜推出8大新权益为商家经营护航",
+        "source": "搜狐",
+        "date": "2026-10-13",
+        "url": "https://m.sohu.com/a/1087112260_104421?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "quote": "日前，阿里旗下AI客服产品AI店小蜜推出一组双11限时权益包，8项权益涵盖风险防控、售前转化、售后处理、订单流失洞察等电商运营全 …",
+        "role": "该材料的直接依据",
+        "sourceHash": "f5784842ee81978b26a9ae39ed20b6900b33f07c9fe098e09d82529181945de8"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "7baf28ac5732101bae40df7ca5bcb5877efcd9dca59bdcfc700c739e885b444d",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-73f141984d591efb",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "支付网络定位不能直接兑换导购自动成交覆盖",
+    "summary": "如果Revolut Pay作为代理支付层的描述成立，导购接入仍须核实目标商户、地区和账户是否支持该路径。应只对核验通过的组合提供自动购买，其余保留跳转结账；代价是体验分叉，也无法把支付网络覆盖直接计作自动成交覆盖。",
+    "counterpoint": "原文将其定位于英国及欧洲经济区，但定位不等于所有商户和消费者均已可用；“最重大结构动作”属于媒体评价而非比较实证。",
+    "experiment": "沿目标市场已有支付路径核验代理能否实际发起购买，并区分商户不支持、账户受限与授权失败。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "交易协议"
+    ],
+    "relatedArticleIds": [
+      "radar-73f141984d591efb"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-73f141984d591efb",
+        "title": "Revolutions Transforms 支付网络 Into AI-Agent Rail Ahead of Protocol Shakeout 互联网档案馆的存檔,存档日期2013-12-02",
+        "source": "Tech Times",
+        "date": "2026-10-13",
+        "url": "https://www.techtimes.com/articles/328876/20261013/revolut-converts-payment-network-ai-agent-rail-ahead-protocol-shakeout.htm",
+        "quote": "Revolut has made the most significant structural move yet in European fintech's race to own agentic commerce infrastructure, positioning Revolut Pay as the payment layer through which AI agents can autonomously complete purchases on behalf of consumers across the UK and European Economic Area.",
+        "role": "该材料的直接依据",
+        "sourceHash": "ca02ac52b0140beee8650cdb0ba6e0c431687c161ea1e08505bbc55c5e7d24d6"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "08d17f9f52c03fcb6b3684e1a726b8aa9d3f9a74eb7f068eae38b1efe6a2e8a5",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-3e7a6c62fe036525",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "消费者使用意向与零售商准备度不能直接相减",
+    "summary": "消费者计划在至少一个购物环节使用AI，与零售商自报准备交付不是同一口径。导购应先验证礼物发现或商品比较等具体环节的需求，再决定是否投入交易自动化；代价是暂缓端到端布局，但不把宽泛意向当成代购授权。",
+    "counterpoint": "摘录未给出调查样本、准备度定义及环节分布；消费者可能只想获取灵感，零售商也可能按更高的全流程标准回答准备情况。",
+    "experiment": "让目标用户选择实际愿意交给AI的购物环节，再按同一环节询问商户可支持程度，比较口径对齐后的差距。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "履约售后",
+      "用户研究",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-3e7a6c62fe036525"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-3e7a6c62fe036525",
+        "title": "AI如何在2026年重塑假日购物:从发现到交付",
+        "source": "Capgemini",
+        "date": "2026-10-12",
+        "url": "https://www.capgemini.com/insights/expert-perspectives/how-ai-is-reshaping-holiday-shopping-in-2026/",
+        "quote": "New research reveals that 65% of consumers plan to use AI for at least one part of their holiday shopping in 2026, but only 8% of retailers say they’re ready to deliver.",
+        "role": "该材料的直接依据",
+        "sourceHash": "74b869c088af7474d7d091171449b380a5f7a5b961beddc9d1a8b7aaa5394d5a"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "2788f7e16b021ded6a251c919dabb566c322d1c54cb4ee85f9691a4d0a013a5d",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-11cc8c14dfdb6d30",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "前线减员压力下，导购应减少店员操作负担",
+    "summary": "资料将前线提速与人员减少并列，迁移到导购的前提是助手能接入店员实际使用的商品信息。产品宜优先提供接待中可直接引用的短答案，而非要求完整录入顾客画像；代价是减少个性化依据。",
+    "counterpoint": "这是零售执行压力的描述，不是导购成效证据。短答案若省略库存或适用条件，可能把操作负担转成店员核验负担。",
+    "experiment": "在同类接待任务中比较短答案与画像录入方案，记录操作步骤、核验次数及关键信息遗漏。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-11cc8c14dfdb6d30"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-11cc8c14dfdb6d30",
+        "title": "下一个以AI为核心的零售技术时代",
+        "source": "Retail Dive",
+        "date": "2026-10-12",
+        "url": "https://www.retaildive.com/spons/the-next-era-of-retail-tech-with-ai-at-the-core/832339/",
+        "quote": "The frontline is being asked to move faster with fewer people and the systems supporting them have to evolve just as quickly.",
+        "role": "该材料的直接依据",
+        "sourceHash": "709dfbe295744f4294beb1a6316ab5809437de141017bc625f94f812642b659a"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "6f5e9d7fc62bc9d7c8cd58475bd9e58d350e48844d9c0be37d19aca3fe9cecdf",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-08cfa49ebf13a829",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "商品对比灰度应先验证差异能否回溯到来源",
+    "summary": "如果该描述成立，标题所称商品AI对比灰度可先验证“差异是否有来源”，而非扩展助手入口。对比页宜为缺失属性留空并提供商品页依据；代价是比较表不够完整，却能检验它是否值得辅助选购。",
+    "counterpoint": "正文在“支持文字与语”处截断，上线消息又来自知情人士；无法确认对比入口、属性范围及灰度人群，更不能补全交互能力。",
+    "experiment": "确认灰度入口后，选取属性缺失的商品进行对比，核查差异能否回溯商品页、缺失项是否被补造。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
       "商品对比"
     ],
@@ -49,25 +2149,96 @@
         "title": "唯品会自研 AI 助手“AI 小唯”低调上线，灰度试水商品 AI 对比功能",
         "source": "IT之家",
         "date": "2026-10-12",
-        "quote": "该前端直显链路近期完成改版，原商品页内嵌的 AI 对比入口已下线。",
-        "quoteZh": "唯品会把商品详情页直接弹出的 AI 对比模块下线，并将选择多个商品做对比的路径接入 AI 小唯。",
-        "url": "https://www.ithome.com/1/011/927.htm"
+        "url": "https://www.ithome.com/1/011/927.htm",
+        "quote": "10 月 12 日下午消息，据知情人士向新浪科技独家透露，唯品会近期上线了自研 AI 助手“ AI 小唯 ”，由唯品会大模型团队开发，支持文字与语 …",
+        "role": "该材料的直接依据",
+        "sourceHash": "0c01a5f7ee54ebb248d630fde0635ab48c953a6a263b8206833766a09f7b40d4"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "15957cdd79c6babfdb7fe19d4c31927bbac3f1f18dbf27b238cd45ec992fa4cb",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "05b3f25b6a25829913888b9ce5266ee4b2313eaf53613a32ebea7eca03d60002",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   },
   {
-    "id": "case-radar-8d3d887daddec643",
-    "title": "智能体能付款之后，订单状态里仍缺一张“承诺验收单”",
-    "summary": "这条材料真正指向的不是更细的支付限额，而是售后判断。导购代买应在下单时保存用户要求、商品／服务承诺和取消条件，之后用它们核对交付；仅保存交易流水，发生争议时无法解释究竟哪里没有完成。",
-    "counterpoint": "文章还提出 AI 会降低发起投诉的成本。若购物代理能批量申请退款，却没有对应证据，商家处理成本可能反过来变成智能体渠道附加费。因此代办售后应优先生成完整证据，而不是尽可能多地自动申诉。",
-    "experiment": "用“扣款成功但服务未提供”“部分交付”“履约完成但用户不满意”三类订单测试：能否区分事实违约与主观偏好，并输出不同的退款依据。",
+    "id": "spark-radar-0ee15d7815fe8a47",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "云电商平台定位尚不足以证明代理交易就绪",
+    "summary": "材料只确认Shopify提供经营管理云平台，未给出代理交易接口。如果标题描述成立，迁移到导购仍需验证代理能否获授权读取商品与交易条件；产品宜先接查询再谈代下单，代价是暂不承接交易执行。",
+    "counterpoint": "投资者信件中的看好属于投资叙事，经营管理平台也可能主要面向人工操作；平台定位不能证明已支持代理权限或交易调用。",
+    "experiment": "索取公开接口与授权示例，验证外部导购能否读取可售商品及交易条件，而非仅查看后台页面。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "Shopify"
+    ],
+    "relatedArticleIds": [
+      "radar-0ee15d7815fe8a47"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-0ee15d7815fe8a47",
+        "title": "Shopify(SHOP):为代理商时代建造地下铁路",
+        "source": "Yahoo Finance",
+        "date": "2026-10-12",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-shop-building-underlying-rails-141052574.html",
+        "quote": "Shopify Inc. (NASDAQ:SHOP) is a Canadian e-commerce technology company that provides a cloud-based platform for individuals and companies to create and manage their operations.",
+        "role": "该材料的直接依据",
+        "sourceHash": "15d8a74d7eb607d6d40063b32183ab7b65133ebecef893fbfe7b577eb735b316"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "71f3a3099f3a7768c0d50aa18c2aed2961a5d3149e8b220a5d7881417aee61d5",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-787be0533f6b6192",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "办事能力迁移导购，须区分执行与选择授权",
+    "summary": "如果接近豆包人士的描述成立，出行与缴费被纳入同一办事布局，但缴费不等于选商品。迁移到导购须能区分用户已选定对象与委托挑选；产品可分别设置执行确认和选项确认，代价是跨任务多一步交互。",
+    "counterpoint": "搭建能力不等于任务已可完整执行，机票摘录也已截断。支付渠道仍可能承担收款，不能据此判断豆包正在替代支付宝或微信。",
+    "experiment": "分别检查指定账单缴费与未选航班出行的公开流程，确认是否存在不同的选择授权与执行确认。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "豆包"
+    ],
+    "relatedArticleIds": [
+      "radar-787be0533f6b6192"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-787be0533f6b6192",
+        "title": "豆包开始“抢活”，支付宝和微信慌不慌？",
+        "source": "野马财经",
+        "date": "2026-10-12",
+        "url": "https://www.yemacaijing.com/Index/view/id/97009.html",
+        "quote": "10月9日，《每日经济新闻》从接近豆包的人士处确认：豆包正在搭“办事”能力，出行、生活缴费都在这张网里。",
+        "role": "该材料的直接依据",
+        "sourceHash": "a8c3e18da27b6158daf1f7647b99ddb0accad1585148f3eb3970965b3b558c3d"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "1280db2f5cb0ed94a418fdbb32c76511dfaa9725309881c719e7e60a9bac77e8",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-8d3d887daddec643",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "代理付款接入导购前，应先明确退款受理方",
+    "summary": "材料将代理直接付款与退款责任不清并列。支付能力迁移到导购，必要条件不只是能扣款，还包括可识别的售后受理方；产品宜在责任无法说明时停留于订单确认，代价是放弃部分自动成交便利。",
+    "counterpoint": "退款责任不清是报道提出的风险，未证明所有代理交易都无规则。商户可能已有售后政策，但这仍不等于代理有权代表用户接受退款方案。",
+    "experiment": "沿一次测试订单检查取消、退款与争议入口，核对谁受理、谁作决定，以及代理能否越权接受方案。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
       "平台开放",
       "履约售后"
@@ -78,28 +2249,274 @@
     "evidence": [
       {
         "articleId": "radar-8d3d887daddec643",
-        "title": "AI payments spread, but refunds and liability debates loom",
+        "title": "AI的付款会扩大,但退款和责任辩论却在增加",
         "source": "디지털투데이",
         "date": "2026-10-12",
-        "quote": "Even if funds are delivered properly, it still takes separate judgement to determine whether the promised service was provided as agreed.",
-        "quoteZh": "文中把“钱已经付出”与“服务是否按约完成”区分开：支付记录无法单独证明任务完成。",
-        "url": "https://www.digitaltoday.co.kr/en/view/113397/ai-payments-spread-refunds-liability-debate"
+        "url": "https://www.digitaltoday.co.kr/en/view/113397/ai-payments-spread-refunds-liability-debate",
+        "quote": "AI agents have started paying directly for products and services online, but it remains unclear who will decide on refunds and disputes and who will be held responsible after a transaction.",
+        "role": "该材料的直接依据",
+        "sourceHash": "167ddba5254e3c09c8056669ee945cb07f21d967f4c751e47531ef8a0e03eaa0"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "673d3c1e780569fd534207567a1706354c8336dde55d942c31b2d92f68248000",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "1099c9258b54b52b41a3a0de975e9813feabf976b247dcf02cb4a7551563c559",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   },
   {
-    "id": "case-radar-7edd7e26871e4183",
-    "title": "ChatGPT 把“看商品”改成“看自己穿”，但没有因此证明买得更准",
-    "summary": "和原有购物研究功能相比，这次给了用户一个视觉排除工具：先判断款式在自己身上的感觉，再决定是否继续比较。AI 导购应让试穿结果回到对应的商品选择，而不是变成与商品规格无关的独立生图娱乐。",
-    "counterpoint": "文章引用的“转化翻倍”来自 2024 年其他品牌的调查，不是 ChatGPT 试穿的实验。自拍渲染能说明风格效果，却无法仅凭图像确认材质、版型或合身程度；把两类证据混用，容易诱发错误承诺。",
-    "experiment": "测用户试穿后是否减少候选、是否进入对应商品页，并分别问清“风格是否喜欢”和“尺码是否有把握”；后者不能由好看的生成图代替。",
+    "id": "spark-radar-5eeb339b929af849",
+    "kind": "spark",
+    "category": "用户与增长",
+    "title": "客户数据基础应先查质量，而非扩大采集面",
+    "summary": "原文强调优质客户数据，并未证明数据越多越好。用于导购个性化时，可先允许用户纠正推荐所依据的历史偏好，再考虑增加采集字段；代价是少用部分推断信号，也增加偏好维护成本。",
+    "counterpoint": "“AI只与数据基础一样好”是概括性主张，不是因果验证。推荐失准也可能来自商品属性缺失，补客户画像未必修复问题。",
+    "experiment": "对失准推荐分别纠正客户偏好与商品属性，比较哪类修正能消除错误理由，判断应优先治理哪类数据。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "个性化",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-5eeb339b929af849"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-5eeb339b929af849",
+        "title": "零售业的AI只与其数据基金会一样好",
+        "source": "ecommercenews.co.nz",
+        "date": "2026-10-12",
+        "url": "https://ecommercenews.co.nz/story/ai-in-retail-is-only-as-good-as-its-data-foundation",
+        "quote": "AI performs only as well as its data foundation, so great customer data is required.",
+        "role": "该材料的直接依据",
+        "sourceHash": "91faeae38696999be1a63676dd0c41d949b0cb764868a37b1be1a8e6adc5aad8"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "0fe8f518938b6ccf187ac0bd399121b74f25ebe2b37d166797df0c590dae41ad",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-58a201bcf7a17aea",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "个性化价格若分化，导购不宜承诺普适最低价",
+    "summary": "经济学家警告个性化定价可能分散消费者的价格体验。迁移到导购的前提是能取得适用于当前用户的报价；产品应优先呈现报价适用条件，而非直接汇总为最低价榜单，代价是比价结果更难简洁展示。",
+    "counterpoint": "这是对价格分化的警告，不证明具体商家已按个人定价；报价差异也可能来自门店、时段或促销资格。",
+    "experiment": "核对同商品、门店与时点的报价及优惠资格，检查差异是否仍与用户身份相关。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "个性化",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-58a201bcf7a17aea"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-58a201bcf7a17aea",
+        "title": "AI 零售定价提高通货膨胀、反托拉斯恐惧",
+        "source": "Briefs Finance",
+        "date": "2026-10-12",
+        "url": "https://www.briefs.co/news/fast-food-lawsuit-and-grocery-ai-raise-questions-about-perso/",
+        "quote": "The BOE economists warned that personalized pricing \"splinters the consumer experience,\" so households may see increasingly different inflation rates.",
+        "role": "该材料的直接依据",
+        "sourceHash": "a3c5d1deab90d2b1fc50c6b7dba9d8c9cf3731ef3a5e6bb8d6f360fa17e58fe6"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "1e9e1dba98dc8349a9b9789cb73bc5ec07684fe21368b7f70f4f5d74e1b20514",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-4a4c5b3cf17ee3e3",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "安踏建单提速线索应先辨认订单的业务归属",
+    "summary": "摘录只确认多品牌、跨市场业务涉及多类流程，标题中的建单提速未展示实现过程。如果该描述成立，迁移到导购也应先确认建单是否承接消费者选购，再决定是否衔接推荐与下单，代价是暂缓复用看似成熟的成果。",
+    "counterpoint": "建单可能属于内部运营或渠道订货；即使标题数字准确，也不能据此认定消费者决策更快或跨市场推荐可用。",
+    "experiment": "索取建单流程的起止节点、操作者和订单类型，确认是否包含消费者选品环节。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "履约售后",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-4a4c5b3cf17ee3e3"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-4a4c5b3cf17ee3e3",
+        "title": "安踏×火山引擎：下单缩至10分钟、月均建单1000+，Agent跑进全球电商业务",
+        "source": "雷峰网",
+        "date": "2026-10-12",
+        "url": "https://www.leiphone.com/category/industrynews/LYPLgiUOHfVfcFBv.html",
+        "quote": "作为全球前三的体育用品集团，安踏集团多品牌、跨市场经营的背后，是大量商品、内容、订单和售后流程。",
+        "role": "该材料的直接依据",
+        "sourceHash": "87db20f6b3aa49811d8f5af8330dd771071c3a7499fc1847b5d06c68fe212179"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "62dc39b971af01c151cec7f6a7097e6247cb06a3b4cd7d64ff80873ae8d1e370",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-a7dfff3278bb4650",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "按成果付费的导购必须先界定成果归谁判断",
+    "summary": "材料预测数字交易可能从争夺注意力转向有用成果。迁移到导购的必要条件是成果能由用户确认；若探索按成果收费，可将有依据的排除建议纳入服务，而非仅以成交计费，代价是价值认定更难、收费争议更多。",
+    "counterpoint": "这是经济模式预测，不是微支付改善推荐中立性的实证；若成果仍由卖方按成交定义，自动交易也可能延续促销激励。",
+    "experiment": "用同一选购任务比较成交计费与用户确认成果计费，观察不购买建议是否仍会被保留。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "广告推荐"
+    ],
+    "relatedArticleIds": [
+      "radar-a7dfff3278bb4650"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-a7dfff3278bb4650",
+        "title": "AI 代理和微额支付如何改变数字经济",
+        "source": "Tekedia",
+        "date": "2026-10-11",
+        "url": "https://www.tekedia.com/how-ai-agents-and-micropayments-could-transform-the-digital-economy/",
+        "quote": "The next internet economy could prioritize useful outcomes over human attention, transforming digital commerce from an advertising-centered model into one increasingly driven by automated, intentional exchange.",
+        "role": "该材料的直接依据",
+        "sourceHash": "37900ab23054401dbf50be122a9ce10c070f4a8eb7bd8734b3c52249e9e1e3de"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "9754c4c07cb62af80e1de82f4cfa95b8119c13d5e601f858ac8c59514a741b6f",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-08fc0081b32026cc",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "无需点击的支付能力不能替代导购购买授权",
+    "summary": "报道将支付标准的能力描述为代理无需人类点击即可购买。迁移到导购时，必要条件是购买权限能被明确限定并在支付前检查；产品应仅在授权范围内免确认，代价是越界订单仍需打断流程，不能追求全程无点击。",
+    "counterpoint": "摘录只报告免点击购买能力，未展示授权、撤销或争议处理机制；没有支付时点击，也不等于用户从未给予授权。",
+    "experiment": "设置超出授权商品范围或金额上限的购买请求，检查支付前能否阻断并要求重新授权。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "Visa",
+      "Mastercard",
+      "平台开放"
+    ],
+    "relatedArticleIds": [
+      "radar-08fc0081b32026cc"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-08fc0081b32026cc",
+        "title": "签证和万事通卡帮助外衣为AI代理者建造支付铁路",
+        "source": "Startup Fortune",
+        "date": "2026-10-11",
+        "url": "https://startupfortune.com/visa-and-mastercard-help-stripe-build-payment-rails-for-ai-agents/",
+        "quote": "Stripe's blockchain venture Tempo went live with a payment standard that lets AI agents buy things without a human clicking anything.",
+        "role": "该材料的直接依据",
+        "sourceHash": "b77f2552b1835f427d12740ded5dbbfb91d7aa605b5a7f3817676effca86b28f"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "6e18dfa659797bb31cc80e081d17e76bad0d310cae1cd95fd92063eee4ff450f",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-70c568aec5d46b06",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "算法再次到访不能直接当作消费者复购意愿",
+    "summary": "活动页把算法评价商品、发起交易和再次成为客户串成新渠道。若这一描述成立，导购应在再次购买前区分代理沿用旧任务与用户产生新需求，再决定是否复用旧推荐；代价是增加核验，削弱自动复购的速度优势。",
+    "counterpoint": "可见内容是需填表观看的视频介绍，并非复购数据；“再次成为客户”可能只是渠道愿景，不能解释为用户忠诚已提升。",
+    "experiment": "检查代理再次访问时是否携带新的用户意图，并测试旧任务结束后是否仍会触发推荐或交易。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-70c568aec5d46b06"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-70c568aec5d46b06",
+        "title": "盖子下的代理商行",
+        "source": "Stripe",
+        "date": "2026-10-10",
+        "url": "https://stripe.com/fr-ca/sessions/2026/agentic-commerce-under-the?__wpdm_view_count=1052e89f97&__+hsfp=1551434154&__hsfp=1235175601&__hssc=192971698.1.1590796800202&__hstc=192971698.9c49e44b73bd3bee6fa385653ecd7c96.1590796800199.1590796800200.1590796800201.1",
+        "quote": "Remplissez le formulaire pour regarder la vidéo en entier Agentic commerce is an entirely new type of sales channel—one where algorithms evaluate your products, initiate transactions, and return as customers.",
+        "role": "该材料的直接依据",
+        "sourceHash": "6da1521094ac45da9f155adf639f32e2dddd323e7db01fcd3b9ac13f17270b73"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "db8e7596bd4e5ed06ec2f8c94cdb2ba2525ecd926de2bc6a8047c9eed48d45d2",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-e325876670d82402",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "家电导购应让信息搜集价值独立于代客决策",
+    "summary": "摘录描述消费者使用AI收集信息但保留最终决定权。若这一描述成立，家电导购应把可追溯的参数比较与推荐结论分开，让用户不接受推荐也能带走比较依据；代价是更难用对推荐的接受率代表产品价值。",
+    "counterpoint": "可见摘录没有调查方法与人群范围；保留决定权既可能是主动偏好，也可能源于当前AI信息不够可信，不能概括所有韩国消费者。",
+    "experiment": "提供可追溯的参数比较后，观察用户是否仍坚持自行决定，并询问原因是控制偏好还是信息不可信。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-e325876670d82402"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-e325876670d82402",
+        "title": "韩国消费者对家用电器更加谨慎，购物也更加务实……他们甚至开始使用人工智能",
+        "source": "벤처스퀘어",
+        "date": "2026-10-10",
+        "url": "https://www.venturesquare.net/zh/1118710/",
+        "quote": "虽然他们会利用人工智能（AI）进行信息收集，但最终的决定权仍然掌握在自己手中。",
+        "role": "该材料的直接依据",
+        "sourceHash": "3cb77ff046831e1cbfe3e7a3d3040516fbe0fa0e26fc25da8d8c9017bb662c9f"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "ab6cb27d1ebd006e0a761265a199f63f0923aba9ae610c977f44815c6d10abc1",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-7edd7e26871e4183",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "婚纱轮廓筛选值得先做，试穿上线仍须核实",
+    "summary": "如果按婚纱轮廓浏览商品的描述成立，导购可先承接轮廓偏好并展示对应款式，而不把试穿列为默认能力；代价是视觉判断仍需其他依据，也不能用历史女装试穿记录替当前入口背书。",
+    "counterpoint": "摘录停在轮廓筛选处，没有说明后续交互；历史试穿工具的主体也不清楚，标题不足以证明婚纱试穿已在聊天入口开放。",
+    "experiment": "检查所述店铺入口能否按轮廓返回商品，并单独核实是否存在可实际操作的试穿步骤。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
       "ChatGPT",
       "虚拟试穿",
@@ -111,28 +2528,66 @@
     "evidence": [
       {
         "articleId": "radar-7edd7e26871e4183",
-        "title": "Virtual try on launches on ChatGPT",
+        "title": "在 ChatGPT 上发射的虚拟尝试",
         "source": "Retail Dive",
         "date": "2026-10-09",
-        "quote": "Users can take or upload a selfie to generate images and see how clothing and accessories look on them prior to purchase.",
-        "quoteZh": "ChatGPT 这次增加的是用户自拍／上传照片后生成服饰配件试穿图；不是尺码测量或合身保证。",
-        "url": "https://www.retaildive.com/news/virtual-try-on-launch-chatgpt/832244/"
+        "url": "https://www.retaildive.com/news/virtual-try-on-launch-chatgpt/832244/",
+        "quote": "In April, David’s Bridal set up shop on Shopify’s Agentic Storefronts for ChatGPT and Microsoft Copilot, enabling shoppers to sift through the retailer’s assortment by silhouette on …",
+        "role": "该材料的直接依据",
+        "sourceHash": "9842c6a35240a7d8c72b744521ccfc02784c7f929fc63d0b3f6d44e1c58de7a8"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "0d9b5c7aaa916d7b4a23ae0511928c30647f2635477abbda41ece475a6bf78ae",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "47ed063f2515a7d105e49e4c25632ef31958c34db3917809a4988955cb73dca7",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   },
   {
-    "id": "case-radar-aee907604250b3cc",
-    "title": "六家银行的自愿原则，可以做验收清单，不能当作退款承诺",
-    "summary": "导购接入支付时，可以逐项证明用户能看见代理动作、撤销权限和知道数据用途。但这些能力齐备，不代表用户买错后银行就会兜底；产品需另外展示本次订单的实际责任与售后路径。",
-    "counterpoint": "自愿原则和技术协议解决的问题不同：前者表达行业期待，后者约定具体交互。把“遵循原则”贴成信任徽章却不说明损失承担者，会让用户过度理解其保障范围。",
-    "experiment": "用一次错买场景检查产品：能否指出谁受理、保留什么证据、能否撤单，以及哪些风险不在保障内，而不是只列出采用了几个安全协议。",
+    "id": "spark-radar-a7d361858fd5ee9f",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "支付检查站进入导购，必须保留独立授权边界",
+    "summary": "Authvia自述将身份、上下文和支付授权汇于检查站。迁移到导购的必要条件，是系统能区分选中商品与批准付款；产品应在执行前核对授权覆盖的订单，代价是增加确认摩擦，削弱全程代办的流畅感。",
+    "counterpoint": "厂商描述和专利获授不等于这些环节已可靠协同；若授权与订单变更脱节，检查站仍可能只是记录了一次不适用的同意。",
+    "experiment": "让订单在用户同意后发生金额或商品变化，检查系统是否阻止沿用旧授权，并能追溯依据。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "Authvia",
+      "支付授权"
+    ],
+    "relatedArticleIds": [
+      "radar-a7d361858fd5ee9f"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-a7d361858fd5ee9f",
+        "title": "Authvia 第六项专利聚焦 AI 意图与支付授权之间的缺口",
+        "source": "Startup Fortune",
+        "date": "2026-10-09",
+        "url": "https://startupfortune.com/authvias-sixth-patent-targets-the-gap-between-ai-intent-and-authorized-payment/",
+        "quote": "Authvia describes its role as the checkpoint between intent and execution, bringing together identity, conversational context, tokenized payment credentials, authorization, policy controls, payment orchestration and auditable transaction records.",
+        "role": "该材料的直接依据",
+        "sourceHash": "bed82f427c407580ac76ff157f96f4a4502968331b83989051f43a50be659447"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "3c9941d7304d8ba15f959f45fd3b9342c1ca92aafe30fbe944c5a715e1768710",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-aee907604250b3cc",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "自愿银行护栏不能直接充当跨行代购通行证",
+    "summary": "资料将银行护栏明确称为自愿规范，却未给出条文。导购若要据此接入代购，必须先核实合作机构实际接受的执行边界，而非统一宣称合规；代价是按机构适配，难以一次覆盖所有支付入口。",
+    "counterpoint": "联合发布可能只是原则共识，不代表各行已经部署同样的控制措施；但自愿也不等于没有约束，合作合同可能另有要求。",
+    "experiment": "向拟接入银行提交同一代购流程，比较其书面接受条件与拒绝环节是否一致。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
       "电商观察"
     ],
@@ -142,28 +2597,65 @@
     "evidence": [
       {
         "articleId": "radar-aee907604250b3cc",
-        "title": "Six Banks Just Published Agentic Commerce Guardrails — But They’re Voluntary",
+        "title": "六家银行刚刚发布了代理商业监管系统,",
         "source": "Forkast News",
         "date": "2026-10-09",
-        "quote": "The six-bank framework does not address liability allocation.",
-        "quoteZh": "六家银行联合提出透明、安全、隐私、消费者选择与互操作原则，但框架没有规定误购损失如何分配。",
-        "url": "https://forkast.news/six-banks-just-published-agentic-commerce-guardrails-but-theyre-voluntary/"
+        "url": "https://forkast.news/six-banks-just-published-agentic-commerce-guardrails-but-theyre-voluntary/",
+        "quote": "On September 22, 2026, six major banks published “Building Trust in Agentic Commerce” — a set of voluntary guardrails for agent-driven purchasing.",
+        "role": "该材料的直接依据",
+        "sourceHash": "9e86c7297a14648049059a0423ef27c37a671933c74593ece94e361d52c83ac2"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "31cf6d5bc547870fdb63619422db2649bb02f8e30de617bc63a69418793c6e45",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "cce4a69ea4c022fc67235f016b8e41c4df121fc8469730a1b9759b9127f5d3bc",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   },
   {
-    "id": "case-radar-a64a4654487cfdb3",
-    "title": "Muse 的用户授权，不能替代 Amazon 的服务参与同意",
-    "summary": "对跨平台导购，这条新闻划清两份不同的许可：用户允许代理替自己做事，和商家允许该代理使用服务。即便助手持有合法用户账户、购买前也征求确认，仍可能因为商家未参与而无法完成任务。",
-    "counterpoint": "所以产品应在选品前区分可官方接入的渠道与需用户自行完成的渠道，并解释限制来自服务方。把浏览器模拟当作永久备选，会让用户在最接近成交时才遭遇不可恢复的失败。",
-    "experiment": "为每个渠道记录许可状态与允许动作，测试“用户已授权但商家拒绝代理”的任务是否能转为明确的自助结账，而不是循环登录或重复授权。",
+    "id": "spark-radar-4159367a59df4c96",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "协议交易量不足以支撑导购支付路线押注",
+    "summary": "Coinbase所称的超过2.3亿笔交易是协议处理量，不是消费者购物证据。导购选择x402前，应要求目标商家订单能与支付结果对应，再考虑扩大接入；代价是放慢协议采用，无法直接借规模叙事推动上线。",
+    "counterpoint": "高交易量可能说明协议已有使用，但摘录未给出交易类型、金额分布或购物占比，既不能推出导购成熟，也不能据此否定协议价值。",
+    "experiment": "要求拆分所述交易的业务类型，并用目标商家订单核对支付成功是否对应实际订单成立。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "交易协议"
+    ],
+    "relatedArticleIds": [
+      "radar-4159367a59df4c96"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-4159367a59df4c96",
+        "title": "深度解析 AI 代理支付：x402、AP2 与稳定币如何打开自主商业新通路",
+        "source": "Yellow.com",
+        "date": "2026-10-09",
+        "url": "https://yellow.com/zh/learn/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90-ai-%E4%BB%A3%E7%90%86%E6%94%AF%E4%BB%98%EF%BC%9Ax402%E3%80%81ap2-%E4%B8%8E%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E8%87%AA%E4%B8%BB%E5%95%86%E4%B8%9A%E6%96%B0%E9%80%9A%E8%B7%AF",
+        "quote": "Coinbase 称，支撑这笔支付的协议 x402 上线一年多，已处理超过 2.3 亿笔交易。",
+        "role": "该材料的直接依据",
+        "sourceHash": "980bc855a38e1f3ee534f67f4ebd9e919277d808cada737b50d8567d0bcc1212"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "4dd5988838f7d13deebf10096aef4f5b24a3334598b49d0e9756f4426ebf59f9",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-a64a4654487cfdb3",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "平台禁入时应交还购买权，而非静默换店",
+    "summary": "如果Muse用户确实会看到不被允许的提示，导购就应把推荐适配度与代购可达性分开：遇到禁入时交还用户自行购买，而非静默换店；代价是流程中断，但可避免平台准入限制暗中改变商品排序。",
+    "counterpoint": "摘录只说明Muse在Amazon的购买受阻，不能外推为所有代理、所有访问行为均被禁止；交还用户也不代表原商品仍可顺利买到。",
+    "experiment": "复现被拒场景，检查系统是否明确说明购买限制，并保持原推荐而非自动改推可代购商家。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
       "Amazon",
       "Meta",
@@ -176,28 +2668,66 @@
     "evidence": [
       {
         "articleId": "radar-a64a4654487cfdb3",
-        "title": "Amazon blocks Meta's Muse AI agent from shopping on its site",
+        "title": "Amazon 禁止 Meta 的 Muse AI 智能体在其网站购物",
         "source": "PPC Land",
         "date": "2026-10-09",
-        "quote": "It never agreed to Muse operating on its store. Meta did not tell Amazon that Muse would reach it. The agent does not identify itself when it browses.",
-        "quoteZh": "Amazon 的具体异议包括未同意 Muse 访问、未被告知访问方式，以及代理浏览时未标识身份；不只是一般的支付安全担忧。",
-        "url": "https://ppc.land/amazon-blocks-metas-muse-ai-agent-from-shopping-on-its-site/"
+        "url": "https://ppc.land/amazon-blocks-metas-muse-ai-agent-from-shopping-on-its-site/",
+        "quote": "For now, people who try shopping on Amazon through Muse see a message saying the agent is not allowed, and Amazon says …",
+        "role": "该材料的直接依据",
+        "sourceHash": "ea62d7287d490ec593c2e9ba6c5359fd6b6e5a0a8c1e9862afef6cf1f63c884d"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "be415138b0678f0c11ab55e6e007a8a917e9caca65b2c8b3e67cf720a5b8ed18",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "eb3a59a19023b42fe905aab0b8266c14df76c0ed1a59bd7464d267d7d120c40c",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   },
   {
-    "id": "case-radar-2f2d584c9b2fa417",
-    "title": "58% 说明的是 AI 老用户的购前研究习惯，不是全市场代购渗透率",
-    "summary": "对进入越南市场的导购产品，这个结果更支持先做购买前比较、解释参数和验证信息，而不是直接押注自主下单。受访者已是活跃 AI 用户，他们的意图与首次接触 AI 的人不同。",
-    "counterpoint": "同一调查中，传统搜索、Shopee／Lazada 和生成式 AI 同时被使用。这更像多渠道交叉核验，而非搜索已被替代。产品若急于把用户锁在对话里，反而可能删掉他们建立信任必需的原店铺和评价入口。",
-    "experiment": "招募当地现有 AI 用户与非 AI 用户，分别复盘最近一次真实购买，统计 AI 参与的是研究、比较、跳转还是付款；不要把自报“用过AI”当作端到端购物使用。",
+    "id": "spark-radar-afb18ab9afb669c6",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "代理付费买研究，迁移导购须先验证信息增益",
+    "summary": "如果交易代理能自行购买研究的描述成立，迁移到导购需有可合法购买、且能补足商品判断的信息源。产品可按信息缺口决定是否付费，而非默认采购；代价是检索变慢，也可能付钱后仍无法区分候选商品。",
+    "counterpoint": "金融研究采购并非消费品导购案例；摘录未展示研究质量或决策收益，支付能力本身无法证明付费资料优于公开信息。",
+    "experiment": "针对公开资料无法区分的候选商品，对比付费资料是否补足可核实的关键差异，并记录成本。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "交易协议",
+      "用户研究"
+    ],
+    "relatedArticleIds": [
+      "radar-afb18ab9afb669c6"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-afb18ab9afb669c6",
+        "title": "AI Agent Affairs 解释: X402, AP2和稳定币如何启用自主商务",
+        "source": "Yellow.com",
+        "date": "2026-10-09",
+        "url": "https://yellow.com/learn/ai-agent-payments-explained-x402-ap2-stablecoins",
+        "quote": "22, Coinbase gave AI trading agents a new skill : buying their own research.",
+        "role": "该材料的直接依据",
+        "sourceHash": "0d870ec5b4063312de45e30cba17044a9def8e0d57e3332ff2330e76ced6a9ee"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "32744d4d74e9cbadaeead13976e34a710f8c504f8fd90308948dac5e5d92ed0b",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-2f2d584c9b2fa417",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "城市用户购前研究线索更支持咨询而非代购",
+    "summary": "Q&Me调查所述行为是购买前研究产品与服务，因此导购可优先投入可追溯的比较依据和待核实项，而不是据此优先开发自动下单；代价是把成交留在其他渠道，咨询价值较难直接归因到销售。",
+    "counterpoint": "58%对应调查中的城市用户，摘录没有抽样方法、使用频率或成交数据；偶尔问过AI与持续依赖AI购买，可能落在同一口径内。",
+    "experiment": "在目标城市用户中回溯最近的购前AI会话，区分资料查询、候选比较与实际购买委托。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
       "平台开放",
       "用户研究",
@@ -209,28 +2739,206 @@
     "evidence": [
       {
         "articleId": "radar-2f2d584c9b2fa417",
-        "title": "Generative AI becomes shopping adviser for 58% of urban Vietnamese consumers",
+        "title": "基因人工智能成为58%越南城市消费者的购物顾问",
         "source": "Theinvestor",
         "date": "2026-10-09",
-        "quote": "The survey of 200 generative AI users aged 20 to 49 in Ho Chi Minh City and Hanoi found that 96% had used generative AI within the previous month.",
-        "quoteZh": "“58% 用 AI 做购买前研究”的分母，是胡志明市和河内 200 名 20—49 岁生成式 AI 用户，而非全体越南消费者。",
-        "url": "https://theinvestor.vn/generative-ai-becomes-shopping-adviser-for-58-of-urban-vietnamese-consumers-d20187.html"
+        "url": "https://theinvestor.vn/generative-ai-becomes-shopping-adviser-for-58-of-urban-vietnamese-consumers-d20187.html",
+        "quote": "Generative artificial intelligence is rapidly becoming part of the shopping journey in Vietnam, with 58% of urban users turning to tools such as ChatGPT and Gemini to research products and services before buying, according to a survey by market research firm Q&Me.",
+        "role": "该材料的直接依据",
+        "sourceHash": "adbf6ffce80b7452baa29e1e6102fd5de7d1ba2f7047f9be42f3bbf2611bf1ee"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "bd410388cc82dd9ed30ebd2f9326b13ced79ec47ca99968ecacdeaddc1a1b564",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "13cfeb76a20f81d165ffa3e7931695b3f10bd1572af9e23e5b2e72be71615dd7",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   },
   {
-    "id": "case-radar-3feae84bb92744a4",
-    "title": "Gap × Alta 把“已有衣橱”变成约束：最优建议可能是不再买一件",
-    "summary": "对服饰导购，拿到已有衣橱后，可以判断新单品补的是哪一个搭配缺口，而不是只找相似商品。真正有价值的回答应能指出“这件能与你哪些衣服组成新组合”，甚至说明已有单品足够应付该场景。",
-    "counterpoint": "这会与短期加购目标发生冲突：把重复单品卖出去可能提高订单，却削弱“懂我”的可信度。相比泛化用户画像，衣橱是一组可核实、可纠正的实物约束，也需要处理用户没录全导致的错误推断。",
-    "experiment": "对拥有明确衣橱清单的用户，比较热门款推荐与缺口搭配推荐；看建议采纳、重复购买反馈和长期复访，并允许用户补录已有单品修正答案。",
+    "id": "spark-radar-b24c4bd106633ad7",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "商户准备率不能替代自动成交的立项依据",
+    "summary": "报告将商户积极准备与涉及自主代理的交易分别计量，不能把前者当作可用供给。导购应按商户可实际跑通的交易环节分阶段接入，而非按准备意愿批量上线；代价是招商进展不能立即转化为覆盖规模。",
+    "counterpoint": "89%的商户与3%的交易分母不同，差距不等于准备失败；交易占比也可能受需求、统计定义或接入时点影响，不能直接归因于基础设施分裂。",
+    "experiment": "对拟合作且声称已准备的商户试跑代理订单，记录实际可完成环节，再与其准备声明逐项对照。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "电商观察"
+    ],
+    "relatedArticleIds": [
+      "radar-b24c4bd106633ad7"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-b24c4bd106633ad7",
+        "title": "分崩离析的大门:谁控制代理商业分道扬镳",
+        "source": "Forkast News",
+        "date": "2026-10-09",
+        "url": "https://forkast.news/the-fragmenting-gate-who-controls-agentic-commerce-is-splitting-across-every-layer/",
+        "quote": "While 89% of merchants are actively preparing for agentic commerce , only 3% of transactions currently involve autonomous agents, according to the Checkout.com 2026 report .",
+        "role": "该材料的直接依据",
+        "sourceHash": "3412919cdbc41cc70b10b493fe64e76f0d78ac0e0e0e334a7f3d1971b56c52ae"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "5489414a2f75e8449d214cc2d644f0fc15bdbbec3d6915edd190f840a212c9ae",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-cc4fff395fe705d7",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "自主支付的终局叙事不宜直接决定导购授权",
+    "summary": "摘录把智能体自主支付称为终极形态，却未提供可核对的交易过程。如果该描述成立，迁移到导购仍需明确用户授权范围；产品宜将推荐与扣款权限分开，代价是无法兑现完全无打扰的购买承诺。",
+    "counterpoint": "终极形态属于方向判断，并非已实现能力；另一段支付规模摘录也不能证明智能体交易已具备可靠的授权或纠错机制。",
+    "experiment": "要求展示一次从选品到扣款的完整流程，核查授权发生在哪里、商品或价格变化后是否重新确认。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "电商观察"
+    ],
+    "relatedArticleIds": [
+      "radar-cc4fff395fe705d7"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-cc4fff395fe705d7",
+        "title": "巨头博弈升级，AI自主支付还有多远？",
+        "source": "搜狐网",
+        "date": "2026-10-09",
+        "url": "https://m.sohu.com/a/1085705162_122014422?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "quote": "上述场景不仅展示了AI带来的商业新可能，更揭示了AI支付的终极形态——智能体自主支付。",
+        "role": "该材料的直接依据",
+        "sourceHash": "c71b1ddb58105e70397a271d7ac4ae2ef359261b70db73df620cde9d02b18473"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "42a632820a56128089bf2481317b543da3763cbf654c776a177cac0718c73bed",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-2387a4780279f204",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "平台封锁使外部导购必须明示可访问的货源边界",
+    "summary": "据摘录，亚马逊限制外部购物智能体访问。若封锁描述成立，外部导购应在比较结果中明示未覆盖的市场，优先推荐可核验货源，而非宣称全网最优；代价是结果广度与吸引力可能下降。",
+    "counterpoint": "格雷厄姆所说的竞争机会是预测；封锁也可能让外部导购缺少关键商品，强化用户对平台自有入口的依赖，而不是催生替代者。",
+    "experiment": "对照可访问货源与用户手动查看的平台商品，记录推荐遗漏及价格差异，观察用户是否仍愿意使用外部入口。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "Amazon",
+      "平台开放",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-2387a4780279f204"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-2387a4780279f204",
+        "title": "Paul Graham：Amazon 封锁外部 AI 购物智能体可能适得其反",
+        "source": "BigGo Finance",
+        "date": "2026-10-09",
+        "url": "https://finance.biggo.com/news/e6bf665d-d495-41ee-a4a9-1ac9865b67be",
+        "quote": "Amazon's decision to wall off its marketplace from outside AI shopping agents may be handing rivals their best opening in nearly three decades, according to Y Combinator cofounder Paul Graham.",
+        "role": "该材料的直接依据",
+        "sourceHash": "011272a9821d25f8e56afea53c92a845e9d22222c2a22be0c3ff4ca8e183b069"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "eeb03a3dd6845351e81bf65bc1576e907053c4884bf3379e2e4ba4535189dbcf",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-47a2914f9b3b5c69",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "比较支持的接受度不能当作自动购买的授权",
+    "summary": "摘录称研究、比较和替代品评估尤其被接受，但没有给出同等的自动购买支持。导购可先把资源用于呈现替代品的差异依据，让购买仍由用户确认；代价是交易步骤减少有限，也较难体现自主执行价值。",
+    "counterpoint": "接受比较辅助可能来自任务风险较低，不代表用户信任代理代为付款；摘录缺少样本范围，不能把这种偏好直接推广到目标客群。",
+    "experiment": "让目标用户分别试用比较辅助与代为购买流程，观察其主动选择、接管节点和拒绝授权的理由。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "商品对比",
+      "用户研究",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-47a2914f9b3b5c69"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-47a2914f9b3b5c69",
+        "title": "当 AI 开始替我们购物",
+        "source": "kpmg.com",
+        "date": "2026-10-08",
+        "url": "https://kpmg.com/de/en/media/press-releases/2026/10/consumer-snapshot-when-ai-does-our-shopping-for-us.html",
+        "quote": "Support with research, product comparisons and the evaluation of alternatives is particularly well accepted.",
+        "role": "该材料的直接依据",
+        "sourceHash": "57f24d7c68083315ce492fcb1f1a912573a72d3bbfd721bdeacd7e68fcab41f4"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "c73a4565c2595c9952afee4ef39b668bb62688f62fed1d93012d50ab44ed7744",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-7f99543b6cbdb838",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "代理身份令牌不应被当作无限购买授权",
+    "summary": "摘录称KYA令牌验证代理身份及其代表对象，后续能力描述截断。如果该描述成立，导购接入时仍应区分身份验证与本次购买权限，身份通过后另核对执行范围；代价是增加授权判断与交互步骤。",
+    "counterpoint": "这来自厂商资料，且身份关联本身不证明金额、商品范围或撤销权限已受约束；减少登录打扰也不等于可以省去支付授权。",
+    "experiment": "检查令牌字段及调用结果：身份有效但购买超出用户授权范围时，系统是否拒绝执行。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "支付授权",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-7f99543b6cbdb838"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-7f99543b6cbdb838",
+        "title": "AI 智能体背后是谁？破解智能体电商的身份验证难题",
+        "source": "Mastercard",
+        "date": "2026-10-08",
+        "url": "https://www.mastercard.com/global/en/news-and-trends/stories/2026/agentic-commerce-identity-know-your-agent.html",
+        "quote": "Skyfire works behind the scenes to create a KYA token that verifies who the agent is and who it is acting for, and can pair …",
+        "role": "该材料的直接依据",
+        "sourceHash": "7650a0129fa8a32f495b10249d044875e0ac1b751bd9bc137cc837e283f32e81"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "a95ee0c19e233ce91bd4b87acb9383d94bfd448beb8ef4ac292e9ce760229489",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-3feae84bb92744a4",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "进入外部穿搭入口应优先检验商品匹配损耗",
+    "summary": "摘录称Gap正将商品引入Alta Daily，但句子截断。如果该描述成立，导购应优先验证搭配中的单品能否准确对应可购买商品，再扩展穿搭展示；代价是上线范围受商品对应关系和维护成本限制。",
+    "counterpoint": "材料未明确品牌网站、应用或其他渠道的承载方式，也未证明支持跨品牌搭配或直接购买；合作公告可能仅意味着增加商品展示入口。",
+    "experiment": "要求演示一套穿搭从展示到查找对应商品的路径，核对款式、规格与购买入口，并记录中断位置。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
       "Gap",
       "Alta Daily",
@@ -242,28 +2950,65 @@
     "evidence": [
       {
         "articleId": "radar-3feae84bb92744a4",
-        "title": "Gap expands AI shopping with Alta Daily and new discovery tools",
+        "title": "Gap 通过 Alta Daily 和新的商品发现工具拓展 AI 购物",
         "source": "Digital Commerce 360",
         "date": "2026-10-08",
-        "quote": "Alta users can also digitize clothes they already own.",
-        "quoteZh": "Gap 与 Alta Daily 合作的独特上下文不是更多商品，而是用户已经拥有的衣服；Alta 据此结合风格、日程和天气组搭配。",
-        "url": "https://www.digitalcommerce360.com/2026/10/07/gap-expands-ai-shopping-with-alta-daily-and-new-discovery-tools/"
+        "url": "https://www.digitalcommerce360.com/2026/10/07/gap-expands-ai-shopping-with-alta-daily-and-new-discovery-tools/",
+        "quote": "As part of that push, Gap is bringing its products into Alta Daily, the AI-powered digital …",
+        "role": "该材料的直接依据",
+        "sourceHash": "677866123f9a51017058d006e45fe2aaedd12a7a4787c102fdb4b01cf7e8ba26"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "f42c933a0c654fbcff5d1e5c720fc2fa920a932cc9f0129a2ce952202d478dbc",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "6179ce3ec9f369f7bfefbeb556d65b9ecced4d6f1fa9abf741ba343244d8c7f2",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   },
   {
-    "id": "case-radar-4fbea4d5142dcda7",
-    "title": "Ask TRR 的难题是“昨天答对，今天已无货”：需要保存意图而非商品列表",
-    "summary": "这条新闻的设计重点不是泛泛的个性化，而是如何在单件售罄后继续完成任务。导购应记住轮廓、年代、场合等选中理由，再找当下可售的替代品；简单复用昨天的推荐或相似图片，会丢掉成色、尺寸与价格差异。",
-    "counterpoint": "长对话和愿望清单延长了推荐到购买的时间，单件库存却使结果更快失效。助手需要在用户回到旧对话时刷新“当前可买”状态，并解释替代品哪里相同、哪里让步，不能悄悄更换。",
-    "experiment": "让用户隔一天回访保存的搭配与候选，测试售罄后是否能按原购买理由恢复任务；记录无货曝光、替代接受和不同条件被误替代的次数。",
+    "id": "spark-radar-e5635317a44de143",
+    "kind": "spark",
+    "category": "交易与信任",
+    "title": "自主商品运营与个性化导购应分开设定目标",
+    "summary": "招聘描述把实时个性化与自主商品运营放在同一商业体系中。若迁移到导购，需先区分商家的商品运营目标与用户的选购目标，避免共用排序目标；代价是增加目标冲突的处理与配置工作，而非直接复用运营策略。",
+    "counterpoint": "岗位介绍表达的是服务方向，并不证明这些能力已规模化落地；共同建设商业基础设施，也不意味着运营目标已经进入导购排序。",
+    "experiment": "要求提供导购与商品运营的目标定义，检查两者冲突时由谁决定推荐顺序。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "电商观察"
+    ],
+    "relatedArticleIds": [
+      "radar-e5635317a44de143"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-e5635317a44de143",
+        "title": "代理商务经理",
+        "source": "Accenture",
+        "date": "2026-10-08",
+        "url": "https://www.accenture.com/gb-en/careers/jobdetails?id=R00361839_en",
+        "quote": "Within Song, our Commerce & AI practice helps organisations design, build, and scale modern digital commerce ecosystems, embedding Generative AI and Agentic AI into commerce to enable real-time personalisation, autonomous merchandising and intelligent customer engagement at scale.",
+        "role": "该材料的直接依据",
+        "sourceHash": "0ae09bf20dacc6dacb185ef1e581220193380722e3096b6857396f224915a20a"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "49b3fc72cf9c25b4e41969e4d1c4049c49fee613844ee4e76b4bf9dc5292f2f9",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-4fbea4d5142dcda7",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "百万独特商品的发现应先验证属性覆盖能力",
+    "summary": "如果百万独特奢侈品的描述成立，个性化发现就不能仅靠少数热门商品展示效果。产品上应先暴露商品属性缺失，并允许用户保留信息不全的候选，而非自动排除；代价是候选解释更复杂，也可能增加人工核对。",
+    "counterpoint": "商品规模与发现效果均来自发布稿，摘录没有说明扩充了什么能力。独特商品很多，也不等于属性缺失已成为主要瓶颈。",
+    "experiment": "用相同选购条件检查属性完整与不完整的在售商品，比较遗漏原因及解释是否可核对。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
       "The RealReal",
       "Ask TRR",
@@ -276,245 +3021,56 @@
     "evidence": [
       {
         "articleId": "radar-4fbea4d5142dcda7",
-        "title": "The RealReal Expands Ask TRR AI Shopping Agent With Google Cloud's Gemini Enterprise",
+        "title": "The RealReal 借助 Google Cloud 的 Gemini Enterprise 扩展 Ask TRR 购物智能体",
         "source": "PR Newswire",
         "date": "2026-10-08",
-        "quote": "At The RealReal, every item is one-of-one: once a piece sells, it's gone for good, and new inventory arrives every day.",
-        "quoteZh": "The RealReal 的单件库存卖掉就永久消失，每天又有新品；这与同一 SKU 长期补货的普通零售不同。",
-        "url": "https://www.prnewswire.com/news-releases/the-realreal-expands-ask-trr-ai-shopping-agent-with-google-clouds-gemini-enterprise-302901904.html"
+        "url": "https://www.prnewswire.com/news-releases/the-realreal-expands-ask-trr-ai-shopping-agent-with-google-clouds-gemini-enterprise-302901904.html",
+        "quote": "Ask TRR enhances personalized discovery across more than one million unique luxury items SAN FRANCISCO and SUNNYVALE, Calif. , Oct.",
+        "role": "该材料的直接依据",
+        "sourceHash": "0dd8089bae598d6aca6a79f13a4d6d968bd185b194fd12ad4a8b4555398dff95"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "de3b64db902521976c7fb113fa54966593d295ea82c3d9e9b191600fcd817d3b",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "54fc6a62e6ae1225e3306673a57c5eee4ea9f3de15f30759abc5214b43ed29e3",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   },
   {
-    "id": "case-radar-d9ad558e0da2efc7",
-    "title": "ChatGPT 改用商品目录后，“没被推荐”可能先是数据入口变了",
-    "summary": "对 AI 导购商家工具，这意味着不能一看到可见性下降就建议改文案。先核对商品来自网页搜索还是目录、是否进入有效数据源、价格库存字段是否完整，再讨论语义优化；不同检索入口的优化动作完全不同。",
-    "counterpoint": "这是商业监测样本的观察，不是 ChatGPT 全量日志，也不是随机实验。平台更换检索入口、商家数据变动和提示词样本选择都可能影响曝光。可见性本身也不是实际购买份额。",
-    "experiment": "固定同一组真实意图，保留返回商品、来源类型和日期，分开记录目录覆盖率与被推荐率；用订单或落地页行为核对可见性变化是否真的影响成交。",
+    "id": "spark-radar-9e5048023e6ff3d9",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "体验零售预测只支持有条件的导购到店交接",
+    "summary": "研究预测零售将转向体验空间，而非证明消费者已减少线上决策。若据此设计导购，应仅在门店能提供可核对的体验项目与承接方式时增加到店建议；代价是维护门店服务信息，且用户决策会跨越线上线下。",
+    "counterpoint": "体验空间可能主要承担品牌展示，并不一定需要导购送客。交易规模预测也无法证明到店交接比直接线上选购更有效。",
+    "experiment": "在明确需要试用的选购任务中提供可核实的到店选项，观察用户选择及门店能否承接。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
     "keywords": [
-      "ChatGPT",
-      "商品数据",
-      "交易协议",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "radar-d9ad558e0da2efc7"
-    ],
-    "evidence": [
-      {
-        "articleId": "radar-d9ad558e0da2efc7",
-        "title": "ChatGPT Shopping Now Pulls Most Product Picks From Merchant Feeds",
-        "source": "ALM Corp",
-        "date": "2026-10-08",
-        "quote": "Comparing data from July 7 and 9 to July 10 and 12, 450 of those customers saw their Shopping visibility drop by at least one third.",
-        "quoteZh": "Profound 观察的 687 个客户中，450 个在比较窗口里购物可见性下降至少三分之一；变化与商品数据检索来源切换同期发生。",
-        "url": "https://almcorp.com/news/chatgpt-shopping-pulls-product-picks-merchant-feeds/"
-      }
-    ],
-    "sourceCount": 1,
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "fingerprint": "1b863c30d14ee03fed8512a2e6a3752905a35e88ee6b50311979b638cadf3ccf",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
-    "takeaways": []
-  },
-  {
-    "id": "case-radar-43500a560c99587f",
-    "title": "Crossmint 省掉四方接入，也把“失败发生在哪”藏进了一层 API",
-    "summary": "这次整合最直接的产品收益是接入和路径选择简化。但购物助手仍需拿到足够细的回执：卡凭证失败、商家拒绝代理和订单未创建，需要不同恢复动作。只返回统一失败码会让用户反复授权却无法继续买。",
-    "counterpoint": "供应商自动选择路径的能力越强，导购越不能把 API 成功当成履约成功。尤其浏览器路径和商家接口路径的稳定性不同，同一商品昨天能买、今天受阻时，应解释改变的是通路而非用户需求。",
-    "experiment": "对同一购物清单覆盖卡不支持、反机器人校验和扣款后订单缺失三类故障，要求工具回传阶段与可重试条件；验收的是定位与恢复能力，不只接入耗时。",
-    "keywords": [
-      "Crossmint"
-    ],
-    "relatedArticleIds": [
-      "radar-43500a560c99587f"
-    ],
-    "evidence": [
-      {
-        "articleId": "radar-43500a560c99587f",
-        "title": "Crossmint Launches Agent Commerce Toolkit, Enabling AI Agents to Pay With Any Card and Check Out Online Through One Integration",
-        "source": "PR Newswire",
-        "date": "2026-10-08",
-        "quote": "It picks the right credential and checkout path for each purchase, so developers don't have to manage those choices themselves.",
-        "quoteZh": "Crossmint 的工具包把选支付凭证、选结账路径的决定封装起来，开发者不再自行拼接卡库、钱包、浏览自动化等供应商。",
-        "url": "https://www.prnewswire.com/news-releases/crossmint-launches-agent-commerce-toolkit-enabling-ai-agents-to-pay-with-any-card-and-check-out-online-through-one-integration-302901649.html"
-      }
-    ],
-    "sourceCount": 1,
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "fingerprint": "9cf11407ff588e4ef2815805619ceb4e9c5e97d3b17624ada368cfa86373e9f9",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
-    "takeaways": []
-  },
-  {
-    "id": "case-radar-cdd0fa9ab42360fe",
-    "title": "Shopify 默认开通 AI 渠道后，先修订单归因再评价导购价值",
-    "summary": "这条材料让“转化下降”多了一种解释：消费者没到网站，但已在聊天渠道购买。导购产品若只用网站访问漏斗验收，会把成功成交记成流失；需要以服务端订单和渠道来源重建漏斗。",
-    "counterpoint": "自动加入新渠道也改变了商家的知情与控制。商家可能不知道哪些代理已能发现商品、哪些支持站内结账，因此渠道设置、费用说明与退出能力也是导购基础设施的一部分。",
-    "experiment": "分别下一笔聊天内结账订单与跳转网站订单，核对网站事件、服务端订单、渠道标记和退货归属是否一致；先确认可测量，再评估增量。",
-    "keywords": [
-      "Shopify",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "radar-cdd0fa9ab42360fe"
-    ],
-    "evidence": [
-      {
-        "articleId": "radar-cdd0fa9ab42360fe",
-        "title": "Shopify Now Enrolls Your Store in Every New AI Shopping Channel",
-        "source": "ALM Corp",
-        "date": "2026-10-08",
-        "quote": "Because the customer pays inside the chat app, the tracking code on your website does not run.",
-        "quoteZh": "Shopify 部分智能体渠道在聊天应用内结账，网站端埋点不运行；订单存在于后台，却可能不出现在原网站分析报表里。",
-        "url": "https://almcorp.com/news/shopify-enrolls-store-new-ai-shopping-channels/"
-      }
-    ],
-    "sourceCount": 1,
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "fingerprint": "09b70ebf6cb45996569fdc68ce1c2d7d27f40b7588f223c0bbe5521b443b061f",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
-    "takeaways": []
-  },
-  {
-    "id": "case-radar-d442c2c1f990d3a1",
-    "title": "付款没有越权，也可能买给了骗子：风控边界要前移到选品证据",
-    "summary": "文中酒店例子说明，用户授权订房不代表用户同意一个伪造商家。AI 导购需要保留商品与商家信息从哪里来、为何被采纳，并对外部内容中的指令与真实商品事实隔离处理；支付确认不能修复已经被污染的候选集。",
-    "counterpoint": "既有“像不像人”的风险信号在代理场景会弱化。一个速度快、操作一致的合法智能体和被利用的智能体，支付行为都可能正常；调查重点应转向任务目标、遇到的内容和实际动作是否一致。",
-    "experiment": "用伪商家页面、嵌入指令和虚构折扣做红队测试，观察是否改变候选与付款对象；保留足够日志定位污染入口，而非仅验证金额上限。",
-    "keywords": [
-      "电商观察"
-    ],
-    "relatedArticleIds": [
-      "radar-d442c2c1f990d3a1"
-    ],
-    "evidence": [
-      {
-        "articleId": "radar-d442c2c1f990d3a1",
-        "title": "Agentic payments expose blind spots in fraud controls",
-        "source": "FinTech Global",
-        "date": "2026-10-07",
-        "quote": "According to Vivox AI , a transaction can sit comfortably within every spending limit and still stem from a manipulated decision made long before checkout.",
-        "quoteZh": "Vivox AI 的分析指出，一笔完全没超限额、也得到用户授权的交易，仍可能来自上游被操纵的选品决策。",
-        "url": "https://fintech.global/2026/10/07/agentic-payments-expose-blind-spots-in-fraud-controls/"
-      }
-    ],
-    "sourceCount": 1,
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "fingerprint": "1ef684d6ddc99febfb82047865402cf0609db252d762f89d05dbf49436e6ada6",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
-    "takeaways": []
-  },
-  {
-    "id": "case-radar-34fc3c247aaaf766",
-    "title": "这次收购先修“商品没写出来的属性”，而不是再训练一个会说话的助手",
-    "summary": "用户要求“可调灯臂的小台灯”时，商品可能真实满足需求，却因目录只记录品牌和颜色而被漏召回。Velou 补的是供给侧证据，使多个前端共用；对导购，先找出用户常问却未结构化的属性，比扩充泛问答更接近转化瓶颈。",
-    "counterpoint": "从图片推断的属性不能与商家明确填写的规格同等对待：颜色可见，不代表承重、防水等性能可见。统一分类体系提高可比性，但应同时记录属性依据与置信级别，防止“丰富数据”变成“生成事实”。",
-    "experiment": "抽取一批因缺属性而无结果的真实查询，补齐字段后复测召回，并让人工检查新增属性的证据；区分召回改善和错误承诺增加。",
-    "keywords": [
-      "商品数据",
-      "个性化",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "radar-34fc3c247aaaf766"
-    ],
-    "evidence": [
-      {
-        "articleId": "radar-34fc3c247aaaf766",
-        "title": "Algolia Acquires Velou to Strengthen Product Intelligence for AI Shopping",
-        "source": "Unite.AI",
-        "date": "2026-10-07",
-        "quote": "Velou uses multimodal AI to turn product descriptions and images into structured information.",
-        "quoteZh": "Algolia 收购 Velou，重点是把商品文字与图片转成结构化属性，并放在既有搜索、推荐与 Agent Studio 之下。",
-        "url": "https://www.unite.ai/algolia-acquires-velou-ai-shopping-product-intelligence/"
-      }
-    ],
-    "sourceCount": 1,
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "fingerprint": "a0c9d9874ad9d981281bc415fad87ffa2423c2fdbd29721cd5a7857151d63e6d",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
-    "takeaways": []
-  },
-  {
-    "id": "case-radar-4c6573f3974d89c7",
-    "title": "Meta 把访问冲突改成可协商接口：平台需要的是看得见、管得住",
-    "summary": "这条新闻的变化在商家侧：如果网站能识别任务并对访问频率、库存占用和动作范围施加控制，购物代理才可能从不受欢迎的爬虫变成可运营渠道。AI 导购要给商家可观察性，而不只是要求用户授权。",
-    "counterpoint": "解决机器人身份和负载问题仍不会自动解决商家的商业顾虑。文章指出代理可能跳过广告和加购机会；因此开放率既取决于安全协议，也取决于商家能否保留合理的转化与客户关系。",
-    "experiment": "接入试点时记录网站拒绝原因：身份、频率、交易权限还是商业策略。分别修复，不用更激进的浏览自动化掩盖平台不愿参与的问题。",
-    "keywords": [
-      "Meta",
-      "交易协议"
-    ],
-    "relatedArticleIds": [
-      "radar-4c6573f3974d89c7"
-    ],
-    "evidence": [
-      {
-        "articleId": "radar-4c6573f3974d89c7",
-        "title": "Meta discusses protocols for agentic commerce",
-        "source": "Social Media Today",
-        "date": "2026-10-07",
-        "quote": "Meta hopes its new protocol will counter this by empowering websites to create their own bots and control measures that can communicate with Muse agents to ensure everything works well together.",
-        "quoteZh": "Meta 提议让网站自己的代理和控制机制与 Muse 通信，而不只是让 Muse 模拟人类浏览网页。",
-        "url": "https://www.socialmediatoday.com/news/meta-discusses-protocols-for-agentic-commerce/832446/"
-      }
-    ],
-    "sourceCount": 1,
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "fingerprint": "487e54ced710f9d05cfe0d8d1b903d8a4305d6df9d9365843f6461423af07fbb",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
-    "takeaways": []
-  },
-  {
-    "id": "case-radar-ec70d4c7f4056926",
-    "title": "ShopRanker 对导购的启发，先在“怎么造评测题”，不在模型榜首",
-    "summary": "这不是再写一个“先澄清需求”的理由，而是给现有排序器做反事实评测：商品名高度匹配，但违反价格、穿着对象或排除材质时，是否仍被排在前面？交换候选顺序可以排除展示位置对裁判的影响。",
-    "counterpoint": "材料自己披露不同裁判表态比例差异很大，部分样本主要由一个模型决定。若训练与验收共用同类裁判，提升可能只是学会它的偏好；应把高共识题、低共识题和人工硬约束题分开报告。",
-    "experiment": "从本站真实查询构造“一票否决”商品对，正反排序各评一次；硬约束违规单独计数，不让总体相关性分数把致命错误平均掉。",
-    "keywords": [
+      "Mars",
       "用户研究",
       "AI购物"
     ],
     "relatedArticleIds": [
-      "radar-ec70d4c7f4056926"
+      "radar-9e5048023e6ff3d9"
     ],
     "evidence": [
       {
-        "articleId": "radar-ec70d4c7f4056926",
-        "title": "ZooWork-ShopRanker：当AI学会像真正的导购员一样思考",
-        "source": "科技行者",
-        "date": "2026-10-07",
-        "quote": "只有当一个裁判在正反两个顺序下都选了同一个商品，才算它真的\"表态\"了，否则就算它弃权。",
-        "quoteZh": "ShopRanker 的解读材料提到：同一商品对要交换顺序让模型裁判再判一次，选择不一致就弃权；标注还按跨模型一致程度分档。",
-        "url": "https://www.techwalker.com/2026/1007/3201154.shtml"
+        "articleId": "radar-9e5048023e6ff3d9",
+        "title": "Mars 研究预测：AI 驱动的零售交易到 2035 年将达 7880 亿美元",
+        "source": "Retail News Asia",
+        "date": "2026-10-08",
+        "url": "https://retailnews.asia/mars-study-projects-ai-driven-retail-to-reach-788-billion-dollars-by-2035",
+        "quote": "At the same time, global retail will shift toward experiential spaces, according to research from Mars, Kantar and Synthesis.",
+        "role": "该材料的直接依据",
+        "sourceHash": "d003fea1893aaa7b25c042ab7ecc1dc3d9e45c32a7181ee20476d6ff216c98dd"
       }
     ],
     "sourceCount": 1,
+    "fingerprint": "20e2ce00e20557e2f50d927f82566b73e1ce31cc7f7e93761cf7a2ca473fcc45",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
-    "fingerprint": "c41d1f8390d8fa469b4425d0cab57d673b6280b425f6139a784c4b24ec23eb0f",
-    "method": "逐篇原文核对后的产品推演",
-    "researchStatus": "reviewed",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
     "takeaways": []
   }
 ]

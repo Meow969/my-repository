@@ -1,6 +1,6 @@
 const state = {
   articles: [],
-  quality: 'all', reviewedOnly: false, savedOnly: false, bookmarks: [], legacyInsights: [], legacyArticles: [], showLegacy: false,
+  quality: 'all', reviewedOnly: false, echoCategory: 'all', echoKind: 'all', savedOnly: false, bookmarks: [], legacyInsights: [], legacyArticles: [], showLegacy: false,
   insights: [],
   reports: [],
   meta: {},
@@ -26,7 +26,7 @@ const CARD_THOUGHTS_KEY = 'meow-ai-shopping-card-thoughts';
 const ECHO_HISTORY_KEY = 'meow-ai-shopping-echo-history';
 const SEEN_FEED_KEY = 'meow-ai-shopping-seen-feed';
 const SEEN_INSPIRATION_KEY = 'meow-ai-shopping-seen-inspiration';
-const DATA_VERSION = '2026-10-13-source-review-v5';
+const DATA_VERSION = '2026-10-13-thinking-lab-v6';
 const ECHO_STAGES = [
   {
     id: 'need',
@@ -289,7 +289,7 @@ function filteredArticles() {
     && (state.contentType === 'all' || (article.contentKinds || [article.contentType || article.category]).includes(state.contentType))
     && (state.category === 'all' || article.category === state.category)
     && (state.quality === 'all' || article.readingTier === state.quality)
-    && (!state.reviewedOnly || article.brief?.researchStatus === 'reviewed')
+    && (!state.reviewedOnly || article.brief?.researchStatus === 'source_reasoning')
     && (!state.savedOnly || state.bookmarks.includes(article.id))
   ).sort((a,b) => b.date.localeCompare(a.date) || b.valueScore - a.valueScore);
 }
@@ -331,8 +331,8 @@ function renderArticle(article) {
       <div class="article-keyword-row"><div class="article-keywords" aria-label="关键词">${keywords.map(tag=>`<span class="article-keyword">${escapeHtml(tag)}</span>`).join('')}</div><a class="article-original-link" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div>
     </header>
     <section class="article-summary" aria-label="核心信息与产品动作"><h4>核心信息${brief.summaryLabel && brief.summaryLabel !== '核心信息' ? `<span>${escapeHtml(brief.summaryLabel)}</span>` : ''}</h4><div class="summary-copy" lang="zh-CN">${facts.map(text=>`<p>${escapeHtml(text)}</p>`).join('')}</div></section>
-    ${research ? `<section class="article-research" aria-label="AI导购产品洞察与深入思考"><div class="research-heading"><h4>AI 导购 · 产品洞察</h4><span>原文已逐条核对 · ${escapeHtml(research.reviewedAt || '')}</span></div><p class="research-thesis">${escapeHtml(research.heading)}</p><div class="research-anchor"><h5>这条材料的关键变化</h5><p>${escapeHtml(research.anchorZh)}</p><a href="${safeUrl(research.url)}" target="_blank" rel="noopener noreferrer">对应原文 ↗</a></div><p class="research-insight">${escapeHtml(research.insight)}</p><div class="deep-thinking"><h5>进一步判断</h5><p>${escapeHtml(research.deepThought)}</p></div><div class="validation-cut"><h5>怎么验证</h5><p>${escapeHtml(research.validation)}</p></div></section>` : `<p class="research-pending">${brief.researchStatus === 'source_changed' ? '原材料已变化，原分析暂停展示，待重新核对。' : brief.researchStatus === 'duplicate_review' ? '相同判断已合并到另一条资讯，不重复展示。' : '暂不附产品洞察 · 尚未完成逐条核对'}</p>`}
-    <details class="article-evidence"><summary>原文依据与判断边界${article.relatedCoverage?.length ? ` · ${article.relatedCoverage.length} 篇相关报道` : ''}</summary><p class="evidence-limit">${escapeHtml(research?.evidenceLimit || '')}</p>${article.sourceCaveatsZh?.length ? `<p>${article.sourceCaveatsZh.map(escapeHtml).join('<br>')}</p>` : ''}${research?.quote ? `<blockquote class="reviewed-source-quote"><p>${escapeHtml(research.quote)}</p></blockquote>` : ''}<blockquote>${(article.corePoint || []).slice(0,2).map(text=>`<p>${escapeHtml(text)}</p>`).join('')}</blockquote>${article.relatedCoverage?.length ? renderSourceLinks(article.relatedCoverage,'相关报道') : ''}<small>${escapeHtml(article.dateBasis || '历史日期')} · ${escapeHtml(article.titleTranslationMethod || '')}${article.checkedAt ? ' · '+escapeHtml(article.checkedAt.slice(0,10))+' 核验' : ''}；原文为准，推演不等于已验证结论。</small></details>
+    <section class="article-research concise-research" aria-label="AI导购产品思考"><div class="research-heading"><h4>产品思考</h4><span>${research.mode === 'evidence_question' ? '待验证问题' : '基于原文的推演'}</span></div><p class="research-thesis">${escapeHtml(research.heading)}</p><p class="research-insight">${escapeHtml(research.insight)}</p><div class="thinking-tradeoff"><strong>取舍</strong><p>${escapeHtml(research.deepThought)}</p></div><div class="thinking-test"><strong>验证</strong><p>${escapeHtml(research.validation)}</p></div></section>
+    <details class="article-evidence"><summary>原文依据与判断边界${article.relatedCoverage?.length ? ` · ${article.relatedCoverage.length} 篇相关报道` : ''}</summary><p class="evidence-limit">${escapeHtml(research.method || '')}。${article.evidenceLevel === 'fulltext' ? '依据当前提取到的原文片段，不代表独立验证了发布方数据。' : '当前证据有限，不推定产品已经实现或有效。'}</p>${article.sourceCaveatsZh?.length ? `<p>${article.sourceCaveatsZh.map(escapeHtml).join('<br>')}</p>` : ''}${research?.quote ? `<blockquote class="reviewed-source-quote"><p>${escapeHtml(research.quote)}</p></blockquote>` : ''}<blockquote>${(article.corePoint || []).slice(0,2).map(text=>`<p>${escapeHtml(text)}</p>`).join('')}</blockquote>${article.relatedCoverage?.length ? renderSourceLinks(article.relatedCoverage,'相关报道') : ''}<small>${escapeHtml(article.dateBasis || '历史日期')} · ${escapeHtml(article.titleTranslationMethod || '')}${article.checkedAt ? ' · '+escapeHtml(article.checkedAt.slice(0,10))+' 核验' : ''}；原文为准，推演不等于已验证结论。</small></details>
   </article>`;
 }
 
@@ -358,7 +358,7 @@ function renderWordCloud() {
 }
 
 function insightMatchesKeyword(insight) {
-  const haystack = [insight.title, insight.summary, getCardThoughtText(insight.id), ...(insight.takeaways || []), ...(insight.keywords || [])].join(' ').toLowerCase();
+  const haystack = [insight.title, insight.summary, insight.counterpoint, insight.experiment, insight.question, insight.category, getCardThoughtText(insight.id), ...(insight.takeaways || []), ...(insight.keywords || [])].join(' ').toLowerCase();
   if (state.query && semanticScore(haystack, state.query) <= 0) return false;
   if (state.activeKeyword === 'all') return true;
   const keyword = state.activeKeyword.toLowerCase();
@@ -462,16 +462,35 @@ function bindCardThoughts(root = document) {
 }
 
 function renderInsights() {
-  const visibleInsights = (state.showLegacy ? state.legacyInsights : state.insights).filter(insightMatchesKeyword);
-  document.getElementById('insightGrid').innerHTML = visibleInsights.map(insight => `<article class="insight-card">
-    <span class="system-badge">${state.showLegacy ? '历史灵感 · 旧版未核验' : '原文已核对 · 产品推演'} · ${escapeHtml(insight.updatedAt || insight.generatedAt || '')}</span>
-    <h3>${escapeHtml(insight.title)}</h3><p>${escapeHtml(insight.summary)}</p>${insight.observation ? `<p class="method-note">${escapeHtml(insight.observation)}</p>` : ''}
-    ${insight.evidence ? `<div class="insight-evidence"><h4>从哪些事实出发</h4>${insight.evidence.map(e => `<blockquote><p>${escapeHtml(e.quoteZh || e.quote)}</p>${e.caveats?.length ? `<p class="source-caveat">原文限制：${escapeHtml(e.caveats[0])}</p>` : ''}<a href="${safeUrl(e.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.source)} · ${escapeHtml(e.date)} · ${escapeHtml(e.signalType || '原文证据')} ↗</a></blockquote>`).join('')}</div>` : ''}
-    ${insight.iterationNote ? `<p class="iteration-note">${escapeHtml(insight.iterationNote)}</p>` : ''}
-    ${insight.counterpoint ? `<h4>进一步判断</h4><p>${escapeHtml(insight.counterpoint)}</p><h4>下一步实验</h4><p>${escapeHtml(insight.experiment)}</p>` : ''}
-    <div class="meta">${(insight.keywords || []).map(word => `<span class="pill">${escapeHtml(word)}</span>`).join('')}</div>
-    ${renderInsightSourceLinks(insight)}${renderCardThought(insight.id)}</article>`).join('') || '<p class="empty">当前筛选下没有具备原文证据的研究假设。可调整关键词或查看历史灵感。</p>';
+  renderEchoFilters();
+  const visibleInsights = (state.showLegacy ? state.legacyInsights : state.insights).filter(insight => insightMatchesKeyword(insight)
+    && (state.showLegacy || state.echoCategory === 'all' || insight.category === state.echoCategory)
+    && (state.showLegacy || state.echoKind === 'all' || insight.kind === state.echoKind));
+  document.getElementById('echoCount').textContent = `${visibleInsights.length} 张研究卡`;
+  document.getElementById('insightGrid').innerHTML = visibleInsights.map(insight => `<article class="insight-card echo-dense-card" data-insight-id="${escapeHtml(insight.id)}">
+    <div class="echo-card-meta"><span>${state.showLegacy ? '旧版存档' : insight.kind === 'synthesis' ? '多材料对照' : '单篇闪念'}</span><span>${escapeHtml(insight.category || '')}</span></div>
+    <h3>${escapeHtml(insight.title)}</h3>
+    <div class="echo-point"><strong>判断</strong><p>${escapeHtml(insight.summary)}</p></div>
+    ${insight.counterpoint ? `<div class="echo-point"><strong>再想一层</strong><p>${escapeHtml(insight.counterpoint)}</p></div>` : ''}
+    ${insight.experiment ? `<div class="echo-point echo-action"><strong>怎么做</strong><p>${escapeHtml(insight.experiment)}</p></div>` : ''}
+    <div class="echo-tags">${(insight.keywords || []).slice(0,4).map(word=>`<span>${escapeHtml(word)}</span>`).join('')}</div>
+    <details class="echo-evidence"><summary>依据 ${insight.evidence?.length || insight.relatedArticleIds?.length || 0} 篇资料 · 展开看来源</summary>
+      ${insight.question ? `<p class="echo-question">研究问题：${escapeHtml(insight.question)}</p>` : ''}
+      ${insight.limits ? `<p class="echo-limits">边界：${escapeHtml(insight.limits)}</p>` : ''}
+      ${(insight.evidence || []).map(e=>`<div class="insight-evidence"><a href="${safeUrl(e.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.title || e.source)} ↗</a><small>${escapeHtml(e.source)} · ${escapeHtml(e.date)}${e.role ? ' · '+escapeHtml(e.role) : ''}</small><p>${escapeHtml(e.quoteZh || e.quote)}</p></div>`).join('')}
+      ${!insight.evidence?.length ? renderInsightSourceLinks(insight) : ''}
+    </details>${renderCardThought(insight.id)}</article>`).join('') || '<p class="empty">没有匹配的研究卡，试试其他主题。</p>';
   bindCardThoughts(document.getElementById('insightGrid'));
+}
+
+function renderEchoFilters() {
+  const el=document.getElementById('echoCategoryFilter');
+  if (!el.dataset.ready) {
+    unique(state.insights.map(i=>i.category)).forEach(v=>el.append(new Option(v,v)));
+    el.dataset.ready='true';
+    el.addEventListener('change',e=>{state.echoCategory=e.target.value;renderInsights();});
+    document.getElementById('echoKindFilter').addEventListener('change',e=>{state.echoKind=e.target.value;renderInsights();});
+  }
 }
 
 function loadUserInsights() {
@@ -1509,7 +1528,7 @@ function bindResearchControls() {
   document.getElementById('qualityFilter').addEventListener('change', e => {state.quality=e.target.value;renderFeed();renderGlobalStats();});
   document.getElementById('clearFilters').addEventListener('click', resetResearchFilters);
   document.getElementById('savedFilter').addEventListener('click', e => {state.savedOnly=!state.savedOnly;e.currentTarget.setAttribute('aria-pressed',String(state.savedOnly));renderFeed();renderGlobalStats();});
-  document.getElementById('legacyToggle').addEventListener('click', e => {state.showLegacy=!state.showLegacy;e.currentTarget.textContent=state.showLegacy?'返回证据研究':'查看旧版灵感存档';state.activeKeyword='all';renderWordCloud();renderInsights();});
+  document.getElementById('legacyToggle').addEventListener('click', e => {state.showLegacy=!state.showLegacy;e.currentTarget.textContent=state.showLegacy?'返回产品回声':'查看旧版灵感存档';state.activeKeyword='all';renderWordCloud();renderInsights();});
   document.getElementById('exportNotes').addEventListener('click', () => {
     const value={exportedAt:new Date().toISOString(),notes:state.userInsights,thoughts:state.cardThoughts,bookmarks:state.bookmarks,echoHistory:loadEchoHistory()};
     const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));

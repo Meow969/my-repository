@@ -1,8 +1,10 @@
 {
-  "reviewedAt": "2026-10-13T17:54:56+08:00",
-  "articles": 698,
-  "reviewed": 16,
-  "pending": 682,
-  "largestPreviousDuplicate": 1,
-  "method": "Unreviewed template conclusions removed, independently reviewed source-bound cases retained."
+  "updatedAt": "2026-10-13T18:53:00+08:00",
+  "articleCount": 721,
+  "modelThinkingCount": 721,
+  "synthesisCount": 29,
+  "sparkCount": 36,
+  "duplicateHeadings": 0,
+  "duplicateBodies": 0,
+  "method": "Source-bound model reasoning, exact excerpt validation, cross-material research; not human-review or causal-verification claims."
 }

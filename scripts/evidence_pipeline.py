@@ -2,6 +2,7 @@
 """Evidence-first daily radar. No model/key required; never presents a hypothesis as fact."""
 from __future__ import annotations
 import argparse
+import os
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 import datetime as dt
@@ -504,18 +505,23 @@ def run(days=45,limit=24,max_queries=None,recheck=False,dry_run=False):
     merged.extend(a for a in existing if a['id'] in translation_candidates and a['id'] not in kept_ids and a.get('summaryZh'))
     merged.sort(key=lambda a:(a['date'],a.get('valueScore',0)),reverse=True)
     selected=[a for a in merged if a['id'] not in old_ids]
+    from source_thinking import generate
     from article_brief import refresh_briefs
+    if os.environ.get('RADAR_LLM_ENDPOINT') and os.environ.get('RADAR_LLM_MODEL'):
+        generate(merged,workers=2,batch_size=8,limit=48)
+        from echo_synthesis import generate as generate_echo
+        generate_echo(merged,workers=1)
     refresh_briefs(merged)
     insights=make_insights(merged,previous);reports=build_reports(merged)
     changed=sum(next((x.get('fingerprint') for x in previous if x['id']==i['id']),None)!=i['fingerprint'] for i in insights)
     digest_top=diverse([a for a in merged if a['date']>=(now().date()-dt.timedelta(days=14)).isoformat() and a.get('readingTier')=='精选'],5,2)
-    meta=load('meta.json',{});meta.update(lastUpdated=started,lastInsightUpdated=now().date().isoformat() if changed else meta.get('lastInsightUpdated',now().date().isoformat()),reviewedResearchCount=len(insights),pendingResearchCount=sum(not a['brief']['research'] for a in merged),latestAdded=len(selected),latestInsightChanged=changed,sourceCount=len({a.get('publisher',a['source']) for a in merged}),articleCount=len(merged),updateTime='每日北京时间 11:00 计划运行（GitHub 可能延迟）',selectionRule='原文可核验优先；分级而非凑数；事实与推演分离；按来源和主题打散。',pipelineVersion=VERSION,analysisMode='仅发布逐篇核对并绑定原文版本的产品分析；待审核不生成洞察',sourceHealth={'configured':len(SOURCES),'healthy':sum(h['status']=='ok' for h in health if h['kind']!='discovery'),'failed':sum(h['status']!='ok' for h in health if h['kind']!='discovery'),'discoveryQueries':max_queries},qualitySummary={'verified':sum(a.get('evidenceLevel')=='fulltext' for a in merged),'watchlist':sum(a.get('readingTier')=='观察' for a in merged),'rejected':dict(rejected)},lastRunStatus='degraded' if sum(h['status']=='ok' for h in health)<len(health)*.5 else 'ok')
+    meta=load('meta.json',{});meta.update(lastUpdated=started,lastInsightUpdated=now().date().isoformat() if changed else meta.get('lastInsightUpdated',now().date().isoformat()),echoCount=len(insights),echoSynthesisCount=sum(i.get('kind')=='synthesis' for i in insights),modelThinkingCount=sum(a['brief']['researchStatus']=='source_reasoning' for a in merged),pendingResearchCount=sum(a['brief']['researchStatus']=='evidence_question' for a in merged),articleThinkingCount=len(merged),latestAdded=len(selected),latestInsightChanged=changed,sourceCount=len({a.get('publisher',a['source']) for a in merged}),articleCount=len(merged),updateTime='每日北京时间 11:00 计划运行（GitHub 可能延迟）',selectionRule='原文可核验优先；分级而非凑数；事实与推演分离；按来源和主题打散。',pipelineVersion=VERSION,analysisMode='逐条原文短摘录驱动的产品推演；回声为多材料研究；未配置模型时显示待验证产品问题',sourceHealth={'configured':len(SOURCES),'healthy':sum(h['status']=='ok' for h in health if h['kind']!='discovery'),'failed':sum(h['status']!='ok' for h in health if h['kind']!='discovery'),'discoveryQueries':max_queries},qualitySummary={'verified':sum(a.get('evidenceLevel')=='fulltext' for a in merged),'watchlist':sum(a.get('readingTier')=='观察' for a in merged),'rejected':dict(rejected)},lastRunStatus='degraded' if sum(h['status']=='ok' for h in health)<len(health)*.5 else 'ok')
     digest=dict(date=now().date().isoformat(),generatedAt=started,newCount=len(selected),title='先读这几条，再形成判断',articleIds=[a['id'] for a in digest_top],insightIds=[i['id'] for i in insights],note='近14天已提取原文的多来源精选；零新增时保留阅读入口，不制造“今日新趋势”。',analysisMode=meta['analysisMode'])
     if not dry_run:
         # Preserve old material, including attached IDs, for a reversible migration.
         if not (DATA/'legacy_insights.json').exists():write('legacy_insights.json',previous)
         if not (DATA/'legacy_articles.json').exists():write('legacy_articles.json',existing)
-        for name,obj in [('articles.json',merged),('insights.json',insights),('monthly_reports.json',reports),('source_health.json',health),('research_queue.json',[dict(id=a['id'],title=a['title'],url=a['url'],status=a['brief']['researchStatus']) for a in merged if not a['brief']['research']]),('daily_digest.json',digest),('meta.json',meta)]:write(name,obj)
+        for name,obj in [('articles.json',merged),('insights.json',insights),('monthly_reports.json',reports),('source_health.json',health),('research_queue.json',[dict(id=a['id'],title=a['title'],url=a['url'],status=a['brief']['researchStatus']) for a in merged if a['brief']['researchStatus']=='evidence_question']),('daily_digest.json',digest),('meta.json',meta)]:write(name,obj)
     print(json.dumps({'added':len(selected),'articles':len(merged),'insights':len(insights),'rejected':dict(rejected),'health':meta['sourceHealth']},ensure_ascii=False),flush=True)
     return selected
 

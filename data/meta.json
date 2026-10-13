@@ -6,7 +6,7 @@
   "selectionRule": "原文可核验优先；分级而非凑数；事实与推演分离；按来源和主题打散。",
   "latestAdded": 23,
   "lastInsightUpdated": "2026-10-13",
-  "latestInsightChanged": 0,
+  "latestInsightChanged": 65,
   "lastQualityReview": "2026-09-04T20:12:45+08:00",
   "duplicatesRemoved": 4,
   "sourceCount": 306,
@@ -29,7 +29,7 @@
   "historyCoverageDays": 61,
   "articleCount": 721,
   "pipelineVersion": "evidence-v1",
-  "analysisMode": "仅发布逐篇核对并绑定原文版本的产品分析；待审核不生成洞察",
+  "analysisMode": "逐条原文片段驱动的产品推演；回声为跨资料研究和单篇闪念",
   "sourceHealth": {
     "configured": 32,
     "healthy": 27,
@@ -100,9 +100,13 @@
   },
   "summaryLanguage": "zh-CN",
   "summaryMode": "本地神经翻译，重点案例人工校订",
-  "cardFormat": "bilingual-facts-product-research-v1",
+  "cardFormat": "source-thinking-and-cross-source-echo-v1",
   "lastCardReview": "2026-10-10T16:48:23+08:00",
-  "lastResearchReview": "2026-10-13T17:54:56+08:00",
-  "reviewedResearchCount": 16,
-  "pendingResearchCount": 705
+  "lastResearchReview": "2026-10-13T18:53:00+08:00",
+  "pendingResearchCount": 0,
+  "articleThinkingCount": 721,
+  "modelThinkingCount": 721,
+  "echoCount": 65,
+  "echoSynthesisCount": 29,
+  "sourceReasoningCoverage": "721/721 at publication"
 }

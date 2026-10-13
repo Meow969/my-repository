@@ -44,6 +44,10 @@ jobs:
           path: ~/.cache/ai-shopping-radar/opus-en-zh-1.9
           key: opus-en-zh-433e7c4-v1
       - name: Discover, verify and refresh research
+        env:
+          RADAR_LLM_ENDPOINT: ${{ vars.RADAR_LLM_ENDPOINT }}
+          RADAR_LLM_MODEL: ${{ vars.RADAR_LLM_MODEL }}
+          RADAR_LLM_API_KEY: ${{ secrets.RADAR_LLM_API_KEY }}
         if: github.event_name != 'push'
         run: python scripts/evidence_pipeline.py --days 45 --limit 32 --max-google-queries 72
         timeout-minutes: 28

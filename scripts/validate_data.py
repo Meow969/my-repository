@@ -4,9 +4,11 @@ import json
 from pathlib import Path
 from evidence_pipeline import public_url, now
 from localize_summaries import is_chinese, fingerprint, needs_title_translation
-from article_brief import input_hash, source_hash, read_reviews, same_research
+from article_brief import input_hash
+from source_thinking import source_hash, evidence, valid_cached
 D=Path(__file__).resolve().parents[1]/'data'
 def read(name):return json.loads((D/name).read_text())
+thinking_store=read('article_thinking.json')
 articles=read('articles.json');insights=read('insights.json');reports=read('monthly_reports.json');digest=read('daily_digest.json');meta=read('meta.json')
 assert articles,'Empty article store'
 ids={a['id'] for a in articles}
@@ -29,26 +31,29 @@ for a in articles:
     assert 1<=len(brief['keywords'])<=5 and brief['summary'],a['id']
     assert all(is_chinese(v) for v in brief['summary']),a['id']
     research=brief['research']
-    if research:
-        assert brief['researchStatus']=='reviewed',a['id']
-        assert research['basisArticleId']==a['id'],a['id']
-        assert research['sourceHash']==source_hash(a),a['id']
-        assert research['url']==a['url'],a['id']
-        record=read_reviews()[a['id']]
-        for key in ['heading','anchorZh','quote','insight','deepThought','validation','evidenceLimit','reviewedAt']:
-            assert research.get(key) and research[key]==record[key],a['id']
-    else:assert brief['researchStatus']!='reviewed',a['id']
-reviewed=[a for a in articles if a['brief']['research']]
-for index,a in enumerate(reviewed):
-    for b in reviewed[index+1:]:
-        assert not same_research(a['brief']['research'],b['brief']['research']),(a['id'],b['id'])
+    assert research and research['basisArticleId']==a['id'],a['id']
+    assert research['sourceHash']==source_hash(a) and research['url']==a['url'],a['id']
+    assert research['quote'] in evidence(a),a['id']
+    assert research['mode'] in ('source_reasoning','evidence_question'),a['id']
+    for key in ['heading','insight','deepThought','validation']:
+        assert research.get(key) and is_chinese(research[key]),a['id']
+    if research['mode']=='source_reasoning':
+        record=thinking_store[a['id']]
+        assert valid_cached(a,record),a['id']
+        for key,stored in [('heading','heading'),('insight','insight'),('deepThought','boundary'),('validation','test')]:
+            assert research[key]==record[stored],a['id']
+reasoned=[a for a in articles if a['brief']['research']['mode']=='source_reasoning']
+# Exact duplicate body is rejected; similar topics are allowed only with different reasoning.
+assert len({a['brief']['research']['insight'] for a in reasoned})==len(reasoned),'Duplicate article reasoning'
 for i in insights:
     assert set(i['relatedArticleIds'])<=ids,i['id']
     assert i['evidence'] and i['counterpoint'] and i['experiment'],i['id']
+    if i.get('kind')=='synthesis':assert len({e['articleId'] for e in i['evidence']})>=2,i['id']
+    assert all(is_chinese(i[k]) for k in ['title','summary','counterpoint','experiment']),i['id']
     for e in i['evidence']:
         a=next(a for a in articles if a['id']==e['articleId'])
-        assert a['brief']['research'] and e['quote']==a['brief']['research']['quote'],i['id']
-        assert i['summary']==a['brief']['research']['insight'],i['id']
+        assert e['quote'] in evidence(a),i['id']
+        assert e['sourceHash']==source_hash(a),i['id']
         assert a['evidenceLevel']=='fulltext',i['id']
 for r in reports:
     assert r['title'] and r['summary'],r['month']
@@ -61,8 +66,7 @@ for r in reports:
         assert a['evidenceLevel']=='fulltext',article_id
 assert set(digest['articleIds'])<=ids
 queue=read('research_queue.json')
-assert {a['id'] for a in articles if not a['brief']['research']}=={a['id'] for a in queue}
-assert len(insights)==len(reviewed)
+assert {a['id'] for a in articles if a['brief']['research']['mode']=='evidence_question'}=={a['id'] for a in queue}
 assert set(digest['insightIds'])<={i['id'] for i in insights}
 assert meta['articleCount']==len(articles)
 print(f'Validated {len(articles)} articles, {len(insights)} evidence-backed hypotheses, {len(reports)} monthly indexes.')

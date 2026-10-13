@@ -388,3 +388,32 @@ footer { font-size:11px; color:var(--muted); text-align:center; padding:25px 16p
 .article-card .research-pending { color:#9a92a4; font-size:11px; margin:0 0 8px; line-height:1.7; }
 .research-heading { flex-wrap:wrap; }
 @media(max-width:560px) {.feed-controls{gap:7px; flex-wrap:wrap;} .article-card .research-anchor p{font-size:11px;}}
+/* Dense research: three short decisions instead of repeated long explanations. */
+.concise-research { padding:16px 18px; }
+.article-card .thinking-tradeoff,.article-card .thinking-test { display:grid; grid-template-columns:30px 1fr; gap:9px; margin-top:10px; }
+.thinking-tradeoff strong,.thinking-test strong { font-size:10px;color:#927caa;line-height:1.9;padding-top:2px; }
+.article-card .thinking-tradeoff p,.article-card .thinking-test p { font-size:12px;line-height:1.85;margin:0;color:#776a82; }
+.echo-filters { display:flex;align-items:center;gap:8px;margin:12px 0; }
+.echo-filters select { width:auto;min-width:140px;padding:8px 12px;min-height:36px;font-size:12px; }
+.echo-filters span { margin-left:auto;color:var(--muted);font-size:12px; }
+.echo-keyword-cloud { margin:10px 0 20px;color:var(--muted);font-size:12px; }
+.echo-keyword-cloud summary { cursor:pointer; }
+.echo-keyword-cloud .word-cloud { margin:10px 0; }
+.insight-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start; }
+.echo-dense-card { padding:22px;border-radius:19px;box-shadow:0 6px 22px #61439808;min-width:0; }
+.echo-card-meta { display:flex;justify-content:space-between;gap:10px;color:#9586af;font-size:10px; }
+.echo-dense-card h3 { font-size:21px;line-height:1.5;margin:10px 0 18px;letter-spacing:-.04em; }
+.echo-point { display:grid;grid-template-columns:48px 1fr;gap:9px;margin:10px 0; }
+.echo-point>strong { font-size:11px;color:var(--accent);padding-top:2px;line-height:1.8; }
+.echo-dense-card .echo-point p { font-size:13px;line-height:1.85;margin:0;color:#564a67; }
+.echo-action { background:#f5f1ff;padding:11px 12px;border-radius:9px;margin:14px -4px 10px; }
+.echo-tags { display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 12px; }
+.echo-tags span { padding:3px 7px;background:#f5f3fa;color:#8a7b9b;font-size:10px;border-radius:5px; }
+.echo-evidence { border-top:1px solid #8873b21c;padding-top:11px;color:#8d819c;font-size:11px; }
+.echo-evidence>summary { cursor:pointer; }
+.echo-dense-card .echo-evidence p { font-size:11px;line-height:1.8;overflow-wrap:anywhere; }
+.echo-evidence .insight-evidence { margin-top:12px;border-left:2px solid #dacff0;padding-left:10px; }
+.echo-evidence .insight-evidence a { color:var(--accent);font-size:12px;line-height:1.6; }
+.echo-evidence .insight-evidence small { display:block;font-size:10px;line-height:1.7; }
+.echo-dense-card .card-thought { margin-top:10px; }
+@media(max-width:760px){.insight-grid{grid-template-columns:1fr}.echo-dense-card{padding:20px}.echo-dense-card h3{font-size:20px}.echo-point{grid-template-columns:44px 1fr;gap:7px}.echo-dense-card .echo-point p{font-size:12px}.echo-filters{flex-wrap:wrap}.echo-filters select{min-width:0;width:calc(50% - 4px)}.echo-filters span{margin:0}.article-card .thinking-tradeoff,.article-card .thinking-test{grid-template-columns:26px 1fr;gap:7px}}

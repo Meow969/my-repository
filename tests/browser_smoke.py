@@ -60,7 +60,20 @@ with sync_playwright() as pw:
         page.locator('#searchInput').fill('')
         page.locator('[data-tab="inspiration"]').click()
         assert page.locator('#inspirationTab').is_visible()
-        assert page.locator('.insight-evidence').count()>0
+        assert page.locator('.echo-dense-card').count()>=40
+        assert page.locator('.echo-point').count()>0
+        assert page.locator('.echo-evidence').first.get_attribute('open') is None
+        page.locator('#echoKindFilter').select_option('synthesis')
+        assert page.locator('.echo-dense-card').count()>=24
+        page.locator('#echoCategoryFilter').select_option('商品与数据')
+        assert page.locator('.echo-dense-card').count()>0
+        page.locator('.echo-evidence summary').first.click()
+        assert page.locator('.insight-evidence').first.is_visible()
+        page.screenshot(path=f'/tmp/radar-dense-{label}-echo.png',full_page=False)
+        page.locator('#echoCategoryFilter').select_option('all')
+        page.locator('#echoKindFilter').select_option('spark')
+        assert page.locator('.echo-dense-card').count()>0
+        page.locator('#echoKindFilter').select_option('all')
         page.locator('#legacyToggle').click()
         assert page.locator('.insight-card').count()>10
         page.locator('#legacyToggle').click()
@@ -76,11 +89,10 @@ with sync_playwright() as pw:
         page.locator('.article-card').first.scroll_into_view_if_needed()
         assert page.locator('.article-research').first.is_visible()
         assert page.locator('.research-insight').first.is_visible()
-        assert page.locator('.deep-thinking').first.is_visible()
+        assert page.locator('.thinking-tradeoff').first.is_visible()
         assert page.locator('.article-title-zh').first.is_visible()
         assert page.locator('.article-title-original').count()>0
         assert page.locator('.article-keywords').first.inner_text()
-        assert page.locator('.research-anchor').first.inner_text()
         assert '把模糊需求变成可修改的候选条件' not in page.locator('#feedTab').inner_text()
         headings=page.locator('.research-thesis').all_inner_texts()
         assert len(headings)==len(set(headings))
@@ -98,10 +110,9 @@ with sync_playwright() as pw:
         page.screenshot(path=f'/tmp/radar-brief-{label}-card.png',full_page=False)
         assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'),label
         page.locator('#reviewedFilter').click()
-        assert page.locator('.research-pending').count()>0
-        pending=page.locator('.article-card').filter(has=page.locator('.research-pending')).first
-        assert pending.locator('.article-research').count()==0
-        assert pending.locator('.summary-copy').inner_text()
+        assert page.locator('.research-pending').count()==0
+        assert page.locator('.article-card').count()==page.locator('.article-research').count()
+        assert page.locator('.thinking-test').count()==page.locator('.article-card').count()
         assert not errors,errors
         print(label,'PASS: two tabs, monthly summaries & recommendations, daily timeline, search, quality, bookmarks, notes, export, no overflow or errors')
         context.close()

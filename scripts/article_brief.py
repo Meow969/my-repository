@@ -6,7 +6,7 @@ from pathlib import Path
 import re
 from difflib import SequenceMatcher
 
-VERSION='article-reviewed-v2'
+VERSION='article-thinking-v3'
 ENTITIES=[
  ('Amazon',r'\bamazon\b|亚马逊'),('Rufus',r'\brufus\b'),('Meta',r'\bmeta\b'),('Muse',r'\bmuse\b'),
  ('Google',r'\bgoogle\b|谷歌'),('Gemini',r'\bgemini\b'),('OpenAI',r'\bopenai\b'),('ChatGPT',r'\bchatgpt\b'),
@@ -86,8 +86,20 @@ def clean_sentence(text):
     return text if re.search(r'[。！？…]$|\.{3}$',text) else text.rstrip('.,，;；')+'。'
 
 
-def build_brief(a,reviews=None):
-    reviews=read_reviews() if reviews is None else reviews
+def research_record(a,generated):
+    from source_thinking import valid_cached,fallback
+    record=generated.get(a['id'])
+    if not valid_cached(a,record):record=fallback(a)
+    return dict(heading=record['heading'],insight=record['insight'],deepThought=record['boundary'],
+        validation=record['test'],quote=record['quote'],url=a['url'],sourceHash=record['sourceHash'],
+        basisArticleId=a['id'],mode=record['mode'],generatedAt=record['generatedAt'],
+        method='原文短摘录驱动的模型推演，非已验证结论' if record['mode']=='source_reasoning' else '基于现有材料的待验证产品问题')
+
+
+def build_brief(a,reviews=None,generated=None):
+    if generated is None:
+        path=Path(__file__).resolve().parents[1]/'data/article_thinking.json'
+        generated=json.loads(path.read_text()) if path.exists() else {}
     raw=source_text(a)
     entities=[name for _,name in sorted((re.search(pattern,a['title'],re.I).start(),name) for name,pattern in ENTITIES if re.search(pattern,a['title'],re.I))]
     topics=[label for label,pattern in TOPICS if re.search(pattern,raw,re.I)]
@@ -97,40 +109,58 @@ def build_brief(a,reviews=None):
         point=clean_sentence(value)
         if not any(SequenceMatcher(None,point,old).ratio()>.78 for old in facts):facts.append(point)
     if a.get('evidenceLevel')=='headline':
-        facts=['目前仅保存标题线索：'+a['titleZh'].rstrip('。')+'。正文尚未核实，暂不能确认产品细节或实际效果。']
+        facts=['目前仅保存标题线索：'+a['titleZh'].rstrip('。')+'。正文尚未核实，以下产品思考仅作为验证问题。']
     elif a.get('evidenceLevel')=='abstract' and facts:facts[0]='据目前可获取的摘要，'+facts[0]
-    research,status=review_for(a,reviews)
-    if research and research.get('summary'):facts=research['summary']
+    # Keep previously checked facts, but no longer copy a long reviewed card into Echo.
+    verified=read_reviews() if reviews is None else reviews
+    checked,status=review_for(a,verified)
+    if checked and checked.get('summary'):facts=checked['summary']
+    research=research_record(a,generated)
     return dict(version=VERSION,inputHash=input_hash(a),keywords=keywords,summary=facts,
-        summaryLabel='核心信息',research=research,researchStatus=status)
+        summaryLabel='核心信息',research=research,researchStatus=research['mode'])
 
 
 def refresh_briefs(articles):
-    reviews=read_reviews();accepted=[]
-    for article in sorted(articles,key=lambda a:(a.get('date',''),a.get('valueScore',0)),reverse=True):
-        brief=build_brief(article,reviews)
-        if brief['research']:
-            other=next((a for a in accepted if same_research(a['brief']['research'],brief['research'])),None)
-            if other:
-                brief.update(research=None,researchStatus='duplicate_review',relatedResearchArticleId=other['id'])
-            else:accepted.append(article)
-        article['brief']=brief
-        # Legacy template fields must not leak through search, notes, or other renderers.
-        article.pop('analysis',None);article.pop('insight',None)
-        article['relatedInsightIds']=['case-'+article['id']] if brief['research'] else []
+    reviews=read_reviews()
+    path=Path(__file__).resolve().parents[1]/'data/article_thinking.json'
+    generated=json.loads(path.read_text()) if path.exists() else {}
+    for a in articles:
+        a['brief']=build_brief(a,reviews,generated)
+        a.pop('analysis',None);a.pop('insight',None)
+        a['relatedInsightIds']=[]
     return articles
 
 
 def reviewed_insights(articles,previous):
-    old={i['id']:i for i in previous};result=[]
-    for a in articles:
-        r=a.get('brief',{}).get('research')
-        if not r:continue
-        iid='case-'+a['id'];fp=hashlib.sha256(json.dumps(r,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
-        result.append(dict(id=iid,title=r['heading'],summary=r['insight'],counterpoint=r['deepThought'],
-            experiment=r['validation'],keywords=a['brief']['keywords'],relatedArticleIds=[a['id']],
-            evidence=[dict(articleId=a['id'],title=a['title'],source=a['source'],date=a['date'],
-                quote=r['quote'],quoteZh=r['anchorZh'],url=a['url'])],sourceCount=1,
-            generatedAt=old.get(iid,{}).get('generatedAt',r['reviewedAt']),updatedAt=r['reviewedAt'],
-            fingerprint=fp,method=r['method'],researchStatus='reviewed',takeaways=[]))
+    from source_thinking import source_hash as evidence_hash,evidence
+    path=Path(__file__).resolve().parents[1]/'data/echo_research.json'
+    cards=json.loads(path.read_text()) if path.exists() else []
+    by={a['id']:a for a in articles};result=[]
+    for card in cards:
+        c=dict(card)
+        refs=[e for e in c['evidence'] if e['articleId'] in by and e.get('sourceHash')==evidence_hash(by[e['articleId']]) and e['quote'] in evidence(by[e['articleId']])]
+        # Any changed basis invalidates the synthesis; do not keep unsupported conclusions.
+        if len(refs)!=len(c['evidence']) or len(refs)<2:continue
+        c['relatedArticleIds']=[e['articleId'] for e in refs]
+        c['evidence']=refs
+        c['sourceCount']=len({e['source'] for e in refs})
+        c['takeaways']=[];result.append(c)
+        for e in refs:by[e['articleId']]['relatedInsightIds'].append(c['id'])
+    # Single-source sparks are short, fresh decisions, not copies of long legacy cards.
+    from collections import Counter
+    counts=Counter();spark_count=0
+    category_map={'payments':'交易与信任','trust':'交易与信任','visual':'入口与交互','local':'入口与交互','memory':'用户与增长','merchant':'商品与数据','discovery':'入口与交互'}
+    used=set()
+    for a in sorted(articles,key=lambda x:(x.get('date',''),x.get('valueScore',0)),reverse=True):
+        r=a.get('brief',{}).get('research',{})
+        if r.get('mode')!='source_reasoning' or a.get('evidenceLevel')!='fulltext' or a.get('valueScore',0)<72:continue
+        if counts[a.get('publisher',a['source'])]>=2 or r['heading'] in used:continue
+        counts[a.get('publisher',a['source'])]+=1;used.add(r['heading'])
+        category=category_map.get(a.get('lensId'),'商业与平台')
+        result.append(dict(id='spark-'+a['id'],kind='spark',category=category,title=r['heading'],summary=r['insight'],counterpoint=r['deepThought'],experiment=r['validation'],
+            limits='单篇原文片段驱动的产品假设，尚非因果验证。',keywords=a['brief']['keywords'],relatedArticleIds=[a['id']],
+            evidence=[dict(articleId=a['id'],title=a.get('titleZh',a['title']),source=a['source'],date=a['date'],url=a['url'],quote=r['quote'],role='该材料的直接依据',sourceHash=r['sourceHash'])],
+            sourceCount=1,fingerprint=hashlib.sha256(json.dumps(r,sort_keys=True,ensure_ascii=False).encode()).hexdigest(),generatedAt=r['generatedAt'][:10],updatedAt=r['generatedAt'][:10],method=r['method'],takeaways=[]))
+        a['relatedInsightIds'].append('spark-'+a['id']);spark_count+=1
+        if spark_count>=36:break
     return result

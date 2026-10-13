@@ -7,7 +7,7 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta name="description" content="Meow的AI购物研究雷达：多源追踪，原文核验，事实与产品假设分开阅读。每日自动更新。" />
   <title>Meow的AI购物雷达响了</title>
-  <link rel="stylesheet" href="./styles.css?v=2026-10-13-source-review-v5" />
+  <link rel="stylesheet" href="./styles.css?v=2026-10-13-thinking-lab-v6" />
 </head>
 <body>
   <header class="hero compact-hero">
@@ -36,7 +36,7 @@
         </div>
         <div id="monthTabs" class="month-tabs"></div>
         <div id="activeMonthlyReport" class="active-monthly-report"></div>
-        <div class="feed-controls"><span id="filterContext" aria-live="polite"></span><button id="reviewedFilter" aria-pressed="false">有洞察</button><button id="savedFilter" aria-pressed="false">☆ 收藏</button><details class="filter-menu"><summary>筛选</summary><div><select id="qualityFilter" aria-label="证据分级"><option value="all">全部资讯</option><option value="精选">原文精选</option><option value="观察">观察线索</option></select><button id="clearFilters">清除筛选</button></div></details></div>
+        <div class="feed-controls"><span id="filterContext" aria-live="polite"></span><button id="reviewedFilter" aria-pressed="false">深度思考</button><button id="savedFilter" aria-pressed="false">☆ 收藏</button><details class="filter-menu"><summary>筛选</summary><div><select id="qualityFilter" aria-label="证据分级"><option value="all">全部资讯</option><option value="精选">原文精选</option><option value="观察">观察线索</option></select><button id="clearFilters">清除筛选</button></div></details></div>
         <div id="articleGroups" class="article-groups"></div>
       </section>
     </section>
@@ -47,9 +47,10 @@
           <p class="eyebrow">Inspiration Lab</p>
           <h2>AI导购产品回声</h2>
         </div>
-        <p class="section-note">只展示逐条核对原文的分析；未审核的资讯不自动生成产品观点。</p>
+        <p class="section-note">不复述新闻，比较不同材料里的产品选择、矛盾与机会。</p>
         <div class="research-controls"><button id="legacyToggle">查看旧版灵感存档</button><button id="exportNotes">导出我的笔记与收藏</button></div>
-        <div class="word-cloud" id="wordCloud"></div>
+        <div class="echo-filters"><select id="echoKindFilter" aria-label="研究类型"><option value="all">全部回声</option><option value="synthesis">多材料研究</option><option value="spark">单篇闪念</option></select><select id="echoCategoryFilter" aria-label="研究主题"><option value="all">全部主题</option></select><span id="echoCount" aria-live="polite"></span></div>
+        <details class="echo-keyword-cloud"><summary>关键词导航</summary><div class="word-cloud" id="wordCloud"></div></details>
 
         <div id="userInsightGrid" class="insight-grid user-grid"></div>
         <div id="insightGrid" class="insight-grid"></div>
@@ -76,6 +77,6 @@
   </section>
 
   <footer>每天 11:00 自动更新 · 北京时间，执行可能延迟 · <a href="https://github.com/Helsinki-NLP/Opus-MT" target="_blank" rel="noopener noreferrer" title="OPUS-MT · CC BY 4.0 · 机器译文以原文为准">中文简介：OPUS-MT</a></footer>
-  <script src="./app.js?v=2026-10-13-source-review-v5"></script>
+  <script src="./app.js?v=2026-10-13-thinking-lab-v6"></script>
 </body>
 </html>
