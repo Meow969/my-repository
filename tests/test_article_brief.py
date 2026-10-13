@@ -1,65 +1,73 @@
+import copy
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import article_brief as b
-from localize_summaries import needs_title_translation,localize_titles,fingerprint
+from localize_summaries import localize_titles,fingerprint
 class CardTests(unittest.TestCase):
-    def article(self,title,**kw):
-        a=dict(id='test',title=title,titleZh='中文标题说明',corePoint=['The shopping assistant helps compare products.'],summaryZh=['购物助手帮助用户比较商品。','它保留用户修改购物条件的能力。'],evidenceLevel='fulltext',sourceKind='media',contentKinds=['产品案例'])
+    def article(self,title='Amazon shopping assistant',**kw):
+        a=dict(id='test',url='https://example.com/story',date='2026-10-12',title=title,titleZh='购物助手新闻',corePoint=['The shopping assistant helps compare products.'],summaryZh=['购物助手帮助用户比较商品。'],evidenceLevel='fulltext',sourceKind='media',contentKinds=['产品案例'],source='Test',valueScore=80)
         a.update(kw);return a
-    def test_gap_between_does_not_invent_gap_brand(self):
-        v=b.build_brief(self.article("Authvia Patent Targets the Gap Between Intent and Payment"))
-        self.assertNotIn('Gap',v['keywords'])
-    def test_access_is_not_generic_shopping(self):
-        a=self.article('Amazon blocks Meta shopping agent');v=b.build_brief(a)
-        self.assertEqual(v['research']['topic'],'access')
-        self.assertIn('Amazon',v['keywords']);self.assertIn('平台开放',v['keywords'])
-        self.assertIn('允许',v['research']['insight'])
-    def test_identity_vs_authorization(self):
-        a=b.build_brief(self.article('Who is behind the AI agent? Identity challenge'))
-        c=b.build_brief(self.article('Authvia payment authorization patent'))
-        self.assertEqual(a['research']['topic'],'identity');self.assertEqual(c['research']['topic'],'authorization')
-        self.assertNotEqual(a['research']['deepThought'],c['research']['deepThought'])
-    def test_visual_profile_from_title(self):
-        a=self.article('Gap launches AI try-on with Alta Daily',corePoint=['The merchant can support checkout and payment.'])
-        self.assertEqual(b.case_profile(a)['id'],'visual')
-    def test_generated_analysis_does_not_contaminate_classification(self):
-        a=self.article('Amazon AI shopping assistant',analysis={'insight':'authorization fraud identity'},tags=['虚拟试穿'])
-        self.assertEqual(b.case_profile(a)['id'],'discovery')
-    def test_facts_do_not_include_hypotheses(self):
-        a=self.article('AI shopping assistant');v=b.build_brief(a)
-        self.assertEqual(v['summary'],a['summaryZh'])
-        self.assertEqual(v['research']['basisArticleId'],'test')
-    def test_dedupe_repeated_summary(self):
-        a=self.article('AI shopping',summaryZh=['助手帮助用户比较价格。','助手帮助用户比较价格。'])
-        self.assertEqual(len(b.build_brief(a)['summary']),1)
-    def test_prediction_caveat(self):
-        v=b.build_brief(self.article('AI shopping forecast by 2035'))
-        self.assertEqual(v['summaryLabel'],'趋势预测');self.assertIn('不是已实现',v['research']['evidenceLimit'])
+    def review(self,a):
+        return dict(heading='这次取消对比入口，改变了任务起点',anchorZh='原文描述了入口从详情页改到助手。',quote='The shopping assistant helps compare products.',insight='当前入口要求先选候选，因此应核对选择前后的任务流失。',deepThought='在同一商品页直接比较与跳转后比较的用户意图不同，不能直接用后者更高的成交率证明迁移正确。',validation='对照相同商品查看行为，记录开始对比到完成对比的损失。',evidenceLimit='没有披露入口变更的实验效果。',url=a['url'],sourceHash=b.source_hash(a),reviewedAt='2026-10-13')
+    def test_unreviewed_has_no_keyword_generated_insight(self):
+        for title in ['Amazon shopping assistant','AI payments authorization','Gap AI try-on','Meta blocks AI shopping','AI shopping forecast 2035']:
+            a=self.article(title);v=b.build_brief(a,{})
+            self.assertIsNone(v['research']);self.assertEqual(v['researchStatus'],'unreviewed')
+            self.assertEqual(v['summary'],a['summaryZh'])
+    def test_valid_review_requires_exact_source(self):
+        a=self.article();r=self.review(a);v=b.build_brief(a,{'test':r})
+        self.assertEqual(v['research']['insight'],r['insight']);self.assertEqual(v['researchStatus'],'reviewed')
+        a['corePoint']=['The product was discontinued.'];v=b.build_brief(a,{'test':r})
+        self.assertIsNone(v['research']);self.assertEqual(v['researchStatus'],'source_changed')
+    def test_changed_url_invalidates_review(self):
+        a=self.article();r=self.review(a);a['url']='https://other.example/story'
+        self.assertIsNone(b.build_brief(a,{'test':r})['research'])
+    def test_incomplete_or_ungrounded_review_is_not_published(self):
+        a=self.article();r=self.review(a);r.pop('quote')
+        self.assertEqual(b.build_brief(a,{'test':r})['researchStatus'],'incomplete_review')
+        r=self.review(a);a['evidenceLevel']='abstract'
+        self.assertEqual(b.build_brief(a,{'test':r})['researchStatus'],'insufficient_evidence')
+    def test_legacy_template_cannot_leak_through_search(self):
+        a=self.article(analysis={'insight':'a generic block'},insight='another generic block')
+        with patch.object(b,'read_reviews',return_value={}):b.refresh_briefs([a])
+        self.assertNotIn('analysis',a);self.assertNotIn('insight',a);self.assertEqual(a['relatedInsightIds'],[])
+    def test_brand_prefix_does_not_evade_duplicate_check(self):
+        a=self.review(self.article());c=dict(a,heading='Google: '+a['heading'])
+        self.assertTrue(b.same_research(a,c))
+    def test_near_copy_is_duplicate(self):
+        a=self.review(self.article());c=dict(a,heading='新标题',insight=a['insight']+'建议测试。',deepThought=a['deepThought']+'需要验证。')
+        self.assertTrue(b.same_research(a,c))
+    def test_only_one_copy_is_published(self):
+        a=self.article();c=self.article(id='other',date='2026-10-11',title='Google shopping')
+        r=self.review(a);t=self.review(c);t['heading']='Google: '+t['heading']
+        with patch.object(b,'read_reviews',return_value={'test':r,'other':t}):b.refresh_briefs([a,c])
+        self.assertTrue(a['brief']['research']);self.assertIsNone(c['brief']['research']);self.assertEqual(c['brief']['relatedResearchArticleId'],a['id'])
+    def test_no_auto_insights_without_review(self):
+        a=self.article();a['brief']=b.build_brief(a,{})
+        self.assertEqual(b.reviewed_insights([a],[]),[])
+    def test_reviewed_insight_uses_matching_quote(self):
+        a=self.article();a['brief']=b.build_brief(a,{'test':self.review(a)})
+        first=b.reviewed_insights([a],[]);second=b.reviewed_insights([a],first)
+        self.assertEqual(first,second);self.assertEqual(first[0]['evidence'][0]['quote'],a['brief']['research']['quote'])
+    def test_generated_keywords_do_not_create_fake_entities(self):
+        a=self.article('Authvia: Gap Between Intent and Authorization',tags=['Google'])
+        v=b.build_brief(a,{})
+        self.assertNotIn('Gap',v['keywords']);self.assertNotIn('Google',v['keywords'])
     def test_headline_does_not_imply_verified_facts(self):
-        v=b.build_brief(self.article('AI shopping',evidenceLevel='headline'))
-        self.assertIn('正文尚未核实',v['summary'][0]);self.assertIn('待验证',v['research']['deepThought'])
-    def test_hash_changes_with_fact_translation(self):
-        a=self.article('AI shopping');first=b.input_hash(a);a['summaryZh']=['改变后的中文要点。'];self.assertNotEqual(first,b.input_hash(a))
-    def test_title_original_is_preserved(self):
-        class Stub:
-            def translate(self,values):return ['这是人工智能购物功能' for _ in values]
-        a=self.article('Unique shopping news example')
-        original=a['title'];localize_titles([a],Stub())
-        self.assertEqual(a['title'],original);self.assertEqual(a['titleSourceHash'],fingerprint([original]));self.assertIn('购物',a['titleZh'])
-    def test_chinese_title_does_not_invent_english(self):
-        a=self.article('京东AI购物助手升级');localize_titles([a],object());self.assertEqual(a['titleZh'],a['title'])
-        self.assertFalse(needs_title_translation(a['title']))
-    def test_editorial_title_uses_exact_original(self):
-        a=self.article('Gap expands AI shopping with Alta Daily and new discovery tools');localize_titles([a],object());self.assertEqual(a['titleZh'],'Gap 通过 Alta Daily 和新的商品发现工具拓展 AI 购物')
-    def test_stock_filter_does_not_exclude_inventory_cases(self):
+        v=b.build_brief(self.article(evidenceLevel='headline'),{})
+        self.assertIn('正文尚未核实',v['summary'][0]);self.assertIsNone(v['research'])
+    def test_title_and_summary_remain_available(self):
+        a=self.article('京东AI购物助手升级');localize_titles([a],object())
+        self.assertEqual(a['titleZh'],a['title']);self.assertTrue(b.build_brief(a,{})['summary'])
+    def test_source_hash_ignores_translation_but_not_facts(self):
+        a=self.article();h=b.source_hash(a);a['titleZh']='新的中文译名'
+        self.assertEqual(b.source_hash(a),h)
+        a['title']='Google new product';self.assertNotEqual(b.source_hash(a),h)
+    def test_stock_filter_preserves_inventory(self):
         import evidence_pipeline as p
         self.assertTrue(p.related('Vinasoy Cuts Out-of-Stock Rates Using AI Retail Monitoring'))
-        self.assertFalse(p.related('Shopify stock trades at USD 163 as AI commerce grows'))
-    def test_recruitment_filtered(self):
-        import evidence_pipeline as p
         self.assertFalse(p.related('Agentic Commerce Senior Manager | Life Sciences'))
-    def test_summary_sentences_clean(self):
-        self.assertEqual(b.clean_sentence('一句中文 , 并带有说明'), '一句中文，并带有说明。')
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,258 @@
+{
+  "radar-44b1c270d7734a65": {
+    "sourceHash": "cf00312d2132a8dc4f3c000171933d17a5e2a6659560f17c241c8d74460e6924",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/11/first-for-thg-commerce-as-it-brings-criteo-sponsored-products-to-ai-shopping-assistant-solution",
+    "reviewedAt": "2026-10-13",
+    "quote": "The integration places sponsored and organic product recommendations side by side within the same conversation.",
+    "anchorZh": "THG 将 Criteo 赞助商品与自然推荐放在同一段对话里；原文还说明广告只有满足相关性门槛时才出现，并明确标识。",
+    "heading": "THG 把广告接进答案后，排序约束也必须跟着用户改口",
+    "insight": "这次迭代不是新增广告位，而是让用户在同一个回答里比较付费与自然商品。对导购而言，预算、材质或品牌排除条件一旦在下一轮变化，赞助候选也必须重新过筛；否则广告会保留旧条件，回答却声称“已按你要求调整”。",
+    "deepThought": "原文称赞助商品点击率超过平均值五倍、转化率超过两倍，但没给出可比对照组。高购买意图人群本来就更易转化，不能把这组数直接解释为广告改善了导购体验。真正的风险是付费候选借用了助手“为我挑选”的可信度。",
+    "validation": "选有明确预算的对话，把中途降预算、排除品牌作为测试；同时检查广告是否退出、用户是否认出赞助标识，以及自然候选是否被挤掉，再测增量收益。",
+    "evidenceLimit": "效果数字来自发布方早期结果，文章未披露样本、平均值定义或随机对照。",
+    "summary": [
+      "THG Commerce 在其购物助手中接入 Criteo 的赞助商品广告；该助手基于 Google Cloud 的 Gemini Enterprise 构建。",
+      "赞助商品与自然推荐同屏出现，需满足相关性门槛并标为广告；这使对话本身成为零售媒体入口。"
+    ]
+  },
+  "radar-08cfa49ebf13a829": {
+    "sourceHash": "8516240e633c4de48404a507d399111ee145b2a7b16a0383c2cad6dc8e2d95c5",
+    "url": "https://www.ithome.com/1/011/927.htm",
+    "reviewedAt": "2026-10-13",
+    "quote": "该前端直显链路近期完成改版，原商品页内嵌的 AI 对比入口已下线。",
+    "anchorZh": "唯品会把商品详情页直接弹出的 AI 对比模块下线，并将选择多个商品做对比的路径接入 AI 小唯。",
+    "heading": "AI 小唯的关键变化是“对比入口搬家”，不只是新增助手",
+    "insight": "原来用户在看单品时就被展示对比，现在至少一条路径要求主动进入助手并选择商品。这可能减少无意图弹出，却也增加一次跳转。产品决策应比较“详情页轻量对比”与“助手承接复杂对比”，而不是把入口迁入聊天一概看成升级。",
+    "deepThought": "这两个入口承担不同任务：前者帮尚未建立候选集的人认识差异，后者服务已有两三件候选的人。若只看使用对比后的转化率，新入口更强的自选择就会制造“效果变好”的假象。",
+    "validation": "沿用相同商品类目，按原本有无多个候选分组，记录从详情页到完成对比的流失、主动换品率和最后购买；保留详情页把当前商品带入对比的捷径做对照。",
+    "evidenceLimit": "原文为媒体报道及客服确认，未提供此次入口调整的转化数据，不能断言迁入助手更优。",
+    "summary": [
+      "唯品会上线 AI 小唯，支持找商品、查活动与问优惠。",
+      "更具体的迭代是商品对比：原详情页直接展示的 AI PK 入口已调整，用户可进入 AI 小唯选择不同商品做比较。"
+    ]
+  },
+  "radar-8d3d887daddec643": {
+    "sourceHash": "955a98870457191b7ddc6997288c2c242758b49bbb021cb53739fd956d4a57b6",
+    "url": "https://www.digitaltoday.co.kr/en/view/113397/ai-payments-spread-refunds-liability-debate",
+    "reviewedAt": "2026-10-13",
+    "quote": "Even if funds are delivered properly, it still takes separate judgement to determine whether the promised service was provided as agreed.",
+    "anchorZh": "文中把“钱已经付出”与“服务是否按约完成”区分开：支付记录无法单独证明任务完成。",
+    "heading": "智能体能付款之后，订单状态里仍缺一张“承诺验收单”",
+    "insight": "这条材料真正指向的不是更细的支付限额，而是售后判断。导购代买应在下单时保存用户要求、商品／服务承诺和取消条件，之后用它们核对交付；仅保存交易流水，发生争议时无法解释究竟哪里没有完成。",
+    "deepThought": "文章还提出 AI 会降低发起投诉的成本。若购物代理能批量申请退款，却没有对应证据，商家处理成本可能反过来变成智能体渠道附加费。因此代办售后应优先生成完整证据，而不是尽可能多地自动申诉。",
+    "validation": "用“扣款成功但服务未提供”“部分交付”“履约完成但用户不满意”三类订单测试：能否区分事实违约与主观偏好，并输出不同的退款依据。",
+    "evidenceLimit": "这是对退款和责任争议的分析，并非可直接执行的责任分配规则；具体赔付仍取决于交易协议与适用制度。",
+    "summary": [
+      "AI 已能直接为部分在线商品和服务付款，但付款后的履约判定、退款和争议责任仍不清楚。",
+      "报道强调：能验证资金转移，不等于能验证商家交付了用户要求的结果。"
+    ]
+  },
+  "radar-2f2d584c9b2fa417": {
+    "sourceHash": "0afacb6bd28aa04bac042fb4c7a4a6dc58d31c010c6baa216a61478831b22444",
+    "url": "https://theinvestor.vn/generative-ai-becomes-shopping-adviser-for-58-of-urban-vietnamese-consumers-d20187.html",
+    "reviewedAt": "2026-10-13",
+    "quote": "The survey of 200 generative AI users aged 20 to 49 in Ho Chi Minh City and Hanoi found that 96% had used generative AI within the previous month.",
+    "anchorZh": "“58% 用 AI 做购买前研究”的分母，是胡志明市和河内 200 名 20—49 岁生成式 AI 用户，而非全体越南消费者。",
+    "heading": "58% 说明的是 AI 老用户的购前研究习惯，不是全市场代购渗透率",
+    "insight": "对进入越南市场的导购产品，这个结果更支持先做购买前比较、解释参数和验证信息，而不是直接押注自主下单。受访者已是活跃 AI 用户，他们的意图与首次接触 AI 的人不同。",
+    "deepThought": "同一调查中，传统搜索、Shopee／Lazada 和生成式 AI 同时被使用。这更像多渠道交叉核验，而非搜索已被替代。产品若急于把用户锁在对话里，反而可能删掉他们建立信任必需的原店铺和评价入口。",
+    "validation": "招募当地现有 AI 用户与非 AI 用户，分别复盘最近一次真实购买，统计 AI 参与的是研究、比较、跳转还是付款；不要把自报“用过AI”当作端到端购物使用。",
+    "evidenceLimit": "样本小且限定两座城市的既有 AI 用户，自报研究行为不能推出全国购买率或转化提升。",
+    "summary": [
+      "Q&Me 调查中，58% 的受访者表示经常在购买前用生成式 AI 研究商品或服务。",
+      "样本是越南两座城市的 200 名既有 AI 用户；结论主要描述购前研究，而非让 AI 代付。"
+    ]
+  },
+  "radar-7edd7e26871e4183": {
+    "sourceHash": "9505467d4ffae83d3044cb745376fc2127b04f83189998c2c988427cc96272d8",
+    "url": "https://www.retaildive.com/news/virtual-try-on-launch-chatgpt/832244/",
+    "reviewedAt": "2026-10-13",
+    "quote": "Users can take or upload a selfie to generate images and see how clothing and accessories look on them prior to purchase.",
+    "anchorZh": "ChatGPT 这次增加的是用户自拍／上传照片后生成服饰配件试穿图；不是尺码测量或合身保证。",
+    "heading": "ChatGPT 把“看商品”改成“看自己穿”，但没有因此证明买得更准",
+    "insight": "和原有购物研究功能相比，这次给了用户一个视觉排除工具：先判断款式在自己身上的感觉，再决定是否继续比较。AI 导购应让试穿结果回到对应的商品选择，而不是变成与商品规格无关的独立生图娱乐。",
+    "deepThought": "文章引用的“转化翻倍”来自 2024 年其他品牌的调查，不是 ChatGPT 试穿的实验。自拍渲染能说明风格效果，却无法仅凭图像确认材质、版型或合身程度；把两类证据混用，容易诱发错误承诺。",
+    "validation": "测用户试穿后是否减少候选、是否进入对应商品页，并分别问清“风格是否喜欢”和“尺码是否有把握”；后者不能由好看的生成图代替。",
+    "evidenceLimit": "只确认功能形态；文章未提供 ChatGPT 试穿带来的转化或退货数据。",
+    "summary": [
+      "ChatGPT 新增虚拟试穿：用户可拍摄或上传自拍，生成衣物、配饰在自己身上的效果。",
+      "这是对已有购物研究与比较能力的视觉扩展；报道没有验证尺码准确性。"
+    ]
+  },
+  "radar-aee907604250b3cc": {
+    "sourceHash": "bfbb654387847bc448f2cc68fae2dd0f3109d0e6296c7b128f1bac4cd52048cd",
+    "url": "https://forkast.news/six-banks-just-published-agentic-commerce-guardrails-but-theyre-voluntary/",
+    "reviewedAt": "2026-10-13",
+    "quote": "The six-bank framework does not address liability allocation.",
+    "anchorZh": "六家银行联合提出透明、安全、隐私、消费者选择与互操作原则，但框架没有规定误购损失如何分配。",
+    "heading": "六家银行的自愿原则，可以做验收清单，不能当作退款承诺",
+    "insight": "导购接入支付时，可以逐项证明用户能看见代理动作、撤销权限和知道数据用途。但这些能力齐备，不代表用户买错后银行就会兜底；产品需另外展示本次订单的实际责任与售后路径。",
+    "deepThought": "自愿原则和技术协议解决的问题不同：前者表达行业期待，后者约定具体交互。把“遵循原则”贴成信任徽章却不说明损失承担者，会让用户过度理解其保障范围。",
+    "validation": "用一次错买场景检查产品：能否指出谁受理、保留什么证据、能否撤单，以及哪些风险不在保障内，而不是只列出采用了几个安全协议。",
+    "evidenceLimit": "这是对银行联合原则的媒体分析；原则本身不是强制赔偿规则。",
+    "summary": [
+      "六家银行发布智能体电商自愿指导原则，覆盖透明、安全、隐私、消费者选择和互操作。",
+      "报道指出框架没有解决误购后的责任分配，也缺少强制执行机制。"
+    ]
+  },
+  "radar-34fc3c247aaaf766": {
+    "sourceHash": "41f1e39322563207dd10c7ca9f626051b66d759dd1d8dd29b764f3d073fac4cf",
+    "url": "https://www.unite.ai/algolia-acquires-velou-ai-shopping-product-intelligence/",
+    "reviewedAt": "2026-10-13",
+    "quote": "Velou uses multimodal AI to turn product descriptions and images into structured information.",
+    "anchorZh": "Algolia 收购 Velou，重点是把商品文字与图片转成结构化属性，并放在既有搜索、推荐与 Agent Studio 之下。",
+    "heading": "这次收购先修“商品没写出来的属性”，而不是再训练一个会说话的助手",
+    "insight": "用户要求“可调灯臂的小台灯”时，商品可能真实满足需求，却因目录只记录品牌和颜色而被漏召回。Velou 补的是供给侧证据，使多个前端共用；对导购，先找出用户常问却未结构化的属性，比扩充泛问答更接近转化瓶颈。",
+    "deepThought": "从图片推断的属性不能与商家明确填写的规格同等对待：颜色可见，不代表承重、防水等性能可见。统一分类体系提高可比性，但应同时记录属性依据与置信级别，防止“丰富数据”变成“生成事实”。",
+    "validation": "抽取一批因缺属性而无结果的真实查询，补齐字段后复测召回，并让人工检查新增属性的证据；区分召回改善和错误承诺增加。",
+    "evidenceLimit": "文中的客户收益数字来自公司案例，缺少统一对照；不能直接套用到其他目录或品类。",
+    "summary": [
+      "Algolia 收购商品数据公司 Velou，计划把其商品理解能力用于搜索、推荐、个性化和 Agent Studio。",
+      "Velou 将文字和图片转为结构化属性，并用分类体系及商品关系改善检索基础。"
+    ]
+  },
+  "radar-4c6573f3974d89c7": {
+    "sourceHash": "b074f905472fb16722671b42d2d47037d802dca0f4d6261dd92e74fc0043819f",
+    "url": "https://www.socialmediatoday.com/news/meta-discusses-protocols-for-agentic-commerce/832446/",
+    "reviewedAt": "2026-10-13",
+    "quote": "Meta hopes its new protocol will counter this by empowering websites to create their own bots and control measures that can communicate with Muse agents to ensure everything works well together.",
+    "anchorZh": "Meta 提议让网站自己的代理和控制机制与 Muse 通信，而不只是让 Muse 模拟人类浏览网页。",
+    "heading": "Meta 把访问冲突改成可协商接口：平台需要的是看得见、管得住",
+    "insight": "这条新闻的变化在商家侧：如果网站能识别任务并对访问频率、库存占用和动作范围施加控制，购物代理才可能从不受欢迎的爬虫变成可运营渠道。AI 导购要给商家可观察性，而不只是要求用户授权。",
+    "deepThought": "解决机器人身份和负载问题仍不会自动解决商家的商业顾虑。文章指出代理可能跳过广告和加购机会；因此开放率既取决于安全协议，也取决于商家能否保留合理的转化与客户关系。",
+    "validation": "接入试点时记录网站拒绝原因：身份、频率、交易权限还是商业策略。分别修复，不用更激进的浏览自动化掩盖平台不愿参与的问题。",
+    "evidenceLimit": "协议仍处于开发描述阶段；不能据此认定被封锁的网站已开放。",
+    "summary": [
+      "Meta 与伙伴设计协议，希望让企业看见 Muse 在网站、API 和企业代理中的行为。",
+      "网站可建立自己的控制机制与 Muse 通信，以降低访问负载、安全和权限方面的顾虑。"
+    ]
+  },
+  "radar-ec70d4c7f4056926": {
+    "sourceHash": "9cb4fd04321487b5572a8253698d7f57bf90e92910514ba46494dd2d177f0066",
+    "url": "https://www.techwalker.com/2026/1007/3201154.shtml",
+    "reviewedAt": "2026-10-13",
+    "quote": "只有当一个裁判在正反两个顺序下都选了同一个商品，才算它真的\"表态\"了，否则就算它弃权。",
+    "anchorZh": "ShopRanker 的解读材料提到：同一商品对要交换顺序让模型裁判再判一次，选择不一致就弃权；标注还按跨模型一致程度分档。",
+    "heading": "ShopRanker 对导购的启发，先在“怎么造评测题”，不在模型榜首",
+    "insight": "这不是再写一个“先澄清需求”的理由，而是给现有排序器做反事实评测：商品名高度匹配，但违反价格、穿着对象或排除材质时，是否仍被排在前面？交换候选顺序可以排除展示位置对裁判的影响。",
+    "deepThought": "材料自己披露不同裁判表态比例差异很大，部分样本主要由一个模型决定。若训练与验收共用同类裁判，提升可能只是学会它的偏好；应把高共识题、低共识题和人工硬约束题分开报告。",
+    "validation": "从本站真实查询构造“一票否决”商品对，正反排序各评一次；硬约束违规单独计数，不让总体相关性分数把致命错误平均掉。",
+    "evidenceLimit": "目前核对的是论文解读文章而非论文原始实验，不能据此确认全部模型比较结果；可借鉴评测设计，但需本地复现。",
+    "summary": [
+      "ZooWork-ShopRanker 的解读文章指出，电商排序容易被字面相关性误导而违反用户硬约束。",
+      "其评测用不同模型家族判商品对，交换候选顺序并剔除不一致判断，再按共识强度分档。"
+    ]
+  },
+  "radar-cdd0fa9ab42360fe": {
+    "sourceHash": "678decdba8abd9afe583493f991440572f04407bb3edd2f807a29664f61b9ab4",
+    "url": "https://almcorp.com/news/shopify-enrolls-store-new-ai-shopping-channels/",
+    "reviewedAt": "2026-10-13",
+    "quote": "Because the customer pays inside the chat app, the tracking code on your website does not run.",
+    "anchorZh": "Shopify 部分智能体渠道在聊天应用内结账，网站端埋点不运行；订单存在于后台，却可能不出现在原网站分析报表里。",
+    "heading": "Shopify 默认开通 AI 渠道后，先修订单归因再评价导购价值",
+    "insight": "这条材料让“转化下降”多了一种解释：消费者没到网站，但已在聊天渠道购买。导购产品若只用网站访问漏斗验收，会把成功成交记成流失；需要以服务端订单和渠道来源重建漏斗。",
+    "deepThought": "自动加入新渠道也改变了商家的知情与控制。商家可能不知道哪些代理已能发现商品、哪些支持站内结账，因此渠道设置、费用说明与退出能力也是导购基础设施的一部分。",
+    "validation": "分别下一笔聊天内结账订单与跳转网站订单，核对网站事件、服务端订单、渠道标记和退货归属是否一致；先确认可测量，再评估增量。",
+    "evidenceLimit": "文章描述多个渠道，其地区资格与结账方式不同；不能把其中一个渠道的埋点行为推广到全部接入。",
+    "summary": [
+      "Shopify 的部分合资格店铺默认加入新增智能体渠道，设置可由商家关闭。",
+      "某些渠道在聊天应用内结账，网站追踪代码不会执行，必须用服务端记录补齐归因。"
+    ]
+  },
+  "radar-d442c2c1f990d3a1": {
+    "sourceHash": "11d30bd616a12dd37b254a1bc1852a20b442877abf56ab7ccd5a99dfbc196659",
+    "url": "https://fintech.global/2026/10/07/agentic-payments-expose-blind-spots-in-fraud-controls/",
+    "reviewedAt": "2026-10-13",
+    "quote": "According to Vivox AI , a transaction can sit comfortably within every spending limit and still stem from a manipulated decision made long before checkout.",
+    "anchorZh": "Vivox AI 的分析指出，一笔完全没超限额、也得到用户授权的交易，仍可能来自上游被操纵的选品决策。",
+    "heading": "付款没有越权，也可能买给了骗子：风控边界要前移到选品证据",
+    "insight": "文中酒店例子说明，用户授权订房不代表用户同意一个伪造商家。AI 导购需要保留商品与商家信息从哪里来、为何被采纳，并对外部内容中的指令与真实商品事实隔离处理；支付确认不能修复已经被污染的候选集。",
+    "deepThought": "既有“像不像人”的风险信号在代理场景会弱化。一个速度快、操作一致的合法智能体和被利用的智能体，支付行为都可能正常；调查重点应转向任务目标、遇到的内容和实际动作是否一致。",
+    "validation": "用伪商家页面、嵌入指令和虚构折扣做红队测试，观察是否改变候选与付款对象；保留足够日志定位污染入口，而非仅验证金额上限。",
+    "evidenceLimit": "文章引用的是行业讨论与示例，不是已测得的攻击成功率；这些应作为威胁场景，不是普遍事件描述。",
+    "summary": [
+      "Vivox AI 分析认为，面向人类行为的传统支付风控可能遗漏智能体决策链上的风险。",
+      "操纵可以发生在结账之前：即使支付金额合规，也可能选中了虚假商家或受恶意内容影响。"
+    ]
+  },
+  "radar-3feae84bb92744a4": {
+    "sourceHash": "c9aeb107b789969d4955cd3788ffedc9b2f0ea4704dd4321d26984de9e7efda0",
+    "url": "https://www.digitalcommerce360.com/2026/10/07/gap-expands-ai-shopping-with-alta-daily-and-new-discovery-tools/",
+    "reviewedAt": "2026-10-13",
+    "quote": "Alta users can also digitize clothes they already own.",
+    "anchorZh": "Gap 与 Alta Daily 合作的独特上下文不是更多商品，而是用户已经拥有的衣服；Alta 据此结合风格、日程和天气组搭配。",
+    "heading": "Gap × Alta 把“已有衣橱”变成约束：最优建议可能是不再买一件",
+    "insight": "对服饰导购，拿到已有衣橱后，可以判断新单品补的是哪一个搭配缺口，而不是只找相似商品。真正有价值的回答应能指出“这件能与你哪些衣服组成新组合”，甚至说明已有单品足够应付该场景。",
+    "deepThought": "这会与短期加购目标发生冲突：把重复单品卖出去可能提高订单，却削弱“懂我”的可信度。相比泛化用户画像，衣橱是一组可核实、可纠正的实物约束，也需要处理用户没录全导致的错误推断。",
+    "validation": "对拥有明确衣橱清单的用户，比较热门款推荐与缺口搭配推荐；看建议采纳、重复购买反馈和长期复访，并允许用户补录已有单品修正答案。",
+    "evidenceLimit": "报道没有给出衣橱上下文带来的独立效果数据；Old Navy、Banana Republic 的搜索功能与 Alta 合作也不能混作同一实验。",
+    "summary": [
+      "Gap 把商品接入 Alta Daily 的数字衣橱与个人造型应用，同时旗下品牌推出自然语言发现功能。",
+      "Alta 用户可以录入已经拥有的衣服，系统结合衣橱、风格、日程与天气生成搭配。"
+    ]
+  },
+  "radar-4fbea4d5142dcda7": {
+    "sourceHash": "91aec211c4e239f593868d8a44a3fcd036ae769442bc9544c9d8f42822583c91",
+    "url": "https://www.prnewswire.com/news-releases/the-realreal-expands-ask-trr-ai-shopping-agent-with-google-clouds-gemini-enterprise-302901904.html",
+    "reviewedAt": "2026-10-13",
+    "quote": "At The RealReal, every item is one-of-one: once a piece sells, it's gone for good, and new inventory arrives every day.",
+    "anchorZh": "The RealReal 的单件库存卖掉就永久消失，每天又有新品；这与同一 SKU 长期补货的普通零售不同。",
+    "heading": "Ask TRR 的难题是“昨天答对，今天已无货”：需要保存意图而非商品列表",
+    "insight": "这条新闻的设计重点不是泛泛的个性化，而是如何在单件售罄后继续完成任务。导购应记住轮廓、年代、场合等选中理由，再找当下可售的替代品；简单复用昨天的推荐或相似图片，会丢掉成色、尺寸与价格差异。",
+    "deepThought": "长对话和愿望清单延长了推荐到购买的时间，单件库存却使结果更快失效。助手需要在用户回到旧对话时刷新“当前可买”状态，并解释替代品哪里相同、哪里让步，不能悄悄更换。",
+    "validation": "让用户隔一天回访保存的搭配与候选，测试售罄后是否能按原购买理由恢复任务；记录无货曝光、替代接受和不同条件被误替代的次数。",
+    "evidenceLimit": "材料是发布方公告；4500 万会员覆盖与个性化宣传不能证明每位会员实际使用或购买。",
+    "summary": [
+      "The RealReal 扩大 Ask TRR，面向其会员提供基于 Gemini Enterprise 的自然语言购物。",
+      "其商品以独特单件库存为特点，售罄不可补，且每日变化；用户可按场合、轮廓或年代描述需求。"
+    ]
+  },
+  "radar-d9ad558e0da2efc7": {
+    "sourceHash": "f5162b631c8f97d6b5a8551b05efc8329065bc3956fec722aa4031211681d9c3",
+    "url": "https://almcorp.com/news/chatgpt-shopping-pulls-product-picks-merchant-feeds/",
+    "reviewedAt": "2026-10-13",
+    "quote": "Comparing data from July 7 and 9 to July 10 and 12, 450 of those customers saw their Shopping visibility drop by at least one third.",
+    "anchorZh": "Profound 观察的 687 个客户中，450 个在比较窗口里购物可见性下降至少三分之一；变化与商品数据检索来源切换同期发生。",
+    "heading": "ChatGPT 改用商品目录后，“没被推荐”可能先是数据入口变了",
+    "insight": "对 AI 导购商家工具，这意味着不能一看到可见性下降就建议改文案。先核对商品来自网页搜索还是目录、是否进入有效数据源、价格库存字段是否完整，再讨论语义优化；不同检索入口的优化动作完全不同。",
+    "deepThought": "这是商业监测样本的观察，不是 ChatGPT 全量日志，也不是随机实验。平台更换检索入口、商家数据变动和提示词样本选择都可能影响曝光。可见性本身也不是实际购买份额。",
+    "validation": "固定同一组真实意图，保留返回商品、来源类型和日期，分开记录目录覆盖率与被推荐率；用订单或落地页行为核对可见性变化是否真的影响成交。",
+    "evidenceLimit": "不能把样本中的约65%当成所有 ChatGPT 购物流量的官方占比，也不能据此证明接入目录必然提升排名。",
+    "summary": [
+      "文章引用 Profound 的监测，认为 ChatGPT 购物越来越依赖商品数据源而非仅依赖开放网页。",
+      "同期部分被监测商家的购物可见性显著变化，但样本并不代表 ChatGPT 全量流量。"
+    ]
+  },
+  "radar-43500a560c99587f": {
+    "sourceHash": "445088f622c360bb203cb07091ef92e77c72822906e5bc34640ba777f648296d",
+    "url": "https://www.prnewswire.com/news-releases/crossmint-launches-agent-commerce-toolkit-enabling-ai-agents-to-pay-with-any-card-and-check-out-online-through-one-integration-302901649.html",
+    "reviewedAt": "2026-10-13",
+    "quote": "It picks the right credential and checkout path for each purchase, so developers don't have to manage those choices themselves.",
+    "anchorZh": "Crossmint 的工具包把选支付凭证、选结账路径的决定封装起来，开发者不再自行拼接卡库、钱包、浏览自动化等供应商。",
+    "heading": "Crossmint 省掉四方接入，也把“失败发生在哪”藏进了一层 API",
+    "insight": "这次整合最直接的产品收益是接入和路径选择简化。但购物助手仍需拿到足够细的回执：卡凭证失败、商家拒绝代理和订单未创建，需要不同恢复动作。只返回统一失败码会让用户反复授权却无法继续买。",
+    "deepThought": "供应商自动选择路径的能力越强，导购越不能把 API 成功当成履约成功。尤其浏览器路径和商家接口路径的稳定性不同，同一商品昨天能买、今天受阻时，应解释改变的是通路而非用户需求。",
+    "validation": "对同一购物清单覆盖卡不支持、反机器人校验和扣款后订单缺失三类故障，要求工具回传阶段与可重试条件；验收的是定位与恢复能力，不只接入耗时。",
+    "evidenceLimit": "发布稿关于“任意商店”和“一个下午上线”的说法不是覆盖率证明，仍需逐商家验证。",
+    "summary": [
+      "Crossmint 推出 Agent Commerce Toolkit，把卡存储、卡组织凭证和商家结账整合为单一 API。",
+      "它会替开发者选择支付凭证与结账路径，以替代原先多供应商拼接的方式。"
+    ]
+  },
+  "radar-a64a4654487cfdb3": {
+    "sourceHash": "6f3cb6c737a6c6d3606fccf694a4099f81b6d0175f3bbfcb106ab48bb9e35d95",
+    "url": "https://ppc.land/amazon-blocks-metas-muse-ai-agent-from-shopping-on-its-site/",
+    "reviewedAt": "2026-10-13",
+    "quote": "It never agreed to Muse operating on its store. Meta did not tell Amazon that Muse would reach it. The agent does not identify itself when it browses.",
+    "anchorZh": "Amazon 的具体异议包括未同意 Muse 访问、未被告知访问方式，以及代理浏览时未标识身份；不只是一般的支付安全担忧。",
+    "heading": "Muse 的用户授权，不能替代 Amazon 的服务参与同意",
+    "insight": "对跨平台导购，这条新闻划清两份不同的许可：用户允许代理替自己做事，和商家允许该代理使用服务。即便助手持有合法用户账户、购买前也征求确认，仍可能因为商家未参与而无法完成任务。",
+    "deepThought": "所以产品应在选品前区分可官方接入的渠道与需用户自行完成的渠道，并解释限制来自服务方。把浏览器模拟当作永久备选，会让用户在最接近成交时才遭遇不可恢复的失败。",
+    "validation": "为每个渠道记录许可状态与允许动作，测试“用户已授权但商家拒绝代理”的任务是否能转为明确的自助结账，而不是循环登录或重复授权。",
+    "evidenceLimit": "当前复核的是引用 GeekWire 的二次报道，涉及双方立场；没有流量细节，不能推断 Muse 具体绕过了何种技术限制。",
+    "summary": [
+      "据报道，Amazon 阻止 Muse 代用户下单，并指出商家参与同意、代理身份和账户凭证处理方面的问题。",
+      "这个冲突表明：用户端的授权，不一定足以让第三方购物代理获得商家平台的访问许可。"
+    ]
+  }
+}

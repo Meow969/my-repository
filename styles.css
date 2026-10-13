@@ -381,3 +381,10 @@ footer { font-size:11px; color:var(--muted); text-align:center; padding:25px 16p
  .article-card .research-insight,.article-card .deep-thinking p { font-size:12px; line-height:1.9; }
  .article-card .validation-cut p { font-size:11px; }
 }
+.research-anchor { padding:11px 13px; margin:12px 0; background:#fff; border:1px solid #8a70cf25; border-radius:9px; }
+.article-card .research-anchor h5 { font-size:10px; margin:0 0 5px; color:#8c799f; }
+.article-card .research-anchor p { font-size:12px; line-height:1.85; margin:0 0 4px; color:#675376; }
+.research-anchor a { color:var(--accent); font-size:10px; }
+.article-card .research-pending { color:#9a92a4; font-size:11px; margin:0 0 8px; line-height:1.7; }
+.research-heading { flex-wrap:wrap; }
+@media(max-width:560px) {.feed-controls{gap:7px; flex-wrap:wrap;} .article-card .research-anchor p{font-size:11px;}}

@@ -11,12 +11,22 @@
     "radar-08cfa49ebf13a829"
   ],
   "insightIds": [
-    "evidence-payments",
-    "evidence-visual",
-    "evidence-merchant",
-    "evidence-trust",
-    "evidence-local",
-    "evidence-discovery"
+    "case-radar-44b1c270d7734a65",
+    "case-radar-08cfa49ebf13a829",
+    "case-radar-8d3d887daddec643",
+    "case-radar-7edd7e26871e4183",
+    "case-radar-aee907604250b3cc",
+    "case-radar-a64a4654487cfdb3",
+    "case-radar-2f2d584c9b2fa417",
+    "case-radar-3feae84bb92744a4",
+    "case-radar-4fbea4d5142dcda7",
+    "case-radar-d9ad558e0da2efc7",
+    "case-radar-43500a560c99587f",
+    "case-radar-cdd0fa9ab42360fe",
+    "case-radar-d442c2c1f990d3a1",
+    "case-radar-34fc3c247aaaf766",
+    "case-radar-4c6573f3974d89c7",
+    "case-radar-ec70d4c7f4056926"
   ],
   "note": "近14天已提取原文的多来源精选；零新增时保留阅读入口，不制造“今日新趋势”。",
   "analysisMode": "规则辅助研究：证据摘录＋因果机制＋反向解释＋验证实验"

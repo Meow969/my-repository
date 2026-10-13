@@ -361,15 +361,9 @@ def enrich(raw, verify=True):
     a['quality']={'dimensions':dimensions,'rubric':'来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率'}
     a['valueScore']=sum(dimensions.values())
     a['readingTier']='精选' if level=='fulltext' and a['valueScore']>=72 and a['sourceKind'] not in ('unknown','press_release') else '观察'
-    a['analysis']={'question':lens['title'],'implication':lens['mechanism'],'counterpoint':lens['boundary'],'experiment':lens['experiment'],'basis':'基于证据的规则辅助推演，非原文结论；未使用大模型生成','anchor':points[0]}
-    claim = claim_type(a['title'])
-    a['signalType']=claim['label']
-    a['analysis']['question']=f"{claim['question']} · {lens['keywords'][0]}"
-    a['analysis']['counterpoint']=claim['limit']+' '+lens['boundary']
-    a['analysis']['experiment']=claim['test']+' '+lens['experiment']
-    a['analysis']['implication']=f"本条以“{a['title']}”为观察对象。"+lens['mechanism']
-    a['insight']=a['analysis']['implication']
-    a['relatedInsightIds']=['evidence-'+lens['id']]
+    a.pop('analysis',None);a.pop('insight',None)
+    a['signalType']=claim_type(a['title'])['label']
+    a['relatedInsightIds']=[]
     a['publisher']=(urllib.parse.urlsplit(a['url']).hostname or '').removeprefix('www.')
     registered=next((src for src in SOURCES if (urllib.parse.urlsplit(src['url']).hostname or '').removeprefix('www.')==a['publisher']),None)
     if registered:a['source']=registered['name']
@@ -391,19 +385,8 @@ def diverse(items,limit,per_source=4):
     return selected
 
 def make_insights(articles,previous):
-    old={i['id']:i for i in previous};output=[]
-    cutoff=(now().date()-dt.timedelta(days=45)).isoformat()
-    for lens in LENSES:
-        group=[a for a in articles if a.get('lensId')==lens['id'] and a.get('readingTier')=='精选' and a['date']>=cutoff]
-        group=diverse(group,4,2)
-        if not group:continue
-        iid='evidence-'+lens['id']; pubs={a.get('publisher',a['source']) for a in group}
-        evidence=[dict(articleId=a['id'],title=a['title'],source=a['source'],caveats=a.get('sourceCaveatsZh') or a.get('sourceCaveats',[]),signalType=a.get('signalType','产品观察'),date=a['date'],quote=a['corePoint'][0],quoteZh=(a.get('summaryZh') or a['corePoint'])[0],url=a['url']) for a in group]
-        fingerprint=hashlib.sha256(json.dumps(evidence,sort_keys=True).encode()).hexdigest()[:16]
-        prev=old.get(iid,{})
-        contrast='；'.join(f"{a['source']}提供{a.get('signalType','产品观察')}线索" for a in group)
-        output.append(dict(observation=contrast+'。这些证据衡量的对象不同，不能直接比较效果。',id=iid,title=lens['title'],summary=lens['mechanism'],evidence=evidence,counterpoint=lens['boundary'],experiment=lens['experiment'],takeaways=[],keywords=lens['keywords'],relatedArticleIds=[a['id'] for a in group],sourceCount=len(pubs),confidence='待验证假设',iterationNote=f'近45天 {len(group)} 篇原文、{len(pubs)} 个发布域名提供观察线索；多篇报道不等于独立验证或因果证据。',generatedAt=prev.get('generatedAt',now().date().isoformat()),updatedAt=prev.get('updatedAt') if prev.get('fingerprint')==fingerprint else now().date().isoformat(),fingerprint=fingerprint,method='规则辅助研究假设'))
-    return output
+    from article_brief import reviewed_insights
+    return reviewed_insights(articles,previous)
 
 MONTH_ANGLES = {
     'discovery': ('导购入口', '对话搜索、商品发现与候选推荐', '入口变化能否缩短真实购物决策'),
@@ -526,13 +509,13 @@ def run(days=45,limit=24,max_queries=None,recheck=False,dry_run=False):
     insights=make_insights(merged,previous);reports=build_reports(merged)
     changed=sum(next((x.get('fingerprint') for x in previous if x['id']==i['id']),None)!=i['fingerprint'] for i in insights)
     digest_top=diverse([a for a in merged if a['date']>=(now().date()-dt.timedelta(days=14)).isoformat() and a.get('readingTier')=='精选'],5,2)
-    meta=load('meta.json',{});meta.update(lastUpdated=started,lastInsightUpdated=now().date().isoformat(),latestAdded=len(selected),latestInsightChanged=changed,sourceCount=len({a.get('publisher',a['source']) for a in merged}),articleCount=len(merged),updateTime='每日北京时间 11:00 计划运行（GitHub 可能延迟）',selectionRule='原文可核验优先；分级而非凑数；事实与推演分离；按来源和主题打散。',pipelineVersion=VERSION,analysisMode='规则辅助研究：证据摘录＋因果机制＋反向解释＋验证实验',sourceHealth={'configured':len(SOURCES),'healthy':sum(h['status']=='ok' for h in health if h['kind']!='discovery'),'failed':sum(h['status']!='ok' for h in health if h['kind']!='discovery'),'discoveryQueries':max_queries},qualitySummary={'verified':sum(a.get('evidenceLevel')=='fulltext' for a in merged),'watchlist':sum(a.get('readingTier')=='观察' for a in merged),'rejected':dict(rejected)},lastRunStatus='degraded' if sum(h['status']=='ok' for h in health)<len(health)*.5 else 'ok')
+    meta=load('meta.json',{});meta.update(lastUpdated=started,lastInsightUpdated=now().date().isoformat() if changed else meta.get('lastInsightUpdated',now().date().isoformat()),reviewedResearchCount=len(insights),pendingResearchCount=sum(not a['brief']['research'] for a in merged),latestAdded=len(selected),latestInsightChanged=changed,sourceCount=len({a.get('publisher',a['source']) for a in merged}),articleCount=len(merged),updateTime='每日北京时间 11:00 计划运行（GitHub 可能延迟）',selectionRule='原文可核验优先；分级而非凑数；事实与推演分离；按来源和主题打散。',pipelineVersion=VERSION,analysisMode='仅发布逐篇核对并绑定原文版本的产品分析；待审核不生成洞察',sourceHealth={'configured':len(SOURCES),'healthy':sum(h['status']=='ok' for h in health if h['kind']!='discovery'),'failed':sum(h['status']!='ok' for h in health if h['kind']!='discovery'),'discoveryQueries':max_queries},qualitySummary={'verified':sum(a.get('evidenceLevel')=='fulltext' for a in merged),'watchlist':sum(a.get('readingTier')=='观察' for a in merged),'rejected':dict(rejected)},lastRunStatus='degraded' if sum(h['status']=='ok' for h in health)<len(health)*.5 else 'ok')
     digest=dict(date=now().date().isoformat(),generatedAt=started,newCount=len(selected),title='先读这几条，再形成判断',articleIds=[a['id'] for a in digest_top],insightIds=[i['id'] for i in insights],note='近14天已提取原文的多来源精选；零新增时保留阅读入口，不制造“今日新趋势”。',analysisMode=meta['analysisMode'])
     if not dry_run:
         # Preserve old material, including attached IDs, for a reversible migration.
         if not (DATA/'legacy_insights.json').exists():write('legacy_insights.json',previous)
         if not (DATA/'legacy_articles.json').exists():write('legacy_articles.json',existing)
-        for name,obj in [('articles.json',merged),('insights.json',insights),('monthly_reports.json',reports),('source_health.json',health),('daily_digest.json',digest),('meta.json',meta)]:write(name,obj)
+        for name,obj in [('articles.json',merged),('insights.json',insights),('monthly_reports.json',reports),('source_health.json',health),('research_queue.json',[dict(id=a['id'],title=a['title'],url=a['url'],status=a['brief']['researchStatus']) for a in merged if not a['brief']['research']]),('daily_digest.json',digest),('meta.json',meta)]:write(name,obj)
     print(json.dumps({'added':len(selected),'articles':len(merged),'insights':len(insights),'rejected':dict(rejected),'health':meta['sourceHealth']},ensure_ascii=False),flush=True)
     return selected
 

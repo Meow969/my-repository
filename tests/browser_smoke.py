@@ -71,6 +71,8 @@ with sync_playwright() as pw:
         page.keyboard.press('Escape')
         assert page.locator('#notePanel').get_attribute('aria-hidden')=='true'
         page.locator('[data-tab="feed"]').click()
+        page.locator('#reviewedFilter').click()
+        assert page.locator('.research-pending').count()==0
         page.locator('.article-card').first.scroll_into_view_if_needed()
         assert page.locator('.article-research').first.is_visible()
         assert page.locator('.research-insight').first.is_visible()
@@ -78,6 +80,10 @@ with sync_playwright() as pw:
         assert page.locator('.article-title-zh').first.is_visible()
         assert page.locator('.article-title-original').count()>0
         assert page.locator('.article-keywords').first.inner_text()
+        assert page.locator('.research-anchor').first.inner_text()
+        assert '把模糊需求变成可修改的候选条件' not in page.locator('#feedTab').inner_text()
+        headings=page.locator('.research-thesis').all_inner_texts()
+        assert len(headings)==len(set(headings))
         assert page.locator('.article-original-link').first.get_attribute('href').startswith('http')
         assert page.locator('.article-original-link').first.get_attribute('target')=='_blank'
         summaries=page.locator('.summary-copy').all_inner_texts()
@@ -91,6 +97,11 @@ with sync_playwright() as pw:
         first.locator('.article-evidence summary').click()
         page.screenshot(path=f'/tmp/radar-brief-{label}-card.png',full_page=False)
         assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'),label
+        page.locator('#reviewedFilter').click()
+        assert page.locator('.research-pending').count()>0
+        pending=page.locator('.article-card').filter(has=page.locator('.research-pending')).first
+        assert pending.locator('.article-research').count()==0
+        assert pending.locator('.summary-copy').inner_text()
         assert not errors,errors
         print(label,'PASS: two tabs, monthly summaries & recommendations, daily timeline, search, quality, bookmarks, notes, export, no overflow or errors')
         context.close()

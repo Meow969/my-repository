@@ -64,7 +64,7 @@ class ParsingTests(unittest.TestCase):
     def test_insights_change_only_with_evidence(self):
         a=dict(id='one',title='AI shopping: a new checkout flow',source='Test',publisher='example.com',date=p.now().date().isoformat(),url='https://example.com/a',valueScore=90,lensId='payments',readingTier='精选',evidenceLevel='fulltext',corePoint=['AI shopping checkout requires the customer to approve each order.'])
         first=p.make_insights([a],[]);second=p.make_insights([a],first)
-        self.assertEqual(first,second);self.assertEqual(first[0]['confidence'],'待验证假设')
+        self.assertEqual(first,second);self.assertEqual(first,[])
     def test_event_bundling_does_not_mix_capabilities(self):
         a=dict(title='TikTok launches AI shopping assistant and one-click checkout',date='2026-10-01')
         b=dict(title='TikTok rolls out one-click checkout',date='2026-10-02')
