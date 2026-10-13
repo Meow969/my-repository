@@ -49,27 +49,40 @@ jobs:
         timeout-minutes: 28
       - name: Validate publication data
         run: python scripts/validate_data.py
+      - name: Refuse publication from a superseded revision
+        id: freshness
+        run: |
+          git fetch origin main
+          if [[ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]]; then
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+            echo "Main changed during collection. Keep the newer code/data; do not merge or publish this stale run." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Commit verified data updates
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && steps.freshness.outputs.stale != 'true'
         run: |
           if [[ -n "$(git status --porcelain data)" ]]; then
             git config user.name "ai-shopping-radar-bot"
             git config user.email "ai-shopping-radar-bot@users.noreply.github.com"
             git add data
             git commit -m "Update evidence-based AI shopping radar"
-            git pull --rebase origin main
             git push origin HEAD:main
           fi
       - name: Stage public files only
+        if: steps.freshness.outputs.stale != 'true'
         run: |
           mkdir -p public/data
           cp index.html app.js styles.css .nojekyll public/
           cp data/*.json public/data/
       - uses: actions/configure-pages@v5
+        if: steps.freshness.outputs.stale != 'true'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.freshness.outputs.stale != 'true'
         with:
           path: public
       - id: deployment
+        if: steps.freshness.outputs.stale != 'true'
         uses: actions/deploy-pages@v4
       - name: Run summary
         if: always()

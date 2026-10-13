@@ -74,3 +74,5 @@ node --check app.js
 - 旧版灵感作为明确标记的历史记录保留，避免丢失用户附注，不进入当前“回声”默认列表。
 
 复核后运行：`python -m unittest discover -s tests -v`、`python scripts/validate_data.py`、`node --check app.js`。浏览器检查覆盖待审核无正文、已审核有引用、筛选切换、历史月份与本地笔记。
+
+发布前会确认采集所用代码仍是main最新版本；若用户在采集期间更新代码，旧任务不合并也不发布其结果，防止已撤下的分析被旧生成器带回。
