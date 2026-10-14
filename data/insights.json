@@ -1917,40 +1917,6 @@
     "takeaways": []
   },
   {
-    "id": "spark-radar-a0bced0e43ca192f",
-    "kind": "spark",
-    "category": "交易与信任",
-    "title": "零售展会规模只能扩充候选不能证明导购成熟",
-    "summary": "如果预告中的展商聚集成立，它适合扩充技术采购候选，而不足以决定导购路线。迁移到导购选型的必要条件，是供应商能用可核验商品数据完成同一推荐任务；应据此筛选而非按展位声量排序，代价是评估更慢。",
-    "counterpoint": "展商、决策者和会议数量是活动规模口径，不能说明导购供应商占比或部署成熟度；现场演示还可能只覆盖预设商品。",
-    "experiment": "向候选展商提交同一份含缺失字段的商品资料，观察其能否标出信息缺口而非补造推荐理由。",
-    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
-    "keywords": [
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "radar-a0bced0e43ca192f"
-    ],
-    "evidence": [
-      {
-        "articleId": "radar-a0bced0e43ca192f",
-        "title": "Tech for Retail 2026预览:零售领袖和技术创新者设定在巴黎见面",
-        "source": "Retail Technology Innovation Hub",
-        "date": "2026-10-13",
-        "url": "https://retailtechinnovationhub.com/home/2026/10/12/tech-for-retail-2026-preview-retail-leaders-and-technology-innovators-set-to-meet-in-paris",
-        "quote": "Tech for Retail will return to Paris on 30th November and 1st December, bringing together more than 420 exhibitors, 15,000 retail decision-makers and over 200 conferences at Paris Expo Porte de Versailles.",
-        "role": "该材料的直接依据",
-        "sourceHash": "e09e0fc1dcd0bc0f91f3fe2228dcf2bc0ca483afd8b532e1f80d9951b7ee40cd"
-      }
-    ],
-    "sourceCount": 1,
-    "fingerprint": "1fea6a620be1d7ccb38f1363c6abd400c3d3de4a17945f99c9a9586e0661425a",
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "method": "原文短摘录驱动的模型推演，非已验证结论",
-    "takeaways": []
-  },
-  {
     "id": "spark-radar-f923619a23dcda71",
     "kind": "spark",
     "category": "商品与数据",
@@ -2123,6 +2089,41 @@
     ],
     "sourceCount": 1,
     "fingerprint": "6f5e9d7fc62bc9d7c8cd58475bd9e58d350e48844d9c0be37d19aca3fe9cecdf",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-44b1c270d7734a65",
+    "kind": "spark",
+    "category": "入口与交互",
+    "title": "赞助商品进入对话搜索，应保留非广告替代项",
+    "summary": "THG将赞助商品接入AI购物助手，使商业投放进入对话候选。产品应让广告身份随推荐理由一起呈现，并保留非广告替代项，避免付费曝光被读成唯一最优解；代价是压缩赞助商品的独占展示空间。",
+    "counterpoint": "接入事实不说明广告是否改变排序，也不证明现有界面缺少标识。欧洲首家的说法来自厂商，不能据此推定商业效果或覆盖范围。",
+    "experiment": "用相同购物问题检查赞助与非赞助候选的展示、理由和标识，并测试用户能否识别付费曝光。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "广告推荐",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-44b1c270d7734a65"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-44b1c270d7734a65",
+        "title": "THG 商务的首选,因为它将 Criteo 赞助产品带到 AI 购物助理解决方案中",
+        "source": "Retail Technology Innovation Hub",
+        "date": "2026-10-12",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/11/first-for-thg-commerce-as-it-brings-criteo-sponsored-products-to-ai-shopping-assistant-solution",
+        "quote": "THG Commerce, part of THG Ingenuity, has integrated Criteo Sponsored Products into its AI Shopping Assistant, built using Google Cloud’s Gemini Enterprise.",
+        "role": "该材料的直接依据",
+        "sourceHash": "54263b09d564c875dbe89d9d2b85f82fa816c9e9506101edf6870f0b9ccaf651"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "6f2775024be98dcb71be4e77dd36a4f96b43170c9cbbc21e43848c05266cbddc",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
     "method": "原文短摘录驱动的模型推演，非已验证结论",
@@ -2330,41 +2331,6 @@
     ],
     "sourceCount": 1,
     "fingerprint": "1e9e1dba98dc8349a9b9789cb73bc5ec07684fe21368b7f70f4f5d74e1b20514",
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "method": "原文短摘录驱动的模型推演，非已验证结论",
-    "takeaways": []
-  },
-  {
-    "id": "spark-radar-4a4c5b3cf17ee3e3",
-    "kind": "spark",
-    "category": "交易与信任",
-    "title": "安踏建单提速线索应先辨认订单的业务归属",
-    "summary": "摘录只确认多品牌、跨市场业务涉及多类流程，标题中的建单提速未展示实现过程。如果该描述成立，迁移到导购也应先确认建单是否承接消费者选购，再决定是否衔接推荐与下单，代价是暂缓复用看似成熟的成果。",
-    "counterpoint": "建单可能属于内部运营或渠道订货；即使标题数字准确，也不能据此认定消费者决策更快或跨市场推荐可用。",
-    "experiment": "索取建单流程的起止节点、操作者和订单类型，确认是否包含消费者选品环节。",
-    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
-    "keywords": [
-      "履约售后",
-      "AI购物"
-    ],
-    "relatedArticleIds": [
-      "radar-4a4c5b3cf17ee3e3"
-    ],
-    "evidence": [
-      {
-        "articleId": "radar-4a4c5b3cf17ee3e3",
-        "title": "安踏×火山引擎：下单缩至10分钟、月均建单1000+，Agent跑进全球电商业务",
-        "source": "雷峰网",
-        "date": "2026-10-12",
-        "url": "https://www.leiphone.com/category/industrynews/LYPLgiUOHfVfcFBv.html",
-        "quote": "作为全球前三的体育用品集团，安踏集团多品牌、跨市场经营的背后，是大量商品、内容、订单和售后流程。",
-        "role": "该材料的直接依据",
-        "sourceHash": "87db20f6b3aa49811d8f5af8330dd771071c3a7499fc1847b5d06c68fe212179"
-      }
-    ],
-    "sourceCount": 1,
-    "fingerprint": "62dc39b971af01c151cec7f6a7097e6247cb06a3b4cd7d64ff80873ae8d1e370",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
     "method": "原文短摘录驱动的模型推演，非已验证结论",
@@ -3068,6 +3034,43 @@
     ],
     "sourceCount": 1,
     "fingerprint": "20e2ce00e20557e2f50d927f82566b73e1ce31cc7f7e93761cf7a2ca473fcc45",
+    "generatedAt": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "method": "原文短摘录驱动的模型推演，非已验证结论",
+    "takeaways": []
+  },
+  {
+    "id": "spark-radar-d9ad558e0da2efc7",
+    "kind": "spark",
+    "category": "商品与数据",
+    "title": "商品源占比上升不应直接取消开放网页补查",
+    "summary": "推荐更依赖商家商品源，意味着接入范围可能影响候选范围。导购可优先用商品源组织候选，但对未覆盖品牌保留网页补查，并标明来源；代价是维持两套信息获取路径，还要处理同一商品的字段冲突。",
+    "counterpoint": "摘录中的统计时段被截断，无法判断趋势是否覆盖所有品类；来源占比上升也可能只是标注变化，不能直接推断推荐偏向接入商家。",
+    "experiment": "固定选购问题，对照已接入与未接入商家的商品出现情况，并核查来源归类规则。",
+    "limits": "单篇原文片段驱动的产品假设，尚非因果验证。",
+    "keywords": [
+      "ChatGPT",
+      "商品数据",
+      "交易协议",
+      "AI购物"
+    ],
+    "relatedArticleIds": [
+      "radar-d9ad558e0da2efc7"
+    ],
+    "evidence": [
+      {
+        "articleId": "radar-d9ad558e0da2efc7",
+        "title": "ChatGPT 购物推荐目前更多依赖商家商品数据源",
+        "source": "ALM Corp",
+        "date": "2026-10-08",
+        "url": "https://almcorp.com/news/chatgpt-shopping-pulls-product-picks-merchant-feeds/",
+        "quote": "ChatGPT Shopping is growing more reliant on merchant feeds than the open web to power its product recommendations.",
+        "role": "该材料的直接依据",
+        "sourceHash": "e21587a7faa4bedb62a44ff8f8dcf1499f748660440dc36c0696329635d8619b"
+      }
+    ],
+    "sourceCount": 1,
+    "fingerprint": "0012e7b4e17f303cad58c6121d9d9016bef3487e96ef30ba884d04f83e31c4c8",
     "generatedAt": "2026-10-13",
     "updatedAt": "2026-10-13",
     "method": "原文短摘录驱动的模型推演，非已验证结论",

@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T18:00:57+08:00",
-  "newCount": 23,
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T16:17:45+08:00",
+  "newCount": 28,
   "title": "先读这几条，再形成判断",
   "articleIds": [
-    "radar-3e7a6c62fe036525",
-    "radar-add787224281a5db",
-    "radar-7edd7e26871e4183",
-    "radar-a14c97f19ce9a8d3",
-    "radar-47a2914f9b3b5c69"
+    "radar-1a0ecae5f00e644d",
+    "radar-1f5cd1d646f23579",
+    "radar-f67a4c26a885f368",
+    "radar-412c4662e22b69e7",
+    "radar-3e7a6c62fe036525"
   ],
   "insightIds": [
     "echo-survey-to-behavior",
@@ -43,19 +43,18 @@
     "spark-radar-add787224281a5db",
     "spark-radar-6aae5344d31d634f",
     "spark-radar-a14c97f19ce9a8d3",
-    "spark-radar-a0bced0e43ca192f",
     "spark-radar-f923619a23dcda71",
     "spark-radar-bb044d997d152eed",
     "spark-radar-73f141984d591efb",
     "spark-radar-3e7a6c62fe036525",
     "spark-radar-11cc8c14dfdb6d30",
+    "spark-radar-44b1c270d7734a65",
     "spark-radar-08cfa49ebf13a829",
     "spark-radar-0ee15d7815fe8a47",
     "spark-radar-787be0533f6b6192",
     "spark-radar-8d3d887daddec643",
     "spark-radar-5eeb339b929af849",
     "spark-radar-58a201bcf7a17aea",
-    "spark-radar-4a4c5b3cf17ee3e3",
     "spark-radar-a7dfff3278bb4650",
     "spark-radar-08fc0081b32026cc",
     "spark-radar-70c568aec5d46b06",
@@ -75,8 +74,9 @@
     "spark-radar-3feae84bb92744a4",
     "spark-radar-e5635317a44de143",
     "spark-radar-4fbea4d5142dcda7",
-    "spark-radar-9e5048023e6ff3d9"
+    "spark-radar-9e5048023e6ff3d9",
+    "spark-radar-d9ad558e0da2efc7"
   ],
   "note": "近14天已提取原文的多来源精选；零新增时保留阅读入口，不制造“今日新趋势”。",
-  "analysisMode": "仅发布逐篇核对并绑定原文版本的产品分析；待审核不生成洞察"
+  "analysisMode": "逐条原文短摘录驱动的产品推演；回声为多材料研究；未配置模型时显示待验证产品问题"
 }
