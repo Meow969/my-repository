@@ -1,5 +1,59 @@
 [
   {
+    "id": "radar-8f039ab599f8ac88",
+    "title": "AI doubts, digital threats, and surplus food milestones: the retail technology week in numbers",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/15/ai-doubts-digital-threats-and-surplus-food-milestones-check-out-the-retail-technology-week-in-numbers",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a017867580e54e13",
+    "title": "AI Micropayments Point to Crypto’s Role in Agentic Commerce",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/ai-micropayments-point-to-cryptos-role-in-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-83b1ecf97cd79033",
+    "title": "Foot Locker teams with Stylitics as retailer taps AI technology to launch app-based closet builder solution",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/15/foot-locker-teams-with-stylitics-as-retailer-taps-ai-technology-to-launch-app-based-closet-builder",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9233e66cf277f931",
+    "title": "付费用户占比超 20%，电商商家「涌入」千问办公",
+    "url": "https://www.leiphone.com/category/industrynews/csaOBaiXpZZLOOtp.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-dc1cdc3a61d110fd",
+    "title": "马斯克回应 Grok Bot 被亚马逊封禁：不让 AI 智能体网购，就考虑自建电商平台",
+    "url": "https://www.ithome.com/1/013/923.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-54baa4aebb8b2905",
+    "title": "Is Shopify (SHOP) Becoming A Real Gateway For AI Driven Commerce?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/shopify-shop-becoming-real-gateway-201717984.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ef852f47b200f373",
+    "title": "AI办公企业级市场，千问办公为何率先攻向电商赛道？",
+    "url": "https://www.mrjjxw.com/articles/2026-10-16/4606560.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d9b2ca4ca8e1cf84",
+    "title": "99元卖爆电商平台、退货率50%，大厂盯上的AI玩具生意有多暴利",
+    "url": "https://user.guancha.cn/main/content?id=1754109&s=fwtjgzwz",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-36b926bff131fa74",
+    "title": "今年双11，AI开始教商家“打仗”了",
+    "url": "https://www.donews.com/article/detail/6885/108415.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-af1c1c2576112cf6",
     "title": "AI Agents Made 138 Million Crypto Payments in a Year. Most Were Tiny",
     "url": "https://cryptonews.net/news/market/33593644/",
@@ -30,6 +84,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-13240506ecdd50b8",
+    "title": "外贸商家也能用AI做生意：蚂蚁国际发布新一代AI智能体Wyn",
+    "url": "https://m.sohu.com/a/1088210748_100053070?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-c7fff2da2804692d",
     "title": "淘宝天猫境外双11高单价买家去年增10% 今年升级AI导购",
     "url": "https://www.stheadline.com/zh-hans/realtime-finance/3626403/%E6%B7%98%E5%AE%9D%E5%A4%A9%E7%8C%AB%E5%A2%83%E5%A4%96%E5%8F%8C11%E9%AB%98%E5%8D%95%E4%BB%B7%E4%B9%B0%E5%AE%B6%E5%8E%BB%E5%B9%B4%E5%A2%9E10-%E4%BB%8A%E5%B9%B4%E5%8D%87%E7%BA%A7AI%E5%AF%BC%E8%B4%AD",
@@ -42,9 +102,57 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-f2011c21e9115ff4",
+    "title": "抢抓“双11”商机！中山中小商家迎来AI经营新帮手",
+    "url": "https://www.zsnews.cn/news/index/view/cateid/35/id/784566.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a9e214aae6005708",
+    "title": "Accertify Tallies Agentic Checkout and other Digital Transactions News briefs from 10/15/26",
+    "url": "https://www.digitaltransactions.net/accertify-tallies-agentic-checkout-and-other-digital-transactions-news-briefs-from-10-15-26/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c8ef9777009726e1",
+    "title": "【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。据《中国新电商发展报告（2026）》，超九成电商商家已经接入AI工具，在本次大促备战中，商家使用AI承接商品作图、文案",
+    "url": "https://www.sina.cn/news/detail/5354388795426894.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-442d5b7d109609f6",
+    "title": "AmEx Releases Agentic Payment Standard That Declines Rogue AI Purchases Pre-Checkout",
+    "url": "https://www.techtimes.com/articles/329043/20261015/amex-releases-agentic-payment-standard-that-declines-rogue-ai-purchases-pre-checkout.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-cfd86ea4eda305b2",
+    "title": "Can American Express Turn AI Commerce Into a New Growth Driver?",
+    "url": "https://www.tradingview.com/news/zacks:2deae83e0094b:0-can-american-express-turn-ai-commerce-into-a-new-growth-driver/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b87715c5d104df62",
+    "title": "FXC Intelligence launches an MCP server built on Amazon Web Services, delivering AI-native cross-border payments intelligence to clients",
+    "url": "https://press.aboutamazon.com/aws/2026/10/fxc-intelligence-launches-an-mcp-server-built-on-amazon-web-services-delivering-ai-native-cross-border-payments-intelligence-to-clients",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c8ebfa72930ab89c",
+    "title": "Google Launches Universal Cart to Simplify AI Shopping",
+    "url": "https://innovation-village.com/google-launches-universal-cart-to-simplify-ai-shopping/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1a0ecae5f00e644d",
     "title": "How To Help AI Shopping Agents Find Your Products via @sejournal, @hethr_campbell",
     "url": "https://www.searchenginejournal.com/how-to-help-ai-shopping-agents-find-your-products/592677/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-15bd6e0aa4481479",
+    "title": "The Agent Advantage: How Merchants Plan to Win AI Shopping",
+    "url": "https://www.pymnts.com/study_posts/the-agent-advantage-how-merchants-plan-to-win-ai-shopping/",
     "status": "evidence_question"
   },
   {
@@ -150,6 +258,24 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-ecf79ab8a44f6c97",
+    "title": "这个双11，AI导购上岗，商家开始重写详情页|AI购物|Qwen|阿里巴巴|电商平台|视觉中国",
+    "url": "https://finance.sina.cn/stock/jdts/2026-10-14/detail-inivezmk4516977.d.html?vt=4&cid=76993&node_id=76993",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8a4c592aed2defe6",
+    "title": "千问办公推出电商版并开启邀测 陈宇森称定位独立第三方电商Agent",
+    "url": "https://k.sina.com.cn/article_6348162667_17a61466b00101dihm.html?from=tech&subch=internet",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-08a061858c007a06",
+    "title": "NUMERATOR’S NEWLY LAUNCHED AI CONSUMER INDEX FINDS HEALTH & BEAUTY, APPAREL, AND ELECTRONICS PRIME FOR AI SHOPPING DISRUPTION",
+    "url": "https://finance.yahoo.com/technology/ai/articles/numerator-newly-launched-ai-consumer-130000668.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1b7c2ce3fc9972d3",
     "title": "千问办公发布电商版并开启邀测 已接入多款主流商家经营工具",
     "url": "https://www.guandian.cn/article/20261014/613111.html",
@@ -216,6 +342,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-7174ff525bb86070",
+    "title": "千问办公推出电商版Agent 已接入生意参谋、有赞、千牛等平台丨新经济观察",
+    "url": "https://www.sohu.com/a/1087731099_120952561?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-44e19cd7fc0c8c5b",
     "title": "Amazon, Walmart Face New AI Shopping Test: Will Chatbots Recommend Them?",
     "url": "https://www.tradingview.com/news/benzinga:11302d7df094b:0-amazon-walmart-face-new-ai-shopping-test-will-chatbots-recommend-them/",
@@ -225,6 +357,12 @@
     "id": "radar-bccd6af51362ea9d",
     "title": "Shopify (SHOP) Is Up 7.3% After Analysts Spotlight Its Expanding AI Commerce Infrastructure Role",
     "url": "https://finance.yahoo.com/technology/ai/articles/shopify-shop-7-3-analysts-051520222.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4dc58b356160474b",
+    "title": "千问GO，不能只做阿里的导购",
+    "url": "https://m.sohu.com/a/1087647552_116132?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
     "status": "evidence_question"
   },
   {
@@ -261,6 +399,12 @@
     "id": "radar-048e2dd73ff64548",
     "title": "AmEx’s Next Step for Agentic Commerce Is a Framework; Forter’s Agentic Verification Move",
     "url": "https://www.digitaltransactions.net/amexs-next-step-for-agentic-commerce-is-a-framework-forters-agentic-verification-move/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-81ef12210942619e",
+    "title": "千问推出个人智能助理：可申请理赔、购物保价",
+    "url": "https://m.bjnews.com.cn/detail/1791871625129586.html",
     "status": "evidence_question"
   },
   {
@@ -324,9 +468,21 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-8692e39c5928c1ce",
+    "title": "Walmart's CEO promises Sparky will never use your data to raise your price",
+    "url": "https://startupfortune.com/walmarts-ceo-promises-sparky-will-never-use-your-data-to-raise-your-price/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-0170e0f065dc6f43",
     "title": "AI Takes Over Festive Shopping: Smart Search, AI Recommendations, Virtual Try-On Gain Ground",
     "url": "https://www.analyticsinsight.net/news/ai-takes-over-festive-shopping-smart-search-ai-recommendations-virtual-try-on-gain-ground",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e28072a6a26157e2",
+    "title": "Gen Z Embraces AI Shopping, but Nearly Half Have Abandoned Brands Over its Use -",
+    "url": "https://www.enterprisetimes.co.uk/2026/09/17/gen-z-embraces-ai-shopping-but-nearly-half-have-abandoned-brands-over-its-use/",
     "status": "evidence_question"
   },
   {

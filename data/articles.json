@@ -1,5 +1,783 @@
 [
   {
+    "title": "AI doubts, digital threats, and surplus food milestones: the retail technology week in numbers",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/15/ai-doubts-digital-threats-and-surplus-food-milestones-check-out-the-retail-technology-week-in-numbers",
+    "date": "2026-10-16",
+    "dateBasis": "原文发布日期",
+    "source": "Retail Technology Innovation Hub",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:36+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Do you like retail technology news? 28% of UK consumers do not trust artificial intelligence in retail at all , as retailers such as Morrisons introduce new technology to the weekly shop, according to research from e-commerce marketing platform Omnisend. Pricer has been selected by Orange, a telecommunications operator in France, to digitalise its retail store network.",
+    "corePoint": [
+      "Do you like retail technology news?",
+      "28% of UK consumers do not trust artificial intelligence in retail at all , as retailers such as Morrisons introduce new technology to the weekly shop, according to research from e-commerce marketing platform Omnisend.",
+      "Pricer has been selected by Orange, a telecommunications operator in France, to digitalise its retail store network."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-8f039ab599f8ac88",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "trust",
+    "tags": [
+      "证据引用",
+      "推荐可信度",
+      "反向指标"
+    ],
+    "category": "证据引用",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 96,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "retailtechinnovationhub.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "你喜欢零售科技新闻吗?",
+      "根据电子商务营销平台Omnisend的研究, 28%的英国消费者完全不信任零售业的人工智能,"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "a29ef72933a002465a5c35adc79c9fb97f12b8147beefaa5f0bab05a5c1a9355",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "大赦国际的怀疑、数字威胁和多余的粮食里程碑:零售技术周的数目",
+    "titleSourceHash": "c4793087a5f869032dc438d125678f97602b156a6da554da8cc90bdcdd4e3d2d",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "0dd8049a1c47c9c56329799eda078fa5e356a58a7134e4a9364fac793ad0a9f2",
+      "keywords": [
+        "用户研究",
+        "AI购物"
+      ],
+      "summary": [
+        "你喜欢零售科技新闻吗?。",
+        "根据电子商务营销平台Omnisend的研究，28%的英国消费者完全不信任零售业的人工智能。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“根据电子商务营销平台Omnisend的研究, 28%的英国消费者完全不信任零售业的人工智能,”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“大赦国际的怀疑、数字威胁和多余的粮食里程碑:零售技术周的数目”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "28% of UK consumers do not trust artificial intelligence in retail at all , as retailers such as Morrisons introduce new technology to the weekly shop, according to research from e-commerce marketing platform Omnisend.",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/15/ai-doubts-digital-threats-and-surplus-food-milestones-check-out-the-retail-technology-week-in-numbers",
+        "sourceHash": "dcc25228970d1730b4cc7a1b30b0d145af829e5a20abe347e67fa3e3a4f4f5b1",
+        "basisArticleId": "radar-8f039ab599f8ac88",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "AI Micropayments Point to Crypto’s Role in Agentic Commerce",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/ai-micropayments-point-to-cryptos-role-in-agentic-commerce/",
+    "date": "2026-10-16",
+    "dateBasis": "原文发布日期",
+    "source": "PYMNTS",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:39+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Artificial intelligence (AI) agents’ growing use of cryptocurrency to purchase digital services is pointing toward a practical market for automated payments: transactions so small and frequent that conventional card processing becomes uneconomic. The findings support a credible path for crypto in agentic commerce. Chainalysis examined micropayments over the 16 months ending September, extending its review because the technology is new.",
+    "corePoint": [
+      "Artificial intelligence (AI) agents’ growing use of cryptocurrency to purchase digital services is pointing toward a practical market for automated payments: transactions so small and frequent that conventional card processing becomes uneconomic.",
+      "The findings support a credible path for crypto in agentic commerce.",
+      "Chainalysis examined micropayments over the 16 months ending September, extending its review because the technology is new."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-a017867580e54e13",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 96,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "pymnts.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "人工智能(AI)代理越来越多地使用加密货币购买数字服务,这正指向一个实际的自动支付市场:交易如此之小而频繁,以致于常规卡处理变得不经济。",
+      "调查结果支持在代理商业中采用可靠的加密方法。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "6cf2433c9b60278ebf423a7f99d34070a2ae348d3baaef83215c6235e604c0bf",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "AI Crypto在代理商业中作用的微额支付点",
+    "titleSourceHash": "06d916abe2819c71d6df4e6f3502238cedcbbfb1ecda62eb6716dab9b009572a",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "b06c651c5a17b402b10cb62fe67148068ff83ea5fff20a3a549bd0f430e475bf",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "人工智能(AI)代理越来越多地使用加密货币购买数字服务,这正指向一个实际的自动支付市场:交易如此之小而频繁,以致于常规卡处理变得不经济。",
+        "调查结果支持在代理商业中采用可靠的加密方法。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“人工智能(AI)代理越来越多地使用加密货币购买数字服务,这正指向一个实际的自动支付市场:交易如此之小而频繁,以致于常规卡处理变得不经济”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“AI Crypto在代理商业中作用的微额支付点”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "Artificial intelligence (AI) agents’ growing use of cryptocurrency to purchase digital services is pointing toward a practical market for automated payments: transactions so small and frequent that conventional card processing becomes uneconomic.",
+        "url": "https://www.pymnts.com/cryptocurrency/2026/ai-micropayments-point-to-cryptos-role-in-agentic-commerce/",
+        "sourceHash": "a95db208a6c4a989fd967f26512deea7bcc1cdcdf81c058b07e1a13ba8faf2c2",
+        "basisArticleId": "radar-a017867580e54e13",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "Foot Locker teams with Stylitics as retailer taps AI technology to launch app-based closet builder solution",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/15/foot-locker-teams-with-stylitics-as-retailer-taps-ai-technology-to-launch-app-based-closet-builder",
+    "date": "2026-10-16",
+    "dateBasis": "原文发布日期",
+    "source": "Retail Technology Innovation Hub",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:36+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Foot Locker has developed, in partnership with Stylitics, a new AI powered closet builder, Fits, within its mobile app. He added: “We engaged with customers, really listened, and in partnership with Stylitics, developed a key new closet builder within the Foot Locker app - let me introduce you to Fits! In a LinkedIn post, Michael Cera, Interim Head of Product …",
+    "corePoint": [
+      "Foot Locker has developed, in partnership with Stylitics, a new AI powered closet builder, Fits, within its mobile app.",
+      "He added: “We engaged with customers, really listened, and in partnership with Stylitics, developed a key new closet builder within the Foot Locker app - let me introduce you to Fits!",
+      "In a LinkedIn post, Michael Cera, Interim Head of Product …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-83b1ecf97cd79033",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 90,
+    "readingTier": "精选",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "retailtechinnovationhub.com",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "Foot Locker与Stylitics合作,在其移动应用中开发出一个新的AI动力衣柜建造器\"Fits\".",
+      "他补充说:“我们与顾客接触,真正听话,并与Stylitics合作,在Foot Locker应用软件中开发出一个关键的新的衣柜建造器——让我向你们介绍Fits!"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "47a222c43fd5081126b92303395fc09f4c24a870531cde247207fdd7d86d3131",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "以Stylitics为零售商的Foot Locker团队将AI技术用于推出基于应用的衣柜构建器解决方案",
+    "titleSourceHash": "55d3e9217a2bfd07e8e3b275fa7795fea3794843513317ca8761b7c66d6804eb",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "b2b6ad8fba0762bd3c8fafff7a25676e64c038b8ac35d38fd05a9be336de435b",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "Foot Locker与Stylitics合作,在其移动应用中开发出一个新的AI动力衣柜建造器\"Fits\"。",
+        "他补充说:“我们与顾客接触,真正听话,并与Stylitics合作,在Foot Locker应用软件中开发出一个关键的新的衣柜建造器——让我向你们介绍Fits!。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“Foot Locker与Stylitics合作,在其移动应用中开发出一个新的AI动力衣柜建造器\"Fits\".”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“以Stylitics为零售商的Foot Locker团队将AI技术用于推出基于应用的衣柜构建器解决方案”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "Foot Locker has developed, in partnership with Stylitics, a new AI powered closet builder, Fits, within its mobile app.",
+        "url": "https://retailtechinnovationhub.com/home/2026/10/15/foot-locker-teams-with-stylitics-as-retailer-taps-ai-technology-to-launch-app-based-closet-builder",
+        "sourceHash": "3e273e5ab3caaa99e76ec0564d5657463f5b93f2bcaceb82364888a63fcdfb58",
+        "basisArticleId": "radar-83b1ecf97cd79033",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "付费用户占比超 20%，电商商家「涌入」千问办公",
+    "url": "https://www.leiphone.com/category/industrynews/csaOBaiXpZZLOOtp.html",
+    "date": "2026-10-16",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "雷峰网",
+    "region": "国内",
+    "sourceKind": "media",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:37+08:00",
+    "sourceCaveats": [],
+    "excerpt": "如今有千问办公等AI工具搭把手， 他把准备周期压缩到了7天，相关费用也降到了数百元——主要是Token成本。 千问办公上线两个多月来，电 …",
+    "corePoint": [
+      "如今有千问办公等AI工具搭把手， 他把准备周期压缩到了7天，相关费用也降到了数百元——主要是Token成本。",
+      "千问办公上线两个多月来，电 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-9233e66cf277f931",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 16,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 88,
+    "readingTier": "精选",
+    "signalType": "研究 / 数据",
+    "relatedInsightIds": [],
+    "publisher": "leiphone.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "如今有千问办公等AI工具搭把手， 他把准备周期压缩到了7天，相关费用也降到了数百元——主要是Token成本。",
+      "千问办公上线两个多月来，电 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "f3cac4e38045a09b51da60b08eac1d0d6d912bbbb7aef945adc39e1de77115ba",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "付费用户占比超 20%，电商商家「涌入」千问办公",
+    "titleSourceHash": "fb6d0ce0c2aa5c24098e4ffdf81b5711fe326fcf888b1e33f3fa0a8e2658cd9c",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "9b96ac61f0cc968db5e72f3b6058519e1124d0f10c33feb84d3f7974cf899327",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "如今有千问办公等AI工具搭把手，他把准备周期压缩到了7天，相关费用也降到了数百元——主要是Token成本。",
+        "千问办公上线两个多月来，电 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“如今有千问办公等AI工具搭把手， 他把准备周期压缩到了7天，相关费用也降到了数百元——主要是Token成本”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“付费用户占比超 20%，电商商家「涌入」千问办公”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "如今有千问办公等AI工具搭把手， 他把准备周期压缩到了7天，相关费用也降到了数百元——主要是Token成本。",
+        "url": "https://www.leiphone.com/category/industrynews/csaOBaiXpZZLOOtp.html",
+        "sourceHash": "afd074f93c2fda593ef8ea619ca4605fb8fb27c517865268bc528d59efaa8960",
+        "basisArticleId": "radar-9233e66cf277f931",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "马斯克回应 Grok Bot 被亚马逊封禁：不让 AI 智能体网购，就考虑自建电商平台",
+    "url": "https://www.ithome.com/1/013/923.htm",
+    "date": "2026-10-16",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "IT之家",
+    "region": "国内",
+    "sourceKind": "media",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:36+08:00",
+    "sourceCaveats": [],
+    "excerpt": "IT之家 10 月 16 日消息，科技媒体 notateslaapp 昨日（10 月 15 日）发布博文，报道称有用户反馈亚马逊阻止 Grok Bot 智能体在其平台下单之后， 全球首富埃隆 …",
+    "corePoint": [
+      "IT之家 10 月 16 日消息，科技媒体 notateslaapp 昨日（10 月 15 日）发布博文，报道称有用户反馈亚马逊阻止 Grok Bot 智能体在其平台下单之后， 全球首富埃隆 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-dc1cdc3a61d110fd",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 16,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 85,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "ithome.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "IT之家 10 月 16 日消息，科技媒体 notateslaapp 昨日（10 月 15 日）发布博文，报道称有用户反馈亚马逊阻止 Grok Bot 智能体在其平台下单之后， 全球首富埃隆 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "806c5e25ed0e414408f8028fa57ea7f8ed8d376dfeacfdf99818b20411f481ea",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "马斯克回应 Grok Bot 被亚马逊封禁：不让 AI 智能体网购，就考虑自建电商平台",
+    "titleSourceHash": "ba15913578cd1b99f54a9292af4e0d69b1561e2f5748dac93f74201a5b26dbf6",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "1615f651d649c32d335a06a4ed48cc73f63e50af7fdaa5d7298e045813e199b6",
+      "keywords": [
+        "Amazon",
+        "AI购物"
+      ],
+      "summary": [
+        "IT之家 10 月 16 日消息，科技媒体 notateslaapp 昨日（10 月 15 日）发布博文，报道称有用户反馈亚马逊阻止 Grok Bot 智能体在其平台下单之后，全球首富埃隆 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“IT之家 10 月 16 日消息，科技媒体 notateslaapp 昨日（10 月 15 日）发布博文，报道称有用户反馈亚马逊阻止 Grok Bot 智能体在其平台下单之后， 全球首富埃隆 …”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“马斯克回应 Grok Bot 被亚马逊封禁：不让 AI 智能体网购，就考虑自建电商平台”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "IT之家 10 月 16 日消息，科技媒体 notateslaapp 昨日（10 月 15 日）发布博文，报道称有用户反馈亚马逊阻止 Grok Bot 智能体在其平台下单之后， 全球首富埃隆 …",
+        "url": "https://www.ithome.com/1/013/923.htm",
+        "sourceHash": "4f5c086cff8e305ecf2a3c10fe2c850ff6a04cb51331ae97c0b3aab63c864152",
+        "basisArticleId": "radar-dc1cdc3a61d110fd",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "Is Shopify (SHOP) Becoming A Real Gateway For AI Driven Commerce?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/shopify-shop-becoming-real-gateway-201717984.html",
+    "date": "2026-10-16",
+    "dateBasis": "原文发布日期",
+    "source": "Yahoo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:39+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Shopify (NasdaqGS:SHOP) merchants have started adopting DeepLumen's Agentic Page app as a new AI-powered sales channel on the platform. The rise of Agentic Page as an AI sales gateway is important, but investors need to weigh it against wider Shopify factors. DeepLumen reports that nearly 2,000 Shopify stores now use Agentic Page to support AI-based product discovery and ordering by …",
+    "corePoint": [
+      "Shopify (NasdaqGS:SHOP) merchants have started adopting DeepLumen's Agentic Page app as a new AI-powered sales channel on the platform.",
+      "The rise of Agentic Page as an AI sales gateway is important, but investors need to weigh it against wider Shopify factors.",
+      "DeepLumen reports that nearly 2,000 Shopify stores now use Agentic Page to support AI-based product discovery and ordering by …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-54baa4aebb8b2905",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "finance.yahoo.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Shopify (NasdaqGS:SHOP)商家开始采用DeepLumen的代理Page应用,作为平台上一个新的AI动力销售频道.",
+      "Agentic Page作为AI销售网关的兴起很重要,但投资者需要将其与更广泛的Shoppify因素相权衡."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "b1dacb559f033c08d84707a4e156455f51b51965fb5ec189fe5576da7aa12e78",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Shopify(SHOP)成为AI驱动商务的真正门户吗?",
+    "titleSourceHash": "3730ef46bc7865c2eccc45cf77d3f16d87547307a738ced6ee02da7a8807f521",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "2cadd92204903461b83e7487d647b2adac5971a279e20dc31547d2b8c0674838",
+      "keywords": [
+        "Shopify"
+      ],
+      "summary": [
+        "Shopify (NasdaqGS:SHOP)商家开始采用DeepLumen的代理Page应用,作为平台上一个新的AI动力销售频道。",
+        "Agentic Page作为AI销售网关的兴起很重要,但投资者需要将其与更广泛的Shoppify因素相权衡。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“Shopify (NasdaqGS:SHOP)商家开始采用DeepLumen的代理Page应用,作为平台上一个新的AI动力销售频道.”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“Shopify(SHOP)成为AI驱动商务的真正门户吗?”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "Shopify (NasdaqGS:SHOP) merchants have started adopting DeepLumen's Agentic Page app as a new AI-powered sales channel on the platform.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/shopify-shop-becoming-real-gateway-201717984.html",
+        "sourceHash": "158e12a2bf12872dba8ee617cd159630b871547e7ae3e8ce53a8d75d8bcc5492",
+        "basisArticleId": "radar-54baa4aebb8b2905",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "AI办公企业级市场，千问办公为何率先攻向电商赛道？",
+    "url": "https://www.mrjjxw.com/articles/2026-10-16/4606560.html",
+    "date": "2026-10-16",
+    "dateBasis": "原文发布日期",
+    "source": "www.mrjjxw.com",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:37+08:00",
+    "sourceCaveats": [],
+    "excerpt": "10月14日，千问办公正式发布电商版；同一天，腾讯旗下企业微信与WorkBuddy联合发布新版本，实现双向深度联合。 值得一提的是，千问办公发 …",
+    "corePoint": [
+      "10月14日，千问办公正式发布电商版；同一天，腾讯旗下企业微信与WorkBuddy联合发布新版本，实现双向深度联合。",
+      "值得一提的是，千问办公发 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-ef852f47b200f373",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "mrjjxw.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "10月14日，千问办公正式发布电商版；同一天，腾讯旗下企业微信与WorkBuddy联合发布新版本，实现双向深度联合。",
+      "值得一提的是，千问办公发 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "d4108fd937914dce10e650e30e1ac210c8c16647d812ff449f514f83395d949b",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "AI办公企业级市场，千问办公为何率先攻向电商赛道？",
+    "titleSourceHash": "c7d81ed2ce3aa006c118cafa4bf3e146bcad15f10dfb8aaa5503f73797caa228",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "9c3ffe861513664d68523ced03f5c60dbbc2a34de5b28daa45dd27b61967af28",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "10月14日，千问办公正式发布电商版；同一天，腾讯旗下企业微信与WorkBuddy联合发布新版本，实现双向深度联合。",
+        "值得一提的是，千问办公发 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“10月14日，千问办公正式发布电商版；同一天，腾讯旗下企业微信与WorkBuddy联合发布新版本，实现双向深度联合”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“AI办公企业级市场，千问办公为何率先攻向电商赛道？”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "10月14日，千问办公正式发布电商版；同一天，腾讯旗下企业微信与WorkBuddy联合发布新版本，实现双向深度联合。",
+        "url": "https://www.mrjjxw.com/articles/2026-10-16/4606560.html",
+        "sourceHash": "68de3608f8ec0485ee4f6562e53299e4944c8c29be864e1310b92b0d9ee80854",
+        "basisArticleId": "radar-ef852f47b200f373",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "99元卖爆电商平台、退货率50%，大厂盯上的AI玩具生意有多暴利",
+    "url": "https://user.guancha.cn/main/content?id=1754109&s=fwtjgzwz",
+    "date": "2026-10-16",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "风闻",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:38+08:00",
+    "sourceCaveats": [],
+    "excerpt": "但硬币的另一面是，整个AI玩具赛道的投资却在大幅降温，产品高度同质化、退货率居高不下。 在拼多多的招商公告中，AI玩具可以在“双 …",
+    "corePoint": [
+      "但硬币的另一面是，整个AI玩具赛道的投资却在大幅降温，产品高度同质化、退货率居高不下。",
+      "在拼多多的招商公告中，AI玩具可以在“双 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-d9b2ca4ca8e1cf84",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "signalType": "研究 / 数据",
+    "relatedInsightIds": [],
+    "publisher": "user.guancha.cn",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "但硬币的另一面是，整个AI玩具赛道的投资却在大幅降温，产品高度同质化、退货率居高不下。",
+      "在拼多多的招商公告中，AI玩具可以在“双 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "3c80f340c8b08c7c1049bf3841cb2248af2713ff9a1f66c9bbc43158ae5013ca",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "99元卖爆电商平台、退货率50%，大厂盯上的AI玩具生意有多暴利",
+    "titleSourceHash": "1fc2e1fa865a9ec265cea5ffa915d00f45dbb665d1d62feb39bd3c166d4ac399",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "62865191864f39e29bd0a854bf6b46eb25072016256c00a57f54ff4f56394ec3",
+      "keywords": [
+        "履约售后",
+        "AI购物"
+      ],
+      "summary": [
+        "但硬币的另一面是，整个AI玩具赛道的投资却在大幅降温，产品高度同质化、退货率居高不下。",
+        "在拼多多的招商公告中，AI玩具可以在“双 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“但硬币的另一面是，整个AI玩具赛道的投资却在大幅降温，产品高度同质化、退货率居高不下”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“99元卖爆电商平台、退货率50%，大厂盯上的AI玩具生意有多暴利”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "但硬币的另一面是，整个AI玩具赛道的投资却在大幅降温，产品高度同质化、退货率居高不下。",
+        "url": "https://user.guancha.cn/main/content?id=1754109&s=fwtjgzwz",
+        "sourceHash": "08b0f142910a48f91d6a4cf74efc6837b4eeec32664240ad289d0d11612e8821",
+        "basisArticleId": "radar-d9b2ca4ca8e1cf84",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "今年双11，AI开始教商家“打仗”了",
+    "url": "https://www.donews.com/article/detail/6885/108415.html",
+    "date": "2026-10-16",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "DoNews",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:38+08:00",
+    "sourceCaveats": [],
+    "excerpt": "我们从不同商家了解到，今年的新变化是，不少商家试图按照AI“指挥”，打好这场全年最重要的硬仗。 刘祥龙做了近十年电商，在杭州、无 …",
+    "corePoint": [
+      "我们从不同商家了解到，今年的新变化是，不少商家试图按照AI“指挥”，打好这场全年最重要的硬仗。",
+      "刘祥龙做了近十年电商，在杭州、无 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-36b926bff131fa74",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "donews.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "我们从不同商家了解到，今年的新变化是，不少商家试图按照AI“指挥”，打好这场全年最重要的硬仗。",
+      "刘祥龙做了近十年电商，在杭州、无 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "53702b64558123e3d52680c2e1ca9b7c94e577ed6b292ce137cf3715f30bda9a",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "今年双11，AI开始教商家“打仗”了",
+    "titleSourceHash": "e7ef599b17556f80c22f441a5a7f6c43ecec05d8366692a751c4687d3ec4a1c5",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "ff5a6b1390188c602e9547e394bc03a77150619c16ff99cf5acdae46629c1bca",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "我们从不同商家了解到，今年的新变化是，不少商家试图按照AI“指挥”，打好这场全年最重要的硬仗。",
+        "刘祥龙做了近十年电商，在杭州、无 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“我们从不同商家了解到，今年的新变化是，不少商家试图按照AI“指挥”，打好这场全年最重要的硬仗”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“今年双11，AI开始教商家“打仗”了”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "我们从不同商家了解到，今年的新变化是，不少商家试图按照AI“指挥”，打好这场全年最重要的硬仗。",
+        "url": "https://www.donews.com/article/detail/6885/108415.html",
+        "sourceHash": "1e1ff957b164cf4cc4ad99b63b7b7b676eebd5b8a11d2179747860e754ead2ae",
+        "basisArticleId": "radar-36b926bff131fa74",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
     "title": "AI Agents Made 138 Million Crypto Payments in a Year. Most Were Tiny",
     "url": "https://cryptonews.net/news/market/33593644/",
     "date": "2026-10-15",
@@ -80,7 +858,7 @@
         "sourceHash": "a94b6f7744a3b90de96790672bfb26e7bad55667449b20cf24ad14841e0dcd65",
         "basisArticleId": "radar-af1c1c2576112cf6",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -166,7 +944,7 @@
         "sourceHash": "488d9ebdd8013419b965d737a71f628b2c19ec59ab356b34f2a01c540c8e8eb6",
         "basisArticleId": "radar-e4f3dd801f207712",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -253,7 +1031,7 @@
         "sourceHash": "6b1e039091f6900fb081bb41c79d181c160c0117757e3a74e336989f8c22e8e1",
         "basisArticleId": "radar-9da54252380e6a95",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -339,7 +1117,7 @@
         "sourceHash": "1acb40ebfcabd4e222427f619510abe909b4408a3654c597213b71208c953f94",
         "basisArticleId": "radar-6e3a30a7dd9cb53a",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -427,7 +1205,93 @@
         "sourceHash": "ff32680f5bd880ee9f61a0746efd56db4c8ef8dfe8c0135a3b6b423e1eec8783",
         "basisArticleId": "radar-17ab75332346c066",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "外贸商家也能用AI做生意：蚂蚁国际发布新一代AI智能体Wyn",
+    "url": "https://m.sohu.com/a/1088210748_100053070?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "date": "2026-10-15",
+    "dateBasis": "原文发布日期",
+    "source": "搜狐",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:38+08:00",
+    "sourceCaveats": [],
+    "excerpt": "第140届广交会开幕之际，蚂蚁国际面向中小企业发布新一代全球账户智能体Wyn，在万里汇(WorldFirst)App及网站同步上线。 Wyn让商户以简单的自然语言指 …",
+    "corePoint": [
+      "第140届广交会开幕之际，蚂蚁国际面向中小企业发布新一代全球账户智能体Wyn，在万里汇(WorldFirst)App及网站同步上线。",
+      "Wyn让商户以简单的自然语言指 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-13240506ecdd50b8",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "m.sohu.com",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "第140届广交会开幕之际，蚂蚁国际面向中小企业发布新一代全球账户智能体Wyn，在万里汇(WorldFirst)App及网站同步上线。",
+      "Wyn让商户以简单的自然语言指 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "2cb6e633ce4f45afceec7a29a80ca3ea4ba9158cefd05160aaef056f1ed22fcf",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "外贸商家也能用AI做生意：蚂蚁国际发布新一代AI智能体Wyn",
+    "titleSourceHash": "bae8a90bca5b3216ba9a47bc6e21f9d6844da245f9ad0caddb0815af1b62f820",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "25a22b81284865adebe9cdae685bc32ec5011794c571fc58cfb5de0ff8392540",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "第140届广交会开幕之际，蚂蚁国际面向中小企业发布新一代全球账户智能体Wyn，在万里汇(WorldFirst)App及网站同步上线。",
+        "Wyn让商户以简单的自然语言指 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“第140届广交会开幕之际，蚂蚁国际面向中小企业发布新一代全球账户智能体Wyn，在万里汇(WorldFirst)App及网站同步上线”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“外贸商家也能用AI做生意：蚂蚁国际发布新一代AI智能体Wyn”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "第140届广交会开幕之际，蚂蚁国际面向中小企业发布新一代全球账户智能体Wyn，在万里汇(WorldFirst)App及网站同步上线。",
+        "url": "https://m.sohu.com/a/1088210748_100053070?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "sourceHash": "ad60da1e1ee0186c935c5cd75e028c3b7e16ccc45db25272aa4bb8bb07765ef7",
+        "basisArticleId": "radar-13240506ecdd50b8",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -512,7 +1376,7 @@
         "sourceHash": "0dd94f6cf8b47eb8377f6b90fc7a91fd0a6f10e52396690b3b5a2002b65230d3",
         "basisArticleId": "radar-c7fff2da2804692d",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -595,7 +1459,599 @@
         "sourceHash": "a1932d9ad2d94e23eef8978783765600d90bb2052c106930644a9bab3ea5bbba",
         "basisArticleId": "radar-89a6a8c5f4069a44",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "抢抓“双11”商机！中山中小商家迎来AI经营新帮手",
+    "url": "https://www.zsnews.cn/news/index/view/cateid/35/id/784566.html",
+    "date": "2026-10-15",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "中山网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:40+08:00",
+    "sourceCaveats": [],
+    "excerpt": "来自灯饰照明、家用电器、五金工具、家装建材等行业的150多家企业参会，现场体验AI工具赋能采购、店铺运营、跨境出海全流程，抢抓 …",
+    "corePoint": [
+      "来自灯饰照明、家用电器、五金工具、家装建材等行业的150多家企业参会，现场体验AI工具赋能采购、店铺运营、跨境出海全流程，抢抓 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-f2011c21e9115ff4",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "zsnews.cn",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "来自灯饰照明、家用电器、五金工具、家装建材等行业的150多家企业参会，现场体验AI工具赋能采购、店铺运营、跨境出海全流程，抢抓 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "78f2adb2971ad3099b370b0aaf73768c6693021452faab9e176b0a28f69285f3",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "抢抓“双11”商机！中山中小商家迎来AI经营新帮手",
+    "titleSourceHash": "a73d6949f80d9007f25c9346ab71de23bf4c4fe72c57ecec3a95a244bafe34a7",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "be9756e72ed286d4ff0269f30de496f1fa55176844df8c616b92448ea848cefb",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "来自灯饰照明、家用电器、五金工具、家装建材等行业的150多家企业参会，现场体验AI工具赋能采购、店铺运营、跨境出海全流程，抢抓 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“来自灯饰照明、家用电器、五金工具、家装建材等行业的150多家企业参会，现场体验AI工具赋能采购、店铺运营、跨境出海全流程，抢抓 …”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“抢抓“双11”商机！中山中小商家迎来AI经营新帮手”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "来自灯饰照明、家用电器、五金工具、家装建材等行业的150多家企业参会，现场体验AI工具赋能采购、店铺运营、跨境出海全流程，抢抓 …",
+        "url": "https://www.zsnews.cn/news/index/view/cateid/35/id/784566.html",
+        "sourceHash": "9a3e549ac3e72048afea1c2b0aad232b3bb813f0ea1afbef9a27c74d8d1934de",
+        "basisArticleId": "radar-f2011c21e9115ff4",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "Accertify Tallies Agentic Checkout and other Digital Transactions News briefs from 10/15/26",
+    "url": "https://www.digitaltransactions.net/accertify-tallies-agentic-checkout-and-other-digital-transactions-news-briefs-from-10-15-26/",
+    "date": "2026-10-15",
+    "dateBasis": "原文发布日期",
+    "source": "Digital Transactions",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:40+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Digital Transactions News staff October 14, 2026 Competitive Strategies , Digital Currency , E-Commerce , Issuing/Originating , Mobile Commerce , Mobile Wallets , Real-time Payments , Transaction Processing",
+    "corePoint": [
+      "Digital Transactions News staff October 14, 2026 Competitive Strategies , Digital Currency , E-Commerce , Issuing/Originating , Mobile Commerce , Mobile Wallets , Real-time Payments , Transaction Processing"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-a9e214aae6005708",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "digitaltransactions.net",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "数字交易新闻工作人员 2026年10月14日竞争性战略、数字货币、电子商务、发行/操纵、移动商务、移动钱包、实时支付、交易处理"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "194dd0706067142bd22d1d207fac7cbd1483f159c2614b6002cc10c38599c056",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "认证Tallies代理检查和其他数字交易新闻简报(10/15/26)",
+    "titleSourceHash": "d71fab67cddedeff8eb4111ad2d89329e42eb8e602ae1c87b15d030f08c92209",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "5a7587fb3a8b25d58242021362225791450e70185dfcd6a7936c66b6f1d61893",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "数字交易新闻工作人员 2026年10月14日竞争性战略、数字货币、电子商务、发行/操纵、移动商务、移动钱包、实时支付、交易处理。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“数字交易新闻工作人员 2026年10月14日竞争性战略、数字货币、电子商务、发行/操纵、移动商务、移动钱包、实时支付、交易处理”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“认证Tallies代理检查和其他数字交易新闻简报(10/15/26)”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "Digital Transactions News staff October 14, 2026 Competitive Strategies , Digital Currency , E-Commerce , Issuing/Originating , Mobile Commerce , Mobile Wallets , Real-time Payments , Transaction Processing",
+        "url": "https://www.digitaltransactions.net/accertify-tallies-agentic-checkout-and-other-digital-transactions-news-briefs-from-10-15-26/",
+        "sourceHash": "3ffbf4383772a9993e7f3c45286415f9bf18e83c3f1c8059d539f1b472456759",
+        "basisArticleId": "radar-a9e214aae6005708",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。据《中国新电商发展报告（2026）》，超九成电商商家已经接入AI工具，在本次大促备战中，商家使用AI承接商品作图、文案",
+    "url": "https://www.sina.cn/news/detail/5354388795426894.html",
+    "date": "2026-10-15",
+    "dateBasis": "原文发布日期",
+    "source": "手机新浪网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:39+08:00",
+    "sourceCaveats": [],
+    "excerpt": "【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。",
+    "corePoint": [
+      "【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-c8ef9777009726e1",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "研究报告",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "研究 / 数据",
+    "relatedInsightIds": [],
+    "publisher": "sina.cn",
+    "contentKinds": [
+      "研究报告"
+    ],
+    "summaryZh": [
+      "【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "d7bacf4910b5f155663a7c169b93045426f60604086293921af796ef3691b659",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。据《中国新电商发展报告（2026）》，超九成电商商家已经接入AI工具，在本次大促备战中，商家使用AI承接商品作图、文案",
+    "titleSourceHash": "46215fcf8a16d157150e42700c0a1b705cc536c8bd8b7e07599b1edd2aebbae4",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "790216b22db710f4bf3ff5590694fbaf5b41f2c250abbc1c6c00b13e2772aa44",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。据《中国新电商发展报告（2026）》，超九成电商商家已经接入AI工具，在本次大促备战中，商家使用AI承接商品作图、文案”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "【#AI双向赋能双11商家与买家#】#AI成为双11购物军师# 10月15日，#年轻人开始用AI整顿双11了#引热议，2026 年双十一正式迈入AI全域应用阶段。",
+        "url": "https://www.sina.cn/news/detail/5354388795426894.html",
+        "sourceHash": "8a2a432e490847ea72247049e259ed214260743741b6e321b4bdb294bb84c6f1",
+        "basisArticleId": "radar-c8ef9777009726e1",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "AmEx Releases Agentic Payment Standard That Declines Rogue AI Purchases Pre-Checkout",
+    "url": "https://www.techtimes.com/articles/329043/20261015/amex-releases-agentic-payment-standard-that-declines-rogue-ai-purchases-pre-checkout.htm",
+    "date": "2026-10-15",
+    "dateBasis": "原文发布日期",
+    "source": "Tech Times",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:40+08:00",
+    "sourceCaveats": [],
+    "excerpt": "American Express published an open technical specification on October 13 that does something no standard payment token can: it binds a consumer's purchase authorization to the specific constraints of that purchase — the merchant, the budget ceiling, the product specifications — and makes that binding cryptographically verifiable at every stage of the transaction, including before an AI agent reaches a …",
+    "corePoint": [
+      "American Express published an open technical specification on October 13 that does something no standard payment token can: it binds a consumer's purchase authorization to the specific constraints of that purchase — the merchant, the budget ceiling, the product specifications — and makes that binding cryptographically verifiable at every stage of the transaction, including before an AI agent reaches a …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-442d5b7d109609f6",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "合作 / 基础设施",
+    "relatedInsightIds": [],
+    "publisher": "techtimes.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "American Express在10月13日公布了一个开放的技术规格,它做了一些没有标准支付符能做的事情:它将消费者的购买授权与该购买的具体限制——商家,预算上限,产品规格——联系在一起,并使该装订的密码在交易的每个阶段,包括在AI代理到达一个.之前,都可以进行核查."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "cbbfd421dc62c73b016e6d2a00e5ef3a4cb201bc5190086e663b2747159713d7",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "AmEx 发布代理支付标准, 降低 Rogue AI 购买预检",
+    "titleSourceHash": "db4b46b84392e94ecae9fefd944b6eae71ecefa25eacf12958a8839dd485ddee",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "5b404955e6f92f36f0e60cdbeb2a902b519d6885e7a665010bc9378430574682",
+      "keywords": [
+        "支付授权"
+      ],
+      "summary": [
+        "American Express在10月13日公布了一个开放的技术规格,它做了一些没有标准支付符能做的事情:它将消费者的购买授权与该购买的具体限制——商家,预算上限,产品规格——联系在一起,并使该装订的密码在交易的每个阶段,包括在AI代理到达一个.之前,都可以进行核查。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“American Express在10月13日公布了一个开放的技术规格,它做了一些没有标准支付符能做的事情:它将消费者的购买授权与该购买的具体限制——商家,预算上限,产品规格——联系在一起,并使该装订的密码在交易的每个阶段,包括在AI代理到达一个.之前,都可以进行核查.”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“AmEx 发布代理支付标准, 降低 Rogue AI 购买预检”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "American Express published an open technical specification on October 13 that does something no standard payment token can: it binds a consumer's purchase authorization to the specific constraints of that purchase — the merchant, the budget ceiling, the product specifications — and makes that binding cryptographically verifiable at every stage of the transaction, including before an AI agent reaches a …",
+        "url": "https://www.techtimes.com/articles/329043/20261015/amex-releases-agentic-payment-standard-that-declines-rogue-ai-purchases-pre-checkout.htm",
+        "sourceHash": "392706fa467471a37f5272936240ef431f28642d63cfefe7fd9f08bd181eae45",
+        "basisArticleId": "radar-442d5b7d109609f6",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "Can American Express Turn AI Commerce Into a New Growth Driver?",
+    "url": "https://www.tradingview.com/news/zacks:2deae83e0094b:0-can-american-express-turn-ai-commerce-into-a-new-growth-driver/",
+    "date": "2026-10-15",
+    "dateBasis": "原文发布日期",
+    "source": "TradingView",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:40+08:00",
+    "sourceCaveats": [],
+    "excerpt": "American Express Company AXP is advancing its AI-powered payment strategy with its new Intent Intelligence framework. American Express faces intense competition in the payments space from Mastercard Incorporated MA and Visa Inc. V. Click to get this free report American Express Company (AXP): Free Stock Analysis Report Mastercard Incorporated (MA): Free Stock Analysis Report Visa Inc. (V): Free Stock Analysis …",
+    "corePoint": [
+      "American Express Company AXP is advancing its AI-powered payment strategy with its new Intent Intelligence framework.",
+      "American Express faces intense competition in the payments space from Mastercard Incorporated MA and Visa Inc. V.",
+      "Click to get this free report American Express Company (AXP): Free Stock Analysis Report Mastercard Incorporated (MA): Free Stock Analysis Report Visa Inc. (V): Free Stock Analysis …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-cfd86ea4eda305b2",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "tradingview.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "American Express Company AXP正以新的意向性情报框架来推进其AI动力支付策略.",
+      "美国快递公司在Mastercard Incorporated MA和Visa Inc. V的支付空间面临激烈的竞争."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "f5c073f330f0bd6d2d8670a70138df11e96faf72566110e3d2463615a2a99368",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "美国快递能把AI Commerce 变成新的增长驱动力吗?",
+    "titleSourceHash": "5164a1a58557b8f6f7876495b910ee509d92509ed04a66d604ec2caaafac6ea0",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "b8d5dce22ea0ca89c771679043aa790913a99db28c97d30ea5f60c2694566b30",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "American Express Company AXP正以新的意向性情报框架来推进其AI动力支付策略。",
+        "美国快递公司在Mastercard Incorporated MA和Visa Inc. V的支付空间面临激烈的竞争。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“American Express Company AXP正以新的意向性情报框架来推进其AI动力支付策略.”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“美国快递能把AI Commerce 变成新的增长驱动力吗?”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "American Express Company AXP is advancing its AI-powered payment strategy with its new Intent Intelligence framework.",
+        "url": "https://www.tradingview.com/news/zacks:2deae83e0094b:0-can-american-express-turn-ai-commerce-into-a-new-growth-driver/",
+        "sourceHash": "be4b65472cb51a0352bc172c27cedb8c0c20a679871605590d4e1dee3ae719b8",
+        "basisArticleId": "radar-cfd86ea4eda305b2",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "FXC Intelligence launches an MCP server built on Amazon Web Services, delivering AI-native cross-border payments intelligence to clients",
+    "url": "https://press.aboutamazon.com/aws/2026/10/fxc-intelligence-launches-an-mcp-server-built-on-amazon-web-services-delivering-ai-native-cross-border-payments-intelligence-to-clients",
+    "date": "2026-10-15",
+    "dateBasis": "原文发布日期",
+    "source": "About Amazon",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:40+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Washington, DC – 15th October 2026 – FXC Intelligence, the leading provider of cross-border payments data and intelligence, has selected Amazon Web Services (AWS), the world’s most comprehensive and broadly adopted cloud platform, to deliver its MCP (Model Context Protocol) and modernize its infrastructure as it delivers market-leading insights for financial institutions navigating the global payments landscape.",
+    "corePoint": [
+      "Washington, DC – 15th October 2026 – FXC Intelligence, the leading provider of cross-border payments data and intelligence, has selected Amazon Web Services (AWS), the world’s most comprehensive and broadly adopted cloud platform, to deliver its MCP (Model Context Protocol) and modernize its infrastructure as it delivers market-leading insights for financial institutions navigating the global payments landscape."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-b87715c5d104df62",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "payments",
+    "tags": [
+      "授权边界",
+      "交易确认",
+      "误购成本"
+    ],
+    "category": "授权边界",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "press.aboutamazon.com",
+    "contentKinds": [
+      "产品案例",
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "华盛顿 DC - 2026年10月15日 - FXC Intelligence是跨国支付数据和情报的主要提供者,它选择了Amazon Web Services(AWS)这个世界上最全面和广泛采用的云端平台来提供其MCP(模范背景协议)并更新其基础设施,因为它为浏览全球支付环境的金融机构提供市场领先的见解."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "bea6653b5ff38271d87b69f2b005e3b2cd0bc8f6256b4b7160776fe648942c0a",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "FXC Intelligence在亚马逊Web Services上推出一个MCP服务器,向客户提供AI-native跨境支付智能",
+    "titleSourceHash": "879b35b622f182407921f7323edde0d02391bef1e59e1fdd79a03a112abea89e",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "e2d64da138fcfea71cfddff0a25d8ebe50094b177353d55721fe8d6f55a620cd",
+      "keywords": [
+        "Amazon",
+        "交易协议"
+      ],
+      "summary": [
+        "华盛顿 DC - 2026年10月15日 - FXC Intelligence是跨国支付数据和情报的主要提供者,它选择了Amazon Web Services(AWS)这个世界上最全面和广泛采用的云端平台来提供其MCP(模范背景协议)并更新其基础设施,因为它为浏览全球支付环境的金融机构提供市场领先的见解。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“华盛顿 DC - 2026年10月15日 - FXC Intelligence是跨国支付数据和情报的主要提供者,它选择了Amazon Web Services(AWS)这个世界上最全面和广泛采用的云端平台来提供其MCP(模范背景协议)并更新其基础设施,因为它为浏览全球支付环境的金融机构提供市场领先的见解.”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“FXC Intelligence在亚马逊Web Services上推出一个MCP服务器,向客户提供AI-native跨境支付智能”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "Washington, DC – 15th October 2026 – FXC Intelligence, the leading provider of cross-border payments data and intelligence, has selected Amazon Web Services (AWS), the world’s most comprehensive and broadly adopted cloud platform, to deliver its MCP (Model Context Protocol) and modernize its infrastructure as it delivers market-leading insights for financial institutions navigating the global payments landscape.",
+        "url": "https://press.aboutamazon.com/aws/2026/10/fxc-intelligence-launches-an-mcp-server-built-on-amazon-web-services-delivering-ai-native-cross-border-payments-intelligence-to-clients",
+        "sourceHash": "b0446a056b957a0266675d56d70d75ce9da2421020853e060e6293789d8b3373",
+        "basisArticleId": "radar-b87715c5d104df62",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "Google Launches Universal Cart to Simplify AI Shopping",
+    "url": "https://innovation-village.com/google-launches-universal-cart-to-simplify-ai-shopping/",
+    "date": "2026-10-15",
+    "dateBasis": "原文发布日期",
+    "source": "Innovation Village",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:42+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Google has launched Universal Cart, an AI-powered shopping tool that lets users save products from multiple retailers in one place, track price changes, and manage purchases across Google Search and the Gemini app. Universal Cart allows users to save products they discover through Google Search and Gemini into a shared shopping cart.",
+    "corePoint": [
+      "Google has launched Universal Cart, an AI-powered shopping tool that lets users save products from multiple retailers in one place, track price changes, and manage purchases across Google Search and the Gemini app.",
+      "Universal Cart allows users to save products they discover through Google Search and Gemini into a shared shopping cart."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-c8ebfa72930ab89c",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "innovation-village.com",
+    "contentKinds": [
+      "产品案例",
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "Google推出\"通用Cart\",这是一个AI驱动的购物工具,让用户从多家零售商手中将产品保存在一个地方,跟踪价格变化,管理整个Google搜索和双子座应用的购买.",
+      "Universal Cart允许用户将通过Google搜索和双子座发现的产品保存到共享的购物车中."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "08d71768679825b917860f63eabd1cab992b1fa12f580e3f92e1114767b02aeb",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Google 启动 Universal Cart 简化AI购物程序",
+    "titleSourceHash": "3f8444410d08ff0783b72ea7d952a93e99987c11ceb3a867980dac4622342b45",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "f3781fbdaa4c8c5f224af3411dea20990087b7b2d8ca152dc734d82671821503",
+      "keywords": [
+        "Google",
+        "AI购物"
+      ],
+      "summary": [
+        "Google推出\"通用Cart\",这是一个AI驱动的购物工具,让用户从多家零售商手中将产品保存在一个地方,跟踪价格变化,管理整个Google搜索和双子座应用的购买。",
+        "Universal Cart允许用户将通过Google搜索和双子座发现的产品保存到共享的购物车中。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“Google推出\"通用Cart\",这是一个AI驱动的购物工具,让用户从多家零售商手中将产品保存在一个地方,跟踪价格变化,管理整个Google搜索和双子座应用的购买.”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“Google 启动 Universal Cart 简化AI购物程序”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "Google has launched Universal Cart, an AI-powered shopping tool that lets users save products from multiple retailers in one place, track price changes, and manage purchases across Google Search and the Gemini app.",
+        "url": "https://innovation-village.com/google-launches-universal-cart-to-simplify-ai-shopping/",
+        "sourceHash": "1b168a9036d228c6113d7c3b236e4f1af0fa2712c70ca1f3de760c362e123351",
+        "basisArticleId": "radar-c8ebfa72930ab89c",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -682,7 +2138,94 @@
         "sourceHash": "b17e0f13941b87567dffebf09ca04641ac93fac745752eab0aca74af481cc99f",
         "basisArticleId": "radar-1a0ecae5f00e644d",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "The Agent Advantage: How Merchants Plan to Win AI Shopping",
+    "url": "https://www.pymnts.com/study_posts/the-agent-advantage-how-merchants-plan-to-win-ai-shopping/",
+    "date": "2026-10-14",
+    "dateBasis": "原文发布日期",
+    "source": "PYMNTS",
+    "region": "海外",
+    "sourceKind": "industry",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:41+08:00",
+    "sourceCaveats": [],
+    "excerpt": "That opens a powerful new path to demand for AI agents that will soon become a competitive necessity. “ The Agent Advantage: How Merchants Plan to Win AI Shopping ” is the first edition of the PYMNTS Intelligence Merchant AI Report series. Among merchants with an owned site or app, close to nine in 10 plan a hybrid strategy that …",
+    "corePoint": [
+      "That opens a powerful new path to demand for AI agents that will soon become a competitive necessity.",
+      "“ The Agent Advantage: How Merchants Plan to Win AI Shopping ” is the first edition of the PYMNTS Intelligence Merchant AI Report series.",
+      "Among merchants with an owned site or app, close to nine in 10 plan a hybrid strategy that …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-15bd6e0aa4481479",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 21,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 96,
+    "readingTier": "精选",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "pymnts.com",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "这为对AI代理的需求开辟了一条强大的新道路,这种需求很快将成为竞争的必要.",
+      "“代理优势:商家如何计划赢得AI购物”是PYMNTS情报商家AI报告系列的第一版。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "29578297bbdae548cfb99ef8d4924ccb09307e33d882decc5a51d2e29ec4bf9f",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "代理优势:商人如何计划赢得AI购物",
+    "titleSourceHash": "fe74d7e62e4d980f3ee232f7ce7c07f061e247d97316c252cccc0eb7fada6892",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "7077b32846a9f57c65caadaa861bf1eabf333612519641240962f77dd6618817",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "这为对AI代理的需求开辟了一条强大的新道路,这种需求很快将成为竞争的必要。",
+        "“代理优势:商家如何计划赢得AI购物”是PYMNTS情报商家AI报告系列的第一版。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“这为对AI代理的需求开辟了一条强大的新道路,这种需求很快将成为竞争的必要.”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“代理优势:商人如何计划赢得AI购物”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "That opens a powerful new path to demand for AI agents that will soon become a competitive necessity.",
+        "url": "https://www.pymnts.com/study_posts/the-agent-advantage-how-merchants-plan-to-win-ai-shopping/",
+        "sourceHash": "570aab110e7f78c8b3b2212339fbac859cab90240d44c87b8642841073cd7018",
+        "basisArticleId": "radar-15bd6e0aa4481479",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -769,7 +2312,7 @@
         "sourceHash": "35bcd6e11cbe9c119e903a095a3fe636aaa958d5fd3575b1d42ed846a6fc5acc",
         "basisArticleId": "radar-1f5cd1d646f23579",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -855,7 +2398,7 @@
         "sourceHash": "582da8518c6d3dd0c6e4536747741e5f57566f7f5f63edbd8b8f728b033cc694",
         "basisArticleId": "radar-f67a4c26a885f368",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -943,7 +2486,7 @@
         "sourceHash": "e26f36493037af6e7f9aaad7e660f9db79d0c60474a0f1652094699fc6f45eb7",
         "basisArticleId": "radar-35e9f6763b4ba12b",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1030,7 +2573,7 @@
         "sourceHash": "922d67c27aa6e809875f2ddea01d3f677d3936bbc2fd0d8e019f6d157d7e15ac",
         "basisArticleId": "radar-4c0c261783301d48",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1116,7 +2659,7 @@
         "sourceHash": "ebf655e4298db464ab405acc810f68d743140400f092d62ae7017a6566960d92",
         "basisArticleId": "radar-e0049e56d8b5d4b3",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1200,7 +2743,7 @@
         "sourceHash": "b7f2daa8034bb94b6c210f7d2499f427ac13972db198dd5ded32a57e4768ff21",
         "basisArticleId": "radar-412c4662e22b69e7",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1287,7 +2830,7 @@
         "sourceHash": "bd337b837d0696f2e34cbd5cd135582d29b012a0daab1df00ff24491afc6a626",
         "basisArticleId": "radar-7f5635a1878865d4",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1370,7 +2913,7 @@
         "sourceHash": "f82b2924ff1b62b114e67eac0d94ac90f4904d8f273f97f7680432e7ddb1403b",
         "basisArticleId": "radar-8d7ae53f323f2ddf",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1458,7 +3001,7 @@
         "sourceHash": "a93079149d6e361ebb44d4f4c3ea6d724eb367370de7e7c73b5440721bdd763a",
         "basisArticleId": "radar-d11aa3c727b38596",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1545,7 +3088,7 @@
         "sourceHash": "3b555911e870cc60f889f04261d55d6411ea841c934d17e92380d0ce9804aa52",
         "basisArticleId": "radar-b42549e12ac826e4",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1632,7 +3175,7 @@
         "sourceHash": "670a6e4efb52aa746bb15b9e0989649e7f5beb3376503619336425c29a82b68f",
         "basisArticleId": "radar-ed3177221f55c4fb",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1718,7 +3261,7 @@
         "sourceHash": "fdc99072509f09b8ecc1af52b94b9c6eb03d7ee94e7aa5b0d90927927d320b3e",
         "basisArticleId": "radar-814d40c8a5d5f9a9",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1804,7 +3347,7 @@
         "sourceHash": "e1b13ca65ca2b1af8108e49bb74cc0cf7efdd0cc2cb4cb674cef56494eda46f2",
         "basisArticleId": "radar-fc490f2657d92956",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1890,7 +3433,7 @@
         "sourceHash": "0a536bbaf73f3cc3203cccdeb672e8066a439e263abce5ee2c82add56dd36eaa",
         "basisArticleId": "radar-85c1650eae17dbf1",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -1979,7 +3522,7 @@
         "sourceHash": "5fa33899e40855b43d7a3181a9e8b034073b164fa867bf617a3df13b8cd884fb",
         "basisArticleId": "radar-350b79cd5c3c9b7f",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2066,7 +3609,7 @@
         "sourceHash": "b0ced42b3a75b278a620a3fb8c723ca35963a901890c27bfbb12fc4c73bf91a8",
         "basisArticleId": "radar-dd0005be298ffd03",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2152,7 +3695,270 @@
         "sourceHash": "36a61256c6bd2a16fb88d5bfd5aeefdabe538b84c300eb6d9a1ca5590dbf6517",
         "basisArticleId": "radar-bc6ef6fb797a81ee",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "这个双11，AI导购上岗，商家开始重写详情页|AI购物|Qwen|阿里巴巴|电商平台|视觉中国",
+    "url": "https://finance.sina.cn/stock/jdts/2026-10-14/detail-inivezmk4516977.d.html?vt=4&cid=76993&node_id=76993",
+    "date": "2026-10-14",
+    "dateBasis": "日期冲突，采用较早发布日期",
+    "source": "finance.sina.com.cn",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:39+08:00",
+    "dateCandidates": [
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "sourceCaveats": [],
+    "excerpt": "蓝鲸新闻10月14日讯（记者 彭乐怡） 今年“双11”，AI导购已经成为电商平台的标配。 今年9月，京东APP升级至16.0版，首次推出AI购物助手“东 …",
+    "corePoint": [
+      "蓝鲸新闻10月14日讯（记者 彭乐怡） 今年“双11”，AI导购已经成为电商平台的标配。",
+      "今年9月，京东APP升级至16.0版，首次推出AI购物助手“东 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-ecf79ab8a44f6c97",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "finance.sina.cn",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "蓝鲸新闻10月14日讯（记者 彭乐怡） 今年“双11”，AI导购已经成为电商平台的标配。",
+      "今年9月，京东APP升级至16.0版，首次推出AI购物助手“东 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "ec2d649da713a4710bf54f57773742d8a9079f8bb6871c9e6f084e6e4bdadd10",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "这个双11，AI导购上岗，商家开始重写详情页|AI购物|Qwen|阿里巴巴|电商平台|视觉中国",
+    "titleSourceHash": "560deb2a9b3d28368b2bbd4bf8eaa141c78878dd93d9943553e6799abcb5acaf",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "341dbb56d14a463952b41431aaaf0cb8d4d3088626971fbadb3385999c241a1b",
+      "keywords": [
+        "阿里巴巴",
+        "AI购物"
+      ],
+      "summary": [
+        "蓝鲸新闻10月14日讯（记者彭乐怡） 今年“双11”，AI导购已经成为电商平台的标配。",
+        "今年9月，京东APP升级至16.0版，首次推出AI购物助手“东 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“蓝鲸新闻10月14日讯（记者 彭乐怡） 今年“双11”，AI导购已经成为电商平台的标配”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“这个双11，AI导购上岗，商家开始重写详情页|AI购物|Qwen|阿里巴巴|电商平台|视觉中国”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "蓝鲸新闻10月14日讯（记者 彭乐怡） 今年“双11”，AI导购已经成为电商平台的标配。",
+        "url": "https://finance.sina.cn/stock/jdts/2026-10-14/detail-inivezmk4516977.d.html?vt=4&cid=76993&node_id=76993",
+        "sourceHash": "147533a501c9bbbdc84d2647c0e8584f9c6bd610be8774805d0278246e58a52c",
+        "basisArticleId": "radar-ecf79ab8a44f6c97",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "千问办公推出电商版并开启邀测 陈宇森称定位独立第三方电商Agent",
+    "url": "https://k.sina.com.cn/article_6348162667_17a61466b00101dihm.html?from=tech&subch=internet",
+    "date": "2026-10-14",
+    "dateBasis": "原文发布日期",
+    "source": "新浪网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:42+08:00",
+    "sourceCaveats": [],
+    "excerpt": "10月13日，千问办公正式发布面向电商商家的“千问办公电商版”，并开启邀测。 阿里巴巴集团副总裁、千问办公CEO陈宇森表示：“千问办公 …",
+    "corePoint": [
+      "10月13日，千问办公正式发布面向电商商家的“千问办公电商版”，并开启邀测。",
+      "阿里巴巴集团副总裁、千问办公CEO陈宇森表示：“千问办公 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-8a4c592aed2defe6",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "k.sina.com.cn",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "10月13日，千问办公正式发布面向电商商家的“千问办公电商版”，并开启邀测。",
+      "阿里巴巴集团副总裁、千问办公CEO陈宇森表示：“千问办公 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "35642f664f651bee257e5675429710d7fcef982604e7fdcfbd1e9a9da2c47f9f",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "千问办公推出电商版并开启邀测 陈宇森称定位独立第三方电商Agent",
+    "titleSourceHash": "a02fec350f6ebd957a0b68c35aaa4b1f84b71d3df977c52e26506be611c11acb",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "d0fa702967dbc0bd11cf535035da258802f45ad8f8a720b33f4b62cba34db19f",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "10月13日，千问办公正式发布面向电商商家的“千问办公电商版”，并开启邀测。",
+        "阿里巴巴集团副总裁、千问办公CEO陈宇森表示：“千问办公 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“10月13日，千问办公正式发布面向电商商家的“千问办公电商版”，并开启邀测”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“千问办公推出电商版并开启邀测 陈宇森称定位独立第三方电商Agent”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "10月13日，千问办公正式发布面向电商商家的“千问办公电商版”，并开启邀测。",
+        "url": "https://k.sina.com.cn/article_6348162667_17a61466b00101dihm.html?from=tech&subch=internet",
+        "sourceHash": "72e5c9a561636c125a752a499674a462669186d29a5faa97c81ecb2dade03dd1",
+        "basisArticleId": "radar-8a4c592aed2defe6",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "NUMERATOR’S NEWLY LAUNCHED AI CONSUMER INDEX FINDS HEALTH & BEAUTY, APPAREL, AND ELECTRONICS PRIME FOR AI SHOPPING DISRUPTION",
+    "url": "https://finance.yahoo.com/technology/ai/articles/numerator-newly-launched-ai-consumer-130000668.html",
+    "date": "2026-10-14",
+    "dateBasis": "原文发布日期",
+    "source": "Yahoo Finance",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:41+08:00",
+    "sourceCaveats": [],
+    "excerpt": "New Data Links AI Sentiment with Verified Purchase Behavior to Reveal AI-Engaged Households Represent $37B in Additional Consumer Spending CHICAGO, Oct. The Index identifies Health & Beauty, Apparel, and Electronics as categories with the greatest potential for AI-enabled shopping disruption, with $37 billion in additional annual spending among AI-engaged households underscoring the scale of the impact.",
+    "corePoint": [
+      "New Data Links AI Sentiment with Verified Purchase Behavior to Reveal AI-Engaged Households Represent $37B in Additional Consumer Spending CHICAGO, Oct.",
+      "The Index identifies Health & Beauty, Apparel, and Electronics as categories with the greatest potential for AI-enabled shopping disruption, with $37 billion in additional annual spending among AI-engaged households underscoring the scale of the impact."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-08a061858c007a06",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "finance.yahoo.com",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "新数据链接 AI 与经验证的购买行为连接 AI-Engaged 家庭代表37B 额外消费支出 CHICAGO,10月。",
+      "该指数将健康与美感、外观和电子产品确定为AI带动购物中断的可能性最大的类别,AI参与家庭每年额外支出370亿美元,强调了影响的规模。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "b40ab9b59d1e88381a2530521c57dd3f456b5cdc446e21faadec52fcfbfb61c8",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "NUMERTER最新发布的AI Consumer Index 发现健康与美丽, 应用, 和电子初级 AI Shopping Disruption",
+    "titleSourceHash": "d2c009ea4a5a6faada90dc1e8de73847d5fe31a628291f2d35975bb065aec48b",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "2573d0b5e5e8382337662b9446d86b1173715b276c7f184a2721408d3b37bdf5",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "新数据链接 AI 与经验证的购买行为连接 AI-Engaged 家庭代表37B 额外消费支出 CHICAGO,10月。",
+        "该指数将健康与美感、外观和电子产品确定为AI带动购物中断的可能性最大的类别,AI参与家庭每年额外支出370亿美元,强调了影响的规模。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“新数据链接 AI 与经验证的购买行为连接 AI-Engaged 家庭代表37B 额外消费支出 CHICAGO,10月”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“NUMERTER最新发布的AI Consumer Index 发现健康与美丽, 应用, 和电子初级 AI Shopping Disruption”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "New Data Links AI Sentiment with Verified Purchase Behavior to Reveal AI-Engaged Households Represent $37B in Additional Consumer Spending CHICAGO, Oct.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/numerator-newly-launched-ai-consumer-130000668.html",
+        "sourceHash": "a3f681d6919fb17629eeb5e58fae07f0c7f7f846dc27ea4022ef238a504c58e2",
+        "basisArticleId": "radar-08a061858c007a06",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2235,7 +4041,7 @@
         "sourceHash": "8800b347e1c3acb6b10f10f8d2ec3e724fa8c3b70b7985d8cc5ded047c3a85f0",
         "basisArticleId": "radar-1b7c2ce3fc9972d3",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2318,7 +4124,7 @@
         "sourceHash": "3270a2647500bba2b103239eb3a82109777289eaddd839ca8692f38bc75a966d",
         "basisArticleId": "radar-4fa6cbc666e7f553",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2401,7 +4207,7 @@
         "sourceHash": "8d38788c9f469504d85c35e784af8226a1e26fa508de5d07089c04222c58de47",
         "basisArticleId": "radar-fe52c51e72d260d9",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2484,7 +4290,7 @@
         "sourceHash": "1194a45d2eef6fabee1936fcf99ab9a816311bb0add273eca08f2764b8f1da62",
         "basisArticleId": "radar-d48197455213ec4e",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2567,7 +4373,7 @@
         "sourceHash": "61455d04fce48e291761bd02c0adc2b2549fa283a572160a5071c11801a8ba18",
         "basisArticleId": "radar-e9e68edb602915ec",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2654,7 +4460,7 @@
         "sourceHash": "8a8b18370edba1db1b67d92a99989772b08cf5ffe6b2a98e4ee5af8f34ae2618",
         "basisArticleId": "radar-36ae2e5e50c9f75f",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2741,7 +4547,7 @@
         "sourceHash": "55e03a2bae03a72836120506a3a08e2c160f3b68b6b0540685b894cff3b9c7b1",
         "basisArticleId": "radar-2fe646aeab24cdee",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2828,7 +4634,7 @@
         "sourceHash": "0190ec56aab1b47e4618a571e4f34f42eba854ac6d6d956664cf869504b4cba4",
         "basisArticleId": "radar-41fd185a22928e8a",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2913,7 +4719,7 @@
         "sourceHash": "02b7806c622cb7af7d09546fc60dad98659eca02188a689d30a00de3608407fa",
         "basisArticleId": "radar-0bbc61c35bdef7c0",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -2996,7 +4802,7 @@
         "sourceHash": "0a2a909b67e429bceeff0bb7ada6f0415b76bba12b169471503f130db8e4ba3a",
         "basisArticleId": "radar-9bf7b230c81cb513",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -3079,7 +4885,90 @@
         "sourceHash": "3d5cb86bd1f080f70992d958aa7b39762eece13587684446407d2dd74c6ee0c3",
         "basisArticleId": "radar-a6efea67d7b517bd",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "千问办公推出电商版Agent 已接入生意参谋、有赞、千牛等平台丨新经济观察",
+    "url": "https://www.sohu.com/a/1087731099_120952561?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "date": "2026-10-14",
+    "dateBasis": "原文发布日期",
+    "source": "搜狐网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:40+08:00",
+    "sourceCaveats": [],
+    "excerpt": "记者10月14日获悉，千问办公针对电商行业推出其电商版AI生产力工具，助力商家进行运营方式升级，目前已开启邀请测试。",
+    "corePoint": [
+      "记者10月14日获悉，千问办公针对电商行业推出其电商版AI生产力工具，助力商家进行运营方式升级，目前已开启邀请测试。"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-7174ff525bb86070",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "合作 / 基础设施",
+    "relatedInsightIds": [],
+    "publisher": "sohu.com",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "记者10月14日获悉，千问办公针对电商行业推出其电商版AI生产力工具，助力商家进行运营方式升级，目前已开启邀请测试。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "ae1ca76d1c70552be32b8dbb4e045ef03e18aa4b425f55ddaa5d58cfa1e9ba2f",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "千问办公推出电商版Agent 已接入生意参谋、有赞、千牛等平台丨新经济观察",
+    "titleSourceHash": "00d8a17eafaca8cc83ed6a5b593a5c3afd061a3060a8845e89ac8168559f96b3",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "e4f25c667ac30540c159ee1d3f2a3c520b88c5ffa661e73afc09b017258b3a8b",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "记者10月14日获悉，千问办公针对电商行业推出其电商版AI生产力工具，助力商家进行运营方式升级，目前已开启邀请测试。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“记者10月14日获悉，千问办公针对电商行业推出其电商版AI生产力工具，助力商家进行运营方式升级，目前已开启邀请测试”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“千问办公推出电商版Agent 已接入生意参谋、有赞、千牛等平台丨新经济观察”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "记者10月14日获悉，千问办公针对电商行业推出其电商版AI生产力工具，助力商家进行运营方式升级，目前已开启邀请测试。",
+        "url": "https://www.sohu.com/a/1087731099_120952561?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "sourceHash": "6b4b92cfcdb4f7af6ae11abae8a0a8ba154955872b599a774f5543dc19902b0f",
+        "basisArticleId": "radar-7174ff525bb86070",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -3169,7 +5058,7 @@
         "sourceHash": "d7396dcb7d8ce51aea6fde79494ab2c5fb14264388019481c33db7b34c0a5f40",
         "basisArticleId": "radar-44e19cd7fc0c8c5b",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -3256,7 +5145,93 @@
         "sourceHash": "207553f9ca122e4fffa2c432aa9617600830b678799ed89a3b73608c816d7271",
         "basisArticleId": "radar-bccd6af51362ea9d",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "千问GO，不能只做阿里的导购",
+    "url": "https://m.sohu.com/a/1087647552_116132?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "date": "2026-10-14",
+    "dateBasis": "原文发布日期",
+    "source": "搜狐",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:39+08:00",
+    "sourceCaveats": [],
+    "excerpt": "灰度测试用户晒出的任务单里，有汽车保养的询价预约，也有跟订票平台客服谈航班延误赔偿。 过去一个多月，字节加快推进与豆包结合 …",
+    "corePoint": [
+      "灰度测试用户晒出的任务单里，有汽车保养的询价预约，也有跟订票平台客服谈航班延误赔偿。",
+      "过去一个多月，字节加快推进与豆包结合 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-4dc58b356160474b",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 11
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 74,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "m.sohu.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "灰度测试用户晒出的任务单里，有汽车保养的询价预约，也有跟订票平台客服谈航班延误赔偿。",
+      "过去一个多月，字节加快推进与豆包结合 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "0ea92b34ebcf4bbc086938e50fcd6d575177f8bfb2fa17d179f8891886486ed7",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "千问GO，不能只做阿里的导购",
+    "titleSourceHash": "b8ab32924fc175184bc9062a9f474df36d492875f4633c6cd942665e21bd3489",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "637b06e84f8f85a546a9832512d51c2fcebe7541a7cbaa312efc288bb7dd0ef0",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "灰度测试用户晒出的任务单里，有汽车保养的询价预约，也有跟订票平台客服谈航班延误赔偿。",
+        "过去一个多月，字节加快推进与豆包结合 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“灰度测试用户晒出的任务单里，有汽车保养的询价预约，也有跟订票平台客服谈航班延误赔偿”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“千问GO，不能只做阿里的导购”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "灰度测试用户晒出的任务单里，有汽车保养的询价预约，也有跟订票平台客服谈航班延误赔偿。",
+        "url": "https://m.sohu.com/a/1087647552_116132?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "sourceHash": "67f0cc46d1c48fa3446bb0d9e1d7e0c21d4ebd34e15e3810931fd64417e04f39",
+        "basisArticleId": "radar-4dc58b356160474b",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -3339,7 +5314,7 @@
         "sourceHash": "254bb74e4b041990454e2e4a8ff6815dee2738fcbd79eeee80df5499b1efacff",
         "basisArticleId": "radar-fae36143c24aeb40",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -3425,7 +5400,7 @@
         "sourceHash": "8ee8f1a417202f5b69811d448e8d323827fa3a3fb2d4a33eaeeff8a22536c6f7",
         "basisArticleId": "radar-24d0e2a7314aa302",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -3601,7 +5576,7 @@
         "sourceHash": "e169a9eb55c179db554bb77b0caddff9f34ebf9494fa3b3a153a42a041d9838e",
         "basisArticleId": "radar-b56ea144eba14c81",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -3777,7 +5752,7 @@
         "sourceHash": "03fa4e98ecbfc833c57391cfbeb02d20a71175b900d291ae3a03b8a243b34c7b",
         "basisArticleId": "radar-c98b491dedddc2a7",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -3863,7 +5838,7 @@
         "sourceHash": "e96155723b8e7905c39bfe10cce8b0b3503377e29ff73e72dd75b38e2fbb215f",
         "basisArticleId": "radar-3f9c4417579141f0",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4034,7 +6009,93 @@
         "sourceHash": "47dfe31a208384455c64791651ab62198156d429817e49da9ef2915d8a4da703",
         "basisArticleId": "radar-048e2dd73ff64548",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
+    "title": "千问推出个人智能助理：可申请理赔、购物保价",
+    "url": "https://m.bjnews.com.cn/detail/1791871625129586.html",
+    "date": "2026-10-13",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "新京报",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:41+08:00",
+    "sourceCaveats": [],
+    "excerpt": "新京报贝壳财经讯（记者程子姣）10月13日，千问推出Personal Agent（个人智能助理）“千问Go！ 千问方面称，千问是全球首个能为用户办事的个人AI助理 …",
+    "corePoint": [
+      "新京报贝壳财经讯（记者程子姣）10月13日，千问推出Personal Agent（个人智能助理）“千问Go！",
+      "千问方面称，千问是全球首个能为用户办事的个人AI助理 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-81ef12210942619e",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "产品案例",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "功能 / 上线",
+    "relatedInsightIds": [],
+    "publisher": "m.bjnews.com.cn",
+    "contentKinds": [
+      "产品案例"
+    ],
+    "summaryZh": [
+      "新京报贝壳财经讯（记者程子姣）10月13日，千问推出Personal Agent（个人智能助理）“千问Go！",
+      "千问方面称，千问是全球首个能为用户办事的个人AI助理 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "53dcf8ef389786ddf3dae1cb241fe15fbfe8373a00538242db964df2cdfdac7b",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "千问推出个人智能助理：可申请理赔、购物保价",
+    "titleSourceHash": "5a7dd1b020cfc5bc147aff0865d1e464bd567c3cda4c0e8bd2b426aa4df37b28",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "8d6ec626df95dc5ada8a4a24d2072eb1b9edcd4e4d1a6c13e62e223a87349341",
+      "keywords": [
+        "AI购物"
+      ],
+      "summary": [
+        "新京报贝壳财经讯（记者程子姣）10月13日，千问推出Personal Agent（个人智能助理）“千问Go！",
+        "千问方面称，千问是全球首个能为用户办事的个人AI助理 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“新京报贝壳财经讯（记者程子姣）10月13日，千问推出Personal Agent（个人智能助理）“千问Go！”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“千问推出个人智能助理：可申请理赔、购物保价”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "新京报贝壳财经讯（记者程子姣）10月13日，千问推出Personal Agent（个人智能助理）“千问Go！",
+        "url": "https://m.bjnews.com.cn/detail/1791871625129586.html",
+        "sourceHash": "00f00215616852936af4b0b8b28389544288031800cac4a32f0d6d4d8c0dd1bb",
+        "basisArticleId": "radar-81ef12210942619e",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4133,7 +6194,14 @@
         "method": "原文短摘录驱动的模型推演，非已验证结论"
       },
       "researchStatus": "source_reasoning"
-    }
+    },
+    "relatedCoverage": [
+      {
+        "title": "Google上线跨店AI购物车：Nike、沃尔玛能一起加购，结账却要分开",
+        "url": "https://www.theblockbeats.info/flash/372198",
+        "source": "BlockBeats"
+      }
+    ]
   },
   {
     "title": "天猫双11在即，AI店小蜜推出8大新权益为商家经营护航",
@@ -4300,7 +6368,7 @@
         "sourceHash": "4cc8c1fa3c1ede5aa168e46779d0ddc7f8afed0c273da6b70fa774798d0ddf61",
         "basisArticleId": "radar-a79f32ad57f9072c",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4388,7 +6456,7 @@
         "sourceHash": "66c3a51b4aba1ba180abf97d3e6cd8a5026e00466e56dc3efc7fd4305292f8d6",
         "basisArticleId": "radar-c7687fcf68dc7756",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4476,7 +6544,7 @@
         "sourceHash": "6d61760ba43849fa4e49e780b06115e058c72649511b9caecc23ea27535f67a2",
         "basisArticleId": "radar-71a5d547ccf510e0",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4559,7 +6627,7 @@
         "sourceHash": "e74d7f0d6f8b6fe3333c57f7bcfe5c4e2db586516047d140d3187e9261caa4ac",
         "basisArticleId": "radar-bf8820b130018f45",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4733,7 +6801,7 @@
         "sourceHash": "08b86bf6331dbd377d7ad397c3543981bdcd7b6b0fdc92d23761702322157e4b",
         "basisArticleId": "radar-b0727e7a4f3d2fca",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4820,7 +6888,7 @@
         "sourceHash": "6964f933b541c5d5d4490932f83ac7439a99ed9af8383fc1e1f15fb15e5bd6ba",
         "basisArticleId": "radar-1051afe355a0b0b4",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4908,7 +6976,7 @@
         "sourceHash": "773878e80d8026a552828c2ab327440bbe8ac9918b8d729871668e20bdfc1710",
         "basisArticleId": "radar-1fa38c3e4ca53747",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -4991,7 +7059,7 @@
         "sourceHash": "8878e123c68ae6c2e7727b749f97ad0b4c78c9bea2dd192b27d6ae89e43f33ab",
         "basisArticleId": "radar-8b6657a688997bea",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -5795,7 +7863,7 @@
         "sourceHash": "f1483393a7341707f194ad313b3d8318fa546682c33c42aff45bc3e8c5953971",
         "basisArticleId": "radar-30f98514abf52fa9",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -6584,7 +8652,7 @@
         "sourceHash": "6df4fdd45003d8704fadb5751cfd5008f0321fb75a769a3bee97a9593d4a9e28",
         "basisArticleId": "radar-05108653561dbb7e",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -9455,9 +11523,9 @@
         "source": "Crypto Briefing"
       },
       {
-        "title": "TikTok推出人工智能购物助手与一键支付用户可在应用内下单| Mezha",
+        "title": "TikTok推出人工智能购物助手与一键支付 用户可在应用内下单",
         "url": "https://mezha.net/ch/news/9e0f3f13_tiktok_adds_an/",
-        "source": "mezha.net"
+        "source": "Mezha.net"
       },
       {
         "title": "TikTok adds an AI shopping assistant and one-click checkout to its app",
@@ -11734,7 +13802,7 @@
     "region": "海外",
     "sourceKind": "industry",
     "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:10:02+08:00",
+    "checkedAt": "2026-10-16T15:48:59+08:00",
     "sourceCaveats": [],
     "excerpt": "Retailers are drawing different lines on AI agents. Retailers are drawing different lines on how far artificial intelligence (AI) shopping agents can go on their sites. That’s the tradeoff retailers face as AI agents become a new sales channel.",
     "corePoint": [
@@ -20332,6 +22400,94 @@
     }
   },
   {
+    "title": "Walmart's CEO promises Sparky will never use your data to raise your price",
+    "url": "https://startupfortune.com/walmarts-ceo-promises-sparky-will-never-use-your-data-to-raise-your-price/",
+    "date": "2026-09-27",
+    "dateBasis": "原文发布日期",
+    "source": "Startup Fortune",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:48+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Walmart CEO John Furner put it in writing on September 25: the company's AI assistant Sparky will not use what you tell it to charge you more. Sparky launched as Walmart's answer to a retail world where AI assistants are becoming the thing standing between a shopper and a purchase decision.",
+    "corePoint": [
+      "Walmart CEO John Furner put it in writing on September 25: the company's AI assistant Sparky will not use what you tell it to charge you more.",
+      "Sparky launched as Walmart's answer to a retail world where AI assistants are becoming the thing standing between a shopper and a purchase decision."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-8692e39c5928c1ce",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 17
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 80,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "startupfortune.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "沃尔玛CEO约翰·福尔纳(John Furner)在9月25日写道: 公司AI助理斯派克不会用你说的话来多收费用.",
+      "Sparky作为Walmart对零售世界的解答推出,在这个零售世界中,AI助手正在成为站在shopper和购买决定之间的东西."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "418df511e40463540ef7f9048f54b246bbbd316f9baa80ead8610e5883b5549a",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "沃尔玛的首席执行官答应史巴基永远也不会用你的数据来提高你的价钱",
+    "titleSourceHash": "7c21768149fb40c4aa4f914052a4c31c92287d0f8cda64e53356cd258dfc0792",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "895d6b45151ae90b4546edcc701c3455b406d70ed5d4fe21cc772a5e01e26bdf",
+      "keywords": [
+        "Walmart",
+        "Sparky",
+        "AI购物"
+      ],
+      "summary": [
+        "沃尔玛CEO约翰·福尔纳(John Furner)在9月25日写道: 公司AI助理斯派克不会用你说的话来多收费用。",
+        "Sparky作为Walmart对零售世界的解答推出,在这个零售世界中,AI助手正在成为站在shopper和购买决定之间的东西。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“沃尔玛CEO约翰·福尔纳(John Furner)在9月25日写道: 公司AI助理斯派克不会用你说的话来多收费用.”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“沃尔玛的首席执行官答应史巴基永远也不会用你的数据来提高你的价钱”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "Walmart CEO John Furner put it in writing on September 25: the company's AI assistant Sparky will not use what you tell it to charge you more.",
+        "url": "https://startupfortune.com/walmarts-ceo-promises-sparky-will-never-use-your-data-to-raise-your-price/",
+        "sourceHash": "0fece285455d7cdaf89671b5b61d0c41f978fce275a47a230861fa174e7678c9",
+        "basisArticleId": "radar-8692e39c5928c1ce",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
     "title": "AI正在成为新的购物入口，商家如何为下一代商业做好准备？",
     "url": "https://36kr.com/p/3992957051812868",
     "date": "2026-09-27",
@@ -21117,7 +23273,7 @@
         "sourceHash": "ffeb0422ddfc856766757ffdf32e50c2fff4f50f6f3de51afaf6e69dc7187b13",
         "basisArticleId": "radar-0170e0f065dc6f43",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -24349,6 +26505,94 @@
     }
   },
   {
+    "title": "Gen Z Embraces AI Shopping, but Nearly Half Have Abandoned Brands Over its Use -",
+    "url": "https://www.enterprisetimes.co.uk/2026/09/17/gen-z-embraces-ai-shopping-but-nearly-half-have-abandoned-brands-over-its-use/",
+    "date": "2026-09-17",
+    "dateBasis": "原文发布日期",
+    "source": "Enterprise Times",
+    "region": "海外",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:54+08:00",
+    "sourceCaveats": [],
+    "excerpt": "Research from SAP Engagement Cloud reveals that while Gen Z is leading the adoption of AI-powered shopping. While AI has the potential to strengthen relationships, Gen Z consumers expect brands to use the technology responsibly and transparently. Among Gen Z consumers, 15% say they are more loyal to brands that use AI to improve the shopping experience.",
+    "corePoint": [
+      "Research from SAP Engagement Cloud reveals that while Gen Z is leading the adoption of AI-powered shopping.",
+      "While AI has the potential to strengthen relationships, Gen Z consumers expect brands to use the technology responsibly and transparently.",
+      "Among Gen Z consumers, 15% say they are more loyal to brands that use AI to improve the shopping experience."
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-e28072a6a26157e2",
+    "firstSeenAt": "2026-10-16",
+    "lensId": "discovery",
+    "tags": [
+      "候选集",
+      "需求澄清",
+      "入口迁移"
+    ],
+    "category": "候选集",
+    "contentType": "行业分析",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 20
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 83,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "enterprisetimes.co.uk",
+    "contentKinds": [
+      "行业分析"
+    ],
+    "summaryZh": [
+      "来自SAP Gusing Cloud的研究表明,虽然Gen Z正在率先采用AI动力购物.",
+      "虽然AI有加强关系的潜力,但Gen Z消费者期望品牌以负责和透明的方式使用技术."
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "cca1356d7324a154f8b0330a1b41905c528b451369cf87d50ad9f674d153f4b0",
+    "summaryMethod": "OPUS-MT本地机器翻译；原文为准",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "Gen Z 拥抱 AI 购物, 但近一半放弃了品牌超越它的使用 -",
+    "titleSourceHash": "507ed281f1ebc9dba6801b353335b6a831755f3cbe1f8e71244e971debff93f3",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "OPUS-MT机器翻译",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "16fcc33512bd281cfe6f8d859cf909bf9aaa41eca94541175ce1fcbd3b953f4a",
+      "keywords": [
+        "用户研究",
+        "AI购物"
+      ],
+      "summary": [
+        "来自SAP Gusing Cloud的研究表明,虽然Gen Z正在率先采用AI动力购物。",
+        "虽然AI有加强关系的潜力,但Gen Z消费者期望品牌以负责和透明的方式使用技术。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "待验证的产品问题",
+        "insight": "原文线索是“来自SAP Gusing Cloud的研究表明,虽然Gen Z正在率先采用AI动力购物.”。产品上先问：它具体改变了用户哪一步操作，还是只改变了商家的后台能力？两者需要不同的导购入口与验收方式。",
+        "deepThought": "当前关于“Gen Z 拥抱 AI 购物, 但近一半放弃了品牌超越它的使用 -”的材料不足以支持效果归因；不把上线、意愿或供应商陈述当作用户收益。",
+        "validation": "沿原文提到的任务做一次路径复现，记录入口、输入、输出和未完成步骤，再决定产品投入。",
+        "quote": "Research from SAP Engagement Cloud reveals that while Gen Z is leading the adoption of AI-powered shopping.",
+        "url": "https://www.enterprisetimes.co.uk/2026/09/17/gen-z-embraces-ai-shopping-but-nearly-half-have-abandoned-brands-over-its-use/",
+        "sourceHash": "c1514d11da43058c59433fefaa37cd674d6c3c49a9d13082815b969338fcf051",
+        "basisArticleId": "radar-e28072a6a26157e2",
+        "mode": "evidence_question",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
+        "method": "基于现有材料的待验证产品问题"
+      },
+      "researchStatus": "evidence_question"
+    }
+  },
+  {
     "title": "Agentic Commerce Isn’t an AI Problem for Banks. It’s an Authorization Problem",
     "url": "https://thefinancialbrand.com/news/payments-trends/agentic-commerce-isnt-an-ai-problem-for-banks-its-an-authorization-problem-199630",
     "date": "2026-09-17",
@@ -26166,7 +28410,7 @@
         "sourceHash": "89a4e674224532a3696c6eea08345bdf3ac4d36035ca7da52dd89841d968cb05",
         "basisArticleId": "radar-49972fab10390894",
         "mode": "evidence_question",
-        "generatedAt": "2026-10-15T07:56:17+00:00",
+        "generatedAt": "2026-10-16T07:49:42+00:00",
         "method": "基于现有材料的待验证产品问题"
       },
       "researchStatus": "evidence_question"
@@ -27585,172 +29829,6 @@
     }
   },
   {
-    "title": "美团多项AI应用亮相服贸会，覆盖商家经营与消费决策",
-    "url": "http://www.news.cn/tech/20260909/79161147f2414bc79664a28d32802f8e/c.html",
-    "date": "2026-09-09",
-    "dateBasis": "RSS/Atom 发布时间",
-    "source": "新华网",
-    "region": "国内",
-    "sourceKind": "unknown",
-    "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:09:58+08:00",
-    "sourceCaveats": [],
-    "excerpt": "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …",
-    "corePoint": [
-      "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …"
-    ],
-    "evidenceLevel": "fulltext",
-    "evidenceLabel": "原文已提取",
-    "pipelineVersion": "evidence-v1",
-    "id": "radar-de75dd069715a8a4",
-    "firstSeenAt": "2026-10-08",
-    "lensId": "merchant",
-    "tags": [
-      "商品事实层",
-      "库存核验",
-      "增量归因"
-    ],
-    "category": "商品事实层",
-    "contentType": "竞品动态",
-    "quality": {
-      "dimensions": {
-        "source": 8,
-        "evidence": 30,
-        "relevance": 25,
-        "specificity": 20
-      },
-      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
-    },
-    "valueScore": 83,
-    "readingTier": "观察",
-    "signalType": "分析 / 观点",
-    "relatedInsightIds": [],
-    "publisher": "news.cn",
-    "contentKinds": [
-      "竞品动态"
-    ],
-    "summaryZh": [
-      "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …"
-    ],
-    "sourceCaveatsZh": [],
-    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "summarySourceHash": "b1a97d6a7a9fc5242cb0cd0b70f5250e145938dd87714c7cb4116be4a688a8e8",
-    "summaryMethod": "中文原文摘录",
-    "summaryVersion": "opus-en-zh-1.9-domain-v1",
-    "titleZh": "美团多项AI应用亮相服贸会，覆盖商家经营与消费决策",
-    "titleSourceHash": "d9994c2720ca8b3573368804f59526921e6e943696cf525f734906aa937a7e27",
-    "titleVersion": "bilingual-title-v1",
-    "titleTranslationMethod": "原文标题",
-    "brief": {
-      "version": "article-thinking-v3",
-      "inputHash": "efe5d55a3ca466274047fbeca396e779e04e8328582d28155153018c3388c252",
-      "keywords": [
-        "美团"
-      ],
-      "summary": [
-        "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …"
-      ],
-      "summaryLabel": "核心信息",
-      "research": {
-        "heading": "商家效率与消费决策并列不代表利益一致",
-        "insight": "摘录仅表达同时帮助商家经营与消费者决策的愿景。如果该描述成立，导购应区分经营侧促销目标与消费者选择理由，不能以商家效率替代推荐质量；代价是可能放弃更利于成交的默认推荐。",
-        "deepThought": "材料没有说明两类应用共享推荐链路，可能只是独立产品同台展示，不能据此判断存在商业目标干预。",
-        "validation": "索取一个消费决策演示，检查商家促销信息是否影响排序，以及消费者能否辨认这一影响。",
-        "quote": "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …",
-        "url": "http://www.news.cn/tech/20260909/79161147f2414bc79664a28d32802f8e/c.html",
-        "sourceHash": "8b9040ae44deb6c933bb3f98ffa741dcc09b0b40fe127daa107deafb49f2e78b",
-        "basisArticleId": "radar-de75dd069715a8a4",
-        "mode": "source_reasoning",
-        "generatedAt": "2026-10-13T10:42:56+00:00",
-        "method": "原文短摘录驱动的模型推演，非已验证结论"
-      },
-      "researchStatus": "source_reasoning"
-    }
-  },
-  {
-    "title": "美团第七次参展服贸会：当外卖用上AI，如何改变即时消费场景？",
-    "url": "https://timeline.sohu.com/news/ztb1ciGax7",
-    "date": "2026-09-09",
-    "dateBasis": "RSS/Atom 发布时间",
-    "source": "搜狐网",
-    "region": "国内",
-    "sourceKind": "unknown",
-    "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:09:58+08:00",
-    "sourceCaveats": [],
-    "excerpt": "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …",
-    "corePoint": [
-      "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …"
-    ],
-    "evidenceLevel": "fulltext",
-    "evidenceLabel": "原文已提取",
-    "pipelineVersion": "evidence-v1",
-    "id": "radar-b3ddf14ea51a441d",
-    "firstSeenAt": "2026-10-08",
-    "lensId": "local",
-    "tags": [
-      "履约确定性",
-      "缺货替代",
-      "高频任务"
-    ],
-    "category": "履约确定性",
-    "contentType": "竞品动态",
-    "quality": {
-      "dimensions": {
-        "source": 8,
-        "evidence": 30,
-        "relevance": 25,
-        "specificity": 20
-      },
-      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
-    },
-    "valueScore": 83,
-    "readingTier": "观察",
-    "signalType": "分析 / 观点",
-    "relatedInsightIds": [],
-    "publisher": "timeline.sohu.com",
-    "contentKinds": [
-      "竞品动态"
-    ],
-    "summaryZh": [
-      "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …"
-    ],
-    "sourceCaveatsZh": [],
-    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "summarySourceHash": "d4b82cadbb327b4f779f55028ad2bb48a0df858a793d2d1fb187e5bfd824de7e",
-    "summaryMethod": "中文原文摘录",
-    "summaryVersion": "opus-en-zh-1.9-domain-v1",
-    "titleZh": "美团第七次参展服贸会：当外卖用上AI，如何改变即时消费场景？",
-    "titleSourceHash": "bee30623620bb0ed6a473e62017c64dbd56ce37dda4d093169573798b2d35e10",
-    "titleVersion": "bilingual-title-v1",
-    "titleTranslationMethod": "原文标题",
-    "brief": {
-      "version": "article-thinking-v3",
-      "inputHash": "4844e325b219618e539397e3cc807048a7859f6dbb09040b7764a7c00e0ef271",
-      "keywords": [
-        "美团"
-      ],
-      "summary": [
-        "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …"
-      ],
-      "summaryLabel": "核心信息",
-      "research": {
-        "heading": "模型与应用同台展示仍需单独验证导购链路",
-        "insight": "摘录并列展示LongCat-2.0、CatPaw及多项应用，却未交代调用关系。如果该描述成立，导购选型应依据具体应用能完成的任务，而非模型参数规模；代价是不能凭统一技术品牌快速作出接入决定。",
-        "deepThought": "同台展示不等于应用共用模型，也不证明经营工作台支持消费者导购；迁移判断必须先确认应用面向谁、输出什么。",
-        "validation": "要求展示“小团”的完整消费任务，标明输入、输出与人工接管点，再核对其实际模型依赖。",
-        "quote": "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …",
-        "url": "https://timeline.sohu.com/news/ztb1ciGax7",
-        "sourceHash": "5d07ff2f9ef2e082fb1432108c8c0d51cacc7d95364d0cbb8d935c18d19eba84",
-        "basisArticleId": "radar-b3ddf14ea51a441d",
-        "mode": "source_reasoning",
-        "generatedAt": "2026-10-13T10:42:56+00:00",
-        "method": "原文短摘录驱动的模型推演，非已验证结论"
-      },
-      "researchStatus": "source_reasoning"
-    }
-  },
-  {
     "title": "Meta推出个人AI代理Muse，可跨应用执行邮件、购物和旅行预订",
     "url": "https://timeline.sohu.com/news/UrwHbCAX7f",
     "date": "2026-09-09",
@@ -28104,6 +30182,172 @@
     }
   },
   {
+    "title": "美团第七次参展服贸会：当外卖用上AI，如何改变即时消费场景？",
+    "url": "https://timeline.sohu.com/news/ztb1ciGax7",
+    "date": "2026-09-09",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "搜狐网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:57+08:00",
+    "sourceCaveats": [],
+    "excerpt": "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …",
+    "corePoint": [
+      "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-b3ddf14ea51a441d",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "timeline.sohu.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "d4b82cadbb327b4f779f55028ad2bb48a0df858a793d2d1fb187e5bfd824de7e",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "美团第七次参展服贸会：当外卖用上AI，如何改变即时消费场景？",
+    "titleSourceHash": "bee30623620bb0ed6a473e62017c64dbd56ce37dda4d093169573798b2d35e10",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "4844e325b219618e539397e3cc807048a7859f6dbb09040b7764a7c00e0ef271",
+      "keywords": [
+        "美团"
+      ],
+      "summary": [
+        "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "模型与应用同台展示仍需单独验证导购链路",
+        "insight": "摘录并列展示LongCat-2.0、CatPaw及多项应用，却未交代调用关系。如果该描述成立，导购选型应依据具体应用能完成的任务，而非模型参数规模；代价是不能凭统一技术品牌快速作出接入决定。",
+        "deepThought": "同台展示不等于应用共用模型，也不证明经营工作台支持消费者导购；迁移判断必须先确认应用面向谁、输出什么。",
+        "validation": "要求展示“小团”的完整消费任务，标明输入、输出与人工接管点，再核对其实际模型依赖。",
+        "quote": "今年是美团第七次参展服贸会，集中展示新一代万亿参数大模型LongCat-2.0、AI经营工作台CatPaw，以及“智能掌柜”“袋鼠管家”“小团”等多项AI应用，呈现 …",
+        "url": "https://timeline.sohu.com/news/ztb1ciGax7",
+        "sourceHash": "5d07ff2f9ef2e082fb1432108c8c0d51cacc7d95364d0cbb8d935c18d19eba84",
+        "basisArticleId": "radar-b3ddf14ea51a441d",
+        "mode": "source_reasoning",
+        "generatedAt": "2026-10-13T10:42:56+00:00",
+        "method": "原文短摘录驱动的模型推演，非已验证结论"
+      },
+      "researchStatus": "source_reasoning"
+    }
+  },
+  {
+    "title": "美团多项AI应用亮相服贸会，覆盖商家经营与消费决策",
+    "url": "http://www.news.cn/tech/20260909/79161147f2414bc79664a28d32802f8e/c.html",
+    "date": "2026-09-09",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "新华网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:55+08:00",
+    "sourceCaveats": [],
+    "excerpt": "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …",
+    "corePoint": [
+      "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-de75dd069715a8a4",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 8
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 71,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "news.cn",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "b1a97d6a7a9fc5242cb0cd0b70f5250e145938dd87714c7cb4116be4a688a8e8",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "美团多项AI应用亮相服贸会，覆盖商家经营与消费决策",
+    "titleSourceHash": "d9994c2720ca8b3573368804f59526921e6e943696cf525f734906aa937a7e27",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "efe5d55a3ca466274047fbeca396e779e04e8328582d28155153018c3388c252",
+      "keywords": [
+        "美团"
+      ],
+      "summary": [
+        "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "商家效率与消费决策并列不代表利益一致",
+        "insight": "摘录仅表达同时帮助商家经营与消费者决策的愿景。如果该描述成立，导购应区分经营侧促销目标与消费者选择理由，不能以商家效率替代推荐质量；代价是可能放弃更利于成交的默认推荐。",
+        "deepThought": "材料没有说明两类应用共享推荐链路，可能只是独立产品同台展示，不能据此判断存在商业目标干预。",
+        "validation": "索取一个消费决策演示，检查商家促销信息是否影响排序，以及消费者能否辨认这一影响。",
+        "quote": "今年，美团希望通过一系列具体应用，展示AI如何从底层技术走进日常生活，帮助消费者更便捷地作出消费决策，帮助商家提高经营效率 …",
+        "url": "http://www.news.cn/tech/20260909/79161147f2414bc79664a28d32802f8e/c.html",
+        "sourceHash": "8b9040ae44deb6c933bb3f98ffa741dcc09b0b40fe127daa107deafb49f2e78b",
+        "basisArticleId": "radar-de75dd069715a8a4",
+        "mode": "source_reasoning",
+        "generatedAt": "2026-10-13T10:42:56+00:00",
+        "method": "原文短摘录驱动的模型推演，非已验证结论"
+      },
+      "researchStatus": "source_reasoning"
+    }
+  },
+  {
     "id": "2026-09-08-retail-dive-preparing-your-plat-be5f2989b9",
     "date": "2026-09-08",
     "title": "Preparing your platform for agentic commerce: How to authenticate AI buying agents vs. synthetic bots",
@@ -28287,7 +30531,7 @@
     "region": "国内",
     "sourceKind": "unknown",
     "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:09:59+08:00",
+    "checkedAt": "2026-10-16T15:48:57+08:00",
     "sourceCaveats": [],
     "excerpt": "AI 不再是个概念，它已经站到了生意的正中间，在代表行业趋势风向的各大奖项上更是可见一斑。 9月4日，在国内最具影响力的内容营 …",
     "corePoint": [
@@ -28299,24 +30543,24 @@
     "pipelineVersion": "evidence-v1",
     "id": "radar-f15c2aea0f9075a0",
     "firstSeenAt": "2026-10-08",
-    "lensId": "merchant",
+    "lensId": "payments",
     "tags": [
-      "商品事实层",
-      "库存核验",
-      "增量归因"
+      "授权边界",
+      "交易确认",
+      "误购成本"
     ],
-    "category": "商品事实层",
+    "category": "授权边界",
     "contentType": "产品案例",
     "quality": {
       "dimensions": {
         "source": 8,
         "evidence": 30,
         "relevance": 25,
-        "specificity": 20
+        "specificity": 17
       },
       "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
     },
-    "valueScore": 83,
+    "valueScore": 80,
     "readingTier": "观察",
     "signalType": "分析 / 观点",
     "relatedInsightIds": [],
@@ -29067,7 +31311,7 @@
     "region": "国内",
     "sourceKind": "unknown",
     "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:09:59+08:00",
+    "checkedAt": "2026-10-16T15:48:57+08:00",
     "sourceCaveats": [],
     "excerpt": "随着阿里巴巴、京东、拼多多、美团相继发布二季度财报，本年度电商巨头的“期中考”成绩单已全部交齐。 四家公司呈现出截然不同的 …",
     "corePoint": [
@@ -29079,24 +31323,24 @@
     "pipelineVersion": "evidence-v1",
     "id": "radar-d6597f692389f750",
     "firstSeenAt": "2026-10-08",
-    "lensId": "local",
+    "lensId": "payments",
     "tags": [
-      "履约确定性",
-      "缺货替代",
-      "高频任务"
+      "授权边界",
+      "交易确认",
+      "误购成本"
     ],
-    "category": "履约确定性",
+    "category": "授权边界",
     "contentType": "行业分析",
     "quality": {
       "dimensions": {
         "source": 8,
         "evidence": 30,
         "relevance": 25,
-        "specificity": 20
+        "specificity": 11
       },
       "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
     },
-    "valueScore": 83,
+    "valueScore": 74,
     "readingTier": "观察",
     "signalType": "分析 / 观点",
     "relatedInsightIds": [],
@@ -29316,90 +31560,6 @@
         "url": "https://www.aboutamazon.com/news/retail/how-to-verify-amazon-messages-alexa-for-shopping",
         "sourceHash": "95fb66e8bbf240680c58ad4d2f07600bf8a10348d84812d1e3309da447335ba9",
         "basisArticleId": "daily-2026-09-01-1531069370f45e",
-        "mode": "source_reasoning",
-        "generatedAt": "2026-10-13T10:43:48+00:00",
-        "method": "原文短摘录驱动的模型推演，非已验证结论"
-      },
-      "researchStatus": "source_reasoning"
-    }
-  },
-  {
-    "title": "洗脸猫与美团签署战略合作协议，携手\"小美卡\"共推美业消费透明化",
-    "url": "https://hea.china.com/articles/20260831/202608311954061.html",
-    "date": "2026-08-31",
-    "dateBasis": "RSS/Atom 发布时间",
-    "source": "中华网",
-    "region": "国内",
-    "sourceKind": "unknown",
-    "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:10:00+08:00",
-    "sourceCaveats": [],
-    "excerpt": "2026年7月， 中国 连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。",
-    "corePoint": [
-      "2026年7月， 中国 连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。"
-    ],
-    "evidenceLevel": "fulltext",
-    "evidenceLabel": "原文已提取",
-    "pipelineVersion": "evidence-v1",
-    "id": "radar-68d3ec0abf1b176e",
-    "firstSeenAt": "2026-10-08",
-    "lensId": "local",
-    "tags": [
-      "履约确定性",
-      "缺货替代",
-      "高频任务"
-    ],
-    "category": "履约确定性",
-    "contentType": "竞品动态",
-    "quality": {
-      "dimensions": {
-        "source": 8,
-        "evidence": 30,
-        "relevance": 25,
-        "specificity": 20
-      },
-      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
-    },
-    "valueScore": 83,
-    "readingTier": "观察",
-    "signalType": "合作 / 基础设施",
-    "relatedInsightIds": [],
-    "publisher": "hea.china.com",
-    "contentKinds": [
-      "竞品动态"
-    ],
-    "summaryZh": [
-      "2026年7月， 中国 连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。"
-    ],
-    "sourceCaveatsZh": [],
-    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "summarySourceHash": "626d8f47301878123188091a3968424e1b782f6a3a3afb2be5f454c90ad7166d",
-    "summaryMethod": "中文原文摘录",
-    "summaryVersion": "opus-en-zh-1.9-domain-v1",
-    "titleZh": "洗脸猫与美团签署战略合作协议，携手\"小美卡\"共推美业消费透明化",
-    "titleSourceHash": "ebb30cdfa63ae03b9c1ea6553cd6fd3658e4f3114d9f6645cd2a2e03d71e162b",
-    "titleVersion": "bilingual-title-v1",
-    "titleTranslationMethod": "原文标题",
-    "brief": {
-      "version": "article-thinking-v3",
-      "inputHash": "1b2093328abeb95273beee8352510af60f973e6863f59eeee3ae00c66d324c46",
-      "keywords": [
-        "美团",
-        "交易协议"
-      ],
-      "summary": [
-        "2026年7月，中国连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。"
-      ],
-      "summaryLabel": "核心信息",
-      "research": {
-        "heading": "小美卡合作须先证明服务条款足以支持导购比较",
-        "insight": "材料仅确认双方围绕小美卡合作，未披露透明化机制。如果标题描述成立，迁移到美业导购的前提是取得可比较的服务内容与收费条款，再决定是否推荐卡产品；代价是条款不足时须延后纳入比较。",
-        "deepThought": "战略签约也可能主要服务于营销或渠道分发，不能证明收费更透明，更不能假定已有退款保障或跨店通用能力。",
-        "validation": "核对合作前后的公开服务与收费条款，检查消费者能否据此判断购买范围和额外费用，而不只看到合作标识。",
-        "quote": "2026年7月， 中国 连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。",
-        "url": "https://hea.china.com/articles/20260831/202608311954061.html",
-        "sourceHash": "d1eb2a0dabc8aa804150831a011d99bd3c5ef5f2db4d208ce85bb411946386d2",
-        "basisArticleId": "radar-68d3ec0abf1b176e",
         "mode": "source_reasoning",
         "generatedAt": "2026-10-13T10:43:48+00:00",
         "method": "原文短摘录驱动的模型推演，非已验证结论"
@@ -29668,6 +31828,90 @@
         "basisArticleId": "radar-2c1639a732ba5b24",
         "mode": "source_reasoning",
         "generatedAt": "2026-10-13T10:43:22+00:00",
+        "method": "原文短摘录驱动的模型推演，非已验证结论"
+      },
+      "researchStatus": "source_reasoning"
+    }
+  },
+  {
+    "title": "洗脸猫与美团签署战略合作协议，携手\"小美卡\"共推美业消费透明化",
+    "url": "https://hea.china.com/articles/20260831/202608311954061.html",
+    "date": "2026-08-31",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "中华网",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:59+08:00",
+    "sourceCaveats": [],
+    "excerpt": "2026年7月， 中国 连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。",
+    "corePoint": [
+      "2026年7月， 中国 连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-68d3ec0abf1b176e",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "merchant",
+    "tags": [
+      "商品事实层",
+      "库存核验",
+      "增量归因"
+    ],
+    "category": "商品事实层",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "合作 / 基础设施",
+    "relatedInsightIds": [],
+    "publisher": "hea.china.com",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "2026年7月， 中国 连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "626d8f47301878123188091a3968424e1b782f6a3a3afb2be5f454c90ad7166d",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "洗脸猫与美团签署战略合作协议，携手\"小美卡\"共推美业消费透明化",
+    "titleSourceHash": "ebb30cdfa63ae03b9c1ea6553cd6fd3658e4f3114d9f6645cd2a2e03d71e162b",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "1b2093328abeb95273beee8352510af60f973e6863f59eeee3ae00c66d324c46",
+      "keywords": [
+        "美团",
+        "交易协议"
+      ],
+      "summary": [
+        "2026年7月，中国连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "小美卡合作须先证明服务条款足以支持导购比较",
+        "insight": "材料仅确认双方围绕小美卡合作，未披露透明化机制。如果标题描述成立，迁移到美业导购的前提是取得可比较的服务内容与收费条款，再决定是否推荐卡产品；代价是条款不足时须延后纳入比较。",
+        "deepThought": "战略签约也可能主要服务于营销或渠道分发，不能证明收费更透明，更不能假定已有退款保障或跨店通用能力。",
+        "validation": "核对合作前后的公开服务与收费条款，检查消费者能否据此判断购买范围和额外费用，而不只看到合作标识。",
+        "quote": "2026年7月， 中国 连锁洗脸吧开创者品牌洗脸猫与美团正式签署战略合作协议，双方围绕美团“小美卡”展开深度合作。",
+        "url": "https://hea.china.com/articles/20260831/202608311954061.html",
+        "sourceHash": "d1eb2a0dabc8aa804150831a011d99bd3c5ef5f2db4d208ce85bb411946386d2",
+        "basisArticleId": "radar-68d3ec0abf1b176e",
+        "mode": "source_reasoning",
+        "generatedAt": "2026-10-13T10:43:48+00:00",
         "method": "原文短摘录驱动的模型推演，非已验证结论"
       },
       "researchStatus": "source_reasoning"
@@ -30466,7 +32710,7 @@
     "region": "国内",
     "sourceKind": "unknown",
     "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:10:00+08:00",
+    "checkedAt": "2026-10-16T15:48:59+08:00",
     "sourceCaveats": [],
     "excerpt": "展望三季度，外卖业务UE（单位经济模型）预计同比将明显改善，但受季节性因素影响，环比或有所下降，不过仍有望保持正值。",
     "corePoint": [
@@ -30477,24 +32721,24 @@
     "pipelineVersion": "evidence-v1",
     "id": "radar-25ca918d288da8ca",
     "firstSeenAt": "2026-10-08",
-    "lensId": "merchant",
+    "lensId": "local",
     "tags": [
-      "商品事实层",
-      "库存核验",
-      "增量归因"
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
     ],
-    "category": "商品事实层",
+    "category": "履约确定性",
     "contentType": "竞品动态",
     "quality": {
       "dimensions": {
         "source": 8,
         "evidence": 30,
         "relevance": 25,
-        "specificity": 14
+        "specificity": 8
       },
       "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
     },
-    "valueScore": 77,
+    "valueScore": 71,
     "readingTier": "观察",
     "signalType": "分析 / 观点",
     "relatedInsightIds": [],
@@ -31249,89 +33493,6 @@
     }
   },
   {
-    "title": "阿里换挡：淘天养家，外卖降权，算力狂飙，AI赌未来",
-    "url": "https://m.thepaper.cn/newsDetail_forward_33850874",
-    "date": "2026-08-26",
-    "dateBasis": "RSS/Atom 发布时间",
-    "source": "ThePaper.cn",
-    "region": "国内",
-    "sourceKind": "unknown",
-    "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:10:00+08:00",
-    "sourceCaveats": [],
-    "excerpt": "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …",
-    "corePoint": [
-      "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …"
-    ],
-    "evidenceLevel": "fulltext",
-    "evidenceLabel": "原文已提取",
-    "pipelineVersion": "evidence-v1",
-    "id": "radar-df8c7004317df0c6",
-    "firstSeenAt": "2026-10-08",
-    "lensId": "local",
-    "tags": [
-      "履约确定性",
-      "缺货替代",
-      "高频任务"
-    ],
-    "category": "履约确定性",
-    "contentType": "竞品动态",
-    "quality": {
-      "dimensions": {
-        "source": 8,
-        "evidence": 30,
-        "relevance": 25,
-        "specificity": 20
-      },
-      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
-    },
-    "valueScore": 83,
-    "readingTier": "观察",
-    "signalType": "分析 / 观点",
-    "relatedInsightIds": [],
-    "publisher": "m.thepaper.cn",
-    "contentKinds": [
-      "竞品动态"
-    ],
-    "summaryZh": [
-      "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …"
-    ],
-    "sourceCaveatsZh": [],
-    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "summarySourceHash": "95e2f8155b2f608fb366fda16a3df5a40d51d2e20dc62bf7e694ef4c20cba3ca",
-    "summaryMethod": "中文原文摘录",
-    "summaryVersion": "opus-en-zh-1.9-domain-v1",
-    "titleZh": "阿里换挡：淘天养家，外卖降权，算力狂飙，AI赌未来",
-    "titleSourceHash": "55aa88f186e5abf4685a9deda26d89e8aa063f23ae0c13907a76f1ea10ccac50",
-    "titleVersion": "bilingual-title-v1",
-    "titleTranslationMethod": "原文标题",
-    "brief": {
-      "version": "article-thinking-v3",
-      "inputHash": "348e3101a6e49b56a422842f7737dd6e62d2467ad77ce2b5a81b26fb78a75af5",
-      "keywords": [
-        "电商观察"
-      ],
-      "summary": [
-        "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …"
-      ],
-      "summaryLabel": "核心信息",
-      "research": {
-        "heading": "现金流承压线索不能直接决定导购算力投入",
-        "insight": "摘录只列利润下降与现金净流出，无法说明AI导购的收益。如果该描述成立，且资金约束确实传导到导购团队，可将高算力方案设为分阶段投入，以单次有效决策成本决定扩展；代价是能力覆盖推进更慢。",
-        "deepThought": "集团现金流变化可能源于其他业务或投资时点，不能据此归因于AI，也不能从标题认定导购预算正在增加或收缩。",
-        "validation": "核对现金流变动归因及导购预算约束，再比较不同算力方案的任务完成情况与服务成本。",
-        "quote": "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …",
-        "url": "https://m.thepaper.cn/newsDetail_forward_33850874",
-        "sourceHash": "1bb18535f4364e60f3ad999378c454496483e5b29f2033efc41c8f142ea69a2b",
-        "basisArticleId": "radar-df8c7004317df0c6",
-        "mode": "source_reasoning",
-        "generatedAt": "2026-10-13T10:43:33+00:00",
-        "method": "原文短摘录驱动的模型推演，非已验证结论"
-      },
-      "researchStatus": "source_reasoning"
-    }
-  },
-  {
     "title": "不打AI与即时零售的仗，拼多多是清醒，还是保守？",
     "url": "https://timeline.sohu.com/news/o4cWQe5qRl",
     "date": "2026-08-26",
@@ -31596,6 +33757,89 @@
         "basisArticleId": "radar-e6fc6ee7ea8870df",
         "mode": "source_reasoning",
         "generatedAt": "2026-10-13T10:43:58+00:00",
+        "method": "原文短摘录驱动的模型推演，非已验证结论"
+      },
+      "researchStatus": "source_reasoning"
+    }
+  },
+  {
+    "title": "阿里换挡：淘天养家，外卖降权，算力狂飙，AI赌未来",
+    "url": "https://m.thepaper.cn/newsDetail_forward_33850874",
+    "date": "2026-08-26",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "ThePaper.cn",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:49:01+08:00",
+    "sourceCaveats": [],
+    "excerpt": "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …",
+    "corePoint": [
+      "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-df8c7004317df0c6",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "m.thepaper.cn",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "95e2f8155b2f608fb366fda16a3df5a40d51d2e20dc62bf7e694ef4c20cba3ca",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "阿里换挡：淘天养家，外卖降权，算力狂飙，AI赌未来",
+    "titleSourceHash": "55aa88f186e5abf4685a9deda26d89e8aa063f23ae0c13907a76f1ea10ccac50",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "348e3101a6e49b56a422842f7737dd6e62d2467ad77ce2b5a81b26fb78a75af5",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "现金流承压线索不能直接决定导购算力投入",
+        "insight": "摘录只列利润下降与现金净流出，无法说明AI导购的收益。如果该描述成立，且资金约束确实传导到导购团队，可将高算力方案设为分阶段投入，以单次有效决策成本决定扩展；代价是能力覆盖推进更慢。",
+        "deepThought": "集团现金流变化可能源于其他业务或投资时点，不能据此归因于AI，也不能从标题认定导购预算正在增加或收缩。",
+        "validation": "核对现金流变动归因及导购预算约束，再比较不同算力方案的任务完成情况与服务成本。",
+        "quote": "财报基本面，看似不乐观：GAAP归母净利润105.37亿元，暴跌76%；非公认会计准则净利润207.2亿元，下降38%，低于市场预期；自由现金流净流出447亿元， …",
+        "url": "https://m.thepaper.cn/newsDetail_forward_33850874",
+        "sourceHash": "1bb18535f4364e60f3ad999378c454496483e5b29f2033efc41c8f142ea69a2b",
+        "basisArticleId": "radar-df8c7004317df0c6",
+        "mode": "source_reasoning",
+        "generatedAt": "2026-10-13T10:43:33+00:00",
         "method": "原文短摘录驱动的模型推演，非已验证结论"
       },
       "researchStatus": "source_reasoning"
@@ -32038,7 +34282,7 @@
     "region": "国内",
     "sourceKind": "official",
     "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:10:04+08:00",
+    "checkedAt": "2026-10-16T15:49:00+08:00",
     "sourceCaveats": [],
     "excerpt": "无论你是想 用AI赚钱 ，还是有兴趣进一步了解 生成式AI工具 ，本指南都将为你梳理关于人工智能你需要知道的一切，以及人工智能如何助 …",
     "corePoint": [
@@ -32049,24 +34293,24 @@
     "pipelineVersion": "evidence-v1",
     "id": "radar-95938cdbfb7121b5",
     "firstSeenAt": "2026-10-08",
-    "lensId": "discovery",
+    "lensId": "payments",
     "tags": [
-      "候选集",
-      "需求澄清",
-      "入口迁移"
+      "授权边界",
+      "交易确认",
+      "误购成本"
     ],
-    "category": "候选集",
+    "category": "授权边界",
     "contentType": "产品案例",
     "quality": {
       "dimensions": {
         "source": 25,
         "evidence": 30,
         "relevance": 25,
-        "specificity": 14
+        "specificity": 8
       },
       "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
     },
-    "valueScore": 94,
+    "valueScore": 88,
     "readingTier": "精选",
     "signalType": "分析 / 观点",
     "relatedInsightIds": [],
@@ -32113,6 +34357,89 @@
     }
   },
   {
+    "title": "节制外卖、重注AI，阿里开始算账",
+    "url": "https://www.thepaper.cn/newsDetail_forward_33824829?commTag=true",
+    "date": "2026-08-21",
+    "dateBasis": "RSS/Atom 发布时间",
+    "source": "ThePaper.cn",
+    "region": "国内",
+    "sourceKind": "unknown",
+    "linkStatus": "reachable",
+    "checkedAt": "2026-10-16T15:48:59+08:00",
+    "sourceCaveats": [],
+    "excerpt": "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …",
+    "corePoint": [
+      "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …"
+    ],
+    "evidenceLevel": "fulltext",
+    "evidenceLabel": "原文已提取",
+    "pipelineVersion": "evidence-v1",
+    "id": "radar-046607ee4be2e94e",
+    "firstSeenAt": "2026-10-08",
+    "lensId": "local",
+    "tags": [
+      "履约确定性",
+      "缺货替代",
+      "高频任务"
+    ],
+    "category": "履约确定性",
+    "contentType": "竞品动态",
+    "quality": {
+      "dimensions": {
+        "source": 8,
+        "evidence": 30,
+        "relevance": 25,
+        "specificity": 14
+      },
+      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
+    },
+    "valueScore": 77,
+    "readingTier": "观察",
+    "signalType": "分析 / 观点",
+    "relatedInsightIds": [],
+    "publisher": "thepaper.cn",
+    "contentKinds": [
+      "竞品动态"
+    ],
+    "summaryZh": [
+      "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …"
+    ],
+    "sourceCaveatsZh": [],
+    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "summarySourceHash": "6c37a9ede83832a610f003b6b2ddbd321697e115701d8ceadef404f4dda247dc",
+    "summaryMethod": "中文原文摘录",
+    "summaryVersion": "opus-en-zh-1.9-domain-v1",
+    "titleZh": "节制外卖、重注AI，阿里开始算账",
+    "titleSourceHash": "5486ef9d788935a214c77ca99a95c721f88fb5d5e6ee8dd58e4b30483f2ff815",
+    "titleVersion": "bilingual-title-v1",
+    "titleTranslationMethod": "原文标题",
+    "brief": {
+      "version": "article-thinking-v3",
+      "inputHash": "90f99c4860e0382da1304a65c2454b057a522d7dc5c7a5ef3994ab1928b2c48b",
+      "keywords": [
+        "电商观察"
+      ],
+      "summary": [
+        "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …"
+      ],
+      "summaryLabel": "核心信息",
+      "research": {
+        "heading": "集团营收增长不能充当购物智能体扩张依据",
+        "insight": "摘录仅给出集团营收，标题才提出外卖与AI投入取舍。如果该描述成立，导购项目应按可归属的推理成本与订单收益决定扩张，而非借集团增长申请全面铺开；代价是可能延后尚未产生直接收入的探索。",
+        "deepThought": "营收增长既不能证明AI投资回报，也不能说明外卖投入收缩。正文截断，标题中的“算账”可能只是编辑对资本配置的概括。",
+        "validation": "核对财报是否单列AI购物投入、收入归属或经营目标，区分项目经济性与集团叙事。",
+        "quote": "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …",
+        "url": "https://www.thepaper.cn/newsDetail_forward_33824829?commTag=true",
+        "sourceHash": "bf259495ab269d6bd302f641070da9e737754c690709314b0ee15e22d665e0ac",
+        "basisArticleId": "radar-046607ee4be2e94e",
+        "mode": "source_reasoning",
+        "generatedAt": "2026-10-13T10:44:43+00:00",
+        "method": "原文短摘录驱动的模型推演，非已验证结论"
+      },
+      "researchStatus": "source_reasoning"
+    }
+  },
+  {
     "title": "3800亿元撑起阿里全栈AI新叙事：电商做“底”，狂投AI与云，三年内回本|时代周报|阿里巴巴|吴泳铭|Agent|芯片",
     "url": "https://finance.sina.cn/stock/jdts/2026-08-21/detail-inipaenv1681838.d.html?vt=4",
     "date": "2026-08-21",
@@ -32121,7 +34448,7 @@
     "region": "国内",
     "sourceKind": "unknown",
     "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:10:03+08:00",
+    "checkedAt": "2026-10-16T15:49:00+08:00",
     "sourceCaveats": [],
     "excerpt": "8月20日晚，在阿里巴巴2027财年第一季度业绩电话会上，问答环节刚开始，分析师便把问题抛向资本开支：三年3800亿元的云和AI硬件基础 …",
     "corePoint": [
@@ -32132,24 +34459,24 @@
     "pipelineVersion": "evidence-v1",
     "id": "radar-46de1c2131da5f72",
     "firstSeenAt": "2026-10-08",
-    "lensId": "merchant",
+    "lensId": "payments",
     "tags": [
-      "商品事实层",
-      "库存核验",
-      "增量归因"
+      "授权边界",
+      "交易确认",
+      "误购成本"
     ],
-    "category": "商品事实层",
+    "category": "授权边界",
     "contentType": "竞品动态",
     "quality": {
       "dimensions": {
         "source": 8,
         "evidence": 30,
         "relevance": 25,
-        "specificity": 20
+        "specificity": 14
       },
       "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
     },
-    "valueScore": 83,
+    "valueScore": 77,
     "readingTier": "观察",
     "signalType": "分析 / 观点",
     "relatedInsightIds": [],
@@ -32191,89 +34518,6 @@
         "basisArticleId": "radar-46de1c2131da5f72",
         "mode": "source_reasoning",
         "generatedAt": "2026-10-13T10:43:58+00:00",
-        "method": "原文短摘录驱动的模型推演，非已验证结论"
-      },
-      "researchStatus": "source_reasoning"
-    }
-  },
-  {
-    "title": "节制外卖、重注AI，阿里开始算账",
-    "url": "https://www.thepaper.cn/newsDetail_forward_33824829?commTag=true",
-    "date": "2026-08-21",
-    "dateBasis": "RSS/Atom 发布时间",
-    "source": "ThePaper.cn",
-    "region": "国内",
-    "sourceKind": "unknown",
-    "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:10:02+08:00",
-    "sourceCaveats": [],
-    "excerpt": "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …",
-    "corePoint": [
-      "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …"
-    ],
-    "evidenceLevel": "fulltext",
-    "evidenceLabel": "原文已提取",
-    "pipelineVersion": "evidence-v1",
-    "id": "radar-046607ee4be2e94e",
-    "firstSeenAt": "2026-10-08",
-    "lensId": "local",
-    "tags": [
-      "履约确定性",
-      "缺货替代",
-      "高频任务"
-    ],
-    "category": "履约确定性",
-    "contentType": "竞品动态",
-    "quality": {
-      "dimensions": {
-        "source": 8,
-        "evidence": 30,
-        "relevance": 25,
-        "specificity": 20
-      },
-      "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
-    },
-    "valueScore": 83,
-    "readingTier": "观察",
-    "signalType": "分析 / 观点",
-    "relatedInsightIds": [],
-    "publisher": "thepaper.cn",
-    "contentKinds": [
-      "竞品动态"
-    ],
-    "summaryZh": [
-      "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …"
-    ],
-    "sourceCaveatsZh": [],
-    "caveatsSourceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "summarySourceHash": "6c37a9ede83832a610f003b6b2ddbd321697e115701d8ceadef404f4dda247dc",
-    "summaryMethod": "中文原文摘录",
-    "summaryVersion": "opus-en-zh-1.9-domain-v1",
-    "titleZh": "节制外卖、重注AI，阿里开始算账",
-    "titleSourceHash": "5486ef9d788935a214c77ca99a95c721f88fb5d5e6ee8dd58e4b30483f2ff815",
-    "titleVersion": "bilingual-title-v1",
-    "titleTranslationMethod": "原文标题",
-    "brief": {
-      "version": "article-thinking-v3",
-      "inputHash": "90f99c4860e0382da1304a65c2454b057a522d7dc5c7a5ef3994ab1928b2c48b",
-      "keywords": [
-        "电商观察"
-      ],
-      "summary": [
-        "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …"
-      ],
-      "summaryLabel": "核心信息",
-      "research": {
-        "heading": "集团营收增长不能充当购物智能体扩张依据",
-        "insight": "摘录仅给出集团营收，标题才提出外卖与AI投入取舍。如果该描述成立，导购项目应按可归属的推理成本与订单收益决定扩张，而非借集团增长申请全面铺开；代价是可能延后尚未产生直接收入的探索。",
-        "deepThought": "营收增长既不能证明AI投资回报，也不能说明外卖投入收缩。正文截断，标题中的“算账”可能只是编辑对资本配置的概括。",
-        "validation": "核对财报是否单列AI购物投入、收入归属或经营目标，区分项目经济性与集团叙事。",
-        "quote": "8月20日港股盘后，阿里发布2026年Q2财报（对应阿里2027财年Q1，下文均以自然年计），期内实现营收2689.53亿元，同比增长9%，与此前几个季度的增 …",
-        "url": "https://www.thepaper.cn/newsDetail_forward_33824829?commTag=true",
-        "sourceHash": "bf259495ab269d6bd302f641070da9e737754c690709314b0ee15e22d665e0ac",
-        "basisArticleId": "radar-046607ee4be2e94e",
-        "mode": "source_reasoning",
-        "generatedAt": "2026-10-13T10:44:43+00:00",
         "method": "原文短摘录驱动的模型推演，非已验证结论"
       },
       "researchStatus": "source_reasoning"
@@ -32375,7 +34619,7 @@
     "region": "国内",
     "sourceKind": "unknown",
     "linkStatus": "reachable",
-    "checkedAt": "2026-10-08T18:10:04+08:00",
+    "checkedAt": "2026-10-16T15:49:02+08:00",
     "sourceCaveats": [],
     "excerpt": "近几年，随着国内竞争加剧和全托管等新模式带动，越来越多内贸商家开始出海寻找新的生意机会。 Accio 最早是阿里国际站面向外贸 B2B 商家 …",
     "corePoint": [
@@ -32400,11 +34644,11 @@
         "source": 8,
         "evidence": 30,
         "relevance": 25,
-        "specificity": 20
+        "specificity": 17
       },
       "rubric": "来源25＋可核验信息30＋主题相关25＋事实具体度20；不是事实正确概率"
     },
-    "valueScore": 83,
+    "valueScore": 80,
     "readingTier": "观察",
     "signalType": "分析 / 观点",
     "relatedInsightIds": [
