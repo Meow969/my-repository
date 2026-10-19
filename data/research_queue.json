@@ -1,5 +1,29 @@
 [
   {
+    "id": "radar-0d62cdf961d01d39",
+    "title": "An AI first for Vestiaire Collective as Duvo bags more funding: last week's most read retail technology articles",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/18/an-ai-first-for-vestiaire-collective-as-duvo-bags-more-funding-last-weeks-most-read-retail-technology-articles",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-57b97d727958e688",
+    "title": "Jysk brings unified commerce to UK&I and Ikea gets digital in China: last week’s biggest retail technology plays",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/18/jysk-brings-unified-commerce-to-uki-and-ikea-gets-digital-in-china-last-weeks-biggest-retail-technology-plays",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-68c5273c360eb242",
+    "title": "Discover how AI can personalise the shopping experience and streamline store operations",
+    "url": "https://retailasia.com/co-written-partner/event-news/discover-how-ai-can-personalise-shopping-experience-and-streamline-store-operations",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-007c4115c2d4493b",
+    "title": "American Express Works With Partners on Agentic Commerce Standards",
+    "url": "https://www.tokenpost.com/news/technology/34562",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b7a67b00de686af9",
     "title": "I&P - GN - SONG - AI & Data - Commerce - Decision Science - Manager",
     "url": "https://www.accenture.com/in-en/careers/jobdetails?id=R00318136_en",
@@ -12,9 +36,27 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-64e6446d20a290a9",
+    "title": "Retailers’ AI pricing push faces consumer distrust, regulatory scrutiny",
+    "url": "https://www.tradingview.com/news/seekingalpha:610251299094b:0-retailers-ai-pricing-push-faces-consumer-distrust-regulatory-scrutiny/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-4273eea168d4387d",
     "title": "“你有没有想过来我手下工作？”……预订、支付样样在行，“AI秘书时代”",
     "url": "https://www.mk.co.kr/cn/business/12178685",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-29fcfb7004de0c35",
+    "title": "AI Raises Concerns Over Personalized Retail Pricing",
+    "url": "https://suaragarut.id/en/ai-personalized-retail-pricing",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7e675387154d9358",
+    "title": "Consumer apprehension grows as US retailers adopt AI-assisted pricing tools",
+    "url": "https://abcnews.com/Technology/wireStory/consumer-apprehension-grows-us-retailers-adopt-ai-assisted-137357982",
     "status": "evidence_question"
   },
   {
@@ -51,6 +93,12 @@
     "id": "radar-6b14a7406b89e1b0",
     "title": "How Small Businesses, Banks, and Fintechs Can Implement Agentic Payments",
     "url": "https://www.analyticsinsight.net/artificial-intelligence/agentic-ai/how-small-businesses-banks-and-fintechs-can-implement-agentic-payments",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f7447b820b2ee0c3",
+    "title": "抖音商城双11首日数据：消费券带动破千万商家数同比增长74%",
+    "url": "https://www.leiphone.com/category/industrynews/JjzV775vQhP9EgGN.html",
     "status": "evidence_question"
   },
   {
@@ -141,6 +189,12 @@
     "id": "radar-23b4efdae880e033",
     "title": "AI帮你盯降价，谷歌上线通用购物车",
     "url": "https://m.sohu.com/a/1088449381_122014422?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a70a0b9ba5bd8d91",
+    "title": "亚马逊封锁Grok购物智能体，马斯克考虑打造电商竞争平台",
+    "url": "https://timeline.sohu.com/news/UrHsvcyX7f",
     "status": "evidence_question"
   },
   {
@@ -528,6 +582,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-ce7f271256fb0816",
+    "title": "1688全面接入AI电商工作台Accio，中小采购商与工厂均可用AI接管生意",
+    "url": "https://news.qq.com/rain/a/20261014A0A0XG00",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-44e19cd7fc0c8c5b",
     "title": "Amazon, Walmart Face New AI Shopping Test: Will Chatbots Recommend Them?",
     "url": "https://www.tradingview.com/news/benzinga:11302d7df094b:0-amazon-walmart-face-new-ai-shopping-test-will-chatbots-recommend-them/",
@@ -558,6 +618,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-4badb97450889ade",
+    "title": "AI日报：豆包工作支持导入ChatGPT历史对话；国行iPhone新增AI备案；千问办公电商版上线",
+    "url": "https://news.qq.com/rain/a/20261014A0AGFR00",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-24d0e2a7314aa302",
     "title": "Shopify向任意AI代理开放逾10亿商品目录",
     "url": "https://www.globalpod.cn/content/6618",
@@ -579,6 +645,12 @@
     "id": "radar-3f9c4417579141f0",
     "title": "Gen Z, Gen Alpha and the AI-ificiation of retail this holiday season",
     "url": "https://www.retaildive.com/news/gen-z-gen-alpha-holiday-shopping-retail-trends/831838/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f3fe53e603cf9c7e",
+    "title": "Forter Turns the AI Shopping Agent Surge Into a Secure Revenue Channel for Merchants",
+    "url": "https://www.prnewswire.com/news-releases/forter-turns-the-ai-shopping-agent-surge-into-a-secure-revenue-channel-for-merchants-302906333.html",
     "status": "evidence_question"
   },
   {
@@ -633,6 +705,12 @@
     "id": "radar-1fa38c3e4ca53747",
     "title": "晚点独家丨阿里组织近百人开发千问办公电商版，计划在双十一预售前发布|Qwen|Agent|双11|陈宇森|淘宝",
     "url": "https://finance.sina.cn/stock/jdts/2026-10-13/detail-inivawnf8745154.d.html?oid=800&vt=4&cid=76993&node_id=76993",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8ca5eadf9c22f041",
+    "title": "Who Said ‘Buy’? Agentic Payments and the Evidence Problem",
+    "url": "https://www.lowenstein.com/news-insights/publications/articles/who-said-buy-agentic-payments-and-the-evidence-problem-october-2026-mushahwar-venora-wagner",
     "status": "evidence_question"
   },
   {
@@ -696,9 +774,33 @@
     "status": "evidence_question"
   },
   {
+    "id": "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
+    "title": "OpenAI Adds Virtual Try-On Feature to ChatGPT",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-adds-virtual-try-on-feature-chatgpt/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-c7130c78e1a9548c",
     "title": "ChatGPT Virtual Try-On Takes on Google’s AI Shopping Lead",
     "url": "https://www.remio.ai/post/chatgpt-virtual-try-on-takes-on-googles-ai-shopping-lead",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8e049b6fb2d5b6a0",
+    "title": "Consumers favor AI shopping assistants from brands they already use and trust",
+    "url": "https://www.customerexperiencedive.com/news/consumers-favor-ai-shopping-assistants-brands-already-use-tru/832060/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-991c3e156c331987",
+    "title": "In Graphic Detail: Where brands stand when AI agents do the shopping",
+    "url": "https://digiday.com/marketing/in-graphic-detail-where-brands-stand-when-ai-agents-do-the-shopping/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4586d26a02b33ab5",
+    "title": "Walmart says AI shopping assistant Sparky lifts average basket size by 38%",
+    "url": "https://www.cnbctv18.com/business/walmarts-shopping-assistant-sparky-lifts-basket-size-38-pc-as-ai-reshapes-retail-and-delivery-20001369.htm",
     "status": "evidence_question"
   },
   {
@@ -750,6 +852,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-1455972549c2a87f",
+    "title": "#ACN GN - SONG - C&S - Commerce AI Agentic - Manager",
+    "url": "https://www.accenture.com/es-es/careers/jobdetails?id=R00331333_en&title=%23ACN+GN+-+SONG+-+C%26S+-+Commerce+AI+Agentic+-+Manager",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-f5d6df6d4a1d3714",
     "title": "AI开始替人购物，港股互联网公司的入口争夺到了哪一步？",
     "url": "http://mp.cnfol.com/52991/article/1790213059-142737710.html",
@@ -759,6 +867,12 @@
     "id": "radar-9077dc99db30c9e0",
     "title": "Shopping with AI? Benchmark Tests Find Gemini Is Most Likely to Mislead Buyers",
     "url": "https://www.androidheadlines.com/2026/09/gemini-tops-ai-shopping-hallucination-pricing-error-rates.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e777d9ea1fb753f8",
+    "title": "﻿支付宝餐饮行业总经理武永生：AI时代，餐饮行业将被进一步重塑",
+    "url": "https://news.qq.com/rain/a/20260923A0A5NF00",
     "status": "evidence_question"
   },
   {
@@ -780,6 +894,24 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-a5ea5bc0e8d55a9d",
+    "title": "Shopify Brings Shop Pay Checkout Solution to Meta’s Muse AI Agent",
+    "url": "https://www.pymnts.com/commerce/ecommerce/2026/shopify-brings-shop-pay-checkout-solution-to-metas-muse-ai-agent/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fbe32900e38cf88c",
+    "title": "Walmart Gains as Sparky Draws an FTC Probe Request",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-gains-sparky-draws-ftc-183952575.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-54609b4dafa5f20b",
+    "title": "Amazon blocks Meta’s Muse AI assistant in new standoff over agentic shopping",
+    "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-f83293e951cd8662",
     "title": "Retail Roundup: Google’s New AI Tools, and Kroger Grows Ad Revenue",
     "url": "https://www.adweek.com/commerce/retail-roundup-googles-new-ai-tools-and-kroger-grows-ad-revenue/",
@@ -795,6 +927,12 @@
     "id": "radar-e28072a6a26157e2",
     "title": "Gen Z Embraces AI Shopping, but Nearly Half Have Abandoned Brands Over its Use -",
     "url": "https://www.enterprisetimes.co.uk/2026/09/17/gen-z-embraces-ai-shopping-but-nearly-half-have-abandoned-brands-over-its-use/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f7217210a66f1de8",
+    "title": "Google Agentic Updates Mean Shorter Commerce Timelines",
+    "url": "https://www.mediapost.com/publications/article/418046/google-agentic-updates-mean-shorter-commerce-timel.html",
     "status": "evidence_question"
   },
   {
@@ -816,15 +954,45 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-502b5292406199d3",
+    "title": "一手实测努比亚“豆包AI手机”，支付环节交还用户执行",
+    "url": "https://finance.sina.cn/2026-09-16/detail-inirzfsy2922991.d.html?vt=4",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-357a67b9bfa50e55",
     "title": "Agentic commerce and AI shopping: How trust will shape the future of retail",
     "url": "https://www.mastercard.com/us/en/news-and-trends/stories/2026/agentic-commerce-mastercard-pymnts.html",
     "status": "evidence_question"
   },
   {
+    "id": "radar-2c08d945c7fb781f",
+    "title": "Riskified report key takeaways: the benefits and risks of agentic AI in ecommerce",
+    "url": "https://thepaypers.com/fraud-and-fincrime/expert-views/riskified-report-key-takeaways-the-benefits-and-risks-of-agentic-ai-in-ecommerce",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8962cac8c0da4194",
+    "title": "Pinterest and NVIDIA Are Building a Faster, Smarter Future for AI-Powered Shopping",
+    "url": "https://kingy.ai/news/pinterest-nvidia-ai-shopping-visual-search/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-ba140c7bfff99f93",
     "title": "The Rise of Agentic Commerce: When Machines Become Buyers",
     "url": "https://3news.com/opinion/the-rise-of-agentic-commerce-when-machines-become-buyers",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e632a6d1e857d275",
+    "title": "Amazon loses injunction blocking Perplexity's AI shopping agent",
+    "url": "https://ppc.land/amazon-loses-injunction-blocking-perplexitys-ai-shopping-agent/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2161bc7a19d9f8a8",
+    "title": "Pros and Cons of Using AI on E-commerce Sites in Japan",
+    "url": "https://stripe.com/in/resources/more/ai-on-japanese-ecommerce-sites",
     "status": "evidence_question"
   },
   {
@@ -840,9 +1008,21 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-311e898656778e62",
+    "title": "Target launches AI features for faster customer discovery, shopping",
+    "url": "https://www.retailcustomerexperience.com/news/target-launches-ai-features-for-faster-customer-discovery-shopping/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-01acce066b722c2e",
     "title": "国内六大电商平台完成AI购物功能嵌入",
     "url": "https://app.dahecube.com/nweb/news/20260910/286432nb195f41a246.htm?artid=286432",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-476f95b24ce8bd8f",
+    "title": "AI 时代，「种草」这件事会变成什么样？",
+    "url": "https://timeline.sohu.com/news/FXNpSP8DK3",
     "status": "evidence_question"
   }
 ]

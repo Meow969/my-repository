@@ -194,66 +194,6 @@
     "takeaways": []
   },
   {
-    "id": "echo-visual-trust",
-    "category": "入口与交互",
-    "question": "虚拟试穿的视觉说服力与尺码可靠性应怎样分开？怎样避免用户把生成图理解成合身保障？",
-    "title": "虚拟试穿应展示外观，尺码承诺须另有可核验依据",
-    "summary": "应先把外观预览与尺码判断拆开：生成图只回答“可能呈现什么样子”，不承担合身承诺。建议尺码区单列依据与适用条件；缺少验证时明确标注无法判断合身。",
-    "counterpoint": "ChatGPT材料描述照片生成预览，Google报道强调转化与发现；True Fit则另设合身智能层。视觉说服与合身判断的依据不同，但分设能力层也不等于尺码已经可靠。",
-    "experiment": "建议对照测试普通预览与“生成外观、不保证合身”加独立尺码依据区；同时测购买意愿和合身判断，区分视觉吸引与误认尺码保障两种解释。",
-    "limits": "摘录没有尺码准确率、实穿对照或用户误读数据，不能断言试穿图改善合身率，也不能确认提示语能消除误解。",
-    "evidence": [
-      {
-        "articleId": "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
-        "title": "OpenAI 为 ChatGPT 增加虚拟试穿功能",
-        "date": "2026-10-02",
-        "source": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-adds-virtual-try-on-feature-chatgpt/",
-        "quote": "Your reference photo is saved for future try-ons.” ChatGPT users can also upload a picture of clothing or accessories in a conversation and ask the AI assistant to generate a virtual try-on image , according to OpenAI’s updated article about shopping with ChatGPT.",
-        "role": "支持将照片生成试穿定位为外观预览",
-        "sourceHash": "607e396649de0126887fc95311bfeb371f1eb7438f27be6008f9597aeb7d2ec3"
-      },
-      {
-        "articleId": "radar-6c1fe9a24066c316",
-        "title": "Google AI 试穿现已支持自拍照",
-        "date": "2025-12-20",
-        "source": "ContentGrip",
-        "url": "https://www.contentgrip.com/google-ai-tryon-selfie-update/",
-        "quote": "With this launch, Google is doubling down on AI to improve ecommerce conversion and discovery.",
-        "role": "支持区分转化导向与尺码可靠性目标",
-        "sourceHash": "f86df38209e6bbd98a44cf026534882ab49ccb5bf380799b859977449ee4c684"
-      },
-      {
-        "articleId": "radar-464b3c6e6201816d",
-        "title": "True Fit 为智能体电商引入尺码适配智能层",
-        "date": "2026-08-18",
-        "source": "WWD",
-        "url": "https://wwd.com/business-news/business-features/true-fit-fit-intelligence-layer-ai-sizing-commerce-1239125155/",
-        "quote": "While many companies are racing to introduce AI agents into the shopping journey, True Fit is bringing the fit intelligence layer that those agents can depend on.",
-        "role": "支持另设合身判断能力，但未验证准确率",
-        "sourceHash": "5918f8b0251b155dca537d0a680a545679585ed2157c4659e07e5815b1ed4361"
-      }
-    ],
-    "keywords": [
-      "生成式试穿",
-      "尺码依据",
-      "合身误认",
-      "对照测试"
-    ],
-    "relatedArticleIds": [
-      "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
-      "radar-6c1fe9a24066c316",
-      "radar-464b3c6e6201816d"
-    ],
-    "sourceCount": 3,
-    "fingerprint": "5b3cf1afe3578d2400acbba07e0e71340f222589ae684e26635a40a85f607706",
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "method": "多材料对照的产品研究推演",
-    "kind": "synthesis",
-    "takeaways": []
-  },
-  {
     "id": "echo-ads-inside-answer",
     "category": "商业与平台",
     "question": "赞助商品与自然推荐出现在同一句AI回答时，排序、用户信任与收入有什么冲突？",
