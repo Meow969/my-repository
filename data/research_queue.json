@@ -1,14 +1,50 @@
 [
   {
+    "id": "radar-baf03c5bb59f88bb",
+    "title": "Samsung Electronics and payments specialist Checkout.com announce details of new global partnership",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/19/samsung-electronics-and-payments-firm-checkoutcom-announce-details-of-new-global-partnership",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-af25ceb8800ece7a",
+    "title": "一线从业者的真实声音：AI电商应用的痛点和卡点",
+    "url": "https://www.21jingji.com/article/20261020/herald/aae33c2ade0a3df12258a098bb0f6652.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5ea397f4687184ab",
+    "title": "New AI shopping agents promise better bargains. But who pays the price?",
+    "url": "https://theconversation.com/new-ai-shopping-agents-promise-better-bargains-but-who-pays-the-price-294461",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2ba579ba77b9e1b7",
+    "title": "Bunnings launches AI shopping assistant Buddy in NZ",
+    "url": "https://itbrief.com.au/story/bunnings-launches-ai-shopping-assistant-buddy-in-nz",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7e94d9aa39c3c387",
+    "title": "AI购物前夜，跨境卖家如何把新入口变成真实订单？",
+    "url": "https://m.sohu.com/a/1090127038_190834?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f0db7dcf267cec12",
+    "title": "Skyfire, Forter Enrich Trusted Agentic Commerce Decisions at Checkout",
+    "url": "https://www.martechcube.com/skyfire-forter-enrich-trusted-agentic-commerce-decisions-at-checkout/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-0d62cdf961d01d39",
     "title": "An AI first for Vestiaire Collective as Duvo bags more funding: last week's most read retail technology articles",
     "url": "https://retailtechinnovationhub.com/home/2026/10/18/an-ai-first-for-vestiaire-collective-as-duvo-bags-more-funding-last-weeks-most-read-retail-technology-articles",
     "status": "evidence_question"
   },
   {
-    "id": "radar-57b97d727958e688",
-    "title": "Jysk brings unified commerce to UK&I and Ikea gets digital in China: last week’s biggest retail technology plays",
-    "url": "https://retailtechinnovationhub.com/home/2026/10/18/jysk-brings-unified-commerce-to-uki-and-ikea-gets-digital-in-china-last-weeks-biggest-retail-technology-plays",
+    "id": "radar-d3d1e2cc7207b864",
+    "title": "Your retail network isn’t ready for AI. Here’s why.",
+    "url": "https://www.retaildive.com/spons/your-retail-network-isnt-ready-for-ai-heres-why/832985/",
     "status": "evidence_question"
   },
   {
@@ -24,9 +60,21 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-5573daaf72388e70",
+    "title": "Digest: Google Rolls Out AI Shopping Cart; Universal Music Group Cuts Jobs and Reshuffles Leadership",
+    "url": "https://www.exchangewire.com/blog/2026/10/19/digest-google-rolls-out-ai-shopping-cart-universal-music-group-cuts-jobs-and-reshuffles-leadership/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b7a67b00de686af9",
     "title": "I&P - GN - SONG - AI & Data - Commerce - Decision Science - Manager",
     "url": "https://www.accenture.com/in-en/careers/jobdetails?id=R00318136_en",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-697aa93b4fb68b14",
+    "title": "小红书的AI，开始和自己的生意算账|Dots|钛媒体|模型|笔记|商品",
+    "url": "https://finance.sina.cn/stock/jdts/2026-10-18/detail-inivrers1088619.d.html?oid=%F0%9F%87%A8%F0%9F%8E%A0%40kkddyy88%E2%AC%9B%E2%8F%A3%EC%A6%9D%EA%B1%B0%EC%9E%90%EB%A3%8C%EC%88%98%EC%A7%91+%ED%83%90%EC%A0%95%EC%82%AC%EB%AC%B4%EC%86%8C%F0%9F%93%96%ED%86%B5%EC%9E%A5%EC%9E%85%EC%B6%9C%EA%B8%88%EB%82%B4%EC%97%AD+%EC%88%98%EC%A0%95%EC%97%85%EC%B2%B4%E2%87%AA%ED%96%89%EB%B0%A9%EC%A1%B0%EC%82%AC+%EC%A4%91%EA%B0%9C%EC%86%8C%F0%9F%A6%AC&vt=4",
     "status": "evidence_question"
   },
   {
@@ -39,6 +87,12 @@
     "id": "radar-64e6446d20a290a9",
     "title": "Retailers’ AI pricing push faces consumer distrust, regulatory scrutiny",
     "url": "https://www.tradingview.com/news/seekingalpha:610251299094b:0-retailers-ai-pricing-push-faces-consumer-distrust-regulatory-scrutiny/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-482518946384483e",
+    "title": "AI让服饰下单转化率提升近20%，2026天猫双11将开启AI电商元年？",
+    "url": "https://finance.sina.com.cn/stock/t/2026-10-18/doc-inivrrfp7778003.shtml",
     "status": "evidence_question"
   },
   {
@@ -93,12 +147,6 @@
     "id": "radar-6b14a7406b89e1b0",
     "title": "How Small Businesses, Banks, and Fintechs Can Implement Agentic Payments",
     "url": "https://www.analyticsinsight.net/artificial-intelligence/agentic-ai/how-small-businesses-banks-and-fintechs-can-implement-agentic-payments",
-    "status": "evidence_question"
-  },
-  {
-    "id": "radar-f7447b820b2ee0c3",
-    "title": "抖音商城双11首日数据：消费券带动破千万商家数同比增长74%",
-    "url": "https://www.leiphone.com/category/industrynews/JjzV775vQhP9EgGN.html",
     "status": "evidence_question"
   },
   {
@@ -162,6 +210,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-5f601212d66ab8f0",
+    "title": "What Is PayPal Holdings (PYPL) Gaining From Its First Major AI Commerce Rollout?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/paypal-holdings-pypl-gaining-first-211155808.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-ef852f47b200f373",
     "title": "AI办公企业级市场，千问办公为何率先攻向电商赛道？",
     "url": "https://www.mrjjxw.com/articles/2026-10-16/4606560.html",
@@ -222,6 +276,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-ec3a3b7f532ea642",
+    "title": "千问办公近日发布电商版，目前已开启邀测",
+    "url": "https://news.qq.com/rain/a/20261016A0BRZS00",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-41c5d6bd75d36c5a",
     "title": "淘宝又有新玩法！DISCOVER 频道挖宝、AI 试穿，越逛越想买！",
     "url": "https://syok.my/cn/article/discover/taobao-new-upgrades",
@@ -231,6 +291,12 @@
     "id": "radar-171e0b5eb1b5c938",
     "title": "互联网进入字节时间的背面，是AI正在改变未来的电商",
     "url": "https://www.ichaoqi.com/zhuanlan/2026/1016/88650.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-87601d665c8302db",
+    "title": "PXM Functional Lead | Agentic Commerce",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00356230_en&title=PXM+Functional+Lead+%7C++Agentic+Commerce",
     "status": "evidence_question"
   },
   {
@@ -345,6 +411,12 @@
     "id": "radar-0e64a9e8c5be8a52",
     "title": "10月15日电商早报：千问办公发布电商版开启邀测；亚马逊美国站10月15日起收旺季配送费- 栏目",
     "url": "https://m.ebrun.com/714456.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f84a05f5a400186c",
+    "title": "Glance and PayPal Bring AI-Powered Shopping and Checkout to Tens of Millions of U.S. Consumers",
+    "url": "https://finance.yahoo.com/technology/ai/articles/glance-paypal-bring-ai-powered-150200338.html",
     "status": "evidence_question"
   },
   {
@@ -495,6 +567,12 @@
     "id": "radar-77ed0818dc183933",
     "title": "千问办公电商版发布：AI to B的深水区，从电商开始|21世纪经济报道|Agent|Qwen|双11|陈宇森",
     "url": "https://finance.sina.cn/stock/jdts/2026-10-14/detail-inivfmyx7542315.d.html?vt=4",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-67a568c74fcbc4de",
+    "title": "AI shopping gains ground among teenagers as payment security comes into focus",
+    "url": "https://techtrendske.co.ke/2026/10/14/mastercard-ai-shopping-teens/",
     "status": "evidence_question"
   },
   {
@@ -792,6 +870,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-4c16ad920fdc4b66",
+    "title": "Fed’s Waller Eyes Agentic AI Commerce",
+    "url": "https://gfmag.com/economics-policy-regulation/feds-waller-agentic-ai-commerce/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-991c3e156c331987",
     "title": "In Graphic Detail: Where brands stand when AI agents do the shopping",
     "url": "https://digiday.com/marketing/in-graphic-detail-where-brands-stand-when-ai-agents-do-the-shopping/",
@@ -804,15 +888,63 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-8a9609c6335e1f25",
+    "title": "Swap Commerce Acquires Vizby to Add AI Discovery",
+    "url": "https://www.saasrise.com/deals/swap-commerce-acquires-vizby-to-expand-its-agentic-commerce-platform-into-ai-discovery-bebf96da-e30e-4162-a8a8-0597d9d5673e",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a155be27a1642a28",
+    "title": "AI shopping reaches 72% in Singapore as checkout trust lags",
+    "url": "https://sbr.com.sg/in-focus/ai-shopping-reaches-72-in-singapore-checkout-trust-lags",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-127e3145c0965d82",
     "title": "AI’s Payments Breakthrough Will Be Knowing When Not to Pay",
     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-payments-breakthrough-will-be-knowing-when-not-pay/",
     "status": "evidence_question"
   },
   {
+    "id": "radar-af9f46bcb4c87a44",
+    "title": "Going Rogue and Getting a Wallet: The $53 Billion AI Commerce Crisis No One Is Ready For - Yahoo Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/going-rogue-getting-wallet-53-161302302.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1f254fb86d3dabed",
+    "title": "What will make consumers trust AI shopping agents? Startup founders explain - Mastercard",
+    "url": "https://www.mastercard.com/cn/zh/news-and-trends/stories/2026/agentic-commerce-startups.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-01f7d0c209546696",
     "title": "移卡YeahPay参加Stripe行业论坛：AI重塑商业链路，支付平台角色加速演进",
     "url": "https://news.qq.com/rain/a/20260929A05L9R00",
+    "status": "evidence_question"
+  },
+  {
+    "id": "2026-09-29-36-deeplumen-agentic-commerce-3-064de9c970",
+    "title": "DeepLumen 正在把 Agentic Commerce 从新的购物入口，推进为商家可以持续经营、衡量并获得销售增长的新商业渠道",
+    "url": "https://36kr.com/p/4004240967258249",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ae85cf699be723f6",
+    "title": "豆包APP上线“出行”超级入口 聚合本地生活服务 - 电商派",
+    "url": "https://www.pai.com.cn/p/01m3p17che5h210f6rvvfdd47c",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c3ea4e0859037994",
+    "title": "Google tests one-click Flipkart shopping inside Gemini and AI Mode in India",
+    "url": "https://www.storyboard18.com/brand-marketing/google-tests-one-click-flipkart-shopping-inside-gemini-and-ai-mode-in-india-ws-lo-111515.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2af1a6fc16d2ba94",
+    "title": "Google Tests Flipkart Shopping in Gemini and AI Search Mode in India",
+    "url": "https://www.thehansindia.com/tech/google-tests-flipkart-shopping-in-gemini-and-ai-search-mode-in-india-1126530",
     "status": "evidence_question"
   },
   {
@@ -870,6 +1002,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-43fee160de2e4b1f",
+    "title": "Mastercard and Danske Bank Complete Denmark's First AI Agent Payment on Live Card Rails",
+    "url": "https://www.techtimes.com/articles/327944/20260923/mastercard-danske-bank-complete-denmarks-first-ai-agent-payment-live-card-rails.htm",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-e777d9ea1fb753f8",
     "title": "﻿支付宝餐饮行业总经理武永生：AI时代，餐饮行业将被进一步重塑",
     "url": "https://news.qq.com/rain/a/20260923A0A5NF00",
@@ -897,6 +1035,12 @@
     "id": "radar-a5ea5bc0e8d55a9d",
     "title": "Shopify Brings Shop Pay Checkout Solution to Meta’s Muse AI Agent",
     "url": "https://www.pymnts.com/commerce/ecommerce/2026/shopify-brings-shop-pay-checkout-solution-to-metas-muse-ai-agent/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ead242869a65b015",
+    "title": "Retail accelerates its AI push as the industry looks to move from pilots to operations |",
+    "url": "https://contxto.com/en/retail/retail-accelerates-its-ai-push-as-the-industry-looks-to-move-from-pilots-to-operations/",
     "status": "evidence_question"
   },
   {
@@ -948,6 +1092,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-850aa787ae145e96",
+    "title": "Amazon Great Indian Festival 2026: Rufus AI Reveals Expected Deals And Discounts",
+    "url": "https://www.timesnownews.com/technology-science/amazon-great-indian-festival-2026-rufus-ai-reveals-expected-deals-and-discounts-article-156166937",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-cfe72831e744a26e",
     "title": "豆包AI手机正式发售，优先调用字节系产品，暂不支持淘宝闪购、京东等外部电商",
     "url": "https://news.qq.com/rain/a/20260916A09DQ700",
@@ -963,6 +1113,12 @@
     "id": "radar-357a67b9bfa50e55",
     "title": "Agentic commerce and AI shopping: How trust will shape the future of retail",
     "url": "https://www.mastercard.com/us/en/news-and-trends/stories/2026/agentic-commerce-mastercard-pymnts.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6e82b4b8a287ece0",
+    "title": "Amazon Great Indian Festival Sale 2026: How Rufus AI Makes Smart Shopping Easier? | Her Zindagi Your Picks",
+    "url": "https://www.herzindagi.com/your-picks/others/amazon-great-indian-festival-sale-2026-expected-date-revealed-by-rufus-ai-shopping-assistant-explore-details-here-16849",
     "status": "evidence_question"
   },
   {
@@ -1014,15 +1170,33 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-e40fbfce90070a32",
+    "title": "How AI Is Transforming Enterprise eCommerce: 7 Use Cases That Drive Revenue and Efficiency",
+    "url": "https://www.techfunnel.com/information-technology/ai-enterprise-ecommerce-use-cases/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-01acce066b722c2e",
     "title": "国内六大电商平台完成AI购物功能嵌入",
     "url": "https://app.dahecube.com/nweb/news/20260910/286432nb195f41a246.htm?artid=286432",
     "status": "evidence_question"
   },
   {
+    "id": "radar-1dc29c53aeaecd82",
+    "title": "How AI Is Reshaping Retail Marketing Personalization",
+    "url": "https://aws.amazon.com/blogs/industries/how-ai-is-reshaping-retail-marketing-personalization/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-476f95b24ce8bd8f",
     "title": "AI 时代，「种草」这件事会变成什么样？",
     "url": "https://timeline.sohu.com/news/FXNpSP8DK3",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4f54a2b126fd6ed5",
+    "title": "外卖开始回稳，王莆中把下一个答案指向AI",
+    "url": "https://timeline.sohu.com/news/hFsax7bOBk",
     "status": "evidence_question"
   }
 ]

@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T16:22:23+08:00",
-  "newCount": 28,
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T16:06:20+08:00",
+  "newCount": 25,
   "title": "先读这几条，再形成判断",
   "articleIds": [
     "radar-0d62cdf961d01d39",
     "radar-1a0ecae5f00e644d",
     "radar-9233e66cf277f931",
     "radar-a017867580e54e13",
-    "radar-3e7a6c62fe036525"
+    "radar-d3d1e2cc7207b864"
   ],
   "insightIds": [
     "echo-survey-to-behavior",
@@ -31,7 +31,6 @@
     "echo-adoption-vs-delivery",
     "echo-returns-recommendation",
     "echo-checkout-reversal",
-    "echo-merchant-tools-vs-consumer",
     "echo-deep-research-handoff",
     "echo-constraint-evaluation",
     "echo-comparison-entry",
