@@ -1,8 +1,38 @@
 [
   {
-    "id": "radar-baf03c5bb59f88bb",
-    "title": "Samsung Electronics and payments specialist Checkout.com announce details of new global partnership",
-    "url": "https://retailtechinnovationhub.com/home/2026/10/19/samsung-electronics-and-payments-firm-checkoutcom-announce-details-of-new-global-partnership",
+    "id": "radar-c125aff45990cce4",
+    "title": "Fast fashion online retailer Asos appoints Nick Goodchild as AI and Creative Studios Director",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/20/fast-fashion-online-retailer-asos-appoints-nick-goodchild-as-ai-and-creative-studios-director",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2563e29fc6fe5663",
+    "title": "Live commerce specialist Whatnot is doubling Irish workforce as It opens doors to new Dublin office",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/20/live-commerce-specialist-whatnot-is-doubling-its-irish-workforce-as-it-opens-doors-to-new-dublin-office",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1019639287f05629",
+    "title": "Mastercard Opens Developer APIs for AI Agent Payments Built on x402 Protocol",
+    "url": "https://www.techtimes.com/articles/329316/20261021/mastercard-opens-developer-apis-ai-agent-payments-built-x402-protocol.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0d5fc085add4c0ce",
+    "title": "华泰证券：双十一大促周期分化 AI助力电商全链路提效",
+    "url": "https://m.caizhongshe.cn/article-7518488853503210693.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-99d60189372950b1",
+    "title": "QED’s Victoria Zuo Flags Trust Gap in Agentic Payments",
+    "url": "https://thefintechtimes.com/qeds-victoria-zuo-flags-trust-gap-in-agentic-payments/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2a47a571f43e2609",
+    "title": "Survey: Agentic Commerce Has a Payment Trust Problem",
+    "url": "https://finance.yahoo.com/technology/ai/articles/survey-agentic-commerce-payment-trust-130200987.html",
     "status": "evidence_question"
   },
   {
@@ -18,9 +48,27 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-ff793d48dfc34bcb",
+    "title": "2024双11大模型攻入电商腹地 人工智能重塑双十一购物消费新体验",
+    "url": "https://eu.36kr.com/zh/p/4035075967406985",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-2ba579ba77b9e1b7",
     "title": "Bunnings launches AI shopping assistant Buddy in NZ",
     "url": "https://itbrief.com.au/story/bunnings-launches-ai-shopping-assistant-buddy-in-nz",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7fe18bc803c7a01e",
+    "title": "FTC warns retailers about AI-powered personalized pricing",
+    "url": "https://www.3newsnow.com/life/money/ftc-warns-retailers-about-ai-powered-personalized-pricing",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8207070302a523b7",
+    "title": "Consumer concerns grow as retailers adopt AI-assisted pricing tools",
+    "url": "https://www.pbs.org/newshour/economy/consumer-concerns-grow-as-retailers-adopt-ai-assisted-pricing-tools",
     "status": "evidence_question"
   },
   {
@@ -576,6 +624,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-2214885640d97692",
+    "title": "通用AI办公卷到头，阿里让Agent去管电商生意，拼的是懂商家|Qwen|千问|陈宇森|客户|豆包",
+    "url": "https://finance.sina.cn/stock/jdts/2026-10-14/detail-inivezmc7672714.d.html?vt=4&wm=2279_9008%3Ftype%3Djbslxq",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1b7c2ce3fc9972d3",
     "title": "千问办公发布电商版并开启邀测 已接入多款主流商家经营工具",
     "url": "https://www.guandian.cn/article/20261014/613111.html",
@@ -666,6 +720,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-7e3b166bf5201b39",
+    "title": "Marklo Raises $5M to Launch the Agentic Marketing Platform for Modern Commerce",
+    "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/marklo-raises-5m-to-launch-the-agentic-marketing-platform-for-modern-commerce/2445507",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-44e19cd7fc0c8c5b",
     "title": "Amazon, Walmart Face New AI Shopping Test: Will Chatbots Recommend Them?",
     "url": "https://www.tradingview.com/news/benzinga:11302d7df094b:0-amazon-walmart-face-new-ai-shopping-test-will-chatbots-recommend-them/",
@@ -723,6 +783,12 @@
     "id": "radar-3f9c4417579141f0",
     "title": "Gen Z, Gen Alpha and the AI-ificiation of retail this holiday season",
     "url": "https://www.retaildive.com/news/gen-z-gen-alpha-holiday-shopping-retail-trends/831838/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-82a972abc80a576c",
+    "title": "American Express Tells Merchants How to Handle AI Agents That Shop for You",
+    "url": "https://startupfortune.com/american-express-tells-merchants-how-to-handle-ai-agents-that-shop-for-you/",
     "status": "evidence_question"
   },
   {
@@ -918,6 +984,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-032e8a3ecba47d00",
+    "title": "FinTech Analysis Positions Stablecoins As AI Agent Payment Rails Amid $52.7M X402 Volume",
+    "url": "https://www.onebullex.com/news/articles/fintech-analysis-positions-stablecoins-as-ai-agent-payment-rails-amid-52-7m-x402-volume-4",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-01f7d0c209546696",
     "title": "移卡YeahPay参加Stripe行业论坛：AI重塑商业链路，支付平台角色加速演进",
     "url": "https://news.qq.com/rain/a/20260929A05L9R00",
@@ -960,15 +1032,39 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-575d4de878bb379d",
+    "title": "Google (NASDAQ: GOOGL) Pilots Direct Flipkart Purchases Through Gemini And AI Mode Ahead Of India's Festive Shopping Season",
+    "url": "https://www.foreignpolicyjournal.com/2026/09/27/google-nasdaq-googl-pilots-direct-flipkart-purchases-through-gemini-and-ai-mode-ahead-of-indias-festive-shopping-season/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c5ebfb52dac6a607",
+    "title": "AI Shopping Entrances Accelerate: Shopify Says AI Channel Orders Tripled Year-Over-Year, Merchants Face a New Wave of Channel Disruption",
+    "url": "https://finance.biggo.com/news/b648d10f-4cae-435a-9be1-f52b33d4a7a0",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-e3bb45f57a862ca3",
     "title": "AI推荐购物靠谱吗？",
     "url": "https://www.chaozhoudaily.com/szb/content/202609/27/c34364.html",
     "status": "evidence_question"
   },
   {
+    "id": "radar-7f530c330b71f130",
+    "title": "豆包的电商赌局，比想象中更复杂",
+    "url": "https://36kr.com/p/4002454472282248",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-0170e0f065dc6f43",
     "title": "AI Takes Over Festive Shopping: Smart Search, AI Recommendations, Virtual Try-On Gain Ground",
     "url": "https://www.analyticsinsight.net/news/ai-takes-over-festive-shopping-smart-search-ai-recommendations-virtual-try-on-gain-ground",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-565370082abce219",
+    "title": "Amazon is blocking Meta's shopping AI agent, and plans to block Google and OpenAI's too",
+    "url": "https://www.techspot.com/news/113981-amazon-blocked-meta-muse-agentic-ai-shopping-service.html",
     "status": "evidence_question"
   },
   {
@@ -1035,6 +1131,18 @@
     "id": "radar-a5ea5bc0e8d55a9d",
     "title": "Shopify Brings Shop Pay Checkout Solution to Meta’s Muse AI Agent",
     "url": "https://www.pymnts.com/commerce/ecommerce/2026/shopify-brings-shop-pay-checkout-solution-to-metas-muse-ai-agent/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-452d7b833b12cba3",
+    "title": "Amazon Blocks Meta’s Muse AI From Shopping — Elon Musk Says AMZN ‘Won’t Be Able to Tell’ Humans From Agents",
+    "url": "https://www.tradingview.com/news/benzinga:2f9712cd0094b:0-amazon-blocks-meta-s-muse-ai-from-shopping-elon-musk-says-amzn-won-t-be-able-to-tell-humans-from-agents/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-915402cb9752b891",
+    "title": "Kroger sees AI shopping assistant driving larger baskets",
+    "url": "https://www.supermarketnews.com/grocery-technology/kroger-sees-ai-shopping-assistant-driving-larger-baskets",
     "status": "evidence_question"
   },
   {
@@ -1134,6 +1242,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-0d44b2be9fac16f3",
+    "title": "PayPal's Agentic Payments: Can These Unlock the Next Growth Leg?",
+    "url": "https://www.theglobeandmail.com/investing/markets/stocks/V/pressreleases/4591981/paypals-agentic-payments-can-these-unlock-the-next-growth-leg/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-ba140c7bfff99f93",
     "title": "The Rise of Agentic Commerce: When Machines Become Buyers",
     "url": "https://3news.com/opinion/the-rise-of-agentic-commerce-when-machines-become-buyers",
@@ -1143,6 +1257,12 @@
     "id": "radar-e632a6d1e857d275",
     "title": "Amazon loses injunction blocking Perplexity's AI shopping agent",
     "url": "https://ppc.land/amazon-loses-injunction-blocking-perplexitys-ai-shopping-agent/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8505187a1d3d43d1",
+    "title": "AI正重写电商？京东、淘天加速AI业务闭环，货架与智能体购物模式或长期并存|AI Agent|时代周报|服贸会|电商企业|时代",
+    "url": "https://finance.sina.cn/tech/2026-09-12/detail-inirqfie6552575.d.html?vt=4&cid=79649&node_id=79649",
     "status": "evidence_question"
   },
   {
@@ -1182,9 +1302,45 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-4da5ccd0952dbe83",
+    "title": "Consumers Want AI Shopping Recommendations to Include Trusted Creator Perspectives, According to IAB",
+    "url": "https://www.iab.com/news/consumers-want-ai-shopping-recommendations-to-include-trusted-creator-perspectives/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-729a16304604b746",
+    "title": "AI Shopping Assistants Debuted By Instacart, Shipt",
+    "url": "https://theshelbyreport.com/2026/09/09/ai-shopping-assistants-debuted-by-instacart-shipt/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a3105e11ac1ee782",
+    "title": "Shipt launches AI assistant for building shopping carts — TechCrunch",
+    "url": "https://ua.news/en/technologies/shipt-zapustila-shi-asistenta-dlia-formuvannia-koshika-techcrunch",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1dc29c53aeaecd82",
     "title": "How AI Is Reshaping Retail Marketing Personalization",
     "url": "https://aws.amazon.com/blogs/industries/how-ai-is-reshaping-retail-marketing-personalization/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c218b7fa6ad12fba",
+    "title": "85% of Gen Z ‘trust AI more than best friends’ for shopping recommendations – report",
+    "url": "https://www.performancemarketingworld.com/article/1969344/85-gen-z-trust-ai-best-friends-shopping-recommendations-%E2%80%93-report",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-58188c4385e2b16c",
+    "title": "How Aviator Nation is preparing for AI-led shopping",
+    "url": "https://www.glossy.co/fashion/aviator-nation-shopify-ai-shopping-shop-app/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4bcd5dd2ac5efd3e",
+    "title": "Paytm Payment Gateway Integrates With ChatGPT for Insights",
+    "url": "https://www.passionateinmarketing.com/paytm-payment-gateway-integrates-with-openais-chatgpt-through-plugin-to-help-businesses-track-payments-refunds-and-sales-insights/",
     "status": "evidence_question"
   },
   {
