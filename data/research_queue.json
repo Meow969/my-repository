@@ -1,14 +1,110 @@
 [
   {
+    "id": "radar-285d5cfa02bf0c83",
+    "title": "Agentic commerce platform Azoma raises $11.2 million in Series A round led by Puma Growth Partners",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/22/agentic-commerce-platform-azoma-raises-112-million-in-series-a-round-led-by-puma-growth-partners",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-bd5e55f0579fe1d1",
+    "title": "AI Recommendations Need a Checkout Shoppers Trust",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-recommendations-need-a-checkout-shoppers-trust/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c12cb8062c0846a6",
+    "title": "Desert Island Retail Technology: Evolve’s Alan Stephenson-Brown weighs in on AI and automation",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/22/desert-island-retail-technology-evolves-alan-stephenson-brown-weighs-in-on-ai-and-automation",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0ed729ad74236879",
+    "title": "What Fraud Data Says About Where Payment Security Is Headed",
+    "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/what-fraud-data-says-about-where-payment-security-is-headed/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-55963ff36029a2e3",
+    "title": "华为 AI 眼镜获 HarmonyOS 6.0.0.159 SP5 升级：新增头动支付等功能，连续录像时长提升至 5 分钟",
+    "url": "https://www.ithome.com/1/016/448.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-378d48df49379cf0",
+    "title": "Glance Brings AI Shopping to Android TVs After Samsung Debut",
+    "url": "https://sammyguru.com/glance-ai-shopping-google-android-tv/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1eb08c91b033b74c",
+    "title": "Bloomreach Opens Its Platform to the Agentic Era: More Than 200 Agents Have Already Been Built on Loomi Connect by Marketers, Ecommerce Teams, and Technology Partners Worldwide",
+    "url": "https://finance.yahoo.com/technology/ai/articles/bloomreach-opens-platform-agentic-era-173900121.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3525bacc8f628a63",
+    "title": "Google and Glance Bring AI Shopping to Android TV",
+    "url": "https://www.passionateinmarketing.com/glance-and-google-partner-to-bring-an-ai-powered-commerce-experience-to-android-tv/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-40e4827a0c18ace8",
+    "title": "Meta says Muse has over 10M users, with shopping a top activity",
+    "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-da9382d5b31ccfe2",
+    "title": "沃尔玛推AI代理购物Agent Gateway，支持ChatGPT等应用，11月上线权限管理",
+    "url": "https://original.ifeng.com/c/8xQ8U9k6AsI",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-33401bd2dfe8e979",
+    "title": "亚马逊拦截AI代购，沃尔玛开放接入，买错商品也可按规则退货",
+    "url": "https://news.ikanchai.com/2026/1022/669903.shtml",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fde9677a0d255502",
+    "title": "沃尔玛推出自有智能体网关，AI可代用户下单购物",
+    "url": "https://tech.ifeng.com/c/8xQDVabBR1B",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-704201ef651ba6f8",
+    "title": "Philippines e-payments growth sets stage for AI-driven purchases",
+    "url": "https://www.philstar.com/the-freeman/cebu-business/2026/10/22/2564930/philippines-e-payments-growth-sets-stage-ai-driven-purchases/amp/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-52479f4cfc09ba34",
+    "title": "一个电商直播项目，运营成功主要靠的是什么？",
+    "url": "https://www.woshipm.com/operate/6482351.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1c5f83daf4c5b5dc",
+    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+    "url": "https://blog.cloudflare.com/webmcp-commerce/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-c125aff45990cce4",
     "title": "Fast fashion online retailer Asos appoints Nick Goodchild as AI and Creative Studios Director",
     "url": "https://retailtechinnovationhub.com/home/2026/10/20/fast-fashion-online-retailer-asos-appoints-nick-goodchild-as-ai-and-creative-studios-director",
     "status": "evidence_question"
   },
   {
-    "id": "radar-2563e29fc6fe5663",
-    "title": "Live commerce specialist Whatnot is doubling Irish workforce as It opens doors to new Dublin office",
-    "url": "https://retailtechinnovationhub.com/home/2026/10/20/live-commerce-specialist-whatnot-is-doubling-its-irish-workforce-as-it-opens-doors-to-new-dublin-office",
+    "id": "radar-ae30cfcf5aed550b",
+    "title": "Preference Is Not Permission: Personalizing the Auto-Purchase Line in Agentic Commerce",
+    "url": "https://arxiv.org/abs/2610.29216v1",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a5dc7f02e41594a5",
+    "title": "Azoma Raises $11.2M Series A to Help Brands Sell Through AI Shopping Agents",
+    "url": "https://www.techstars.com/blog/startup-spotlight/azoma-raises-11-2m-series-a-to-help-brands-sell-through-ai-shopping-agents",
     "status": "evidence_question"
   },
   {
@@ -18,9 +114,51 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-ae0780717e2bfee4",
+    "title": "Azoma raises $11.2M Series A to help brands win AI shopping agents",
+    "url": "https://app.dealroom.co/news/note/azoma-raises-11-2m-series-a-to-help-brands-win-ai-shopping-agents",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-0d5fc085add4c0ce",
     "title": "华泰证券：双十一大促周期分化 AI助力电商全链路提效",
     "url": "https://m.caizhongshe.cn/article-7518488853503210693.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ec562f36c1fee059",
+    "title": "Google’s new AI shopping cart tracks deals across stores",
+    "url": "https://cyberguy.com/ai/googles-ai-shopping-cart-tracks-deals-stores/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-af203ef26425b0e9",
+    "title": "Glance and Google Bring AI Shopping to Android TV in India",
+    "url": "https://www.gogi.in/glance-google-android-tv-shopping.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-46b72c57848e34a5",
+    "title": "Google and Glance Bring AI Shopping Experience to Android TV Screens",
+    "url": "https://pc-tablet.com/google-and-glance-bring-ai-shopping-experience-to-android-tv-screens/195855/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-788bc446c0fd2637",
+    "title": "Amazon封堵AI购物代理，Walmart向其开放大门",
+    "url": "https://mezha.net/ch/news/mezha-dd62bb078550a17e52648fab_amazon-blocks-ai-shopping-agents-walmart/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4b07871e6b6461ea",
+    "title": "PayPal Bets on AI Shopping With Glance After Its $53 Billion Buyout Collapses",
+    "url": "https://www.tikr.com/zh/blog/paypal-bets-on-ai-shopping-with-glance-after-its-53-billion-buyout-collapses",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-47f36af73f0da09e",
+    "title": "Walmart将允许AI智能体代顾客购物",
+    "url": "https://mezha.net/ch/news/mezha-51b2dce8cf2f2746eadc7231_walmart-will-let-ai-agents-shop/",
     "status": "evidence_question"
   },
   {
@@ -279,6 +417,12 @@
     "id": "radar-820830169bc675d2",
     "title": "Shopify (SHOP) Merchants Near 2,000 AI Storefront Installs as Order Tracking Emerges",
     "url": "https://simplywall.st/stocks/us/software/nasdaq-shop/shopify/news/shopify-shop-merchants-near-2000-ai-storefront-installs-as-o",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4ceaa3dcf5708b57",
+    "title": "电商“双11”半价时代已去 AI落地能否再促增长？",
+    "url": "https://companies.caixin.com/m/2026-10-16/102494031.html",
     "status": "evidence_question"
   },
   {
@@ -882,6 +1026,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-0a908d3dfd032e40",
+    "title": "Himanshu Jain，CommerceIQ 联合创始人兼产品负责人 – 访谈系列",
+    "url": "https://www.unite.ai/zh-cn/himanshu-jain-co-founder-and-head-of-products-at-commerceiq-interview-series/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-7b6efeb2e154012d",
     "title": "Why AI-driven purchase intent can stall at checkout",
     "url": "https://www.okoone.com/spark/marketing-growth/why-ai-driven-purchase-intent-can-stall-at-checkout/",
@@ -936,6 +1086,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-f86da08a3e3b81c8",
+    "title": "How AI Is Transforming Personalized Shopping Experiences in Fashion Retail",
+    "url": "https://researchsnipers.com/how-ai-is-transforming-personalized-shopping-experiences-in-fashion-retail/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-4c16ad920fdc4b66",
     "title": "Fed’s Waller Eyes Agentic AI Commerce",
     "url": "https://gfmag.com/economics-policy-regulation/feds-waller-agentic-ai-commerce/",
@@ -978,6 +1134,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-979b5fe4b02811e3",
+    "title": "Shopify Opens Checkout to Browser-Based AI Agents as Rivals Block Agentic Shopping",
+    "url": "https://theaiinsider.tech/2026/09/30/shopify-opens-checkout-to-browser-based-ai-agents-as-rivals-block-agentic-shopping/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1f254fb86d3dabed",
     "title": "What will make consumers trust AI shopping agents? Startup founders explain - Mastercard",
     "url": "https://www.mastercard.com/cn/zh/news-and-trends/stories/2026/agentic-commerce-startups.html",
@@ -993,6 +1155,12 @@
     "id": "radar-01f7d0c209546696",
     "title": "移卡YeahPay参加Stripe行业论坛：AI重塑商业链路，支付平台角色加速演进",
     "url": "https://news.qq.com/rain/a/20260929A05L9R00",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a3221813e1c3c355",
+    "title": "Shopify lets AI agents complete checkout via WebMCP",
+    "url": "https://thepaypers.com/payments/news/shopify-extends-webmcp-support-to-checkout-for-ai-agents",
     "status": "evidence_question"
   },
   {
@@ -1062,6 +1230,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-93ac134822ff5835",
+    "title": "Bitcoin Payments AI Agents Enable Faster Autonomous Transactions",
+    "url": "https://en.cryptonomist.ch/2026/09/25/bitcoin-payments-ai-agents/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-565370082abce219",
     "title": "Amazon is blocking Meta's shopping AI agent, and plans to block Google and OpenAI's too",
     "url": "https://www.techspot.com/news/113981-amazon-blocked-meta-muse-agentic-ai-shopping-service.html",
@@ -1074,6 +1248,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-0e2748762a22bc78",
+    "title": "Shopify’s Tailwind Acquisition Feeds the Agentic Commerce Story, But the Market Is Already Nervous About the Bill",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-tailwind-acquisition-feeds-agentic-204056035.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-fda9f43a167c0440",
     "title": "Ant International’s AI Strategy: Fixing Payments Today, Building for Agents Tomorrow",
     "url": "https://www.forrester.com/blogs/ant-internationals-ai-strategy-fixing-payments-today-building-for-agents-tomorrow/",
@@ -1083,6 +1263,12 @@
     "id": "radar-1455972549c2a87f",
     "title": "#ACN GN - SONG - C&S - Commerce AI Agentic - Manager",
     "url": "https://www.accenture.com/es-es/careers/jobdetails?id=R00331333_en&title=%23ACN+GN+-+SONG+-+C%26S+-+Commerce+AI+Agentic+-+Manager",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-eeb3140e37533b2e",
+    "title": "What Tools Help Brands Optimize for Meta Muse? Azoma Sets Out How Brands Get Recommended by Meta's AI Shopping Agent",
+    "url": "https://uk.finance.yahoo.com/news/tools-help-brands-optimize-meta-104700905.html",
     "status": "evidence_question"
   },
   {
@@ -1149,6 +1335,12 @@
     "id": "radar-ead242869a65b015",
     "title": "Retail accelerates its AI push as the industry looks to move from pilots to operations |",
     "url": "https://contxto.com/en/retail/retail-accelerates-its-ai-push-as-the-industry-looks-to-move-from-pilots-to-operations/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3f1b842ab49d5701",
+    "title": "科技巨头因AI购物起争端：亚马逊封禁Meta Muse智能体",
+    "url": "https://tech.ifeng.com/c/8wbfbVQV8wd",
     "status": "evidence_question"
   },
   {
