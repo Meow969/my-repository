@@ -1,5 +1,53 @@
 [
   {
+    "id": "radar-1dcce49986b28197",
+    "title": "Image to video for e-commerce: how retailers can turn product photos into marketing videos with AI",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/23/image-to-video-for-e-commerce-how-retailers-can-turn-product-photos-into-marketing-videos-with-ai",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2d57ae43de35c447",
+    "title": "“AI店长”帮部分试用商家增长超30%，美团外卖薛冰：将赠送给全国所有商家",
+    "url": "https://www.leiphone.com/category/industrynews/tZI7pYBhiFduVfr6.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2e402ffb93af4caa",
+    "title": "AI is everywhere at Foot Locker as Miniso goes large in London: this week's biggest retail technology stories",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/23/ai-is-everywhere-at-foot-locker-as-miniso-goes-large-in-london-this-weeks-biggest-retail-technology-stories",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2243b2a7f701307d",
+    "title": "Co-op fights crime, Walmart takes flight, and H&M gets physical: check out the retail technology week in numbers",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/23/co-op-fights-crime-walmart-takes-flight-and-hm-gets-physical-check-out-the-retail-technology-week-in-numbers",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b77ba373edf7e4c6",
+    "title": "Who Owns the Customer in Agentic Commerce? A Four-Layer Framework",
+    "url": "https://hackernoon.com/who-owns-the-customer-in-agentic-commerce-a-four-layer-framework",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8f409d8e5b926cb3",
+    "title": "Agentic AI: The Future of Commerce?",
+    "url": "https://tech.co/news/personalized-ai-agents-are-taking-over-commerce",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-179f0f7797ba2120",
+    "title": "豆包抢成交，千问造“铲子”：“双11”撕开字节与阿里AI电商分水岭",
+    "url": "https://m.sohu.com/a/1091699230_115362?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-31886f892d328a05",
+    "title": "AI supercharges festive shopping scams as fake deals put consumers and brands at risk",
+    "url": "https://www.storyboard18.com/digital/ai-supercharges-festive-shopping-scams-and-fraud-risks-in-india-ws-l-113206.htm",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-285d5cfa02bf0c83",
     "title": "Agentic commerce platform Azoma raises $11.2 million in Series A round led by Puma Growth Partners",
     "url": "https://retailtechinnovationhub.com/home/2026/10/22/agentic-commerce-platform-azoma-raises-112-million-in-series-a-round-led-by-puma-growth-partners",
@@ -15,6 +63,12 @@
     "id": "radar-c12cb8062c0846a6",
     "title": "Desert Island Retail Technology: Evolve’s Alan Stephenson-Brown weighs in on AI and automation",
     "url": "https://retailtechinnovationhub.com/home/2026/10/22/desert-island-retail-technology-evolves-alan-stephenson-brown-weighs-in-on-ai-and-automation",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ec21f63ffd2dbf19",
+    "title": "AI Shopping Metrics Considered",
+    "url": "https://www.practicalecommerce.com/ai-shopping-metrics-considered",
     "status": "evidence_question"
   },
   {
@@ -36,6 +90,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-e7f58a7ede4127ba",
+    "title": "Therabody Launches AI Shopping Assistant, Jason, with AWS to Deliver Personalized, Science-Backed Recommendations for Every Body",
+    "url": "https://press.aboutamazon.com/aws/2026/10/therabody-launches-ai-shopping-assistant-jason-with-aws-to-deliver-personalized-science-backed-recommendations-for-every-body",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1eb08c91b033b74c",
     "title": "Bloomreach Opens Its Platform to the Agentic Era: More Than 200 Agents Have Already Been Built on Loomi Connect by Marketers, Ecommerce Teams, and Technology Partners Worldwide",
     "url": "https://finance.yahoo.com/technology/ai/articles/bloomreach-opens-platform-agentic-era-173900121.html",
@@ -45,6 +105,12 @@
     "id": "radar-3525bacc8f628a63",
     "title": "Google and Glance Bring AI Shopping to Android TV",
     "url": "https://www.passionateinmarketing.com/glance-and-google-partner-to-bring-an-ai-powered-commerce-experience-to-android-tv/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5e09a49644e8837b",
+    "title": "Azoma Raises $11.2 Million Series A To Expand Agentic Commerce Optimization Platform",
+    "url": "https://pulse2.com/azoma-raises-11-2-million-series-a-to-expand-agentic-commerce-optimization-platform/",
     "status": "evidence_question"
   },
   {
@@ -72,15 +138,39 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-c70ba0f85b8666ac",
+    "title": "Cafe24接入WebMCP，旗下所有D2C网店支持AI智能体购物",
+    "url": "https://www.digitaltoday.co.kr/cn/view/117917/cafe24-connects-ai-agents-across-all-its-online-stores",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-147ffb43ab9715b1",
+    "title": "Skyfire, Forter partner on agentic commerce checkout",
+    "url": "https://thepaypers.com/fraud-and-fincrime/news/skyfire-and-forter-partner-to-verify-ai-agents-at-checkout",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4fcc119f138150df",
+    "title": "Arbelle Launches AI Look Finder as Beauty Brands Turn to Personalization to Drive E-Commerce Growth",
+    "url": "https://finance.yahoo.com/technology/ai/articles/arbelle-launches-ai-look-finder-102400744.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-704201ef651ba6f8",
     "title": "Philippines e-payments growth sets stage for AI-driven purchases",
     "url": "https://www.philstar.com/the-freeman/cebu-business/2026/10/22/2564930/philippines-e-payments-growth-sets-stage-ai-driven-purchases/amp/",
     "status": "evidence_question"
   },
   {
-    "id": "radar-52479f4cfc09ba34",
-    "title": "一个电商直播项目，运营成功主要靠的是什么？",
-    "url": "https://www.woshipm.com/operate/6482351.html",
+    "id": "radar-e42f0b77ddd9f1f1",
+    "title": "沃尔玛推出智能体网关，AI Agent获准替消费者购物下单",
+    "url": "https://www.globalpod.cn/article/5129",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-17bdf44ffe1c8480",
+    "title": "Accio成双11商家生意加速器：蓄水期缩短半个月、15分钟全网爆款调优",
+    "url": "https://www.leiphone.com/category/industrynews/wZadstkZcVlLudqv.html",
     "status": "evidence_question"
   },
   {
@@ -120,6 +210,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-83013d4faa6cc170",
+    "title": "Target leans harder into AI shopping tools for its second ChatGPT holiday season",
+    "url": "https://startupfortune.com/target-leans-harder-into-ai-shopping-tools-for-its-second-chatgpt-holiday-season/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8c97cca4a4a1df82",
+    "title": "Google, Glance partner to bring AI-powered shopping to Android TVs in India, US, Japan",
+    "url": "https://www.tribuneindia.com/news/business/google-glance-partner-to-bring-ai-powered-shopping-to-android-tvs-in-india-us-japan/amp",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-0d5fc085add4c0ce",
     "title": "华泰证券：双十一大促周期分化 AI助力电商全链路提效",
     "url": "https://m.caizhongshe.cn/article-7518488853503210693.html",
@@ -144,6 +246,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-edd44400fe78a477",
+    "title": "How AI is changing the personalization algorithm in retail",
+    "url": "https://www.retailbrew.com/stories/how-ai-is-changing-personalization-in-retail",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-788bc446c0fd2637",
     "title": "Amazon封堵AI购物代理，Walmart向其开放大门",
     "url": "https://mezha.net/ch/news/mezha-dd62bb078550a17e52648fab_amazon-blocks-ai-shopping-agents-walmart/",
@@ -162,6 +270,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-d7288a1966080191",
+    "title": "How WMT, TGT & BJ Are Betting Big on AI-Powered Shopping",
+    "url": "https://www.theglobeandmail.com/investing/markets/stocks/BJ/pressreleases/8279397/how-wmt-tgt-bj-are-betting-big-on-ai-powered-shopping/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-99d60189372950b1",
     "title": "QED’s Victoria Zuo Flags Trust Gap in Agentic Payments",
     "url": "https://thefintechtimes.com/qeds-victoria-zuo-flags-trust-gap-in-agentic-payments/",
@@ -171,6 +285,12 @@
     "id": "radar-2a47a571f43e2609",
     "title": "Survey: Agentic Commerce Has a Payment Trust Problem",
     "url": "https://finance.yahoo.com/technology/ai/articles/survey-agentic-commerce-payment-trust-130200987.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2daf2a33c70a79db",
+    "title": "Study finds consumers prioritize discounts over AI shopping tools",
+    "url": "https://www.wptv.com/us-news/study-finds-consumers-prioritize-discounts-over-ai-shopping-tools",
     "status": "evidence_question"
   },
   {
@@ -774,6 +894,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-b3783ba9d3816c4f",
+    "title": "Grab and OpenAI Join Forces to Launch ChatGPT Upskilling Programme for Merchants and Drivers in Thailand",
+    "url": "https://www.grab.com/th/en/press/others/grabxopenai/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1b7c2ce3fc9972d3",
     "title": "千问办公发布电商版并开启邀测 已接入多款主流商家经营工具",
     "url": "https://www.guandian.cn/article/20261014/613111.html",
@@ -1140,6 +1266,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-08e6c4d238d7f3ed",
+    "title": "Agentic Commerce: 5 Levers for Brands & Retailers",
+    "url": "https://www.circana.com/post/the-agentic-ai-shift-and-strategies-that-win",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1f254fb86d3dabed",
     "title": "What will make consumers trust AI shopping agents? Startup founders explain - Mastercard",
     "url": "https://www.mastercard.com/cn/zh/news-and-trends/stories/2026/agentic-commerce-startups.html",
@@ -1185,6 +1317,12 @@
     "id": "radar-2af1a6fc16d2ba94",
     "title": "Google Tests Flipkart Shopping in Gemini and AI Search Mode in India",
     "url": "https://www.thehansindia.com/tech/google-tests-flipkart-shopping-in-gemini-and-ai-search-mode-in-india-1126530",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a82e828e6d5a236e",
+    "title": "Shopify Expands Browser-Based AI Agents to Checkout on Merchant Sites",
+    "url": "https://www.tokenpost.com/news/technology/25062",
     "status": "evidence_question"
   },
   {
@@ -1278,6 +1416,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-9c23f4c838dea678",
+    "title": "PayPal joins Meta’s Muse as Agentic Commerce moves beyond the demo stage",
+    "url": "https://paymentsindustryintelligence.com/paypal-joins-metas-muse-to-transform-shopping/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-23819b27063059a0",
+    "title": "YouTube Turns Ask YouTube AI Into A Product Discovery Surface",
+    "url": "https://www.searchenginejournal.com/youtube-shopping-ask-youtube-ai-search/590662/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-9077dc99db30c9e0",
     "title": "Shopping with AI? Benchmark Tests Find Gemini Is Most Likely to Mislead Buyers",
     "url": "https://www.androidheadlines.com/2026/09/gemini-tops-ai-shopping-hallucination-pricing-error-rates.html",
@@ -1332,6 +1482,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-9512c902d0e927e0",
+    "title": "PayPal Joins Meta’s Muse Checkout Ecosystem — Partnership Extends AI Shopping Across Its Merchant Network",
+    "url": "https://fr.tradingview.com/news/stocktwits:4b3b29507094b:0-paypal-joins-meta-s-muse-checkout-ecosystem-partnership-extends-ai-shopping-across-its-merchant-network/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-ead242869a65b015",
     "title": "Retail accelerates its AI push as the industry looks to move from pilots to operations |",
     "url": "https://contxto.com/en/retail/retail-accelerates-its-ai-push-as-the-industry-looks-to-move-from-pilots-to-operations/",
@@ -1371,6 +1527,12 @@
     "id": "radar-e28072a6a26157e2",
     "title": "Gen Z Embraces AI Shopping, but Nearly Half Have Abandoned Brands Over its Use -",
     "url": "https://www.enterprisetimes.co.uk/2026/09/17/gen-z-embraces-ai-shopping-but-nearly-half-have-abandoned-brands-over-its-use/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c99dca5c87179173",
+    "title": "Gen Z demands authentic digital experiences as AI reshapes retail: Sitecore",
+    "url": "https://retail-insider.com/retail-insider/2026/09/gen-z-demands-authentic-digital-experiences-as-ai-reshapes-retail-sitecore/",
     "status": "evidence_question"
   },
   {
@@ -1425,6 +1587,12 @@
     "id": "radar-2c08d945c7fb781f",
     "title": "Riskified report key takeaways: the benefits and risks of agentic AI in ecommerce",
     "url": "https://thepaypers.com/fraud-and-fincrime/expert-views/riskified-report-key-takeaways-the-benefits-and-risks-of-agentic-ai-in-ecommerce",
+    "status": "evidence_question"
+  },
+  {
+    "id": "2026-09-15-ai-ai-dd88dd5061",
+    "title": "大厂AI导购混战：电商告别流量战，比拼AI帮人挑货能力",
+    "url": "https://m.bjnews.com.cn/detail/1789451955129598.html",
     "status": "evidence_question"
   },
   {
@@ -1491,6 +1659,12 @@
     "id": "radar-01acce066b722c2e",
     "title": "国内六大电商平台完成AI购物功能嵌入",
     "url": "https://app.dahecube.com/nweb/news/20260910/286432nb195f41a246.htm?artid=286432",
+    "status": "evidence_question"
+  },
+  {
+    "id": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
+    "title": "Instacart launches AI assistant Clementine, agentic commerce integrations",
+    "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/",
     "status": "evidence_question"
   },
   {

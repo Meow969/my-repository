@@ -835,67 +835,6 @@
     "takeaways": []
   },
   {
-    "id": "echo-grocery-fulfillment",
-    "category": "入口与交互",
-    "question": "即时零售比开放电商更适合先做代办吗？地理、时效和替代品约束改变了什么？",
-    "title": "即时零售可先试组篮代办，尚不能判定胜过开放电商",
-    "summary": "推演上，若能锁定配送区域、到达时限和替代授权，可优先试即时零售组篮代办：约束有望缩小选品范围，但不等于适合直接自动下单。",
-    "counterpoint": "组篮报道强调待购买购物车，跨平台报道强调预算与决策减负；货架可用性虽被纳入，却未证明替换和送达可靠，约束也可能把选品难题转成履约难题。",
-    "experiment": "建议用同类任务对照开放选品与区域、时限、替代规则限定组篮，记录确认次数、缺货返工和到达偏差，区分“约束降低决策成本”与“履约波动增加代办成本”。",
-    "limits": "材料缺少与开放电商的对照、配送时效及替代执行结果；同一产品的多篇报道不能独立验证代办优势。",
-    "evidence": [
-      {
-        "articleId": "radar-209e9ecb3c6a604f",
-        "title": "Instacart 推出一个名为 Clementine 的 AI 杂货购物助理",
-        "date": "2026-09-09",
-        "source": "TechCrunch",
-        "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
-        "quote": "The company announced on Wednesday that it’s launching a new AI-powered grocery shopping assistant called Clementine that can turn a conversation, grocery list, or recipe into a ready-to-buy cart.",
-        "role": "支持已展示能力是生成待购买购物车",
-        "sourceHash": "34d10d1c279f0164434fa0a5225e91f0acbd6799cc37cd8aaa9eed348b65f4be"
-      },
-      {
-        "articleId": "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-        "title": "Instacart 推出 Clementine AI 助手及智能体电商集成",
-        "date": "2026-09-09",
-        "source": "Digital Commerce 360",
-        "url": "https://www.digitalcommerce360.com/2026/09/09/instacart-ai-assistant-clementine-agentic-commerce-integrations/",
-        "quote": "It added that it based the Clementine experience on “what’s actually available on shelves in real …",
-        "role": "补充同一产品采用货架可用性的口径",
-        "sourceHash": "44f463cf23df6c38483e52f3f48ace21177fdc2ad3ec2acb1bed38fb4258d22c"
-      },
-      {
-        "articleId": "2026-09-14-retail-dive-instacart-shipt-lau-0727672302",
-        "title": "Instacart 与 Shipt 推出 AI 购物助手",
-        "date": "2026-09-14",
-        "source": "Retail Dive",
-        "url": "https://www.retaildive.com/news/instacart-shipt-launch-ai-powered-shopping-assistants/830092/",
-        "quote": "Instacart and Shipt each highlighted in their announcements how their marketplace AI assistants aim to ease the mental burden of grocery shopping while factoring in a customer’s budget.",
-        "role": "支持两平台目标偏向预算与决策减负",
-        "sourceHash": "6fcc5582dfcc1769d457b32822cd85c4e30b292c8c45283950545c0c06c25f53"
-      }
-    ],
-    "keywords": [
-      "组篮代办",
-      "配送区域",
-      "到达时限",
-      "替代授权",
-      "货架可用性"
-    ],
-    "relatedArticleIds": [
-      "radar-209e9ecb3c6a604f",
-      "2026-09-10-digital-commerce-360-instacart--6984f0dd64",
-      "2026-09-14-retail-dive-instacart-shipt-lau-0727672302"
-    ],
-    "sourceCount": 3,
-    "fingerprint": "cef9d408ca1293d958c05d8abc4edb59ef39bd6a1eca22f8c458c6be8cc753be",
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "method": "多材料对照的产品研究推演",
-    "kind": "synthesis",
-    "takeaways": []
-  },
-  {
     "id": "echo-adopt-vs-build",
     "category": "商业与平台",
     "question": "零售商买现成AI助手还是自建？差异化应放在模型、商品知识还是履约关系？",

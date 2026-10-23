@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T16:12:52+08:00",
-  "newCount": 30,
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T16:10:48+08:00",
+  "newCount": 27,
   "title": "先读这几条，再形成判断",
   "articleIds": [
     "radar-1c5f83daf4c5b5dc",
     "radar-285d5cfa02bf0c83",
+    "radar-2d57ae43de35c447",
     "radar-ae30cfcf5aed550b",
-    "radar-9233e66cf277f931",
     "radar-55963ff36029a2e3"
   ],
   "insightIds": [
@@ -24,7 +24,6 @@
     "echo-protocol-boundaries",
     "echo-offsite-attribution",
     "echo-feed-visibility",
-    "echo-grocery-fulfillment",
     "echo-adopt-vs-build",
     "echo-source-trust",
     "echo-voice-to-action",
