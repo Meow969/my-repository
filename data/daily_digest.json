@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T15:48:54+08:00",
-  "newCount": 23,
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T16:01:07+08:00",
+  "newCount": 17,
   "title": "先读这几条，再形成判断",
   "articleIds": [
     "radar-1c5f83daf4c5b5dc",
@@ -12,7 +12,6 @@
   ],
   "insightIds": [
     "echo-survey-to-behavior",
-    "echo-conversion-selection",
     "echo-attribute-before-model",
     "echo-ads-inside-answer",
     "echo-real-time-truth",

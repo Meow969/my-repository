@@ -72,67 +72,6 @@
     "takeaways": []
   },
   {
-    "id": "echo-conversion-selection",
-    "category": "用户与增长",
-    "question": "AI助手用户高转化/高客单，是产品增量还是高意向用户自选择？怎样做能区分？",
-    "title": "AI助手高转化高客单尚非增量证据，先排除用户自选择",
-    "summary": "现有摘录无法区分产品增量与高意向用户自选择。应优先检验随机开放助手后的整体收益，而非使用者表现；高客单或高转化只能作为待验证信号。",
-    "counterpoint": "沃尔玛比较使用者与非使用者客单，Myprotein则比较助手转化与全站均值，基线并不一致；旅行零售中发现影响未转成机场销售，也提示导购影响不等于成交。",
-    "experiment": "建议按实验前购买意向分层，随机开放助手，按分组而非实际使用统计转化率、每访客收入及客单价，区分“助手创造增量”与“高意向者自选择”；实验需有足够检验力。",
-    "limits": "摘录未披露随机分组、样本量及显著性，不能把组间差距当作因果提升，也不能据此判定助手无效或比较品牌效果。",
-    "evidence": [
-      {
-        "articleId": "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
-        "title": "Walmart 将客单价与销量增长归功于 Sparky AI 智能体",
-        "date": "2026-05-22",
-        "source": "Digital Commerce 360",
-        "url": "https://www.digitalcommerce360.com/2026/05/22/walmart-sparky-agent-ai-sales-supply-chain/",
-        "quote": "Furner also said Walmart customers using the Sparky AI agent have an average order value (AOV) that’s about 35% higher than that of non-users.",
-        "role": "使用者客单高约35%，但未排除用户自选择",
-        "sourceHash": "238f985e9f55733b2862efee0b6c9a1facdb08f82334e2c992a10fc15828b4f8"
-      },
-      {
-        "articleId": "radar-7df3de83eff682da",
-        "title": "Myprotein 试点 AI 购物助手",
-        "date": "2026-06-29",
-        "source": "Consumer Goods Technology",
-        "url": "https://consumergoods.com/myprotein-pilots-ai-shopping-assistant",
-        "quote": "The shopping assistant has driven an 8x higher conversion rate (CRV) compared to Myprotein's site average, and an average order value increase of 20.8% (AOV), according to data from THG.",
-        "role": "八倍转化以全站为基线，不能直接识别增量",
-        "sourceHash": "38f19ba058882a6f619c76757ed1ceeaa5962f144103404fc3c1c3aae043e6bc"
-      },
-      {
-        "articleId": "radar-77fff594ac52c000",
-        "title": "Kearney 研究：AI 改变旅游零售的商品发现，但转化缺口仍在",
-        "date": "2026-10-01",
-        "source": "Moodie Davitt Report",
-        "url": "https://moodiedavittreport.com/kearney-research-ai-shapes-travel-retail-discovery-but-conversion-gap-persists/",
-        "quote": "Artificial intelligence and social media are playing an increasingly important role in travel shopping discovery but that influence is not yet translating into airport sales, according to new Kearney research commissioned by Tax Free World Association (TFWA).",
-        "role": "发现影响未转为机场销售，挑战影响即成交",
-        "sourceHash": "de70cd3f17c2f21d4c823d2c09656f8b5cc05a53387a8cd89e8fcd3710f9bccc"
-      }
-    ],
-    "keywords": [
-      "用户自选择",
-      "随机开放实验",
-      "购买意向分层",
-      "每访客收入",
-      "客单价"
-    ],
-    "relatedArticleIds": [
-      "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
-      "radar-7df3de83eff682da",
-      "radar-77fff594ac52c000"
-    ],
-    "sourceCount": 3,
-    "fingerprint": "d4f20deac5fd76676177b8086300d711684f3a8bb848094ecce02fd3c86db8fb",
-    "generatedAt": "2026-10-13",
-    "updatedAt": "2026-10-13",
-    "method": "多材料对照的产品研究推演",
-    "kind": "synthesis",
-    "takeaways": []
-  },
-  {
     "id": "echo-attribute-before-model",
     "category": "商品与数据",
     "question": "商品属性缺失时加强语言模型能否补救？资料丰富与生成事实的边界是什么？",
