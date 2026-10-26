@@ -1,5 +1,53 @@
 [
   {
+    "id": "radar-7b23f1fd479c7a68",
+    "title": "Fashion retailer Gap Inc. starts scaling Bridgette, an AI tool for seasonal hiring, across stores and DCs",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/26/fashion-retailer-gap-inc-starts-scaling-bridgette-an-ai-tool-for-seasonal-hiring-across-stores-and-dcs",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-750eabe358901eb4",
+    "title": "When AI Changes Product Discovery, Measurement Has to Catch Up",
+    "url": "https://itbrief.asia/story/when-ai-changes-product-discovery-measurement-has-to-catch-up",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6e8e52836180ee4d",
+    "title": "AI的双11迷局：商家忙买单，用户只薅羊毛",
+    "url": "https://k.sina.com.cn/article_5953190046_162d6789e06703ve0i.html?from=tech",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e28febc7b4f062a5",
+    "title": "AI“温柔收割”，东南亚电商巨头潜入变现深水区",
+    "url": "https://www.baijing.cn/article/57131",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-89ae8076adb2c3ea",
+    "title": "豆包APP内嵌抖音电商直播间：AI入口与货架电商导流直接打通",
+    "url": "https://www.globalpod.cn/content/7740",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-052077f99975c612",
+    "title": "Google Universal Cart: How AI-Powered Shopping Features Track Price Drops",
+    "url": "https://www.analyticsinsight.net/amp/story/artificial-intelligence/google-universal-cart-how-ai-powered-shopping-features-track-price-drops",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4a77329ab9af139a",
+    "title": "Jose Daniel Duarte Camacho Sees E-Commerce’s Next Conversion Battle Moving Upstream as AI Search Grows 200%",
+    "url": "https://www.webwire.com/ViewPressRel.asp?aId=363297",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-dd869ce477858033",
+    "title": "Why AI shopping assistants are proving effective at turning customer intent into completed orders on Glovo",
+    "url": "https://techtrendske.co.ke/2026/10/25/glovo-ai-shopping-assistant-conversion/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-cb63befd7d634b37",
     "title": "Walmart unveils AI agent shopping controls, spending limits",
     "url": "https://www.digitalcommerce360.com/2026/10/23/walmart-unveils-ai-agent-shopping-controls-spending-limits/",
@@ -39,6 +87,12 @@
     "id": "radar-2e402ffb93af4caa",
     "title": "AI is everywhere at Foot Locker as Miniso goes large in London: this week's biggest retail technology stories",
     "url": "https://retailtechinnovationhub.com/home/2026/10/23/ai-is-everywhere-at-foot-locker-as-miniso-goes-large-in-london-this-weeks-biggest-retail-technology-stories",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-26379dc8fad426a3",
+    "title": "AI购物智能体加速落地：Wizard接入Best Buy，沃尔玛开放通道，亚马逊拦截Meta Muse",
+    "url": "https://www.huxiu.com/article/4900043.html",
     "status": "evidence_question"
   },
   {
@@ -99,6 +153,12 @@
     "id": "radar-7d44e12115899f28",
     "title": "Walmart Opens Its Store to AI Shopping Agents as Amazon Shuts Them Out",
     "url": "https://startupfortune.com/walmart-opens-its-store-to-ai-shopping-agents-as-amazon-shuts-them-out/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d5ed6a554afc84a1",
+    "title": "AI电商大战元年，千问、豆包“双11”领衔出手，六大平台角逐新增量- 产业链",
+    "url": "https://www.c114.net.cn/industry/137353.html",
     "status": "evidence_question"
   },
   {
@@ -273,6 +333,12 @@
     "id": "radar-ae30cfcf5aed550b",
     "title": "Preference Is Not Permission: Personalizing the Auto-Purchase Line in Agentic Commerce",
     "url": "https://arxiv.org/abs/2610.29216v1",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5a7b11d19f52e842",
+    "title": "豆包双11嵌入抖音直播间并主动发券，加速抖音电商流量变现",
+    "url": "https://www.huxiu.com/article/4899270.html",
     "status": "evidence_question"
   },
   {
@@ -462,6 +528,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-3c07b65bdef82c56",
+    "title": "Skyfire and Forter target fraud in AI agent checkout",
+    "url": "https://fintech.global/2026/10/19/skyfire-and-forter-target-fraud-in-ai-agent-checkout/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-5573daaf72388e70",
     "title": "Digest: Google Rolls Out AI Shopping Cart; Universal Music Group Cuts Jobs and Reshuffles Leadership",
     "url": "https://www.exchangewire.com/blog/2026/10/19/digest-google-rolls-out-ai-shopping-cart-universal-music-group-cuts-jobs-and-reshuffles-leadership/",
@@ -495,6 +567,12 @@
     "id": "radar-482518946384483e",
     "title": "AI让服饰下单转化率提升近20%，2026天猫双11将开启AI电商元年？",
     "url": "https://finance.sina.com.cn/stock/t/2026-10-18/doc-inivrrfp7778003.shtml",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0fdeb4c2fb2b7569",
+    "title": "Your new shopper is an agent: What Agentic Commerce Means for Payments",
+    "url": "https://rezolve.com/blogs/your-new-shopper-is-an-agent-what-agentic-commerce-means-for-payments/",
     "status": "evidence_question"
   },
   {
@@ -657,6 +735,12 @@
     "id": "radar-a70a0b9ba5bd8d91",
     "title": "亚马逊封锁Grok购物智能体，马斯克考虑打造电商竞争平台",
     "url": "https://timeline.sohu.com/news/UrHsvcyX7f",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f392344195c75ee2",
+    "title": "What AI Shopping Agents Actually Do When They Start Buying Products on Your Behalf",
+    "url": "https://www.aol.ca/articles/ai-shopping-agents-actually-start-200000000.html",
     "status": "evidence_question"
   },
   {
@@ -1296,6 +1380,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-069d17d5cc2351ea",
+    "title": "TikTok touts new AI tools to simplify ad campaigns and drive in-app shopping",
+    "url": "https://www.campaignlive.com/article/tiktok-touts-new-ai-tools-simplify-ad-campaigns-drive-in-app-shopping/1971623",
+    "status": "evidence_question"
+  },
+  {
     "id": "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
     "title": "Beyond checkout: Where agentic commerce actually starts",
     "url": "https://stripe.com/de-li/sessions/2026/beyond-checkout-where-agentic?__s=1ngpkifa1w8cdaucpyke&__from__=talkingdev&__h+ssc=200701681.2.1547466725565&__hstc=20629287.c4a577029c49e44b73bd3bee6fa38565.1593216000264.1593216000265.1593216000266.1&__hssc=20629287.1.1593216000267&__hsfp=3202274376",
@@ -1704,6 +1794,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-61ea0c2149e21c02",
+    "title": "Ganesh Chaturthi shopping made easy with AI-enhanced festive store on Amazon.in",
+    "url": "https://press.aboutamazon.com/in/2026/9/ganesh-chaturthi-shopping-made-easy-with-ai-enhanced-festive-store-on-amazon-in",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-f83293e951cd8662",
     "title": "Retail Roundup: Google’s New AI Tools, and Kroger Grows Ad Revenue",
     "url": "https://www.adweek.com/commerce/retail-roundup-googles-new-ai-tools-and-kroger-grows-ad-revenue/",
@@ -1872,6 +1968,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-96b90c04fdef71f1",
+    "title": "Agentic commerce: Is Payments the winner this time?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/agentic-commerce-payments-winner-time-213309351.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-2161bc7a19d9f8a8",
     "title": "Pros and Cons of Using AI on E-commerce Sites in Japan",
     "url": "https://stripe.com/in/resources/more/ai-on-japanese-ecommerce-sites",
@@ -2007,6 +2109,18 @@
     "id": "2026-04-30-modern-retail-amazon-says-its-a-217f179fed",
     "title": "Amazon says its AI shopping assistant is gaining traction, with Rufus users up 115%",
     "url": "https://www.modernretail.co/technology/amazon-says-its-ai-shopping-assistant-is-gaining-traction-with-rufus-users-up-115/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
+    "title": "How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.",
+    "url": "https://www.pymnts.com/report/study/how-acquirers-prepare-for-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "daily-2026-01-12-402b4760d23e51",
+    "title": "Walmart teams up with Google’s Gemini for AI-assisted shopping",
+    "url": "https://www.retaildive.com/news/walmart-google-gemini-ai-assisted-shopping/809307/",
     "status": "evidence_question"
   }
 ]
