@@ -1,15 +1,15 @@
 {
   "siteTitle": "AI购物雷达",
   "subtitle": "回溯一年、每日更新：只保留对 AI C端产品、购物智能体和对话导购有产品启发的信息。",
-  "lastUpdated": "2026-10-27T16:33:25+08:00",
+  "lastUpdated": "2026-10-28T17:13:00+08:00",
   "updateTime": "每日北京时间 11:00 计划运行（GitHub 可能延迟）",
   "selectionRule": "原文可核验优先；分级而非凑数；事实与推演分离；按来源和主题打散。",
-  "latestAdded": 25,
+  "latestAdded": 22,
   "lastInsightUpdated": "2026-10-14",
   "latestInsightChanged": 0,
   "lastQualityReview": "2026-09-04T20:12:45+08:00",
   "duplicatesRemoved": 4,
-  "sourceCount": 431,
+  "sourceCount": 440,
   "placeholderRemoved": 3,
   "linkRepair": "2026-09-14: decoded Google News RSS links to original publishers, repaired historical Google Search fallback links, and disabled future Google Search fallbacks for article cards.",
   "brokenLinksRemoved": 3,
@@ -27,20 +27,20 @@
   "yearBackfillNormalized": 138,
   "coverageDays": 61,
   "historyCoverageDays": 61,
-  "articleCount": 1067,
+  "articleCount": 1089,
   "pipelineVersion": "evidence-v1",
   "analysisMode": "逐条原文短摘录驱动的产品推演；回声为多材料研究；未配置模型时显示待验证产品问题",
   "sourceHealth": {
     "configured": 32,
-    "healthy": 25,
-    "failed": 7,
+    "healthy": 26,
+    "failed": 6,
     "discoveryQueries": 72
   },
   "qualitySummary": {
-    "verified": 1039,
-    "watchlist": 801,
+    "verified": 1058,
+    "watchlist": 820,
     "rejected": {
-      "off_topic": 1,
+      "off_topic": 2,
       "unresolved_link": 2
     }
   },
@@ -104,9 +104,9 @@
   "cardFormat": "source-thinking-and-cross-source-echo-v1",
   "lastCardReview": "2026-10-10T16:48:23+08:00",
   "lastResearchReview": "2026-10-13T18:53:00+08:00",
-  "pendingResearchCount": 383,
-  "articleThinkingCount": 1067,
-  "modelThinkingCount": 684,
+  "pendingResearchCount": 408,
+  "articleThinkingCount": 1089,
+  "modelThinkingCount": 681,
   "echoCount": 61,
   "echoSynthesisCount": 25,
   "sourceReasoningCoverage": "721/721 at publication"

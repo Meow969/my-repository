@@ -1,5 +1,47 @@
 [
   {
+    "id": "radar-b0e34cf149b4a3d6",
+    "title": "Visa Credentials Reach 5.2 Billion as Network Expands Into Agentic Commerce",
+    "url": "https://www.pymnts.com/earnings/2026/visa-credentials-reach-5-2-billion-as-network-expands-into-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2c7679b112cedab1",
+    "title": "McKinsey research shows retailers are losing the start of the shopping journey to AI tools",
+    "url": "https://retailtechinnovationhub.com/home/2026/10/28/mckinsey-research-shows-retailers-are-losing-the-start-of-the-shopping-journey-to-ai-tools",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f5c57bdca5bfd4fb",
+    "title": "Azoma raises USD $11.2 million to boost AI shopping tools",
+    "url": "https://itbrief.co.uk/story/azoma-raises-usd-11-2-million-to-boost-ai-shopping-tools",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5cb984caf027c2d5",
+    "title": "ChatGPT’s virtual try on moves the trial room to your phone this festive season",
+    "url": "https://www.thehindu.com/life-and-style/chatgpts-virtual-try-on-moves-the-trial-room-to-your-phone-this-festive-season/article71610774.ece",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-00c24f55efd865ac",
+    "title": "双11平台热捧AI，商家为啥不太买账",
+    "url": "https://m.sohu.com/a/1093914697_120231872?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2496ebf8179bbf51",
+    "title": "AEON expands agentic commerce beyond retail into travel bookings via Travala",
+    "url": "https://marketech-apac.com/aeon-expands-agentic-commerce-beyond-retail-into-travel-bookings-via-travala/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1b9cb6d1f2617dcb",
+    "title": "personalized pricing — AI Algorithm Shopping Prices spark Controversy",
+    "url": "https://en.koreadaily.com/personalized-pricing-ai-algorithm-shopping-controversy/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-383a3e1d06de8305",
     "title": "Apify Positions itself as a Leader in Agentic Commerce with Stripe",
     "url": "https://stripe.com/fr/customers/apify",
@@ -30,6 +72,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-f8507b8b4f7cb3ee",
+    "title": "双11电商平台密集推AI工具，商家因准确性、流程适配和成本问题未完全买账",
+    "url": "https://www.huxiu.com/article/4900853.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-50854cb6a8d21eb7",
     "title": "Shopify Inc. (TSX:SHOP): How Big Is The Agentic Checkout Story?",
     "url": "https://kalkinemedia.com/ca/stocks/consumer/shopify-inc-tsxshop-how-big-is-the-agentic-checkout-story",
@@ -45,6 +93,24 @@
     "id": "radar-850ebc07e151b94a",
     "title": "AI的双11开局：商家忙买单，用户在尝鲜",
     "url": "https://mp.ofweek.com/ai/a256714737697",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0d9ceaf0465728c6",
+    "title": "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
+    "url": "https://www.geekpark.net/news/373002",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-89c34d98d9c6edd7",
+    "title": "电商平台在双11猛推AI，商家却在算另一笔账 | 电厂",
+    "url": "https://k.sina.com.cn/article_6192937794_17120bb4202002vups.html?from=tech",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-98c525d5a61d170b",
+    "title": "AI Agents Want to Shop. Not Every Retailer Is Letting Them.",
+    "url": "https://aimmediahouse.com/retail/ai-agents-want-to-shop-not-every-retailer-is-letting-them",
     "status": "evidence_question"
   },
   {
@@ -135,6 +201,12 @@
     "id": "radar-a93cb002d5103ea0",
     "title": "L Catterton invests in InMobi-backed Glance, eyes US expansion in AI shopping",
     "url": "https://www.storyboard18.com/amp/digital/l-catterton-invests-in-inmobi-backed-glance-eyes-us-expansion-in-ai-shopping-113415.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-70bf6d5a05ae4ca4",
+    "title": "Google and Glance bring AI shopping to Android TV televisions",
+    "url": "https://foro3d.com/en/2026/octubre/google-y-glance-llevan-las-compras-con-ia-a-los-televisores-android-tv.html",
     "status": "evidence_question"
   },
   {
@@ -960,6 +1032,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-86ba6872016998be",
+    "title": "豆包杀进支付宝“后院”：支付宝的18年老生意，豆包也想来抢了",
+    "url": "https://caifuhao.eastmoney.com/news/20261015210434168528270",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-c7fff2da2804692d",
     "title": "淘宝天猫境外双11高单价买家去年增10% 今年升级AI导购",
     "url": "https://www.stheadline.com/zh-hans/realtime-finance/3626403/%E6%B7%98%E5%AE%9D%E5%A4%A9%E7%8C%AB%E5%A2%83%E5%A4%96%E5%8F%8C11%E9%AB%98%E5%8D%95%E4%BB%B7%E4%B9%B0%E5%AE%B6%E5%8E%BB%E5%B9%B4%E5%A2%9E10-%E4%BB%8A%E5%B9%B4%E5%8D%87%E7%BA%A7AI%E5%AF%BC%E8%B4%AD",
@@ -1506,9 +1584,21 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-609a7c88d37ff0d0",
+    "title": "PayPal's Sam Parsons: AI Agent Checkout Is Already Here — and the Two Big Protocols Are Nearly Identical",
+    "url": "https://finance.biggo.com/news/755316ace0180f17",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-c23e7379042a07dd",
     "title": "Constructor Teams With Stripe to Debut Agentic Checkout Tool",
     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/constructor-teams-with-stripe-to-debut-agentic-checkout-tool/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-032ab3b3e22f49f0",
+    "title": "Study Finds AI Creative Scoring Predicts Kroger E-Commerce Conversion",
+    "url": "https://theshelbyreport.com/2026/10/05/study-finds-ai-creative-scoring-predicts-kroger-e-commerce-conversion/",
     "status": "evidence_question"
   },
   {
@@ -1536,6 +1626,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-9914bbf4a9b8a401",
+    "title": "Meta's Muse AI: Good or Bad for E-Commerce? Shopify and Amazon Are Taking Opposite Approaches.",
+    "url": "https://finance.yahoo.com/technology/ai/articles/metas-muse-ai-good-bad-225000015.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "2026-10-02-pymnts-com-openai-adds-virtual--d5d93527fe",
     "title": "OpenAI Adds Virtual Try-On Feature to ChatGPT",
     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-adds-virtual-try-on-feature-chatgpt/",
@@ -1560,6 +1656,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-81a4d2d8f9669ace",
+    "title": "ChatGPT Virtual Try-On Saves Your Selfie: What to Know Before You Upload",
+    "url": "https://techmymoney.com/2026/10/02/chatgpt-virtual-try-on-saves-your-selfie-what-to-know-before-you-upload/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c6e457f74d64996f",
+    "title": "How Albertsons Companies is reimagining retail from the inside out",
+    "url": "https://openai.com/index/albertsons-reimagining-retail/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-acc0f26d0fb1cab2",
     "title": "ChatGPT just borrowed one of Google Shopping's best tricks",
     "url": "https://www.androidauthority.com/chatgpt-virtual-try-on-shopping-feature-3718219/",
@@ -1581,6 +1689,12 @@
     "id": "radar-4586d26a02b33ab5",
     "title": "Walmart says AI shopping assistant Sparky lifts average basket size by 38%",
     "url": "https://www.cnbctv18.com/business/walmarts-shopping-assistant-sparky-lifts-basket-size-38-pc-as-ai-reshapes-retail-and-delivery-20001369.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c78ede2407b48a67",
+    "title": "Mastercard: How AI Shopping Agents Will Reshape Payments",
+    "url": "https://fintechmagazine.com/articles/mastercard-how-ai-shopping-agents-will-reshape-payments",
     "status": "evidence_question"
   },
   {
@@ -1623,6 +1737,12 @@
     "id": "radar-08e6c4d238d7f3ed",
     "title": "Agentic Commerce: 5 Levers for Brands & Retailers",
     "url": "https://www.circana.com/post/the-agentic-ai-shift-and-strategies-that-win",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6ace4fa322fae590",
+    "title": "高盛详解代理式AI消费时代：谁将成为电商领域的最大赢家？",
+    "url": "https://wallstreetcn.com/articles/3782802",
     "status": "evidence_question"
   },
   {
@@ -1698,6 +1818,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-de01f0a9f897013e",
+    "title": "Google brings AI shopping closer to checkout with Gemini test",
+    "url": "https://www.marketingtechnews.net/news/google-ai-shopping-gemini-ai-mode-india/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-8692e39c5928c1ce",
     "title": "Walmart's CEO promises Sparky will never use your data to raise your price",
     "url": "https://startupfortune.com/walmarts-ceo-promises-sparky-will-never-use-your-data-to-raise-your-price/",
@@ -1740,6 +1866,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-b73fdd381f4fcef9",
+    "title": "AI Shopping: Get Your Products Found in Google & ChatGPT",
+    "url": "https://www.searchenginejournal.com/webinar-lp-how-ai-shopping-agents-decide-which-products-to-recommend/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-043f069c3cb7a211",
     "title": "AI开始帮用户们执行“搜商品到决策，再到最终下单”! 高盛拆解2.6万亿美元消费机遇，圈出18位潜在赢家",
     "url": "https://wap.stockstar.com/detail/IG2026092600003349",
@@ -1773,6 +1905,12 @@
     "id": "radar-0e2748762a22bc78",
     "title": "Shopify’s Tailwind Acquisition Feeds the Agentic Commerce Story, But the Market Is Already Nervous About the Bill",
     "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-tailwind-acquisition-feeds-agentic-204056035.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d57d29cb2f6ac719",
+    "title": "AI transforming retail pricing, from dynamic discounts to personalized offers",
+    "url": "https://retail-insider.com/retail-insider/2026/09/ai-transforming-retail-pricing-from-dynamic-discounts-to-personalized-offers/",
     "status": "evidence_question"
   },
   {
@@ -1902,6 +2040,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-04c5d860b657ef06",
+    "title": "Mastercard, Flybits and Rogers Bank Establish Secure Agentic Commerce Benchmark",
+    "url": "https://www.thefastmode.com/technology-solutions/50695-mastercard-flybits-and-rogers-bank-establish-secure-agentic-commerce-benchmark",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-48beea3950d566fb",
     "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
     "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
@@ -1917,6 +2061,12 @@
     "id": "radar-3f1b842ab49d5701",
     "title": "科技巨头因AI购物起争端：亚马逊封禁Meta Muse智能体",
     "url": "https://tech.ifeng.com/c/8wbfbVQV8wd",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-771ad82e8130705c",
+    "title": "Mastercard, Flybits and Rogers establish benchmark for secure, consumer-controlled agentic commerce in Canada",
+    "url": "https://finance.yahoo.com/technology/ai/articles/mastercard-flybits-rogers-establish-benchmark-133600495.html",
     "status": "evidence_question"
   },
   {
