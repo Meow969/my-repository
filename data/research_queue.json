@@ -1,5 +1,35 @@
 [
   {
+    "id": "radar-570f24e66274fe0a",
+    "title": "Google Pushes AI Agents Into Commerce as Spending Pressures Cash Flow",
+    "url": "https://www.pymnts.com/earnings/2026/google-pushes-ai-agents-into-commerce-as-spending-pressures-cash-flow/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-62f51d148405e89a",
+    "title": "AI and Embedded Finance Raise the Bar for Payment Controls",
+    "url": "https://www.pymnts.com/news/payments-innovation/2026/ai-and-embedded-finance-raise-the-bar-for-payment-controls/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ec55f86354ae4fa5",
+    "title": "电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo",
+    "url": "https://www.woshipm.com/ai/6486200.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-885da1498dee90e2",
+    "title": "Shopify unveils AI shopping tools in Fall '26 update",
+    "url": "https://ecommercenews.com.au/story/shopify-unveils-ai-shopping-tools-in-fall-26-update",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0c155f8c864c19fb",
+    "title": "AI agents spark opening salvo in 'new digital payments' war",
+    "url": "https://www.digitaltoday.co.kr/en/view/120927/ai-agents-spark-opening-salvo-in-new-digital-payments-war",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b0e34cf149b4a3d6",
     "title": "Visa Credentials Reach 5.2 Billion as Network Expands Into Agentic Commerce",
     "url": "https://www.pymnts.com/earnings/2026/visa-credentials-reach-5-2-billion-as-network-expands-into-agentic-commerce/",
@@ -36,9 +66,27 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-be0545aafe881aba",
+    "title": "Shopify at 112 Times Earnings: The AI Shopping Boom Is Real, the Price Leaves No Room for Error",
+    "url": "https://finance.biggo.com/news/825fd9916e2b788e",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1b9cb6d1f2617dcb",
     "title": "personalized pricing — AI Algorithm Shopping Prices spark Controversy",
     "url": "https://en.koreadaily.com/personalized-pricing-ai-algorithm-shopping-controversy/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4c8b6c78c5b817a3",
+    "title": "85% of Australians Would Switch Retailers if AI Finds a Better Deal this Peak Shopping Season",
+    "url": "https://www.tradingview.com/news/prnewswire:f45f4ce5f4e1b:0-85-of-australians-would-switch-retailers-if-ai-finds-a-better-deal-this-peak-shopping-season/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-861a889fad39e43c",
+    "title": "Meta旗下AI代理Muse登陆新加坡 接入购物餐饮及旅游服务",
+    "url": "https://www.zaobao.com.sg/finance/singapore/story20261028-9906147",
     "status": "evidence_question"
   },
   {
@@ -120,6 +168,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-0e0af7c7fd5549af",
+    "title": "今年的双11，你用AI购物了吗？",
+    "url": "https://user.guancha.cn/main/content?id=1760641",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-7b23f1fd479c7a68",
     "title": "Fashion retailer Gap Inc. starts scaling Bridgette, an AI tool for seasonal hiring, across stores and DCs",
     "url": "https://retailtechinnovationhub.com/home/2026/10/26/fashion-retailer-gap-inc-starts-scaling-bridgette-an-ai-tool-for-seasonal-hiring-across-stores-and-dcs",
@@ -183,6 +237,12 @@
     "id": "radar-d3ad3aa14c215e7a",
     "title": "AI-Powered Crypto Payments: Benefits and Risks",
     "url": "https://www.blockchain-council.org/web-3/ai-powered-crypto-payments-benefits-use-cases-challenges/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a3ff0fcd1749d0f4",
+    "title": "宝妈把购物车交给AI，母婴品牌该慌吗？|二问CBIS · 行业大辩论（第二期）",
+    "url": "https://timeline.sohu.com/news/3poyDcNSLT",
     "status": "evidence_question"
   },
   {
@@ -882,6 +942,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-f41c9de105e111b5",
+    "title": "Stripe’s President Says Agentic Commerce Went ‘Vertical’ in September. He Has Not Shown the Numbers.",
+    "url": "https://forkast.news/stripes-president-says-agentic-commerce-went-vertical-in-september-he-has-not-shown-the-numbers/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-ef852f47b200f373",
     "title": "AI办公企业级市场，千问办公为何率先攻向电商赛道？",
     "url": "https://www.mrjjxw.com/articles/2026-10-16/4606560.html",
@@ -1179,6 +1245,12 @@
     "id": "radar-d11aa3c727b38596",
     "title": "Your AI shopping assistant may be quoting prices stores never posted",
     "url": "https://www.thenews.com.pk/latest/1419872-your-ai-shopping-assistant-may-be-quoting-prices-stores-never-posted",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b815d8b7af77b314",
+    "title": "AI Shopping Recommendations and the Impulse Buying Economy",
+    "url": "https://www.securities.io/ai-shopping-recommendations-impulse-buying/",
     "status": "evidence_question"
   },
   {
@@ -1530,6 +1602,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-92ed7bff1c5e853e",
+    "title": "Five Products Called ‘Agentic Checkout.’ Five Different Loss Placements.",
+    "url": "https://forkast.news/five-products-called-agentic-checkout-five-different-loss-placements/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-05108653561dbb7e",
     "title": "Consumer AI agents could upend online shopping - but who really wins?",
     "url": "https://finance.yahoo.com/technology/ai/articles/consumer-ai-agents-could-upend-151100217.html",
@@ -1542,6 +1620,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-44efe1108a4d6a39",
+    "title": "From Its First Ecommerce Site to AI Adoption, Gap Looks Back While Looking Forward",
+    "url": "https://wwd.com/sourcing-journal/industry-news/gap-30-website-artificial-intelligence-tech-week-1239320299/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-c14c0709b652dc7c",
     "title": "How Retailers Win with AI: Loyalty Strategy with Lobyco CEO Ole Buch",
     "url": "https://foodinstitute.com/video/how-retailers-win-with-ai-loyalty-strategy-with-lobyco-ceo-ole-buch/",
@@ -1551,6 +1635,12 @@
     "id": "radar-99c1fe123365daed",
     "title": "Underdog’s AI Assistant Is Free. Your Shopping Pays the Bill",
     "url": "https://businessmodelanalyst.com/underdog-ai-assistant-interchange-fee-business-model/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c7eb13a4fa584c3e",
+    "title": "YouTube unveils AI creator tools, shopping features at annual event",
+    "url": "https://interaksyon.philstar.com/trends-spotlights/2026/10/07/319703/youtube-ai-creator-tools-shopping-features-annual-event/",
     "status": "evidence_question"
   },
   {
@@ -1629,6 +1719,12 @@
     "id": "radar-9914bbf4a9b8a401",
     "title": "Meta's Muse AI: Good or Bad for E-Commerce? Shopify and Amazon Are Taking Opposite Approaches.",
     "url": "https://finance.yahoo.com/technology/ai/articles/metas-muse-ai-good-bad-225000015.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7fe15930aaf8a19b",
+    "title": "Albertsons Expands OpenAI Partnership, Brings Safeway Grocery Shopping to ChatGPT",
+    "url": "https://www.citybiz.co/article/913426/albertsons-expands-openai-partnership-brings-safeway-grocery-shopping-to-chatgpt/",
     "status": "evidence_question"
   },
   {
@@ -1953,6 +2049,12 @@
     "id": "radar-315921a598edfd6b",
     "title": "AI takes a bigger role in US Halloween shopping",
     "url": "https://finance.yahoo.com/technology/ai/articles/ai-takes-bigger-role-us-060810196.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7a2d8507d08688f5",
+    "title": "Agentic Payment Authentication Clears Europe's Strictest Bar in France",
+    "url": "https://www.financexmagazine.com/post/agentic-payment-authentication-clears-europe-s-strictest-bar-in-france",
     "status": "evidence_question"
   },
   {
