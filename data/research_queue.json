@@ -1,5 +1,47 @@
 [
   {
+    "id": "radar-1595657f888c9beb",
+    "title": "Adobe Commerce unlocks agentic commerce, from code to checkout",
+    "url": "https://partners.adobe.com/digitalexperience/news/2026/10/adobe-commerce-unlocks-agentic-commerce",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c77df846444c4bfa",
+    "title": "Shopify Connects AI Shopping Agents to Merchant Checkout",
+    "url": "https://www.pymnts.com/news/payment-methods/2026/shopify-embraces-visa-and-mastercard-agentic-payment-tech/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0fd411ac493d1680",
+    "title": "Walmart debuts AI-powered shopping assistant Sparky in Canada",
+    "url": "https://canadiangrocer.com/walmart-debuts-ai-powered-shopping-assistant-sparky-canada",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-56498068cc6d03bd",
+    "title": "Coveo Acquires Anglera to Make Product Data a Competitive Advantage in AI-Powered eCommerce",
+    "url": "https://www.tradingview.com/news/prnewswire:49615702a800e:0-coveo-acquires-anglera-to-make-product-data-a-competitive-advantage-in-ai-powered-ecommerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-658666df047f9739",
+    "title": "餐饮/零售品牌门店新品上市AI评估模型",
+    "url": "https://www.woshipm.com/share/6486768.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-36490eaad6de2ad2",
+    "title": "Google Chief Business Officer outlines new AI‑driven shopping strategy",
+    "url": "https://dig.watch/updates/google-outlines-ai-shopping-strategy",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4684ee0b249ad366",
+    "title": "美团外卖优惠券怎么领？2026年AI搜索时代的优惠信息传播新逻辑",
+    "url": "https://k.sina.com.cn/article_2650591473_9dfcd0f100102pp08.html?from=tech&subch=otech",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-570f24e66274fe0a",
     "title": "Google Pushes AI Agents Into Commerce as Spending Pressures Cash Flow",
     "url": "https://www.pymnts.com/earnings/2026/google-pushes-ai-agents-into-commerce-as-spending-pressures-cash-flow/",
@@ -21,6 +63,36 @@
     "id": "radar-885da1498dee90e2",
     "title": "Shopify unveils AI shopping tools in Fall '26 update",
     "url": "https://ecommercenews.com.au/story/shopify-unveils-ai-shopping-tools-in-fall-26-update",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3b58283db346e256",
+    "title": "Amazon Alexa shopping adds more than 100 new capabilities as AI transforms online shopping",
+    "url": "https://businessupturn.com/usa/business/tech/amazon-alexa-shopping-adds-more-than-100-new-capabilities-as-ai-transforms-online-shopping/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9830d249f3349681",
+    "title": "AI agents are coming to checkout. Are merchants ready?",
+    "url": "https://thepaypers.com/payments/interviews/money2020-ixopay-interview-ai-agents-are-coming-to-checkout",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-250e0738646c9758",
+    "title": "谷歌通用购物车美国正式上线：600亿商品数据入AI购物车，欧洲最早2027年",
+    "url": "https://www.globalpod.cn/content/8389",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b6ad984ac90aba25",
+    "title": "IPQS Says Agent Authorization Alone Won’t Secure Agentic Commerce",
+    "url": "https://au.finance.yahoo.com/news/ipqs-says-agent-authorization-alone-090000228.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-38fb6182501a78a4",
+    "title": "Agentic AI Moves From Experimentation Into Core Payments Operations",
+    "url": "https://paymentsindustryintelligence.com/agentic-ai-moves-from-experimentation-to-core-operations/",
     "status": "evidence_question"
   },
   {
@@ -81,6 +153,12 @@
     "id": "radar-4c8b6c78c5b817a3",
     "title": "85% of Australians Would Switch Retailers if AI Finds a Better Deal this Peak Shopping Season",
     "url": "https://www.tradingview.com/news/prnewswire:f45f4ce5f4e1b:0-85-of-australians-would-switch-retailers-if-ai-finds-a-better-deal-this-peak-shopping-season/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2e8b728918318b10",
+    "title": "Meta's Muse Hits 10 Million Users as Retailers and Banks Push Back on AI Agents",
+    "url": "https://finance.biggo.com/news/6097f0af-89c7-4a2a-b7f4-bce8c229a287",
     "status": "evidence_question"
   },
   {
@@ -837,6 +915,12 @@
     "id": "radar-7e675387154d9358",
     "title": "Consumer apprehension grows as US retailers adopt AI-assisted pricing tools",
     "url": "https://abcnews.com/Technology/wireStory/consumer-apprehension-grows-us-retailers-adopt-ai-assisted-137357982",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fd3613f95c4c9a99",
+    "title": "1688全面接入AI工作台Accio，AI帮商家做生意的时代要来了",
+    "url": "https://timeline.sohu.com/news/NHCqFWRLp4",
     "status": "evidence_question"
   },
   {
@@ -1656,6 +1740,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-02120e72f55d85da",
+    "title": "RZLV: An agentic-commerce stack meets a market where 97 of 100 top retailers lack AI checkout",
+    "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:4088784:0-rzlv-an-agentic-commerce-stack-meets-a-market-where-97-of-100-top-retailers-lack-ai-checkout/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-fbfe2c20521a7be4",
     "title": "TikTok AI Expands Search, Creative, Merchant Ad Formats 10/06/2026",
     "url": "https://www.mediapost.com/publications/article/418523/tiktok-ai-expands-search-creative-merchant-ad-fo.html",
@@ -2061,6 +2151,12 @@
     "id": "radar-23819b27063059a0",
     "title": "YouTube Turns Ask YouTube AI Into A Product Discovery Surface",
     "url": "https://www.searchenginejournal.com/youtube-shopping-ask-youtube-ai-search/590662/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-da45c264092a8f14",
+    "title": "YouTube doubles down on video shopping with AI-powered ‘Ask YouTube’ feature",
+    "url": "https://techcrunch.com/2026/09/23/youtube-doubles-down-on-video-shopping-with-ai-powered-ask-youtube-feature/",
     "status": "evidence_question"
   },
   {
@@ -2547,6 +2643,30 @@
     "id": "2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
     "title": "Pinterest Launches AI Shopping Assistant and Gen AI Controls",
     "url": "https://www.pymnts.com/news/artificial-intelligence/2025/pinterest-launches-ai-shopping-assistant-and-gen-ai-controls/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6a6cef6a6c79a759",
+    "title": "Google’s AI Mode Introduces New Update to Provide Better Visual Results for Shopping Searches",
+    "url": "https://wwd.com/business-news/retail/google-ai-mode-update-enhanced-visuals-shopping-searches-1238262106/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-06ded7b30ebabb0e",
+    "title": "AI Agent 暗战，大厂电商如何排兵布阵？",
+    "url": "https://36kr.com/p/3479144486656384",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ff6d97bdf6607cfd",
+    "title": "淘宝、美团、支付宝都在做AI导购，能不能用你的消费数据？",
+    "url": "https://www.stcn.com/article/detail/3343541.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3f503da996495782",
+    "title": "淘宝上线图搜“AI找低价”，AI电商加速落地",
+    "url": "https://www.stcn.com/article/detail/3339619.html",
     "status": "evidence_question"
   }
 ]
