@@ -1,8 +1,44 @@
 [
   {
+    "id": "radar-d4551dc0b8f66650",
+    "title": "开源装机工具 Rufus 4.16 Beta 发布：绕过影响数百万台 PC 的 UEFI NTFS 漏洞",
+    "url": "https://www.ithome.com/1/020/452.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-008db948d7d8df74",
+    "title": "Walmart's AI agent Sparky turns photos of handwritten lists into carts",
+    "url": "https://ppc.land/walmarts-ai-agent-sparky-turns-photos-of-handwritten-lists-into-carts/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7ca44d4789ee84a7",
+    "title": "Walmart Canada launches AI shopping assistant Sparky",
+    "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/30/walmart-canada-launches-ai-shopping-assistant-sparky/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c71375ab8ca5453c",
+    "title": "从″省人力″到″抢增长″：幻想客服13年电商客服外包全域服务体系与AI赋",
+    "url": "https://k.sina.com.cn/article_2650591473_9dfcd0f100102prko.html?from=tech&subch=internet",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e80396ecb256ca1e",
+    "title": "Amazon Wins 59% of AI-Assisted Purchases as Checkout Becomes the Prize",
+    "url": "https://www.pymnts.com/commerce/ecommerce/2026/amazon-wins-59percent-ai-assisted-purchases-as-checkout-becomes-the-prize/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1595657f888c9beb",
     "title": "Adobe Commerce unlocks agentic commerce, from code to checkout",
     "url": "https://partners.adobe.com/digitalexperience/news/2026/10/adobe-commerce-unlocks-agentic-commerce",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9eac1243bdd86fd9",
+    "title": "The festive season playbook: Winning India’s Diwali-to-Republic Day shopping rush with AI-powered marketing",
+    "url": "https://www.salesforce.com/in/blog/ai-festive-marketing-tips-retail/?bc=OTH",
     "status": "evidence_question"
   },
   {
@@ -24,15 +60,51 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-2904dd3bf1ee3bd0",
+    "title": "AI-driven traffic generates 83% higher revenue per visit for US retailers: Adobe",
+    "url": "https://www.storyboard18.com/how-it-works/ai-driven-traffic-generates-83-higher-revenue-per-visit-for-us-retailers-adobe-ws-lo-113683.htm",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-658666df047f9739",
     "title": "餐饮/零售品牌门店新品上市AI评估模型",
     "url": "https://www.woshipm.com/share/6486768.html",
     "status": "evidence_question"
   },
   {
+    "id": "radar-a2026455982498db",
+    "title": "双11购物决策向AI前移：正飞GEO发布AI搜索营销指引，助力企业抢占AI流量新入口",
+    "url": "https://hea.china.com/articles/20261030/202610301971384.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f947ba344b5c6d0a",
+    "title": "跨境电商的AI真相：进入更易，胜出更难",
+    "url": "https://www.ichaoqi.com/guandian/2026/1030/89473.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-334694499eadab36",
+    "title": "亚马逊CEO评价第三方AI购物助手：并不出色",
+    "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwynec4759943.shtml",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2bd09461341d3cde",
+    "title": "Can AI Make Shopping Easier Without Taking Control?",
+    "url": "https://cxtoday.com/can-ai-make-shopping-easier-without-taking-control",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-36490eaad6de2ad2",
     "title": "Google Chief Business Officer outlines new AI‑driven shopping strategy",
     "url": "https://dig.watch/updates/google-outlines-ai-shopping-strategy",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7de47a8c9dc31320",
+    "title": "电商平台AI模特现三条腿、反关节“比V” 制作成本低至¥5元/张",
+    "url": "https://global.hk01.com/%E5%A4%A7%E5%9B%BD%E5%B0%8F%E4%BA%8B/60405426/%E7%94%B5%E5%95%86%E5%B9%B3%E5%8F%B0ai%E6%A8%A1%E7%89%B9%E7%8E%B0%E4%B8%89%E6%9D%A1%E8%85%BF-%E5%8F%8D%E5%85%B3%E8%8A%82-%E6%AF%94v-%E5%88%B6%E4%BD%9C%E6%88%90%E6%9C%AC%E4%BD%8E%E8%87%B3-5%E5%85%83-%E5%BC%A0",
     "status": "evidence_question"
   },
   {
@@ -102,6 +174,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-dd0754aa09c16648",
+    "title": "AI模特“攻占”双十一：AI标注“隐形”真假难辨，有商品图出现“三条腿”模特，生成图价格不到实拍图四分之一",
+    "url": "https://finance.sina.cn/2026-10-29/detail-iniwwpnu6044631.d.html?vt=4&cid=76675&node_id=76675",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-46350e7967fd858d",
+    "title": "Stripe切入AI代理购物支付，Visa和Mastercard承压",
+    "url": "https://www.digitaltoday.co.kr/cn/view/120936/ai-agents-spark-opening-salvo-in-new-digital-payments-war",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b0e34cf149b4a3d6",
     "title": "Visa Credentials Reach 5.2 Billion as Network Expands Into Agentic Commerce",
     "url": "https://www.pymnts.com/earnings/2026/visa-credentials-reach-5-2-billion-as-network-expands-into-agentic-commerce/",
@@ -165,6 +249,12 @@
     "id": "radar-861a889fad39e43c",
     "title": "Meta旗下AI代理Muse登陆新加坡 接入购物餐饮及旅游服务",
     "url": "https://www.zaobao.com.sg/finance/singapore/story20261028-9906147",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-95ebe1e5660478df",
+    "title": "双11购物不决问AI？会算账，还能拦截冲动消费，你用过吗？",
+    "url": "https://xinwen.bjd.com.cn/content/s6ae161bbe4b0e42f8f0226e5.html",
     "status": "evidence_question"
   },
   {
@@ -480,6 +570,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-600579c507fab03f",
+    "title": "果然财经|AI电商图失真失序：双十一看图购物变成“开盲盒”",
+    "url": "https://timeline.sohu.com/news/B9Ztv2Cl4O",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-18dbebdaa25007aa",
     "title": "AI购物助手冲击电商格局！伯恩斯坦：亚马逊(AMZN.US)、优步(UBER.US)等平台暂时拒绝接入或是明智之举",
     "url": "https://finance.stockstar.com/IG2026102300046564.shtml",
@@ -687,6 +783,12 @@
     "id": "radar-8c97cca4a4a1df82",
     "title": "Google, Glance partner to bring AI-powered shopping to Android TVs in India, US, Japan",
     "url": "https://www.tribuneindia.com/news/business/google-glance-partner-to-bring-ai-powered-shopping-to-android-tvs-in-india-us-japan/amp",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-445ec038c1309d50",
+    "title": "Amazon Great Indian Festival Reloaded Launched: New Deals, Instant Discounts, and AI-Powered Shopping",
+    "url": "https://www.telugutimes.net/en/bnews/amazon-great-indian-festival-reloaded-launched-new-deals-instant-discounts-and-ai-powered-shopping-363786.html",
     "status": "evidence_question"
   },
   {
@@ -1734,6 +1836,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-628fce8b248e7e8e",
+    "title": "AI Shopping Answers from ChatGPT & Google Favor Big Retailers",
+    "url": "https://almcorp.com/news/ai-shopping-answers-chatgpt-google-lean-toward-big-retailers/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-7b6efeb2e154012d",
     "title": "Why AI-driven purchase intent can stall at checkout",
     "url": "https://www.okoone.com/spark/marketing-growth/why-ai-driven-purchase-intent-can-stall-at-checkout/",
@@ -1749,12 +1857,6 @@
     "id": "radar-fbfe2c20521a7be4",
     "title": "TikTok AI Expands Search, Creative, Merchant Ad Formats 10/06/2026",
     "url": "https://www.mediapost.com/publications/article/418523/tiktok-ai-expands-search-creative-merchant-ad-fo.html",
-    "status": "evidence_question"
-  },
-  {
-    "id": "radar-5c7556af250fc9d9",
-    "title": "AI Shopping Answers From ChatGPT and Google Lean Toward Big Retailers - ALM Corp",
-    "url": "https://almcorp.com/news/ai-shopping-answers-chatgpt-google-lean-toward-big-retailers",
     "status": "evidence_question"
   },
   {
@@ -1794,6 +1896,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-c5b627be8dbc7ab0",
+    "title": "Visa Launches ‘Agentic Ready’ Program to Advance Agentic Commerce in Latin America & Caribbean",
+    "url": "https://www.visa.com/en-jm/newsroom/press-releases/visa-agentic-ready-ai-commerce-latin-america-caribbean",
+    "status": "evidence_question"
+  },
+  {
     "id": "2026-10-03-stripe-beyond-checkout-where-ag-d3528592a8",
     "title": "Beyond checkout: Where agentic commerce actually starts",
     "url": "https://stripe.com/de-li/sessions/2026/beyond-checkout-where-agentic?__s=1ngpkifa1w8cdaucpyke&__from__=talkingdev&__h+ssc=200701681.2.1547466725565&__hstc=20629287.c4a577029c49e44b73bd3bee6fa38565.1593216000264.1593216000265.1593216000266.1&__hssc=20629287.1.1593216000267&__hsfp=3202274376",
@@ -1803,6 +1911,12 @@
     "id": "radar-ca854d2d9a0a3127",
     "title": "Meta, Amazon, And The Real Question About Agentic Commerce",
     "url": "https://www.forrester.com/blogs/meta-amazon-and-the-real-question-about-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e43148da6e0087c6",
+    "title": "Adobe Forecasts 130% Surge in AI-Driven Retail Traffic During US Holiday Season",
+    "url": "https://finance.yahoo.com/technology/ai/articles/adobe-forecasts-130-surge-ai-134100443.html",
     "status": "evidence_question"
   },
   {
@@ -2043,6 +2157,12 @@
     "id": "radar-d3d969e18df58893",
     "title": "Google tests Flipkart AI shopping | Gulf Times",
     "url": "https://www.gulf-times.com/article/734240/community/technology/google-tests-flipkart-ai-shopping",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-26b1933495f85e22",
+    "title": "透镜GEO电商版上线！从AI流量到销量转化，助力品牌营销提效",
+    "url": "https://feng.ifeng.com/c/8wlbkwMOrZI",
     "status": "evidence_question"
   },
   {
@@ -2649,6 +2769,18 @@
     "id": "radar-6a6cef6a6c79a759",
     "title": "Google’s AI Mode Introduces New Update to Provide Better Visual Results for Shopping Searches",
     "url": "https://wwd.com/business-news/retail/google-ai-mode-update-enhanced-visuals-shopping-searches-1238262106/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-18f17aab6c7c6bed",
+    "title": "OpenAI takes on Google, Amazon with new agentic shopping system",
+    "url": "https://techcrunch.com/2025/09/29/openai-takes-on-google-amazon-with-new-agentic-shopping-system/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8c8a2a36e1285afd",
+    "title": "How AI is rewriting the rules of search and shopping – by the numbers",
+    "url": "https://digiday.com/marketing/how-ai-is-rewriting-the-rules-of-search-and-shopping-by-the-numbers/",
     "status": "evidence_question"
   },
   {
