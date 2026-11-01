@@ -1,8 +1,26 @@
 [
   {
+    "id": "radar-a551ce21a2c896bf",
+    "title": "Why Agentic Commerce is becoming technically possible now",
+    "url": "https://crypto-economy.com/why-agentic-commerce-is-becoming-technically-possible-now/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d4551dc0b8f66650",
     "title": "开源装机工具 Rufus 4.16 Beta 发布：绕过影响数百万台 PC 的 UEFI NTFS 漏洞",
     "url": "https://www.ithome.com/1/020/452.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9fabd77256c2af3f",
+    "title": "Beyond Jargons: What Agentic Commerce Means for D2C Brands",
+    "url": "https://themachinemaker.com/technology/beyond-jargons-what-agentic-commerce-means-for-d2c-brands/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b2f2f146dae42af6",
+    "title": "What Is Shopify (SHOP) Telling Investors With Its New AI And Commerce Push?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/shopify-shop-telling-investors-ai-120840181.html",
     "status": "evidence_question"
   },
   {
@@ -96,6 +114,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-b14594f94dc61ace",
+    "title": "Stripe Reshapes Payments With AI Agents. What’s Its Real Play?",
+    "url": "https://www.techflowpost.com/en-US/article/34998",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-36490eaad6de2ad2",
     "title": "Google Chief Business Officer outlines new AI‑driven shopping strategy",
     "url": "https://dig.watch/updates/google-outlines-ai-shopping-strategy",
@@ -183,6 +207,12 @@
     "id": "radar-46350e7967fd858d",
     "title": "Stripe切入AI代理购物支付，Visa和Mastercard承压",
     "url": "https://www.digitaltoday.co.kr/cn/view/120936/ai-agents-spark-opening-salvo-in-new-digital-payments-war",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-652608d1ef502bdd",
+    "title": "Shopify Takes Shop Pay Into AI Agents and Off-Platform Checkouts",
+    "url": "https://thedefiant.io/converge/tradfi-and-fintech/shopify-takes-shop-pay-into-ai-agents-and-off-platform-checkouts",
     "status": "evidence_question"
   },
   {
@@ -2292,6 +2322,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-040770265820a2b6",
+    "title": "京东电商经营AI平台来了！覆盖152个场景，Agent可跨端干活",
+    "url": "https://zhidx.com/p/596916.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fa4d7d0bc77e764a",
+    "title": "Can Mastercard’s Fee Model Survive the Agentic Commerce It’s Building For?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/mastercard-fee-model-survive-agentic-192054046.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-10e0ffe91f063171",
     "title": "Are banks falling behind on agentic commerce standards?",
     "url": "https://www.americanbanker.com/payments/news/are-banks-falling-behind-on-agentic-commerce-standards",
@@ -2763,6 +2805,12 @@
     "id": "2025-10-31-pymnts-com-pinterest-launches-a-43b119129c",
     "title": "Pinterest Launches AI Shopping Assistant and Gen AI Controls",
     "url": "https://www.pymnts.com/news/artificial-intelligence/2025/pinterest-launches-ai-shopping-assistant-and-gen-ai-controls/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1f28e3676ee5bbfc",
+    "title": "1688诚信通AI版上线 商家靠AI月销破10万元",
+    "url": "https://36kr.com/p/3531317394431105",
     "status": "evidence_question"
   },
   {
