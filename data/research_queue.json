@@ -1,8 +1,50 @@
 [
   {
+    "id": "radar-395eacd2496ca28b",
+    "title": "Amazon Positions Alexa for Shopping to Counter Third-Party Agents",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-positions-alexa-for-shopping-to-counter-third-party-agents/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fa006a650b5a7023",
+    "title": "Shopify Rolls Out AI Agent Connectors, Fraud Tools And Revamped Shopping Experience",
+    "url": "https://smbtech.au/news/shopify-rolls-out-ai-agent-connectors-fraud-tools-and-revamped-shopping-experience/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1bb5bc1954201ffd",
+    "title": "Google AI Mode test groups shopping ads under one Sponsored heading",
+    "url": "https://ppc.land/google-ai-mode-test-groups-shopping-ads-under-one-sponsored-heading/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d3a110fd55ca3ccf",
+    "title": "一双鞋被买走背后，AI如何量化重构零售经营？",
+    "url": "https://www.21jingji.com/article/20261102/herald/0dbdc4c892d3aaabcd71830925b9d49c.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-736e25cb2b739615",
+    "title": "Festive shopping gets smarter: How AI is changing the way consumers discover products, track orders and shop",
+    "url": "https://www.etnownews.com/technology/festive-shopping-gets-smarter-how-ai-is-changing-the-way-consumers-discover-products-track-orders-and-shop-article-156444836",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-a551ce21a2c896bf",
     "title": "Why Agentic Commerce is becoming technically possible now",
     "url": "https://crypto-economy.com/why-agentic-commerce-is-becoming-technically-possible-now/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-86bc9baa889e54b2",
+    "title": "“双11 ”AI购物助手有个性：种草挺积极，比价“装没看见”？",
+    "url": "https://m.yzwb.net/wap/news/9/5018611.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7499f9741ca708db",
+    "title": "谷歌正探索在AI购物流程中引入商品比较、优惠和赞助链接",
+    "url": "https://www.theblockbeats.info/flash/374837",
     "status": "evidence_question"
   },
   {
@@ -30,6 +72,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-fe6df873c618588f",
+    "title": "Why Trust Is Becoming Essential for Agentic Commerce",
+    "url": "https://betakit.com/why-trust-is-becoming-essential-for-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-7ca44d4789ee84a7",
     "title": "Walmart Canada launches AI shopping assistant Sparky",
     "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/30/walmart-canada-launches-ai-shopping-assistant-sparky/",
@@ -39,6 +87,12 @@
     "id": "radar-c71375ab8ca5453c",
     "title": "从″省人力″到″抢增长″：幻想客服13年电商客服外包全域服务体系与AI赋",
     "url": "https://k.sina.com.cn/article_2650591473_9dfcd0f100102prko.html?from=tech&subch=internet",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-78f36fb01dd15601",
+    "title": "Executive Briefing: The AI Advantage in FinTech & Payments",
+    "url": "https://www.salesforce.com/eu/blog/executive-briefing-the-ai-advantage-in-fintech-payments/?bc=OTH",
     "status": "evidence_question"
   },
   {
@@ -498,6 +552,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-d778ce091484ee7d",
+    "title": "AI Agents Push Stablecoin Payments to Business Mainstream",
+    "url": "https://www.onesafe.io/blog/ai-agents-stablecoin-payments-business-mainstream",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-8e346c983c4862c2",
     "title": "双11购物车里的AI暗战",
     "url": "https://www.36kr.com/p/4039237422175872",
@@ -945,6 +1005,12 @@
     "id": "radar-8207070302a523b7",
     "title": "Consumer concerns grow as retailers adopt AI-assisted pricing tools",
     "url": "https://www.pbs.org/newshour/economy/consumer-concerns-grow-as-retailers-adopt-ai-assisted-pricing-tools",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-36811519523cc613",
+    "title": "In an Age of AI Shopping Assistants, Conventional Wisdom Prevails: 'Buyer Beware'",
+    "url": "https://www.citynewsservice.cn/articles/china-biz-buzz/in-perspective/in-an-age-of-ai-shopping-assistants-conventional-wisdom-prevails-buyer-beware-zmz89wam",
     "status": "evidence_question"
   },
   {
@@ -1974,6 +2040,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-b27b3a13cad94fbb",
+    "title": "ChatGPT 虚拟试穿挑战 Google 的 AI 购物领先地位",
+    "url": "https://www.remio.ai/zh/post/chatgpt-virtual-try-on-takes-on-googles-ai-shopping-lead-zh",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-956b4079e5921957",
+    "title": "Experian's checks on AI shopping agents gain DataDome behavior monitoring",
+    "url": "https://ppc.land/experians-checks-on-ai-shopping-agents-gain-datadome-behavior-monitoring/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-8e049b6fb2d5b6a0",
     "title": "Consumers favor AI shopping assistants from brands they already use and trust",
     "url": "https://www.customerexperiencedive.com/news/consumers-favor-ai-shopping-assistants-brands-already-use-tru/832060/",
@@ -2448,6 +2526,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-dfc3ed1f1517d930",
+    "title": "Amazon shows Meta's Muse AI shopping agent the door",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/21/amazon-shows-metas-muse-ai-shopping-agent-the-door/5297777",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-4cadeed4f77cd31e",
     "title": "Amazon Blocked Meta’s Muse From Shopping. The Fight Is About Who Controls the Checkout",
     "url": "https://kingy.ai/blog/amazon-blocks-meta-muse-ai-shopping/",
@@ -2808,9 +2892,27 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-88b4669ce71e9c63",
+    "title": "Dive Newsdesk: BofA exec says industry must work through agentic commerce ‘complexity’",
+    "url": "https://www.bankingdive.com/news/bofa-walsh-money2020-payment-agentic-commerce-complexity/804367/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2238180357d9f788",
+    "title": "PwC and Stripe Launch Collaboration to Accelerate the Next Era of Agentic Commerce",
+    "url": "https://www.pwc.com/us/en/about-us/newsroom/press-releases/stripe-collaboration-next-era-agentic-commerce.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1f28e3676ee5bbfc",
     "title": "1688诚信通AI版上线 商家靠AI月销破10万元",
     "url": "https://36kr.com/p/3531317394431105",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f286c4673306de2c",
+    "title": "OpenAI and Stripe Launch In-Chat Shopping Feature for U.S. ChatGPT Users",
+    "url": "https://fintechnews.sg/119473/ai/checkout-in-chatgpt/",
     "status": "evidence_question"
   },
   {
