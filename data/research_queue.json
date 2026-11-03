@@ -1,5 +1,71 @@
 [
   {
+    "id": "radar-232e5fdf255b76ae",
+    "title": "AI Agents Could Control 5% of Cross-Border Payments. Who Controls Them?",
+    "url": "https://www.pymnts.com/news/payments-innovation/2026/ai-agents-could-control-5percent-of-cross-border-payments-who-controls-them/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b69e8c80b90df0ac",
+    "title": "Connecting AI Visits to Sales Could Sharpen Retail Investment",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/connecting-ai-visits-sales-could-sharpen-retail-investment/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-64fc7692128c1606",
+    "title": "Boost CEO Says AI Lets Payments Firms Build More In-House",
+    "url": "https://www.pymnts.com/opinion/2026/boost-ceo-says-ai-lets-payments-firms-build-more-in-house/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c0b7647ac32b554b",
+    "title": "Morrisons AI specialist Mohsen Ghasempour hits the storefloor as retailer embraces advanced technology",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/3/morrisons-ai-specialist-mohsen-ghasempour-hits-the-storefloor-as-retailer-embraces-advanced-technology",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-89003ac479bacafb",
+    "title": "US grocery retailer Seed to Table enlists Live Buzz Intelligence for AI powered immersive in-store experience",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/3/us-grocery-retailer-seed-to-table-enlists-live-buzz-intelligence-for-ai-powered-immersive-in-store-experience",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fddc44b4cf1f6744",
+    "title": "Mastercard Forms OpenAI and Tencent Partnerships to Drive Agentic Commerce",
+    "url": "https://www.pymnts.com/partnerships/2026/mastercard-forms-openai-and-tencent-partnerships-to-drive-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-bf90b0a24b0bd043",
+    "title": "AI Shopping: Get Your Products Found In Google & ChatGPT via @sejournal, @hethr_campbell",
+    "url": "https://www.searchenginejournal.com/ai-shopping-get-your-products-found-in-google-chatgpt-recap/594889/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d636a4e302c2b56c",
+    "title": "Google India tests virtual try-on and AI-powered shopping experience inside Google Pay",
+    "url": "https://www.mobigyaan.com/google-pay-ai-powered-shopping-discovery-india",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7ed222b5e13792a7",
+    "title": "Walmart Brings Sparky AI Shopping Assistant to Canada",
+    "url": "https://retail-insider.com/retail-insider/2026/11/walmart-brings-sparky-ai-shopping-assistant-to-canada/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b7daeed2780dfb1a",
+    "title": "Google Pay Introduces AI-Powered Fashion Shopping Feature In India: What It Can Do?",
+    "url": "https://in.mashable.com/tech/115701/google-pay-introduces-ai-powered-fashion-shopping-feature-in-india-what-it-can-do",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-145b3efa270cfc90",
+    "title": "Muse and Dots: the human-AI dyad enters commerce",
+    "url": "https://www.capgemini.com/insights/expert-perspectives/muse-and-dots-the-human-ai-dyad-enters-commerce/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-395eacd2496ca28b",
     "title": "Amazon Positions Alexa for Shopping to Counter Third-Party Agents",
     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-positions-alexa-for-shopping-to-counter-third-party-agents/",
@@ -18,9 +84,21 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-2932144daa7121f9",
+    "title": "Retailers shift from smart trolleys to smart stores as Instacart shutters Caper Carts business",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/2/retailers-shift-from-smart-trolleys-to-smart-stores-as-instacart-shutters-caper-carts-business",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d3a110fd55ca3ccf",
     "title": "一双鞋被买走背后，AI如何量化重构零售经营？",
     "url": "https://www.21jingji.com/article/20261102/herald/0dbdc4c892d3aaabcd71830925b9d49c.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3a8cf66b5099d31d",
+    "title": "Visa Survey: Two-Thirds of Americans Embrace AI for Holiday Shopping",
+    "url": "https://smallbiztrends.com/visa-survey-two-thirds-of-americans-embrace-ai-for-holiday-shopping/",
     "status": "evidence_question"
   },
   {
@@ -420,6 +498,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-7b78a0731c3b9481",
+    "title": "AI重构跨境支付 效率升级 风控革新 Agent商业时代新机遇",
+    "url": "https://eu.36kr.com/zh/p/4044900460337029",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-0e0af7c7fd5549af",
     "title": "今年的双11，你用AI购物了吗？",
     "url": "https://user.guancha.cn/main/content?id=1760641",
@@ -798,6 +882,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-4a31f38e67c76542",
+    "title": "Walmart Unveils Guardrails for AI-Led Shopping",
+    "url": "https://www.analyticsinsight.net/news/walmart-unveils-guardrails-for-ai-led-shopping",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-704201ef651ba6f8",
     "title": "Philippines e-payments growth sets stage for AI-driven purchases",
     "url": "https://www.philstar.com/the-freeman/cebu-business/2026/10/22/2564930/philippines-e-payments-growth-sets-stage-ai-driven-purchases/amp/",
@@ -825,6 +915,12 @@
     "id": "radar-1c5f83daf4c5b5dc",
     "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
     "url": "https://blog.cloudflare.com/webmcp-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a86b0180b0ebaea1",
+    "title": "Design a commerce platform for shoppers and AI agents",
+    "url": "https://experienceleague.adobe.com/en/docs/commerce/information-center/insights-and-guidance/architectural-foundations-agentic-commerce",
     "status": "evidence_question"
   },
   {
@@ -1119,6 +1215,12 @@
     "id": "radar-fd3613f95c4c9a99",
     "title": "1688全面接入AI工作台Accio，AI帮商家做生意的时代要来了",
     "url": "https://timeline.sohu.com/news/NHCqFWRLp4",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-864a3e287e7f455b",
+    "title": "20 秒一部 AI 短剧，43 万部短剧 “带货”+ 豆包入局电商 “问即买”，最受益是它？",
+    "url": "https://caifuhao.eastmoney.com/news/20261018222158122569370",
     "status": "evidence_question"
   },
   {
@@ -2901,6 +3003,12 @@
     "id": "radar-2238180357d9f788",
     "title": "PwC and Stripe Launch Collaboration to Accelerate the Next Era of Agentic Commerce",
     "url": "https://www.pwc.com/us/en/about-us/newsroom/press-releases/stripe-collaboration-next-era-agentic-commerce.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8a0949febed99576",
+    "title": "The State of Agentic AI: Disrupting Publishing and Reshaping Ecommerce",
+    "url": "https://www.akamai.com/blog/security/state-of-agentic-ai-disrupting-publishing-reshaping-ecommerce",
     "status": "evidence_question"
   },
   {
