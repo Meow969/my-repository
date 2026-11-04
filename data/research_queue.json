@@ -1,5 +1,83 @@
 [
   {
+    "id": "radar-e668fd85afd6bdfc",
+    "title": "Zalando launches AI-powered service to let shoppers buy products from other retailers",
+    "url": "https://retail-systems.com/rs/Zalando_Launches_AIpowered_Service_To_Let_Shoppers_Buy_Products_From_Other_Retailers.php%20.php",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-42308d55a6a7e16d",
+    "title": "US retailer Batteries Plus taps Profitmind's AI powered Awase product matching solution",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/4/us-retailer-batteries-plus-taps-profitminds-ai-powered-awase-product-matching-solution",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-32eeca95be365038",
+    "title": "Walmart’s Updated AI Agent Turns Pictures Into Shopping Lists",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/walmarts-updated-ai-agent-turns-pictures-into-shopping-lists/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9f0e30f38ffc6676",
+    "title": "Agentic Commerce Drives Shopify Revenue Up 32%",
+    "url": "https://www.pymnts.com/earnings/2026/shopify-revenue-jumps-32percent-as-agent-driven-commerce-surges/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c85d3f1600d27300",
+    "title": "AI is key as retailers look to build new playbook for an increasingly unpredictable future",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/4/ai-is-key-as-retailers-look-to-build-new-playbook-for-an-increasingly-unpredictable-future",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b5911fa9e2d41a65",
+    "title": "Shopify Inc (SHOP) (Q3 2026) Earnings Call Highlights: Revenue Jumps 32% as AI-Driven Commerce ...",
+    "url": "https://ca.finance.yahoo.com/news/shopify-inc-shop-q3-2026-210823609.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-173431d21721897d",
+    "title": "Google AI Mode Sends Most Product Links Back to Google Shopping",
+    "url": "https://almcorp.com/news/google-ai-mode-sends-most-product-links-google-shopping/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-db0e89c1a14c98c9",
+    "title": "美团曝光“下架外卖”谣言产业链；红果免费短剧用户数超越豆包｜未来商业早参",
+    "url": "https://www.mrjjxw.com/articles/2026-11-03/4636546.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6e94c6809963d35d",
+    "title": "Zalando Launches First AI Shopping Agent as Margins Slip in Q3 2026",
+    "url": "https://www.analyticsinsight.net/news/zalando-launches-first-ai-shopping-agent-as-margins-slip-in-q3-2026",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6f2889d81443a38b",
+    "title": "腾讯跨境支付平台 TenPay Global 与银联国际签署合作备忘录，首次在跨境汇款领域开展合作",
+    "url": "https://www.ithome.com/1/022/273.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-330cdd9a46e7e046",
+    "title": "Google Pay Tests AI-Powered Fashion and Lifestyle Shopping Experience in India",
+    "url": "https://www.nationpathindia.com/lifestyle/google-pay-ai-fashion-lifestyle-discovery-india",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ae867c5d0c854ce7",
+    "title": "小红书整治虚假人设，处置违规笔记1.9万余篇：利用AI冒充公众人物推荐商品、引导购物",
+    "url": "https://m.sohu.com/a/1097113694_121019331?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-aedde7201f9afc04",
+    "title": "AI重塑之下，2026年的黑五购物路径被改写，四大策略让你应对自如，不错过黑五",
+    "url": "https://www.globalpod.cn/article/5201",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-232e5fdf255b76ae",
     "title": "AI Agents Could Control 5% of Cross-Border Payments. Who Controls Them?",
     "url": "https://www.pymnts.com/news/payments-innovation/2026/ai-agents-could-control-5percent-of-cross-border-payments-who-controls-them/",
@@ -42,9 +120,39 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-8c0ffbf933d8e74f",
+    "title": "Agentic Commerce Statistics 2026: How Many Americans Let AI Shop for Them?",
+    "url": "https://www.clickpost.ai/en-us/blog/agentic-commerce-statistics",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f682c1dde0d97d1c",
+    "title": "57% of Google AI Mode product links stay inside Google Shopping",
+    "url": "https://www.marketscale.com/industries/marketing-tech/57-of-google-ai-mode-product-links-stay-inside-google-shopping",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-eb9c0cce537d2307",
+    "title": "Retailer Zalando launches AI shopping agent as margins squeezed",
+    "url": "https://www.channelnewsasia.com/business/retailer-zalando-launches-ai-shopping-agent-margins-squeezed-6516301",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d636a4e302c2b56c",
     "title": "Google India tests virtual try-on and AI-powered shopping experience inside Google Pay",
     "url": "https://www.mobigyaan.com/google-pay-ai-powered-shopping-discovery-india",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-305109b2198858eb",
+    "title": "Agentic ecommerce: five key risks for merchants",
+    "url": "https://thepaypers.com/fraud-and-fincrime/expert-views/agentic-ecommerce-five-things-a-new-report-reveals-about-risk",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c3bd2c638343346f",
+    "title": "UK shoppers and AI: the trust gap retailers must close",
+    "url": "https://www.independent.co.uk/news/business/business-reporter/shopping-ai-retailers-b2978607.html",
     "status": "evidence_question"
   },
   {
@@ -60,6 +168,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-61610c44e5e78561",
+    "title": "Amazon Shifts Strategy, Replaces Rufus With Alexa Shopping Agent 05/13/2026",
+    "url": "https://www.mediapost.com/publications/article/415053/amazon-shifts-strategy-replaces-rufus-with-alexa.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-145b3efa270cfc90",
     "title": "Muse and Dots: the human-AI dyad enters commerce",
     "url": "https://www.capgemini.com/insights/expert-perspectives/muse-and-dots-the-human-ai-dyad-enters-commerce/",
@@ -69,6 +183,12 @@
     "id": "radar-395eacd2496ca28b",
     "title": "Amazon Positions Alexa for Shopping to Counter Third-Party Agents",
     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-positions-alexa-for-shopping-to-counter-third-party-agents/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-bb399433bc9ba447",
+    "title": "首届AI双十一：电商平台以AI重构流量、入口与竞争格局",
+    "url": "https://www.huxiu.com/article/4902352.html",
     "status": "evidence_question"
   },
   {
@@ -87,6 +207,12 @@
     "id": "radar-2932144daa7121f9",
     "title": "Retailers shift from smart trolleys to smart stores as Instacart shutters Caper Carts business",
     "url": "https://retailtechinnovationhub.com/home/2026/11/2/retailers-shift-from-smart-trolleys-to-smart-stores-as-instacart-shutters-caper-carts-business",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1c9d3264eeca4b34",
+    "title": "Google Pay is getting an AI shopping feed in India. But why does a payment app need it?",
+    "url": "https://techlomedia.in/2026/11/google-pay-is-getting-an-ai-shopping-feed-in-india-but-why-does-a-payment-app-need-it-127681/",
     "status": "evidence_question"
   },
   {
@@ -348,9 +474,21 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-7bde7422c71a8076",
+    "title": "AI for E-commerce: A New Zealand Guide",
+    "url": "https://stripe.com/nz/resources/more/ai-for-ecommerce-in-new-zealand",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b0e34cf149b4a3d6",
     "title": "Visa Credentials Reach 5.2 Billion as Network Expands Into Agentic Commerce",
     "url": "https://www.pymnts.com/earnings/2026/visa-credentials-reach-5-2-billion-as-network-expands-into-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-391d4b68b786f500",
+    "title": "AI for E-commerce in Australia: How It Works",
+    "url": "https://stripe.com/nz/resources/more/ai-for-ecommerce-in-australia",
     "status": "evidence_question"
   },
   {
@@ -1056,6 +1194,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-d0a5de2e10c095d7",
+    "title": "Agentic Commerce: A Guide for German Businesses",
+    "url": "https://stripe.com/en-sg/resources/more/agentic-commerce-challenges-opportunities-germany",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-2a47a571f43e2609",
     "title": "Survey: Agentic Commerce Has a Payment Trust Problem",
     "url": "https://finance.yahoo.com/technology/ai/articles/survey-agentic-commerce-payment-trust-130200987.html",
@@ -1563,6 +1707,12 @@
     "id": "radar-8396f5067db98c19",
     "title": "IT Talk: “Agentic Commerce: Bigger Than the Checkout”, 15 October",
     "url": "https://dou.ua/calendar/58351/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-36be7aa52012b056",
+    "title": "American Express’s Hannah Bozian on What 176 Years of Payments Teach Us About AI Agents",
+    "url": "https://www.heyfuturenexus.com/posts/american-expresss-hannah-bozian-on-what-176-years-of-payments-teach-us-about-ai-agents",
     "status": "evidence_question"
   },
   {
@@ -2085,6 +2235,12 @@
     "id": "radar-4c5bc6a01680a659",
     "title": "Agentic Commerce Weekly Digest October 5, 2026",
     "url": "https://buttondown.com/embersilk/archive/agentic-commerce-weekly-digest-october-5-2026/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-be4fcbf951f7732a",
+    "title": "TikTok leans into agentic commerce ‘to take the operational load out of making purchase decisions’",
+    "url": "https://uk.themedialeader.com/tiktok-leans-into-agentic-commerce-to-take-the-operational-load-out-of-making-purchase-decisions/",
     "status": "evidence_question"
   },
   {
@@ -2985,6 +3141,12 @@
     "id": "daily-2025-12-07-c2d8cbc4137af7",
     "title": "How Alibaba Is Using AI to Reshape Its Ecommerce Empire",
     "url": "https://aimagazine.com/news/how-alibaba-is-using-ai-to-reshape-its-ecommerce-empire",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-037ba6a0aa39fea4",
+    "title": "This month in AI: The rise and risks of AI shopping agents",
+    "url": "https://www.weforum.org/stories/artificial-intelligence/ai-shopping-agents-energy-news/",
     "status": "evidence_question"
   },
   {
