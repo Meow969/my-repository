@@ -1,23 +1,25 @@
 [
   {
     "month": "2026-11",
-    "title": "交易授权 · 导购入口 · 即时购物",
-    "summary": "交易授权相关资料聚焦智能体结账、支付接入与用户授权；Walmart、Google 等相关资料聚焦对话搜索、商品发现与候选推荐；Instacart 等相关资料聚焦本地生活、即时购物与配送履约。重点追踪从推荐到成交时的授权和责任边界。",
-    "articleCount": 42,
+    "title": "交易授权 · 导购入口 · 商家接入",
+    "summary": "Google 等相关资料聚焦智能体结账、支付接入与用户授权；Walmart、Google 等相关资料聚焦对话搜索、商品发现与候选推荐；Shopify 等相关资料聚焦商品数据、商家工具与协议接入。重点追踪从推荐到成交时的授权和责任边界。",
+    "articleCount": 62,
     "topArticleIds": [
       "radar-e668fd85afd6bdfc",
       "radar-b69e8c80b90df0ac",
-      "radar-c0b7647ac32b554b",
-      "radar-bf90b0a24b0bd043",
+      "radar-ae0099dfde9ce0b6",
+      "radar-145b3efa270cfc90",
       "radar-bb399433bc9ba447"
     ],
     "summaryArticleIds": [
+      "radar-ae0099dfde9ce0b6",
+      "radar-1ae93dd15bf2b4ce",
+      "radar-cb7f076d92f61b3d",
       "radar-e668fd85afd6bdfc",
       "radar-42308d55a6a7e16d",
       "radar-32eeca95be365038",
       "radar-9f0e30f38ffc6676",
       "radar-c85d3f1600d27300",
-      "radar-6f2889d81443a38b",
       "radar-232e5fdf255b76ae",
       "radar-b69e8c80b90df0ac",
       "radar-64fc7692128c1606",
@@ -31,13 +33,13 @@
       "radar-2932144daa7121f9"
     ],
     "insight": "从推荐到成交时的授权和责任边界",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-10",
     "title": "交易授权 · 导购入口 · 商家接入",
     "summary": "Stripe、Visa 等相关资料聚焦智能体结账、支付接入与用户授权；TikTok、Walmart 等相关资料聚焦对话搜索、商品发现与候选推荐；美团、Google 等相关资料聚焦商品数据、商家工具与协议接入。重点追踪从推荐到成交时的授权和责任边界。",
-    "articleCount": 477,
+    "articleCount": 479,
     "topArticleIds": [
       "radar-7bde7422c71a8076",
       "radar-9eac1243bdd86fd9",
@@ -164,7 +166,7 @@
       "radar-bc70948c064d091d"
     ],
     "insight": "从推荐到成交时的授权和责任边界",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-09",
@@ -227,7 +229,7 @@
       "daily-2026-09-01-1531069370f45e"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-08",
@@ -252,7 +254,7 @@
       "radar-7206f355706e5624"
     ],
     "insight": "从推荐到成交时的授权和责任边界",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-07",
@@ -270,7 +272,7 @@
       "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-06",
@@ -296,7 +298,7 @@
       "radar-71d1ca9ce3a38ac8"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-05",
@@ -327,7 +329,7 @@
       "daily-2026-05-13-3c134761dade73"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-04",
@@ -358,7 +360,7 @@
       "daily-2026-04-03-d41339b299519c"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-03",
@@ -390,7 +392,7 @@
       "radar-9d5e71366512a21f"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-02",
@@ -415,7 +417,7 @@
       "radar-3a153475d2db22ac"
     ],
     "insight": "从推荐到成交时的授权和责任边界",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2026-01",
@@ -440,7 +442,7 @@
       "radar-f8ec0cfe40172bb1"
     ],
     "insight": "从推荐到成交时的授权和责任边界",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2025-12",
@@ -468,7 +470,7 @@
       "radar-c912f7493061d7e8"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2025-11",
@@ -493,7 +495,7 @@
       "radar-4f772b1c3d659f00"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2025-10",
@@ -524,7 +526,7 @@
       "radar-3ddfa0f4b06d5097"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   },
   {
     "month": "2025-09",
@@ -551,6 +553,6 @@
       "radar-50d25f2229364ddd"
     ],
     "insight": "入口变化能否缩短真实购物决策",
-    "updatedAt": "2026-11-04"
+    "updatedAt": "2026-11-05"
   }
 ]

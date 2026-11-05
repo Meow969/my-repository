@@ -1,5 +1,53 @@
 [
   {
+    "id": "radar-ae0099dfde9ce0b6",
+    "title": "Brits set for record £28.52 billion festive online spend amid surge in AI driven shopping",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/5/brits-set-for-record-2852-billion-festive-online-spend-amid-surge-in-ai-driven-shopping",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1ae93dd15bf2b4ce",
+    "title": "Google Brings UCP Direct Checkout To AI Mode In Canada via @sejournal, @brookeosmundson",
+    "url": "https://www.searchenginejournal.com/google-brings-ucp-direct-checkout-to-ai-mode-in-canada/595882/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-cb7f076d92f61b3d",
+    "title": "Microsoft Clarity Helps Merchants Welcome AI Shopping Agents",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-clarity-helps-merchants-welcome-ai-shopping-agents/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-dc523b0310773b95",
+    "title": "Walmart adds options to its Sparky AI agent",
+    "url": "https://www.arkansasonline.com/news/2026/nov/04/walmart-adds-options-to-its-sparky-ai-agent/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9fb042f9acfe5234",
+    "title": "The Math of AI: 10 Formulas for Winning as a Brand in AI-Guided Commerce",
+    "url": "https://www.circana.com/post/the-math-of-ai-10-formulas-for-winning-as-a-brand-in-ai-guided-commerce",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-170d14b62938981b",
+    "title": "Google launches AI shopping experience in Canada and enables direct purchase from Gemini and the search engine",
+    "url": "https://arabcanadanews.ca/en/article/google-launches-ai-shopping-experience-in-canada-and-enables-direct-purchase-from-gemini-and-the-search-engine",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4ff48e337b428c51",
+    "title": "国行苹果AI首批接入得物，手机拍摄可直接搜索商品",
+    "url": "https://www.bjnews.com.cn/detail/1793797653129303.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-1ba2047163ae383d",
+    "title": "‘The answer is no’: Amazon's Jassy dismisses immediate threat from outside AI shopping agents as Zuckerberg plots transaction fees, Google admits AI search monetisation gap",
+    "url": "https://www.mi-3.com.au/05-11-2026/answer-no-amazons-jassy-dismisses-immediate-threat-outside-ai-shopping-agents-zuckerberg",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-e668fd85afd6bdfc",
     "title": "Zalando launches AI-powered service to let shoppers buy products from other retailers",
     "url": "https://retail-systems.com/rs/Zalando_Launches_AIpowered_Service_To_Let_Shoppers_Buy_Products_From_Other_Retailers.php%20.php",
@@ -36,9 +84,39 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-a7b067ca27322d1c",
+    "title": "How to optimize for ChatGPT shopping",
+    "url": "https://www.semrush.com/blog/optimize-for-chatgpt-shopping/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-173431d21721897d",
     "title": "Google AI Mode Sends Most Product Links Back to Google Shopping",
     "url": "https://almcorp.com/news/google-ai-mode-sends-most-product-links-google-shopping/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-327f6918f6f8ecb2",
+    "title": "Payment threats and fraud trends impacting agentic A2A payments",
+    "url": "https://thepaypers.com/payments/interviews/payment-threats-and-fraud-trends-impacting-agentic-a2a-payments",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-74f27de1c8b42fe9",
+    "title": "Analysis-AI shopping agents could threaten Amazon and Walmart’s ad business",
+    "url": "https://wtvbam.com/2026/11/04/analysis-ai-shopping-agents-could-threaten-amazon-and-walmarts-ad-business/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4f0bf23efffeaaa7",
+    "title": "Digital Retailers Lead AI Commerce as Consumer Brands Lag, Benchmark Shows",
+    "url": "https://retailnews.asia/digital-retailers-lead-ai-commerce-as-consumer-brands-lag-benchmark-shows",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f9792daaeb0024ee",
+    "title": "Payment Asia and G+D China sign MoU on wallets and agentic payments",
+    "url": "https://thepaypers.com/payments/news/payment-asia-and-gd-china-sign-mou-on-wallets-and-agentic-payments",
     "status": "evidence_question"
   },
   {
@@ -54,15 +132,45 @@
     "status": "evidence_question"
   },
   {
-    "id": "radar-6f2889d81443a38b",
-    "title": "腾讯跨境支付平台 TenPay Global 与银联国际签署合作备忘录，首次在跨境汇款领域开展合作",
-    "url": "https://www.ithome.com/1/022/273.htm",
+    "id": "radar-3aa5ccac129e9c26",
+    "title": "Walmart brings Sparky AI tool to Canada",
+    "url": "https://hardlines.ca/gp_dailynews/walmart-brings-sparky-ai-tool-to-canada/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9bd07835fe4abb33",
+    "title": "Google launches AI-based shopping in Canada in race to dominate e-commerce",
+    "url": "https://www.cbc.ca/news/business/google-ai-shopping-9.7408001",
     "status": "evidence_question"
   },
   {
     "id": "radar-330cdd9a46e7e046",
     "title": "Google Pay Tests AI-Powered Fashion and Lifestyle Shopping Experience in India",
     "url": "https://www.nationpathindia.com/lifestyle/google-pay-ai-fashion-lifestyle-discovery-india",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-254b438f6c3275a5",
+    "title": "Bahrain’s CrediMax Partners with Mastercard to Explore Agentic Commerce",
+    "url": "https://techafricanews.com/2026/11/04/bahrain-credimax-mastercard-agentic-commerce-partnership/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d7c80a77fadb690a",
+    "title": "Google expands AI-powered shopping and direct checkout to Canadian consumers",
+    "url": "https://retail-insider.com/retail-insider/2026/11/google-expands-ai-powered-shopping-and-direct-checkout-to-canadian-consumers/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-766caa2fd680ae7d",
+    "title": "Google the latest tech company to expand shopping through AI agents in Canada",
+    "url": "https://www.theglobeandmail.com/business/article-google-gemini-ai-shopping-instant-checkout-feature/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6ef6b2fa4ec0d58b",
+    "title": "AI takes online shopping beyond personalised recommendations",
+    "url": "https://www.awazthevoice.in/business-news/ai-takes-online-shopping-beyond-personalised-recommendations-70419.html",
     "status": "evidence_question"
   },
   {
@@ -204,6 +312,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-7e74080e8a8ad072",
+    "title": "“双11”验收电商AI基建成效",
+    "url": "https://xinwen.bjd.com.cn/content/s6ae91dabe4b039a8e2f31b7d.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-2932144daa7121f9",
     "title": "Retailers shift from smart trolleys to smart stores as Instacart shutters Caper Carts business",
     "url": "https://retailtechinnovationhub.com/home/2026/11/2/retailers-shift-from-smart-trolleys-to-smart-stores-as-instacart-shutters-caper-carts-business",
@@ -213,6 +327,12 @@
     "id": "radar-1c9d3264eeca4b34",
     "title": "Google Pay is getting an AI shopping feed in India. But why does a payment app need it?",
     "url": "https://techlomedia.in/2026/11/google-pay-is-getting-an-ai-shopping-feed-in-india-but-why-does-a-payment-app-need-it-127681/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-cbec03ab31674e57",
+    "title": "1688接入Accio后，AI电商走到了哪一步？｜专访·观察",
+    "url": "https://huacheng.gz-cmc.com/pages/2026/11/02/528b26efec3d4ec29a8d21143a1b0f69.html",
     "status": "evidence_question"
   },
   {
@@ -2148,6 +2268,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-08c137c8f7272bcc",
+    "title": "实测6款电商AI生图工具：栖影AI、美图设计室、通义万相横评",
+    "url": "https://caifuhao.eastmoney.com/news/20261010110404521915460",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-a2377df6290cdfac",
     "title": "AI Shopping Agents Could Reshape Retail Discovery for Amazon, Costco and TJX",
     "url": "https://www.tokenpost.com/news/technology/29062",
@@ -2205,6 +2331,12 @@
     "id": "radar-fbfe2c20521a7be4",
     "title": "TikTok AI Expands Search, Creative, Merchant Ad Formats 10/06/2026",
     "url": "https://www.mediapost.com/publications/article/418523/tiktok-ai-expands-search-creative-merchant-ad-fo.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7b5361246e425e37",
+    "title": "𝐓𝐢𝐤𝐓𝐨𝐤 𝐭𝐞𝐬𝐭𝐬 𝐀𝐈 𝐬𝐡𝐨𝐩𝐩𝐢𝐧𝐠 𝐚𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐚𝐧𝐝 𝐨𝐧𝐞-𝐜𝐥𝐢𝐜𝐤 𝐜𝐡𝐞𝐜𝐤𝐨𝐮𝐭 𝐢𝐧𝐬𝐢𝐝𝐞 𝐭𝐡𝐞 𝐚𝐩𝐩 TikTok is testing an AI shopping assistant and native one-click checkout that let advertisers move consumers from product discovery towards a purchas",
+    "url": "https://www.linkedin.com/posts/fintech-association-of-kenya_%F0%9D%90%93%F0%9D%90%A2%F0%9D%90%A4%F0%9D%90%93%F0%9D%90%A8%F0%9D%90%A4-%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%80%F0%9D%90%88-%F0%9D%90%AC%F0%9D%90%A1%F0%9D%90%A8%F0%9D%90%A9%F0%9D%90%A9%F0%9D%90%A2-activity-7513186938376400896-Vw1R",
     "status": "evidence_question"
   },
   {
@@ -3138,6 +3270,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-355447b6baebfe60",
+    "title": "AI电商激烈搏杀，亚马逊屏蔽ChatGPT",
+    "url": "https://36kr.com/p/3610416172647426",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a079a510e9e06701",
+    "title": "AI集体下场做电商，颠覆淘宝的可能是豆包手机？",
+    "url": "https://36kr.com/p/3591941747966726",
+    "status": "evidence_question"
+  },
+  {
     "id": "daily-2025-12-07-c2d8cbc4137af7",
     "title": "How Alibaba Is Using AI to Reshape Its Ecommerce Empire",
     "url": "https://aimagazine.com/news/how-alibaba-is-using-ai-to-reshape-its-ecommerce-empire",
@@ -3147,6 +3291,12 @@
     "id": "radar-037ba6a0aa39fea4",
     "title": "This month in AI: The rise and risks of AI shopping agents",
     "url": "https://www.weforum.org/stories/artificial-intelligence/ai-shopping-agents-energy-news/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-75f75f449122f3bb",
+    "title": "AI car-shopping tools gaining ground, but most consumers still want dealer input",
+    "url": "https://www.autoremarketing.com/ar/analysis/ai-car-shopping-tools-gaining-ground-but-most-consumers-still-want-dealer-input/",
     "status": "evidence_question"
   },
   {
