@@ -1,5 +1,59 @@
 [
   {
+    "id": "radar-b14bafecb2d26ba5",
+    "title": "Affirm CEO Expects AI Shopping Agents to Favor Interest-Free Installments",
+    "url": "https://www.pymnts.com/earnings/2026/affirm-ceo-expects-ai-shopping-agents-to-favor-interest-free-installments/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-72e01e1d2e564ab2",
+    "title": "Agentic commerce startup firmly announces $15 million Series A led by Squarepoint Capital",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/6/agentic-commerce-startup-firmly-announces-15-million-series-a-led-by-squarepoint-capital",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d4a97ff6e783dc96",
+    "title": "Visa Finds AI Models Fail 43% of Shopping Test Runs",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/visa-finds-ai-models-fail-43percent-shopping-test-runs/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-77163d41fa5aa836",
+    "title": "AI driven shopping powers record festive online spend: the retail technology week in numbers",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/6/ai-driven-shopping-powers-record-festive-online-spend-the-retail-technology-week-in-numbers",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-85f24426a1105262",
+    "title": "Retail technology innovation of the week: Duvo helps Morrisons ramp up AI push across its business",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/6/retail-technology-innovation-of-the-week-duvo-helps-morrisons-ramp-up-ai-push-across-its-business",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-193ec45b0c3b9ec6",
+    "title": "Visa’s AI shopping benchmark: Google and Meta top, Claude third",
+    "url": "https://thenextweb.com/news/visa-ai-shopping-benchmark-agentic-commerce-ai-models-fail",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a4c1ef90b65be8ab",
+    "title": "Visa: AI Models Failed Nearly Half of Tests to Make Suitable Shopping Decisions",
+    "url": "https://fintechnews.sg/140652/ai/visa-ai-shopping-agents-fail-tests/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-746735b03e1974e9",
+    "title": "豆包参与电商双11上线新功能，打通用户购物与商家经营链路",
+    "url": "https://www.pingwest.com/a/319317",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-09553e8b0ac0d2e4",
+    "title": "Visa Preps Agentic Commerce Benchmark And Forecasts a 4.5% Holiday Spending Jump",
+    "url": "https://www.digitaltransactions.net/visa-preps-agentic-commerce-benchmark-and-forecasts-a-4-5-holiday-spending-jump/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-ae0099dfde9ce0b6",
     "title": "Brits set for record £28.52 billion festive online spend amid surge in AI driven shopping",
     "url": "https://retailtechinnovationhub.com/home/2026/11/5/brits-set-for-record-2852-billion-festive-online-spend-amid-surge-in-ai-driven-shopping",
@@ -30,9 +84,45 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-ed938ab53d375a26",
+    "title": "Agentic Commerce Optimization: Adobe Forecasts 130% AI Shopping Traffic Growth; Google Launches Universal Cart",
+    "url": "https://finance.yahoo.com/technology/ai/articles/agentic-commerce-optimization-adobe-forecasts-153000869.html?.tsrc=rss",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-170d14b62938981b",
     "title": "Google launches AI shopping experience in Canada and enables direct purchase from Gemini and the search engine",
     "url": "https://arabcanadanews.ca/en/article/google-launches-ai-shopping-experience-in-canada-and-enables-direct-purchase-from-gemini-and-the-search-engine",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7dd5389c0ab961ef",
+    "title": "Visa: AI Shopping Agents Fail 42.8% of Runs, Often Still Buy",
+    "url": "https://fourweekmba.com/ai-visa-ai-shopping-agents-fail-42-8-of-runs-often-still-buy/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-329346aeac36676b",
+    "title": "CrediMax, Mastercard explore agentic commerce in Bahrain",
+    "url": "https://thepaypers.com/payments/news/credimax-partners-with-mastercard-on-agentic-commerce-in-bahrain",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6d9246a94d64d9e9",
+    "title": "Google Brings Its AI Shopping Agents to Canada",
+    "url": "https://www.readthepeak.com/p/google-brings-its-ai-shopping-agents-to-canada",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f48705f806b2c1c5",
+    "title": "Shopify Highlights AI-Assisted Shopping as New Commerce Gateway",
+    "url": "https://www.rswebsols.com/news/shopify-claims-ai-assisted-shopping-is-the-latest-gateway-to-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-db0f1dad6b50a62e",
+    "title": "Merchant group joins agentic commerce effort",
+    "url": "https://thepaypers.com/fraud-and-fincrime/news/secure-technology-alliance-and-mag-partner-on-agentic-commerce",
     "status": "evidence_question"
   },
   {
@@ -45,6 +135,12 @@
     "id": "radar-1ba2047163ae383d",
     "title": "‘The answer is no’: Amazon's Jassy dismisses immediate threat from outside AI shopping agents as Zuckerberg plots transaction fees, Google admits AI search monetisation gap",
     "url": "https://www.mi-3.com.au/05-11-2026/answer-no-amazons-jassy-dismisses-immediate-threat-outside-ai-shopping-agents-zuckerberg",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8005340bb01054ea",
+    "title": "A new way to shop: Introducing a more intuitive, agentic shopping experience for consumers and retailers in Canada",
+    "url": "https://blog.google/intl/en-ca/products/explore-get-answers/a-new-way-to-shop-introducing-a-more-intuitive-agentic-shopping-experience-for-consumers-and-retailers-in-canada/",
     "status": "evidence_question"
   },
   {
@@ -3273,6 +3369,12 @@
     "id": "radar-355447b6baebfe60",
     "title": "AI电商激烈搏杀，亚马逊屏蔽ChatGPT",
     "url": "https://36kr.com/p/3610416172647426",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-454428b83c64bb67",
+    "title": "AI in Retail: 10 Use Cases and an Implementation Guide (2026)",
+    "url": "https://www.shopify.com/enterprise/blog/ai-in-retail",
     "status": "evidence_question"
   },
   {
