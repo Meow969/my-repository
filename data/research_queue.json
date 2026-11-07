@@ -1,5 +1,41 @@
 [
   {
+    "id": "radar-388d96f2de8df6ba",
+    "title": "60% of UK adults would drop an AI shopping agent after one mistake, ACI finds",
+    "url": "https://ppc.land/60-of-uk-adults-would-drop-an-ai-shopping-agent-after-one-mistake-aci-finds/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d6ce33ff47eba6d3",
+    "title": "Shopify (TSX:SHOP) Bets Big on AI Shopping: Can Agentic Commerce Deliver?",
+    "url": "https://kalkinemedia.com/ca/stocks/technology/shopify-tsxshop-bets-big-on-ai-shopping-can-agentic-commerce-deliver",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d6af2b27984256cf",
+    "title": "双十一把购物交给了AI们，结果居然集体翻车？",
+    "url": "https://finance.sina.com.cn/jjxw/2026-11-07/doc-inixwnya8219477.shtml",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-051ab73dfe1f25c7",
+    "title": "Amazon’s AI shopping agent moves into text messages, taking orders and tracking prices",
+    "url": "https://www.geekwire.com/2026/amazons-ai-shopping-agent-moves-into-text-messages-taking-orders-and-tracking-prices/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e479cb7353516633",
+    "title": "Why Is Visa (V) Building AI Shopping Standards And Six Singapore Hubs?",
+    "url": "https://sg.finance.yahoo.com/news/why-visa-v-building-ai-181300147.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-95b0b7d0c572de16",
+    "title": "Walmart can now turn a child's Santa letter into ready-to-go shopping cart within seconds thanks to 'Sparky' switch-up",
+    "url": "https://www.the-sun.com/money/17269853/walmart-sparky-updates-santa-letter-online-shopping-cart/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b14bafecb2d26ba5",
     "title": "Affirm CEO Expects AI Shopping Agents to Favor Interest-Free Installments",
     "url": "https://www.pymnts.com/earnings/2026/affirm-ceo-expects-ai-shopping-agents-to-favor-interest-free-installments/",
@@ -42,6 +78,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-c3aa95ea14b4409c",
+    "title": "Walmart opens checkout to AI shopping agents while Amazon keeps them out",
+    "url": "https://startupfortune.com/walmart-opens-checkout-to-ai-shopping-agents-while-amazon-keeps-them-out/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-746735b03e1974e9",
     "title": "豆包参与电商双11上线新功能，打通用户购物与商家经营链路",
     "url": "https://www.pingwest.com/a/319317",
@@ -51,6 +93,24 @@
     "id": "radar-09553e8b0ac0d2e4",
     "title": "Visa Preps Agentic Commerce Benchmark And Forecasts a 4.5% Holiday Spending Jump",
     "url": "https://www.digitaltransactions.net/visa-preps-agentic-commerce-benchmark-and-forecasts-a-4-5-holiday-spending-jump/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f3d3e4beeb0ee1dc",
+    "title": "Visa launches benchmark for AI shopping agents",
+    "url": "https://thepaypers.com/payments/news/visa-benchmark-tests-how-well-ai-agents-handle-shopping-tasks",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ddf7f1450aeea0c3",
+    "title": "ChatGPT Shopping Runs on Raw HTML Now",
+    "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/chatgpt-shopping-runs-on-raw-html-now",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9e877a88817dfc25",
+    "title": "Sparky, Walmart’s AI agent, gears up for the holidays",
+    "url": "https://massmarketretailers.com/sparky-walmarts-ai-agent-gears-up-for-the-holidays/",
     "status": "evidence_question"
   },
   {
@@ -99,6 +159,12 @@
     "id": "radar-7dd5389c0ab961ef",
     "title": "Visa: AI Shopping Agents Fail 42.8% of Runs, Often Still Buy",
     "url": "https://fourweekmba.com/ai-visa-ai-shopping-agents-fail-42-8-of-runs-often-still-buy/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0f1fa12aa84d0c5c",
+    "title": "AI Agents Fail Nearly Half of Shopping Tasks in Visa Test",
+    "url": "https://forklog.com/en/ai-agents-fail-nearly-half-of-shopping-tasks-in-visa-test/",
     "status": "evidence_question"
   },
   {
@@ -330,6 +396,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-cc32b0b6f67da923",
+    "title": "SHOP Q3 deep dive: AI-driven commerce and offline retail expansion shape outlook",
+    "url": "https://www.theglobeandmail.com/investing/markets/stocks/SHOP/pressreleases/8650481/shop-q3-deep-dive-ai-driven-commerce-and-offline-retail-expansion-shape-outlook/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-f682c1dde0d97d1c",
     "title": "57% of Google AI Mode product links stay inside Google Shopping",
     "url": "https://www.marketscale.com/industries/marketing-tech/57-of-google-ai-mode-product-links-stay-inside-google-shopping",
@@ -393,6 +465,12 @@
     "id": "radar-bb399433bc9ba447",
     "title": "首届AI双十一：电商平台以AI重构流量、入口与竞争格局",
     "url": "https://www.huxiu.com/article/4902352.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-907efa80fb0ca097",
+    "title": "Can Walmart's Expanded Sparky AI Boost Holiday Shopping and Sales?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/walmarts-expanded-sparky-ai-boost-125700387.html",
     "status": "evidence_question"
   },
   {
@@ -1488,6 +1566,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-9e7293709c70224b",
+    "title": "TikTok Turns to Shoplazza to Power Agentic Commerce Offering",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/tiktok-turns-to-shoplazza-to-power-agentic-commerce-offering/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d3d1e2cc7207b864",
     "title": "Your retail network isn’t ready for AI. Here’s why.",
     "url": "https://www.retaildive.com/spons/your-retail-network-isnt-ready-for-ai-heres-why/832985/",
@@ -2355,6 +2439,12 @@
     "id": "radar-92ed7bff1c5e853e",
     "title": "Five Products Called ‘Agentic Checkout.’ Five Different Loss Placements.",
     "url": "https://forkast.news/five-products-called-agentic-checkout-five-different-loss-placements/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5d94c91c56bb72b5",
+    "title": "实测｜豆包可以缴水电燃气费了！从对话到支付，争夺AI交易入口",
+    "url": "http://www.eeo.com.cn/2026/1011/1061137.shtml",
     "status": "evidence_question"
   },
   {
@@ -3360,6 +3450,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-7e082d871f7a3f15",
+    "title": "AI不再\"单纯\"：Chat GPT终向广告妥协，国内AI瞄准“电商导流”",
+    "url": "https://www.time-weekly.com/post/327157",
+    "status": "evidence_question"
+  },
+  {
     "id": "daily-2026-01-12-402b4760d23e51",
     "title": "Walmart teams up with Google’s Gemini for AI-assisted shopping",
     "url": "https://www.retaildive.com/news/walmart-google-gemini-ai-assisted-shopping/809307/",
@@ -3375,6 +3471,30 @@
     "id": "radar-454428b83c64bb67",
     "title": "AI in Retail: 10 Use Cases and an Implementation Guide (2026)",
     "url": "https://www.shopify.com/enterprise/blog/ai-in-retail",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f7b8366cd73bba28",
+    "title": "A look at retail’s year of AI news",
+    "url": "https://www.retaildive.com/news/a-look-at-retails-year-of-ai-news/807946/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-bf5e9917094aa103",
+    "title": "Fiserv Collaborates with Visa to Accelerate Agentic Commerce",
+    "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-collaborates-visa-accelerate-agentic-commerce",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ab495c09103aace7",
+    "title": "Fiserv and Mastercard Partner to Advance Trusted Agentic Commerce For Merchants",
+    "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-and-mastercard-partner-advance-trusted-agentic-commerce",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e8960d52fb2213df",
+    "title": "Price.com Launches ‘Buy with AI, ’ an Agentic Shopping Experience With Built-In Savings Across the Open Internet",
+    "url": "https://www.businesswire.com/news/home/20251222038687/en/Price.com-Launches-Buy-with-AI-an-Agentic-Shopping-Experience-With-Built-In-Savings-Across-the-Open-Internet",
     "status": "evidence_question"
   },
   {
