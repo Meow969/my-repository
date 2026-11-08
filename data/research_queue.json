@@ -1,5 +1,17 @@
 [
   {
+    "id": "radar-7cc9e4b122853263",
+    "title": "Agentic Commerce, AI in Retail, and the Future of Shopping",
+    "url": "https://stripe.com/lp/agentic-commerce-retail",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-dff507a56e5020e9",
+    "title": "JPMorgan and Mastercard back Seattle startup Firmly’s bet on AI shopping agents",
+    "url": "https://www.geekwire.com/2026/jpmorgan-and-mastercard-back-seattle-startup-firmlys-bet-on-ai-shopping-agents/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-388d96f2de8df6ba",
     "title": "60% of UK adults would drop an AI shopping agent after one mistake, ACI finds",
     "url": "https://ppc.land/60-of-uk-adults-would-drop-an-ai-shopping-agent-after-one-mistake-aci-finds/",
@@ -9,6 +21,12 @@
     "id": "radar-d6ce33ff47eba6d3",
     "title": "Shopify (TSX:SHOP) Bets Big on AI Shopping: Can Agentic Commerce Deliver?",
     "url": "https://kalkinemedia.com/ca/stocks/technology/shopify-tsxshop-bets-big-on-ai-shopping-can-agentic-commerce-deliver",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-016e6e57330174f5",
+    "title": "AI Shopping Agents Fail 42.8%; Claude Bank Link Is Read-Only",
+    "url": "https://fourweekmba.com/ai-shopping-agents-fail-42-8-claude-bank-link-is-read-only/",
     "status": "evidence_question"
   },
   {
@@ -27,6 +45,12 @@
     "id": "radar-e479cb7353516633",
     "title": "Why Is Visa (V) Building AI Shopping Standards And Six Singapore Hubs?",
     "url": "https://sg.finance.yahoo.com/news/why-visa-v-building-ai-181300147.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6736152bf14b3ce0",
+    "title": "Visa Unveils Groundbreaking AI Shopping Benchmark; 43% of Tests Fail",
+    "url": "https://smallbiztrends.com/visa-unveils-groundbreaking-ai-shopping-benchmark-43-of-tests-fail/",
     "status": "evidence_question"
   },
   {
@@ -108,6 +132,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-6a86e7b72fb31e86",
+    "title": "firmly Raises $15M Series A for Agentic Commerce [2026]",
+    "url": "https://shattered.io/firmly-15m-series-a-squarepoint-agentic-commerce-ask-agent-2026/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-9e877a88817dfc25",
     "title": "Sparky, Walmart’s AI agent, gears up for the holidays",
     "url": "https://massmarketretailers.com/sparky-walmarts-ai-agent-gears-up-for-the-holidays/",
@@ -183,6 +213,12 @@
     "id": "radar-f48705f806b2c1c5",
     "title": "Shopify Highlights AI-Assisted Shopping as New Commerce Gateway",
     "url": "https://www.rswebsols.com/news/shopify-claims-ai-assisted-shopping-is-the-latest-gateway-to-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-215f140e0e1f7889",
+    "title": "得物接入苹果AI视觉智能功能成首家电商平台",
+    "url": "https://t.cj.sina.com.cn/articles/view/1887344341/707e96d504001xk3i",
     "status": "evidence_question"
   },
   {
@@ -2298,6 +2334,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-b46388607ecf70f7",
+    "title": "Shopify AI 购物代理如今不仅能浏览，还能下单",
+    "url": "https://www.remio.ai/zh/post/shopify-ai-shopping-agents-can-now-buy-not-just-browse-zh",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-fae36143c24aeb40",
     "title": "千问办公杀入电商经营！3 万开店成本压至几百元，一个 Agent 接管多平台生意",
     "url": "https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU",
@@ -2655,6 +2697,12 @@
     "id": "radar-acc0f26d0fb1cab2",
     "title": "ChatGPT just borrowed one of Google Shopping's best tricks",
     "url": "https://www.androidauthority.com/chatgpt-virtual-try-on-shopping-feature-3718219/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5490b730cc491f3f",
+    "title": "Real-Time Retail Intelligence: Building E-Commerce Recommendations with Lakebase and AI Search on Databricks",
+    "url": "https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search",
     "status": "evidence_question"
   },
   {
@@ -3456,6 +3504,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-6bbbf7ffd2d9848f",
+    "title": "谷歌坐不住了，联手Shopify，杀入AI电商",
+    "url": "https://36kr.com/p/3650290410250372",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8f47aef6288e2be8",
+    "title": "AI点外卖、订机票！阿里千问官宣，全面接入淘宝、支付宝、高德、飞猪",
+    "url": "https://www.stcn.com/article/detail/3594486.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "daily-2026-01-12-402b4760d23e51",
     "title": "Walmart teams up with Google’s Gemini for AI-assisted shopping",
     "url": "https://www.retaildive.com/news/walmart-google-gemini-ai-assisted-shopping/809307/",
@@ -3495,6 +3555,12 @@
     "id": "radar-e8960d52fb2213df",
     "title": "Price.com Launches ‘Buy with AI, ’ an Agentic Shopping Experience With Built-In Savings Across the Open Internet",
     "url": "https://www.businesswire.com/news/home/20251222038687/en/Price.com-Launches-Buy-with-AI-an-Agentic-Shopping-Experience-With-Built-In-Savings-Across-the-Open-Internet",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ce9be4231e157f7a",
+    "title": "I Asked an AI Shopping App for the Best Winter Boots—Here Are 15 Pairs It Told Me to Style With Jeans",
+    "url": "https://www.whowhatwear.com/fashion/shopping/daydream-ai-shopping-app-best-boots-with-jeans-2025",
     "status": "evidence_question"
   },
   {
