@@ -1,5 +1,41 @@
 [
   {
+    "id": "radar-f286c19b7d989f08",
+    "title": "AI shopping boom puts e-commerce stocks in the spotlight",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/10/ai-shopping-boom-puts-e-commerce-stocks-in-the-spotlight",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9cb064a175c2aee1",
+    "title": "日本肯德基用 AI 制作商品宣传图，引发网友质疑",
+    "url": "https://www.ithome.com/1/024/873.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4d6475a863e4c601",
+    "title": "Qoo10 Japan shoppers able to try on colour contact lenses and scan their skin with Perfect Corp. technology",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/10/qoo10-japan-shoppers-able-to-try-on-colour-contact-lenses-and-scan-their-skin-with-perfect-corp-technology",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-518f6861940d10ec",
+    "title": "灵光接入什么值得买，AI购物有了新玩法",
+    "url": "https://hznews.hangzhou.com.cn/jingji/content/2026-11/10/content_9369776.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-788dba92f2eb7c3f",
+    "title": "点外卖、打网约车真实手机号将隐藏，阿里云、腾讯云等首批十家企业获批 700 专用码号试点",
+    "url": "https://www.ithome.com/1/024/870.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d090d00ce651a6ee",
+    "title": "Business Development Manager, Agentic Commerce",
+    "url": "https://stripe.com/careers/listing/business-development-manager-agentic-commerce/7524334?__previewId=legalqa74924&__vid=ce21953c-8265-431a-ae77-d5afe13ac54d",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-3b00692ac6868832",
     "title": "J.Crew brings Stripe in to technology stack as it boosts BNPL options and makes agentic commerce move",
     "url": "https://retailtechinnovationhub.com/home/2026/11/9/jcrew-brings-stripe-in-to-technology-stack-as-it-boosts-bnpl-options-and-makes-agentic-commerce-move",
@@ -12,9 +48,33 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-9a9e411f783e39e5",
+    "title": "Visa Benchmark Exposes Reliability Gap in AI Shopping",
+    "url": "https://paymentsindustryintelligence.com/visa-benchmark-exposes-reliability-gap-in-ai-shopping/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-3c640df8142565fe",
     "title": "第八届世界浙商大会举行AI专题活动支付宝分享AI办事实践",
     "url": "https://www.leiphone.com/category/industrynews/41xBwd2JagAdaaxT.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e5afa3d4e99f031a",
+    "title": "Data Doctors: Can I trust AI shopping agents?",
+    "url": "https://wtop.com/business-money/2026/11/column-can-i-trust-ai-shopping-agents/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ac5009d470926a9c",
+    "title": "淘宝商家怎么做GEO优化？2026年AI搜索时代的店铺流量新路径",
+    "url": "https://baby.ifeng.com/c/8xuX7vTPfWo",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0ff8a1061c61d311",
+    "title": "AI shopping agents are taking over. Who do they work for?",
+    "url": "https://qz.com/ai-shopping-agents-consumer-privacy-trust",
     "status": "evidence_question"
   },
   {
@@ -27,6 +87,12 @@
     "id": "radar-dff507a56e5020e9",
     "title": "JPMorgan and Mastercard back Seattle startup Firmly’s bet on AI shopping agents",
     "url": "https://www.geekwire.com/2026/jpmorgan-and-mastercard-back-seattle-startup-firmlys-bet-on-ai-shopping-agents/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-07516fa2f86cb86c",
+    "title": "What AI Shopping Assistants Mean for Amazon Listings",
+    "url": "https://techbullion.com/what-ai-shopping-assistants-mean-for-amazon-listings/",
     "status": "evidence_question"
   },
   {
@@ -240,6 +306,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-c6b5173675d2b391",
+    "title": "Visa Releases First-of-Its-Kind Industry Benchmark for AI Shopping; Almost Half of Test Runs Fail",
+    "url": "https://finance.yahoo.com/technology/ai/articles/visa-releases-first-kind-industry-144300055.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-db0f1dad6b50a62e",
     "title": "Merchant group joins agentic commerce effort",
     "url": "https://thepaypers.com/fraud-and-fincrime/news/secure-technology-alliance-and-mag-partner-on-agentic-commerce",
@@ -333,6 +405,12 @@
     "id": "radar-f9792daaeb0024ee",
     "title": "Payment Asia and G+D China sign MoU on wallets and agentic payments",
     "url": "https://thepaypers.com/payments/news/payment-asia-and-gd-china-sign-mou-on-wallets-and-agentic-payments",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f051f37a17310a14",
+    "title": "Secure Technology Alliance and Merchant Advisory Group Partner to Advance Trusted Agentic Commerce",
+    "url": "https://finance.yahoo.com/technology/ai/articles/secure-technology-alliance-merchant-advisory-140000410.html",
     "status": "evidence_question"
   },
   {
@@ -501,6 +579,12 @@
     "id": "radar-61610c44e5e78561",
     "title": "Amazon Shifts Strategy, Replaces Rufus With Alexa Shopping Agent 05/13/2026",
     "url": "https://www.mediapost.com/publications/article/415053/amazon-shifts-strategy-replaces-rufus-with-alexa.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f77cb10c1fafb224",
+    "title": "Shopify puts checkout tool Shop Pay inside AI Agents",
+    "url": "https://www.retailbrew.com/stories/shopify-puts-checkout-tool-shop-pay-inside-ai-agents",
     "status": "evidence_question"
   },
   {
@@ -903,6 +987,12 @@
     "id": "radar-95ebe1e5660478df",
     "title": "双11购物不决问AI？会算账，还能拦截冲动消费，你用过吗？",
     "url": "https://xinwen.bjd.com.cn/content/s6ae161bbe4b0e42f8f0226e5.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-087e0498b00b1a13",
+    "title": "Dalet Labs raises $7 million to launch AI shopping app",
+    "url": "https://jawlah.co/en/67305",
     "status": "evidence_question"
   },
   {
@@ -3522,9 +3612,33 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-14f6165c36a6bb36",
+    "title": "Bot payments lag in agentic commerce",
+    "url": "https://www.paymentsdive.com/news/bot-payments-lag-in-agentic-commerce-ai-shopping-retail/810815/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d127e7dc1be713b2",
+    "title": "How Commerce Cloud and Google UCP power the future of agentic shopping",
+    "url": "https://www.salesforce.com/blog/agentforce-commerce-google-ucp/?bc=OTH",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e7cdd4e8b1b0f044",
+    "title": "Talon.One Announces Unified Incentives Protocol to Power Loyalty and Promotions in Agentic Commerce",
+    "url": "https://www.businesswire.com/news/home/20260128078022/en/Talon.One-Announces-Unified-Incentives-Protocol-to-Power-Loyalty-and-Promotions-in-Agentic-Commerce",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-7e082d871f7a3f15",
     "title": "AI不再\"单纯\"：Chat GPT终向广告妥协，国内AI瞄准“电商导流”",
     "url": "https://www.time-weekly.com/post/327157",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5e874c043e3b6b48",
+    "title": "Retail’s risky AI commerce bet",
+    "url": "https://www.retaildive.com/news/retails-ai-bet-risks-data-market-share/810202/",
     "status": "evidence_question"
   },
   {
