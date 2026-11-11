@@ -1,5 +1,29 @@
 [
   {
+    "id": "radar-9e7562c7c68fe661",
+    "title": "From campaigns to customer journeys: how AI is changing the role of the retail CMO",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/11/from-campaigns-to-customer-journeys-how-ai-is-changing-the-role-of-the-retail-cmo",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0f7905a830306a2c",
+    "title": "智能体叫车、点外卖“水土不服”，优步、DoorDash 高管称没多少人用",
+    "url": "https://www.ithome.com/1/025/550.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3b623f5891e32745",
+    "title": "从今年双十一望向2030：AI购物走到哪一步了",
+    "url": "https://www.thepaper.cn/newsDetail_forward_34445344",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4e1facb89717abed",
+    "title": "港珠澳大桥口岸经海关跨境电商平台出口破千亿元，包裹日均超 300 万个",
+    "url": "https://www.ithome.com/1/025/570.htm",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-f286c19b7d989f08",
     "title": "AI shopping boom puts e-commerce stocks in the spotlight",
     "url": "https://retailtechinnovationhub.com/home/2026/11/10/ai-shopping-boom-puts-e-commerce-stocks-in-the-spotlight",
@@ -24,9 +48,27 @@
     "status": "evidence_question"
   },
   {
-    "id": "radar-788dba92f2eb7c3f",
-    "title": "点外卖、打网约车真实手机号将隐藏，阿里云、腾讯云等首批十家企业获批 700 专用码号试点",
-    "url": "https://www.ithome.com/1/024/870.htm",
+    "id": "radar-c132819e4743f680",
+    "title": "中国“双11”购物节 AI唱起主角？",
+    "url": "https://www.hkcna.hk/h5/cn/content/s6af3129fe4b089a2db3ffe96.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3fe18af44dcdd89d",
+    "title": "CloudCart Lets Merchants Run Their Online Stores Through Claude and ChatGPT",
+    "url": "https://www.trendingtopics.eu/cloudcart-lets-merchants-run-their-online-stores-through-claude-and-chatgpt/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f52f3ac8262b4baa",
+    "title": "Product data is critical to consumer trust in AI shopping",
+    "url": "https://www.foodnavigator.com/Article/2026/11/10/how-brands-can-improve-trust-in-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c906a70a5d4fc3ad",
+    "title": "Circle Makes the Case for AI Agent Payments, With Spending Controls at the Center",
+    "url": "https://www.tradingview.com/news/newsbtc:54f158b5c094b:0-circle-makes-the-case-for-ai-agent-payments-with-spending-controls-at-the-center/",
     "status": "evidence_question"
   },
   {
@@ -321,6 +363,12 @@
     "id": "radar-4ff48e337b428c51",
     "title": "国行苹果AI首批接入得物，手机拍摄可直接搜索商品",
     "url": "https://www.bjnews.com.cn/detail/1793797653129303.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-746dc0c231d8bd1f",
+    "title": "AI 对话成为电商新交易场，GEO 价值凸显｜深爱榜 IP 工作室：以 “四库” 抢占大模型可信引用席位",
+    "url": "https://m.sohu.com/a/1097715102_426190?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
     "status": "evidence_question"
   },
   {
@@ -684,6 +732,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-fca2975c6dc3ba02",
+    "title": "双十一AI暗战：电商想提升交易 消费者要全网比价",
+    "url": "https://www.21jingji.com/article/20261101/herald/d90ab9481baea67ffec014120f56e050.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d4551dc0b8f66650",
     "title": "开源装机工具 Rufus 4.16 Beta 发布：绕过影响数百万台 PC 的 UEFI NTFS 漏洞",
     "url": "https://www.ithome.com/1/020/452.htm",
@@ -921,6 +975,12 @@
     "id": "radar-391d4b68b786f500",
     "title": "AI for E-commerce in Australia: How It Works",
     "url": "https://stripe.com/nz/resources/more/ai-for-ecommerce-in-australia",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d32337aab7263be9",
+    "title": "AI for ecommerce in Australia: What it looks like in practice",
+    "url": "https://stripe.com/resources/more/ai-for-ecommerce-in-australia",
     "status": "evidence_question"
   },
   {
@@ -1191,6 +1251,12 @@
     "id": "radar-dd869ce477858033",
     "title": "Why AI shopping assistants are proving effective at turning customer intent into completed orders on Glovo",
     "url": "https://techtrendske.co.ke/2026/10/25/glovo-ai-shopping-assistant-conversion/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8f2baf70a9ecb48a",
+    "title": "𝐕𝐢𝐬𝐚 𝐅𝐢𝐧𝐝𝐬 𝟖𝟗% 𝐨𝐟 𝐊𝐞𝐧𝐲𝐚𝐧 𝐂𝐨𝐧𝐬𝐮𝐦𝐞𝐫𝐬 𝐔𝐬𝐞 𝐀𝐈 𝐟𝐨𝐫 𝐒𝐡𝐨𝐩𝐩𝐢𝐧𝐠, 𝟐𝟗% 𝐓𝐫𝐮𝐬𝐭 𝐂𝐡𝐞𝐜𝐤𝐨𝐮𝐭 Visa's 2026 Stay Secure study found that 89% of surveyed Kenyan consumers had used artificial intelligence to assist with shopping, while only 29%",
+    "url": "https://www.linkedin.com/posts/fintech-association-of-kenya_%F0%9D%90%95%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%9A-%F0%9D%90%85%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9D%F0%9D%90%AC-%F0%9D%9F%96%F0%9D%9F%97-%F0%9D%90%A8%F0%9D%90%9F-%F0%9D%90%8A%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%B2%F0%9D%90%9A-activity-7520344878019670016-KLlZ",
     "status": "evidence_question"
   },
   {
@@ -2472,6 +2538,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-4651aef5bb492a80",
+    "title": "最佳电商AI工具推荐",
+    "url": "https://www.shopify.com/zh/blog/ai-tools-for-ecommerce",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b56ea144eba14c81",
     "title": "Consultant Agentic Commerce Advisory & Growth",
     "url": "https://www.accenture.com/nl-en/careers/jobdetails?id=R00363441_en",
@@ -3603,6 +3675,12 @@
     "id": "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
     "title": "How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.",
     "url": "https://www.pymnts.com/report/study/how-acquirers-prepare-for-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-bc9f23bd84a0e8a3",
+    "title": "5万+品牌在用，平台的AI电商杀疯了",
+    "url": "https://36kr.com/p/3677280472113799",
     "status": "evidence_question"
   },
   {
