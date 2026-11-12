@@ -1,8 +1,68 @@
 [
   {
+    "id": "radar-b816840cf9d681af",
+    "title": "Lowe’s partners with Bilt to expand loyalty rewards, AI-powered commerce",
+    "url": "https://www.digitalcommerce360.com/2026/11/11/lowes-partners-with-bilt-to-expand-loyalty-rewards-ai-powered-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e54fdb1d5fcf402a",
+    "title": "AI Shopping Errors: What To Fix To Help Shoppers Choose Your Products",
+    "url": "https://www.searchenginejournal.com/fix-ai-shopping-errors-writesonic-spa/595790/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e4e9565de9f6f797",
+    "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+    "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b86ec89a80eea20f",
+    "title": "Huge shift as Amazon introduces Alexa for Shopping on its mobile app and website in the UK",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/12/huge-shift-as-amazon-introduces-alexa-for-shopping-on-its-mobile-app-and-website-in-the-uk",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-acc670a943c4b437",
+    "title": "双十一｜AI工具导购热 助抖音销2成保健品",
+    "url": "https://www.stheadline.com/zh-hans/realtime-china/3636217/%E5%8F%8C%E5%8D%81%E4%B8%80AI%E5%B7%A5%E5%85%B7%E5%AF%BC%E8%B4%AD%E7%83%AD-%E5%8A%A9%E6%8A%96%E9%9F%B3%E9%94%802%E6%88%90%E4%BF%9D%E5%81%A5%E5%93%81",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d7b71993c048e874",
+    "title": "AI都会购物了，为什么还找不到全网最低价？",
+    "url": "https://www.woshipm.com/ai/6492787.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a60cf38d818ee46a",
+    "title": "外媒：从AI导购到机器人热卖，中国双11正在检验AI的吸金能力",
+    "url": "https://original.ifeng.com/c/8xz9vq93YU6",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-00801f7d7af6da56",
+    "title": "全球媒体聚焦｜从智能导购到机器人 AI催生中国消费新场景",
+    "url": "https://m.sohu.com/a/1100450680_115239?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c77d7f9808be3cac",
+    "title": "电商购物节越来越像个B2B生意",
+    "url": "https://www.woshipm.com/share/6492856.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-9e7562c7c68fe661",
     "title": "From campaigns to customer journeys: how AI is changing the role of the retail CMO",
     "url": "https://retailtechinnovationhub.com/home/2026/11/11/from-campaigns-to-customer-journeys-how-ai-is-changing-the-role-of-the-retail-cmo",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5d690996991ab9db",
+    "title": "Clover Connects the Store Counter to the AI Shopping Search",
+    "url": "https://www.pymnts.com/smbs/2026/fiservs-clover-adds-ai-tools-to-help-small-businesses-reach-ecommerce-shoppers/",
     "status": "evidence_question"
   },
   {
@@ -12,15 +72,27 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-be78f6f5598f4eb0",
+    "title": "Is Visa (NYSE:V) Racing Ahead in AI Shopping?",
+    "url": "https://kalkinemedia.com/us/stocks/bluechip/is-visa-nysev-racing-ahead-in-ai-shopping",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-3b623f5891e32745",
     "title": "从今年双十一望向2030：AI购物走到哪一步了",
     "url": "https://www.thepaper.cn/newsDetail_forward_34445344",
     "status": "evidence_question"
   },
   {
-    "id": "radar-4e1facb89717abed",
-    "title": "港珠澳大桥口岸经海关跨境电商平台出口破千亿元，包裹日均超 300 万个",
-    "url": "https://www.ithome.com/1/025/570.htm",
+    "id": "radar-f7ac18de93a4d179",
+    "title": "服务供给更丰富、AI购物助手更“聪明”，从“双11”购物车看消费新意",
+    "url": "https://pub-zhtb.hizh.cn/a/202611/11/AP6af48f1de4b04a6fc7221ab9.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d4e77881fc769c02",
+    "title": "OpenAI challenges search giants with ChatGPT business hub and interactive AI shopping agents",
+    "url": "https://www.cnbctv18.com/technology/openai-challenges-search-giants-google-chatgpt-business-hub-interactive-ai-shopping-agents-artificial-intelligence-20031474.htm",
     "status": "evidence_question"
   },
   {
@@ -72,6 +144,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-130d7989e16dc9f2",
+    "title": "豆包AI你变了，聊天机器人悄悄干起电商买卖",
+    "url": "https://m.sohu.com/a/1099689445_120231872?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d090d00ce651a6ee",
     "title": "Business Development Manager, Agentic Commerce",
     "url": "https://stripe.com/careers/listing/business-development-manager-agentic-commerce/7524334?__previewId=legalqa74924&__vid=ce21953c-8265-431a-ae77-d5afe13ac54d",
@@ -81,6 +159,12 @@
     "id": "radar-3b00692ac6868832",
     "title": "J.Crew brings Stripe in to technology stack as it boosts BNPL options and makes agentic commerce move",
     "url": "https://retailtechinnovationhub.com/home/2026/11/9/jcrew-brings-stripe-in-to-technology-stack-as-it-boosts-bnpl-options-and-makes-agentic-commerce-move",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f520db3d89a1a63f",
+    "title": "Weekly Recap: AI retail service launch and Jefferies maintains Buy",
+    "url": "https://www.tradingview.com/news/tradingview:a492b6d3c2238:0-weekly-recap-ai-retail-service-launch-and-jefferies-maintains-buy/",
     "status": "evidence_question"
   },
   {
@@ -966,6 +1050,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-4bbf7b2dc2153c1c",
+    "title": "AI for ecommerce in New Zealand: Checkout, pricing, and fraud tools explained",
+    "url": "https://stripe.com/resources/more/ai-for-ecommerce-in-new-zealand",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b0e34cf149b4a3d6",
     "title": "Visa Credentials Reach 5.2 Billion as Network Expands Into Agentic Commerce",
     "url": "https://www.pymnts.com/earnings/2026/visa-credentials-reach-5-2-billion-as-network-expands-into-agentic-commerce/",
@@ -1389,6 +1479,12 @@
     "id": "radar-600579c507fab03f",
     "title": "果然财经|AI电商图失真失序：双十一看图购物变成“开盲盒”",
     "url": "https://timeline.sohu.com/news/B9Ztv2Cl4O",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-dfc54cc6f3cc4eaa",
+    "title": "AI电商图失真失序：双十一看图购物变成“开盲盒”",
+    "url": "https://www.cqnews.net/web/content_1563275830467309568.html",
     "status": "evidence_question"
   },
   {
@@ -3672,9 +3768,21 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-00de761ace75fb3c",
+    "title": "AI早报：智元机器人万台下线，豆包接入抖音电商，特斯拉TERAFAB项目发布",
+    "url": "https://www.sohu.com/404.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
     "title": "How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.",
     "url": "https://www.pymnts.com/report/study/how-acquirers-prepare-for-agentic-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-8c6bd2199b33fbb4",
+    "title": "Stripe’s slower view of agentic commerce",
+    "url": "https://www.paymentsdive.com/news/stripes-slower-view-of-agentic-commerce/813056/",
     "status": "evidence_question"
   },
   {
