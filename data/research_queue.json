@@ -1,5 +1,29 @@
 [
   {
+    "id": "radar-d1aa330d4ebafc0c",
+    "title": "Retail technology innovation of the week: Gopuff ramps up partnership with Elon Musk affiliated AI firm",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/13/retail-technology-innovation-of-the-week-gopuff-ramps-up-partnership-with-elon-musk-affiliated-ai-firm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3e3d961ec6141f22",
+    "title": "AI chatbot shopping recommendations include risky sites, hundreds identified",
+    "url": "https://www.digitaltoday.co.kr/en/view/125301/ai-chatbots-shopping-mall-recommendations-risky-sites-hundreds-identified",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3031cb2dd8f17626",
+    "title": "Amazon rolls out Alexa for Shopping with personalised AI assistance in India",
+    "url": "https://www.fonearena.com/blog/496950/amazon-alexa-shopping-india.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ffe42b6f5ff90912",
+    "title": "AI 能帮你挑商品，但你敢让它替你花钱吗？",
+    "url": "https://www.techflowpost.com/article/35343",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-b816840cf9d681af",
     "title": "Lowe’s partners with Bilt to expand loyalty rewards, AI-powered commerce",
     "url": "https://www.digitalcommerce360.com/2026/11/11/lowes-partners-with-bilt-to-expand-loyalty-rewards-ai-powered-commerce/",
@@ -30,6 +54,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-295ae40747f92aab",
+    "title": "Shopify (SHOP) Positioned as Key Beneficiary of AI Discovery and Agentic Checkout",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-shop-positioned-key-beneficiary-145210911.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-11f37b8a5ec7f0c3",
+    "title": "Rain Launches Agent Vaults: AI Agent Payments on Single-Use Visa and Mastercard Cards",
+    "url": "https://www.techtimes.com/articles/330525/20261112/rain-launches-agent-vaults-ai-agent-payments-single-use-visa-mastercard-cards.htm",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d7b71993c048e874",
     "title": "AI都会购物了，为什么还找不到全网最低价？",
     "url": "https://www.woshipm.com/ai/6492787.html",
@@ -48,9 +84,9 @@
     "status": "evidence_question"
   },
   {
-    "id": "radar-c77d7f9808be3cac",
-    "title": "电商购物节越来越像个B2B生意",
-    "url": "https://www.woshipm.com/share/6492856.html",
+    "id": "radar-0a8a63e29299b8ca",
+    "title": "双11竞争逻辑生变：AI和服务挤进购物车，电商平台寻找新增长",
+    "url": "https://www.leikeji.com/article/80525",
     "status": "evidence_question"
   },
   {
@@ -786,6 +822,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-8f71808473972b74",
+    "title": "Who will be the AI winners this holiday season?: last week's most read retail technology articles",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/1/who-will-be-the-ai-winners-this-holiday-season-last-weeks-most-read-retail-technology-articles",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-3a8cf66b5099d31d",
     "title": "Visa Survey: Two-Thirds of Americans Embrace AI for Holiday Shopping",
     "url": "https://smallbiztrends.com/visa-survey-two-thirds-of-americans-embrace-ai-for-holiday-shopping/",
@@ -1083,6 +1125,12 @@
     "id": "radar-f5c57bdca5bfd4fb",
     "title": "Azoma raises USD $11.2 million to boost AI shopping tools",
     "url": "https://itbrief.co.uk/story/azoma-raises-usd-11-2-million-to-boost-ai-shopping-tools",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-eaf6693e6c005820",
+    "title": "Agentic AI & the Payments Stack: Are industry initiatives enough?",
+    "url": "https://www.ashurstperkinscoie.com/en/insights/agentic-ai-the-payments-stack-are-industry-initiatives-enough/",
     "status": "evidence_question"
   },
   {
@@ -1851,6 +1899,12 @@
     "id": "radar-36811519523cc613",
     "title": "In an Age of AI Shopping Assistants, Conventional Wisdom Prevails: 'Buyer Beware'",
     "url": "https://www.citynewsservice.cn/articles/china-biz-buzz/in-perspective/in-an-age-of-ai-shopping-assistants-conventional-wisdom-prevails-buyer-beware-zmz89wam",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3de4d8bcf7e509fd",
+    "title": "双十一将至，鸿蒙版淘宝全新支持AI试穿、深色模式等功能，购物更智能、更沉浸！",
+    "url": "https://news.ifeng.com/c/8xNTHQU6bbf",
     "status": "evidence_question"
   },
   {
@@ -3774,15 +3828,33 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-6ff71a85075e0599",
+    "title": "新动向！豆包开启AI购物内测，电商平台加码“一句话购物”",
+    "url": "https://www.stcn.com/article/detail/3687846.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "2026-09-02-pymnts-com-how-acquirers-prepar-3bc8c843a4",
     "title": "How Acquirers Prepare for Agentic Commerce: Acquirers in Brazil, the UAE, and U.S.",
     "url": "https://www.pymnts.com/report/study/how-acquirers-prepare-for-agentic-commerce/",
     "status": "evidence_question"
   },
   {
+    "id": "radar-06ee3db64fd9ffee",
+    "title": "AI购物“普及元年”：消费入口要变天？",
+    "url": "https://stcn.com/article/detail/3678004.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-8c6bd2199b33fbb4",
     "title": "Stripe’s slower view of agentic commerce",
     "url": "https://www.paymentsdive.com/news/stripes-slower-view-of-agentic-commerce/813056/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-614b74c0f04a7f43",
+    "title": "The Friday Checkout: Grocers are ramping up AI, but consumers still need to be convinced",
+    "url": "https://www.grocerydive.com/news/the-friday-checkout-ai-adoption-grocery-consumers/812644/",
     "status": "evidence_question"
   },
   {

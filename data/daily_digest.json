@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T18:31:53+08:00",
-  "newCount": 17,
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T18:26:12+08:00",
+  "newCount": 10,
   "title": "先读这几条，再形成判断",
   "articleIds": [
-    "radar-f286c19b7d989f08",
-    "radar-d090d00ce651a6ee",
+    "radar-d1aa330d4ebafc0c",
+    "radar-e54fdb1d5fcf402a",
     "radar-0f7905a830306a2c",
     "radar-b69e8c80b90df0ac",
-    "radar-b816840cf9d681af"
+    "radar-d090d00ce651a6ee"
   ],
   "insightIds": [
     "echo-survey-to-behavior",
