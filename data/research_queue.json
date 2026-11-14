@@ -1,8 +1,74 @@
 [
   {
+    "id": "radar-86c56b786e3e51f6",
+    "title": "Costco Trusts AI to Reorder Drugs. Most Retailers Won’t",
+    "url": "https://www.pymnts.com/news/retail/2026/costco-trusts-ai-to-reorder-drugs-most-retailers-wont/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4cf2981f7bd723b9",
+    "title": "新西兰最大零售商 The Warehouse 爆发员工抗议：如厕时间都用 AI 管",
+    "url": "https://www.ithome.com/1/027/150.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-54fb7b763d9f9ea1",
+    "title": "极狐贝塔 T1 换电版上市：电池月租 399 元起，终端零售价 5.2 万元起",
+    "url": "https://www.ithome.com/1/027/161.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e85e09a6c9e664c6",
+    "title": "Amazon plans World Product Graph to counter AI shopping agents",
+    "url": "https://www.cryptopolitan.com/amazon-world-product-graph-ai-shopping-agent/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-81fbe15cd809cef2",
+    "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+    "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-ef07c627f6d66ad3",
+    "title": "OpenAI launches ChatGPT Wallet for AI agent-led shopping",
+    "url": "https://www.storyboard18.com/brand-marketing/openai-launches-chatgpt-wallet-for-ai-agent-led-shopping-114738.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-025951b29af7af0e",
+    "title": "Your chatbot just got a credit card: OpenAI launches ChatGPT Wallet for autonomous shopping",
+    "url": "https://www.businesstoday.in/amp/technology/story/your-chatbot-just-got-a-credit-card-openai-launches-chatgpt-wallet-for-autonomous-shopping-567446-2026-11-14",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fe7156ba74123d9f",
+    "title": "OpenAI’s New ChatGPT Wallet Brings AI Agents Into Online Shopping",
+    "url": "https://www.techjuice.pk/openais-new-chatgpt-wallet-brings-ai-agents-into-online-shopping/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a33d02268b6aeb82",
+    "title": "Amazon plans global product database to challenge Google search and rival AI shopping agents",
+    "url": "https://www.storyboard18.com/brand-marketing/amazon-plans-global-product-database-to-challenge-google-search-and-rival-ai-shopping-agents-114735.htm",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d1aa330d4ebafc0c",
     "title": "Retail technology innovation of the week: Gopuff ramps up partnership with Elon Musk affiliated AI firm",
     "url": "https://retailtechinnovationhub.com/home/2026/11/13/retail-technology-innovation-of-the-week-gopuff-ramps-up-partnership-with-elon-musk-affiliated-ai-firm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fbaf8861d85459b9",
+    "title": "PXM Technical Architect | Agentic Commerce",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00354603_en",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b141ab36bd7addf7",
+    "title": "Chatgpt Adds AI Payments Via Visa, Mastercard, And Amex",
+    "url": "https://menafn.com/1111959688/Chatgpt-Adds-AI-Payments-Via-Visa-Mastercard-And-Amex",
     "status": "evidence_question"
   },
   {
@@ -12,9 +78,27 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-9d3e706608ac8a0f",
+    "title": "Amazon’s Plan vs AI Agents: Memo Cites 83M Rufus Searches",
+    "url": "https://fourweekmba.com/ai-amazons-plan-vs-ai-agents-memo-cites-83m-rufus-searches/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-3031cb2dd8f17626",
     "title": "Amazon rolls out Alexa for Shopping with personalised AI assistance in India",
     "url": "https://www.fonearena.com/blog/496950/amazon-alexa-shopping-india.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c656be603d46b0a4",
+    "title": "LendPro Launches ChatGPT Plugin for Retail Financing",
+    "url": "https://www.moderntiredealer.com/industry-news/products/product/55418910/lendpro-launches-chatgpt-plugin-for-retail-financing",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d71e6c910709ac6f",
+    "title": "Agentic commerce",
+    "url": "https://ppc.land/agentic-commerce/",
     "status": "evidence_question"
   },
   {
@@ -144,6 +228,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-3caa4ac0dc41335e",
+    "title": "报告：2030年AI参与决策的网上零售额占比或达28%，AI入口内成交占比或为8%",
+    "url": "https://www.huxiu.com/article/4904444.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-4d6475a863e4c601",
     "title": "Qoo10 Japan shoppers able to try on colour contact lenses and scan their skin with Perfect Corp. technology",
     "url": "https://retailtechinnovationhub.com/home/2026/11/10/qoo10-japan-shoppers-able-to-try-on-colour-contact-lenses-and-scan-their-skin-with-perfect-corp-technology",
@@ -195,6 +285,12 @@
     "id": "radar-3b00692ac6868832",
     "title": "J.Crew brings Stripe in to technology stack as it boosts BNPL options and makes agentic commerce move",
     "url": "https://retailtechinnovationhub.com/home/2026/11/9/jcrew-brings-stripe-in-to-technology-stack-as-it-boosts-bnpl-options-and-makes-agentic-commerce-move",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-33b47ff057f0a7bf",
+    "title": "双十一第十八年：AI提效未转化为电商增长，平台转向AI流量入口竞争",
+    "url": "https://www.huxiu.com/article/4904199.html",
     "status": "evidence_question"
   },
   {
@@ -3822,9 +3918,21 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-0681c25dc819d239",
+    "title": "Macy’s introduces AI-powered shopping assistant",
+    "url": "https://www.retaildive.com/news/ask-macys-AI-conversational-shopping-assistant/815928/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-00de761ace75fb3c",
     "title": "AI早报：智元机器人万台下线，豆包接入抖音电商，特斯拉TERAFAB项目发布",
     "url": "https://www.sohu.com/404.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-71ab343be6e33681",
+    "title": "Shoptalk Spring 2026: Sephora Goes ChatGPT, Gap Inc. Bets on AI Fit, Reddit's New Integration with Shopify, FedEx Gets Faster, and Meta Unveil What's Next for Retail",
+    "url": "https://retailboss.substack.com/p/shoptalk-spring-2026-sephora-goes",
     "status": "evidence_question"
   },
   {
