@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-15",
-  "generatedAt": "2026-11-15T18:16:23+08:00",
-  "newCount": 11,
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T18:29:58+08:00",
+  "newCount": 4,
   "title": "先读这几条，再形成判断",
   "articleIds": [
     "radar-86c56b786e3e51f6",
@@ -13,14 +13,12 @@
   "insightIds": [
     "echo-survey-to-behavior",
     "echo-attribute-before-model",
-    "echo-ads-inside-answer",
     "echo-real-time-truth",
     "echo-price-personalization",
     "echo-authorization-scope",
     "echo-upstream-fraud",
     "echo-agent-vs-merchant-permission",
     "echo-after-payment-outcome",
-    "echo-protocol-boundaries",
     "echo-offsite-attribution",
     "echo-feed-visibility",
     "echo-adopt-vs-build",

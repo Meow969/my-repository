@@ -1,5 +1,23 @@
 [
   {
+    "id": "radar-1c7c4746576b9022",
+    "title": "Nuvei Says Merchants Need Their Own AI Shopping Agents",
+    "url": "https://www.pymnts.com/connectedeconomy/2026/nuvei-says-merchants-need-their-own-ai-shopping-agents/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-03e802927850badc",
+    "title": "Google and Nvidia Bring Banks to AI’s Checkout Test",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/google-and-nvidia-bring-banks-to-ais-checkout-test/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-04c6428635c5bbbc",
+    "title": "存量时代与AI拐点之年，这场大直播呈现了电商消费的趋势与解法",
+    "url": "https://finance.sina.cn/stock/ggyj/2026-11-16/detail-iniyxiqw8843586.d.html?vt=4&wm=%2Findex%2Fnav%3Fvt",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1d879eba4ed4a20a",
     "title": "OpenAI ChatGPT Wallet: AI Agent Payments and Features",
     "url": "https://thedigitalbriefnews.com/openai-chatgpt-wallet-ai-agent-payments/",
@@ -87,6 +105,12 @@
     "id": "radar-ce409f5df5419970",
     "title": "You Can Now Send ChatGPT Shopping for You",
     "url": "https://propakistani.pk/2026/11/14/you-can-now-send-chatgpt-shopping-for-you/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-597c23ead8533d03",
+    "title": "How Ecommerce Businesses Can Increase Sales With Custom AI Solutions",
+    "url": "https://community.nasscom.in/communities/ai/how-ecommerce-businesses-can-increase-sales-custom-ai-solutions",
     "status": "evidence_question"
   },
   {
@@ -3975,6 +3999,24 @@
     "id": "2026-04-30-modern-retail-amazon-says-its-a-217f179fed",
     "title": "Amazon says its AI shopping assistant is gaining traction, with Rufus users up 115%",
     "url": "https://www.modernretail.co/technology/amazon-says-its-ai-shopping-assistant-is-gaining-traction-with-rufus-users-up-115/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-509ede7122377653",
+    "title": "Retail Media meets Agentic Commerce: MCP-Native Ads",
+    "url": "https://www.mirakl.com/blogs/retail-media/retail-media-agentic-commerce-mcp-native-ad-serving-mirakl-ads/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-740c75a05d0ff6ea",
+    "title": "Stripe, Google partner on agentic commerce",
+    "url": "https://www.paymentsdive.com/news/stripe-google-partner-on-agentic-commerce/818915/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-993da951eaf07a24",
+    "title": "How to make agentic commerce a reality for eCommerce businesses with Mirakl Agentic Activation",
+    "url": "https://www.mirakl.com/blogs/agentic-commerce/how-to-make-agentic-commerce-a-reality-for-ecommerce-businesses-with-mirakl-agentic-activation/",
     "status": "evidence_question"
   },
   {
