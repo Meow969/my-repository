@@ -1,5 +1,65 @@
 [
   {
+    "id": "radar-133b0bd1587cfea1",
+    "title": "OpenAI launches ChatGPT Wallet for AI purchases through retailer checkouts",
+    "url": "https://www.digitalcommerce360.com/2026/11/16/openai-chatgpt-wallet-for-ai-purchases-through-retailer-checkouts/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-300b2ffbbbd6b0ec",
+    "title": "Retail sales hit £2.26 billion in FY26 as Ikea UK invests in AI and automation technology",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/17/retail-sales-hit-226-billion-in-fy26-as-ikea-uk-invests-in-ai-and-automation-technology",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4ffeecc6627cddb3",
+    "title": "BGF backed retail technology specialist Evolve announces two new senior appointments",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/17/bgf-backed-retail-technology-specialist-evolve-announces-two-new-senior-appointments",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4178e071cc5ba0c1",
+    "title": "Amazon Overhauls Shopping AI as 'Alexa for Shopping,' Brings Free Conversational Buying Help to Japan",
+    "url": "https://finance.biggo.com/news/f4bdcbc2-d5ce-4b36-bb9e-6849598d4b85",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e7622f39decd3b3f",
+    "title": "Google brings shopping to Gemini and expands AI Mode and Circle to Search",
+    "url": "https://foro3d.com/en/2026/noviembre/google-lleva-las-compras-a-gemini-y-amplia-ai-mode-y-circle-to-search.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a395f2e4f80de04a",
+    "title": "AI shopping agents fail often. Build your platform for it.",
+    "url": "https://www.devprojournal.com/market-trends/retail/ai-shopping-agents-fail-often-build-your-platform-for-it/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-687a0f51fcc79677",
+    "title": "AI Shopping Agents Fail 43% of the Time. Most Failures Still End in a Purchase.",
+    "url": "https://aimmediahouse.com/retail/ai-shopping-agents-fail-43-of-the-time-most-failures-still-end-in-a-purchase",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6259679c4e2e7982",
+    "title": "Fullestop Launches Personalization Platform for Shopify, Giving Merchants an Edge using Agentic AI Shopping Agents",
+    "url": "https://www.einpresswire.com/article/957226963/fullestop-launches-personalization-platform-for-shopify-giving-merchants-an-edge-using-agentic-ai-shopping-agents",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-154070d67854fb65",
+    "title": "【雨果快报】ChatGPT开放商家接入！亚马逊打算用一张全球商品图谱守住搜索位？！",
+    "url": "https://www.cifnews.com/article/190163",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f7fae515e63fa95c",
+    "title": "Is Zalando’s New AI Agent a Blueprint for the Future of Retail?",
+    "url": "https://www.vogue.com/article/is-zalandos-new-ai-agent-a-blueprint-for-the-future-of-retail",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-1c7c4746576b9022",
     "title": "Nuvei Says Merchants Need Their Own AI Shopping Agents",
     "url": "https://www.pymnts.com/connectedeconomy/2026/nuvei-says-merchants-need-their-own-ai-shopping-agents/",
@@ -9,6 +69,12 @@
     "id": "radar-03e802927850badc",
     "title": "Google and Nvidia Bring Banks to AI’s Checkout Test",
     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/google-and-nvidia-bring-banks-to-ais-checkout-test/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-d75566a7a16668cd",
+    "title": "Straight to the Product: What Online Retailers Miss When Shoppers Ask AI First",
+    "url": "https://arxiv.org/abs/2611.20378v1",
     "status": "evidence_question"
   },
   {
@@ -132,6 +198,18 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-1d37f87ce7542781",
+    "title": "OpenAI 推出 ChatGPT Wallet，让 AI Agent 完成支付而无需成为银行",
+    "url": "https://www.cryptopolitan.com/zh-cn/openais-chatgpt-wallet-lets-ai-agents-check-out-without-it-becoming-a-bank/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3621a34e6eab5bf4",
+    "title": "OpenAI and Google Expand AI Shopping with New Payment Solutions",
+    "url": "https://www.kucoin.com/news/flash/openai-and-google-expand-ai-shopping-with-new-payment-solutions",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d1aa330d4ebafc0c",
     "title": "Retail technology innovation of the week: Gopuff ramps up partnership with Elon Musk affiliated AI firm",
     "url": "https://retailtechinnovationhub.com/home/2026/11/13/retail-technology-innovation-of-the-week-gopuff-ramps-up-partnership-with-elon-musk-affiliated-ai-firm",
@@ -141,6 +219,12 @@
     "id": "radar-fbaf8861d85459b9",
     "title": "PXM Technical Architect | Agentic Commerce",
     "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00354603_en",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-64a6f20ebcc4dac1",
+    "title": "AI chatbots are recommending fake retail websites, study finds",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
     "status": "evidence_question"
   },
   {
@@ -174,6 +258,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-03f50c82978141c8",
+    "title": "OpenAI is launching a payment wallet to let its AI agents shop for users",
+    "url": "https://qz.com/openai-chatgpt-wallet-ai-agents-shop-users-111326",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-d71e6c910709ac6f",
     "title": "Agentic commerce",
     "url": "https://ppc.land/agentic-commerce/",
@@ -183,6 +273,12 @@
     "id": "radar-ffe42b6f5ff90912",
     "title": "AI 能帮你挑商品，但你敢让它替你花钱吗？",
     "url": "https://www.techflowpost.com/article/35343",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-eec11720fb40c2d1",
+    "title": "New data: UK Shoppers Trust AI Advice. Retailers Must Be Ready.",
+    "url": "https://www.salesforce.com/uk/news/stories/ai-first-holiday/?bc=OTH",
     "status": "evidence_question"
   },
   {
@@ -705,6 +801,12 @@
     "id": "radar-c85d3f1600d27300",
     "title": "AI is key as retailers look to build new playbook for an increasingly unpredictable future",
     "url": "https://retailtechinnovationhub.com/home/2026/11/4/ai-is-key-as-retailers-look-to-build-new-playbook-for-an-increasingly-unpredictable-future",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-deeca9c1c9831517",
+    "title": "第18个双11 AI成电商平台主角：从购物助手到供应链调度全面渗透",
+    "url": "https://www.huxiu.com/article/4902908.html",
     "status": "evidence_question"
   },
   {
@@ -2814,6 +2916,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-9ece3875824ec92d",
+    "title": "10月14日电商早报：千问AI眼镜耳机新品发布；拼多多双11招商开启- 栏目",
+    "url": "https://www.ebrun.com/20261014/714320.shtml",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-44e19cd7fc0c8c5b",
     "title": "Amazon, Walmart Face New AI Shopping Test: Will Chatbots Recommend Them?",
     "url": "https://www.tradingview.com/news/benzinga:11302d7df094b:0-amazon-walmart-face-new-ai-shopping-test-will-chatbots-recommend-them/",
@@ -3987,6 +4095,12 @@
     "id": "2026-05-22-digital-commerce-360-walmart-cr-845dac6fd1",
     "title": "Walmart credits Sparky AI agent with lifting AOV, unit sales growth",
     "url": "https://www.digitalcommerce360.com/2026/05/22/walmart-sparky-agent-ai-sales-supply-chain/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9a96603f8c39a626",
+    "title": "京东618打造全网首档AI购物直播晚会 全周期七大“惊喜日”欢乐不断",
+    "url": "https://www.sznews.com/news/content/2026-05/19/content_32055810.htm",
     "status": "evidence_question"
   },
   {
