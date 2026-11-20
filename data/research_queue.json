@@ -1,5 +1,53 @@
 [
   {
+    "id": "radar-0bdcbbc604e9a52a",
+    "title": "Swedish agentic commerce startup Wilgot secures $3 million in seed funding round led by Industrifonden",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/20/swedish-agentic-commerce-startup-wilgot-secures-3-million-in-seed-funding-round-led-by-industrifonden",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5b1f9ee169bac14b",
+    "title": "RTIH AI in Retail Awards returns for second edition in 2027: the retail technology week in numbers",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/20/rtih-ai-in-retail-awards-returns-for-second-edition-in-2027-the-retail-technology-week-in-numbers",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3b41aaf28895a7fb",
+    "title": "ChatGPT商家后台上线，要抢谁的饭碗？",
+    "url": "https://www.woshipm.com/ai/6497514.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-51da40dfdaa830c1",
+    "title": "Walmart raises sales outlook as AI shopping assistant use climbs 129%",
+    "url": "https://superpowerdaily.com/posts/walmart-raises-sales-outlook-as-ai-shopping-assistant-use-climbs-129",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-bf1063bf8b666288",
+    "title": "Walmart’s Sparky AI Usage Jumps 129% as Annual Outlook Rises",
+    "url": "https://www.unite.ai/walmarts-sparky-ai-usage-jumps-129-as-annual-outlook-rises/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2d8c705aeb08c2e9",
+    "title": "CoCreate伦敦峰会揭开跨境B2B电商新机遇：阿里国际站欧洲订单三年增长70%",
+    "url": "https://www.leiphone.com/category/industrynews/eqi19Azefys58IT4.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-6dd7546919a07631",
+    "title": "荣威家越 07 纯电版开启小定：支付 999 元订金抵扣 2000 元购车尾款，11 月 27 日上市",
+    "url": "https://www.ithome.com/1/030/196.htm",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-42a90f07f5eee963",
+    "title": "速卖通双11中国商家狂揽全球订单：品牌成交大涨近50%，美巴创历史新高",
+    "url": "https://www.leiphone.com/category/industrynews/PyCDSvzY37FZLkZA.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-119a2fa76fc1edc7",
     "title": "In Graphic Detail: Welcome to the agentic commerce quarter",
     "url": "https://www.modernretail.co/technology/in-graphic-detail-welcome-to-the-agentic-commerce-quarter/",
@@ -33,6 +81,24 @@
     "id": "radar-cfdfeb9e16d7ea58",
     "title": "United Airlines Bans Unauthorized AI Agents Starts Battle For Control in AI Commerce",
     "url": "https://www.forrester.com/blogs/united-airlines-bans-unauthorized-ai-agents-starting-battle-for-control-in-ai-commerce/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-e8b3256e8d0c62dc",
+    "title": "Top Ecommerce Fraud Risks for 2027",
+    "url": "https://www.practicalecommerce.com/top-ecommerce-fraud-risks-for-2027",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-f9029fefd697fe3b",
+    "title": "Can Visa Turn AI-Led Commerce Into a New Growth Driver?",
+    "url": "https://www.tradingview.com/news/zacks:9ed88f2fc094b:0-can-visa-turn-ai-led-commerce-into-a-new-growth-driver/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-7ac37a0f32719fc4",
+    "title": "AI Is Transforming Holiday Shopping: Google AI Overviews Appear in 85% of Shopping Searches, BrightEdge Reveals the Gifts and Retailers Leading AI Recommendations",
+    "url": "https://www.manilatimes.net/2026/11/19/tmt-newswire/globenewswire/ai-is-transforming-holiday-shopping-google-ai-overviews-appear-in-85-of-shopping-searches-brightedge-reveals-the-gifts-and-retailers-leading-ai-recommendations/2474251",
     "status": "evidence_question"
   },
   {
@@ -105,6 +171,12 @@
     "id": "radar-02efc46840572806",
     "title": "Adobe数据：AI引荐购物者转化率高九成单次访问营收反超传统渠道- 跨境电商",
     "url": "https://www.ebrun.com/20261118/721404.shtml",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-fefbeae8a268839b",
+    "title": "Adobe数据：AI导流购物者转化率高出90% 一年内逆转- AI",
+    "url": "https://www.ebrun.com/20261118/721405.shtml",
     "status": "evidence_question"
   },
   {
@@ -219,6 +291,12 @@
     "id": "radar-04c6428635c5bbbc",
     "title": "存量时代与AI拐点之年，这场大直播呈现了电商消费的趋势与解法",
     "url": "https://finance.sina.cn/stock/ggyj/2026-11-16/detail-iniyxiqw8843586.d.html?vt=4&wm=%2Findex%2Fnav%3Fvt",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-aea083c047e1d315",
+    "title": "Target's AI Commerce Partnerships Open New Customer Opportunities",
+    "url": "https://fr.tradingview.com/news/zacks:5763e5f88094b:0-target-s-ai-commerce-partnerships-open-new-customer-opportunities/",
     "status": "evidence_question"
   },
   {
@@ -1182,6 +1260,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-90b1fb07ea5711df",
+    "title": "Shopify says shoppers delegating purchases to AI is 'newest front door into commerce'",
+    "url": "https://ca.finance.yahoo.com/news/shopify-reports-us-462m-q3-131102742.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-145b3efa270cfc90",
     "title": "Muse and Dots: the human-AI dyad enters commerce",
     "url": "https://www.capgemini.com/insights/expert-perspectives/muse-and-dots-the-human-ai-dyad-enters-commerce/",
@@ -1227,6 +1311,12 @@
     "id": "radar-7e74080e8a8ad072",
     "title": "“双11”验收电商AI基建成效",
     "url": "https://xinwen.bjd.com.cn/content/s6ae91dabe4b039a8e2f31b7d.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b641b7f650866cb3",
+    "title": "Best Agentic Commerce Cases: 10 Cases From Amazon to Walmart",
+    "url": "https://everything-pr.com/best-agentic-commerce-cases",
     "status": "evidence_question"
   },
   {
@@ -2061,6 +2151,12 @@
     "id": "radar-afea0ca5c496d17e",
     "title": "凯捷研究院:《探索AI商业变革及应对策略｜商贸零售研报》",
     "url": "https://www.fxbaogao.com/detail/5794374",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-0289ab8d454d3b4f",
+    "title": "《经营蓝宝书》10月刊：AI领航丨双11阿里妈妈经营全攻略发布提效大促多波段增长- 零售",
+    "url": "https://m.ebrun.com/715108.html",
     "status": "evidence_question"
   },
   {
@@ -3129,6 +3225,12 @@
     "id": "radar-cd820714ad873a5a",
     "title": "千问办公发布电商版，让AI从工具变成“生意合伙人”",
     "url": "https://finance.sina.cn/stock/jdts/2026-10-14/detail-inivfftk1317727.d.html?vt=4",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-9ebca5fe7eacccf3",
+    "title": "海外基建+数智AI+全球合规拓威天海重构中大件跨境物流壁垒- 跨境电商",
+    "url": "https://www.ebrun.com/20261014/714413.shtml",
     "status": "evidence_question"
   },
   {
@@ -4245,6 +4347,18 @@
     "id": "2026-09-01-pymnts-com-global-digital-shopp-ed73b3bba4",
     "title": "Global Digital Shopping Index: The Agentic Commerce Deep Dive",
     "url": "https://www.pymnts.com/report/study/global-digital-shopping-index-agentic-commerce-deep-dive/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-c6be9b5234b81604",
+    "title": "第一批消费者，已经开始抵制AI购物",
+    "url": "https://36kr.com/p/3863005381671810",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-3cd3576e6ac48596",
+    "title": "2026“生意管家杯”电商AI挑战赛收官，杭州麦苗斩获银奖",
+    "url": "https://m.jiemian.com/article/14571999.html",
     "status": "evidence_question"
   },
   {
