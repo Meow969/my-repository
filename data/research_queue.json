@@ -1,5 +1,29 @@
 [
   {
+    "id": "radar-e388667fa0e4c6de",
+    "title": "AI Is the New Search. Here’s How Retailers Win the Answer",
+    "url": "https://www.bain.com/insights/ai-is-the-new-search-heres-how-retailers-win-the-answer/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-62037c25113e7d16",
+    "title": "Adyen Taps Klarna to Enable Agentic Commerce Payment Options Beyond Cards",
+    "url": "https://www.pymnts.com/commerce/ecommerce/2026/adyen-taps-klarna-to-enable-agentic-commerce-payment-options-beyond-cards/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-330dedcc75bc1f1f",
+    "title": "AWS Marketplace adds agentic buying while Amazon blocks retail shopping bots",
+    "url": "https://news.lavx.hu/article/aws-marketplace-adds-agentic-buying-while-amazon-blocks-retail-shopping-bots",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-616c1d4469a6ee2f",
+    "title": "Adyen Opens Agentic Checkout to Klarna in First Non-Card Deal",
+    "url": "https://www.financexmagazine.com/post/adyen-opens-agentic-checkout-to-klarna-in-first-non-card-deal",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-0bdcbbc604e9a52a",
     "title": "Swedish agentic commerce startup Wilgot secures $3 million in seed funding round led by Industrifonden",
     "url": "https://retailtechinnovationhub.com/home/2026/11/20/swedish-agentic-commerce-startup-wilgot-secures-3-million-in-seed-funding-round-led-by-industrifonden",
@@ -24,6 +48,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-6abdec9263133643",
+    "title": "Target, Walmart Bet on AI Shopping Tools",
+    "url": "https://wisevoter.com/world/us/2026/11/19/target-walmart-ai-shopping-tools-holiday",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-bf1063bf8b666288",
     "title": "Walmart’s Sparky AI Usage Jumps 129% as Annual Outlook Rises",
     "url": "https://www.unite.ai/walmarts-sparky-ai-usage-jumps-129-as-annual-outlook-rises/",
@@ -36,15 +66,15 @@
     "status": "evidence_question"
   },
   {
-    "id": "radar-6dd7546919a07631",
-    "title": "荣威家越 07 纯电版开启小定：支付 999 元订金抵扣 2000 元购车尾款，11 月 27 日上市",
-    "url": "https://www.ithome.com/1/030/196.htm",
+    "id": "radar-cd7e0de0fa3d32e6",
+    "title": "Market share no longer guarantees a place in AI shopping answers, the new retail battleground--Bain & Company",
+    "url": "https://www.prnewswire.com/news-releases/market-share-no-longer-guarantees-a-place-in-ai-shopping-answers-the-new-retail-battlegroundbain--company-302946221.html",
     "status": "evidence_question"
   },
   {
-    "id": "radar-42a90f07f5eee963",
-    "title": "速卖通双11中国商家狂揽全球订单：品牌成交大涨近50%，美巴创历史新高",
-    "url": "https://www.leiphone.com/category/industrynews/PyCDSvzY37FZLkZA.html",
+    "id": "radar-b8f8745f9c2fc063",
+    "title": "京东AI Agent与华为打通AI生态，用星芒新机AI助手可直接下单京东商品_产经_资讯频道",
+    "url": "https://www.xyxww.com.cn/jhtml/chanj/103923.html",
     "status": "evidence_question"
   },
   {
@@ -87,6 +117,12 @@
     "id": "radar-e8b3256e8d0c62dc",
     "title": "Top Ecommerce Fraud Risks for 2027",
     "url": "https://www.practicalecommerce.com/top-ecommerce-fraud-risks-for-2027",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-079245e81237833a",
+    "title": "电商老将重返创业：AI购物代理重构商品发现、推荐、下单与支付授权",
+    "url": "https://www.huxiu.com/article/4906996.html",
     "status": "evidence_question"
   },
   {
@@ -147,6 +183,12 @@
     "id": "radar-e24476257a16e4dd",
     "title": "Visa Expands Agentic Ready to Help Scale Trusted AI Commerce Globally",
     "url": "https://newshub.medianet.com.au/2026/11/visa-expands-agentic-ready-to-help-scale-trusted-ai-commerce-globally/182460/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-99b6d3ae55813c56",
+    "title": "Visa Expands Agentic Ready to Help Scale Trusted AI Commerce in Asia Pacific",
+    "url": "https://www.tradingview.com/news/prnewswire:8da3e6faf38c9:0-visa-expands-agentic-ready-to-help-scale-trusted-ai-commerce-in-asia-pacific/",
     "status": "evidence_question"
   },
   {
@@ -288,6 +330,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-780b5bfc9ce3244f",
+    "title": "ChatGPT Shopping Risks: Study Flags Fake Retail Sites",
+    "url": "https://www.remio.ai/post/chatgpt-shopping-risks-study-flags-fake-retail-sites",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-04c6428635c5bbbc",
     "title": "存量时代与AI拐点之年，这场大直播呈现了电商消费的趋势与解法",
     "url": "https://finance.sina.cn/stock/ggyj/2026-11-16/detail-iniyxiqw8843586.d.html?vt=4&wm=%2Findex%2Fnav%3Fvt",
@@ -402,6 +450,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-9a680618eb5a1a73",
+    "title": "Amazon Eyes Products It Doesn't Sell in AI Shopping Tussle",
+    "url": "https://www.tradingview.com/news/gurufocus:efb0039fa094b:0-amazon-eyes-products-it-doesn-t-sell-in-ai-shopping-tussle/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-a33d02268b6aeb82",
     "title": "Amazon plans global product database to challenge Google search and rival AI shopping agents",
     "url": "https://www.storyboard18.com/brand-marketing/amazon-plans-global-product-database-to-challenge-google-search-and-rival-ai-shopping-agents-114735.htm",
@@ -501,6 +555,12 @@
     "id": "radar-ffe42b6f5ff90912",
     "title": "AI 能帮你挑商品，但你敢让它替你花钱吗？",
     "url": "https://www.techflowpost.com/article/35343",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-2ef3e42c6844edfd",
+    "title": "2024双11新趋势：商家联手AI做生意 智能赋能电商经营新玩法",
+    "url": "https://eu.36kr.com/zh/p/4067946938274949",
     "status": "evidence_question"
   },
   {
@@ -609,6 +669,12 @@
     "id": "radar-f7ac18de93a4d179",
     "title": "服务供给更丰富、AI购物助手更“聪明”，从“双11”购物车看消费新意",
     "url": "https://pub-zhtb.hizh.cn/a/202611/11/AP6af48f1de4b04a6fc7221ab9.html",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-4768aa24f76fb72d",
+    "title": "Amazon Launches Shopping-Focused AI \"Alexa for Shopping\" in the UK Ahead of Black Friday",
+    "url": "https://finance.biggo.com/news/e14c320b-ffa2-4bb9-8d8e-b90b555ad668",
     "status": "evidence_question"
   },
   {
@@ -810,6 +876,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-2b29f301d534b1ec",
+    "title": "Wayfair Q3 revenue grows at fastest pace since pandemic as AI shopping expands",
+    "url": "https://www.digitalcommerce360.com/article/wayfair-revenue/",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-72e01e1d2e564ab2",
     "title": "Agentic commerce startup firmly announces $15 million Series A led by Squarepoint Capital",
     "url": "https://retailtechinnovationhub.com/home/2026/11/6/agentic-commerce-startup-firmly-announces-15-million-series-a-led-by-squarepoint-capital",
@@ -885,6 +957,12 @@
     "id": "radar-9e877a88817dfc25",
     "title": "Sparky, Walmart’s AI agent, gears up for the holidays",
     "url": "https://massmarketretailers.com/sparky-walmarts-ai-agent-gears-up-for-the-holidays/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-5decb6f3f6afbeaa",
+    "title": "“豆包工作”升级！AI给商家当“生意参谋”",
+    "url": "https://feng.ifeng.com/c/8xqDfgO8nPC",
     "status": "evidence_question"
   },
   {
@@ -1476,6 +1554,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-81d42b2b0f44b9cf",
+    "title": "1688王强：AI正在改写中国工厂的出海链路- 跨境电商",
+    "url": "https://m.ebrun.com/717902.html",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-658666df047f9739",
     "title": "餐饮/零售品牌门店新品上市AI评估模型",
     "url": "https://www.woshipm.com/share/6486768.html",
@@ -1959,6 +2043,12 @@
     "id": "radar-d2a816151770b59f",
     "title": "高管揭示Meta AI订阅变现新路：Muse免广告但企业服务收费，智能体购物抽成",
     "url": "https://wallstreetcn.com/articles/3784364",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-90f239f46d8e9004",
+    "title": "双11 AI暗战：千问、豆包与电商AI的代理层博弈",
+    "url": "https://zgeo.net/news/ai-ecommerce-agents-double11-2026",
     "status": "evidence_question"
   },
   {
@@ -3402,6 +3492,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-92325a6a73a733f4",
+    "title": "AI购物重构零售竞争规则传统品牌优势遭消解- AI",
+    "url": "https://www.ebrun.com/20261008/712719.shtml",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-99c1fe123365daed",
     "title": "Underdog’s AI Assistant Is Free. Your Shopping Pays the Bill",
     "url": "https://businessmodelanalyst.com/underdog-ai-assistant-interchange-fee-business-model/",
@@ -4350,6 +4446,12 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-a6a16d4a2899b429",
+    "title": "Agentic commerce is going to require rethinking consumer payments",
+    "url": "https://www.americanbanker.com/payments/opinion/agentic-commerce-is-going-to-require-rethinking-consumer-payments",
+    "status": "evidence_question"
+  },
+  {
     "id": "radar-c6be9b5234b81604",
     "title": "第一批消费者，已经开始抵制AI购物",
     "url": "https://36kr.com/p/3863005381671810",
@@ -4362,6 +4464,24 @@
     "status": "evidence_question"
   },
   {
+    "id": "radar-a4f4204cfde7bc70",
+    "title": "Coinbase新工具让AI智能体“掌钱”! “AI+电商”从导购工具迈向智能体经济入口",
+    "url": "https://news.futunn.com/post/74499294/coinbase-s-new-tool-empowers-ai-agents-to-manage-funds",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-a356ae8ce3ca6514",
+    "title": "豆包、千问618 购物实测：这届AI还没学会卖货",
+    "url": "https://36kr.com/p/3836741205439624",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-bc92caa5108684f2",
+    "title": "怎么看“小美”牵手“元宝”？AI 时代，入口 ≠ 能力",
+    "url": "https://36kr.com/p/3835873828109184",
+    "status": "evidence_question"
+  },
+  {
     "id": "2026-06-01-36-6-36kr-com-a54dba9717",
     "title": "豆包6月下旬正式付费，并加速打通抖音电商丨独家",
     "url": "https://36kr.com/p/3834544830721671",
@@ -4371,6 +4491,12 @@
     "id": "radar-95aa47e9321019df",
     "title": "The agentic commerce readiness gap: Are you AI-ready?",
     "url": "https://www.mirakl.com/blogs/agentic-commerce/why-retailers-arent-ready-agentic-commerce-and-what-marketplace-leaders-do-differently/",
+    "status": "evidence_question"
+  },
+  {
+    "id": "radar-b4852a2c3781d528",
+    "title": "Dark Patterns: Reclaiming Autonomy in Online Shopping in the Age of AI",
+    "url": "https://link.springer.com/rwe/10.1007/978-3-031-75316-9_108-1?error=cookies_not_supported&code=a76034ec-a7d1-4ce5-9c04-6d6c640b6197",
     "status": "evidence_question"
   },
   {
